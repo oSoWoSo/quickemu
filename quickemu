@@ -414,7 +414,7 @@ function configure_cpu() {
             # A CPU with fma is required for Metal support
             # A CPU with invtsc is required for macOS to boot
             case ${macos_release} in
-                ventura|sonoma)
+                ventura|sonoma|sequoia)
                     # A CPU with AVX2 support is required for >= macOS Ventura
                     if check_cpu_flag sse4_2 && check_cpu_flag avx2; then
                         if [ "${HOST_CPU_VENDOR}" != "GenuineIntel" ] && [ -z "${HYPERVISOR}" ]; then
@@ -766,7 +766,7 @@ function configure_os_quirks() {
             #   * VirtIO Memory Balloning is supported since Big Sur (https://pmhahn.github.io/virtio-balloon/)
             #   * VirtIO RNG is supported since Big Sur, but exposed to all guests by default.
             case ${macos_release} in
-                big-sur|monterey|ventura|sonoma)
+                big-sur|monterey|ventura|sonoma|sequoia)
                     BALLOON="-device virtio-balloon"
                     MAC_DISK_DEV="virtio-blk-pci"
                     NET_DEVICE="virtio-net"
@@ -882,7 +882,12 @@ function configure_storage() {
 function configure_display() {
     # Determine which audio driver use between Pulseaudio or ALSA
     local AUDIO_DRIVER="pa"
-    if ! command -v pacmd >/dev/null 2>&1 ; then
+    if pidof pipewire >/dev/null 2>&1; then
+        # QEMU's pipewire audio backend was added in version 8.1
+        if [ "${QEMU_VER_SHORT}" -ge 81 ]; then
+            AUDIO_DRIVER="pipewire"
+        fi
+    elif ! pidof pulseaudio >/dev/null 2>&1; then
         AUDIO_DRIVER="alsa"
     fi
 
@@ -1182,6 +1187,8 @@ function vm_boot() {
     # Set the hostname of the VM
     NET="user,hostname=${VMNAME}"
 
+    echo "#!/usr/bin/env bash" > "${VMDIR}/${VMNAME}.sh"
+
     configure_cpu
     configure_ram
     configure_bios
@@ -1193,8 +1200,6 @@ function vm_boot() {
     configure_file_sharing
     configure_usb
     configure_tpm
-
-    echo "#!/usr/bin/env bash" > "${VMDIR}/${VMNAME}.sh"
 
     # Changing process name is not supported on macOS
     if [ "${OS_KERNEL}" == "Linux" ]; then
