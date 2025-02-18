@@ -1465,9 +1465,6 @@ function make_vm_config() {
         openbsd)
             GUEST="openbsd"
             IMAGE_TYPE="iso";;
-        openindiana)
-            GUEST="solaris"
-            IMAGE_TYPE="iso";;
         *)
             GUEST="linux"
             IMAGE_TYPE="iso";;
@@ -1492,9 +1489,6 @@ EOF
         # OS specific tweaks
         case ${OS} in
             alma|athenaos|centos-stream|endless|garuda|gentoo|kali|nixos|oraclelinux|popos|rockylinux)
-                echo "disk_size=\"32G\"" >> "${CONF_FILE}";;
-            openindiana)
-                echo "boot=\"legacy\"" >> "${CONF_FILE}"
                 echo "disk_size=\"32G\"" >> "${CONF_FILE}";;
             dragonflybsd|haiku|openbsd|netbsd|slackware|slax|tails|tinycore)
                 echo "boot=\"legacy\"" >> "${CONF_FILE}";;
