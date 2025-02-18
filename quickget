@@ -1482,8 +1482,6 @@ EOF
 
         # OS specific tweaks
         case ${OS} in
-            dragonflybsd|haiku|openbsd|netbsd|slackware|slax|tails|tinycore)
-                echo "boot=\"legacy\"" >> "${CONF_FILE}";;
         esac
 
         if [ "${OS}" == "ubuntu" ] && [[ ${RELEASE} == *"daily"*  ]]; then
