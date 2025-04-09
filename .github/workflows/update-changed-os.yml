@@ -1,13 +1,18 @@
 name: "update changed OS"
 
 on:
-  schedule:
-    - cron: '0/180 * * * *'
+  #schedule:
+    #- cron: '0/180 * * * *'
   push:
-    branches: [ "master-patched" ]
-    paths: 'actions/**'
+    branches:
+      - master-patched
+    paths:
+      - actions/**
   pull_request:
-    branches: [ "master-patched" ]
+    branches:
+      - master-patched
+    paths:
+      - actions/**
   workflow_dispatch:
 
 jobs:
