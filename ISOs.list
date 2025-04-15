@@ -87,6 +87,7 @@ t2              https://dl.t2sde.org/binary/2025/t2-25.4-x86-64-base-wayland-gli
 tails           https://download.tails.net/tails/stable/tails-amd64-6.13/tails-amd64-6.13.iso
 tails           https://download.tails.net/tails/stable/tails-amd64-6.14.1/tails-amd64-6.14.1.iso
 truenas         https://download.sys.truenas.net/TrueNAS-SCALE-Fangtooth-RC/25.04-RC.1/TrueNAS-SCALE-25.04-RC.1.iso
+tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202504150920.iso
 ubuntu          https://releases.ubuntu.com/25.04/ubuntu-25.04-beta-desktop-amd64.iso
 ubuntubudgie    https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.04/beta/ubuntu-budgie-25.04-beta-desktop-amd64.iso
 ubuntucinnamon  https://cdimage.ubuntu.com/ubuntucinnamon/releases/25.04/beta/ubuntucinnamon-25.04-beta-desktop-amd64.iso
