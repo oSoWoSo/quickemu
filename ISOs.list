@@ -28,6 +28,7 @@ drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live2
 dynfi           https://dynfi.com/files/firewall/dynfi_installer_vga_4.04-20250305-075641.iso.bz2
 dynfi           https://dynfi.com/files/firewall/dynfi_installer_vga_4.04-20250401-105254.iso.bz2
 edubuntu        https://cdimage.ubuntu.com/edubuntu/releases/25.04/beta/edubuntu-25.04-beta-desktop-amd64.iso
+edubuntu        https://cdimages.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso
 elementary      https://nyc3.dl.elementary.io/download/MTc0MjM0NTQ2Ng==/elementaryos-8.0-stable.20250314rc.iso
 elive           https://www.elivecd.org/downloads/development/3.8.48/6a90c38ecd/elive_3.8.48_beta_hybrid_amd64.iso
 emmabuntus      https://downloads.sourceforge.net/emmabuntus/emmabuntus-de5-amd64-12.10-1.04.iso
@@ -51,6 +52,7 @@ kdeneon         https://files.kde.org/neon/images/user/20250320-1319/neon-user-2
 kdeneon         https://files.kde.org/neon/images/user/20250327-1319/neon-user-20250327-1319.iso
 kdeneon         https://files.kde.org/neon/images/user/20250410-1320/neon-user-20250410-1320.iso
 kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.04/beta/kubuntu-25.04-beta-desktop-amd64.iso
+kubuntu         https://cdimages.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso
 kumander        https://dl.kumander.org/kumander-linux-2.0-live-amd64.iso
 lernstick       https://releases.lernstick.ch/lernstick12/lernstick_debian12_edu-mini_2025-04-06.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.03.1-noble-lts.iso
@@ -59,6 +61,7 @@ linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04.
 lite            https://downloads.sourceforge.net/linux-lite/linux-lite-7.4-64bit.iso
 liveraizo       https://downloads.sourceforge.net/live-raizo/Live-Raizo-v16.25.04.12i.iso
 lubuntu         https://cdimage.ubuntu.com/lubuntu/releases/25.04/beta/lubuntu-25.04-beta-desktop-amd64.iso
+lubuntu         https://cdimages.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso
 mabox           https://downloads.sourceforge.net/mabox-linux/mabox-linux-25.03-Istredd-250331-linux612.iso
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-kde-25.0.0-250414-linux612.iso
 max             https://ftp.rediris.es/mirror/MaX-Linux/MaXdesktop/ultima-version/MAX-12.0-FINAL-live-amd64-20250307_1411.iso
@@ -94,12 +97,19 @@ truenas         https://download.sys.truenas.net/TrueNAS-Fangtooth/25.04.0/TrueN
 truenas         https://download.sys.truenas.net/TrueNAS-SCALE-Fangtooth-RC/25.04-RC.1/TrueNAS-SCALE-25.04-RC.1.iso
 tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202504150920.iso
 ubuntu          https://releases.ubuntu.com/25.04/ubuntu-25.04-beta-desktop-amd64.iso
+ubuntu          https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
 ubuntubudgie    https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.04/beta/ubuntu-budgie-25.04-beta-desktop-amd64.iso
+ubuntubudgie    https://cdimages.ubuntu.com/ubuntu-budgie/releases/25.04/release/ubuntu-budgie-25.04-desktop-amd64.iso
 ubuntucinnamon  https://cdimage.ubuntu.com/ubuntucinnamon/releases/25.04/beta/ubuntucinnamon-25.04-beta-desktop-amd64.iso
+ubuntucinnamon  https://cdimages.ubuntu.com/ubuntucinnamon/releases/25.04/release/ubuntucinnamon-25.04-desktop-amd64.iso
 ubuntukylin     https://cdimage.ubuntu.com/ubuntukylin/releases/25.04/beta/ubuntukylin-25.04-beta-desktop-amd64.iso
+ubuntukylin     https://cdimages.ubuntu.com/ubuntukylin/releases/25.04/release/ubuntukylin-25.04-desktop-amd64.iso
 ubuntumate      https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/beta/ubuntu-mate-25.04-beta-desktop-amd64.iso
+ubuntumate      https://cdimages.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso
 ubuntustudio    https://cdimage.ubuntu.com/ubuntustudio/releases/25.04/beta/ubuntustudio-25.04-beta-desktop-amd64.iso
+ubuntustudio    https://cdimages.ubuntu.com/ubuntustudio/releases/25.04/release/ubuntustudio-25.04-desktop-amd64.iso
 ubuntuunity     https://cdimage.ubuntu.com/ubuntu-unity/releases/25.04/beta/ubuntu-unity-25.04-beta-desktop-amd64.iso
+ubuntuunity     https://cdimages.ubuntu.com/ubuntu-unity/releases/25.04/release/ubuntu-unity-25.04-desktop-amd64.iso
 ultimate        https://downloads.sourceforge.net/ultimateedition/ultimate-arch-lite-2025.04.08-x86_64-xfce.iso
 ultramarine     https://images.fyralabs.com/isos/ultramarine/41/ultramarine-flagship-41-live-anaconda-x86_64.iso
 univention      https://updates.software-univention.de/download/ucs-cds/ucs5.2-1/UCS_5.2-1-amd64.iso
@@ -107,4 +117,5 @@ voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.04-alph
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.04-beta-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.04-beta2-amd64.iso
 xubuntu         https://cdimage.ubuntu.com/xubuntu/releases/25.04/beta/xubuntu-25.04-beta-desktop-amd64.iso
+xubuntu         https://cdimages.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso
 zorin           https://mirror.webworld.ie/zorinos/17/Zorin-OS-17.3-Core-64-bit.iso
