@@ -1,6 +1,7 @@
 ac              https://downloads.sourceforge.net/accessible-coconut/Accessible-Coconut-24.04-beta-desktop-amd64.iso
 alma            https://repo.almalinux.org/almalinux/9.6-beta/isos/x86_64/AlmaLinux-9.6-beta-1-x86_64-dvd.iso
 archbang        https://downloads.sourceforge.net/archbang/archbang-0904-x86_64.iso
+archcraft       https://downloads.sourceforge.net/archcraft/archcraft-2025.04.24-x86_64.iso
 arco            https://downloads.sourceforge.net/arconetpro/arcopro-v25.04.01-x86_64.iso
 arco            https://downloads.sourceforge.net/arconetpro/arcopro-v25.05.01-x86_64.iso
 artix           https://download.artixlinux.org/iso/artix-base-openrc-20250303-x86_64.iso
@@ -21,6 +22,7 @@ centos          https://ftp.udx.icscoe.jp/Linux/CentOS-stream/10-stream/BaseOS/x
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250414.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250422.0-x86_64-dvd1.iso
 chimera         https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso
+clear           https://cdn.download.clearlinux.org/releases/43300/clear/clear-43300-live-desktop.iso
 clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2.1-9-amd64.iso
 crux            https://git.crux.nu/system/iso/releases/download/3.8-rc5/crux-3.8-rc5.iso
 crux            https://git.crux.nu/system/iso/releases/download/3.8/crux-3.8.iso
