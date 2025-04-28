@@ -78,6 +78,7 @@ max             https://ftp.rediris.es/mirror/MaX-Linux/MaXdesktop/ultima-versio
 midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/3.2.3/MidnightBSD-3.2.3--amd64-disc1.iso
 mx              https://downloads.sourceforge.net/mx-linux/MX-23.6_x64.iso
 nitrux          https://downloads.sourceforge.net/nitruxos/nitrux-nx-desktop-plasma-cf782a84-amd64.iso
+obarun          https://cloud.server.obarun.org/iso/2025.04.28/obarun-JWM-2025.04.28-x86_64.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250312.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250320.x86_64.iso
