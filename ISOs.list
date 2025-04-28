@@ -78,6 +78,7 @@ max             https://ftp.rediris.es/mirror/MaX-Linux/MaXdesktop/ultima-versio
 midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/3.2.3/MidnightBSD-3.2.3--amd64-disc1.iso
 mx              https://downloads.sourceforge.net/mx-linux/MX-23.6_x64.iso
 nitrux          https://downloads.sourceforge.net/nitruxos/nitrux-nx-desktop-plasma-cf782a84-amd64.iso
+openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250312.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250320.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250420.x86_64.iso
@@ -92,6 +93,7 @@ proxmox         https://enterprise.proxmox.com/iso/proxmox-backup-server_3.4-1.i
 proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-5.8-x64.r1.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.03.04-x86_64.iso
+rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.04.26-x86_64.iso
 regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_en-US.x86_64-25.0.0.iso
 regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_pt-BR.x86_64-25.0.0.iso
 rescuezilla     https://github.com/rescuezilla/rescuezilla/releases/download/2.6/rescuezilla-2.6-64bit.oracular.iso
