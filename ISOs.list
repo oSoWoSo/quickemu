@@ -23,6 +23,7 @@ calculate       https://mirror.calculate-linux.org/release/cld-20250318-x86_64.i
 centos          https://ftp.udx.icscoe.jp/Linux/CentOS-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250303.3-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250414.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250422.0-x86_64-dvd1.iso
+centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250429.0-x86_64-dvd1.iso
 chimera         https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso
 clear           https://cdn.download.clearlinux.org/releases/43300/clear/clear-43300-live-desktop.iso
 clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2.1-9-amd64.iso
@@ -69,6 +70,7 @@ linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.03.
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04-noble-lts.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04.1-noble-lts.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04.2-noble-lts.iso
+linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04.3-noble-lts.iso
 lite            https://downloads.sourceforge.net/linux-lite/linux-lite-7.4-64bit.iso
 liveraizo       https://downloads.sourceforge.net/live-raizo/Live-Raizo-v16.25.04.12i.iso
 lubuntu         https://cdimage.ubuntu.com/lubuntu/releases/25.04/beta/lubuntu-25.04-beta-desktop-amd64.iso
