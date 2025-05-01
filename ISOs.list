@@ -4,6 +4,7 @@ alma            https://repo.almalinux.org/almalinux/9.6-beta/isos/x86_64/AlmaLi
 alt             https://mirror.yandex.ru/altlinux/p11/images/workstation/x86_64/alt-workstation-11.0-x86_64.iso
 andruin         https://download.anduinos.com/1.3/1.3.0/AnduinOS-1.3.0-en_US.iso
 anduin          https://download.anduinos.com/1.3/1.3.0/AnduinOS-1.3.0-en_US.iso
+arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.05.01-x86_64.iso
 archbang        https://downloads.sourceforge.net/archbang/archbang-0904-x86_64.iso
 archcraft       https://downloads.sourceforge.net/archcraft/archcraft-2025.04.24-x86_64.iso
 arco            https://downloads.sourceforge.net/arconetpro/arcopro-v25.04.01-x86_64.iso
@@ -35,6 +36,7 @@ crux            https://git.crux.nu/system/iso/releases/download/3.8/crux-3.8.is
 debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.10.0-amd64-DVD-1.iso
 deepin          http://ftp.snt.utwente.nl/pub/os/linux/deepin-cd/25-alpha/amd64/deepin-desktop-community-25-alpha-amd64.iso
 deepin          https://ftp.gwdg.de/pub/linux/linuxdeepin/releases/23.1/amd64/deepin-desktop-community-23.1-amd64.iso
+dragonflybsd    https://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.1_REL.iso
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R1.iso
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R2.iso
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.04-amd64.iso
@@ -66,6 +68,7 @@ kdeneon         https://files.kde.org/neon/images/user/20250314-2153/neon-user-2
 kdeneon         https://files.kde.org/neon/images/user/20250320-1319/neon-user-20250320-1319.iso
 kdeneon         https://files.kde.org/neon/images/user/20250327-1319/neon-user-20250327-1319.iso
 kdeneon         https://files.kde.org/neon/images/user/20250410-1320/neon-user-20250410-1320.iso
+kdeneon         https://files.kde.org/neon/images/user/20250501-1319/neon-user-20250501-1319.iso
 kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.04/beta/kubuntu-25.04-beta-desktop-amd64.iso
 kubuntu         https://cdimages.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso
 kumander        https://dl.kumander.org/kumander-linux-2.0-live-amd64.iso
