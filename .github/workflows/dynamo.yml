@@ -1,0 +1,118 @@
+name: "Test all 💿️"
+
+on:
+  workflow_dispatch:
+
+  #push:
+    #branches:
+      #- '**'
+    #paths:
+      #- actions/**
+
+  #pull_request:
+    #branches:
+      #- '**'
+    #paths:
+      #- actions/**
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate-matrix:
+    name: "💿️ Matrix"
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v4
+
+      - name: "💿️ Matrix"
+        id: set-matrix
+        run: |
+          FILES=$(find actions/ -maxdepth 1 -type f -printf "%f\n" | sort)
+          MATRIX="{\"include\": ["
+          for file in $FILES; do
+            MATRIX+="{\"file\": \"$file\"},"
+          done
+          MATRIX="${MATRIX%,}]}"
+          echo "Generated Matrix: $MATRIX"
+          echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+
+      - name: "Install dependencies 📦️"
+        run: |
+          sudo apt-get -y update
+          sudo apt-get -y install curl jq
+
+  run-actions:
+    name: "💿️"
+    needs: generate-matrix
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v4
+
+      - name: "Checkout 👟 ${{ matrix.file }}"
+        run: |
+          mkdir -p results
+          #./quickget --check ${{ matrix.file }} | tee results/${{ matrix.file }}.txt
+          chmod a+x action
+          ./action ${{ matrix.file }} | tee results/${{ matrix.file }}.txt
+          git add public/${{ matrix.file }}
+          #if grep -vqE '^(PASS:|SKIP:)' results/${{ matrix.file }}.txt; then
+            #grep -vE '^(PASS:|SKIP:)' results/${{ matrix.file }}.txt >> $GITHUB_STEP_SUMMARY
+            #exit 1
+          #fi
+
+      - name: "Upload Results ⬆️"
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.file }}.txt
+          path: results/${{ matrix.file }}.txt
+
+  end:
+    name: "🏁 Finish"
+    needs: run-actions
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v4
+
+      - name: "Download results ⬇️"
+        uses: actions/download-artifact@v4
+        with:
+          path: results
+          merge-multiple: true
+
+      - name: "Display and push results 📊"
+        run: |
+          rm -f result
+          for file in results/*.txt; do
+            cat "$file" >> result
+            rm "$file"
+          done
+          sort -u < TODO/all | tee TODO/all
+          git config --global user.name "web-flow"
+          git config --global user.email "noreply@github.com"
+          git status
+          git add . || echo "add . failed"
+          sort -u < TODO/all | tee TODO/all
+          git add TODO/all || echo "add TODO/all failed"
+          git rm -f --ignore-unmatch public/tmp_\*
+          git add public || echo "add public failed"
+          git add --all || echo "add --all failed"
+          git commit -m "update supported" || echo "commit failed"
+          git push || echo "push failed"
+          git status
+          #PASSED=$(grep -c '^PASS:' result | wc -l)
+          #FAILED=$(grep -c '^FAIL:' result | wc -l 2>/dev/null | echo '0')
+          #SKIPPED=$(grep -c '^SKIP:' result | wc -l)
+          #echo "$PASSED/$FAILED 🏁 / 💀" >> $GITHUB_STEP_SUMMARY
+          #echo "$SKIPPED Skipped" >> $GITHUB_STEP_SUMMARY

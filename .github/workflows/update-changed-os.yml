@@ -1,0 +1,60 @@
+name: "update changed OS"
+
+on:
+  #schedule:
+    #- cron: '0/180 * * * *'
+  push:
+    branches:
+      - master-patched
+    paths:
+      - actions/**
+  pull_request:
+    branches:
+      - master-patched
+    paths:
+      - actions/**
+  workflow_dispatch:
+    inputs:
+      what_test:
+        description: "test OS: (space between)"
+        required: false
+        default: ""
+        type: string
+
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: '10'
+
+      - name: fill
+        run: |
+          git status
+          chmod a+x action
+          if [ ! -z "${{ github.event.inputs.what_test }}" ]; then
+            changed_os="${{ github.event.inputs.what_test }}"
+          else
+            changed_os=$(git diff --name-only HEAD^ HEAD | grep '^actions/')
+          fi
+          for os in ${changed_os}; do
+            ./action $os | tee /dev/null
+          done
+          sort -u < TODO/all | tee TODO/all
+          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.email "noreply@github.com"
+
+      - name: push
+        run: |
+          git status
+          git add . || echo "add . failed"
+          git add TODO/all || echo "add TODO/all failed"
+          git add actions || echo "add actions failed"
+          git rm -f public/tmp_\*
+          git add public || echo "add public failed"
+          git add --all || echo "add --all failed"
+          git commit -m "update supported" || echo "commit failed"
+          git push || echo "push failed"
+          git status
