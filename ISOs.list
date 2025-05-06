@@ -15,6 +15,8 @@ artix           https://download.artixlinux.org/iso/artix-cinnamon-openrc-202504
 artix           https://download.artixlinux.org/iso/artix-xfce-s6-20250310-x86_64.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.3.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.4.iso
+austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.6.iso
+biglinux        https://iso.biglinux.com.br/biglinux_2025-05-04_k612.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.13.6-3-2025.03.11-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.13.8-1-2025.03.24-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.1-1-2025.04.09-x86_64.iso
@@ -87,6 +89,7 @@ lubuntu         https://cdimages.ubuntu.com/lubuntu/releases/25.04/release/lubun
 mabox           https://downloads.sourceforge.net/mabox-linux/mabox-linux-25.03-Istredd-250331-linux612.iso
 mabox           https://downloads.sourceforge.net/mabox-linux/mabox-linux-25.04-Istredd-250430-linux612.iso
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-kde-25.0.0-250414-linux612.iso
+manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-kde-25.0.1-250506-linux612.iso
 max             https://ftp.rediris.es/mirror/MaX-Linux/MaXdesktop/ultima-version/MAX-12.0-FINAL-live-amd64-20250307_1411.iso
 midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/3.2.3/MidnightBSD-3.2.3--amd64-disc1.iso
 mx              https://downloads.sourceforge.net/mx-linux/MX-23.6_x64.iso
@@ -147,6 +150,7 @@ ultimate        https://downloads.sourceforge.net/ultimate-arch-developer-2025.0
 ultimate        https://downloads.sourceforge.net/ultimateedition/ultimate-arch-lite-2025.04.08-x86_64-xfce.iso
 ultramarine     https://images.fyralabs.com/isos/ultramarine/41/ultramarine-flagship-41-live-anaconda-x86_64.iso
 univention      https://updates.software-univention.de/download/ucs-cds/ucs5.2-1/UCS_5.2-1-amd64.iso
+voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-12.10-debian-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.04-alpha6-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.04-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.04-beta-amd64.iso
