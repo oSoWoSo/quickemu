@@ -56,6 +56,7 @@ elementary      https://nyc3.dl.elementary.io/download/MTc0MjM0NTQ2Ng==/elementa
 elive           https://www.elivecd.org/downloads/development/3.8.48/6a90c38ecd/elive_3.8.48_beta_hybrid_amd64.iso
 emmabuntus      https://downloads.sourceforge.net/emmabuntus/emmabuntus-de5-amd64-12.10-1.04.iso
 endeavour       https://mirrors.gigenet.com/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso
+exe             https://downloads.sourceforge.net/exegnulinux/exegnu64_daedalus-20250508.iso
 extix           https://downloads.sourceforge.net/extix/extix-25.3-64bit-kde-waydroid-2910mb-250305.iso
 fedora          https://mirror.us.leaseweb.net/fedora/linux/releases/test/42_Beta/Workstation/x86_64/iso/Fedora-Workstation-Live-42_Beta-1.4.x86_64.iso
 fedora          https://mirrors.xmission.com/fedora/linux/releases/42/Workstation/x86_64/iso/Fedora-Workstation-Live-42-1.1.x86_64.iso
@@ -77,6 +78,7 @@ kdeneon         https://files.kde.org/neon/images/user/20250320-1319/neon-user-2
 kdeneon         https://files.kde.org/neon/images/user/20250327-1319/neon-user-20250327-1319.iso
 kdeneon         https://files.kde.org/neon/images/user/20250410-1320/neon-user-20250410-1320.iso
 kdeneon         https://files.kde.org/neon/images/user/20250501-1319/neon-user-20250501-1319.iso
+kdeneon         https://files.kde.org/neon/images/user/20250508-1319/neon-user-20250508-1319.iso
 kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.04/beta/kubuntu-25.04-beta-desktop-amd64.iso
 kubuntu         https://cdimages.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso
 kumander        https://dl.kumander.org/kumander-linux-2.0-live-amd64.iso
