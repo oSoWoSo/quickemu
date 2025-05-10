@@ -34,6 +34,7 @@ centos          https://ftp.udx.icscoe.jp/Linux/CentOS-stream/10-stream/BaseOS/x
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250414.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250422.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250429.0-x86_64-dvd1.iso
+centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250506.2-x86_64-dvd1.iso
 chimera         https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso
 clear           https://cdn.download.clearlinux.org/releases/43300/clear/clear-43300-live-desktop.iso
 clear           https://cdn.download.clearlinux.org/releases/43400/clear/clear-43400-live-desktop.iso
@@ -114,6 +115,7 @@ opensuse        https://download.opensuse.org/distribution/leap/16.0/offline/Lea
 pardus          https://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.4-GNOME-amd64.iso
 peropesis       https://peropesis.org/peropesis/Peropesis-2.9-live.iso
 pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.05.05-1.iso
+pisi            https://downloads.sourceforge.net/pisilinux/Pisi-Linux-2.4.1-KDE6-x86_64.iso
 plamo           http://www.ring.gr.jp/pub/linux/Plamo/plamo-8.2_x86_64_usb.iso
 plop            https://download.plop.at/ploplinux/25.2/live/ploplinux-25.2-x86_64.iso
 popos           https://iso.pop-os.org/24.04/amd64/intel/17/pop-os_24.04_amd64_intel_17.iso
