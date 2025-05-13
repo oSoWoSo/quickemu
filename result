@@ -265,7 +265,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://cfhcable.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
+archcraft latest:                    https://netactuate.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1351,9 +1351,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzE1NTk1Nwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzE1NTk1Nwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzE1NTk1Nwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzE2MDQ4NAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzE2MDQ4NAo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzE2MDQ4NAo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -2524,7 +2524,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://psychz.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
+maboxlinux latest:                   https://versaweb.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2718,10 +2718,10 @@ mageia
 
 mageia 9 Plasma:                     https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
 mageia 9 GNOME:                      https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso
-mageia 9 Xfce:                       https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso
-mageia 8 Plasma:                     https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-Plasma-x86_64/Mageia-8-Live-Plasma-x86_64.iso
+mageia 9 Xfce:                       https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso
+mageia 8 Plasma:                     https://mirror.math.princeton.edu/pub/mageia/iso/8/Mageia-8-Live-Plasma-x86_64/Mageia-8-Live-Plasma-x86_64.iso
 mageia 8 GNOME:                      https://mirror.math.princeton.edu/pub/mageia/iso/8/Mageia-8-Live-GNOME-x86_64/Mageia-8-Live-GNOME-x86_64.iso
-mageia 8 Xfce:                       https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-Xfce-x86_64/Mageia-8-Live-Xfce-x86_64.iso
+mageia 8 Xfce:                       https://mirror.math.princeton.edu/pub/mageia/iso/8/Mageia-8-Live-Xfce-x86_64/Mageia-8-Live-Xfce-x86_64.iso
 
 # Template file for 'mageia'
 OSNAME="mageia"
@@ -3631,7 +3631,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -4057,6 +4057,12 @@ function get_() {
 
 sparkylinux
 
+sparkylinux 7.7 minimalcli:          https://sourceforge.net/projects/sparkylinux/files/cli/sparkylinux-7.7-x86_64-minimalcli.iso
+sparkylinux 7.7 minimalgui:          https://sourceforge.net/projects/sparkylinux/files/base/sparkylinux-7.7-x86_64-minimalgui.iso
+sparkylinux 7.7 mate:                https://sourceforge.net/projects/sparkylinux/files/mate/sparkylinux-7.7-x86_64-mate.iso
+sparkylinux 7.7 lxqt:                https://sourceforge.net/projects/sparkylinux/files/lxqt/sparkylinux-7.7-x86_64-lxqt.iso
+sparkylinux 7.7 kde:                 https://sourceforge.net/projects/sparkylinux/files/kde/sparkylinux-7.7-x86_64-kde.iso
+sparkylinux 7.7 xfce:                https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-7.7-x86_64-xfce.iso
 
 # Template file for 'sparkylinux'
 OSNAME="sparkylinux"
@@ -4067,21 +4073,22 @@ HOMEPAGE="https://sparkylinux.org"
 CREDENTIALS="-"
 
 
-RELEASES=""
-EDITIONS=""
+RELEASES="7.7"
+EDITIONS="xfce minimalgui minimalcli mate lxqt kde"
 
 function releases_() {
     #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://sparkylinux.org/download/stable/" |  grep -E -o "sparkylinux-.*\.iso\"" | cut -d'-' -f2 | sort -ru)
+    echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep "iso/download" | cut -d'-' -f3 | sort -ru)
 }
 
 function editions_() {
+    echo minimalcli minimalgui mate lxqt kde xfce
     #shellcheck disable=SC2046,SC2005
-    if [ -z "${RELEASE}" ]; then
-        echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep -E -o "sparkylinux-.*\.iso\"" | cut -d'-' -f4 | cut -d'.' -f1 | sort -u)
-    else
-        echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep -E -o "sparkylinux-${RELEASE}-.*\.iso\"" | cut -d'-' -f4 | cut -d'.' -f1 | sort -u)
-    fi
+#    if [ -z "${RELEASE}" ]; then
+#        echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep "iso/download" | cut -d'-' -f5 | cut -d'.' -f1 | sort -u)
+#    else
+#        echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep "sparkylinux-${RELEASE}-" | cut -d'-' -f5 | cut -d'.' -f1 | sort -u)
+#    fi
 }
 
 function get_() {
