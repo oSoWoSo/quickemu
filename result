@@ -18,14 +18,6 @@ CREDENTIALS="anon:voidlinux,root:voidlinux"
 RELEASES="latest"
 EDITIONS="xfce4 plasma lxqt-kwin gnome cinnamon"
 
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo plasma xfce4 cinnamon lxqt-kwin gnome
-}
-
 function get_() {
     local REL=$(echo "${EDITION}" | tr '[:lower:]' '[:upper:]')
     local ISOS=$(web_pipe "https://sourceforge.net/projects/agarimos/rss?path=/" | grep 'title><!\[CDATA' | cut -d'[' -f3 | cut -d']' -f1 | grep '.iso')
@@ -55,14 +47,6 @@ CREDENTIALS="-"
 
 RELEASES="9 8"
 EDITIONS="minimal dvd boot"
-
-function releases_() {
-    echo 9 8
-}
-
-function editions_() {
-    echo boot minimal dvd
-}
 
 function get_() {
     local HASH=""
@@ -101,17 +85,6 @@ CREDENTIALS="-"
 RELEASES="v3.21 v3.20 v3.19 v3.18 v3.17 v3.16 v3.15 v3.14 v3.13"
 
 
-function releases_() {
-    local REL=""
-    local RELS=""
-    RELS=$(web_pipe "https://dl-cdn.alpinelinux.org/alpine/" | grep '"v' | cut -d'"' -f2 | tr -d / | sort -Vr | head -n 10)
-    for REL in ${RELS}; do
-        if web_check "https://dl-cdn.alpinelinux.org/alpine/${REL}/releases/x86_64/"; then
-            echo -n "${REL} "
-        fi
-    done
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -144,14 +117,6 @@ CREDENTIALS="-"
 
 RELEASES="9.0 8.1 7.1"
 EDITIONS="x86_64 x86"
-
-function releases_() {
-    echo 9.0 8.1 7.1
-}
-
-function editions_() {
-    echo x86_64 x86
-}
 
 function get_() {
     local HASH=""
@@ -229,14 +194,6 @@ CREDENTIALS="-"
 RELEASES="23.2 23.1 23 22 21"
 EDITIONS="net-sysv net-runit full-sysv full-runit core-sysv core-runit base-sysv base-runit"
 
-function releases_() {
-    echo 23.2 23.1 23 22 21
-}
-
-function editions_() {
-    echo net-sysv core-sysv base-sysv full-sysv net-runit core-runit base-runit full-runit
-}
-
 function get_() {
     local HASH=""
     local ISO="antiX-${RELEASE}"
@@ -265,7 +222,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://netactuate.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
+archcraft latest:                    https://cytranet-dal.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -278,10 +235,6 @@ CREDENTIALS="-"
 
 RELEASES="latest"
 
-
-function releases_() {
-    echo latest
-}
 
 function get_() {
     local HASH=""
@@ -307,10 +260,6 @@ CREDENTIALS="-"
 
 RELEASES="latest"
 
-
-function releases_() {
-    echo latest
-}
 
 function get_() {
     local HASH=""
@@ -351,15 +300,6 @@ CREDENTIALS="-"
 
 RELEASES="v25.05.01 v25.04.01 v25.03.05 v25.02.04 v25.01.05"
 EDITIONS="pro plasma net"
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://mirror.accum.se/mirror/arcolinux.info/iso/" | grep -o -E -e "v[[:digit:]]{2}.[[:digit:]]{2}.[[:digit:]]{2}" | sort -ru | head -n 5)
-}
-
-function editions_() {
-    echo net plasma pro
-}
 
 function get_() {
     local HASH=""
@@ -417,16 +357,6 @@ CREDENTIALS="-"
 RELEASES="20250407"
 EDITIONS="xfce-s6 xfce-runit xfce-openrc xfce-dinit plasma-s6 plasma-runit plasma-openrc plasma-dinit mate-s6 mate-runit mate-openrc mate-dinit lxqt-s6 lxqt-runit lxqt-openrc lxqt-dinit lxde-s6 lxde-runit lxde-openrc lxde-dinit community-qt community-gtk cinnamon-s6 cinnamon-runit cinnamon-openrc cinnamon-dinit base-s6 base-runit base-openrc base-dinit"
 
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://mirror1.artixlinux.org/iso/" | grep "artix-" | cut -d'"' -f2 | grep -v sig | cut -d'-' -f 4 | sort -ru | tail -n 1)
-}
-
-function editions_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://mirror1.artixlinux.org/iso/" | grep "artix-" | cut -d'"' -f2 | grep -v sig | cut -d'-' -f2-3 | sort -u)
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -453,11 +383,6 @@ CREDENTIALS="-"
 
 RELEASES="v23.11 v23.06.23"
 
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://api.github.com/repos/Athena-OS/athena/releases" | grep 'download_url' | grep rolling | cut -d'/' -f8 | sort -u)
-}
 
 function get_() {
     local HASH=""
@@ -491,11 +416,6 @@ GUEST="batocera"
 IMAGE_TYPE="img"
 RELEASES="41 40 39 38 37"
 
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://mirrors.o2switch.fr/batocera/x86_64/stable/" | grep ^\<a | cut -d'"' -f2 | cut -d '/' -f1 | grep -v '\.' | sort -ru | tail -n +2 | head -n 5)
-}
 
 function get_() {
     local HASH=""
@@ -534,14 +454,6 @@ CREDENTIALS="-"
 RELEASES="latest"
 EDITIONS="kde gnome"
 
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo gnome kde
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -575,16 +487,6 @@ CREDENTIALS="-"
 RELEASES="2025-05-12"
 EDITIONS="k614"
 
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://iso.biglinux.com.br" | grep -Eo 'biglinux_[0-9]{4}(-[0-9]{2}){2}_k[0-9]{2,3}.iso' | cut -d'_' -f2 | sort -ru | head -n 1)
-}
-
-function editions_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://iso.biglinux.com.br" | grep -Eo "biglinux_$(releases_)_k[0-9]{2,3}.iso" | cut -d'_' -f3 | cut -d'.' -f1 | sort -Vru)
-}
-
 function get_() {
     local HASH=""
     local ISO="biglinux_${RELEASE}_${EDITION}.iso"
@@ -609,11 +511,6 @@ CREDENTIALS="-"
 
 RELEASES="latest"
 
-
-function releases_() {
-    # there is now just a single latest iso
-    echo latest
-}
 
 function get_() {
     local HASH=$(web_pipe "https://git.blendos.co/api/v4/projects/32/jobs/artifacts/main/raw/checksum?job=build-job | cut -d' ' -f1")
@@ -641,14 +538,6 @@ CREDENTIALS="-"
 
 RELEASES="7.0.0"
 EDITIONS="standard s76 hwe apppack"
-
-function releases_() {
-    echo 7.0.0
-}
-
-function editions_() {
-    echo standard hwe s76 apppack
-}
 
 function get_() {
     local HASH=""
@@ -679,10 +568,6 @@ CREDENTIALS="-"
 RELEASES="boron"
 
 
-function releases_() {
-    echo boron
-}
-
 function get_() {
     local HASH=""
     local ISO="boron-1-240123-amd64.hybrid.iso"
@@ -708,16 +593,6 @@ CREDENTIALS="-"
 
 RELEASES="latest"
 EDITIONS="handheld desktop"
-
-function releases_() {
-    # new cdn setup 10/2024
-    echo latest
-}
-
-function editions_() {
-    # desktop version now installs different desktop environments
-    echo desktop handheld
-}
 
 function get_() {
     local HASH=""
@@ -746,15 +621,6 @@ CREDENTIALS="-"
 
 RELEASES="9 10"
 EDITIONS="dvd1 boot"
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://linuxsoft.cern.ch/centos-stream/" | grep "\-stream" | cut -d'"' -f 6 | cut -d'-' -f 1)
-}
-
-function editions_() {
-    echo boot dvd1
-}
 
 function get_() {
     local HASH=""
@@ -790,14 +656,6 @@ CREDENTIALS="-"
 RELEASES="latest"
 EDITIONS="xfce musl-xfce musl-lxqt musl-base lxqt base"
 
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo base musl-base lxqt musl-lxqt xfce musl-xfce
-}
-
 function get_() {
     local EDITION="${1:-}"
     local HASH=""
@@ -831,14 +689,6 @@ CREDENTIALS="anon:chimera root:chimera"
 RELEASES="latest"
 EDITIONS="gnome base"
 
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo base gnome
-}
-
 function get_() {
     local DATE=""
     local HASH=""
@@ -868,11 +718,6 @@ CREDENTIALS="-"
 
 RELEASES="9.0 12.0 11.2 10.1"
 
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://api.github.com/repos/CBPP/cbpp/releases" | grep 'download_url' | cut -d'-' -f2 | grep '^[0-9]' | sort -gru)
-}
 
 function get_() {
     local HASH=""
@@ -924,27 +769,6 @@ CREDENTIALS="-"
 RELEASES="12.10.0 11.11.0 10.13.0"
 EDITIONS="xfce standard netinst mate lxqt lxde kde gnome cinnamon"
 
-function releases_() {
-    local ARCHIVE=""
-    local MAJ=""
-    local NEW=""
-    local OLD=""
-    NEW=$(web_pipe "https://cdimage.debian.org/debian-cd/" | grep '\.[0-9]/' | cut -d'>' -f 9 | cut -d'/' -f 1)
-    echo -n "${NEW}"
-    MAJ=$(echo "${NEW}" | cut -d'.' -f 1)
-    ARCHIVE="$(web_pipe "https://cdimage.debian.org/cdimage/archive/" | grep folder | grep -v NEVER | cut -d'"' -f 6)"
-    for i in {1..2}; do
-        CUR=$((MAJ - i))
-        OLD=$(grep ^"${CUR}"  <<< "${ARCHIVE}" | tail -n 1 | tr -d '/')
-        echo -n " ${OLD}"
-    done
-    echo
-}
-
-function editions_() {
-    echo standard cinnamon gnome kde lxde lxqt mate xfce netinst
-}
-
 function get_() {
     local DEBCURRENT=""
     local HASH=""
@@ -982,11 +806,6 @@ CREDENTIALS="-"
 
 RELEASES="25-alpha 23.1 23 20.9"
 
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://mirrors.kernel.org/deepin-cd/" | grep "href=" | cut -d'"' -f2 | grep -v "\.\." | grep -v nightly | grep -v preview | sed 's|/||g' | tail -n 10 | sort -r)
-}
 
 function get_() {
     local HASH=""
@@ -1026,10 +845,6 @@ CREDENTIALS="-"
 RELEASES="daedalus chimaera beowulf"
 
 
-function releases_() {
-    echo daedalus chimaera beowulf
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -1066,14 +881,6 @@ CREDENTIALS="-"
 
 RELEASES="uefi bios"
 EDITIONS="Trixie Bullseye Bookworm"
-
-function releases_() {
-    echo bios uefi
-}
-
-function editions_() {
-    echo $(web_pipe "https://dietpi.com/downloads/images/" | grep '\.iso"' | cut -d'"' -f2 | grep '_VM-UEFI' | cut -d'-' -f4 | cut -d'_' -f1)
-}
 
 function get_() {
     local HASH=""
@@ -1135,13 +942,6 @@ GUEST="dragonflybsd"
 RELEASES="6.4.2 6.4.1 6.4.0 6.2.2 6.2.1 6.0.1 6.0.0 5.8.3 5.8.2 5.8.1 5.8.0 5.6.3 5.6.2 5.6.1 5.6.0 5.4.3 5.4.2 5.4.1 5.4.0 5.2.2 5.2.1 5.2.0 5.0.2 5.0.1 5.0.0"
 
 
-function releases_() {
-    # If you remove "".bz2" from the end of the searched URL, you will get only the current release - currently 6.4.0
-    # We could add a variable so this behaviour is optional/switchable (maybe from option or env)
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://mirror-master.dragonflybsd.org/iso-images/" | grep -E -o '"dfly-x86_64-.*_REL.iso.bz2"' | grep -o -E '[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+')
-}
-
 function get_() {
     local HASH=""
     local ISO="dfly-x86_64-${RELEASE}_REL.iso.bz2"
@@ -1181,14 +981,6 @@ CREDENTIALS="-"
 RELEASES="2024.rc7"
 EDITIONS="lz4 cdrom"
 
-function releases_() {
-    echo 2024.rc7
-}
-
-function editions_() {
-    echo lz4 cdrom
-}
-
 function get_() {
     local ISO=""
     local HASH=""
@@ -1219,17 +1011,6 @@ CREDENTIALS="-"
 IMAGE_TYPE="img"
 RELEASES="5.9 5.8.5"
 
-
-function releases_() {
-    local ALL_RELEASES=""
-    local YEAR=""
-    # get the latest 2 years of releases so that when we hit next year we still have the latest 2 years
-    TWO_YEARS=$(web_pipe https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/ | grep -o -E '[[:digit:]]{4}/' | sort -nr | tr -d /  | head -n 2 )
-    for YEAR in ${TWO_YEARS} ; do
-        ALL_RELEASES="${ALL_RELEASES} $(web_pipe https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/${YEAR}/ | grep -o -E '[[:digit:]]+(\.[[:digit:]])+/' | tr -d / | sort -nr)"
-    done
-    echo ${ALL_RELEASES}
-}
 
 function get_() {
     local HASH=""
@@ -1275,27 +1056,6 @@ linux_old"
 
 RELEASES=""
 
-
-function releases_() {
-    local VERSION_DATA=""
-    local SUPPORTED_VERSIONS=()
-    VERSION_DATA="$(IFS=$'\n' web_pipe https://api.launchpad.net/devel/ubuntu/series | jq -r '.entries[]')"
-    # shellcheck disable=SC2207
-    SUPPORTED_VERSIONS=($(IFS=$'\n' jq -r 'select(.status=="Supported" or .status=="Current Stable Release") | .version' <<<"${VERSION_DATA}" | sort))
-    case "${OS}" in
-        ubuntu)
-            echo "${SUPPORTED_VERSIONS[@]}" daily-live;;
-        kubuntu|lubuntu|ubuntukylin|ubuntu-mate|ubuntustudio|xubuntu)
-            # after 16.04
-            echo "${SUPPORTED_VERSIONS[@]:1}" daily-live;;
-        ubuntu-budgie)
-            # after 18.04
-            echo "${SUPPORTED_VERSIONS[@]:2}" daily-live;;
-        edubuntu|ubuntu-unity|ubuntucinnamon)
-            # after 23.10
-            echo "${SUPPORTED_VERSIONS[@]:5}" daily-live;;
-    esac
-}
 
 function get_() {
     local ISO=""
@@ -1351,9 +1111,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzE2MDQ4NAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzE2MDQ4NAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzE2MDQ4NAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzE2MTkzNwo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzE2MTkzNwo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzE2MTkzNwo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1366,10 +1126,6 @@ CREDENTIALS="-"
 
 RELEASES="8.0 7.1 7.0"
 
-
-function releases_() {
-    echo 8.0 7.1 7.0
-}
 
 function get_() {
     local HASH=""
@@ -1404,12 +1160,6 @@ CREDENTIALS="-"
 RELEASES="mercury-neo-2025.03.19 mercury-2025.02.08 gemini-2024.04.20 galileo-neo-2024.01.25 galileo-11-2023"
 
 
-function releases_() {
-    local ENDEAVOUR_RELEASES=""
-    ENDEAVOUR_RELEASES="$(web_pipe "https://mirror.alpix.eu/endeavouros/iso/" | grep -o '<a href="[^"]*.iso">' | sed 's/^<a href="//;s/.iso">.*//' | grep -v 'x86_64' | LC_ALL="en_US.UTF-8" sort -Mr | cut -c 13- | head -n 5 | tr '\n' ' ')"
-    echo "${ENDEAVOUR_RELEASES,,}"
-}
-
 function get_() {
     local ENDEAVOUR_RELEASES=""
     local HASH=""
@@ -1442,14 +1192,6 @@ CREDENTIALS="-"
 
 RELEASES="6.0.4"
 EDITIONS="pt_BR fr es en base"
-
-function releases_() {
-    echo 6.0.4
-}
-
-function editions_() {
-    echo base en fr pt_BR es
-}
 
 function get_() {
     local HASH="" # No hash - there is a signature in .asc signed by
@@ -1543,20 +1285,6 @@ CREDENTIALS="-"
 RELEASES="42 41 40"
 EDITIONS="i3 Xfce Workstation Sway Silverblue Server Sericea Onyx MiracleWM Mate LXQt LXDE Kinoite KDE_Mobile KDE Cinnamon COSMIC-Atomic COSMIC Budgie"
 
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://getfedora.org/releases.json" | jq -r 'map(.version) | unique | .[]' | sed 's/ /_/g' | sort -r)
-}
-
-function editions_() {
-    #shellcheck disable=SC2046,SC2005
-    if [[ -z ${RELEASE} ]]; then
-          echo $(web_pipe "https://getfedora.org/releases.json" | jq -r "map(select(.arch==\"x86_64\" and .variant!=\"Labs\" and .variant!=\"IoT\" and .variant!=\"Container\" and .variant!=\"Cloud\" and .variant!=\"Everything\"  and .subvariant!=\"Security\" and .subvariant!=\"Server_KVM\" and .subvariant!=\"SoaS\")) | map(.subvariant) | unique | .[]")
-    else
-        echo $(web_pipe "https://getfedora.org/releases.json" | jq -r "map(select(.arch==\"x86_64\" and .version==\"${RELEASE/_/ }\" and .variant!=\"Labs\" and .variant!=\"IoT\" and .variant!=\"Container\" and .variant!=\"Cloud\" and .variant!=\"Everything\"  and .subvariant!=\"Security\" and .subvariant!=\"Server_KVM\" and .subvariant!=\"SoaS\")) | map(.subvariant) | unique | .[]")
-    fi
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -1606,15 +1334,6 @@ freebsd
 RELEASES="14.2 14.1 13.5 13.4"
 EDITIONS="dvd1 disc1"
 
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://download.freebsd.org/ftp/releases/amd64/amd64/" | grep -Eo "href=\"[0-9\.]+-RELEASE" | grep -oE '[0-9\.]+' | sort -r)
-}
-
-function editions_() {
-    echo disc1 dvd1
-}
-
 function get_() {
     local HASH=""
     local ISO="FreeBSD-${RELEASE}-RELEASE-amd64-${EDITION}.iso"
@@ -1640,10 +1359,6 @@ GUEST="freedos"
 
 RELEASES="1.3 1.2"
 
-
-function releases_() {
-    echo 1.3 1.2
-}
 
 function get_() {
     local HASH=""
@@ -1690,10 +1405,6 @@ CREDENTIALS="-"
 RELEASES="latest"
 
 
-function releases_() {
-    echo latest
-}
-
 function get_() {
     local HASH=""
     local URL="https://sourceforge.net/projects/f-void/files"
@@ -1719,14 +1430,6 @@ CREDENTIALS="anon:voidlinux,root:voidlinux"
 
 RELEASES="latest"
 EDITIONS="i3-gaps Qtile Openbox"
-
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo $(web_pipe "https://sourceforge.net/projects/gabeeoslinux/rss?path=/Distro/" | grep 'title><!\[CDATA' | cut -d'[' -f3 | cut -d']' -f1 | grep '\.iso' | cut -d'/' -f3 | sort | uniq)
-}
 
 function get_() {
     local HASH=""
@@ -1769,14 +1472,6 @@ CREDENTIALS="-"
 RELEASES="latest"
 EDITIONS="xfce sway mokka kde-lite i3 hyprland gnome dr460nized-gaming dr460nized cinnamon"
 
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo $(web_pipe "https://iso.builds.garudalinux.org/iso/latest/garuda/" | grep -oP '(?<=href=")[^"]*' | tail --lines +2 | cut -d'/' -f1)
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -1808,14 +1503,6 @@ CREDENTIALS="-"
 RELEASES="latest"
 EDITIONS="minimal livegui"
 
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo minimal livegui
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -1834,41 +1521,6 @@ function specific_tweaks() {
 
 
 ghostbsd
-
-
-# Template file for 'ghostbsd'
-OSNAME="ghostbsd"
-PRETTY="GhostBSD"
-BASEDOF="FreeBSD"
-DESCRIPTION="Simple, elegant desktop BSD Operating System"
-HOMEPAGE="https://www.ghostbsd.org"
-CREDENTIALS="-"
-freebsd
-
-RELEASES=""
-EDITIONS=""
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://download.ghostbsd.org/releases/amd64/" | grep "href" | cut -d'"' -f2 | cut -d'/' -f1 | sort -r | tail -n +3 | head -n 3)
-}
-
-function editions_() {
-    echo mate xfce
-}
-
-function get_() {
-    local ISO=""
-    local URL="https://download.ghostbsd.org/releases/amd64/${RELEASE}"
-    local HASH=""
-    case ${EDITION} in
-        mate) ISO="GhostBSD-${RELEASE}.iso";;
-        xfce) ISO="GhostBSD-${RELEASE}-XFCE.iso";;
-    esac
-    HASH=$(web_pipe "${URL}/${ISO}.sha256" | grep "${ISO}" | cut -d' ' -f4)
-    echo "${URL}/${ISO} ${HASH}"
-}
-
 
 gnomeos
 
@@ -1917,11 +1569,6 @@ CREDENTIALS="-"
 RELEASES="nightly 48.rc 48.beta 48.alpha 48.0 47.rc 47.beta 47.alpha 47.0 46.rc 46.beta 46.alpha 46.0 45.rc 45.beta 44.rc 44.beta 44.0 43.beta 43.alpha 43.0 42.rc 42.beta 42.0 41.rc 41.beta 41.0 40.rc 40.beta 40.0 3.38.1 3.38.0"
 
 
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo "nightly" $(web_pipe "https://download.gnome.org/gnomeos/" | grep "title=" | awk -F'"' '{print $4}' | tr -d '/' | sort -nr)
-}
-
 function get_() {
     local HASH=""
     local ISO="gnome_os_installer_${RELEASE}.iso"
@@ -1957,10 +1604,6 @@ CREDENTIALS="-"
 RELEASES="1.4.0 1.3.0"
 
 
-function releases_() {
-    echo 1.4.0 1.3.0
-}
-
 function get_() {
     local HASH=""
     local ISO="guix-system-install-${RELEASE}.x86_64-linux.iso"
@@ -1990,14 +1633,6 @@ haiku
 RELEASES="r1beta5 r1beta4 r1beta3"
 EDITIONS="x86_gcc2h x86_64"
 
-function releases_() {
-    echo r1beta5 r1beta4 r1beta3
-}
-
-function editions_() {
-    echo x86_64 x86_gcc2h
-}
-
 function get_() {
     local ISO="haiku-${RELEASE}-${EDITION}-anyboot.iso"
     local URL="http://mirror.rit.edu/haiku/${RELEASE}"
@@ -2026,10 +1661,6 @@ CREDENTIALS="-"
 
 RELEASES="kali-weekly current"
 
-
-function releases_() {
-    echo current kali-weekly
-}
 
 function get_() {
     local HASH=""
@@ -2064,10 +1695,6 @@ CREDENTIALS="-"
 RELEASES="user unstable testing developer"
 
 
-function releases_() {
-    echo user testing unstable developer
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -2098,10 +1725,6 @@ CREDENTIALS="kodachi:r@@t00,root:r@@t00"
 RELEASES="latest"
 
 
-function releases_() {
-	echo latest
-}
-
 function get_() {
 	local HASH=""
 	local ISO=$(web_pipe "https://sourceforge.net/projects/linuxkodachi/rss?path=/" | grep 'title><!\[CDATA' | cut -d'[' -f3 | cut -d']' -f1 | grep '\.iso' | head -1)
@@ -2129,14 +1752,6 @@ kolibrios
 
 RELEASES="latest"
 EDITIONS="ru_RU it_IT es_ES en_US"
-
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo en_US ru_RU it_IT es_ES
-}
 
 function get_() {
     local HASH=""
@@ -2192,27 +1807,6 @@ linux_old"
 
 RELEASES=""
 
-
-function releases_() {
-    local VERSION_DATA=""
-    local SUPPORTED_VERSIONS=()
-    VERSION_DATA="$(IFS=$'\n' web_pipe https://api.launchpad.net/devel/ubuntu/series | jq -r '.entries[]')"
-    # shellcheck disable=SC2207
-    SUPPORTED_VERSIONS=($(IFS=$'\n' jq -r 'select(.status=="Supported" or .status=="Current Stable Release") | .version' <<<"${VERSION_DATA}" | sort))
-    case "${OS}" in
-        ubuntu)
-            echo "${SUPPORTED_VERSIONS[@]}" daily-live;;
-        kubuntu|lubuntu|ubuntukylin|ubuntu-mate|ubuntustudio|xubuntu)
-            # after 16.04
-            echo "${SUPPORTED_VERSIONS[@]:1}" daily-live;;
-        ubuntu-budgie)
-            # after 18.04
-            echo "${SUPPORTED_VERSIONS[@]:2}" daily-live;;
-        edubuntu|ubuntu-unity|ubuntucinnamon)
-            # after 23.10
-            echo "${SUPPORTED_VERSIONS[@]:5}" daily-live;;
-    esac
-}
 
 function get_() {
     local ISO=""
@@ -2285,10 +1879,6 @@ CREDENTIALS="-"
 RELEASES="6.6 6.4 6.2 6.0"
 
 
-function releases_() {
-    echo 6.6 6.4 6.2 6.0
-}
-
 function get_() {
     local HASH=""
     local ISO="linux-lite-${RELEASE}-64bit.iso"
@@ -2337,14 +1927,6 @@ CREDENTIALS="-"
 RELEASES="22.1 22 21.3 21.2 21.1 21 20.3 20.2"
 EDITIONS="xfce mate cinnamon"
 
-function releases_() {
-    echo 22.1 22 21.3 21.2 21.1 21 20.3 20.2
-}
-
-function editions_() {
-    echo cinnamon mate xfce
-}
-
 function get_() {
     local HASH=""
     local ISO="linuxmint-${RELEASE}-${EDITION}-64bit.iso"
@@ -2369,14 +1951,6 @@ CREDENTIALS="-"
 
 RELEASES="6"
 EDITIONS="cinnamon"
-
-function releases_() {
-    echo 6
-}
-
-function editions_() {
-    echo cinnamon
-}
 
 function get_() {
     local HASH=""
@@ -2404,14 +1978,6 @@ CREDENTIALS="-"
 
 RELEASES="latest"
 EDITIONS="xfce lxde kde"
-
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo lxde xfce kde
-}
 
 function get_() {
     local HASH=""
@@ -2448,27 +2014,6 @@ linux_old"
 
 RELEASES=""
 
-
-function releases_() {
-    local VERSION_DATA=""
-    local SUPPORTED_VERSIONS=()
-    VERSION_DATA="$(IFS=$'\n' web_pipe https://api.launchpad.net/devel/ubuntu/series | jq -r '.entries[]')"
-    # shellcheck disable=SC2207
-    SUPPORTED_VERSIONS=($(IFS=$'\n' jq -r 'select(.status=="Supported" or .status=="Current Stable Release") | .version' <<<"${VERSION_DATA}" | sort))
-    case "${OS}" in
-        ubuntu)
-            echo "${SUPPORTED_VERSIONS[@]}" daily-live;;
-        kubuntu|lubuntu|ubuntukylin|ubuntu-mate|ubuntustudio|xubuntu)
-            # after 16.04
-            echo "${SUPPORTED_VERSIONS[@]:1}" daily-live;;
-        ubuntu-budgie)
-            # after 18.04
-            echo "${SUPPORTED_VERSIONS[@]:2}" daily-live;;
-        edubuntu|ubuntu-unity|ubuntucinnamon)
-            # after 23.10
-            echo "${SUPPORTED_VERSIONS[@]:5}" daily-live;;
-    esac
-}
 
 function get_() {
     local ISO=""
@@ -2524,7 +2069,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://versaweb.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
+maboxlinux latest:                   https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2537,10 +2082,6 @@ CREDENTIALS="-"
 
 RELEASES="latest"
 
-
-function releases_() {
-    echo latest
-}
 
 function get_() {
     local HASH=""
@@ -2571,20 +2112,6 @@ GUEST="macos"
 IMAGE_TYPE="img"
 RELEASES="ventura sonoma monterey mojave catalina big-sur"
 
-
-function releases_() {
-    echo mojave catalina big-sur monterey ventura sonoma
-}
-
-function generate_id() {
-    local macRecoveryID=""
-    local TYPE="${1}"
-    local valid_chars=("0" "1" "2" "3" "4" "5" "6" "7" "8" "9" "A" "B" "C" "D" "E" "F")
-    for ((i=0; i<TYPE; i++)); do
-        macRecoveryID+="${valid_chars[$((RANDOM % 16))]}"
-    done
-    echo "${macRecoveryID}"
-}
 
 function get_() {
     local appleSession=""
@@ -2716,7 +2243,7 @@ function specific_tweaks() {
 
 mageia
 
-mageia 9 Plasma:                     https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
+mageia 9 Plasma:                     https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
 mageia 9 GNOME:                      https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso
 mageia 9 Xfce:                       https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso
 mageia 8 Plasma:                     https://mirror.math.princeton.edu/pub/mageia/iso/8/Mageia-8-Live-Plasma-x86_64/Mageia-8-Live-Plasma-x86_64.iso
@@ -2734,14 +2261,6 @@ CREDENTIALS="-"
 
 RELEASES="9 8"
 EDITIONS="Xfce Plasma GNOME"
-
-function releases_() {
-    echo 9 8
-}
-
-function editions_() {
-    echo Plasma GNOME Xfce
-}
 
 function get_() {
     local HASH=""
@@ -2778,14 +2297,6 @@ CREDENTIALS="-"
 
 RELEASES="xfce sway plasma i3 gnome cinnamon"
 EDITIONS="minimal full"
-
-function releases_() {
-    echo xfce gnome plasma cinnamon i3 sway
-}
-
-function editions_() {
-    echo full minimal
-}
 
 function get_() {
     local HASH=""
@@ -2838,14 +2349,6 @@ CREDENTIALS="-"
 RELEASES="2022"
 EDITIONS="Openbox MATE Kwin JWM Deboot-Ceres"
 
-function releases_() {
-    echo 2022
-}
-
-function editions_() {
-    echo Kwin Deboot-Ceres JWM Openbox MATE
-}
-
 function get_() {
     local EDITION="${1:-}"
     local HASH=""
@@ -2880,15 +2383,6 @@ CREDENTIALS="-"
 RELEASES="23.6"
 EDITIONS="Xfce KDE Fluxbox"
 
-function releases_() {
-    # needs header, so not web_pipe:
-    curl --disable -Ils "https://sourceforge.net/projects/mx-linux/files/latest/download" | grep -i 'location:' | cut -d? -f1 | cut -d_ -f1 | cut -d- -f3
-}
-
-function editions_() {
-    echo Xfce KDE Fluxbox
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -2919,10 +2413,6 @@ CREDENTIALS="-"
 RELEASES="latest"
 
 
-function releases_() {
-    echo latest
-}
-
 function get_() {
     local HASH=""
     local ISO="netboot.xyz.iso"
@@ -2950,12 +2440,6 @@ GUEST="netbsd"
 
 RELEASES="9.4 9.3 10.1 10.0"
 
-
-function releases_() {
-    # V8 is EOL so filter it out
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://cdn.netbsd.org/pub/NetBSD/iso/" | grep -o -E '"[[:digit:]]+\.[[:digit:]]+/"' | tr -d '"/' | grep -v ^8 | sort -nr | head -n 4)
-}
 
 function get_() {
     local HASH=""
@@ -2985,10 +2469,6 @@ CREDENTIALS="-"
 
 RELEASES="latest"
 
-
-function releases_() {
-    echo latest
-}
 
 function get_() {
     local HASH=""
@@ -3026,16 +2506,6 @@ CREDENTIALS="-"
 
 RELEASES="unstable 24.11 24.05"
 EDITIONS="plasma minimal gnome"
-
-function releases_() {
-    # Lists unstable plus the two most recent releases
-    #shellcheck disable=SC2046
-    echo unstable $(web_pipe "https://nix-channels.s3.amazonaws.com/?delimiter=/" | grep -o -E 'nixos-[[:digit:]]+\.[[:digit:]]+' | cut -d- -f2 | sort -nru | head -n +2)
-}
-
-function editions_() {
-    echo minimal plasma gnome
-}
 
 function get_() {
     local HASH=""
@@ -3077,11 +2547,6 @@ CREDENTIALS="nwg:nwg"
 RELEASES="2025.04.20 2025.02.23"
 
 
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://sourceforge.net/projects/nwg-iso/rss?path=/" | grep 'url=' | grep '64.iso' | cut -d'/' -f12 | cut -d'-' -f3)
-}
-
 function get_() {
     local HASH=""
     local ISO="nwg-live-${RELEASE}-x86_64.iso"
@@ -3108,11 +2573,6 @@ GUEST="openbsd"
 RELEASES="7.7 7.6"
 
 
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://mirror.leaseweb.com/pub/OpenBSD/" | grep -e '6\.[8-9]/' -e '[7-9]\.' | cut -d\" -f4 | tr -d '/' | sort -r)
-}
-
 function get_() {
     local HASH=""
     local ISO="install${RELEASE//\./}.iso"
@@ -3127,44 +2587,6 @@ function specific_tweaks() {
 
 
 openindiana
-
-
-# Template file for 'openindiana'
-OSNAME="openindiana"
-PRETTY="OpenIndiana"
-BASEDOF="Solaris OPenSolaris"
-DESCRIPTION="Community supported illumos-based operating system"
-HOMEPAGE="https://www.openindiana.org"
-CREDENTIALS="-"
-solaris
-
-RELEASES=""
-EDITIONS=""
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://dlc.openindiana.org/isos/hipster/" | grep link | cut -d'/' -f 1 | cut -d '"' -f4 | sort -r | tail -n +2 | head -n 5)
-}
-
-function editions_() {
-    echo gui text minimal
-}
-
-function get_() {
-    local HASH=""
-    local ISO=""
-    local URL=""
-    URL="https://dlc.openindiana.org/isos/hipster/${RELEASE}"
-    ISO="OI-hipster-${EDITION}-${RELEASE}.iso"
-    HASH=$(web_pipe "${URL}/${ISO}.sha256" |cut -d' ' -f1)
-    echo "${URL}/${ISO} ${HASH}"
-}
-
-function specific_tweaks() {
-    echo "boot=\"legacy\"" >> "${CONF_FILE}"
-    echo "disk_size=\"32G\"" >> "${CONF_FILE}"
-}
-
 
 opensuse
 
@@ -3190,16 +2612,6 @@ CREDENTIALS="-"
 
 RELEASES="tumbleweed microos aeon 15.6 15.5 15.4 15.3 15.2 15.1 15.0"
 
-
-function releases_() {
-    # shellcheck disable=SC2046,SC2005
-    # Leap have 16.0 dir but no iso file nor iso dir there
-    if web_pipe "https://download.opensuse.org/distribution/leap/16.0/" | grep -q 'href="iso/"'; then
-        echo $(web_pipe "https://download.opensuse.org/distribution/leap/" | grep 'class="name"' | cut -d '/' -f2 | grep -v 42 | sort -r  | tail --lines +2) aeon microos tumbleweed
-    else
-        echo tumbleweed microos aeon 15.6 15.5 15.4 15.3 15.2 15.1 15.0
-    fi
-}
 
 function get_() {
     local HASH=""
@@ -3254,10 +2666,6 @@ CREDENTIALS="-"
 RELEASES="9.3 9.2 9.1 9.0 8.9 8.8 8.7 8.6 8.5 8.4 7.9 7.8 7.7"
 
 
-function releases_() {
-    echo 9.3 9.2 9.1 9.0 8.9 8.8 8.7 8.6 8.5 8.4 7.9 7.8 7.7
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -3300,15 +2708,6 @@ CREDENTIALS="parrot:parrot"
 
 RELEASES="6.3.2 6.2 6.1"
 EDITIONS="security htb home"
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://download.parrot.sh/parrot/iso/" | grep -o -E 'href="([[:digit:]]+\.)+[[:digit:]]+/' | sort -nr | head -n 3 | cut -d\" -f 2 | cut -d'/' -f 1)
-}
-
-function editions_() {
-    echo home htb security
-}
 
 function get_() {
     local HASH=""
@@ -3354,14 +2753,6 @@ CREDENTIALS="-"
 RELEASES="250502 250501 250404 250402 250314 250301"
 EDITIONS="VoidPup64 S15Pup64 BookwormPup64-ghtest"
 
-function releases_() {
-    echo $(web_pipe "https://sourceforge.net/projects/pb-gh-releases/rss?path=/" | grep 'title><!\[CDATA' | cut -d'[' -f3 | cut -d']' -f1 | grep '\.iso' | grep '64' | cut -d'-' -f3 | grep -oP '\d{6}(?=\.iso)' | sort -u)
-}
-
-function editions_() {
-    echo $(web_pipe "https://sourceforge.net/projects/pb-gh-releases/rss?path=/" | grep 'title><!\[CDATA' | cut -d'[' -f3 | cut -d']' -f1 | grep '\.iso' | grep '64' | cut -d'/' -f2 | cut -d'_' -f1 | sort -u)
-}
-
 function get_() {
     local HASH=""
     local URL="https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release"
@@ -3393,14 +2784,6 @@ CREDENTIALS="-"
 
 RELEASES="latest"
 EDITIONS="devuan-xfce devuan-gnome debian-xfce debian-gnome"
-
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo devuan-xfce devuan-gnome debian-xfce debian-gnome
-}
 
 function get_() {
     local HASH=""
@@ -3444,14 +2827,6 @@ CREDENTIALS="-"
 RELEASES="22.04 20.04"
 EDITIONS="nvidia intel"
 
-function releases_() {
-    echo 22.04 20.04
-}
-
-function editions_() {
-    echo intel nvidia
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -3489,14 +2864,6 @@ CREDENTIALS="-"
 RELEASES="5.01"
 EDITIONS="xfce openbox mate lxqt lxde kde gnome cinnamon"
 
-function releases_() {
-    echo 5.01
-}
-
-function editions_() {
-    echo cinnamon gnome kde lxde lxqt mate openbox xfce
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -3524,14 +2891,6 @@ CREDENTIALS="-"
 
 RELEASES="7"
 EDITIONS="2022-10"
-
-function releases_() {
-    echo 7
-}
-
-function editions_() {
-    echo 2022-10
-}
 
 function get_() {
     local HASH=""
@@ -3563,11 +2922,6 @@ CREDENTIALS="-"
 
 RELEASES="8.4-1 8.3-1 7.4-1 6.4-1 5.4-1"
 
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe https://enterprise.proxmox.com/iso/ | grep proxmox-ve | grep -E -o '[0-9]+\.[0-9]+-[0-9]\.iso' | uniq | sort -ru | cut -d'.' -f 1-2)
-}
 
 function get_() {
     local HASH=""
@@ -3602,14 +2956,6 @@ CREDENTIALS="-"
 RELEASES="10.3"
 EDITIONS="plasma gnome"
 
-function releases_() {
-    web_pipe "https://www.pureos.net/download/" | grep -m 1 "downloads.puri" | cut -d '"' -f 2 | cut -d '-' -f 4
-}
-
-function editions_() {
-    echo gnome plasma
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -3631,7 +2977,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3644,10 +2990,6 @@ GUEST="reactos"
 
 RELEASES="latest"
 
-
-function releases_() {
-    echo latest
-}
 
 function get_() {
     local HASH=""
@@ -3688,10 +3030,6 @@ CREDENTIALS="-"
 RELEASES="latest"
 
 
-function releases_() {
-    echo latest
-}
-
 function get_() {
     local JSON ISO HASH
     JSON=$(web_pipe "https://meta.cdn.soulharsh007.dev/RebornOS-ISO?format=json")
@@ -3722,10 +3060,6 @@ CREDENTIALS="-"
 
 RELEASES="2025.1"
 
-
-function releases_() {
-    echo 2025.1
-}
 
 function get_() {
     local HASH=""
@@ -3790,15 +3124,6 @@ CREDENTIALS="-"
 RELEASES="9.5 9.4 9.3 9.2 9.1 9.0 8.9 8.8 8.7 8.6 8.5 8.4 8.3"
 EDITIONS="minimal dvd boot"
 
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "http://dl.rockylinux.org/vault/rocky/" | grep "^<a href" | grep -v full | grep -v RC | grep -v ISO | cut -d'"' -f2 | tr -d / | sort -ru)
-}
-
-function editions_() {
-    echo minimal dvd boot
-}
-
 function get_() {
     if [[ "${RELEASE}" =~ ^8. ]] && [[ "${EDITION}" == "dvd" ]]; then
         EDITION="dvd1"
@@ -3836,16 +3161,6 @@ CREDENTIALS="-"
 RELEASES="latest"
 EDITIONS="xorg xfce nox lxqt kde"
 
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    #shellcheck disable=SC2046,SC2005
-    NAME=$(web_pipe "https://mirror.math.princeton.edu/pub/siduction/iso/" | grep folder | cut -d'"' -f8 | tr -d '/')
-    web_pipe "https://mirror.math.princeton.edu/pub/siduction/iso/${NAME}/" | grep folder | cut -d'"' -f8 | tr -d '/' | sort -u
-}
-
 function get_() {
     local HASH=""
     local DATE=""
@@ -3882,11 +3197,6 @@ CREDENTIALS="-"
 RELEASES="15.0 14.2 14.1 14.0 13.37"
 
 
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://slackware.nl/slackware/slackware-iso/" | grep "slackware-" | cut -d'<' -f7 | cut -d'-' -f2 | sort -ru | head -n 5)
-}
-
 function get_() {
     local HASH=""
     local ISO="slackware64-${RELEASE}-install-dvd.iso"
@@ -3916,14 +3226,6 @@ CREDENTIALS="-"
 
 RELEASES="latest"
 EDITIONS="slackware debian"
-
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo debian slackware
-}
 
 function get_() {
     local HASH=""
@@ -3962,10 +3264,6 @@ CREDENTIALS="-"
 RELEASES="15.0-5"
 
 
-function releases_() {
-    echo "15.0-5"
-}
-
 function get_() {
     local HASH=""
     local MAJ_VER=""
@@ -4001,11 +3299,6 @@ CREDENTIALS="-"
 RELEASES="preinit loram core64 core-5in1 core"
 
 
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://mirror.slitaz.org/iso/rolling/" | grep "class='iso'" | cut -d"'" -f4 | cut -d'-' -f3- | grep iso | cut -d'.' -f1 | sort -u)
-}
-
 function get_() {
     local HASH=""
     local ISO="slitaz-rolling-${RELEASE}"
@@ -4036,16 +3329,6 @@ CREDENTIALS="-"
 RELEASES=""
 EDITIONS=""
 
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe_json "https://downloads.getsol.us/isos/" | jq -r '.[].name[:-1]' | grep -E "^[0-9-]+$" | sort -u)
-}
-
-function editions_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe_json "https://downloads.getsol.us/isos/$(releases_ | tail -n1)/" | jq -r '.[].name | sub("Solus-(?<e>.*)-Release-.*"; "\(.e)")' | sort -u)
-}
-
 function get_() {
     local HASH=""
     local ISO="Solus-${EDITION}-Release-${RELEASE}.iso"
@@ -4075,21 +3358,6 @@ CREDENTIALS="-"
 
 RELEASES="7.7"
 EDITIONS="xfce minimalgui minimalcli mate lxqt kde"
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep "iso/download" | cut -d'-' -f3 | sort -ru)
-}
-
-function editions_() {
-    echo minimalcli minimalgui mate lxqt kde xfce
-    #shellcheck disable=SC2046,SC2005
-#    if [ -z "${RELEASE}" ]; then
-#        echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep "iso/download" | cut -d'-' -f5 | cut -d'.' -f1 | sort -u)
-#    else
-#        echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep "sparkylinux-${RELEASE}-" | cut -d'-' -f5 | cut -d'.' -f1 | sort -u)
-#    fi
-}
 
 function get_() {
     local HASH=""
@@ -4129,14 +3397,6 @@ CREDENTIALS="-"
 RELEASES="latest"
 EDITIONS="XFCE Plasma Mate LXQt Gnome Cinnamon Builder Budgie"
 
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo Plasma XFCE Mate LXQt Gnome Budgie Cinnamon Builder
-}
-
 function get_() {
     local HASH=""
     local ISO="SpiralLinux_${EDITION}_12.231005_x86-64.iso"
@@ -4161,10 +3421,6 @@ CREDENTIALS="-"
 
 RELEASES="stable"
 
-
-function releases_() {
-    echo stable
-}
 
 function get_() {
     local JSON=""
@@ -4205,14 +3461,6 @@ CREDENTIALS="-"
 
 RELEASES="15 14"
 EDITIONS="TinyCorePure64 TinyCore CorePure64 CorePlus Core"
-
-function releases_() {
-    echo 15 14
-}
-
-function editions_() {
-    echo Core TinyCore CorePlus CorePure64 TinyCorePure64
-}
 
 function get_() {
     local ARCH="x86"
@@ -4256,14 +3504,6 @@ CREDENTIALS="-"
 RELEASES="11.0 10.0.1"
 EDITIONS="sugar mate lxde kde"
 
-function releases_() {
-    echo 11.0 10.0.1
-}
-
-function editions_() {
-    echo mate lxde kde sugar
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -4294,10 +3534,6 @@ GUEST="truenas"
 
 RELEASES="13"
 
-
-function releases_() {
-    echo 13
-}
 
 function get_() {
     local ISO=""
@@ -4332,10 +3568,6 @@ GUEST="truenas"
 
 RELEASES="24"
 
-
-function releases_() {
-    echo 24
-}
 
 function get_() {
     local HASH=""
@@ -4372,10 +3604,6 @@ CREDENTIALS="-"
 RELEASES="current"
 
 
-function releases_() {
-    echo current
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -4408,27 +3636,6 @@ linux_old"
 
 RELEASES=""
 
-
-function releases_() {
-    local VERSION_DATA=""
-    local SUPPORTED_VERSIONS=()
-    VERSION_DATA="$(IFS=$'\n' web_pipe https://api.launchpad.net/devel/ubuntu/series | jq -r '.entries[]')"
-    # shellcheck disable=SC2207
-    SUPPORTED_VERSIONS=($(IFS=$'\n' jq -r 'select(.status=="Supported" or .status=="Current Stable Release") | .version' <<<"${VERSION_DATA}" | sort))
-    case "${OS}" in
-        ubuntu)
-            echo "${SUPPORTED_VERSIONS[@]}" daily-live;;
-        kubuntu|lubuntu|ubuntukylin|ubuntu-mate|ubuntustudio|xubuntu)
-            # after 16.04
-            echo "${SUPPORTED_VERSIONS[@]:1}" daily-live;;
-        ubuntu-budgie)
-            # after 18.04
-            echo "${SUPPORTED_VERSIONS[@]:2}" daily-live;;
-        edubuntu|ubuntu-unity|ubuntucinnamon)
-            # after 23.10
-            echo "${SUPPORTED_VERSIONS[@]:5}" daily-live;;
-    esac
-}
 
 function get_() {
     local ISO=""
@@ -4484,181 +3691,7 @@ function get_() {
 
 ubuntu-cinnamon
 
-
-# Template file for 'ubuntu-cinnamon'
-OSNAME="ubuntu-cinnamon"
-PRETTY="Ubuntu Cinnamon"
-BASEDOF="Ubuntu"
-DESCRIPTION="Community-driven, featuring Linux Mint’s Cinnamon Desktop with Ubuntu at the core, packed fast and full of features, here is the most traditionally modern desktop you will ever love"
-HOMEPAGE="https://ubuntucinnamon.org"
-CREDENTIALS="-"
-GUEST="linux_old
-linux_old"
-
-RELEASES=""
-
-
-function releases_() {
-    local VERSION_DATA=""
-    local SUPPORTED_VERSIONS=()
-    VERSION_DATA="$(IFS=$'\n' web_pipe https://api.launchpad.net/devel/ubuntu/series | jq -r '.entries[]')"
-    # shellcheck disable=SC2207
-    SUPPORTED_VERSIONS=($(IFS=$'\n' jq -r 'select(.status=="Supported" or .status=="Current Stable Release") | .version' <<<"${VERSION_DATA}" | sort))
-    case "${OS}" in
-        ubuntu)
-            echo "${SUPPORTED_VERSIONS[@]}" daily-live;;
-        kubuntu|lubuntu|ubuntukylin|ubuntu-mate|ubuntustudio|xubuntu)
-            # after 16.04
-            echo "${SUPPORTED_VERSIONS[@]:1}" daily-live;;
-        ubuntu-budgie)
-            # after 18.04
-            echo "${SUPPORTED_VERSIONS[@]:2}" daily-live;;
-        edubuntu|ubuntu-unity|ubuntucinnamon)
-            # after 23.10
-            echo "${SUPPORTED_VERSIONS[@]:5}" daily-live;;
-    esac
-}
-
-function get_() {
-    local ISO=""
-    local HASH=""
-    local URL=""
-    local DATA=""
-
-    if [[ "${RELEASE}" == "daily"* ]] && [ "${OS}" == "ubuntustudio" ]; then
-        # Ubuntu Studio daily-live images are in the dvd directory
-        RELEASE="dvd"
-    fi
-    if [[ "${RELEASE}" == "jammy-daily" ]]; then
-        if [[ "${OS}" == "ubuntustudio" ]]; then
-            URL="https://cdimage.ubuntu.com/${OS}/jammy/dvd/current"
-        else
-            URL="https://cdimage.ubuntu.com/${OS}/jammy/daily-live/current"
-        fi
-        VM_PATH="${OS}-jammy-live"
-    elif [[ "${RELEASE}" == "daily"* ]] || [ "${RELEASE}" == "dvd" ]; then
-        URL="https://cdimage.ubuntu.com/${OS}/${RELEASE}/current"
-        VM_PATH="${OS}-${RELEASE}"
-    elif [ "${OS}" == "ubuntu" ]; then
-        URL="https://releases.ubuntu.com/${RELEASE}"
-    else
-        URL="https://cdimage.ubuntu.com/${OS}/releases/${RELEASE}/release"
-    fi
-    if web_check "${URL}/SHA256SUMS"; then
-        DATA=$(web_pipe "${URL}/SHA256SUMS" | grep 'desktop\|dvd\|install' | grep amd64 | grep iso | grep -v "+mac")
-        ISO=$(cut -d'*' -f2 <<<"${DATA}" | sed '1q;d')
-        HASH=$(cut -d' ' -f1 <<<"${DATA}" | sed '1q;d')
-    else
-        DATA=$(web_pipe "${URL}/MD5SUMS" | grep 'desktop\|dvd\|install' | grep amd64 | grep iso | grep -v "+mac")
-        ISO=$(cut -d'*' -f2 <<<"${DATA}")
-        HASH=$(cut -d' ' -f1 <<<"${DATA}")
-    fi
-    if [ -z "${ISO}" ] || [ -z "${HASH}" ]; then
-        echo "${PRETTY} ${RELEASE} is currently unavailable. Please select other OS/Release combination"
-        exit 1
-    fi
-    if [[ "${RELEASE}" == "daily"* ]] || [ "${RELEASE}" == "dvd" ]; then
-        zsync_get "${URL}/${ISO}" "${VM_PATH}" "${OS}-devel.iso"
-        make_vm_config "${OS}-devel.iso"
-    elif [[ "${RELEASE}" == "jammy-daily" ]]; then
-        zsync_get "${URL}/${ISO}" "${VM_PATH}" "${OS}-jammy-live.iso"
-        make_vm_config "${OS}-jammy-live.iso"
-    else
-        web_get "${URL}/${ISO}" "${VM_PATH}"
-        check_hash "${ISO}" "${HASH}"
-        make_vm_config "${ISO}"
-    fi
-}
-
-
 ubuntu-kylin
-
-
-# Template file for 'ubuntu-kylin'
-OSNAME="ubuntu-kylin"
-PRETTY="Ubuntu Kylin"
-BASEDOF="Ubuntu"
-DESCRIPTION="Universal desktop operating system for personal computers, laptops, and embedded devices. It is dedicated to bringing a smarter user experience to users all over the world"
-HOMEPAGE="https://ubuntukylin.com"
-CREDENTIALS="-"
-GUEST="linux_old
-linux_old"
-
-RELEASES=""
-
-
-function releases_() {
-    local VERSION_DATA=""
-    local SUPPORTED_VERSIONS=()
-    VERSION_DATA="$(IFS=$'\n' web_pipe https://api.launchpad.net/devel/ubuntu/series | jq -r '.entries[]')"
-    # shellcheck disable=SC2207
-    SUPPORTED_VERSIONS=($(IFS=$'\n' jq -r 'select(.status=="Supported" or .status=="Current Stable Release") | .version' <<<"${VERSION_DATA}" | sort))
-    case "${OS}" in
-        ubuntu)
-            echo "${SUPPORTED_VERSIONS[@]}" daily-live;;
-        kubuntu|lubuntu|ubuntukylin|ubuntu-mate|ubuntustudio|xubuntu)
-            # after 16.04
-            echo "${SUPPORTED_VERSIONS[@]:1}" daily-live;;
-        ubuntu-budgie)
-            # after 18.04
-            echo "${SUPPORTED_VERSIONS[@]:2}" daily-live;;
-        edubuntu|ubuntu-unity|ubuntucinnamon)
-            # after 23.10
-            echo "${SUPPORTED_VERSIONS[@]:5}" daily-live;;
-    esac
-}
-
-function get_() {
-    local ISO=""
-    local HASH=""
-    local URL=""
-    local DATA=""
-
-    if [[ "${RELEASE}" == "daily"* ]] && [ "${OS}" == "ubuntustudio" ]; then
-        # Ubuntu Studio daily-live images are in the dvd directory
-        RELEASE="dvd"
-    fi
-    if [[ "${RELEASE}" == "jammy-daily" ]]; then
-        if [[ "${OS}" == "ubuntustudio" ]]; then
-            URL="https://cdimage.ubuntu.com/${OS}/jammy/dvd/current"
-        else
-            URL="https://cdimage.ubuntu.com/${OS}/jammy/daily-live/current"
-        fi
-        VM_PATH="${OS}-jammy-live"
-    elif [[ "${RELEASE}" == "daily"* ]] || [ "${RELEASE}" == "dvd" ]; then
-        URL="https://cdimage.ubuntu.com/${OS}/${RELEASE}/current"
-        VM_PATH="${OS}-${RELEASE}"
-    elif [ "${OS}" == "ubuntu" ]; then
-        URL="https://releases.ubuntu.com/${RELEASE}"
-    else
-        URL="https://cdimage.ubuntu.com/${OS}/releases/${RELEASE}/release"
-    fi
-    if web_check "${URL}/SHA256SUMS"; then
-        DATA=$(web_pipe "${URL}/SHA256SUMS" | grep 'desktop\|dvd\|install' | grep amd64 | grep iso | grep -v "+mac")
-        ISO=$(cut -d'*' -f2 <<<"${DATA}" | sed '1q;d')
-        HASH=$(cut -d' ' -f1 <<<"${DATA}" | sed '1q;d')
-    else
-        DATA=$(web_pipe "${URL}/MD5SUMS" | grep 'desktop\|dvd\|install' | grep amd64 | grep iso | grep -v "+mac")
-        ISO=$(cut -d'*' -f2 <<<"${DATA}")
-        HASH=$(cut -d' ' -f1 <<<"${DATA}")
-    fi
-    if [ -z "${ISO}" ] || [ -z "${HASH}" ]; then
-        echo "${PRETTY} ${RELEASE} is currently unavailable. Please select other OS/Release combination"
-        exit 1
-    fi
-    if [[ "${RELEASE}" == "daily"* ]] || [ "${RELEASE}" == "dvd" ]; then
-        zsync_get "${URL}/${ISO}" "${VM_PATH}" "${OS}-devel.iso"
-        make_vm_config "${OS}-devel.iso"
-    elif [[ "${RELEASE}" == "jammy-daily" ]]; then
-        zsync_get "${URL}/${ISO}" "${VM_PATH}" "${OS}-jammy-live.iso"
-        make_vm_config "${OS}-jammy-live.iso"
-    else
-        web_get "${URL}/${ISO}" "${VM_PATH}"
-        check_hash "${ISO}" "${HASH}"
-        make_vm_config "${ISO}"
-    fi
-}
-
 
 ubuntu-mate
 
@@ -4683,27 +3716,6 @@ linux_old"
 
 RELEASES=""
 
-
-function releases_() {
-    local VERSION_DATA=""
-    local SUPPORTED_VERSIONS=()
-    VERSION_DATA="$(IFS=$'\n' web_pipe https://api.launchpad.net/devel/ubuntu/series | jq -r '.entries[]')"
-    # shellcheck disable=SC2207
-    SUPPORTED_VERSIONS=($(IFS=$'\n' jq -r 'select(.status=="Supported" or .status=="Current Stable Release") | .version' <<<"${VERSION_DATA}" | sort))
-    case "${OS}" in
-        ubuntu)
-            echo "${SUPPORTED_VERSIONS[@]}" daily-live;;
-        kubuntu|lubuntu|ubuntukylin|ubuntu-mate|ubuntustudio|xubuntu)
-            # after 16.04
-            echo "${SUPPORTED_VERSIONS[@]:1}" daily-live;;
-        ubuntu-budgie)
-            # after 18.04
-            echo "${SUPPORTED_VERSIONS[@]:2}" daily-live;;
-        edubuntu|ubuntu-unity|ubuntucinnamon)
-            # after 23.10
-            echo "${SUPPORTED_VERSIONS[@]:5}" daily-live;;
-    esac
-}
 
 function get_() {
     local ISO=""
@@ -4781,13 +3793,6 @@ CREDENTIALS="-"
 RELEASES=""
 
 
-function releases_() {
-    local ALL_VERSIONS=()
-    # shellcheck disable=SC2207
-    ALL_VERSIONS=($(IFS=$'\n' web_pipe http://releases.ubuntu.com/streams/v1/com.ubuntu.releases:ubuntu-server.json | jq -r '.products[] | select(.arch=="amd64") | .version' | sort -rV))
-    echo daily-live "${ALL_VERSIONS[@]}"
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -4853,27 +3858,6 @@ linux_old"
 
 RELEASES=""
 
-
-function releases_() {
-    local VERSION_DATA=""
-    local SUPPORTED_VERSIONS=()
-    VERSION_DATA="$(IFS=$'\n' web_pipe https://api.launchpad.net/devel/ubuntu/series | jq -r '.entries[]')"
-    # shellcheck disable=SC2207
-    SUPPORTED_VERSIONS=($(IFS=$'\n' jq -r 'select(.status=="Supported" or .status=="Current Stable Release") | .version' <<<"${VERSION_DATA}" | sort))
-    case "${OS}" in
-        ubuntu)
-            echo "${SUPPORTED_VERSIONS[@]}" daily-live;;
-        kubuntu|lubuntu|ubuntukylin|ubuntu-mate|ubuntustudio|xubuntu)
-            # after 16.04
-            echo "${SUPPORTED_VERSIONS[@]:1}" daily-live;;
-        ubuntu-budgie)
-            # after 18.04
-            echo "${SUPPORTED_VERSIONS[@]:2}" daily-live;;
-        edubuntu|ubuntu-unity|ubuntucinnamon)
-            # after 23.10
-            echo "${SUPPORTED_VERSIONS[@]:5}" daily-live;;
-    esac
-}
 
 function get_() {
     local ISO=""
@@ -4951,27 +3935,6 @@ GUEST="linux_old"
 RELEASES=""
 
 
-function releases_() {
-    local VERSION_DATA=""
-    local SUPPORTED_VERSIONS=()
-    VERSION_DATA="$(IFS=$'\n' web_pipe https://api.launchpad.net/devel/ubuntu/series | jq -r '.entries[]')"
-    # shellcheck disable=SC2207
-    SUPPORTED_VERSIONS=($(IFS=$'\n' jq -r 'select(.status=="Supported" or .status=="Current Stable Release") | .version' <<<"${VERSION_DATA}" | sort))
-    case "${OS}" in
-        ubuntu)
-            echo "${SUPPORTED_VERSIONS[@]}" daily-live;;
-        kubuntu|lubuntu|ubuntukylin|ubuntu-mate|ubuntustudio|xubuntu)
-            # after 16.04
-            echo "${SUPPORTED_VERSIONS[@]:1}" daily-live;;
-        ubuntu-budgie)
-            # after 18.04
-            echo "${SUPPORTED_VERSIONS[@]:2}" daily-live;;
-        edubuntu|ubuntu-unity|ubuntucinnamon)
-            # after 23.10
-            echo "${SUPPORTED_VERSIONS[@]:5}" daily-live;;
-    esac
-}
-
 function get_() {
     local ISO=""
     local HASH=""
@@ -5047,27 +4010,6 @@ linux_old"
 
 RELEASES=""
 
-
-function releases_() {
-    local VERSION_DATA=""
-    local SUPPORTED_VERSIONS=()
-    VERSION_DATA="$(IFS=$'\n' web_pipe https://api.launchpad.net/devel/ubuntu/series | jq -r '.entries[]')"
-    # shellcheck disable=SC2207
-    SUPPORTED_VERSIONS=($(IFS=$'\n' jq -r 'select(.status=="Supported" or .status=="Current Stable Release") | .version' <<<"${VERSION_DATA}" | sort))
-    case "${OS}" in
-        ubuntu)
-            echo "${SUPPORTED_VERSIONS[@]}" daily-live;;
-        kubuntu|lubuntu|ubuntukylin|ubuntu-mate|ubuntustudio|xubuntu)
-            # after 16.04
-            echo "${SUPPORTED_VERSIONS[@]:1}" daily-live;;
-        ubuntu-budgie)
-            # after 18.04
-            echo "${SUPPORTED_VERSIONS[@]:2}" daily-live;;
-        edubuntu|ubuntu-unity|ubuntucinnamon)
-            # after 23.10
-            echo "${SUPPORTED_VERSIONS[@]:5}" daily-live;;
-    esac
-}
 
 function get_() {
     local ISO=""
@@ -5147,11 +4089,6 @@ CREDENTIALS="-"
 RELEASES="22.10-r8 22.10-r7.5 22.10-r7 22.10-r6 22.10-r5 22.10-r4 22.10-r3 22.10-r2 22.10-r1 22.10 2.0"
 
 
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://api.github.com/repos/Vanilla-OS/live-iso/releases" | grep 'download_url' | cut -d'/' -f8 | sort -ru)
-}
-
 function get_() {
     local HASH=""
     local HASH_URL=""
@@ -5202,10 +4139,6 @@ CREDENTIALS="-"
 RELEASES="1.1.05 1.1.04 1.1.02 1.1.01 1.1.00 1.0.99 1.0.98 1.0.97 1.0.96 1.0.95 1.0.94 1.0.93 1.0.91 1.0.90 1.0.89 1.0.88 1.0.87 1.0.86 1.0.85"
 
 
-function releases_() {
-    echo $(web_pipe "https://sourceforge.net/projects/ventoy/rss?path=/" | grep 'title><!\[CDATA' | cut -d'[' -f3 | cut -d']' -f1 | grep '.iso' | cut -d'-' -f2)
-}
-
 function get_() {
     local HASH=""
     local ISO="ventoy-${RELEASE}-livecd.iso"
@@ -5233,14 +4166,6 @@ CREDENTIALS="anon:voidlinux root:voidlinux"
 
 RELEASES="current"
 EDITIONS="xfce-musl xfce-glibc musl glibc"
-
-function releases_() {
-    echo current
-}
-
-function editions_() {
-    echo glibc musl xfce-glibc xfce-musl
-}
 
 function get_() {
     local DATE=""
@@ -5275,11 +4200,6 @@ CREDENTIALS="-"
 RELEASES="6.1.5"
 
 
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://github.com/VX-Linux/main/releases/latest" | grep -o -e 'releases/tag/[[:digit:]]\+\.[[:digit:]]\+\.[[:digit:]]' | sort -u | cut -d'/' -f 3)
-}
-
 function get_() {
     local HASH=""
     local ISO="vx-${RELEASE}.iso"
@@ -5306,590 +4226,6 @@ GUEST="windows-server"
 
 RELEASES=""
 
-
-function releases_() {
-    echo 2022 2019 2016
-}
-
-function languages_() {
-    I18NS=("English (United States)" "Chinese (Simplified)" "French" "German" "Italian" "Japanese" "Russian" "Spanish")
-}
-
-function unattended_windows() {
-    mkdir -p "${1}/unattended" 2>/dev/null
-
-    cat << 'EOF' > "${1}/unattended/autounattend.xml"
-<?xml version="1.0" encoding="utf-8"?>
-<unattend xmlns="urn:schemas-microsoft-com:unattend"
-  xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <!--
-       For documentation on components:
-       https://docs.microsoft.com/en-us/windows-hardware/customize/desktop/unattend/
-  -->
-  <settings pass="offlineServicing">
-    <component name="Microsoft-Windows-LUA-Settings" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <EnableLUA>false</EnableLUA>
-    </component>
-    <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <ComputerName>*</ComputerName>
-    </component>
-  </settings>
-
-  <settings pass="generalize">
-    <component name="Microsoft-Windows-PnPSysprep" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
-      <PersistAllDeviceInstalls>true</PersistAllDeviceInstalls>
-    </component>
-    <component name="Microsoft-Windows-Security-SPP" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <SkipRearm>1</SkipRearm>
-    </component>
-  </settings>
-
-  <settings pass="specialize">
-    <component name="Microsoft-Windows-Security-SPP-UX" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <SkipAutoActivation>true</SkipAutoActivation>
-    </component>
-    <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <ComputerName>*</ComputerName>
-      <OEMInformation>
-        <Manufacturer>Quickemu Project</Manufacturer>
-        <Model>Quickemu</Model>
-        <SupportHours>24/7</SupportHours>
-        <SupportPhone></SupportPhone>
-        <SupportProvider>Quickemu Project</SupportProvider>
-        <SupportURL>https://github.com/quickemu-project/quickemu/issues</SupportURL>
-      </OEMInformation>
-      <OEMName>Quickemu Project</OEMName>
-      <ProductKey>W269N-WFGWX-YVC9B-4J6C9-T83GX</ProductKey>
-    </component>
-    <component name="Microsoft-Windows-SQMApi" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <CEIPEnabled>0</CEIPEnabled>
-    </component>
-  </settings>
-
-  <settings pass="windowsPE">
-    <component name="Microsoft-Windows-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Diagnostics>
-        <OptIn>false</OptIn>
-      </Diagnostics>
-      <DiskConfiguration>
-        <Disk wcm:action="add">
-          <DiskID>0</DiskID>
-          <WillWipeDisk>true</WillWipeDisk>
-          <CreatePartitions>
-            <!-- Windows RE Tools partition -->
-            <CreatePartition wcm:action="add">
-              <Order>1</Order>
-              <Type>Primary</Type>
-              <Size>256</Size>
-            </CreatePartition>
-            <!-- System partition (ESP) -->
-            <CreatePartition wcm:action="add">
-              <Order>2</Order>
-              <Type>EFI</Type>
-              <Size>128</Size>
-            </CreatePartition>
-            <!-- Microsoft reserved partition (MSR) -->
-            <CreatePartition wcm:action="add">
-              <Order>3</Order>
-              <Type>MSR</Type>
-              <Size>128</Size>
-            </CreatePartition>
-            <!-- Windows partition -->
-            <CreatePartition wcm:action="add">
-              <Order>4</Order>
-              <Type>Primary</Type>
-              <Extend>true</Extend>
-            </CreatePartition>
-          </CreatePartitions>
-          <ModifyPartitions>
-            <!-- Windows RE Tools partition -->
-            <ModifyPartition wcm:action="add">
-              <Order>1</Order>
-              <PartitionID>1</PartitionID>
-              <Label>WINRE</Label>
-              <Format>NTFS</Format>
-              <TypeID>DE94BBA4-06D1-4D40-A16A-BFD50179D6AC</TypeID>
-            </ModifyPartition>
-            <!-- System partition (ESP) -->
-            <ModifyPartition wcm:action="add">
-              <Order>2</Order>
-              <PartitionID>2</PartitionID>
-              <Label>System</Label>
-              <Format>FAT32</Format>
-            </ModifyPartition>
-            <!-- MSR partition does not need to be modified -->
-            <ModifyPartition wcm:action="add">
-              <Order>3</Order>
-              <PartitionID>3</PartitionID>
-            </ModifyPartition>
-            <!-- Windows partition -->
-              <ModifyPartition wcm:action="add">
-              <Order>4</Order>
-              <PartitionID>4</PartitionID>
-              <Label>Windows</Label>
-              <Letter>C</Letter>
-              <Format>NTFS</Format>
-            </ModifyPartition>
-          </ModifyPartitions>
-        </Disk>
-      </DiskConfiguration>
-      <DynamicUpdate>
-        <Enable>true</Enable>
-        <WillShowUI>Never</WillShowUI>
-      </DynamicUpdate>
-      <ImageInstall>
-        <OSImage>
-          <InstallTo>
-            <DiskID>0</DiskID>
-            <PartitionID>4</PartitionID>
-          </InstallTo>
-          <InstallToAvailablePartition>false</InstallToAvailablePartition>
-        </OSImage>
-      </ImageInstall>
-      <RunSynchronous>
-        <RunSynchronousCommand wcm:action="add">
-          <Order>1</Order>
-          <Path>reg add HKLM\System\Setup\LabConfig /v BypassCPUCheck /t REG_DWORD /d 0x00000001 /f</Path>
-        </RunSynchronousCommand>
-        <RunSynchronousCommand wcm:action="add">
-          <Order>2</Order>
-          <Path>reg add HKLM\System\Setup\LabConfig /v BypassRAMCheck /t REG_DWORD /d 0x00000001 /f</Path>
-        </RunSynchronousCommand>
-        <RunSynchronousCommand wcm:action="add">
-          <Order>3</Order>
-          <Path>reg add HKLM\System\Setup\LabConfig /v BypassSecureBootCheck /t REG_DWORD /d 0x00000001 /f</Path>
-        </RunSynchronousCommand>
-        <RunSynchronousCommand wcm:action="add">
-          <Order>4</Order>
-          <Path>reg add HKLM\System\Setup\LabConfig /v BypassTPMCheck /t REG_DWORD /d 0x00000001 /f</Path>
-        </RunSynchronousCommand>
-      </RunSynchronous>
-      <UpgradeData>
-        <Upgrade>false</Upgrade>
-        <WillShowUI>Never</WillShowUI>
-      </UpgradeData>
-      <UserData>
-        <AcceptEula>true</AcceptEula>
-        <FullName>Quickemu</FullName>
-        <Organization>Quickemu Project</Organization>
-        <!-- https://docs.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys -->
-        <ProductKey>
-          <Key>W269N-WFGWX-YVC9B-4J6C9-T83GX</Key>
-          <WillShowUI>Never</WillShowUI>
-        </ProductKey>
-      </UserData>
-    </component>
-
-    <component name="Microsoft-Windows-PnpCustomizationsWinPE" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" processorArchitecture="amd64" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <!--
-           This makes the VirtIO drivers available to Windows, assuming that
-           the VirtIO driver disk is available as drive E:
-           https://github.com/virtio-win/virtio-win-pkg-scripts/blob/master/README.md
-      -->
-      <DriverPaths>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="1">
-          <Path>E:\qemufwcfg\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="2">
-          <Path>E:\vioinput\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="3">
-          <Path>E:\vioscsi\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="4">
-          <Path>E:\viostor\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="5">
-          <Path>E:\vioserial\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="6">
-          <Path>E:\qxldod\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="7">
-          <Path>E:\amd64\w10</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="8">
-          <Path>E:\viogpudo\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="9">
-          <Path>E:\viorng\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="10">
-          <Path>E:\NetKVM\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="11">
-          <Path>E:\viofs\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="12">
-          <Path>E:\Balloon\w10\amd64</Path>
-        </PathAndCredentials>
-      </DriverPaths>
-    </component>
-  </settings>
-
-  <settings pass="oobeSystem">
-    <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <AutoLogon>
-        <Password>
-          <Value>quickemu</Value>
-          <PlainText>true</PlainText>
-        </Password>
-        <Enabled>true</Enabled>
-        <Username>Quickemu</Username>
-      </AutoLogon>
-      <DisableAutoDaylightTimeSet>false</DisableAutoDaylightTimeSet>
-      <OOBE>
-        <HideEULAPage>true</HideEULAPage>
-        <HideLocalAccountScreen>true</HideLocalAccountScreen>
-        <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
-        <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
-        <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
-        <NetworkLocation>Home</NetworkLocation>
-        <ProtectYourPC>3</ProtectYourPC>
-        <SkipUserOOBE>true</SkipUserOOBE>
-        <SkipMachineOOBE>true</SkipMachineOOBE>
-        <VMModeOptimizations>
-          <SkipWinREInitialization>true</SkipWinREInitialization>
-        </VMModeOptimizations>
-      </OOBE>
-      <UserAccounts>
-        <LocalAccounts>
-          <LocalAccount wcm:action="add">
-            <Password>
-              <Value>quickemu</Value>
-              <PlainText>true</PlainText>
-            </Password>
-            <Description>Quickemu</Description>
-            <DisplayName>Quickemu</DisplayName>
-            <Group>Administrators</Group>
-            <Name>Quickemu</Name>
-          </LocalAccount>
-        </LocalAccounts>
-      </UserAccounts>
-      <RegisteredOrganization>Quickemu Project</RegisteredOrganization>
-      <RegisteredOwner>Quickemu</RegisteredOwner>
-      <FirstLogonCommands>
-        <SynchronousCommand wcm:action="add">
-          <CommandLine>msiexec /i E:\guest-agent\qemu-ga-x86_64.msi /quiet /passive /qn</CommandLine>
-          <Description>Install Virtio Guest Agent</Description>
-          <Order>1</Order>
-        </SynchronousCommand>
-        <SynchronousCommand wcm:action="add">
-          <CommandLine>msiexec /i F:\spice-webdavd-x64-latest.msi /quiet /passive /qn</CommandLine>
-          <Description>Install spice-webdavd file sharing agent</Description>
-          <Order>2</Order>
-        </SynchronousCommand>
-        <SynchronousCommand wcm:action="add">
-          <CommandLine>msiexec /i F:\UsbDk_1.0.22_x64.msi /quiet /passive /qn</CommandLine>
-          <Description>Install usbdk USB sharing agent</Description>
-          <Order>3</Order>
-        </SynchronousCommand>
-        <SynchronousCommand wcm:action="add">
-          <CommandLine>msiexec /i F:\spice-vdagent-x64-0.10.0.msi /quiet /passive /qn</CommandLine>
-          <Description>Install spice-vdagent SPICE agent</Description>
-          <Order>4</Order>
-        </SynchronousCommand>
-        <SynchronousCommand wcm:action="add">
-          <CommandLine>Cmd /c POWERCFG -H OFF</CommandLine>
-          <Description>Disable Hibernation</Description>
-          <Order>5</Order>
-        </SynchronousCommand>
-      </FirstLogonCommands>
-    </component>
-  </settings>
-</unattend>
-EOF
-
-
-echo "Downloading Spice drivers..."
-web_get https://www.spice-space.org/download/windows/spice-webdavd/spice-webdavd-x64-latest.msi "${VM_PATH}/unattended"
-web_get https://www.spice-space.org/download/windows/vdagent/vdagent-win-0.10.0/spice-vdagent-x64-0.10.0.msi "${VM_PATH}/unattended"
-web_get https://www.spice-space.org/download/windows/usbdk/UsbDk_1.0.22_x64.msi "${VM_PATH}/unattended"
-
-echo "Making unattended.iso"
-mkisofs -quiet -l -o "${VM_PATH}/unattended.iso" "${VM_PATH}/unattended/"
-}
-
-function handle_curl_error() {
-    local error_code="$1"
-    local fatal_error_action=2
-    case "$error_code" in
-        6)
-            echo "Failed to resolve Microsoft servers! Is there an Internet connection? Exiting..."
-            return "$fatal_error_action"
-            ;;
-        7)
-            echo "Failed to contact Microsoft servers! Is there an Internet connection or is the server down?"
-            ;;
-        8)
-            echo "Microsoft servers returned a malformed HTTP response!"
-            ;;
-        22)
-            echo "Microsoft servers returned a failing HTTP status code!"
-            ;;
-        23)
-            echo "Failed at writing Windows media to disk! Out of disk space or permission error? Exiting..."
-            return "$fatal_error_action"
-            ;;
-        26)
-            echo "Ran out of memory during download! Exiting..."
-            return "$fatal_error_action"
-            ;;
-        36)
-            echo "Failed to continue earlier download!"
-            ;;
-        63)
-            echo "Microsoft servers returned an unexpectedly large response!"
-            ;;
-            # POSIX defines exit statuses 1-125 as usable by us
-            # https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_08_02
-            $((error_code <= 125)))
-            # Must be some other server or network error (possibly with this specific request/file)
-            # This is when accounting for all possible errors in the curl manual assuming a correctly formed curl command and an HTTP(S) request, using only the curl features we're using, and a sane build
-            echo "Miscellaneous server or network error!"
-            ;;
-        126 | 127 )
-            echo "Curl command not found! Please install curl and try again. Exiting..."
-            return "$fatal_error_action"
-            ;;
-        # Exit statuses are undefined by POSIX beyond this point
-        *)
-            case "$(kill -l "$error_code")" in
-            # Signals defined to exist by POSIX:
-            # https://pubs.opengroup.org/onlinepubs/009695399/basedefs/signal.h.html
-            INT)
-                echo "Curl was interrupted!"
-                ;;
-            # There could be other signals but these are most common
-            SEGV | ABRT )
-                echo "Curl crashed! Failed exploitation attempt? Please report any core dumps to curl developers. Exiting..."
-                return "$fatal_error_action"
-                ;;
-            *)
-                echo "Curl terminated due to a fatal signal!"
-                ;;
-            esac
-    esac
-    return 1
-}
-
-function download_windows_server() {
-    local iso_download_page_html=""
-    # Copyright (C) 2024 Elliot Killick <contact@elliotkillick.com>
-    # This function is adapted from the Mido project:
-    # https://github.com/ElliotKillick/Mido
-
-    # Download enterprise evaluation Windows versions
-    local windows_version="$1"
-    local enterprise_type="$2"
-    local PRETTY_RELEASE=""
-
-    case "${RELEASE}" in
-        *) PRETTY_RELEASE="${RELEASE}";;
-    esac
-
-    echo "Downloading $(pretty_name "${OS}") ${PRETTY_RELEASE} (${I18N})"
-
-    local url="https://www.microsoft.com/en-us/evalcenter/download-$windows_version"
-
-    echo " - Parsing download page: ${url}"
-    iso_download_page_html="$(curl --disable --silent --location --max-filesize 1M --fail --proto =https --tlsv1.2 --http1.1 -- "$url")" || {
-        handle_curl_error $?
-        return $?
-    }
-
-    if ! [ "$iso_download_page_html" ]; then
-        # This should only happen if there's been some change to where this download page is located
-        echo " - Windows server download page gave us an empty response"
-        return 1
-    fi
-
-    local CULTURE=""
-    local COUNTRY=""
-    case "${I18N}" in
-        "English (Great Britain)")
-            CULTURE="en-gb"
-            COUNTRY="GB";;
-        "Chinese (Simplified)")
-            CULTURE="zh-cn"
-            COUNTRY="CN";;
-        "Chinese (Traditional)")
-            CULTURE="zh-tw"
-            COUNTRY="TW";;
-        "French")
-            CULTURE="fr-fr"
-            COUNTRY="FR";;
-        "German")
-            CULTURE="de-de"
-            COUNTRY="DE";;
-        "Italian")
-            CULTURE="it-it"
-            COUNTRY="IT";;
-        "Japanese")
-            CULTURE="ja-jp"
-            COUNTRY="JP";;
-        "Korean")
-            CULTURE="ko-kr"
-            COUNTRY="KR";;
-        "Portuguese (Brazil)")
-            CULTURE="pt-br"
-            COUNTRY="BR";;
-        "Spanish")
-            CULTURE="es-es"
-            COUNTRY="ES";;
-        "Russian")
-            CULTURE="ru-ru"
-            COUNTRY="RU";;
-        *)
-            CULTURE="en-us"
-            COUNTRY="US";;
-    esac
-
-    echo " - Getting download link.."
-    iso_download_links="$(echo "$iso_download_page_html" | grep -o "https://go.microsoft.com/fwlink/p/?LinkID=[0-9]\+&clcid=0x[0-9a-z]\+&culture=${CULTURE}&country=${COUNTRY}")" || {
-        # This should only happen if there's been some change to the download endpoint web address
-        echo " - Windows server download page gave us no download link"
-        return 1
-    }
-
-    # Limit untrusted size for input validation
-    iso_download_links="$(echo "$iso_download_links" | head -c 1024)"
-
-    case "$enterprise_type" in
-        # Select x64 download link
-        "enterprise") iso_download_link=$(echo "$iso_download_links" | head -n 2 | tail -n 1) ;;
-        # Select x64 LTSC download link
-        "ltsc") iso_download_link=$(echo "$iso_download_links" | head -n 4 | tail -n 1) ;;
-        *) iso_download_link="$iso_download_links" ;;
-    esac
-
-    # Follow redirect so proceeding log message is useful
-    # This is a request we make this Fido doesn't
-    # We don't need to set "--max-filesize" here because this is a HEAD request and the output is to /dev/null anyway
-    iso_download_link="$(curl --disable --silent --location --output /dev/null --silent --write-out "%{url_effective}" --head --fail --proto =https --tlsv1.2 --http1.1 -- "$iso_download_link")" || {
-        # This should only happen if the Microsoft servers are down
-        handle_curl_error $?
-        return $?
-    }
-
-    # Limit untrusted size for input validation
-    iso_download_link="$(echo "$iso_download_link" | head -c 1024)"
-
-    echo " - URL: $iso_download_link"
-
-    # Download ISO
-    FILE_NAME="${iso_download_link##*/}"
-    web_get "${iso_download_link}" "${VM_PATH}" "${FILE_NAME}"
-    OS="windows-server"
-}
-
-function download_windows_workstation() {
-    local HASH=""
-    local session_id=""
-    local iso_download_page_html=""
-    local product_edition_id=""
-    local language_skuid_table_json=""
-    local sku_id=""
-    local iso_download_link_json=""
-    local iso_download_link=""
-
-    echo "Downloading Windows ${RELEASE} (${I18N})"
-    # This function is adapted from the Mido project:
-    # https://github.com/ElliotKillick/Mido
-    # Download newer consumer Windows versions from behind gated Microsoft API
-
-    # Either 10, or 11
-    local windows_version="$1"
-
-    local url="https://www.microsoft.com/en-us/software-download/windows$windows_version"
-    case "$windows_version" in
-        10) url="${url}ISO";;
-    esac
-
-    local user_agent="Mozilla/5.0 (X11; Linux x86_64; rv:100.0) Gecko/20100101 Firefox/100.0"
-    session_id="$(uuidgen)"
-
-    # Get product edition ID for latest release of given Windows version
-    # Product edition ID: This specifies both the Windows release (e.g. 22H2) and edition ("multi-edition" is default, either Home/Pro/Edu/etc., we select "Pro" in the answer files) in one number
-    # This is the *only* request we make that Fido doesn't. Fido manually maintains a list of all the Windows release/edition product edition IDs in its script (see: $WindowsVersions array). This is helpful for downloading older releases (e.g. Windows 10 1909, 21H1, etc.) but we always want to get the newest release which is why we get this value dynamically
-    # Also, keeping a "$WindowsVersions" array like Fido does would be way too much of a maintenance burden
-    # Remove "Accept" header that curl sends by default
-    echo " - Parsing download page: ${url}"
-    iso_download_page_html="$(curl --disable --silent --user-agent "$user_agent" --header "Accept:" --max-filesize 1M --fail --proto =https --tlsv1.2 --http1.1 -- "$url")" || {
-        handle_curl_error $?
-        return $?
-    }
-
-    echo -n " - Getting Product edition ID: "
-    # tr: Filter for only numerics to prevent HTTP parameter injection
-    # head -c was recently added to POSIX: https://austingroupbugs.net/view.php?id=407
-    product_edition_id="$(echo "$iso_download_page_html" | grep -Eo '<option value="[0-9]+">Windows' | cut -d '"' -f 2 | head -n 1 | tr -cd '0-9' | head -c 16)"
-    echo "$product_edition_id"
-
-    echo " - Permit Session ID: $session_id"
-    # Permit Session ID
-    # "org_id" is always the same value
-    curl --disable --silent --output /dev/null --user-agent "$user_agent" --header "Accept:" --max-filesize 100K --fail --proto =https --tlsv1.2 --http1.1 -- "https://vlscppe.microsoft.com/tags?org_id=y6jn8c31&session_id=$session_id" || {
-        # This should only happen if there's been some change to how this API works
-        handle_curl_error $?
-        return $?
-    }
-
-    local profile="606624d44113"
-
-    echo -n " - Getting language SKU ID: "
-    # Get language -> skuID association table
-    language_skuid_table_json="$(curl --disable -s --fail --max-filesize 100K --proto =https --tlsv1.2 --http1.1 "https://www.microsoft.com/software-download-connector/api/getskuinformationbyproductedition?profile=${profile}&ProductEditionId=${product_edition_id}&SKU=undefined&friendlyFileName=undefined&Locale=en-US&sessionID=${session_id}")" || {
-        handle_curl_error $?
-        return $?
-    }
-
-    sku_id="$(echo "${language_skuid_table_json}" | jq -r '.Skus[] | select(.LocalizedLanguage=="'"${I18N}"'" or .Language=="'"${I18N}"'").Id')"
-    echo "$sku_id"
-
-    echo " - Getting ISO download link..."
-    # Get ISO download link
-    # If any request is going to be blocked by Microsoft it's always this last one (the previous requests always seem to succeed)
-    # --referer: Required by Microsoft servers to allow request
-    iso_download_link_json="$(curl --disable -s --fail --referer "$url" "https://www.microsoft.com/software-download-connector/api/GetProductDownloadLinksBySku?profile=${profile}&productEditionId=undefined&SKU=${sku_id}&friendlyFileName=undefined&Locale=en-US&sessionID=${session_id}")"
-
-    local failed=0
-
-    if ! [ "$iso_download_link_json" ]; then
-        # This should only happen if there's been some change to how this API works
-        echo " - Microsoft servers gave us an empty response to our request for an automated download."
-        failed=1
-    fi
-
-    if echo "$iso_download_link_json" | grep -q "Sentinel marked this request as rejected."; then
-        echo " - WARNING! Microsoft blocked the automated download request based on your IP address."
-        failed=1
-    fi
-
-    if [ ${failed} -eq 1 ]; then
-        echo "   Manually download the Windows ${windows_version} ISO using a web browser from: ${url}"
-        echo "   Save the downloaded ISO to: $(realpath "${VM_PATH}")"
-        echo "   Update the config file to reference the downloaded ISO: ./${VM_PATH}.conf"
-        echo "   Continuing with the VM creation process..."
-        return 1
-    fi
-
-    # Filter for 64-bit ISO download URL
-    iso_download_link="$(echo "${iso_download_link_json}" | jq -r '.ProductDownloadOptions[].Uri' | grep x64)"
-
-    if ! [ "$iso_download_link" ]; then
-        # This should only happen if there's been some change to the download endpoint web address
-        echo " - Microsoft servers gave us no download link to our request for an automated download. Please manually download this ISO in a web browser: $url"
-        return 1
-    fi
-
-    echo " - URL: ${iso_download_link%%\?*}"
-
-    # Download ISO
-    FILE_NAME="$(echo "$iso_download_link" | cut -d'?' -f1 | cut -d'/' -f5)"
-    web_get "${iso_download_link}" "${VM_PATH}" "${FILE_NAME}"
-}
 
 function get_() {
     if [ "${OS}" == "windows-server" ]; then
@@ -5935,620 +4271,7 @@ GUEST="windows"
 RELEASES=""
 
 
-function releases_() {
-    echo 11 10
-}
 
-function languages_() {
-    I18NS=("Arabic" "Brazilian Portuguese" "Bulgarian" "Chinese (Simplified)" "Chinese (Traditional)" "Croatian" "Czech" "Danish" "Dutch" \
-    "English (United States)" "English International" "Estonian" "Finnish" "French" "French Canadian" "German" "Greek" "Hebrew" "Hungarian" \
-    "Italian" "Japanese" "Korean" "Latvian" "Lithuanian" "Norwegian" "Polish" "Portuguese" "Romanian" "Russian" "Serbian Latin" "Slovak" \
-    "Slovenian" "Spanish" "Spanish (Mexico)" "Swedish" "Thai" "Turkish" "Ukrainian")
-}
-
-function unattended_windows() {
-    mkdir -p "${1}/unattended" 2>/dev/null
-
-    cat << 'EOF' > "${1}/unattended/autounattend.xml"
-<?xml version="1.0" encoding="utf-8"?>
-<unattend xmlns="urn:schemas-microsoft-com:unattend"
-  xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <!--
-       For documentation on components:
-       https://docs.microsoft.com/en-us/windows-hardware/customize/desktop/unattend/
-  -->
-  <settings pass="offlineServicing">
-    <component name="Microsoft-Windows-LUA-Settings" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <EnableLUA>false</EnableLUA>
-    </component>
-    <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <ComputerName>*</ComputerName>
-    </component>
-  </settings>
-
-  <settings pass="generalize">
-    <component name="Microsoft-Windows-PnPSysprep" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
-      <PersistAllDeviceInstalls>true</PersistAllDeviceInstalls>
-    </component>
-    <component name="Microsoft-Windows-Security-SPP" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <SkipRearm>1</SkipRearm>
-    </component>
-  </settings>
-
-  <settings pass="specialize">
-    <component name="Microsoft-Windows-Security-SPP-UX" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <SkipAutoActivation>true</SkipAutoActivation>
-    </component>
-    <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <ComputerName>*</ComputerName>
-      <OEMInformation>
-        <Manufacturer>Quickemu Project</Manufacturer>
-        <Model>Quickemu</Model>
-        <SupportHours>24/7</SupportHours>
-        <SupportPhone></SupportPhone>
-        <SupportProvider>Quickemu Project</SupportProvider>
-        <SupportURL>https://github.com/quickemu-project/quickemu/issues</SupportURL>
-      </OEMInformation>
-      <OEMName>Quickemu Project</OEMName>
-      <ProductKey>W269N-WFGWX-YVC9B-4J6C9-T83GX</ProductKey>
-    </component>
-    <component name="Microsoft-Windows-SQMApi" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <CEIPEnabled>0</CEIPEnabled>
-    </component>
-  </settings>
-
-  <settings pass="windowsPE">
-    <component name="Microsoft-Windows-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Diagnostics>
-        <OptIn>false</OptIn>
-      </Diagnostics>
-      <DiskConfiguration>
-        <Disk wcm:action="add">
-          <DiskID>0</DiskID>
-          <WillWipeDisk>true</WillWipeDisk>
-          <CreatePartitions>
-            <!-- Windows RE Tools partition -->
-            <CreatePartition wcm:action="add">
-              <Order>1</Order>
-              <Type>Primary</Type>
-              <Size>256</Size>
-            </CreatePartition>
-            <!-- System partition (ESP) -->
-            <CreatePartition wcm:action="add">
-              <Order>2</Order>
-              <Type>EFI</Type>
-              <Size>128</Size>
-            </CreatePartition>
-            <!-- Microsoft reserved partition (MSR) -->
-            <CreatePartition wcm:action="add">
-              <Order>3</Order>
-              <Type>MSR</Type>
-              <Size>128</Size>
-            </CreatePartition>
-            <!-- Windows partition -->
-            <CreatePartition wcm:action="add">
-              <Order>4</Order>
-              <Type>Primary</Type>
-              <Extend>true</Extend>
-            </CreatePartition>
-          </CreatePartitions>
-          <ModifyPartitions>
-            <!-- Windows RE Tools partition -->
-            <ModifyPartition wcm:action="add">
-              <Order>1</Order>
-              <PartitionID>1</PartitionID>
-              <Label>WINRE</Label>
-              <Format>NTFS</Format>
-              <TypeID>DE94BBA4-06D1-4D40-A16A-BFD50179D6AC</TypeID>
-            </ModifyPartition>
-            <!-- System partition (ESP) -->
-            <ModifyPartition wcm:action="add">
-              <Order>2</Order>
-              <PartitionID>2</PartitionID>
-              <Label>System</Label>
-              <Format>FAT32</Format>
-            </ModifyPartition>
-            <!-- MSR partition does not need to be modified -->
-            <ModifyPartition wcm:action="add">
-              <Order>3</Order>
-              <PartitionID>3</PartitionID>
-            </ModifyPartition>
-            <!-- Windows partition -->
-              <ModifyPartition wcm:action="add">
-              <Order>4</Order>
-              <PartitionID>4</PartitionID>
-              <Label>Windows</Label>
-              <Letter>C</Letter>
-              <Format>NTFS</Format>
-            </ModifyPartition>
-          </ModifyPartitions>
-        </Disk>
-      </DiskConfiguration>
-      <DynamicUpdate>
-        <Enable>true</Enable>
-        <WillShowUI>Never</WillShowUI>
-      </DynamicUpdate>
-      <ImageInstall>
-        <OSImage>
-          <InstallTo>
-            <DiskID>0</DiskID>
-            <PartitionID>4</PartitionID>
-          </InstallTo>
-          <InstallToAvailablePartition>false</InstallToAvailablePartition>
-        </OSImage>
-      </ImageInstall>
-      <RunSynchronous>
-        <RunSynchronousCommand wcm:action="add">
-          <Order>1</Order>
-          <Path>reg add HKLM\System\Setup\LabConfig /v BypassCPUCheck /t REG_DWORD /d 0x00000001 /f</Path>
-        </RunSynchronousCommand>
-        <RunSynchronousCommand wcm:action="add">
-          <Order>2</Order>
-          <Path>reg add HKLM\System\Setup\LabConfig /v BypassRAMCheck /t REG_DWORD /d 0x00000001 /f</Path>
-        </RunSynchronousCommand>
-        <RunSynchronousCommand wcm:action="add">
-          <Order>3</Order>
-          <Path>reg add HKLM\System\Setup\LabConfig /v BypassSecureBootCheck /t REG_DWORD /d 0x00000001 /f</Path>
-        </RunSynchronousCommand>
-        <RunSynchronousCommand wcm:action="add">
-          <Order>4</Order>
-          <Path>reg add HKLM\System\Setup\LabConfig /v BypassTPMCheck /t REG_DWORD /d 0x00000001 /f</Path>
-        </RunSynchronousCommand>
-      </RunSynchronous>
-      <UpgradeData>
-        <Upgrade>false</Upgrade>
-        <WillShowUI>Never</WillShowUI>
-      </UpgradeData>
-      <UserData>
-        <AcceptEula>true</AcceptEula>
-        <FullName>Quickemu</FullName>
-        <Organization>Quickemu Project</Organization>
-        <!-- https://docs.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys -->
-        <ProductKey>
-          <Key>W269N-WFGWX-YVC9B-4J6C9-T83GX</Key>
-          <WillShowUI>Never</WillShowUI>
-        </ProductKey>
-      </UserData>
-    </component>
-
-    <component name="Microsoft-Windows-PnpCustomizationsWinPE" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" processorArchitecture="amd64" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <!--
-           This makes the VirtIO drivers available to Windows, assuming that
-           the VirtIO driver disk is available as drive E:
-           https://github.com/virtio-win/virtio-win-pkg-scripts/blob/master/README.md
-      -->
-      <DriverPaths>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="1">
-          <Path>E:\qemufwcfg\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="2">
-          <Path>E:\vioinput\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="3">
-          <Path>E:\vioscsi\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="4">
-          <Path>E:\viostor\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="5">
-          <Path>E:\vioserial\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="6">
-          <Path>E:\qxldod\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="7">
-          <Path>E:\amd64\w10</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="8">
-          <Path>E:\viogpudo\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="9">
-          <Path>E:\viorng\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="10">
-          <Path>E:\NetKVM\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="11">
-          <Path>E:\viofs\w10\amd64</Path>
-        </PathAndCredentials>
-        <PathAndCredentials wcm:action="add" wcm:keyValue="12">
-          <Path>E:\Balloon\w10\amd64</Path>
-        </PathAndCredentials>
-      </DriverPaths>
-    </component>
-  </settings>
-
-  <settings pass="oobeSystem">
-    <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <AutoLogon>
-        <Password>
-          <Value>quickemu</Value>
-          <PlainText>true</PlainText>
-        </Password>
-        <Enabled>true</Enabled>
-        <Username>Quickemu</Username>
-      </AutoLogon>
-      <DisableAutoDaylightTimeSet>false</DisableAutoDaylightTimeSet>
-      <OOBE>
-        <HideEULAPage>true</HideEULAPage>
-        <HideLocalAccountScreen>true</HideLocalAccountScreen>
-        <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
-        <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
-        <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
-        <NetworkLocation>Home</NetworkLocation>
-        <ProtectYourPC>3</ProtectYourPC>
-        <SkipUserOOBE>true</SkipUserOOBE>
-        <SkipMachineOOBE>true</SkipMachineOOBE>
-        <VMModeOptimizations>
-          <SkipWinREInitialization>true</SkipWinREInitialization>
-        </VMModeOptimizations>
-      </OOBE>
-      <UserAccounts>
-        <LocalAccounts>
-          <LocalAccount wcm:action="add">
-            <Password>
-              <Value>quickemu</Value>
-              <PlainText>true</PlainText>
-            </Password>
-            <Description>Quickemu</Description>
-            <DisplayName>Quickemu</DisplayName>
-            <Group>Administrators</Group>
-            <Name>Quickemu</Name>
-          </LocalAccount>
-        </LocalAccounts>
-      </UserAccounts>
-      <RegisteredOrganization>Quickemu Project</RegisteredOrganization>
-      <RegisteredOwner>Quickemu</RegisteredOwner>
-      <FirstLogonCommands>
-        <SynchronousCommand wcm:action="add">
-          <CommandLine>msiexec /i E:\guest-agent\qemu-ga-x86_64.msi /quiet /passive /qn</CommandLine>
-          <Description>Install Virtio Guest Agent</Description>
-          <Order>1</Order>
-        </SynchronousCommand>
-        <SynchronousCommand wcm:action="add">
-          <CommandLine>msiexec /i F:\spice-webdavd-x64-latest.msi /quiet /passive /qn</CommandLine>
-          <Description>Install spice-webdavd file sharing agent</Description>
-          <Order>2</Order>
-        </SynchronousCommand>
-        <SynchronousCommand wcm:action="add">
-          <CommandLine>msiexec /i F:\UsbDk_1.0.22_x64.msi /quiet /passive /qn</CommandLine>
-          <Description>Install usbdk USB sharing agent</Description>
-          <Order>3</Order>
-        </SynchronousCommand>
-        <SynchronousCommand wcm:action="add">
-          <CommandLine>msiexec /i F:\spice-vdagent-x64-0.10.0.msi /quiet /passive /qn</CommandLine>
-          <Description>Install spice-vdagent SPICE agent</Description>
-          <Order>4</Order>
-        </SynchronousCommand>
-        <SynchronousCommand wcm:action="add">
-          <CommandLine>Cmd /c POWERCFG -H OFF</CommandLine>
-          <Description>Disable Hibernation</Description>
-          <Order>5</Order>
-        </SynchronousCommand>
-      </FirstLogonCommands>
-    </component>
-  </settings>
-</unattend>
-EOF
-
-
-echo "Downloading Spice drivers..."
-web_get https://www.spice-space.org/download/windows/spice-webdavd/spice-webdavd-x64-latest.msi "${VM_PATH}/unattended"
-web_get https://www.spice-space.org/download/windows/vdagent/vdagent-win-0.10.0/spice-vdagent-x64-0.10.0.msi "${VM_PATH}/unattended"
-web_get https://www.spice-space.org/download/windows/usbdk/UsbDk_1.0.22_x64.msi "${VM_PATH}/unattended"
-
-echo "Making unattended.iso"
-mkisofs -quiet -l -o "${VM_PATH}/unattended.iso" "${VM_PATH}/unattended/"
-}
-
-function handle_curl_error() {
-    local error_code="$1"
-    local fatal_error_action=2
-    case "$error_code" in
-        6)
-            echo "Failed to resolve Microsoft servers! Is there an Internet connection? Exiting..."
-            return "$fatal_error_action"
-            ;;
-        7)
-            echo "Failed to contact Microsoft servers! Is there an Internet connection or is the server down?"
-            ;;
-        8)
-            echo "Microsoft servers returned a malformed HTTP response!"
-            ;;
-        22)
-            echo "Microsoft servers returned a failing HTTP status code!"
-            ;;
-        23)
-            echo "Failed at writing Windows media to disk! Out of disk space or permission error? Exiting..."
-            return "$fatal_error_action"
-            ;;
-        26)
-            echo "Ran out of memory during download! Exiting..."
-            return "$fatal_error_action"
-            ;;
-        36)
-            echo "Failed to continue earlier download!"
-            ;;
-        63)
-            echo "Microsoft servers returned an unexpectedly large response!"
-            ;;
-            # POSIX defines exit statuses 1-125 as usable by us
-            # https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_08_02
-            $((error_code <= 125)))
-            # Must be some other server or network error (possibly with this specific request/file)
-            # This is when accounting for all possible errors in the curl manual assuming a correctly formed curl command and an HTTP(S) request, using only the curl features we're using, and a sane build
-            echo "Miscellaneous server or network error!"
-            ;;
-        126 | 127 )
-            echo "Curl command not found! Please install curl and try again. Exiting..."
-            return "$fatal_error_action"
-            ;;
-        # Exit statuses are undefined by POSIX beyond this point
-        *)
-            case "$(kill -l "$error_code")" in
-            # Signals defined to exist by POSIX:
-            # https://pubs.opengroup.org/onlinepubs/009695399/basedefs/signal.h.html
-            INT)
-                echo "Curl was interrupted!"
-                ;;
-            # There could be other signals but these are most common
-            SEGV | ABRT )
-                echo "Curl crashed! Failed exploitation attempt? Please report any core dumps to curl developers. Exiting..."
-                return "$fatal_error_action"
-                ;;
-            *)
-                echo "Curl terminated due to a fatal signal!"
-                ;;
-            esac
-    esac
-    return 1
-}
-
-function download_windows_server() {
-    local iso_download_page_html=""
-    # Copyright (C) 2024 Elliot Killick <contact@elliotkillick.com>
-    # This function is adapted from the Mido project:
-    # https://github.com/ElliotKillick/Mido
-
-    # Download enterprise evaluation Windows versions
-    local windows_version="$1"
-    local enterprise_type="$2"
-    local PRETTY_RELEASE=""
-
-    case "${RELEASE}" in
-        *) PRETTY_RELEASE="${RELEASE}";;
-    esac
-
-    echo "Downloading $(pretty_name "${OS}") ${PRETTY_RELEASE} (${I18N})"
-
-    local url="https://www.microsoft.com/en-us/evalcenter/download-$windows_version"
-
-    echo " - Parsing download page: ${url}"
-    iso_download_page_html="$(curl --disable --silent --location --max-filesize 1M --fail --proto =https --tlsv1.2 --http1.1 -- "$url")" || {
-        handle_curl_error $?
-        return $?
-    }
-
-    if ! [ "$iso_download_page_html" ]; then
-        # This should only happen if there's been some change to where this download page is located
-        echo " - Windows server download page gave us an empty response"
-        return 1
-    fi
-
-    local CULTURE=""
-    local COUNTRY=""
-    case "${I18N}" in
-        "English (Great Britain)")
-            CULTURE="en-gb"
-            COUNTRY="GB";;
-        "Chinese (Simplified)")
-            CULTURE="zh-cn"
-            COUNTRY="CN";;
-        "Chinese (Traditional)")
-            CULTURE="zh-tw"
-            COUNTRY="TW";;
-        "French")
-            CULTURE="fr-fr"
-            COUNTRY="FR";;
-        "German")
-            CULTURE="de-de"
-            COUNTRY="DE";;
-        "Italian")
-            CULTURE="it-it"
-            COUNTRY="IT";;
-        "Japanese")
-            CULTURE="ja-jp"
-            COUNTRY="JP";;
-        "Korean")
-            CULTURE="ko-kr"
-            COUNTRY="KR";;
-        "Portuguese (Brazil)")
-            CULTURE="pt-br"
-            COUNTRY="BR";;
-        "Spanish")
-            CULTURE="es-es"
-            COUNTRY="ES";;
-        "Russian")
-            CULTURE="ru-ru"
-            COUNTRY="RU";;
-        *)
-            CULTURE="en-us"
-            COUNTRY="US";;
-    esac
-
-    echo " - Getting download link.."
-    iso_download_links="$(echo "$iso_download_page_html" | grep -o "https://go.microsoft.com/fwlink/p/?LinkID=[0-9]\+&clcid=0x[0-9a-z]\+&culture=${CULTURE}&country=${COUNTRY}")" || {
-        # This should only happen if there's been some change to the download endpoint web address
-        echo " - Windows server download page gave us no download link"
-        return 1
-    }
-
-    # Limit untrusted size for input validation
-    iso_download_links="$(echo "$iso_download_links" | head -c 1024)"
-
-    case "$enterprise_type" in
-        # Select x64 download link
-        "enterprise") iso_download_link=$(echo "$iso_download_links" | head -n 2 | tail -n 1) ;;
-        # Select x64 LTSC download link
-        "ltsc") iso_download_link=$(echo "$iso_download_links" | head -n 4 | tail -n 1) ;;
-        *) iso_download_link="$iso_download_links" ;;
-    esac
-
-    # Follow redirect so proceeding log message is useful
-    # This is a request we make this Fido doesn't
-    # We don't need to set "--max-filesize" here because this is a HEAD request and the output is to /dev/null anyway
-    iso_download_link="$(curl --disable --silent --location --output /dev/null --silent --write-out "%{url_effective}" --head --fail --proto =https --tlsv1.2 --http1.1 -- "$iso_download_link")" || {
-        # This should only happen if the Microsoft servers are down
-        handle_curl_error $?
-        return $?
-    }
-
-    # Limit untrusted size for input validation
-    iso_download_link="$(echo "$iso_download_link" | head -c 1024)"
-
-    echo " - URL: $iso_download_link"
-
-    # Download ISO
-    FILE_NAME="${iso_download_link##*/}"
-    web_get "${iso_download_link}" "${VM_PATH}" "${FILE_NAME}"
-    OS="windows-server"
-}
-
-function download_windows_workstation() {
-    local HASH=""
-    local session_id=""
-    local iso_download_page_html=""
-    local product_edition_id=""
-    local language_skuid_table_json=""
-    local sku_id=""
-    local iso_download_link_json=""
-    local iso_download_link=""
-
-    echo "Downloading Windows ${RELEASE} (${I18N})"
-    # This function is adapted from the Mido project:
-    # https://github.com/ElliotKillick/Mido
-    # Download newer consumer Windows versions from behind gated Microsoft API
-
-    # Either 10, or 11
-    local windows_version="$1"
-
-    local url="https://www.microsoft.com/en-us/software-download/windows$windows_version"
-    case "$windows_version" in
-        10) url="${url}ISO";;
-    esac
-
-    local user_agent="Mozilla/5.0 (X11; Linux x86_64; rv:100.0) Gecko/20100101 Firefox/100.0"
-    session_id="$(uuidgen)"
-
-    # Get product edition ID for latest release of given Windows version
-    # Product edition ID: This specifies both the Windows release (e.g. 22H2) and edition ("multi-edition" is default, either Home/Pro/Edu/etc., we select "Pro" in the answer files) in one number
-    # This is the *only* request we make that Fido doesn't. Fido manually maintains a list of all the Windows release/edition product edition IDs in its script (see: $WindowsVersions array). This is helpful for downloading older releases (e.g. Windows 10 1909, 21H1, etc.) but we always want to get the newest release which is why we get this value dynamically
-    # Also, keeping a "$WindowsVersions" array like Fido does would be way too much of a maintenance burden
-    # Remove "Accept" header that curl sends by default
-    echo " - Parsing download page: ${url}"
-    iso_download_page_html="$(curl --disable --silent --user-agent "$user_agent" --header "Accept:" --max-filesize 1M --fail --proto =https --tlsv1.2 --http1.1 -- "$url")" || {
-        handle_curl_error $?
-        return $?
-    }
-
-    echo -n " - Getting Product edition ID: "
-    # tr: Filter for only numerics to prevent HTTP parameter injection
-    # head -c was recently added to POSIX: https://austingroupbugs.net/view.php?id=407
-    product_edition_id="$(echo "$iso_download_page_html" | grep -Eo '<option value="[0-9]+">Windows' | cut -d '"' -f 2 | head -n 1 | tr -cd '0-9' | head -c 16)"
-    echo "$product_edition_id"
-
-    echo " - Permit Session ID: $session_id"
-    # Permit Session ID
-    # "org_id" is always the same value
-    curl --disable --silent --output /dev/null --user-agent "$user_agent" --header "Accept:" --max-filesize 100K --fail --proto =https --tlsv1.2 --http1.1 -- "https://vlscppe.microsoft.com/tags?org_id=y6jn8c31&session_id=$session_id" || {
-        # This should only happen if there's been some change to how this API works
-        handle_curl_error $?
-        return $?
-    }
-
-    local profile="606624d44113"
-
-    echo -n " - Getting language SKU ID: "
-    # Get language -> skuID association table
-    language_skuid_table_json="$(curl --disable -s --fail --max-filesize 100K --proto =https --tlsv1.2 --http1.1 "https://www.microsoft.com/software-download-connector/api/getskuinformationbyproductedition?profile=${profile}&ProductEditionId=${product_edition_id}&SKU=undefined&friendlyFileName=undefined&Locale=en-US&sessionID=${session_id}")" || {
-        handle_curl_error $?
-        return $?
-    }
-
-    sku_id="$(echo "${language_skuid_table_json}" | jq -r '.Skus[] | select(.LocalizedLanguage=="'"${I18N}"'" or .Language=="'"${I18N}"'").Id')"
-    echo "$sku_id"
-
-    echo " - Getting ISO download link..."
-    # Get ISO download link
-    # If any request is going to be blocked by Microsoft it's always this last one (the previous requests always seem to succeed)
-    # --referer: Required by Microsoft servers to allow request
-    iso_download_link_json="$(curl --disable -s --fail --referer "$url" "https://www.microsoft.com/software-download-connector/api/GetProductDownloadLinksBySku?profile=${profile}&productEditionId=undefined&SKU=${sku_id}&friendlyFileName=undefined&Locale=en-US&sessionID=${session_id}")"
-
-    local failed=0
-
-    if ! [ "$iso_download_link_json" ]; then
-        # This should only happen if there's been some change to how this API works
-        echo " - Microsoft servers gave us an empty response to our request for an automated download."
-        failed=1
-    fi
-
-    if echo "$iso_download_link_json" | grep -q "Sentinel marked this request as rejected."; then
-        echo " - WARNING! Microsoft blocked the automated download request based on your IP address."
-        failed=1
-    fi
-
-    if [ ${failed} -eq 1 ]; then
-        echo "   Manually download the Windows ${windows_version} ISO using a web browser from: ${url}"
-        echo "   Save the downloaded ISO to: $(realpath "${VM_PATH}")"
-        echo "   Update the config file to reference the downloaded ISO: ./${VM_PATH}.conf"
-        echo "   Continuing with the VM creation process..."
-        return 1
-    fi
-
-    # Filter for 64-bit ISO download URL
-    iso_download_link="$(echo "${iso_download_link_json}" | jq -r '.ProductDownloadOptions[].Uri' | grep x64)"
-
-    if ! [ "$iso_download_link" ]; then
-        # This should only happen if there's been some change to the download endpoint web address
-        echo " - Microsoft servers gave us no download link to our request for an automated download. Please manually download this ISO in a web browser: $url"
-        return 1
-    fi
-
-    echo " - URL: ${iso_download_link%%\?*}"
-
-    # Download ISO
-    FILE_NAME="$(echo "$iso_download_link" | cut -d'?' -f1 | cut -d'/' -f5)"
-    web_get "${iso_download_link}" "${VM_PATH}" "${FILE_NAME}"
-}
-
-function get_windows() {
-    if [ "${OS}" == "windows-server" ]; then
-        download_windows_server "windows-server-${RELEASE}"
-    else
-        download_windows_workstation "${RELEASE}"
-    fi
-
-    if [ "${OPERATION}" == "download" ]; then
-        exit 0
-    fi
-
-    echo "Downloading VirtIO drivers..."
-    web_get "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso" "${VM_PATH}"
-
-    rm -f "${VM_PATH}/unattended.iso"
-    case ${RELEASE} in
-        10|11)
-            unattended_windows "${VM_PATH}"
-            ;;
-    esac
-
-    if [ -n "${FILE_NAME}" ]; then
-        make_vm_config "${FILE_NAME}" "virtio-win.iso"
-    else
-        make_vm_config "windows-${RELEASE}.iso" "virtio-win.iso"
-    fi
-}
 
 
 xubuntu
@@ -6574,27 +4297,6 @@ linux_old"
 
 RELEASES=""
 
-
-function releases_() {
-    local VERSION_DATA=""
-    local SUPPORTED_VERSIONS=()
-    VERSION_DATA="$(IFS=$'\n' web_pipe https://api.launchpad.net/devel/ubuntu/series | jq -r '.entries[]')"
-    # shellcheck disable=SC2207
-    SUPPORTED_VERSIONS=($(IFS=$'\n' jq -r 'select(.status=="Supported" or .status=="Current Stable Release") | .version' <<<"${VERSION_DATA}" | sort))
-    case "${OS}" in
-        ubuntu)
-            echo "${SUPPORTED_VERSIONS[@]}" daily-live;;
-        kubuntu|lubuntu|ubuntukylin|ubuntu-mate|ubuntustudio|xubuntu)
-            # after 16.04
-            echo "${SUPPORTED_VERSIONS[@]:1}" daily-live;;
-        ubuntu-budgie)
-            # after 18.04
-            echo "${SUPPORTED_VERSIONS[@]:2}" daily-live;;
-        edubuntu|ubuntu-unity|ubuntucinnamon)
-            # after 23.10
-            echo "${SUPPORTED_VERSIONS[@]:5}" daily-live;;
-    esac
-}
 
 function get_() {
     local ISO=""
@@ -6650,12 +4352,12 @@ function get_() {
 
 zorin
 
-zorin 17 core64:                     https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Core-64-bit-r1.iso
-zorin 17 lite64:                     https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Lite-64-bit-r1.iso
-zorin 17 education64:                https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Education-64-bit-r1.iso
-zorin 16 core64:                     https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Core-64-bit.iso
-zorin 16 lite64:                     https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Lite-64-bit.iso
-zorin 16 education64:                https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Education-64-bit.iso
+zorin 17 core64:                     https://mirror.umd.edu/zorin/17/Zorin-OS-17.3-Core-64-bit-r1.iso
+zorin 17 lite64:                     https://mirror.umd.edu/zorin/17/Zorin-OS-17.3-Lite-64-bit-r1.iso
+zorin 17 education64:                https://mirror.umd.edu/zorin/17/Zorin-OS-17.3-Education-64-bit-r1.iso
+zorin 16 core64:                     https://mirror.umd.edu/zorin/16/Zorin-OS-16.3-Core-64-bit.iso
+zorin 16 lite64:                     https://mirror.umd.edu/zorin/16/Zorin-OS-16.3-Lite-64-bit.iso
+zorin 16 education64:                https://mirror.umd.edu/zorin/16/Zorin-OS-16.3-Education-64-bit.iso
 
 # Template file for 'zorin'
 OSNAME="zorin"
@@ -6668,14 +4370,6 @@ CREDENTIALS="-"
 
 RELEASES="17 16"
 EDITIONS="lite64 education64 core64"
-
-function releases_() {
-    echo 17 16
-}
-
-function editions_() {
-    echo core64 lite64 education64
-}
 
 function get_() {
     local HASH=""
