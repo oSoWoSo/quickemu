@@ -1,3 +1,9 @@
+easyos
+
+easyos 5.9:                          https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/2025/5.9/easy-5.9-amd64.img
+easyos 5.8.5:                        https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/2025/5.8.5/easy-5.8.5-amd64.img
+easyos 5.8.5:                        https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/2025/5.8.5/easy-5.8.5-amd64.img
+
 # Template file for 'easyos'
 OSNAME="easyos"
 PRETTY="EasyOS"
@@ -7,19 +13,8 @@ HOMEPAGE="https://easyos.org"
 CREDENTIALS="-"
 
 IMAGE_TYPE="img"
-RELEASES="5.8.5"
+RELEASES="5.9 5.8.5"
 
-
-function releases_() {
-    local ALL_RELEASES=""
-    local YEAR=""
-    # get the latest 2 years of releases so that when we hit next year we still have the latest 2 years
-    TWO_YEARS=$(web_pipe https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/ | grep -o -E '[[:digit:]]{4}/' | sort -nr | tr -d /  | head -n 2 )
-    for YEAR in ${TWO_YEARS} ; do
-        ALL_RELEASES="${ALL_RELEASES} $(web_pipe https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/${YEAR}/ | grep -o -E '[[:digit:]]+(\.[[:digit:]])+/' | tr -d / | sort -nr)"
-    done
-    echo ${ALL_RELEASES}
-}
 
 function get_() {
     local HASH=""
@@ -44,4 +39,5 @@ function distro_specific() {
         ISO="${ISO/.img/}"
     fi
 }
+
 

@@ -1,3 +1,8 @@
+pureos
+
+pureos 10.3 gnome:                   https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso
+pureos 10.3 plasma:                  https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso
+
 # Template file for 'pureos'
 OSNAME="pureos"
 PRETTY="PureOS"
@@ -9,14 +14,6 @@ CREDENTIALS="-"
 
 RELEASES="10.3"
 EDITIONS="plasma gnome"
-
-function releases_() {
-    web_pipe "https://www.pureos.net/download/" | grep -m 1 "downloads.puri" | cut -d '"' -f 2 | cut -d '-' -f 4
-}
-
-function editions_() {
-    echo gnome plasma
-}
 
 function get_() {
     local HASH=""
@@ -35,4 +32,5 @@ function get_() {
     HASH="$(web_pipe "${URL}/${IsoTrimmed}.checksums_sha256.txt" | grep -m 1 '.iso' | cut -d '.' -f 1)"
     echo "${URL}/${ISO} ${HASH}"
 }
+
 

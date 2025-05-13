@@ -1,3 +1,12 @@
+macos
+
+macos mojave:                        http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg
+macos catalina:                      http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg
+macos big-sur:                       http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg
+macos monterey:                      http://oscdn.apple.com/content/downloads/59/11/012-51692/z29q5x5plswit63bvyxmubthavua9gbxic/RecoveryImage/BaseSystem.dmg
+macos ventura:                       http://oscdn.apple.com/content/downloads/60/43/042-01871/sbembiob0hs1o92jfofalts02ux0x8rsra/RecoveryImage/BaseSystem.dmg
+macos sonoma:                        http://oscdn.apple.com/content/downloads/04/11/082-33203/orvwro1v8xhjrakr7tvl5hu1s1ew3epxne/RecoveryImage/BaseSystem.dmg
+
 # Template file for 'macos'
 OSNAME="macos"
 PRETTY="MacOS"
@@ -9,20 +18,6 @@ GUEST="macos"
 IMAGE_TYPE="img"
 RELEASES="ventura sonoma monterey mojave catalina big-sur"
 
-
-function releases_() {
-    echo mojave catalina big-sur monterey ventura sonoma
-}
-
-function generate_id() {
-    local macRecoveryID=""
-    local TYPE="${1}"
-    local valid_chars=("0" "1" "2" "3" "4" "5" "6" "7" "8" "9" "A" "B" "C" "D" "E" "F")
-    for ((i=0; i<TYPE; i++)); do
-        macRecoveryID+="${valid_chars[$((RANDOM % 16))]}"
-    done
-    echo "${macRecoveryID}"
-}
 
 function get_() {
     local appleSession=""
@@ -150,4 +145,5 @@ function specific_tweaks() {
         echo "cpu_cores=2" >> "${CONF_FILE}"
     fi
 }
+
 

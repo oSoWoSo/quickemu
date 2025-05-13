@@ -1,3 +1,8 @@
+openbsd
+
+openbsd 7.7:                         https://mirror.leaseweb.com/pub/OpenBSD/7.7/amd64/install77.iso
+openbsd 7.6:                         https://mirror.leaseweb.com/pub/OpenBSD/7.6/amd64/install76.iso
+
 # Template file for 'openbsd'
 OSNAME="openbsd"
 PRETTY="OpenBSD"
@@ -7,13 +12,8 @@ HOMEPAGE="https://www.openbsd.org"
 CREDENTIALS="-"
 GUEST="openbsd"
 
-RELEASES="7.6 7.5"
+RELEASES="7.7 7.6"
 
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://mirror.leaseweb.com/pub/OpenBSD/" | grep -e '6\.[8-9]/' -e '[7-9]\.' | cut -d\" -f4 | tr -d '/' | sort -r)
-}
 
 function get_() {
     local HASH=""
@@ -26,4 +26,5 @@ function get_() {
 function specific_tweaks() {
     echo "boot=\"legacy\"" >> "${CONF_FILE}"
 }
+
 

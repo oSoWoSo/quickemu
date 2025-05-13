@@ -1,3 +1,10 @@
+void
+
+void current glibc:                  https://repo-default.voidlinux.org/live/current/void-live-x86_64-20250202-base.iso
+void current musl:                   https://repo-default.voidlinux.org/live/current/void-live-x86_64-musl-20250202-base.iso
+void current xfce-glibc:             https://repo-default.voidlinux.org/live/current/void-live-x86_64-20250202-xfce.iso
+void current xfce-musl:              https://repo-default.voidlinux.org/live/current/void-live-x86_64-musl-20250202-xfce.iso
+
 # Template file for 'void'
 OSNAME="void"
 PRETTY="Void Linux"
@@ -9,14 +16,6 @@ CREDENTIALS="anon:voidlinux root:voidlinux"
 
 RELEASES="current"
 EDITIONS="xfce-musl xfce-glibc musl glibc"
-
-function releases_() {
-    echo current
-}
-
-function editions_() {
-    echo glibc musl xfce-glibc xfce-musl
-}
 
 function get_() {
     local DATE=""
@@ -33,4 +32,5 @@ function get_() {
     HASH="$(web_pipe "${URL}/sha256sum.txt" | grep "${ISO}" | cut -d' ' -f4)"
     echo "${URL}/${ISO} ${HASH}"
 }
+
 

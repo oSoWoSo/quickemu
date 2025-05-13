@@ -1,3 +1,10 @@
+ubuntu-unity
+
+ubuntu-unity 24.04:                  https://cdimage.ubuntu.com/ubuntu-unity/releases/24.04/release/ubuntu-unity-24.04.2-desktop-amd64.iso
+ubuntu-unity 24.10:                  https://cdimage.ubuntu.com/ubuntu-unity/releases/24.10/release/ubuntu-unity-24.10-desktop-amd64.iso
+ubuntu-unity 25.04:                  https://cdimage.ubuntu.com/ubuntu-unity/releases/25.04/release/ubuntu-unity-25.04-desktop-amd64.iso
+ubuntu-unity daily-live:             https://cdimage.ubuntu.com/ubuntu-unity/daily-live/current/questing-desktop-amd64.iso
+
 # Template file for 'ubuntu-unity'
 OSNAME="ubuntu-unity"
 PRETTY="Ubuntu Unity"
@@ -8,29 +15,8 @@ CREDENTIALS="-"
 GUEST="linux_old
 linux_old"
 
-RELEASES="daily-live 24.10 24.04"
+RELEASES=""
 
-
-function releases_() {
-    local VERSION_DATA=""
-    local SUPPORTED_VERSIONS=()
-    VERSION_DATA="$(IFS=$'\n' web_pipe https://api.launchpad.net/devel/ubuntu/series | jq -r '.entries[]')"
-    # shellcheck disable=SC2207
-    SUPPORTED_VERSIONS=($(IFS=$'\n' jq -r 'select(.status=="Supported" or .status=="Current Stable Release") | .version' <<<"${VERSION_DATA}" | sort))
-    case "${OS}" in
-        ubuntu)
-            echo "${SUPPORTED_VERSIONS[@]}" daily-live;;
-        kubuntu|lubuntu|ubuntukylin|ubuntu-mate|ubuntustudio|xubuntu)
-            # after 16.04
-            echo "${SUPPORTED_VERSIONS[@]:1}" daily-live;;
-        ubuntu-budgie)
-            # after 18.04
-            echo "${SUPPORTED_VERSIONS[@]:2}" daily-live;;
-        edubuntu|ubuntu-unity|ubuntucinnamon)
-            # after 23.10
-            echo "${SUPPORTED_VERSIONS[@]:5}" daily-live;;
-    esac
-}
 
 function get_() {
     local ISO=""
@@ -82,4 +68,5 @@ function get_() {
         make_vm_config "${ISO}"
     fi
 }
+
 

@@ -1,3 +1,15 @@
+ubuntu
+
+ubuntu 14.04:                        https://releases.ubuntu.com/14.04/ubuntu-14.04.6-desktop-amd64.iso
+ubuntu 16.04:                        https://releases.ubuntu.com/16.04/ubuntu-16.04.7-desktop-amd64.iso
+ubuntu 18.04:                        https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso
+ubuntu 20.04:                        https://releases.ubuntu.com/20.04/ubuntu-20.04.6-desktop-amd64.iso
+ubuntu 22.04:                        https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso
+ubuntu 24.04:                        https://releases.ubuntu.com/24.04/ubuntu-24.04.2-desktop-amd64.iso
+ubuntu 24.10:                        https://releases.ubuntu.com/24.10/ubuntu-24.10-desktop-amd64.iso
+ubuntu 25.04:                        https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
+ubuntu daily-live:                   https://cdimage.ubuntu.com/ubuntu/daily-live/current/questing-desktop-amd64.iso
+
 # Template file for 'ubuntu'
 OSNAME="ubuntu"
 PRETTY="Ubuntu"
@@ -7,29 +19,8 @@ HOMEPAGE="https://ubuntu.com"
 CREDENTIALS="-"
 GUEST="linux_old"
 
-RELEASES="daily-live 24.10 24.04 22.04 20.04 18.04 16.04 14.04"
+RELEASES=""
 
-
-function releases_() {
-    local VERSION_DATA=""
-    local SUPPORTED_VERSIONS=()
-    VERSION_DATA="$(IFS=$'\n' web_pipe https://api.launchpad.net/devel/ubuntu/series | jq -r '.entries[]')"
-    # shellcheck disable=SC2207
-    SUPPORTED_VERSIONS=($(IFS=$'\n' jq -r 'select(.status=="Supported" or .status=="Current Stable Release") | .version' <<<"${VERSION_DATA}" | sort))
-    case "${OS}" in
-        ubuntu)
-            echo "${SUPPORTED_VERSIONS[@]}" daily-live;;
-        kubuntu|lubuntu|ubuntukylin|ubuntu-mate|ubuntustudio|xubuntu)
-            # after 16.04
-            echo "${SUPPORTED_VERSIONS[@]:1}" daily-live;;
-        ubuntu-budgie)
-            # after 18.04
-            echo "${SUPPORTED_VERSIONS[@]:2}" daily-live;;
-        edubuntu|ubuntu-unity|ubuntucinnamon)
-            # after 23.10
-            echo "${SUPPORTED_VERSIONS[@]:5}" daily-live;;
-    esac
-}
 
 function get_() {
     local ISO=""
@@ -81,4 +72,5 @@ function get_() {
         make_vm_config "${ISO}"
     fi
 }
+
 

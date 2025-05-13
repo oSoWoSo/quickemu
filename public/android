@@ -1,3 +1,12 @@
+android
+
+android 9.0 x86_64:                  https://mirrors.gigenet.com/OSDN/android-x86/71931/android-x86_64-9.0-r2.iso
+android 9.0 x86:                     https://mirrors.gigenet.com/OSDN/android-x86/71931/android-x86-9.0-r2.iso
+android 8.1 x86_64:                  https://mirrors.gigenet.com/OSDN/android-x86/69704/android-x86_64-8.1-r6.iso
+android 8.1 x86:                     https://mirrors.gigenet.com/OSDN/android-x86/69704/android-x86-8.1-r6.iso
+android 7.1 x86_64:                  https://mirrors.gigenet.com/OSDN/android-x86/67834/android-x86_64-7.1-r5.iso
+android 7.1 x86:                     https://mirrors.gigenet.com/OSDN/android-x86/67834/android-x86-7.1-r5.iso
+
 # Template file for 'android'
 OSNAME="android"
 PRETTY="Android x86"
@@ -9,14 +18,6 @@ CREDENTIALS="-"
 
 RELEASES="9.0 8.1 7.1"
 EDITIONS="x86_64 x86"
-
-function releases_() {
-    echo 9.0 8.1 7.1
-}
-
-function editions_() {
-    echo x86_64 x86
-}
 
 function get_() {
     local HASH=""
@@ -37,4 +38,5 @@ function get_() {
     done
     echo "${URL}/${ISO} ${HASH}"
 }
+
 

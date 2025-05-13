@@ -1,3 +1,14 @@
+ubuntustudio
+
+ubuntustudio 16.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/ubuntustudio-16.04.5-dvd-amd64.iso
+ubuntustudio 18.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-amd64.iso
+ubuntustudio 20.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/20.04/release/ubuntustudio-20.04.5-dvd-amd64.iso
+ubuntustudio 22.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04.5-dvd-amd64.iso
+ubuntustudio 24.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/release/ubuntustudio-24.04.2-dvd-amd64.iso
+ubuntustudio 24.10:                  https://cdimage.ubuntu.com/ubuntustudio/releases/24.10/release/ubuntustudio-24.10-desktop-amd64.iso
+ubuntustudio 25.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/25.04/release/ubuntustudio-25.04-desktop-amd64.iso
+UbuntuStudio dvd is currently unavailable. Please select other OS/Release combination
+
 # Template file for 'ubuntustudio'
 OSNAME="ubuntustudio"
 PRETTY="UbuntuStudio"
@@ -8,29 +19,8 @@ CREDENTIALS="-"
 GUEST="linux_old
 linux_old"
 
-RELEASES="daily-live 24.10 24.04 22.04 20.04 18.04 16.04"
+RELEASES=""
 
-
-function releases_() {
-    local VERSION_DATA=""
-    local SUPPORTED_VERSIONS=()
-    VERSION_DATA="$(IFS=$'\n' web_pipe https://api.launchpad.net/devel/ubuntu/series | jq -r '.entries[]')"
-    # shellcheck disable=SC2207
-    SUPPORTED_VERSIONS=($(IFS=$'\n' jq -r 'select(.status=="Supported" or .status=="Current Stable Release") | .version' <<<"${VERSION_DATA}" | sort))
-    case "${OS}" in
-        ubuntu)
-            echo "${SUPPORTED_VERSIONS[@]}" daily-live;;
-        kubuntu|lubuntu|ubuntukylin|ubuntu-mate|ubuntustudio|xubuntu)
-            # after 16.04
-            echo "${SUPPORTED_VERSIONS[@]:1}" daily-live;;
-        ubuntu-budgie)
-            # after 18.04
-            echo "${SUPPORTED_VERSIONS[@]:2}" daily-live;;
-        edubuntu|ubuntu-unity|ubuntucinnamon)
-            # after 23.10
-            echo "${SUPPORTED_VERSIONS[@]:5}" daily-live;;
-    esac
-}
 
 function get_() {
     local ISO=""
@@ -82,4 +72,5 @@ function get_() {
         make_vm_config "${ISO}"
     fi
 }
+
 

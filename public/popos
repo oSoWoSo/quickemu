@@ -1,3 +1,10 @@
+popos
+
+popos 22.04 intel:                   https://iso.pop-os.org/22.04/amd64/intel/53/pop-os_22.04_amd64_intel_53.iso
+popos 22.04 nvidia:                  https://iso.pop-os.org/22.04/amd64/nvidia/53/pop-os_22.04_amd64_nvidia_53.iso
+popos 20.04 intel:                   https://iso.pop-os.org/20.04/amd64/intel/39/pop-os_20.04_amd64_intel_39.iso
+popos 20.04 nvidia:                  https://iso.pop-os.org/20.04/amd64/nvidia/39/pop-os_20.04_amd64_nvidia_39.iso
+
 # Template file for 'popos'
 OSNAME="popos"
 PRETTY="Pop!_OS"
@@ -9,14 +16,6 @@ CREDENTIALS="-"
 
 RELEASES="22.04 20.04"
 EDITIONS="nvidia intel"
-
-function releases_() {
-    echo 22.04 20.04
-}
-
-function editions_() {
-    echo intel nvidia
-}
 
 function get_() {
     local HASH=""
@@ -30,4 +29,5 @@ function get_() {
 function specific_tweaks() {
   echo "disk_size=\"32G\"" >> "${CONF_FILE}"
 }
+
 

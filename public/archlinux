@@ -1,3 +1,7 @@
+archlinux
+
+archlinux latest:                    https://mirror.rackspace.com/archlinux/iso/2025.05.01/archlinux-2025.05.01-x86_64.iso
+
 # Template file for 'archlinux'
 OSNAME="archlinux"
 PRETTY="Arch Linux"
@@ -10,10 +14,6 @@ CREDENTIALS="-"
 RELEASES="latest"
 
 
-function releases_() {
-    echo latest
-}
-
 function get_() {
     local HASH=""
     local ISO=""
@@ -22,4 +22,5 @@ function get_() {
     HASH=$(web_pipe "https://archlinux.org/releng/releases/json/" | jq -r '.releases[0].sha256_sum')
     echo "${URL}${ISO} ${HASH}"
 }
+
 

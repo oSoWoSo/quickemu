@@ -1,3 +1,6 @@
+solus
+
+
 # Template file for 'solus'
 OSNAME="solus"
 PRETTY="Solus"
@@ -10,16 +13,6 @@ CREDENTIALS="-"
 RELEASES=""
 EDITIONS=""
 
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe_json "https://downloads.getsol.us/isos/" | jq -r '.[].name[:-1]' | grep -E "^[0-9-]+$" | sort -u)
-}
-
-function editions_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe_json "https://downloads.getsol.us/isos/$(releases_ | tail -n1)/" | jq -r '.[].name | sub("Solus-(?<e>.*)-Release-.*"; "\(.e)")' | sort -u)
-}
-
 function get_() {
     local HASH=""
     local ISO="Solus-${EDITION}-Release-${RELEASE}.iso"
@@ -27,4 +20,5 @@ function get_() {
     HASH=$(web_pipe "${URL}/${ISO}.sha256sum" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
+
 

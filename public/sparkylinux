@@ -1,3 +1,12 @@
+sparkylinux
+
+sparkylinux 7.7 minimalcli:          https://sourceforge.net/projects/sparkylinux/files/cli/sparkylinux-7.7-x86_64-minimalcli.iso
+sparkylinux 7.7 minimalgui:          https://sourceforge.net/projects/sparkylinux/files/base/sparkylinux-7.7-x86_64-minimalgui.iso
+sparkylinux 7.7 mate:                https://sourceforge.net/projects/sparkylinux/files/mate/sparkylinux-7.7-x86_64-mate.iso
+sparkylinux 7.7 lxqt:                https://sourceforge.net/projects/sparkylinux/files/lxqt/sparkylinux-7.7-x86_64-lxqt.iso
+sparkylinux 7.7 kde:                 https://sourceforge.net/projects/sparkylinux/files/kde/sparkylinux-7.7-x86_64-kde.iso
+sparkylinux 7.7 xfce:                https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-7.7-x86_64-xfce.iso
+
 # Template file for 'sparkylinux'
 OSNAME="sparkylinux"
 PRETTY="SparkyLinux"
@@ -8,16 +17,7 @@ CREDENTIALS="-"
 
 
 RELEASES="7.7"
-EDITIONS="xfce minimalgui minimalcli mate lxqt kde cli"
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep "iso/download" | cut -d'-' -f3 | sort -ru)
-}
-
-function editions_() {
-    echo minimalcli minimalgui cli mate lxqt kde xfce
-}
+EDITIONS="xfce minimalgui minimalcli mate lxqt kde"
 
 function get_() {
     local HASH=""
@@ -32,4 +32,5 @@ function get_() {
     HASH=$(web_pipe "${URL}/${ISO}.allsums.txt" | head -n 2 | grep 'iso' | cut -d' ' -f1)
     echo "${URL}/${ISO}" "${HASH}"
 }
+
 

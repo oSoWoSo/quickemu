@@ -1,3 +1,15 @@
+ubuntu-server
+
+ubuntu-server daily-live:            https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/plucky-live-server-amd64.iso
+questing-live-server-amd64.iso
+ubuntu-server 24.10:                 https://releases.ubuntu.com/24.10/ubuntu-24.10-live-server-amd64.iso
+ubuntu-server 24.04:                 https://releases.ubuntu.com/24.04/ubuntu-24.04.2-live-server-amd64.iso
+ubuntu-server 22.04:                 https://releases.ubuntu.com/22.04/ubuntu-22.04.5-live-server-amd64.iso
+ubuntu-server 20.04:                 https://releases.ubuntu.com/20.04/ubuntu-20.04.6-live-server-amd64.iso
+ubuntu-server 18.04:                 https://releases.ubuntu.com/18.04/ubuntu-18.04.6-live-server-amd64.iso
+ubuntu-server 16.04:                 https://releases.ubuntu.com/16.04/ubuntu-16.04.7-server-amd64.iso
+ubuntu-server 14.04:                 https://releases.ubuntu.com/14.04/ubuntu-14.04.6-server-amd64.iso
+
 # Template file for 'ubuntu-server'
 OSNAME="ubuntu-server"
 PRETTY="Ubuntu Server"
@@ -7,15 +19,8 @@ HOMEPAGE="https://ubuntu.com/server"
 CREDENTIALS="-"
 
 
-RELEASES="daily-live 24.10 24.04 22.04 20.04 18.04 16.04 14.04"
+RELEASES=""
 
-
-function releases_() {
-    local ALL_VERSIONS=()
-    # shellcheck disable=SC2207
-    ALL_VERSIONS=($(IFS=$'\n' web_pipe http://releases.ubuntu.com/streams/v1/com.ubuntu.releases:ubuntu-server.json | jq -r '.products[] | select(.arch=="amd64") | .version' | sort -rV))
-    echo daily-live "${ALL_VERSIONS[@]}"
-}
 
 function get_() {
     local HASH=""
@@ -61,4 +66,5 @@ function specific_tweaks() {
         echo "tpm=\"on\"" >> "${CONF_FILE}"
     fi
 }
+
 

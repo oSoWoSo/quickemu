@@ -1,3 +1,12 @@
+alma
+
+alma 9 boot:                         https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-boot.iso
+alma 9 minimal:                      https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-minimal.iso
+alma 9 dvd:                          https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-dvd.iso
+alma 8 boot:                         https://repo.almalinux.org/almalinux/8/isos/x86_64/AlmaLinux-8-latest-x86_64-boot.iso
+alma 8 minimal:                      https://repo.almalinux.org/almalinux/8/isos/x86_64/AlmaLinux-8-latest-x86_64-minimal.iso
+alma 8 dvd:                          https://repo.almalinux.org/almalinux/8/isos/x86_64/AlmaLinux-8-latest-x86_64-dvd.iso
+
 # Template file for 'alma'
 OSNAME="alma"
 PRETTY="AlmaLinux"
@@ -10,14 +19,6 @@ CREDENTIALS="-"
 RELEASES="9 8"
 EDITIONS="minimal dvd boot"
 
-function releases_() {
-    echo 9 8
-}
-
-function editions_() {
-    echo boot minimal dvd
-}
-
 function get_() {
     local HASH=""
     local ISO="AlmaLinux-${RELEASE}-latest-x86_64-${EDITION}.iso"
@@ -29,4 +30,5 @@ function get_() {
 function specific_tweaks() {
     echo "disk_size=\"32G\"" >> "${CONF_FILE}"
 }
+
 

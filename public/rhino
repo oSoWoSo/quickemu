@@ -1,3 +1,7 @@
+rhino
+
+rhino 2025.1:                        https://sourceforge.net/projects/rhino-linux-builder/files/2025.1/Rhino-Linux-2025.1-amd64.iso
+
 # Template file for 'rhino'
 OSNAME="rhino"
 PRETTY="Rhino Linux"
@@ -10,10 +14,6 @@ CREDENTIALS="-"
 RELEASES="2025.1"
 
 
-function releases_() {
-    echo 2025.1
-}
-
 function get_() {
     local HASH=""
     local ISO="Rhino-Linux-${RELEASE}-amd64.iso"
@@ -21,4 +21,5 @@ function get_() {
     HASH="$(web_pipe "${URL}/${ISO}.sha256/download" | grep "(${ISO}" | cut -d' ' -f1)"
     echo "${URL}/${ISO} ${HASH}"
 }
+
 

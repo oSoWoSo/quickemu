@@ -1,3 +1,8 @@
+kali
+
+kali current:                        https://cdimage.kali.org/current/kali-linux-2025.1c-installer-amd64.iso
+kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2025-W19-installer-amd64.iso
+
 # Template file for 'kali'
 OSNAME="kali"
 PRETTY="Kali Linux"
@@ -9,10 +14,6 @@ CREDENTIALS="-"
 
 RELEASES="kali-weekly current"
 
-
-function releases_() {
-    echo current kali-weekly
-}
 
 function get_() {
     local HASH=""
@@ -26,4 +27,5 @@ function get_() {
 function specific_tweaks() {
   echo "disk_size=\"32G\"" >> "${CONF_FILE}"
 }
+
 

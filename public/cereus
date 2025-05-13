@@ -1,3 +1,12 @@
+cereus
+
+cereus latest base:                  https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso
+cereus latest musl-base:             https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso
+cereus latest lxqt:                  https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso
+cereus latest musl-lxqt:             https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso
+cereus latest xfce:                  https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso
+cereus latest musl-xfce:             https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso
+
 # Template file for 'cereus'
 OSNAME="cereus"
 PRETTY="Cereus Linux"
@@ -9,14 +18,6 @@ CREDENTIALS="-"
 
 RELEASES="latest"
 EDITIONS="xfce musl-xfce musl-lxqt musl-base lxqt base"
-
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo base musl-base lxqt musl-lxqt xfce musl-xfce
-}
 
 function get_() {
     local EDITION="${1:-}"
@@ -32,4 +33,5 @@ function get_() {
     esac
     echo "${URL}${REST} ${HASH}"
 }
+
 

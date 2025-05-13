@@ -1,3 +1,8 @@
+nwg-shell
+
+nwg-shell 2025.04.20:                https://sourceforge.net/projects/nwg-iso/files/nwg-live-2025.04.20-x86_64.iso
+nwg-shell 2025.02.23:                https://sourceforge.net/projects/nwg-iso/files/nwg-live-2025.02.23-x86_64.iso
+
 # Template file for 'nwg-shell'
 OSNAME="nwg-shell"
 PRETTY="nwg-shell"
@@ -7,13 +12,8 @@ HOMEPAGE="https://nwg-piotr.github.io/nwg-shell"
 CREDENTIALS="nwg:nwg"
 
 
-RELEASES="2025.02.23"
+RELEASES="2025.04.20 2025.02.23"
 
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://sourceforge.net/projects/nwg-iso/rss?path=/" | grep 'url=' | grep '64.iso' | cut -d'/' -f12 | cut -d'-' -f3)
-}
 
 function get_() {
     local HASH=""
@@ -22,4 +22,5 @@ function get_() {
     HASH="$(web_pipe "https://sourceforge.net/projects/nwg-iso/rss?path=/" | grep "${ISO}" | cut -d'>' -f3 | cut -d'<' -f1 | tail -n 1)"
     echo "${URL}/${ISO} ${HASH}"
 }
+
 

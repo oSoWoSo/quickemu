@@ -1,3 +1,11 @@
+slitaz
+
+slitaz core:                         http://mirror.slitaz.org/iso/rolling/slitaz-rolling-core.iso
+slitaz core-5in1:                    http://mirror.slitaz.org/iso/rolling/slitaz-rolling-core-5in1.iso
+slitaz core64:                       http://mirror.slitaz.org/iso/rolling/slitaz-rolling-core64.iso
+slitaz loram:                        http://mirror.slitaz.org/iso/rolling/slitaz-rolling-loram.iso
+slitaz preinit:                      http://mirror.slitaz.org/iso/rolling/slitaz-rolling-preinit.iso
+
 # Template file for 'slitaz'
 OSNAME="slitaz"
 PRETTY="SliTaz"
@@ -9,11 +17,6 @@ CREDENTIALS="-"
 
 RELEASES="preinit loram core64 core-5in1 core"
 
-
-function releases_() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://mirror.slitaz.org/iso/rolling/" | grep "class='iso'" | cut -d"'" -f4 | cut -d'-' -f3- | grep iso | cut -d'.' -f1 | sort -u)
-}
 
 function get_() {
     local HASH=""
@@ -28,4 +31,5 @@ function specific_tweaks() {
     echo "disk_size=\"4G\"" >> "${CONF_FILE}"
     echo "ram=\"512M\"" >> "${CONF_FILE}"
 }
+
 

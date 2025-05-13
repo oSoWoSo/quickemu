@@ -1,3 +1,7 @@
+nitrux
+
+nitrux latest:                       https://sourceforge.net/projects/nitruxos/files/Release/ISO/nitrux-nx-desktop-plasma-5943de83-amd64.iso
+
 # Template file for 'nitrux'
 OSNAME="nitrux"
 PRETTY="Nitrux"
@@ -10,10 +14,6 @@ CREDENTIALS="-"
 RELEASES="latest"
 
 
-function releases_() {
-    echo latest
-}
-
 function get_() {
     local HASH=""
     local URLBASE=""
@@ -25,4 +25,5 @@ function get_() {
     HASH=$(web_pipe "${URLBASE}/MD5/${ISONAME}.md5sum" | grep "${ISO}" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
+
 

@@ -1,3 +1,10 @@
+kolibrios
+
+kolibrios latest en_US:              http://builds.kolibrios.org/en_US/latest-iso.7z
+kolibrios latest ru_RU:              http://builds.kolibrios.org/ru_RU/latest-iso.7z
+kolibrios latest it_IT:              http://builds.kolibrios.org/it_IT/kolibrios-0.7.7.0%2B8797-9f5dd6c-iso.7z
+kolibrios latest es_ES:              http://builds.kolibrios.org/es_ES/latest-iso.7z
+
 # Template file for 'kolibrios'
 OSNAME="kolibrios"
 PRETTY="KolibriOS"
@@ -9,14 +16,6 @@ kolibrios
 
 RELEASES="latest"
 EDITIONS="ru_RU it_IT es_ES en_US"
-
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo en_US ru_RU it_IT es_ES
-}
 
 function get_() {
     local HASH=""
@@ -47,4 +46,5 @@ function specific_tweaks() {
     echo "disk_size=\"2G\"" >> "${CONF_FILE}"
     echo "ram=\"128M\"" >> "${CONF_FILE}"
 }
+
 

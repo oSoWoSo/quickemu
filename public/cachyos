@@ -1,3 +1,8 @@
+cachyos
+
+cachyos latest desktop:              https://cdn77.cachyos.org/ISO/desktop/250422/cachyos-desktop-linux-250422.iso
+cachyos latest handheld:             https://cdn77.cachyos.org/ISO/handheld/250422/cachyos-handheld-linux-250422.iso
+
 # Template file for 'cachyos'
 OSNAME="cachyos"
 PRETTY="CachyOS"
@@ -10,16 +15,6 @@ CREDENTIALS="-"
 RELEASES="latest"
 EDITIONS="handheld desktop"
 
-function releases_() {
-    # new cdn setup 10/2024
-    echo latest
-}
-
-function editions_() {
-    # desktop version now installs different desktop environments
-    echo desktop handheld
-}
-
 function get_() {
     local HASH=""
     local URL=""
@@ -27,4 +22,5 @@ function get_() {
     HASH=$(web_pipe "${URL}.sha256" | cut -d' ' -f1)
     echo "${URL} ${HASH}"
 }
+
 

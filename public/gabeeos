@@ -1,3 +1,9 @@
+gabeeos
+
+gabeeos latest Openbox:              https://sourceforge.net/projects/gabeeoslinux/files/Distro/Openbox/gabeeOSLinux-Openbox-x86_64-6.12.19_1-20250317.iso/
+gabeeos latest Qtile:                https://sourceforge.net/projects/gabeeoslinux/files/Distro/Qtile/Release-2025/gabeeOSLinux-Qtile-x86_64-6.12.18_1-20250314.iso
+gabeeos latest i3-gaps:              https://sourceforge.net/projects/gabeeoslinux/files/Distro/i3-gaps/gabeeOSLinux-i3-WM-x86_64-6.12.19_1-20250317.iso
+
 # Template file for 'gabeeos'
 OSNAME="gabeeos"
 PRETTY="GabeeOSLinux"
@@ -9,14 +15,6 @@ CREDENTIALS="anon:voidlinux,root:voidlinux"
 
 RELEASES="latest"
 EDITIONS="i3-gaps Qtile Openbox"
-
-function releases_() {
-    echo latest
-}
-
-function editions_() {
-    echo $(web_pipe "https://sourceforge.net/projects/gabeeoslinux/rss?path=/Distro/" | grep 'title><!\[CDATA' | cut -d'[' -f3 | cut -d']' -f1 | grep '\.iso' | cut -d'/' -f3 | sort | uniq)
-}
 
 function get_() {
     local HASH=""
@@ -32,4 +30,5 @@ function get_() {
     # No hash provided
     echo "${URL}/${ISO}"
 }
+
 
