@@ -7,21 +7,16 @@ HOMEPAGE="https://sparkylinux.org"
 CREDENTIALS="-"
 
 
-RELEASES=""
-EDITIONS=""
+RELEASES="7.7"
+EDITIONS="xfce minimalgui minimalcli mate lxqt kde cli"
 
 function releases_() {
     #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://sparkylinux.org/download/stable/" |  grep -E -o "sparkylinux-.*\.iso\"" | cut -d'-' -f2 | sort -ru)
+    echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep "iso/download" | cut -d'-' -f3 | sort -ru)
 }
 
 function editions_() {
-    #shellcheck disable=SC2046,SC2005
-    if [ -z "${RELEASE}" ]; then
-        echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep -E -o "sparkylinux-.*\.iso\"" | cut -d'-' -f4 | cut -d'.' -f1 | sort -u)
-    else
-        echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep -E -o "sparkylinux-${RELEASE}-.*\.iso\"" | cut -d'-' -f4 | cut -d'.' -f1 | sort -u)
-    fi
+    echo minimalcli minimalgui cli mate lxqt kde xfce
 }
 
 function get_() {

@@ -9,16 +9,17 @@ CREDENTIALS="-"
 
 function releases_() {
     #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://sparkylinux.org/download/stable/" |  grep -E -o "sparkylinux-.*\.iso\"" | cut -d'-' -f2 | sort -ru)
+    echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep "iso/download" | cut -d'-' -f3 | sort -ru)
 }
 
 function editions_() {
+    echo minimalcli minimalgui mate lxqt kde xfce
     #shellcheck disable=SC2046,SC2005
-    if [ -z "${RELEASE}" ]; then
-        echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep -E -o "sparkylinux-.*\.iso\"" | cut -d'-' -f4 | cut -d'.' -f1 | sort -u)
-    else
-        echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep -E -o "sparkylinux-${RELEASE}-.*\.iso\"" | cut -d'-' -f4 | cut -d'.' -f1 | sort -u)
-    fi
+#    if [ -z "${RELEASE}" ]; then
+#        echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep "iso/download" | cut -d'-' -f5 | cut -d'.' -f1 | sort -u)
+#    else
+#        echo $(web_pipe "https://sparkylinux.org/download/stable/" | grep "sparkylinux-${RELEASE}-" | cut -d'-' -f5 | cut -d'.' -f1 | sort -u)
+#    fi
 }
 
 function get_() {
