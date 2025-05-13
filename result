@@ -1,10 +1,10 @@
 agarimos
 
 agarimos latest plasma:              https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.16_1-20250228.iso
-agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.21_1-20250406.iso
-agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-x86_64-6.12.22_1-20250412.iso
-agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.22_1-20250410.iso
-agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-Live-x86_64-6.12.22_1-20250412.iso
+agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.28_1-20250511.iso
+agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-x86_64-6.12.25_1-20250503.iso
+agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.26_1-20250510.iso
+agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-Live-x86_64-6.12.26_1-20250509.iso
 
 # Template file for 'agarimos'
 OSNAME="agarimos"
@@ -88,7 +88,6 @@ alpine v3.16:                        https://dl-cdn.alpinelinux.org/alpine/v3.16
 alpine v3.15:                        https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-virt-3.15.11-x86_64.iso
 alpine v3.14:                        https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-virt-3.14.10-x86_64.iso
 alpine v3.13:                        https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86_64/alpine-virt-3.13.12-x86_64.iso
-alpine v3.12:                        https://dl-cdn.alpinelinux.org/alpine/v3.12/releases/x86_64/alpine-virt-3.12.12-x86_64.iso
 
 # Template file for 'alpine'
 OSNAME="alpine"
@@ -99,7 +98,7 @@ HOMEPAGE="https://alpinelinux.org/"
 CREDENTIALS="-"
 
 
-RELEASES="v3.21 v3.20 v3.19 v3.18 v3.17 v3.16 v3.15 v3.14 v3.13 v3.12"
+RELEASES="v3.21 v3.20 v3.19 v3.18 v3.17 v3.16 v3.15 v3.14 v3.13"
 
 
 function releases_() {
@@ -266,7 +265,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.01/archcraft-2025.01.03-x86_64.iso
+archcraft latest:                    https://cfhcable.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -295,7 +294,7 @@ function get_() {
 
 archlinux
 
-archlinux latest:                    https://mirror.rackspace.com/archlinux/iso/2025.04.01/archlinux-2025.04.01-x86_64.iso
+archlinux latest:                    https://mirror.rackspace.com/archlinux/iso/2025.05.01/archlinux-2025.05.01-x86_64.iso
 
 # Template file for 'archlinux'
 OSNAME="archlinux"
@@ -562,9 +561,7 @@ function specific_tweaks() {
 
 biglinux
 
-biglinux 2025-04-14 k614:            https://iso.biglinux.com.br/biglinux_2025-04-14_k614.iso
-biglinux 2025-04-14 k612:            https://iso.biglinux.com.br/biglinux_2025-04-14_k612.iso
-biglinux 2025-04-14 k66:             https://iso.biglinux.com.br/biglinux_2025-04-14_k66.iso
+biglinux 2025-05-12 k614:            https://iso.biglinux.com.br/biglinux_2025-05-12_k614.iso
 
 # Template file for 'biglinux'
 OSNAME="biglinux"
@@ -575,8 +572,8 @@ HOMEPAGE="https://www.biglinux.com.br"
 CREDENTIALS="-"
 
 
-RELEASES="2025-04-14"
-EDITIONS="k66 k614 k612"
+RELEASES="2025-05-12"
+EDITIONS="k614"
 
 function releases_() {
     #shellcheck disable=SC2046,SC2005
@@ -697,8 +694,8 @@ function get_() {
 
 cachyos
 
-cachyos latest desktop:              https://cdn77.cachyos.org/ISO/desktop/250330/cachyos-desktop-linux-250330.iso
-cachyos latest handheld:             https://cdn77.cachyos.org/ISO/handheld/250330/cachyos-handheld-linux-250330.iso
+cachyos latest desktop:              https://cdn77.cachyos.org/ISO/desktop/250422/cachyos-desktop-linux-250422.iso
+cachyos latest handheld:             https://cdn77.cachyos.org/ISO/handheld/250422/cachyos-handheld-linux-250422.iso
 
 # Template file for 'cachyos'
 OSNAME="cachyos"
@@ -819,8 +816,8 @@ function get_() {
 
 chimeralinux
 
-chimeralinux latest base:            https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250214-base.iso
-chimeralinux latest gnome:           https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250214-gnome.iso
+chimeralinux latest base:            https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-base.iso
+chimeralinux latest gnome:           https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso
 
 # Template file for 'chimeralinux'
 OSNAME="chimeralinux"
@@ -970,6 +967,7 @@ function get_() {
 deepin
 
 deepin 25-alpha:                     https://cdimage.deepin.com/releases/25-alpha/amd64/deepin-desktop-community-25-alpha-amd64.iso
+deepin 23.1:                         https://cdimage.deepin.com/releases/23.1/amd64/deepin-desktop-community-23.1-amd64.iso
 deepin 23:                           https://cdimage.deepin.com/releases/23/amd64/deepin-desktop-community-23-amd64.iso
 deepin 20.9:                         https://cdimage.deepin.com/releases/20.9/deepin-desktop-community-20.9-amd64.iso
 
@@ -982,7 +980,7 @@ HOMEPAGE="https://www.deepin.org"
 CREDENTIALS="-"
 
 
-RELEASES="25-alpha 23 20.9"
+RELEASES="25-alpha 23.1 23 20.9"
 
 
 function releases_() {
@@ -1099,6 +1097,8 @@ function specific_tweaks() {
 
 dragonflybsd
 
+dragonflybsd 6.4.2:                  http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.2_REL.iso.bz2
+dragonflybsd 6.4.1:                  http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.1_REL.iso.bz2
 dragonflybsd 6.4.0:                  http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.0_REL.iso.bz2
 dragonflybsd 6.2.2:                  http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.2.2_REL.iso.bz2
 dragonflybsd 6.2.1:                  http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.2.1_REL.iso.bz2
@@ -1132,7 +1132,7 @@ HOMEPAGE="https://www.dragonflybsd.org"
 CREDENTIALS="-"
 GUEST="dragonflybsd"
 
-RELEASES="6.4.0 6.2.2 6.2.1 6.0.1 6.0.0 5.8.3 5.8.2 5.8.1 5.8.0 5.6.3 5.6.2 5.6.1 5.6.0 5.4.3 5.4.2 5.4.1 5.4.0 5.2.2 5.2.1 5.2.0 5.0.2 5.0.1 5.0.0"
+RELEASES="6.4.2 6.4.1 6.4.0 6.2.2 6.2.1 6.0.1 6.0.0 5.8.3 5.8.2 5.8.1 5.8.0 5.6.3 5.6.2 5.6.1 5.6.0 5.4.3 5.4.2 5.4.1 5.4.0 5.2.2 5.2.1 5.2.0 5.0.2 5.0.1 5.0.0"
 
 
 function releases_() {
@@ -1204,6 +1204,7 @@ function get_() {
 
 easyos
 
+easyos 5.9:                          https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/2025/5.9/easy-5.9-amd64.img
 easyos 5.8.5:                        https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/2025/5.8.5/easy-5.8.5-amd64.img
 easyos 5.8.5:                        https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/2025/5.8.5/easy-5.8.5-amd64.img
 
@@ -1216,7 +1217,7 @@ HOMEPAGE="https://easyos.org"
 CREDENTIALS="-"
 
 IMAGE_TYPE="img"
-RELEASES="5.8.5"
+RELEASES="5.9 5.8.5"
 
 
 function releases_() {
@@ -1259,7 +1260,8 @@ edubuntu
 
 edubuntu 24.04:                      https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.2-desktop-amd64.iso
 edubuntu 24.10:                      https://cdimage.ubuntu.com/edubuntu/releases/24.10/release/edubuntu-24.10-desktop-amd64.iso
-edubuntu daily-live:                 https://cdimage.ubuntu.com/edubuntu/daily-live/current/plucky-desktop-amd64.iso
+edubuntu 25.04:                      https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso
+edubuntu daily-live:                 https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'edubuntu'
 OSNAME="edubuntu"
@@ -1349,9 +1351,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NDY5MDgxOQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NDY5MDgxOQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NDY5MDgxOQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzE1NTk1Nwo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzE1NTk1Nwo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzE1NTk1Nwo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1477,24 +1479,25 @@ function specific_tweaks() {
 
 fedora
 
-fedora 42_Beta Budgie:               https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Spins/x86_64/iso/Fedora-Budgie-Live-42_Beta-1.4.x86_64.iso
-fedora 42_Beta COSMIC:               https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Spins/x86_64/iso/Fedora-COSMIC-Live-42_Beta-1.4.x86_64.iso
-fedora 42_Beta Cinnamon:             https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-42_Beta-1.4.iso
-fedora 42_Beta KDE:                  
-fedora 42_Beta KDE_Mobile:           https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Spins/x86_64/iso/Fedora-KDE-Mobile-Live-42_Beta-1.4.x86_64.iso
-fedora 42_Beta Kinoite:              https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-42_Beta-1.4.iso
-fedora 42_Beta LXDE:                 https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-42_Beta-1.4.iso
-fedora 42_Beta LXQt:                 https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Spins/x86_64/iso/Fedora-LXQt-Live-42_Beta-1.4.x86_64.iso
-fedora 42_Beta Mate:                 https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-42_Beta-1.4.iso
-fedora 42_Beta MiracleWM:            https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Spins/x86_64/iso/Fedora-MiracleWM-Live-42_Beta-1.4.x86_64.iso
-fedora 42_Beta Onyx:                 https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Onyx/x86_64/iso/Fedora-Onyx-ostree-x86_64-42_Beta-1.4.iso
-fedora 42_Beta Sericea:              https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Sericea/x86_64/iso/Fedora-Sericea-ostree-x86_64-42_Beta-1.4.iso
-fedora 42_Beta Server:               https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Server/x86_64/iso/Fedora-Server-dvd-x86_64-42_Beta-1.4.iso
-fedora 42_Beta Silverblue:           https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-42_Beta-1.4.iso
-fedora 42_Beta Sway:                 https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Spins/x86_64/iso/Fedora-Sway-Live-x86_64-42_Beta-1.4.iso
-fedora 42_Beta Workstation:          https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Workstation/x86_64/iso/Fedora-Workstation-Live-42_Beta-1.4.x86_64.iso
-fedora 42_Beta Xfce:                 https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Spins/x86_64/iso/Fedora-Xfce-Live-42_Beta-1.4.x86_64.iso
-fedora 42_Beta i3:                   https://download.fedoraproject.org/pub/fedora/linux/releases/test/42_Beta/Spins/x86_64/iso/Fedora-i3-Live-x86_64-42_Beta-1.4.iso
+fedora 42 Budgie:                    https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-Budgie-Live-42-1.1.x86_64.iso
+fedora 42 COSMIC:                    https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-COSMIC-Live-42-1.1.x86_64.iso
+fedora 42 COSMIC-Atomic:             
+fedora 42 Cinnamon:                  https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-42-1.1.iso
+fedora 42 KDE:                       
+fedora 42 KDE_Mobile:                https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-KDE-Mobile-Live-42-1.1.x86_64.iso
+fedora 42 Kinoite:                   https://download.fedoraproject.org/pub/fedora/linux/releases/42/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-42-1.1.iso
+fedora 42 LXDE:                      https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-42-1.1.iso
+fedora 42 LXQt:                      https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-LXQt-Live-42-1.1.x86_64.iso
+fedora 42 Mate:                      https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-42-1.1.iso
+fedora 42 MiracleWM:                 https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-MiracleWM-Live-42-1.1.x86_64.iso
+fedora 42 Onyx:                      https://download.fedoraproject.org/pub/fedora/linux/releases/42/Onyx/x86_64/iso/Fedora-Onyx-ostree-x86_64-42-1.1.iso
+fedora 42 Sericea:                   https://download.fedoraproject.org/pub/fedora/linux/releases/42/Sericea/x86_64/iso/Fedora-Sericea-ostree-x86_64-42-1.1.iso
+fedora 42 Server:                    https://download.fedoraproject.org/pub/fedora/linux/releases/42/Server/x86_64/iso/Fedora-Server-dvd-x86_64-42-1.1.iso
+fedora 42 Silverblue:                https://download.fedoraproject.org/pub/fedora/linux/releases/42/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-42-1.1.iso
+fedora 42 Sway:                      https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-Sway-Live-x86_64-42-1.1.iso
+fedora 42 Workstation:               https://download.fedoraproject.org/pub/fedora/linux/releases/42/Workstation/x86_64/iso/Fedora-Workstation-Live-42-1.1.x86_64.iso
+fedora 42 Xfce:                      https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-Xfce-Live-42-1.1.x86_64.iso
+fedora 42 i3:                        https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-i3-Live-x86_64-42-1.1.iso
 fedora 41 Budgie:                    https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Budgie-Live-x86_64-41-1.4.iso
 fedora 41 Cinnamon:                  https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-41-1.4.iso
 fedora 41 KDE:                       https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-41-1.4.iso
@@ -1527,19 +1530,6 @@ fedora 40 Sway:                      https://download.fedoraproject.org/pub/fedo
 fedora 40 Workstation:               https://download.fedoraproject.org/pub/fedora/linux/releases/40/Workstation/x86_64/iso/Fedora-Workstation-Live-osb-40-1.14.x86_64.iso
 fedora 40 Xfce:                      https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-40-1.14.iso
 fedora 40 i3:                        https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-i3-Live-x86_64-40-1.14.iso
-fedora 39 Budgie:                    https://download.fedoraproject.org/pub/fedora/linux/releases/39/Spins/x86_64/iso/Fedora-Budgie-Live-x86_64-39-1.5.iso
-fedora 39 Cinnamon:                  https://download.fedoraproject.org/pub/fedora/linux/releases/39/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-39-1.5.iso
-fedora 39 KDE:                       https://download.fedoraproject.org/pub/fedora/linux/releases/39/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-39-1.5.iso
-fedora 39 Kinoite:                   https://download.fedoraproject.org/pub/fedora/linux/releases/39/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-39-1.5.iso
-fedora 39 LXDE:                      https://download.fedoraproject.org/pub/fedora/linux/releases/39/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-39-1.5.iso
-fedora 39 LXQt:                      https://download.fedoraproject.org/pub/fedora/linux/releases/39/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-39-1.5.iso
-fedora 39 Mate:                      https://download.fedoraproject.org/pub/fedora/linux/releases/39/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-39-1.5.iso
-fedora 39 Server:                    https://download.fedoraproject.org/pub/fedora/linux/releases/39/Server/x86_64/iso/Fedora-Server-dvd-x86_64-39-1.5.iso
-fedora 39 Silverblue:                https://download.fedoraproject.org/pub/fedora/linux/releases/39/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-39-1.5.iso
-fedora 39 Sway:                      https://download.fedoraproject.org/pub/fedora/linux/releases/39/Spins/x86_64/iso/Fedora-Sway-Live-x86_64-39-1.5.iso
-fedora 39 Workstation:               https://download.fedoraproject.org/pub/fedora/linux/releases/39/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-39-1.5.iso
-fedora 39 Xfce:                      https://download.fedoraproject.org/pub/fedora/linux/releases/39/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-39-1.5.iso
-fedora 39 i3:                        https://download.fedoraproject.org/pub/fedora/linux/releases/39/Spins/x86_64/iso/Fedora-i3-Live-x86_64-39-1.5.iso
 
 # Template file for 'fedora'
 OSNAME="fedora"
@@ -1550,8 +1540,8 @@ HOMEPAGE="https://www.fedoraproject.org"
 CREDENTIALS="-"
 
 
-RELEASES="42_Beta 41 40 39"
-EDITIONS="i3 Xfce Workstation Sway Silverblue Server Sericea Onyx MiracleWM Mate LXQt LXDE Kinoite KDE_Mobile KDE Cinnamon COSMIC Budgie"
+RELEASES="42 41 40"
+EDITIONS="i3 Xfce Workstation Sway Silverblue Server Sericea Onyx MiracleWM Mate LXQt LXDE Kinoite KDE_Mobile KDE Cinnamon COSMIC-Atomic COSMIC Budgie"
 
 function releases_() {
     #shellcheck disable=SC2046,SC2005
@@ -1845,12 +1835,6 @@ function specific_tweaks() {
 
 ghostbsd
 
-ghostbsd 25.01-R14.2p1 mate:         https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1.iso
-ghostbsd 25.01-R14.2p1 xfce:         https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso
-ghostbsd 24.10.1 mate:               https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1.iso
-ghostbsd 24.10.1 xfce:               https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso
-ghostbsd 24.07.3 mate:               https://download.ghostbsd.org/releases/amd64/24.07.3/GhostBSD-24.07.3.iso
-ghostbsd 24.07.3 xfce:               https://download.ghostbsd.org/releases/amd64/24.07.3/GhostBSD-24.07.3-XFCE.iso
 
 # Template file for 'ghostbsd'
 OSNAME="ghostbsd"
@@ -1861,8 +1845,8 @@ HOMEPAGE="https://www.ghostbsd.org"
 CREDENTIALS="-"
 freebsd
 
-RELEASES="25.01-R14.2p1 24.10.1 24.07.3"
-EDITIONS="xfce mate"
+RELEASES=""
+EDITIONS=""
 
 function releases_() {
     #shellcheck disable=SC2046,SC2005
@@ -1888,7 +1872,7 @@ function get_() {
 
 gnomeos
 
-gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/824958/gnome_os_installer_824958.iso
+gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/840027/live_840027-x86_64.iso
 gnomeos 48.rc:                       https://download.gnome.org/gnomeos/48.rc/gnome_os_installer_48.rc.iso
 gnomeos 48.beta:                     https://download.gnome.org/gnomeos/48.beta/gnome_os_installer_48.beta.iso
 gnomeos 48.alpha:                    https://download.gnome.org/gnomeos/48.alpha/gnome_os_installer_48.alpha.8.iso
@@ -2028,8 +2012,8 @@ function specific_tweaks() {
 
 kali
 
-kali current:                        https://cdimage.kali.org/current/kali-linux-2025.1a-installer-amd64.iso
-kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2025-W15-installer-amd64.iso
+kali current:                        https://cdimage.kali.org/current/kali-linux-2025.1c-installer-amd64.iso
+kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2025-W19-installer-amd64.iso
 
 # Template file for 'kali'
 OSNAME="kali"
@@ -2063,10 +2047,10 @@ function specific_tweaks() {
 
 kdeneon
 
-kdeneon user:                        https://files.kde.org/neon/images/user/current/neon-user-20250413-1548.iso
-kdeneon testing:                     https://files.kde.org/neon/images/testing/current/neon-testing-20250415-0243.iso
-kdeneon unstable:                    https://files.kde.org/neon/images/unstable/current/neon-unstable-20250413-1549.iso
-kdeneon developer:                   https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250414-0040.iso
+kdeneon user:                        https://files.kde.org/neon/images/user/current/neon-user-20250511-0744.iso
+kdeneon testing:                     https://files.kde.org/neon/images/testing/current/neon-testing-20250513-0430.iso
+kdeneon unstable:                    https://files.kde.org/neon/images/unstable/current/neon-unstable-20250511-1146.iso
+kdeneon developer:                   https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250512-0038.iso
 
 # Template file for 'kdeneon'
 OSNAME="kdeneon"
@@ -2193,7 +2177,8 @@ kubuntu 20.04:                       https://cdimage.ubuntu.com/kubuntu/releases
 kubuntu 22.04:                       https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04.5-desktop-amd64.iso
 kubuntu 24.04:                       https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04.2-desktop-amd64.iso
 kubuntu 24.10:                       https://cdimage.ubuntu.com/kubuntu/releases/24.10/release/kubuntu-24.10-desktop-amd64.iso
-kubuntu daily-live:                  https://cdimage.ubuntu.com/kubuntu/daily-live/current/plucky-desktop-amd64.iso
+kubuntu 25.04:                       https://cdimage.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso
+kubuntu daily-live:                  https://cdimage.ubuntu.com/kubuntu/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'kubuntu'
 OSNAME="kubuntu"
@@ -2448,6 +2433,7 @@ lubuntu 20.04:                       https://cdimage.ubuntu.com/lubuntu/releases
 lubuntu 22.04:                       https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04.5-desktop-amd64.iso
 lubuntu 24.04:                       https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.2-desktop-amd64.iso
 lubuntu 24.10:                       https://cdimage.ubuntu.com/lubuntu/releases/24.10/release/lubuntu-24.10-desktop-amd64.iso
+lubuntu 25.04:                       https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso
 lubuntu daily-live:                  https://cdimage.ubuntu.com/lubuntu/daily-live/current/plucky-desktop-amd64.iso
 
 # Template file for 'lubuntu'
@@ -2538,7 +2524,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://cfhcable.dl.sourceforge.net/project/mabox-linux/25.03/linux61/mabox-linux-25.03-Istredd-250331-linux61.iso
+maboxlinux latest:                   https://psychz.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2572,7 +2558,7 @@ macos catalina:                      http://oscdn.apple.com/content/downloads/59
 macos big-sur:                       http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg
 macos monterey:                      http://oscdn.apple.com/content/downloads/59/11/012-51692/z29q5x5plswit63bvyxmubthavua9gbxic/RecoveryImage/BaseSystem.dmg
 macos ventura:                       http://oscdn.apple.com/content/downloads/60/43/042-01871/sbembiob0hs1o92jfofalts02ux0x8rsra/RecoveryImage/BaseSystem.dmg
-macos sonoma:                        http://oscdn.apple.com/content/downloads/14/00/082-01323/qbdhdewwbxiq2ppow3kyduslzd9c0ql0eu/RecoveryImage/BaseSystem.dmg
+macos sonoma:                        http://oscdn.apple.com/content/downloads/04/11/082-33203/orvwro1v8xhjrakr7tvl5hu1s1ew3epxne/RecoveryImage/BaseSystem.dmg
 
 # Template file for 'macos'
 OSNAME="macos"
@@ -2730,10 +2716,10 @@ function specific_tweaks() {
 
 mageia
 
-mageia 9 Plasma:                     https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
-mageia 9 GNOME:                      https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso
+mageia 9 Plasma:                     https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
+mageia 9 GNOME:                      https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso
 mageia 9 Xfce:                       https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso
-mageia 8 Plasma:                     https://mirror.math.princeton.edu/pub/mageia/iso/8/Mageia-8-Live-Plasma-x86_64/Mageia-8-Live-Plasma-x86_64.iso
+mageia 8 Plasma:                     https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-Plasma-x86_64/Mageia-8-Live-Plasma-x86_64.iso
 mageia 8 GNOME:                      https://mirror.math.princeton.edu/pub/mageia/iso/8/Mageia-8-Live-GNOME-x86_64/Mageia-8-Live-GNOME-x86_64.iso
 mageia 8 Xfce:                       https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-Xfce-x86_64/Mageia-8-Live-Xfce-x86_64.iso
 
@@ -2768,18 +2754,18 @@ function get_() {
 
 manjaro
 
-manjaro xfce full:                   https://download.manjaro.org/xfce/24.2.1/manjaro-xfce-24.2.1-241216-linux612.iso
-manjaro xfce minimal:                https://download.manjaro.org/xfce/24.2.1/manjaro-xfce-24.2.1-minimal-241216-linux612.iso
-manjaro gnome full:                  https://download.manjaro.org/gnome/24.2.1/manjaro-gnome-24.2.1-241216-linux612.iso
-manjaro gnome minimal:               https://download.manjaro.org/gnome/24.2.1/manjaro-gnome-24.2.1-minimal-241216-linux612.iso
-manjaro plasma full:                 https://download.manjaro.org/kde/24.2.1/manjaro-kde-24.2.1-241216-linux612.iso
-manjaro plasma minimal:              https://download.manjaro.org/kde/24.2.1/manjaro-kde-24.2.1-minimal-241216-linux612.iso
+manjaro xfce full:                   https://download.manjaro.org/xfce/25.0.1/manjaro-xfce-25.0.1-250508-linux612.iso
+manjaro xfce minimal:                https://download.manjaro.org/xfce/25.0.1/manjaro-xfce-25.0.1-minimal-250508-linux612.iso
+manjaro gnome full:                  https://download.manjaro.org/gnome/25.0.1/manjaro-gnome-25.0.1-250508-linux612.iso
+manjaro gnome minimal:               https://download.manjaro.org/gnome/25.0.1/manjaro-gnome-25.0.1-minimal-250508-linux612.iso
+manjaro plasma full:                 https://download.manjaro.org/kde/25.0.1/manjaro-kde-25.0.1-250508-linux612.iso
+manjaro plasma minimal:              https://download.manjaro.org/kde/25.0.1/manjaro-kde-25.0.1-minimal-250508-linux612.iso
 manjaro cinnamon full:               https://download.manjaro.org/cinnamon/24.0.5/manjaro-cinnamon-24.0.5-240729-linux69.iso
 manjaro cinnamon minimal:            https://download.manjaro.org/cinnamon/24.0.5/manjaro-cinnamon-24.0.5-minimal-240729-linux69.iso
 manjaro i3 full:                     https://download.manjaro.org/i3/24.0.5/manjaro-i3-24.0.5-240729-linux69.iso
 manjaro i3 minimal:                  https://download.manjaro.org/i3/24.0.5/manjaro-i3-24.0.5-minimal-240729-linux69.iso
-manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-24.1.1-250202-linux66.iso
-manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-24.1.1-250202-linux66.iso
+manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250511-linux612.iso
+manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250511-linux612.iso
 
 # Template file for 'manjaro'
 OSNAME="manjaro"
@@ -3076,6 +3062,7 @@ function specific_tweaks() {
 
 nwg-shell
 
+nwg-shell 2025.04.20:                https://sourceforge.net/projects/nwg-iso/files/nwg-live-2025.04.20-x86_64.iso
 nwg-shell 2025.02.23:                https://sourceforge.net/projects/nwg-iso/files/nwg-live-2025.02.23-x86_64.iso
 
 # Template file for 'nwg-shell'
@@ -3087,7 +3074,7 @@ HOMEPAGE="https://nwg-piotr.github.io/nwg-shell"
 CREDENTIALS="nwg:nwg"
 
 
-RELEASES="2025.02.23"
+RELEASES="2025.04.20 2025.02.23"
 
 
 function releases_() {
@@ -3108,7 +3095,6 @@ openbsd
 
 openbsd 7.7:                         https://mirror.leaseweb.com/pub/OpenBSD/7.7/amd64/install77.iso
 openbsd 7.6:                         https://mirror.leaseweb.com/pub/OpenBSD/7.6/amd64/install76.iso
-openbsd 7.5:                         https://mirror.leaseweb.com/pub/OpenBSD/7.5/amd64/install75.iso
 
 # Template file for 'openbsd'
 OSNAME="openbsd"
@@ -3119,7 +3105,7 @@ HOMEPAGE="https://www.openbsd.org"
 CREDENTIALS="-"
 GUEST="openbsd"
 
-RELEASES="7.7 7.6 7.5"
+RELEASES="7.7 7.6"
 
 
 function releases_() {
@@ -3337,9 +3323,6 @@ function get_() {
 
 pbpuppy
 
-pbpuppy 250201 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250201.iso
-pbpuppy 250201 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250201.iso
-pbpuppy 250201 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250201.iso
 pbpuppy 250301 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250301.iso
 pbpuppy 250301 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250301.iso
 pbpuppy 250301 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250301.iso
@@ -3352,6 +3335,12 @@ pbpuppy 250402 VoidPup64:            https://sourceforge.net/projects/pb-gh-rele
 pbpuppy 250404 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250404.iso
 pbpuppy 250404 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250404.iso
 pbpuppy 250404 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250404.iso
+pbpuppy 250501 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250501.iso
+pbpuppy 250501 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250501.iso
+pbpuppy 250501 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250501.iso
+pbpuppy 250502 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250502.iso
+pbpuppy 250502 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250502.iso
+pbpuppy 250502 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250502.iso
 
 # Template file for 'pbpuppy'
 OSNAME="pbpuppy"
@@ -3362,7 +3351,7 @@ HOMEPAGE="https://sourceforge.net/projects/pb-gh-releases"
 CREDENTIALS="-"
 
 
-RELEASES="250404 250402 250314 250301 250201"
+RELEASES="250502 250501 250404 250402 250314 250301"
 EDITIONS="VoidPup64 S15Pup64 BookwormPup64-ghtest"
 
 function releases_() {
@@ -3438,8 +3427,8 @@ function get_() {
 
 popos
 
-popos 22.04 intel:                   https://iso.pop-os.org/22.04/amd64/intel/52/pop-os_22.04_amd64_intel_52.iso
-popos 22.04 nvidia:                  https://iso.pop-os.org/22.04/amd64/nvidia/52/pop-os_22.04_amd64_nvidia_52.iso
+popos 22.04 intel:                   https://iso.pop-os.org/22.04/amd64/intel/53/pop-os_22.04_amd64_intel_53.iso
+popos 22.04 nvidia:                  https://iso.pop-os.org/22.04/amd64/nvidia/53/pop-os_22.04_amd64_nvidia_53.iso
 popos 20.04 intel:                   https://iso.pop-os.org/20.04/amd64/intel/39/pop-os_20.04_amd64_intel_39.iso
 popos 20.04 nvidia:                  https://iso.pop-os.org/20.04/amd64/nvidia/39/pop-os_20.04_amd64_nvidia_39.iso
 
@@ -3642,7 +3631,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -4152,7 +4141,7 @@ function get_() {
 
 tails
 
-tails stable:                        https://download.tails.net/tails/stable/tails-amd64-6.14.1/tails-amd64-6.14.1.iso
+tails stable:                        https://download.tails.net/tails/stable/tails-amd64-6.15/tails-amd64-6.15.iso
 
 # Template file for 'tails'
 OSNAME="tails"
@@ -4397,7 +4386,8 @@ ubuntu-budgie 20.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/re
 ubuntu-budgie 22.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04.5-desktop-amd64.iso
 ubuntu-budgie 24.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.2-desktop-amd64.iso
 ubuntu-budgie 24.10:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.10/release/ubuntu-budgie-24.10-desktop-amd64.iso
-ubuntu-budgie daily-live:            https://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/plucky-desktop-amd64.iso
+ubuntu-budgie 25.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.04/release/ubuntu-budgie-25.04-desktop-amd64.iso
+ubuntu-budgie daily-live:            https://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'ubuntu-budgie'
 OSNAME="ubuntu-budgie"
@@ -4671,6 +4661,7 @@ ubuntu-mate 20.04:                   https://cdimage.ubuntu.com/ubuntu-mate/rele
 ubuntu-mate 22.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.5-desktop-amd64.iso
 ubuntu-mate 24.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.2-desktop-amd64.iso
 ubuntu-mate 24.10:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/24.10/release/ubuntu-mate-24.10-desktop-amd64.iso
+ubuntu-mate 25.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso
 ubuntu-mate daily-live:              https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/plucky-desktop-amd64.iso
 
 # Template file for 'ubuntu-mate'
@@ -4762,6 +4753,7 @@ function get_() {
 ubuntu-server
 
 ubuntu-server daily-live:            https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/plucky-live-server-amd64.iso
+questing-live-server-amd64.iso
 ubuntu-server 24.10:                 https://releases.ubuntu.com/24.10/ubuntu-24.10-live-server-amd64.iso
 ubuntu-server 24.04:                 https://releases.ubuntu.com/24.04/ubuntu-24.04.2-live-server-amd64.iso
 ubuntu-server 22.04:                 https://releases.ubuntu.com/22.04/ubuntu-22.04.5-live-server-amd64.iso
@@ -4839,7 +4831,8 @@ ubuntu-unity
 
 ubuntu-unity 24.04:                  https://cdimage.ubuntu.com/ubuntu-unity/releases/24.04/release/ubuntu-unity-24.04.2-desktop-amd64.iso
 ubuntu-unity 24.10:                  https://cdimage.ubuntu.com/ubuntu-unity/releases/24.10/release/ubuntu-unity-24.10-desktop-amd64.iso
-ubuntu-unity daily-live:             https://cdimage.ubuntu.com/ubuntu-unity/daily-live/current/plucky-desktop-amd64.iso
+ubuntu-unity 25.04:                  https://cdimage.ubuntu.com/ubuntu-unity/releases/25.04/release/ubuntu-unity-25.04-desktop-amd64.iso
+ubuntu-unity daily-live:             https://cdimage.ubuntu.com/ubuntu-unity/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'ubuntu-unity'
 OSNAME="ubuntu-unity"
@@ -4936,7 +4929,8 @@ ubuntu 20.04:                        https://releases.ubuntu.com/20.04/ubuntu-20
 ubuntu 22.04:                        https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso
 ubuntu 24.04:                        https://releases.ubuntu.com/24.04/ubuntu-24.04.2-desktop-amd64.iso
 ubuntu 24.10:                        https://releases.ubuntu.com/24.10/ubuntu-24.10-desktop-amd64.iso
-ubuntu daily-live:                   https://cdimage.ubuntu.com/ubuntu/daily-live/current/plucky-desktop-amd64.iso
+ubuntu 25.04:                        https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
+ubuntu daily-live:                   https://cdimage.ubuntu.com/ubuntu/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'ubuntu'
 OSNAME="ubuntu"
@@ -5031,6 +5025,7 @@ ubuntustudio 20.04:                  https://cdimage.ubuntu.com/ubuntustudio/rel
 ubuntustudio 22.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04.5-dvd-amd64.iso
 ubuntustudio 24.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/release/ubuntustudio-24.04.2-dvd-amd64.iso
 ubuntustudio 24.10:                  https://cdimage.ubuntu.com/ubuntustudio/releases/24.10/release/ubuntustudio-24.10-desktop-amd64.iso
+ubuntustudio 25.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/25.04/release/ubuntustudio-25.04-desktop-amd64.iso
 UbuntuStudio dvd is currently unavailable. Please select other OS/Release combination
 
 # Template file for 'ubuntustudio'
@@ -6557,7 +6552,8 @@ xubuntu 20.04:                       https://cdimage.ubuntu.com/xubuntu/releases
 xubuntu 22.04:                       https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.5-desktop-amd64.iso
 xubuntu 24.04:                       https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.2-desktop-amd64.iso
 xubuntu 24.10:                       https://cdimage.ubuntu.com/xubuntu/releases/24.10/release/xubuntu-24.10-desktop-amd64.iso
-xubuntu daily-live:                  https://cdimage.ubuntu.com/xubuntu/daily-live/current/plucky-desktop-amd64.iso
+xubuntu 25.04:                       https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso
+xubuntu daily-live:                  https://cdimage.ubuntu.com/xubuntu/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'xubuntu'
 OSNAME="xubuntu"
@@ -6647,9 +6643,9 @@ function get_() {
 
 zorin
 
-zorin 17 core64:                     https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Core-64-bit.iso
-zorin 17 lite64:                     https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Lite-64-bit.iso
-zorin 17 education64:                https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Education-64-bit.iso
+zorin 17 core64:                     https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Core-64-bit-r1.iso
+zorin 17 lite64:                     https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Lite-64-bit-r1.iso
+zorin 17 education64:                https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Education-64-bit-r1.iso
 zorin 16 core64:                     https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Core-64-bit.iso
 zorin 16 lite64:                     https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Lite-64-bit.iso
 zorin 16 education64:                https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Education-64-bit.iso
