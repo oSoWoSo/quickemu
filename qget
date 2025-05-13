@@ -15,7 +15,8 @@ fi
 
 export LC_ALL=C
 #TODO: config file
-TOshare="/usr/share/quickget"
+#TOshare="/usr/share/quickget"
+TOshare="./"
 TOpublic="$TOshare/public"
 TOactions="$TOshare/actions"
 
