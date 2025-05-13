@@ -24,7 +24,7 @@ function write_output() {
     EDITIONS=$(echo -e "\n")
   fi
   echo
-  REST=$(sed -n '/^function releases_()/,$p' "actions/${OS}")
+  REST=$(sed -n '/^function get_()/,$p' "actions/${OS}")
   # Create and save the template with all collected information
   printf '# Template file for '\''%s'\''
 OSNAME="%s"
