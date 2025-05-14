@@ -3,7 +3,7 @@ name: "Test all 💿️"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '05 19 * * *'
+    - cron: '0 */6 * * *'
   #push:
     #branches:
       #- '**'
