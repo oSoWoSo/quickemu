@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */6 * * *'
-  #push:
+  push:
     #branches:
       #- '**'
-    #paths:
-      #- actions/**
+    paths:
+      - .github/workflows/dynamo.yml
 
   #pull_request:
     #branches:
@@ -42,10 +42,11 @@ jobs:
           echo "Generated Matrix: $MATRIX"
           echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
 
-      - name: "Install dependencies 📦️"
-        run: |
-          sudo apt-get -y update
-          sudo apt-get -y install curl jq
+      - name: "Cache dependencies 📦️"
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: curl jq
+          version: 1.0
 
   run-actions:
     name: "💿️"
