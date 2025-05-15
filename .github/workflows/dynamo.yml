@@ -125,14 +125,15 @@ jobs:
           git config --global user.name "web-flow"
           git config --global user.email "noreply@github.com"
           git status
-          git add . || echo "add . failed"
+          git add . || echo "add . failed" >> $GITHUB_STEP_SUMMARY
           sort -u < TODO/all | tee TODO/all
-          git add TODO/all || echo "add TODO/all failed"
+          git add TODO/all || echo "add TODO/all failed" >> $GITHUB_STEP_SUMMARY
           git rm -f --ignore-unmatch public/tmp_\*
-          git add public/* || echo "add public failed"
-          git add --all || echo "add --all failed"
-          git commit -m "update supported" || echo "commit failed"
-          git push || echo "push failed"
+          git add public/* || echo "add public failed" >> $GITHUB_STEP_SUMMARY
+          git add README.md || echo "add README.md failed" >> $GITHUB_STEP_SUMMARY
+          git add --all || echo "add --all failed" >> $GITHUB_STEP_SUMMARY
+          git commit -m "update supported" || echo "commit failed" >> $GITHUB_STEP_SUMMARY
+          git push || echo "push failed" >> $GITHUB_STEP_SUMMARY
           git status
           #PASSED=$(grep -c '^PASS:' result | wc -l)
           #FAILED=$(grep -c '^FAIL:' result | wc -l 2>/dev/null | echo '0')
