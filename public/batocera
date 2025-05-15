@@ -1,11 +1,3 @@
-batocera
-
-batocera 41:                         https://mirrors.o2switch.fr/batocera/x86_64/stable/41/batocera-x86_64-41-20250106.img.gz
-batocera 40:                         https://mirrors.o2switch.fr/batocera/x86_64/stable/40/batocera-x86_64-40-20240801.img.gz
-batocera 39:                         https://mirrors.o2switch.fr/batocera/x86_64/stable/39/batocera-x86_64-x86_64-39-20240304.img.gz
-batocera 38:                         https://mirrors.o2switch.fr/batocera/x86_64/stable/38/batocera-x86_64-x86_64-38-20231014.img.gz
-batocera 37:                         https://mirrors.o2switch.fr/batocera/x86_64/stable/37/batocera-x86_64-37-20230617.img.gz
-
 # Template file for 'batocera'
 OSNAME="batocera"
 PRETTY="Batocera"
@@ -36,5 +28,3 @@ function distro_specific() {
 function specific_tweaks() {
     echo "disk_size=\"8G\"" >> "${CONF_FILE}"
 }
-
-

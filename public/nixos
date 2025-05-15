@@ -1,15 +1,3 @@
-nixos
-
-nixos unstable minimal:              https://channels.nixos.org/nixos-unstable/latest-nixos-minimal-x86_64-linux.iso
-nixos unstable plasma:               https://channels.nixos.org/nixos-unstable/latest-nixos-plasma6-x86_64-linux.iso
-nixos unstable gnome:                https://channels.nixos.org/nixos-unstable/latest-nixos-gnome-x86_64-linux.iso
-nixos 24.11 minimal:                 https://channels.nixos.org/nixos-24.11/latest-nixos-minimal-x86_64-linux.iso
-nixos 24.11 plasma:                  https://channels.nixos.org/nixos-24.11/latest-nixos-plasma6-x86_64-linux.iso
-nixos 24.11 gnome:                   https://channels.nixos.org/nixos-24.11/latest-nixos-gnome-x86_64-linux.iso
-nixos 24.05 minimal:                 https://channels.nixos.org/nixos-24.05/latest-nixos-minimal-x86_64-linux.iso
-nixos 24.05 plasma:                  https://channels.nixos.org/nixos-24.05/latest-nixos-plasma6-x86_64-linux.iso
-nixos 24.05 gnome:                   https://channels.nixos.org/nixos-24.05/latest-nixos-gnome-x86_64-linux.iso
-
 # Template file for 'nixos'
 OSNAME="nixos"
 PRETTY="NixOS"
@@ -43,5 +31,3 @@ function get_() {
 function specific_tweaks() {
   echo "disk_size=\"32G\"" >> "${CONF_FILE}"
 }
-
-

@@ -1,8 +1,3 @@
-chimeralinux
-
-chimeralinux latest base:            https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-base.iso
-chimeralinux latest gnome:           https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso
-
 # Template file for 'chimeralinux'
 OSNAME="chimeralinux"
 PRETTY="Chimera Linux"
@@ -24,5 +19,3 @@ function get_() {
     HASH=$(web_pipe "${URL}/sha256sums.txt" | grep 'x86_64-LIVE' | grep "${EDITION}" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
-
-

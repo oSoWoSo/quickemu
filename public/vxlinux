@@ -1,7 +1,3 @@
-vxlinux
-
-vxlinux 6.1.5:                       https://github.com/VX-Linux/main/releases/download/6.1.5/vx-6.1.5.iso
-
 # Template file for 'vxlinux'
 OSNAME="vxlinux"
 PRETTY="VX Linux"
@@ -24,5 +20,3 @@ function get_() {
     HASH=$(web_pipe "${URL}/vx-${RELEASE}.md5" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
-
-

@@ -1,11 +1,3 @@
-endless
-
-endless 6.0.4 base:                  https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/base/eos-eos6.0-amd64-amd64.241023-183516.base.iso
-endless 6.0.4 en:                    https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/en/eos-eos6.0-amd64-amd64.241023-200926.en.iso
-endless 6.0.4 fr:                    https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/fr/eos-eos6.0-amd64-amd64.241023-191212.fr.iso
-endless 6.0.4 pt_BR:                 https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/pt_BR/eos-eos6.0-amd64-amd64.241023-191427.pt_BR.iso
-endless 6.0.4 es:                    https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/es/eos-eos6.0-amd64-amd64.241023-184649.es.iso
-
 # Template file for 'endless'
 OSNAME="endless"
 PRETTY="Endless OS"
@@ -42,5 +34,3 @@ function get_() {
 function specific_tweaks() {
   echo "disk_size=\"32G\"" >> "${CONF_FILE}"
 }
-
-

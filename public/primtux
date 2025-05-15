@@ -1,7 +1,3 @@
-primtux
-
-primtux 7 2022-10:                   https://sourceforge.net/projects/primtux/files/Distribution/PrimTux7-amd64-2022-10.iso
-
 # Template file for 'primtux'
 OSNAME="primtux"
 PRETTY="PrimTux"
@@ -23,5 +19,3 @@ function get_() {
     HASH=$(web_pipe "${URL}/${ISO}.md5" | grep "${ISO}" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
-
-

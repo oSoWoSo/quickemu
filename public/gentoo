@@ -1,8 +1,3 @@
-gentoo
-
-gentoo latest minimal:               https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/20250126T154834Z/install-amd64-minimal-20250126T154834Z.iso
-gentoo latest livegui:               https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/20250126T154834Z/livegui-amd64-20250126T154834Z.iso
-
 # Template file for 'gentoo'
 OSNAME="gentoo"
 PRETTY="Gentoo"
@@ -30,5 +25,3 @@ function get_() {
 function specific_tweaks() {
   echo "disk_size=\"32G\"" >> "${CONF_FILE}"
 }
-
-

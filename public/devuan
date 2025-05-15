@@ -1,9 +1,3 @@
-devuan
-
-devuan daedalus:                     https://files.devuan.org/devuan_daedalus/desktop-live/devuan_daedalus_5.0.0_amd64_desktop-live.iso
-devuan chimaera:                     https://files.devuan.org/devuan_chimaera/desktop-live/devuan_chimaera_4.0.3_amd64_desktop-live.iso
-devuan beowulf:                      https://files.devuan.org/devuan_beowulf/desktop-live/devuan_beowulf_3.1.1_amd64_desktop-live.iso
-
 # Template file for 'devuan'
 OSNAME="devuan"
 PRETTY="Devuan"
@@ -30,5 +24,3 @@ function get_() {
     HASH=$(web_pipe "${URL}/SHASUMS.txt" | grep "${ISO}" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
-
-
