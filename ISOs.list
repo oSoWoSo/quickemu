@@ -74,6 +74,7 @@ funos           https://downloads.sourceforge.net/funos/funos-24.04.2-stable.202
 funos           https://downloads.sourceforge.net/funos/funos-25.04-stable.20250420.iso
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-dr460nized-linux-zen-250308.iso
 gobo            https://gobolinux.neonsys.org/017.01-ISO/GoboLinux-017.01-x86_64.iso
+grml            https://download.grml.org/grml-full-2025.05-amd64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core192/ipfire-2.29-core192-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core193/ipfire-2.29-core193-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core194/ipfire-2.29-core194-x86_64.iso
