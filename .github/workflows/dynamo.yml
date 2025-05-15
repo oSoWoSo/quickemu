@@ -97,6 +97,8 @@ jobs:
         run: |
           rm -f result
           for file in results/*.txt; do
+            name=$(basename -s .txt "$file")
+            cat "$file" > public/"$name"
             cat "$file" >> result
             rm "$file"
           done
@@ -108,7 +110,7 @@ jobs:
           sort -u < TODO/all | tee TODO/all
           git add TODO/all || echo "add TODO/all failed"
           git rm -f --ignore-unmatch public/tmp_\*
-          git add public || echo "add public failed"
+          git add public/* || echo "add public failed"
           git add --all || echo "add --all failed"
           git commit -m "update supported" || echo "commit failed"
           git push || echo "push failed"
