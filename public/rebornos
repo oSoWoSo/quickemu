@@ -1,3 +1,7 @@
+rebornos
+
+rebornos latest:                     
+
 # Template file for 'rebornos'
 OSNAME="rebornos"
 PRETTY="RebornOS"
@@ -23,3 +27,5 @@ function get_() {
     HASH=$(echo "$JSON" | jq -r ".md5")
     echo "${URL} ${HASH}"
 }
+
+

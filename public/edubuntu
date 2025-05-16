@@ -1,3 +1,10 @@
+edubuntu
+
+edubuntu 24.04:                      https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.2-desktop-amd64.iso
+edubuntu 24.10:                      https://cdimage.ubuntu.com/edubuntu/releases/24.10/release/edubuntu-24.10-desktop-amd64.iso
+edubuntu 25.04:                      https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso
+edubuntu daily-live:                 https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso
+
 # Template file for 'edubuntu'
 OSNAME="edubuntu"
 PRETTY="Edubuntu"
@@ -61,3 +68,5 @@ function get_() {
         make_vm_config "${ISO}"
     fi
 }
+
+

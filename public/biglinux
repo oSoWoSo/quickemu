@@ -1,3 +1,7 @@
+biglinux
+
+biglinux 2025-05-12 k614:            https://iso.biglinux.com.br/biglinux_2025-05-12_k614.iso
+
 # Template file for 'biglinux'
 OSNAME="biglinux"
 PRETTY="BigLinux"
@@ -17,3 +21,5 @@ function get_() {
     HASH=$(web_pipe "${URL}/${ISO}.md5" | grep -Eo '[[:alnum:]]{32}')
     echo "${URL}/${ISO} ${HASH}"
 }
+
+

@@ -1,3 +1,7 @@
+fvoid
+
+fvoid latest:                        https://sourceforge.net/projects/f-void/files/28_03_2024/fvoid-live-x86_64-20240328-lxqt.iso
+
 # Template file for 'fvoid'
 OSNAME="fvoid"
 PRETTY="F-Void"
@@ -16,3 +20,5 @@ function get_() {
     REST=$(web_pipe "https://sourceforge.net/projects/f-void/rss?path=/" | grep 'title><!\[CDATA' | cut -d'[' -f3 | cut -d']' -f1 | grep '\.iso' | head -1)
     echo "${URL}${REST}"
 }
+
+

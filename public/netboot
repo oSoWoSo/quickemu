@@ -1,3 +1,7 @@
+netboot
+
+netboot latest:                      https://boot.netboot.xyz/ipxe/netboot.xyz.iso
+
 # Template file for 'netboot'
 OSNAME="netboot"
 PRETTY="netboot.xyz"
@@ -17,3 +21,5 @@ function get_() {
     HASH=$(web_pipe "${URL}/netboot.xyz-sha256-checksums.txt" | grep "${ISO}" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
+
+

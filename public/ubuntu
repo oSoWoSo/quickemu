@@ -1,3 +1,15 @@
+ubuntu
+
+ubuntu 14.04:                        https://releases.ubuntu.com/14.04/ubuntu-14.04.6-desktop-amd64.iso
+ubuntu 16.04:                        https://releases.ubuntu.com/16.04/ubuntu-16.04.7-desktop-amd64.iso
+ubuntu 18.04:                        https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso
+ubuntu 20.04:                        https://releases.ubuntu.com/20.04/ubuntu-20.04.6-desktop-amd64.iso
+ubuntu 22.04:                        https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso
+ubuntu 24.04:                        https://releases.ubuntu.com/24.04/ubuntu-24.04.2-desktop-amd64.iso
+ubuntu 24.10:                        https://releases.ubuntu.com/24.10/ubuntu-24.10-desktop-amd64.iso
+ubuntu 25.04:                        https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
+ubuntu daily-live:                   https://cdimage.ubuntu.com/ubuntu/daily-live/current/questing-desktop-amd64.iso
+
 # Template file for 'ubuntu'
 OSNAME="ubuntu"
 PRETTY="Ubuntu"
@@ -60,3 +72,5 @@ function get_() {
         make_vm_config "${ISO}"
     fi
 }
+
+

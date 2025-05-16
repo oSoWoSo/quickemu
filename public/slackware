@@ -1,3 +1,11 @@
+slackware
+
+slackware 15.0:                      https://slackware.nl/slackware/slackware-iso/slackware64-15.0-iso/slackware64-15.0-install-dvd.iso
+slackware 14.2:                      https://slackware.nl/slackware/slackware-iso/slackware64-14.2-iso/slackware64-14.2-install-dvd.iso
+slackware 14.1:                      https://slackware.nl/slackware/slackware-iso/slackware64-14.1-iso/slackware64-14.1-install-dvd.iso
+slackware 14.0:                      https://slackware.nl/slackware/slackware-iso/slackware64-14.0-iso/slackware64-14.0-install-dvd.iso
+slackware 13.37:                     https://slackware.nl/slackware/slackware-iso/slackware64-13.37-iso/slackware64-13.37-install-dvd.iso
+
 # Template file for 'slackware'
 OSNAME="slackware"
 PRETTY="slackware"
@@ -21,3 +29,5 @@ function get_() {
 function specific_tweaks() {
     echo "boot=\"legacy\"" >> "${CONF_FILE}"
 }
+
+

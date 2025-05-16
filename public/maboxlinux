@@ -1,3 +1,7 @@
+maboxlinux
+
+maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
+
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
 PRETTY="Mabox Linux"
@@ -17,3 +21,5 @@ function get_() {
     URL="$(web_redirect "${URL}" | cut -d? -f1)"
     echo "${URL} ${HASH}"
 }
+
+

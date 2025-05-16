@@ -1,3 +1,11 @@
+miyo
+
+miyo 2022 Kwin:                      https://sourceforge.net/projects/miyolinux/files/2022-Release//
+miyo 2022 Deboot-Ceres:              https://sourceforge.net/projects/miyolinux/files/2022-Release//
+miyo 2022 JWM:                       https://sourceforge.net/projects/miyolinux/files/2022-Release//
+miyo 2022 Openbox:                   https://sourceforge.net/projects/miyolinux/files/2022-Release//
+miyo 2022 MATE:                      https://sourceforge.net/projects/miyolinux/files/2022-Release//
+
 # Template file for 'miyo'
 OSNAME="miyolinux"
 PRETTY="MiyoLinux"
@@ -24,3 +32,5 @@ function get_() {
     HASH=$(wget -q -O- "${URL}/${ISO}.sha256" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
+
+

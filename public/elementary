@@ -1,3 +1,9 @@
+elementary
+
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzQxMjc2MQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzQxMjc2MQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzQxMjc2MQo=/elementaryos-7.0-stable.20230129rc.iso
+
 # Template file for 'elementary'
 OSNAME="elementary"
 PRETTY="elementary OS"
@@ -21,3 +27,5 @@ function get_() {
     local URL="https://ams3.dl.elementary.io/download"
     echo "${URL}/$(date +%s | base64)/${ISO} ${HASH}"
 }
+
+

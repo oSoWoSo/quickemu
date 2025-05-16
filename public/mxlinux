@@ -1,3 +1,9 @@
+mxlinux
+
+mxlinux 23.6 Xfce:                   https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-23.6_x64.iso
+mxlinux 23.6 KDE:                    https://sourceforge.net/projects/mx-linux/files/Final/KDE/MX-23.6_KDE_x64.iso
+mxlinux 23.6 Fluxbox:                https://sourceforge.net/projects/mx-linux/files/Final/Fluxbox/MX-23.6_fluxbox_x64.iso
+
 # Template file for 'mxlinux'
 OSNAME="mxlinux"
 PRETTY="MX Linux"
@@ -22,3 +28,5 @@ function get_() {
     HASH=$(web_pipe "${URL}/${ISO}.sha256" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
+
+

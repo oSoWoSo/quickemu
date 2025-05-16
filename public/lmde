@@ -1,3 +1,7 @@
+lmde
+
+lmde 6 cinnamon:                     https://mirror.bytemark.co.uk/linuxmint/debian/lmde-6-cinnamon-64bit.iso
+
 # Template file for 'lmde'
 OSNAME="lmde"
 PRETTY="Linux Mint Debian Edition"
@@ -17,3 +21,5 @@ function get_() {
     HASH=$(web_pipe "${URL}/sha256sum.txt" | grep "${ISO}" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
+
+

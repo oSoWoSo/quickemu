@@ -1,3 +1,7 @@
+tails
+
+tails stable:                        https://download.tails.net/tails/stable/tails-amd64-6.15/tails-amd64-6.15.iso
+
 # Template file for 'tails'
 OSNAME="tails"
 PRETTY="Tails"
@@ -23,3 +27,5 @@ function get_() {
 function specific_tweaks() {
     echo "boot=\"legacy\"" >> "${CONF_FILE}"
 }
+
+

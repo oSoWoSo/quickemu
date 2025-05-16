@@ -1,3 +1,12 @@
+mageia
+
+mageia 9 Plasma:                     https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
+mageia 9 GNOME:                      https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso
+mageia 9 Xfce:                       https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso
+mageia 8 Plasma:                     https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-Plasma-x86_64/Mageia-8-Live-Plasma-x86_64.iso
+mageia 8 GNOME:                      https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-GNOME-x86_64/Mageia-8-Live-GNOME-x86_64.iso
+mageia 8 Xfce:                       https://mirror.math.princeton.edu/pub/mageia/iso/8/Mageia-8-Live-Xfce-x86_64/Mageia-8-Live-Xfce-x86_64.iso
+
 # Template file for 'mageia'
 OSNAME="mageia"
 PRETTY="Mageia"
@@ -17,3 +26,5 @@ function get_() {
     HASH=$(web_pipe "${ISO}.sha512" | cut -d' ' -f1)
     echo "${ISO} ${HASH}"
 }
+
+

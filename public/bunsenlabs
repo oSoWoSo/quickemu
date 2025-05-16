@@ -1,3 +1,7 @@
+bunsenlabs
+
+bunsenlabs boron:                    https://ddl.bunsenlabs.org/ddl/boron-1-240123-amd64.hybrid.iso
+
 # Template file for 'bunsenlabs'
 OSNAME="bunsenlabs"
 PRETTY="Bunsenlabs"
@@ -17,3 +21,5 @@ function get_() {
     HASH=$(web_pipe "${URL}/release.sha256.txt" | head -n 1 | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
+
+

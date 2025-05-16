@@ -1,3 +1,8 @@
+dsl
+
+dsl 2024.rc7 lz4:                    https://www.damnsmalllinux.org/download/dsl-2024.rc7.lz4.iso
+dsl 2024.rc7 cdrom:                  https://www.damnsmalllinux.org/download/dsl-2024.rc7.iso
+
 # Template file for 'dsl'
 OSNAME="dsl"
 PRETTY="Damn Small Linux"
@@ -21,3 +26,5 @@ function get_() {
     HASH=$(web_pipe "${URL}/${ISO}.md5.txt" | cut -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
+
+

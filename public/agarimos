@@ -1,3 +1,11 @@
+agarimos
+
+agarimos latest plasma:              https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.16_1-20250228.iso
+agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.28_1-20250511.iso
+agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-x86_64-6.12.28_1-20250516.iso
+agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.26_1-20250510.iso
+agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-Live-x86_64-6.12.28_1-20250516.iso
+
 # Template file for 'agarimos'
 OSNAME="agarimos"
 PRETTY="AgarimOS"
@@ -17,3 +25,5 @@ function get_() {
     local ISO=$(echo "${ISOS}" | grep "${REL}" | cut -d'/' -f3)
     echo "${URL}/${ISO}"
 }
+
+

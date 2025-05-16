@@ -1,3 +1,6 @@
+windows
+
+
 # Template file for 'windows'
 OSNAME="windows"
 PRETTY="Windows"
@@ -8,3 +11,8 @@ CREDENTIALS="-"
 GUEST="windows"
 
 RELEASES=""
+
+
+
+
+

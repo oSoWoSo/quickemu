@@ -1,3 +1,10 @@
+linuxlite
+
+linuxlite 6.6:                       https://sourceforge.net/projects/linux-lite/files/6.6/linux-lite-6.6-64bit.iso
+linuxlite 6.4:                       https://sourceforge.net/projects/linux-lite/files/6.4/linux-lite-6.4-64bit.iso
+linuxlite 6.2:                       https://sourceforge.net/projects/linux-lite/files/6.2/linux-lite-6.2-64bit.iso
+linuxlite 6.0:                       https://sourceforge.net/projects/linux-lite/files/6.0/linux-lite-6.0-64bit.iso
+
 # Template file for 'linuxlite'
 OSNAME="linuxlite"
 PRETTY="Linux Lite"
@@ -17,3 +24,5 @@ function get_() {
     HASH=$(web_pipe "${URL}/${ISO}.sha256" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
+
+

@@ -1,3 +1,8 @@
+bazzite
+
+bazzite latest gnome:                https://download.bazzite.gg/bazzite-gnome-stable-amd64.iso
+bazzite latest kde:                  https://download.bazzite.gg/bazzite-stable-amd64.iso
+
 # Template file for 'bazzite'
 OSNAME="bazzite"
 PRETTY="bazzite"
@@ -25,3 +30,5 @@ function get_() {
 function specific_tweaks() {
     echo "disk_size=\"64G\"" >> "${CONF_FILE}"
 }
+
+

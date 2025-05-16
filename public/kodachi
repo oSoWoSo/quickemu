@@ -1,3 +1,7 @@
+kodachi
+
+kodachi latest:                      https://sourceforge.net/projects/linuxkodachi/files/kodachi-8.27-64-kernel-6.2.iso
+
 # Template file for 'kodachi'
 OSNAME="kodachi"
 PRETTY="Kodachi"
@@ -17,3 +21,5 @@ function get_() {
 	local URL="https://sourceforge.net/projects/linuxkodachi/files"
 	echo "${URL}${ISO} ${HASH}"
 }
+
+

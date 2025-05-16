@@ -1,3 +1,11 @@
+siduction
+
+siduction latest kde:                https://mirrors.dotsrc.org/siduction/iso/Shine_on/kde/siduction-2025.1.0-Shine_on-kde-amd64-202503241412.iso
+siduction latest lxqt:               https://mirrors.dotsrc.org/siduction/iso/Shine_on/lxqt/siduction-2024.1.0-Shine_on-lxqt-amd64-202412261736.iso
+siduction latest nox:                https://mirrors.dotsrc.org/siduction/iso/Shine_on/nox/siduction-2024.1.0-Shine_on-nox-amd64-202412261752.iso
+siduction latest xfce:               https://mirrors.dotsrc.org/siduction/iso/Shine_on/xfce/siduction-2024.1.0-Shine_on-xfce-amd64-202412261728.iso
+siduction latest xorg:               https://mirrors.dotsrc.org/siduction/iso/Shine_on/xorg/siduction-2024.1.0-Shine_on-xorg-amd64-202412261745.iso
+
 # Template file for 'siduction'
 OSNAME="siduction"
 PRETTY="siduction"
@@ -24,3 +32,5 @@ function get_() {
     ISO="siduction-${VERSION}-${NAME}-${EDITION}-amd64-${DATE}.iso"
     echo "${URL}/${ISO} ${HASH}"
 }
+
+

@@ -1,3 +1,6 @@
+solus
+
+
 # Template file for 'solus'
 OSNAME="solus"
 PRETTY="Solus"
@@ -17,3 +20,5 @@ function get_() {
     HASH=$(web_pipe "${URL}/${ISO}.sha256sum" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
+
+

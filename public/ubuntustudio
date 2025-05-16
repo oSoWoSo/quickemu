@@ -1,3 +1,14 @@
+ubuntustudio
+
+ubuntustudio 16.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/ubuntustudio-16.04.5-dvd-amd64.iso
+ubuntustudio 18.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-amd64.iso
+ubuntustudio 20.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/20.04/release/ubuntustudio-20.04.5-dvd-amd64.iso
+ubuntustudio 22.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04.5-dvd-amd64.iso
+ubuntustudio 24.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/release/ubuntustudio-24.04.2-dvd-amd64.iso
+ubuntustudio 24.10:                  https://cdimage.ubuntu.com/ubuntustudio/releases/24.10/release/ubuntustudio-24.10-desktop-amd64.iso
+ubuntustudio 25.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/25.04/release/ubuntustudio-25.04-desktop-amd64.iso
+UbuntuStudio dvd is currently unavailable. Please select other OS/Release combination
+
 # Template file for 'ubuntustudio'
 OSNAME="ubuntustudio"
 PRETTY="UbuntuStudio"
@@ -61,3 +72,5 @@ function get_() {
         make_vm_config "${ISO}"
     fi
 }
+
+

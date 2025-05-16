@@ -1,3 +1,6 @@
+windows-server
+
+
 # Template file for 'windows-server'
 OSNAME="windows-server"
 PRETTY="Windows Server"
@@ -37,3 +40,5 @@ function get_() {
         make_vm_config "windows-${RELEASE}.iso" "virtio-win.iso"
     fi
 }
+
+
