@@ -28,24 +28,30 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: '10'
+          fetch-depth: 0
 
       - name: fill
         run: |
           #git status
           chmod a+x action
+          echo "Input check"
           if [ -z "${{ github.event.inputs.what_test }}" ]; then
-            changed_os="${{ github.event.inputs.what_test }}"
+            echo "Input was used"
+            changed="${{ github.event.inputs.what_test }}"
           else
-            changed_os=$(git diff --name-only HEAD^ HEAD | grep '^actions/')
+            echo "Finding git change"
+            changed=$(git diff --name-only HEAD^ HEAD | grep '^actions/')
           fi
-          if [ -z "$changed_os" ]; then
+          echo "Changed check"
+          if [ -z "${changed}" ]; then
             echo "Nothing changed"
             exit 0
           fi
+          echo "Check run"
           for os in ${changed_os}; do
-            ./action $os
+            ./action ${os}
           done
+          echo "Sorting all"
           sort -u < TODO/all | tee TODO/all
 
       - name: push
