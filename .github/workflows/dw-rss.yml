@@ -6,6 +6,8 @@ on:
     # Run this Action every day at 7:37am UTC
     - cron: '0 18 * * *'
   workflow_dispatch:
+  push:
+    paths: .github/workflows/dw-rss.yml
 jobs:
   distrowatch:
     runs-on: ubuntu-latest
