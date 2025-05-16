@@ -32,7 +32,7 @@ jobs:
 
       - name: fill
         run: |
-          git status
+          #git status
           chmod a+x action
           if [ -z "${{ github.event.inputs.what_test }}" ]; then
             changed_os="${{ github.event.inputs.what_test }}"
@@ -44,15 +44,15 @@ jobs:
             exit 0
           fi
           for os in ${changed_os}; do
-            ./action $os | tee /dev/null
+            ./action $os
           done
           sort -u < TODO/all | tee TODO/all
-          git config --global user.name "${{ github.repository_owner }}"
-          git config --global user.email "noreply@github.com"
 
       - name: push
         run: |
-          git status
+          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.email "noreply@github.com"
+          #git status
           #git add . || echo "add . failed"
           git add TODO/all || echo "add TODO/all failed"
           git add actions || echo "add actions failed"
