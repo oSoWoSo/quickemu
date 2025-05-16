@@ -130,9 +130,10 @@ jobs:
           git add TODO/all
           git rm -f --ignore-unmatch public/tmp_\*
           git add public/*
+          git add README.md
           git add --all
           git commit -m "update supported"
-          git push
+          git push --force
           git status
           #PASSED=$(grep -c '^PASS:' result | wc -l)
           #FAILED=$(grep -c '^FAIL:' result | wc -l 2>/dev/null | echo '0')
