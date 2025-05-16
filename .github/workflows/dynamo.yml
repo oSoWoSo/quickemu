@@ -107,6 +107,7 @@ jobs:
             template=$(awk '/# Template file for/{found=1} found' "$file")
             echo "$isos" >> result
             echo "$template" > public/"$name"
+            echo "" >> public/"$name"
             ISOS=$(IFS= read -r isos < <(awk '/# Template file for/{exit} {print}' "$file"))
             content=$(awk '/# Template file for/{found=1; next} found' "$file")
             RELEASES=$(echo "$content" | grep 'RELEASES=' | cut -d'=' -f2 | tr -d '"')
@@ -118,7 +119,7 @@ jobs:
           if grep -q "<!-- TABLE -->" README.md; then
             sed -i.bak "/<!-- TABLE -->/r /dev/stdin" README.md <<< "$table"
           else
-            echo -e "\n<!-- TABLE -->\n$table" >> README.md
+            echo -e "\n<!-- TABLE -->\n$table" > README.md
           fi
 
           sort -u < TODO/all | tee TODO/all
