@@ -35,7 +35,7 @@ jobs:
           #git status
           chmod a+x action
           echo "Input check"
-          if [ -z "${{ github.event.inputs.what_test }}" ]; then
+          if [ ! -z "${{ github.event.inputs.what_test }}" ]; then
             echo "Input was used"
             changed="${{ github.event.inputs.what_test }}"
           else
@@ -44,11 +44,11 @@ jobs:
           fi
           echo "Changed check"
           if [ -z "${changed}" ]; then
-            echo "Nothing changed"
+            echo "Nothing choosed or changed"
             exit 0
           fi
           echo "Check run"
-          for os in ${changed_os}; do
+          for os in ${changed}; do
             ./action ${os}
           done
           echo "Sorting all"
