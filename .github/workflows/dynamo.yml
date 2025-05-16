@@ -65,7 +65,7 @@ jobs:
           #./quickget --check ${{ matrix.file }} | tee results/${{ matrix.file }}.txt
           chmod a+x action
           ./action ${{ matrix.file }} | tee results/${{ matrix.file }}.txt
-          #cat public/${{ matrix.file }}
+          git add public/${{ matrix.file }}
           #if grep -vqE '^(PASS:|SKIP:)' results/${{ matrix.file }}.txt; then
             #grep -vE '^(PASS:|SKIP:)' results/${{ matrix.file }}.txt >> $GITHUB_STEP_SUMMARY
             #exit 1
@@ -96,44 +96,24 @@ jobs:
       - name: "Display and push results 📊"
         run: |
           rm -f result
-          isos=""
-          template=""
-          header="OS|RELEASES|EDITIONS|ISOS"
-          table="| $header |\n|---|---|---|---|\n"
-
           for file in results/*.txt; do
             name=$(basename -s .txt "$file")
-            isos=$(awk '/# Template file for/{exit} {print}' "$file")
-            template=$(awk '/# Template file for/{found=1} found' "$file")
-            echo "$isos" >> result
-            echo "$template" > public/"$name"
-            ISOS=$(echo "$isos" | grep 'https://')
-            #content=$(awk '/# Template file for/{found=1; next} found' "$file")
-            RELEASES=$(echo "$template" | grep 'RELEASES=' | cut -d'=' -f2 | tr -d '"')
-            EDITIONS=$(echo "$template" | grep 'EDITIONS=' | cut -d'=' -f2 | tr -d '"')
-            table+="| $(basename -s .txt "$file") | $RELEASES | $EDITIONS | $ISOS |\n"
+            cat "$file" > public/"$name"
+            cat "$file" >> result
             rm "$file"
           done
-
-          if grep -q "<!-- TABLE -->" README.md; then
-            sed -i.bak "/<!-- TABLE -->/r /dev/stdin" README.md <<< "$table"
-          else
-            echo -e "\n<!-- TABLE -->\n$table" >> README.md
-          fi
-
           sort -u < TODO/all | tee TODO/all
           git config --global user.name "web-flow"
           git config --global user.email "noreply@github.com"
           git status
-          git add . || echo "add . failed" >> $GITHUB_STEP_SUMMARY
+          git add .
           sort -u < TODO/all | tee TODO/all
-          git add TODO/all || echo "add TODO/all failed" >> $GITHUB_STEP_SUMMARY
+          git add TODO/all
           git rm -f --ignore-unmatch public/tmp_\*
-          git add public/* || echo "add public failed" >> $GITHUB_STEP_SUMMARY
-          git add README.md || echo "add README.md failed" >> $GITHUB_STEP_SUMMARY
-          git add --all || echo "add --all failed" >> $GITHUB_STEP_SUMMARY
-          git commit -m "update supported" || echo "commit failed" >> $GITHUB_STEP_SUMMARY
-          git push || echo "push failed" >> $GITHUB_STEP_SUMMARY
+          git add public/*
+          git add --all
+          git commit -m "update supported"
+          git push
           git status
           #PASSED=$(grep -c '^PASS:' result | wc -l)
           #FAILED=$(grep -c '^FAIL:' result | wc -l 2>/dev/null | echo '0')
