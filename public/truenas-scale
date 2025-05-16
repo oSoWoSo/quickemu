@@ -1,7 +1,3 @@
-truenas-scale
-
-truenas-scale 24:                    https://download.sys.truenas.net/TrueNAS-SCALE-ElectricEel/24.10.2.2/TrueNAS-SCALE-24.10.2.2.iso
-
 # Template file for 'truenas-scale'
 OSNAME="truenas-scale"
 PRETTY="TrueNAS Scale"
@@ -31,5 +27,3 @@ function specific_tweaks() {
     # echo "1stdrive_size=\"20G\"" >> "${CONF_FILE}" # for testing
     # echo "2nddrive_size=\"20G\"" >> "${CONF_FILE}" # again, for testing
 }
-
-

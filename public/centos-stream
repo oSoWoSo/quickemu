@@ -1,10 +1,3 @@
-centos-stream
-
-centos-stream 10 boot:               https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-latest-x86_64-boot.iso
-centos-stream 10 dvd1:               https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-latest-x86_64-dvd1.iso
-centos-stream 9 boot:                https://linuxsoft.cern.ch/centos-stream/9-stream/BaseOS/x86_64/iso/CentOS-Stream-9-latest-x86_64-boot.iso
-centos-stream 9 dvd1:                https://linuxsoft.cern.ch/centos-stream/9-stream/BaseOS/x86_64/iso/CentOS-Stream-9-latest-x86_64-dvd1.iso
-
 # Template file for 'centos-stream'
 OSNAME="centos-stream"
 PRETTY="CentOS Stream"
@@ -28,5 +21,3 @@ function get_() {
 function specific_tweaks() {
     echo "disk_size=\"32G\"" >> "${CONF_FILE}"
 }
-
-

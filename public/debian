@@ -1,33 +1,3 @@
-debian
-
-debian 12.10.0 standard:             https://cdimage.debian.org/debian-cd/12.10.0-live/amd64/iso-hybrid/debian-live-12.10.0-amd64-standard.iso
-debian 12.10.0 cinnamon:             https://cdimage.debian.org/debian-cd/12.10.0-live/amd64/iso-hybrid/debian-live-12.10.0-amd64-cinnamon.iso
-debian 12.10.0 gnome:                https://cdimage.debian.org/debian-cd/12.10.0-live/amd64/iso-hybrid/debian-live-12.10.0-amd64-gnome.iso
-debian 12.10.0 kde:                  https://cdimage.debian.org/debian-cd/12.10.0-live/amd64/iso-hybrid/debian-live-12.10.0-amd64-kde.iso
-debian 12.10.0 lxde:                 https://cdimage.debian.org/debian-cd/12.10.0-live/amd64/iso-hybrid/debian-live-12.10.0-amd64-lxde.iso
-debian 12.10.0 lxqt:                 https://cdimage.debian.org/debian-cd/12.10.0-live/amd64/iso-hybrid/debian-live-12.10.0-amd64-lxqt.iso
-debian 12.10.0 mate:                 https://cdimage.debian.org/debian-cd/12.10.0-live/amd64/iso-hybrid/debian-live-12.10.0-amd64-mate.iso
-debian 12.10.0 xfce:                 https://cdimage.debian.org/debian-cd/12.10.0-live/amd64/iso-hybrid/debian-live-12.10.0-amd64-xfce.iso
-debian 12.10.0 netinst:              https://cdimage.debian.org/debian-cd/12.10.0/amd64/iso-cd/debian-12.10.0-amd64-netinst.iso
-debian 11.11.0 standard:             https://cdimage.debian.org/cdimage/archive/11.11.0-live/amd64/iso-hybrid/debian-live-11.11.0-amd64-standard.iso
-debian 11.11.0 cinnamon:             https://cdimage.debian.org/cdimage/archive/11.11.0-live/amd64/iso-hybrid/debian-live-11.11.0-amd64-cinnamon.iso
-debian 11.11.0 gnome:                https://cdimage.debian.org/cdimage/archive/11.11.0-live/amd64/iso-hybrid/debian-live-11.11.0-amd64-gnome.iso
-debian 11.11.0 kde:                  https://cdimage.debian.org/cdimage/archive/11.11.0-live/amd64/iso-hybrid/debian-live-11.11.0-amd64-kde.iso
-debian 11.11.0 lxde:                 https://cdimage.debian.org/cdimage/archive/11.11.0-live/amd64/iso-hybrid/debian-live-11.11.0-amd64-lxde.iso
-debian 11.11.0 lxqt:                 https://cdimage.debian.org/cdimage/archive/11.11.0-live/amd64/iso-hybrid/debian-live-11.11.0-amd64-lxqt.iso
-debian 11.11.0 mate:                 https://cdimage.debian.org/cdimage/archive/11.11.0-live/amd64/iso-hybrid/debian-live-11.11.0-amd64-mate.iso
-debian 11.11.0 xfce:                 https://cdimage.debian.org/cdimage/archive/11.11.0-live/amd64/iso-hybrid/debian-live-11.11.0-amd64-xfce.iso
-debian 11.11.0 netinst:              https://cdimage.debian.org/cdimage/archive/11.11.0/amd64/iso-cd/debian-11.11.0-amd64-netinst.iso
-debian 10.13.0 standard:             https://cdimage.debian.org/cdimage/archive/10.13.0-live/amd64/iso-hybrid/debian-live-10.13.0-amd64-standard.iso
-debian 10.13.0 cinnamon:             https://cdimage.debian.org/cdimage/archive/10.13.0-live/amd64/iso-hybrid/debian-live-10.13.0-amd64-cinnamon.iso
-debian 10.13.0 gnome:                https://cdimage.debian.org/cdimage/archive/10.13.0-live/amd64/iso-hybrid/debian-live-10.13.0-amd64-gnome.iso
-debian 10.13.0 kde:                  https://cdimage.debian.org/cdimage/archive/10.13.0-live/amd64/iso-hybrid/debian-live-10.13.0-amd64-kde.iso
-debian 10.13.0 lxde:                 https://cdimage.debian.org/cdimage/archive/10.13.0-live/amd64/iso-hybrid/debian-live-10.13.0-amd64-lxde.iso
-debian 10.13.0 lxqt:                 https://cdimage.debian.org/cdimage/archive/10.13.0-live/amd64/iso-hybrid/debian-live-10.13.0-amd64-lxqt.iso
-debian 10.13.0 mate:                 https://cdimage.debian.org/cdimage/archive/10.13.0-live/amd64/iso-hybrid/debian-live-10.13.0-amd64-mate.iso
-debian 10.13.0 xfce:                 https://cdimage.debian.org/cdimage/archive/10.13.0-live/amd64/iso-hybrid/debian-live-10.13.0-amd64-xfce.iso
-debian 10.13.0 netinst:              https://cdimage.debian.org/cdimage/archive/10.13.0/amd64/iso-cd/debian-10.13.0-amd64-netinst.iso
-
 # Template file for 'debian'
 OSNAME="debian"
 PRETTY="Debian"
@@ -57,5 +27,3 @@ function get_() {
     HASH=$(web_pipe "${URL}/SHA512SUMS" | grep "${ISO}" | cut -d' ' -f1 | head -n 1)
     echo "${URL}/${ISO} ${HASH}"
 }
-
-

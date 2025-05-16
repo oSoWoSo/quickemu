@@ -1,7 +1,3 @@
-slint
-
-slint 15.0-5:                        https://slackware.uk/slint/x86_64/slint-15.0/iso/slint64-15.0-5.iso
-
 # Template file for 'slint'
 OSNAME="slint"
 PRETTY="Slint"
@@ -27,5 +23,3 @@ function get_() {
 function specific_tweaks() {
     echo "disk_size=\"50G\"" >> "${CONF_FILE}"
 }
-
-

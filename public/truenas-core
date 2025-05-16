@@ -1,7 +1,3 @@
-truenas-core
-
-truenas-core 13:                     https://download-core.sys.truenas.net/13.0/STABLE/U6.7/x64/TrueNAS-13.0-U6.7.iso
-
 # Template file for 'truenas-core'
 OSNAME="truenas-core"
 PRETTY="TrueNAS Core"
@@ -30,5 +26,3 @@ function specific_tweaks() {
     # echo "1stdrive_size=\"20G\"" >> "${CONF_FILE}" # for testing
     # echo "2nddrive_size=\"20G\"" >> "${CONF_FILE}" # again, for testing
 }
-
-

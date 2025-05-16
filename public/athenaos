@@ -1,8 +1,3 @@
-athenaos
-
-athenaos v23.06.23:                  https://github.com/Athena-OS/athena/releases/download/v23.06.23/athena-rolling-x86_64.iso
-athenaos v23.11:                     https://github.com/Athena-OS/athena/releases/download/v23.11/athena-rolling-x86_64.iso
-
 # Template file for 'athenaos'
 OSNAME="athenaos"
 PRETTY="Athena OS"
@@ -26,5 +21,3 @@ function get_() {
 function specific_tweaks() {
     echo "disk_size=\"32G\"" >> "${CONF_FILE}"
 }
-
-

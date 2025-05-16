@@ -1,7 +1,3 @@
-vxlinux
-
-vxlinux 4.2:                         https://mega.nz/folder/SxwFTCTZ#s_qwDWrSWr7ZSTBVJC9Q_g/file/vx-4.2.iso
-
 # Template file for 'vxlinux'
 OSNAME="vxlinux"
 PRETTY="VX Linux"
@@ -24,5 +20,3 @@ function get_() {
     HASH=$(web_pipe "${URL}/vx-${RELEASE}.md5" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
-
-

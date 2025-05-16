@@ -1,14 +1,3 @@
-porteus
-
-porteus 5.01 cinnamon:               https://mirrors.dotsrc.org/porteus/x86_64/Porteus-v5.01/Porteus-CINNAMON-v5.01-x86_64.iso
-porteus 5.01 gnome:                  https://mirrors.dotsrc.org/porteus/x86_64/Porteus-v5.01/Porteus-GNOME-v5.01-x86_64.iso
-porteus 5.01 kde:                    https://mirrors.dotsrc.org/porteus/x86_64/Porteus-v5.01/Porteus-KDE-v5.01-x86_64.iso
-porteus 5.01 lxde:                   https://mirrors.dotsrc.org/porteus/x86_64/Porteus-v5.01/Porteus-LXDE-v5.01-x86_64.iso
-porteus 5.01 lxqt:                   https://mirrors.dotsrc.org/porteus/x86_64/Porteus-v5.01/Porteus-LXQT-v5.01-x86_64.iso
-porteus 5.01 mate:                   https://mirrors.dotsrc.org/porteus/x86_64/Porteus-v5.01/Porteus-MATE-v5.01-x86_64.iso
-porteus 5.01 openbox:                https://mirrors.dotsrc.org/porteus/x86_64/Porteus-v5.01/Porteus-OPENBOX-v5.01-x86_64.iso
-porteus 5.01 xfce:                   https://mirrors.dotsrc.org/porteus/x86_64/Porteus-v5.01/Porteus-XFCE-v5.01-x86_64.iso
-
 # Template file for 'porteus'
 OSNAME="porteus"
 PRETTY="Porteus"
@@ -31,5 +20,3 @@ function get_() {
     HASH=$(web_pipe "${URL}/sha256sums.txt" | grep "${ISO}" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
-
-

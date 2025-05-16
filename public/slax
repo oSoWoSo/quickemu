@@ -1,8 +1,3 @@
-slax
-
-slax latest debian:                  https://ftp.fi.muni.cz/pub/linux/slax/Slax-12.x/slax-64bit-debian-12.2.0.iso
-slax latest slackware:               https://ftp.fi.muni.cz/pub/linux/slax/Slax-15.x/slax-64bit-slackware-15.0.4.iso
-
 # Template file for 'slax'
 OSNAME="slax"
 PRETTY="Slax"
@@ -34,5 +29,3 @@ function get_() {
 function specific_tweaks() {
     echo "boot=\"legacy\"" >> "${CONF_FILE}"
 }
-
-
