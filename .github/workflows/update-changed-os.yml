@@ -53,10 +53,10 @@ jobs:
       - name: push
         run: |
           git status
-          git add . || echo "add . failed"
+          #git add . || echo "add . failed"
           git add TODO/all || echo "add TODO/all failed"
           git add actions || echo "add actions failed"
-          git rm -f public/tmp_\*
+          rm -f public/tmp* || echo "Removing public/tmp* failed"
           git add public || echo "add public failed"
           git add --all || echo "add --all failed"
           git commit -m "update supported" || echo "commit failed"
