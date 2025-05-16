@@ -1,0 +1,21 @@
+--- # RSS feed
+name: Monitor new OS versions (distrowatch)
+
+on:
+  schedule:
+    # Run this Action every day at 7:37am UTC
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+jobs:
+  distrowatch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: git-for-windows/rss-to-issues@v0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          feed: https://distrowatch.com/news/dwd.xml
+          prefix: "[OS]"
+          character-limit: 255
+          dry-run: true
+          max-age: 48h
+          labels: distrowatch
