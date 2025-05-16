@@ -24,3 +24,4 @@ function specific_tweaks() {
         education64|edulite64) echo "disk_size=\"32G\"" >> "${CONF_FILE}"
     esac
 }
+

@@ -39,3 +39,4 @@ function specific_tweaks() {
     echo "disk_size=\"2G\"" >> "${CONF_FILE}"
     echo "ram=\"128M\"" >> "${CONF_FILE}"
 }
+

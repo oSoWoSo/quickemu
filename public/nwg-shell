@@ -17,3 +17,4 @@ function get_() {
     HASH="$(web_pipe "https://sourceforge.net/projects/nwg-iso/rss?path=/" | grep "${ISO}" | cut -d'>' -f3 | cut -d'<' -f1 | tail -n 1)"
     echo "${URL}/${ISO} ${HASH}"
 }
+

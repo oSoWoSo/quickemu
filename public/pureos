@@ -27,3 +27,4 @@ function get_() {
     HASH="$(web_pipe "${URL}/${IsoTrimmed}.checksums_sha256.txt" | grep -m 1 '.iso' | cut -d '.' -f 1)"
     echo "${URL}/${ISO} ${HASH}"
 }
+

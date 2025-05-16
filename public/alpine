@@ -20,3 +20,4 @@ function get_() {
     HASH=$(web_pipe "${URL}/latest-releases.yaml" | awk '/"Xen"/{found=0} {if(found) print} /"Virtual"/{found=1}' | grep 'sha256:' | awk '{print $2}')
     echo "${URL}/${ISO} ${HASH}"
 }
+

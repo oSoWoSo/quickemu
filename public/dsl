@@ -21,3 +21,4 @@ function get_() {
     HASH=$(web_pipe "${URL}/${ISO}.md5.txt" | cut -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
+

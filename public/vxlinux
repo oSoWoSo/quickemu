@@ -20,3 +20,4 @@ function get_() {
     HASH=$(web_pipe "${URL}/vx-${RELEASE}.md5" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
+

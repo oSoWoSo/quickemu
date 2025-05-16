@@ -29,3 +29,4 @@ function get_() {
     done
     echo "${URL}/${ISO} ${HASH}"
 }
+

@@ -26,3 +26,4 @@ function get_() {
     ISO=$(web_redirect "${URL}/${ISO}")
     echo "${ISO} ${HASH}"
 }
+

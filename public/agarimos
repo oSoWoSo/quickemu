@@ -17,3 +17,4 @@ function get_() {
     local ISO=$(echo "${ISOS}" | grep "${REL}" | cut -d'/' -f3)
     echo "${URL}/${ISO}"
 }
+

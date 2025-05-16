@@ -60,3 +60,4 @@ function get_() {
         make_vm_config "${ISO}"
     fi
 }
+

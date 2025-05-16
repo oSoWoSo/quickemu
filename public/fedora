@@ -34,3 +34,4 @@ function get_() {
     HASH=$(echo "${JSON}" | jq -r '.sha256' | head -n1)
     echo "${URL} ${HASH}"
 }
+

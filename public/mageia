@@ -17,3 +17,4 @@ function get_() {
     HASH=$(web_pipe "${ISO}.sha512" | cut -d' ' -f1)
     echo "${ISO} ${HASH}"
 }
+

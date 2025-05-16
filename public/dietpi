@@ -28,3 +28,4 @@ function specific_tweaks() {
         echo "boot=\"legacy\"" >> "${CONF_FILE}"
     fi
 }
+

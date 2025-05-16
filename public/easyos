@@ -33,3 +33,4 @@ function distro_specific() {
         ISO="${ISO/.img/}"
     fi
 }
+

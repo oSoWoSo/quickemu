@@ -24,3 +24,4 @@ function get_() {
     ISO="siduction-${VERSION}-${NAME}-${EDITION}-amd64-${DATE}.iso"
     echo "${URL}/${ISO} ${HASH}"
 }
+

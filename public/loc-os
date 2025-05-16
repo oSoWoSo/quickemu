@@ -20,3 +20,4 @@ function get_() {
     ISO=$(echo "${REST_URL}" | cut -d'/' -f3)
     echo "${URL}/${ISO}"
 }
+

@@ -27,3 +27,4 @@ function get_() {
     HASH=$(web_pipe "${URL}/SHA512SUMS" | grep "${ISO}" | cut -d' ' -f1 | head -n 1)
     echo "${URL}/${ISO} ${HASH}"
 }
+

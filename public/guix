@@ -16,3 +16,4 @@ function get_() {
     local URL="https://ftpmirror.gnu.org/gnu/guix/"
     echo "${URL}/${ISO} ${HASH}"
 }
+

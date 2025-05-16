@@ -16,3 +16,4 @@ function get_() {
     ISO=$(web_pipe "https://api.github.com/repos/CBPP/cbpp/releases" | grep 'download_url' | grep amd64 | grep "${RELEASE}" | cut -d'"' -f4)
     echo "${ISO} ${HASH}"
 }
+

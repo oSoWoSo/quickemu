@@ -39,3 +39,4 @@ function get_() {
     HASH=$(web_pipe "${URL}.sha512" | cut -d' ' -f1)
     echo "${URL} ${HASH}"
 }
+

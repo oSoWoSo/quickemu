@@ -17,3 +17,4 @@ function get_() {
     URL="$(web_redirect "${URL}" | cut -d? -f1)"
     echo "${URL} ${HASH}"
 }
+

@@ -17,3 +17,4 @@ function get_() {
     HASH=$(web_pipe "${URL}/release.sha256.txt" | head -n 1 | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
+

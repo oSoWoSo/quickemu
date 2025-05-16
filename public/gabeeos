@@ -24,3 +24,4 @@ function get_() {
     # No hash provided
     echo "${URL}/${ISO}"
 }
+
