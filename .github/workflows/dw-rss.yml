@@ -17,9 +17,9 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           feed: https://distrowatch.com/news/dwd.xml
           prefix: "[OS]"
-          character-limit: 2000
-          dry-run: true
-          max-age: 48h
+          character-limit: 5000
+          dry-run: false
+          max-age: 5000h
           labels: distrowatch
           url-only: false
           
