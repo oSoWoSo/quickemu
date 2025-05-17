@@ -116,12 +116,12 @@ jobs:
             rm "$file"
           done
 
-          if grep -q "<!-- TABLE -->" README.md; then
-            sed -i.bak "/<!-- TABLE -->/r /dev/stdin" README.md <<< "$table"
-          else
-            echo -e "\n<!-- TABLE -->\n$table" > README.md
-          fi
-
+          #if grep -q "<!-- TABLE -->" README.md; then
+          #  sed -i.bak "/<!-- TABLE -->/r /dev/stdin" README.md <<< "$table"
+          #else
+          #  echo -e "\n<!-- TABLE -->\n$table" > README.md
+          #fi
+          echo -e "# Table of supported\n<!-- TABLE -->\n$table" > README.md
           sort -u < TODO/all | tee TODO/all
           git config --global user.name "web-flow"
           git config --global user.email "noreply@github.com"
