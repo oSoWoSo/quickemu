@@ -7,7 +7,7 @@ HOMEPAGE="https://nwg-piotr.github.io/nwg-shell"
 CREDENTIALS="nwg:nwg"
 
 
-RELEASES="2025.04.20 2025.02.23"
+RELEASES="2025.05.17 2025.04.20"
 
 
 function get_() {
