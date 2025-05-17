@@ -41,14 +41,16 @@ jobs:
           else
             echo "Finding git change"
             changed=$(git diff --name-only HEAD^ HEAD | grep '^actions/')
+            echo "$changed"
           fi
           echo "Changed check"
-          if [ -z "${changed}" ]; then
+          change=$(basename "$changed")
+          if [ -z "${change}" ]; then
             echo "Nothing choosed or changed"
             exit 0
           fi
           echo "Check run"
-          for os in ${changed}; do
+          for os in ${change}; do
             ./action ${os}
           done
           echo "Sorting all"
