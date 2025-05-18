@@ -98,6 +98,7 @@ jobs:
         run: |
           rm -f result
           rm -rf public
+          mkdir public
           for file in results/*.txt; do
             name=$(basename -s .txt "$file")
             template=$(awk '/# Template file for/{found=1} found' "$file")
