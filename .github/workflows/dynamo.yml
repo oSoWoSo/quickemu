@@ -113,13 +113,13 @@ jobs:
             NAME=$(basename -s .txt "$file")
             echo "Getting $NAME isos"
             isos=$(awk '/# Template file for/{exit} {print}' "$file")
-            ISOS=$(echo "$isos" | awk '/# Template file for/{exit} {print}' | tail -n +3 | cut -d' ' -f26)
+            ISOS=$(echo "$isos" | awk '/# Template file for/{exit} {print}' | tail -n +3 | cut -d':' -f2- | awk '{$1=$1; print}')
             echo "Getting $NAME releases"
             content=$(awk '/# Template file for/{found=1; next} found' "$file")
             RELEASES=$(echo "$content" | grep 'RELEASES=' | cut -d'=' -f2 | tr -d '"')
             EDITIONS=$(echo "$content" | grep 'EDITIONS=' | cut -d'=' -f2 | tr -d '"' || echo '')
             echo "Adding $NAME to table"
-            table+="| $NAME | $RELEASES | $EDITIONS | $ISOS |\n"
+            table+="| ${NAME} | ${RELEASES} | ${EDITIONS} | ${ISOS} |\n"
             rm "$file"
           done
           echo "Rewriting readme"
