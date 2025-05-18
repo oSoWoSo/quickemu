@@ -142,13 +142,10 @@ jobs:
               EDITION=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f3)
               iso=$(echo "$line" | cut -d':' -f2- | awk '{$1=$1; print}')
               if [[ ! ${tables[$NAME]} ]]; then
-                tables[$NAME]=""
+                declare -A tables[$NAME]
               fi
               if [[ "$EDITION" == "" ]]; then
                 EDITION=" "
-              fi
-              if [[ ! ${tables[$NAME][$EDITION]} ]]; then
-                tables[$NAME][$EDITION]=""
               fi
               tables[$NAME][$EDITION]+="|$RELEASE|$iso|\n"
             done <<< "$content"
@@ -166,7 +163,8 @@ jobs:
               table+="---|"
             done
             table+="\n"
-            for release in $(echo "${tables[$os][ ]}" | cut -d'|' -f2); do
+            releases=($(echo "${tables[$os][ ]}" | cut -d'|' -f2))
+            for release in "${releases[@]}"; do
               row="|$release|"
               for edition in "${!tables[$os][@]}"; do
                 if [[ ${tables[$os][$edition]} =~ $release ]]; then
