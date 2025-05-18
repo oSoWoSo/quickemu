@@ -182,11 +182,6 @@ jobs:
           echo "Sorting"
           sort -u < TODO/all | tee TODO/all
 
-      - name: "Removing temp files"
-        run: |
-          rm -f public/tmp*
-          rm -rf results
-
       - name: "Table"
         if: always()
         run: |
@@ -236,6 +231,11 @@ jobs:
             table+="\n"
           done
           echo -e "# Table of supported\n<!-- TABLE -->\n$table" > TABLE.md
+
+      - name: "Removing temp files"
+        run: |
+          rm -f public/tmp*
+          rm -rf results
 
       - name: "Push results"
         if: always()
