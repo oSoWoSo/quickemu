@@ -180,7 +180,7 @@ jobs:
             rm "$file"
           done
           echo "Rewriting README"
-          echo -e "# Table of supported\n<!-- TABLE -->\n$table" > README.md
+          echo -e "# Table of supported\n<!-- TABLE -->\n$table" | grep -v 'ERROR' > README.md
           rm -f public/tmp*
           echo "Sorting"
           sort -u < TODO/all | tee TODO/all
