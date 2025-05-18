@@ -68,7 +68,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://netactuate.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso) |
+| archcraft | latest |  | [url](https://cytranet-dal.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2025.05.01/archlinux-2025.05.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
@@ -202,16 +202,13 @@
 | dragonflybsd | 5.0.0 |  | [url](http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.0.0_REL.iso.bz2) |
 | dsl | 2024.rc7 | lz4 | [url](https://www.damnsmalllinux.org/download/dsl-2024.rc7.lz4.iso) |
 | dsl | 2024.rc7 | cdrom | [url](https://www.damnsmalllinux.org/download/dsl-2024.rc7.iso) |
-| easyos | 5.9 |  | [url](https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/2025/5.9/easy-5.9-amd64.img) |
-| easyos | 5.8.5 |  | [url](https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/2025/5.8.5/easy-5.8.5-amd64.img) |
-| easyos | 5.8.5 |  | [url](https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/2025/5.8.5/easy-5.8.5-amd64.img) |
 | edubuntu | 24.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.2-desktop-amd64.iso) |
 | edubuntu | 24.10 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/24.10/release/edubuntu-24.10-desktop-amd64.iso) |
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc0NzU3MTUyNQo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc0NzU3MTUyNQo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc0NzU3MTUyNQo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc0NzU3NjU0Ngo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc0NzU3NjU0Ngo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc0NzU3NjU0Ngo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -222,57 +219,6 @@
 | endless | 6.0.4 | fr | [url](https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/fr/eos-eos6.0-amd64-amd64.241023-191212.fr.iso) |
 | endless | 6.0.4 | pt_BR | [url](https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/pt_BR/eos-eos6.0-amd64-amd64.241023-191427.pt_BR.iso) |
 | endless | 6.0.4 | es | [url](https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/es/eos-eos6.0-amd64-amd64.241023-184649.es.iso) |
-| fedora | 42 | Budgie | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-Budgie-Live-42-1.1.x86_64.iso) |
-| fedora | 42 | COSMIC | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-COSMIC-Live-42-1.1.x86_64.iso) |
-| fedora | 42 | COSMIC-Atomic | **ERROR** |
-| fedora | 42 | Cinnamon | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-42-1.1.iso) |
-| fedora | 42 | KDE | **ERROR** |
-| fedora | 42 | KDE_Mobile | **ERROR** |
-| fedora | 42 | Kinoite | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-42-1.1.iso) |
-| fedora | 42 | LXDE | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-42-1.1.iso) |
-| fedora | 42 | LXQt | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-LXQt-Live-42-1.1.x86_64.iso) |
-| fedora | 42 | Mate | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-42-1.1.iso) |
-| fedora | 42 | MiracleWM | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-MiracleWM-Live-42-1.1.x86_64.iso) |
-| fedora | 42 | Onyx | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Onyx/x86_64/iso/Fedora-Onyx-ostree-x86_64-42-1.1.iso) |
-| fedora | 42 | Sericea | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Sericea/x86_64/iso/Fedora-Sericea-ostree-x86_64-42-1.1.iso) |
-| fedora | 42 | Server | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Server/x86_64/iso/Fedora-Server-dvd-x86_64-42-1.1.iso) |
-| fedora | 42 | Silverblue | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-42-1.1.iso) |
-| fedora | 42 | Sway | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-Sway-Live-x86_64-42-1.1.iso) |
-| fedora | 42 | Workstation | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Workstation/x86_64/iso/Fedora-Workstation-Live-42-1.1.x86_64.iso) |
-| fedora | 42 | Xfce | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-Xfce-Live-42-1.1.x86_64.iso) |
-| fedora | 42 | i3 | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-i3-Live-x86_64-42-1.1.iso) |
-| fedora | 41 | Budgie | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Budgie-Live-x86_64-41-1.4.iso) |
-| fedora | 41 | Cinnamon | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-41-1.4.iso) |
-| fedora | 41 | KDE | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-41-1.4.iso) |
-| fedora | 41 | KDE_Mobile | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-KDE-Mobile-Live-41-1.4.x86_64.iso) |
-| fedora | 41 | Kinoite | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-41-1.4.iso) |
-| fedora | 41 | LXDE | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-41-1.4.iso) |
-| fedora | 41 | LXQt | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-41-1.4.iso) |
-| fedora | 41 | Mate | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-41-1.4.iso) |
-| fedora | 41 | MiracleWM | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-MiracleWM-Live-41-1.4.x86_64.iso) |
-| fedora | 41 | Onyx | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Onyx/x86_64/iso/Fedora-Onyx-ostree-x86_64-41-1.4.iso) |
-| fedora | 41 | Sericea | **ERROR** |
-| fedora | 41 | Server | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Server/x86_64/iso/Fedora-Server-dvd-x86_64-41-1.4.iso) |
-| fedora | 41 | Silverblue | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-41-1.4.iso) |
-| fedora | 41 | Sway | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Sway-Live-x86_64-41-1.4.iso) |
-| fedora | 41 | Workstation | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-41-1.4.iso) |
-| fedora | 41 | Xfce | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-41-1.4.iso) |
-| fedora | 41 | i3 | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-i3-Live-x86_64-41-1.4.iso) |
-| fedora | 40 | Budgie | **ERROR** |
-| fedora | 40 | Cinnamon | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-40-1.14.iso) |
-| fedora | 40 | KDE | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-40-1.14.iso) |
-| fedora | 40 | Kinoite | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/40/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-40-1.14.iso) |
-| fedora | 40 | LXDE | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-40-1.14.iso) |
-| fedora | 40 | LXQt | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-40-1.14.iso) |
-| fedora | 40 | Mate | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-40-1.14.iso) |
-| fedora | 40 | Onyx | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/40/Onyx/x86_64/iso/Fedora-Onyx-ostree-x86_64-40-1.14.iso) |
-| fedora | 40 | Sericea | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/40/Sericea/x86_64/iso/Fedora-Sericea-ostree-x86_64-40-1.14.iso) |
-| fedora | 40 | Server | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/40/Server/x86_64/iso/Fedora-Server-dvd-x86_64-40-1.14.iso) |
-| fedora | 40 | Silverblue | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/40/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-40-1.14.iso) |
-| fedora | 40 | Sway | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-Sway-Live-x86_64-40-1.14.iso) |
-| fedora | 40 | Workstation | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/40/Workstation/x86_64/iso/Fedora-Workstation-Live-osb-40-1.14.x86_64.iso) |
-| fedora | 40 | Xfce | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-40-1.14.iso) |
-| fedora | 40 | i3 | [url](https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-i3-Live-x86_64-40-1.14.iso) |
 | freebsd | 14.2 | disc1 | [url](https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-disc1.iso) |
 | freebsd | 14.2 | dvd1 | [url](https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-dvd1.iso) |
 | freebsd | 14.1 | disc1 | [url](https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.1/FreeBSD-14.1-RELEASE-amd64-disc1.iso) |
@@ -404,19 +350,13 @@
 | lubuntu | 24.10 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/24.10/release/lubuntu-24.10-desktop-amd64.iso) |
 | lubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso) |
 | lubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso) |
-| maboxlinux | latest |  | [url](https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso) |
+| maboxlinux | latest |  | [url](https://versaweb.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso) |
 | macos | mojave |  | [url](http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg) |
 | macos | catalina |  | [url](http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg) |
 | macos | big-sur |  | [url](http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg) |
 | macos | monterey |  | [url](http://oscdn.apple.com/content/downloads/59/11/012-51692/z29q5x5plswit63bvyxmubthavua9gbxic/RecoveryImage/BaseSystem.dmg) |
 | macos | ventura |  | [url](http://oscdn.apple.com/content/downloads/60/43/042-01871/sbembiob0hs1o92jfofalts02ux0x8rsra/RecoveryImage/BaseSystem.dmg) |
 | macos | sonoma |  | [url](http://oscdn.apple.com/content/downloads/04/11/082-33203/orvwro1v8xhjrakr7tvl5hu1s1ew3epxne/RecoveryImage/BaseSystem.dmg) |
-| mageia | 9 | Plasma | [url](https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso) |
-| mageia | 9 | GNOME | [url](https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso) |
-| mageia | 9 | Xfce | [url](https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso) |
-| mageia | 8 | Plasma | [url](https://mirror.math.princeton.edu/pub/mageia/iso/8/Mageia-8-Live-Plasma-x86_64/Mageia-8-Live-Plasma-x86_64.iso) |
-| mageia | 8 | GNOME | [url](https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-GNOME-x86_64/Mageia-8-Live-GNOME-x86_64.iso) |
-| mageia | 8 | Xfce | [url](https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-Xfce-x86_64/Mageia-8-Live-Xfce-x86_64.iso) |
 | manjaro | xfce | full | [url](https://download.manjaro.org/xfce/25.0.1/manjaro-xfce-25.0.1-250508-linux612.iso) |
 | manjaro | xfce | minimal | [url](https://download.manjaro.org/xfce/25.0.1/manjaro-xfce-25.0.1-minimal-250508-linux612.iso) |
 | manjaro | gnome | full | [url](https://download.manjaro.org/gnome/25.0.1/manjaro-gnome-25.0.1-250508-linux612.iso) |
@@ -531,7 +471,7 @@
 | proxmox-ve | 5.4-1 |  | [url](https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso) |
 | pureos | 10.3 | gnome | [url](https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso) |
 | pureos | 10.3 | plasma | [url](https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso) |
-| reactos | latest |  | [url](https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
+| reactos | latest |  | [url](https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
 | rebornos | latest |  | **ERROR** |
 | redox-os | livedisk | demo | [url](https://static.redox-os.org/img/x86_64/redox_demo_x86_64_2025-05-16_33_livedisk.iso.zst) |
 | redox-os | livedisk | desktop | [url](https://static.redox-os.org/img/x86_64/redox_desktop_x86_64_2025-05-16_33_livedisk.iso.zst) |
@@ -726,10 +666,4 @@
 | xubuntu | 24.10 |  | [url](https://cdimage.ubuntu.com/xubuntu/releases/24.10/release/xubuntu-24.10-desktop-amd64.iso) |
 | xubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso) |
 | xubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/xubuntu/daily-live/current/questing-desktop-amd64.iso) |
-| zorin | 17 | core64 | [url](https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Core-64-bit-r1.iso) |
-| zorin | 17 | lite64 | [url](https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Lite-64-bit-r1.iso) |
-| zorin | 17 | education64 | [url](https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Education-64-bit-r1.iso) |
-| zorin | 16 | core64 | [url](https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Core-64-bit.iso) |
-| zorin | 16 | lite64 | [url](https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Lite-64-bit.iso) |
-| zorin | 16 | education64 | [url](https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Education-64-bit.iso) |
 

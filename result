@@ -222,7 +222,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://netactuate.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
+archcraft latest:                    https://cytranet-dal.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -955,49 +955,6 @@ function get_() {
 }
 
 
-easyos
-
-easyos 5.9:                          https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/2025/5.9/easy-5.9-amd64.img
-easyos 5.8.5:                        https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/2025/5.8.5/easy-5.8.5-amd64.img
-easyos 5.8.5:                        https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/2025/5.8.5/easy-5.8.5-amd64.img
-
-# Template file for 'easyos'
-OSNAME="easyos"
-PRETTY="EasyOS"
-BASEDOF="-"
-DESCRIPTION="Experimental distribution designed from scratch to support containers"
-HOMEPAGE="https://easyos.org"
-CREDENTIALS="-"
-
-IMAGE_TYPE="img"
-RELEASES="5.9 5.8.5"
-
-
-function get_() {
-    local HASH=""
-    local URL=""
-    local ISO=""
-    local YEAR=""
-    ISO="easy-${RELEASE}-amd64.img"
-    TWO_YEARS=$(web_pipe https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/ | grep -o -E '[[:digit:]]{4}/' | sort -nr | tr -d /  | head -n 2 )
-    for YEAR in ${TWO_YEARS} ; do
-        if web_check "https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/${YEAR}/${RELEASE}/" ; then
-            URL="https://distro.ibiblio.org/easyos/amd64/releases/kirkstone/${YEAR}/${RELEASE}"
-            HASH=$(web_pipe "${URL}/md5.sum.txt" | cut -d' ' -f1)
-            break
-        fi
-    done
-    echo "${URL}/${ISO} ${HASH}"
-}
-
-function distro_specific() {
-    if [[ ${ISO} = *".img"* ]]; then
-        ${QEMU_IMG} convert -f raw -O qcow2 "${VM_PATH}/${ISO}" "${VM_PATH}/disk.qcow2"
-        ISO="${ISO/.img/}"
-    fi
-}
-
-
 edubuntu
 
 edubuntu 24.04:                      https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.2-desktop-amd64.iso
@@ -1072,9 +1029,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzU3MTUyNQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzU3MTUyNQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzU3MTUyNQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzU3NjU0Ngo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzU3NjU0Ngo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzU3NjU0Ngo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1177,98 +1134,6 @@ function get_() {
 
 function specific_tweaks() {
   echo "disk_size=\"32G\"" >> "${CONF_FILE}"
-}
-
-
-fedora
-
-fedora 42 Budgie:                    https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-Budgie-Live-42-1.1.x86_64.iso
-fedora 42 COSMIC:                    https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-COSMIC-Live-42-1.1.x86_64.iso
-fedora 42 COSMIC-Atomic:             
-fedora 42 Cinnamon:                  https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-42-1.1.iso
-fedora 42 KDE:                       
-fedora 42 KDE_Mobile:                
-fedora 42 Kinoite:                   https://download.fedoraproject.org/pub/fedora/linux/releases/42/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-42-1.1.iso
-fedora 42 LXDE:                      https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-42-1.1.iso
-fedora 42 LXQt:                      https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-LXQt-Live-42-1.1.x86_64.iso
-fedora 42 Mate:                      https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-42-1.1.iso
-fedora 42 MiracleWM:                 https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-MiracleWM-Live-42-1.1.x86_64.iso
-fedora 42 Onyx:                      https://download.fedoraproject.org/pub/fedora/linux/releases/42/Onyx/x86_64/iso/Fedora-Onyx-ostree-x86_64-42-1.1.iso
-fedora 42 Sericea:                   https://download.fedoraproject.org/pub/fedora/linux/releases/42/Sericea/x86_64/iso/Fedora-Sericea-ostree-x86_64-42-1.1.iso
-fedora 42 Server:                    https://download.fedoraproject.org/pub/fedora/linux/releases/42/Server/x86_64/iso/Fedora-Server-dvd-x86_64-42-1.1.iso
-fedora 42 Silverblue:                https://download.fedoraproject.org/pub/fedora/linux/releases/42/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-42-1.1.iso
-fedora 42 Sway:                      https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-Sway-Live-x86_64-42-1.1.iso
-fedora 42 Workstation:               https://download.fedoraproject.org/pub/fedora/linux/releases/42/Workstation/x86_64/iso/Fedora-Workstation-Live-42-1.1.x86_64.iso
-fedora 42 Xfce:                      https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-Xfce-Live-42-1.1.x86_64.iso
-fedora 42 i3:                        https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-i3-Live-x86_64-42-1.1.iso
-fedora 41 Budgie:                    https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Budgie-Live-x86_64-41-1.4.iso
-fedora 41 Cinnamon:                  https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-41-1.4.iso
-fedora 41 KDE:                       https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-41-1.4.iso
-fedora 41 KDE_Mobile:                https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-KDE-Mobile-Live-41-1.4.x86_64.iso
-fedora 41 Kinoite:                   https://download.fedoraproject.org/pub/fedora/linux/releases/41/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-41-1.4.iso
-fedora 41 LXDE:                      https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-41-1.4.iso
-fedora 41 LXQt:                      https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-41-1.4.iso
-fedora 41 Mate:                      https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-41-1.4.iso
-fedora 41 MiracleWM:                 https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-MiracleWM-Live-41-1.4.x86_64.iso
-fedora 41 Onyx:                      https://download.fedoraproject.org/pub/fedora/linux/releases/41/Onyx/x86_64/iso/Fedora-Onyx-ostree-x86_64-41-1.4.iso
-fedora 41 Sericea:                   
-fedora 41 Server:                    https://download.fedoraproject.org/pub/fedora/linux/releases/41/Server/x86_64/iso/Fedora-Server-dvd-x86_64-41-1.4.iso
-fedora 41 Silverblue:                https://download.fedoraproject.org/pub/fedora/linux/releases/41/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-41-1.4.iso
-fedora 41 Sway:                      https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Sway-Live-x86_64-41-1.4.iso
-fedora 41 Workstation:               https://download.fedoraproject.org/pub/fedora/linux/releases/41/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-41-1.4.iso
-fedora 41 Xfce:                      https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-41-1.4.iso
-fedora 41 i3:                        https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-i3-Live-x86_64-41-1.4.iso
-fedora 40 Budgie:                    
-fedora 40 Cinnamon:                  https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-40-1.14.iso
-fedora 40 KDE:                       https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-40-1.14.iso
-fedora 40 Kinoite:                   https://download.fedoraproject.org/pub/fedora/linux/releases/40/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-40-1.14.iso
-fedora 40 LXDE:                      https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-40-1.14.iso
-fedora 40 LXQt:                      https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-40-1.14.iso
-fedora 40 Mate:                      https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-40-1.14.iso
-fedora 40 Onyx:                      https://download.fedoraproject.org/pub/fedora/linux/releases/40/Onyx/x86_64/iso/Fedora-Onyx-ostree-x86_64-40-1.14.iso
-fedora 40 Sericea:                   https://download.fedoraproject.org/pub/fedora/linux/releases/40/Sericea/x86_64/iso/Fedora-Sericea-ostree-x86_64-40-1.14.iso
-fedora 40 Server:                    https://download.fedoraproject.org/pub/fedora/linux/releases/40/Server/x86_64/iso/Fedora-Server-dvd-x86_64-40-1.14.iso
-fedora 40 Silverblue:                https://download.fedoraproject.org/pub/fedora/linux/releases/40/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-40-1.14.iso
-fedora 40 Sway:                      https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-Sway-Live-x86_64-40-1.14.iso
-fedora 40 Workstation:               https://download.fedoraproject.org/pub/fedora/linux/releases/40/Workstation/x86_64/iso/Fedora-Workstation-Live-osb-40-1.14.x86_64.iso
-fedora 40 Xfce:                      https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-40-1.14.iso
-fedora 40 i3:                        https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-i3-Live-x86_64-40-1.14.iso
-
-# Template file for 'fedora'
-OSNAME="fedora"
-PRETTY="Fedora"
-BASEDOF="-"
-DESCRIPTION="Innovative platform for hardware, clouds, and containers, built with love by you"
-HOMEPAGE="https://www.fedoraproject.org"
-CREDENTIALS="-"
-
-
-RELEASES="42 41 40"
-EDITIONS="i3 Xfce Workstation Sway Silverblue Server Sericea Onyx MiracleWM Mate LXQt LXDE Kinoite KDE_Mobile KDE Cinnamon COSMIC-Atomic COSMIC Budgie"
-
-function get_() {
-    local HASH=""
-    local ISO=""
-    local JSON=""
-    local URL=""
-    local VARIANT=""
-    case ${EDITION} in
-        Server|Kinoite|Onyx|Silverblue|Sericea|Workstation) VARIANT="${EDITION}";;
-        *) VARIANT="Spins";;
-    esac
-    # The naming of 41 Beta with a space is problematic so we replaced it with an underscore
-    # but we need to convert it back to a space for the URL search in the JSON
-    #shellcheck disable=SC2086
-    # if RELEASE contains an underscore, replace it with a space
-     if [[ "${RELEASE}" == *"_"* ]]; then
-        RELEASE="${RELEASE/_/ }"
-    fi
-
-    # shellcheck disable=SC2086
-    JSON=$(web_pipe "https://getfedora.org/releases.json" | jq '.[] | select(.variant=="'${VARIANT}'" and .subvariant=="'"${EDITION}"'" and .arch=="x86_64" and .version=="'"${RELEASE}"'" and (.link | endswith(".iso")))')
-    URL=$(echo "${JSON}" | jq -r '.link' | head -n1)
-    HASH=$(echo "${JSON}" | jq -r '.sha256' | head -n1)
-    echo "${URL} ${HASH}"
 }
 
 
@@ -2062,7 +1927,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
+maboxlinux latest:                   https://versaweb.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2231,36 +2096,6 @@ function specific_tweaks() {
     if [ "${RELEASE}" == "monterey" ]; then
         echo "cpu_cores=2" >> "${CONF_FILE}"
     fi
-}
-
-
-mageia
-
-mageia 9 Plasma:                     https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
-mageia 9 GNOME:                      https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso
-mageia 9 Xfce:                       https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso
-mageia 8 Plasma:                     https://mirror.math.princeton.edu/pub/mageia/iso/8/Mageia-8-Live-Plasma-x86_64/Mageia-8-Live-Plasma-x86_64.iso
-mageia 8 GNOME:                      https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-GNOME-x86_64/Mageia-8-Live-GNOME-x86_64.iso
-mageia 8 Xfce:                       https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-Xfce-x86_64/Mageia-8-Live-Xfce-x86_64.iso
-
-# Template file for 'mageia'
-OSNAME="mageia"
-PRETTY="Mageia"
-BASEDOF="-"
-DESCRIPTION="Stable, secure operating system for desktop & server"
-HOMEPAGE="https://www.mageia.org"
-CREDENTIALS="-"
-
-
-RELEASES="9 8"
-EDITIONS="Xfce Plasma GNOME"
-
-function get_() {
-    local HASH=""
-    local ISO=""
-    ISO=$(web_pipe https://www.mageia.org/en/downloads/get/?q="Mageia-${RELEASE}-Live-${EDITION}-x86_64.iso" | grep 'click here'| grep -o 'href=.*\.iso'|cut -d\" -f2)
-    HASH=$(web_pipe "${ISO}.sha512" | cut -d' ' -f1)
-    echo "${ISO} ${HASH}"
 }
 
 
@@ -2970,7 +2805,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -4391,43 +4226,6 @@ function get_() {
         check_hash "${ISO}" "${HASH}"
         make_vm_config "${ISO}"
     fi
-}
-
-
-zorin
-
-zorin 17 core64:                     https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Core-64-bit-r1.iso
-zorin 17 lite64:                     https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Lite-64-bit-r1.iso
-zorin 17 education64:                https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Education-64-bit-r1.iso
-zorin 16 core64:                     https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Core-64-bit.iso
-zorin 16 lite64:                     https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Lite-64-bit.iso
-zorin 16 education64:                https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Education-64-bit.iso
-
-# Template file for 'zorin'
-OSNAME="zorin"
-PRETTY="Zorin OS"
-BASEDOF="Ubuntu"
-DESCRIPTION="Alternative to Windows and macOS designed to make your computer faster, more powerful, secure, and privacy-respecting"
-HOMEPAGE="https://zorin.com/os"
-CREDENTIALS="-"
-
-
-RELEASES="17 16"
-EDITIONS="lite64 education64 core64"
-
-function get_() {
-    local HASH=""
-    local ISO=""
-    local URL=""
-    # Process the URL redirections; required for Zorin
-    URL=$(web_redirect "https://zrn.co/${RELEASE}${EDITION}")
-    echo "${URL} ${HASH}"
-}
-
-function specific_tweaks() {
-    case ${EDITION} in
-        education64|edulite64) echo "disk_size=\"32G\"" >> "${CONF_FILE}"
-    esac
 }
 
 
