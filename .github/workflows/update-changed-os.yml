@@ -40,8 +40,12 @@ jobs:
             changed="${{ github.event.inputs.what_test }}"
           else
             echo "Finding git change"
-            changed=$(git diff --name-only HEAD^ HEAD | grep '^actions/')
+            changed=$(git diff --name-only HEAD^ HEAD | grep '^actions/' || echo '')
             echo "$changed"
+            if [[ -z "$changed" ]]; then
+              echo "No changed OS found, some just removed?"
+              exit 0
+            fi
           fi
           echo "Changed check"
           change=$(basename "$changed")
@@ -58,6 +62,10 @@ jobs:
 
       - name: push
         run: |
+          if [ -z "${change}" ]; then
+            echo "Nothing choosed or changed"
+            exit 0
+          fi
           git config --global user.name "${{ github.repository_owner }}"
           git config --global user.email "noreply@github.com"
           #git status
