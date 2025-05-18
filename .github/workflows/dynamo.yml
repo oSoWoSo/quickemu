@@ -96,13 +96,40 @@ jobs:
 
       - name: "Apply results 📊"
         run: |
+          git config --global user.name "web-flow"
+          git config --global user.email "noreply@github.com"
           rm -f result
+          git rm -f result
           for file in results/*.txt; do
             name=$(basename -s .txt "$file")
             template=$(awk '/# Template file for/{found=1} found' "$file")
             cat "$file" >> result
             echo -e "$template\n" > public/"$name"
           done
+
+      - name: "Create small table"
+        run: |
+          header="OS|RELEASE|EDITION|ISO"
+          table="| $header |\n|---|---|---|---|\n"
+          echo "Creating table"
+          for file in results/*.txt; do
+            content=$(awk '/# Template file for/{exit} {print}' "$file" | tail -n +3)
+            while IFS= read -r line; do
+              NAME=$(echo "$line" | cut -d' ' -f1)
+              RELEASE=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f2)
+              EDITION=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f3)
+              iso=$(echo "$line" | cut -d':' -f2- | awk '{$1=$1; print}')
+              if [[ "$iso" =~ 'http' ]]; then
+                ISO="[url]($iso)"
+              else
+                ISO="**ERROR**"
+              fi
+              table+="| ${NAME} | ${RELEASE} | ${EDITION} | ${ISO} |\n"
+            done <<< "$content"
+            #rm "$file"
+          done
+          echo "Rewriting READMEsmall"
+          echo -e "# Table of supported\n<!-- TABLE -->\n$table" > READMEsmall.md
 
       - name: "Create table"
         run: |
@@ -113,14 +140,19 @@ jobs:
             content=$(awk '/# Template file for/{exit} {print}' "$file" | tail -n +3)
             while IFS= read -r line; do
               NAME=$(echo "$line" | cut -d' ' -f1)
-              RELEASE=$(echo "$line" | cut -d' ' -f2)
+              RELEASE=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f2)
               EDITION=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f3)
-              ISO=$(echo "$line" | cut -d':' -f2- | awk '{$1=$1; print}')
-              table+="| ${NAME} | ${RELEASE} | ${EDITION} | ${ISO:-**ERROR**} |\n"
+              iso=$(echo "$line" | cut -d':' -f2- | awk '{$1=$1; print}')
+              if [[ "$iso" =~ 'http' ]]; then
+                ISO="$iso"
+              else
+                ISO="**ERROR**"
+              fi
+              table+="| ${NAME} | ${RELEASE} | ${EDITION} | ${ISO} |\n"
             done <<< "$content"
             rm "$file"
           done
-          echo "Rewriting readme"
+          echo "Rewriting README"
           echo -e "# Table of supported\n<!-- TABLE -->\n$table" > README.md
           rm -f public/tmp*
           echo "Sorting"
@@ -134,8 +166,6 @@ jobs:
 
       - name: "Push results"
         run: |
-          git config --global user.name "web-flow"
-          git config --global user.email "noreply@github.com"
           git status
 
           #git add .
