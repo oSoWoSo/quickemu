@@ -94,51 +94,65 @@ jobs:
           path: results
           merge-multiple: true
 
-      - name: "Display and push results 📊"
+      - name: "Apply results 📊"
         run: |
           rm -f result
-          isos=""
-          template=""
-          header="OS|RELEASES|EDITIONS|ISOS"
-          table="| $header |\n|---|---|---|---|\n"
-
           for file in results/*.txt; do
             name=$(basename -s .txt "$file")
-            IFS= read -r isos < <(awk '/# Template file for/{exit} {print}' "$file")
             template=$(awk '/# Template file for/{found=1} found' "$file")
-            echo "$isos" >> result
-            echo "$template" > public/"$name"
-            echo "" >> public/"$name"
-            ISOS=$(IFS= read -r isos < <(awk '/# Template file for/{exit} {print}' "$file"))
-            content=$(awk '/# Template file for/{found=1; next} found' "$file")
-            RELEASES=$(echo "$content" | grep 'RELEASES=' | cut -d'=' -f2 | tr -d '"')
-            EDITIONS=$(echo "$content" | grep 'EDITIONS=' | cut -d'=' -f2 | tr -d '"')
-            table+="| $(basename -s .txt "$file") | $RELEASES | $EDITIONS | $ISOS |\n"
-            rm "$file"
+            cat "$file" >> result
+            echo -e "$template\n" > public/"$name"
           done
 
+      - name: "Create table"
+        run: |
+          header="OS|RELEASES|EDITIONS|ISOS"
+          table="| $header |\n|---|---|---|---|\n"
+          echo "Creating table"
+          for file in results/*.txt; do
+            NAME=$(basename -s .txt "$file")
+            #IFS= read -r isos < <(awk '/# Template file for/{exit} {print}' "$file")
+            echo "Getting $NAME isos"
+            isos=$(awk '/# Template file for/{exit} {print}' "$file")
+            ISOS=$(echo "$isos" | cut -f2)
+            echo "Getting $NAME releases"
+            content=$(awk '/# Template file for/{found=1; next} found' "$file")
+            RELEASES=$(echo "$content" | grep 'RELEASES=' | cut -d'=' -f2 | tr -d '"')
+            EDITIONS=$(echo "$content" | grep 'EDITIONS=' | cut -d'=' -f2 | tr -d '"' || echo '')
+            echo "Adding $NAME to table"
+            table+="| $NAME | $RELEASES | $EDITIONS | $ISOS |\n"
+            rm "$file"
+          done
           #if grep -q "<!-- TABLE -->" README.md; then
           #  sed -i.bak "/<!-- TABLE -->/r /dev/stdin" README.md <<< "$table"
           #else
           #  echo -e "\n<!-- TABLE -->\n$table" > README.md
           #fi
+          echo "Rewriting readme"
           echo -e "# Table of supported\n<!-- TABLE -->\n$table" > README.md
+          rm -f public/tmp*
+          echo "Sorting"
           sort -u < TODO/all | tee TODO/all
-          git config --global user.name "web-flow"
-          git config --global user.email "noreply@github.com"
-          git status
-          git add .
-          sort -u < TODO/all | tee TODO/all
-          git add TODO/all
-          git rm -f --ignore-unmatch public/tmp_\*
-          git add public/*
-          git add README.md
-          git add --all
-          git commit -m "update supported"
-          git push --force
-          git status
+
           #PASSED=$(grep -c '^PASS:' result | wc -l)
           #FAILED=$(grep -c '^FAIL:' result | wc -l 2>/dev/null | echo '0')
           #SKIPPED=$(grep -c '^SKIP:' result | wc -l)
           #echo "$PASSED/$FAILED 🏁 / 💀" >> $GITHUB_STEP_SUMMARY
           #echo "$SKIPPED Skipped" >> $GITHUB_STEP_SUMMARY
+
+      - name: "Push results"
+        run: |
+          git config --global user.name "web-flow"
+          git config --global user.email "noreply@github.com"
+          git status
+
+          #git add .
+          #git add TODO/all
+          #git rm -f --ignore-unmatch public/tmp_\*
+          #git add public/*
+          #git add README.md
+
+          git add --all
+          git commit -m "update supported"
+          git push --force
+          git status
