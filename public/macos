@@ -73,14 +73,21 @@ function get_() {
 
     appleSession=$(curl --disable -v -H "Host: osrecovery.apple.com" \
                            -H "Connection: close" \
-                           -A "InternetRecovery/1.0" https://osrecovery.apple.com/ 2>&1 | tr ';' '\n' | awk -F'session=|;' '{print $2}' | grep 1)
+                           -A "InternetRecovery/1.0" https://osrecovery.apple.com/ 2>&1 | tr ';' '
+' | awk -F'session=|;' '{print $2}' | grep 1)
     info=$(curl --disable -s -X POST -H "Host: osrecovery.apple.com" \
                            -H "Connection: close" \
                            -A "InternetRecovery/1.0" \
                            -b "session=\"${appleSession}\"" \
                            -H "Content-Type: text/plain" \
-                           -d $'cid='"$(generate_id 16)"$'\nsn='${MLB}$'\nbid='${BOARD_ID}$'\nk='"$(generate_id 64)"$'\nfg='"$(generate_id 64)"$'\nos='${OS_TYPE} \
-                           https://osrecovery.apple.com/InstallationPayload/RecoveryImage | tr ' ' '\n')
+                           -d $'cid='"$(generate_id 16)"$'
+sn='${MLB}$'
+bid='${BOARD_ID}$'
+k='"$(generate_id 64)"$'
+fg='"$(generate_id 64)"$'
+os='${OS_TYPE} \
+                           https://osrecovery.apple.com/InstallationPayload/RecoveryImage | tr ' ' '
+')
     downloadLink=$(echo "$info" | grep 'oscdn' | grep 'dmg')
     downloadSession=$(echo "$info" | grep 'expires' | grep 'dmg')
     chunkListLink=$(echo "$info" | grep 'oscdn' | grep 'chunklist')
