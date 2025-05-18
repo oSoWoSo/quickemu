@@ -131,7 +131,33 @@ jobs:
           echo "Rewriting READMEsmall"
           echo -e "# Table of supported\n<!-- TABLE -->\n$table" > READMEsmall.md
 
+      - name: "Create error table"
+        if: always()
+        run: |
+          header="OS|RELEASE|EDITION|ISO"
+          table="| $header |\n|---|---|---|---|\n"
+          echo "Creating table"
+          for file in results/*.txt; do
+            content=$(awk '/# Template file for/{exit} {print}' "$file" | tail -n +3)
+            while IFS= read -r line; do
+              NAME=$(echo "$line" | cut -d' ' -f1)
+              RELEASE=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f2)
+              EDITION=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f3)
+              iso=$(echo "$line" | cut -d':' -f2- | awk '{$1=$1; print}')
+              if [[ "$iso" =~ 'http' ]]; then
+                ISO="[url]($iso)"
+              else
+                ISO="**ERROR**"
+              fi
+              table+="| ${NAME} | ${RELEASE} | ${EDITION} | ${ISO} |\n"
+            done <<< "$content"
+            #rm "$file"
+          done
+          echo "Rewriting ERRORS"
+          echo -e "# Table of supported\n<!-- TABLE -->\n$table" | grep 'ERROR' > ERRORS.md
+
       - name: "Table"
+        if: always()
         run: |
           declare -A tables
           for file in results/*.txt; do
@@ -180,6 +206,7 @@ jobs:
           echo -e "# Table of supported\n<!-- TABLE -->\n$table" > TABLE.md
 
       - name: "Create table"
+        if: always()
         run: |
           header="OS|RELEASE|EDITION|ISO"
           table="| $header |\n|---|---|---|---|\n"
