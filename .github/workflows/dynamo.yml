@@ -9,6 +9,7 @@ on:
       #- '**'
     paths:
       - .github/workflows/dynamo.yml
+      - actions/**
 
   #pull_request:
     #branches:
