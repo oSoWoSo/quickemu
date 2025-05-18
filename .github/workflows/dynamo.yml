@@ -111,10 +111,9 @@ jobs:
           echo "Creating table"
           for file in results/*.txt; do
             NAME=$(basename -s .txt "$file")
-            #IFS= read -r isos < <(awk '/# Template file for/{exit} {print}' "$file")
             echo "Getting $NAME isos"
             isos=$(awk '/# Template file for/{exit} {print}' "$file")
-            ISOS=$(echo "$isos" | cut -f2)
+            ISOS=$(echo "$isos" | awk '/# Template file for/{exit} {print}' | tail -n +3 | cut -d' ' -f26)
             echo "Getting $NAME releases"
             content=$(awk '/# Template file for/{found=1; next} found' "$file")
             RELEASES=$(echo "$content" | grep 'RELEASES=' | cut -d'=' -f2 | tr -d '"')
@@ -123,11 +122,6 @@ jobs:
             table+="| $NAME | $RELEASES | $EDITIONS | $ISOS |\n"
             rm "$file"
           done
-          #if grep -q "<!-- TABLE -->" README.md; then
-          #  sed -i.bak "/<!-- TABLE -->/r /dev/stdin" README.md <<< "$table"
-          #else
-          #  echo -e "\n<!-- TABLE -->\n$table" > README.md
-          #fi
           echo "Rewriting readme"
           echo -e "# Table of supported\n<!-- TABLE -->\n$table" > README.md
           rm -f public/tmp*
