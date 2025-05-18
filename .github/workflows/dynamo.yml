@@ -96,10 +96,8 @@ jobs:
 
       - name: "Apply results 📊"
         run: |
-          git config --global user.name "web-flow"
-          git config --global user.email "noreply@github.com"
           rm -f result
-          git rm -f result
+          rm -rf public
           for file in results/*.txt; do
             name=$(basename -s .txt "$file")
             template=$(awk '/# Template file for/{found=1} found' "$file")
@@ -180,16 +178,13 @@ jobs:
           done
           echo "Rewriting README"
           echo -e "# Table of supported\n<!-- TABLE -->\n$table" | grep -v 'ERROR' > README.md
-          rm -f public/tmp*
-          rm -rf results
           echo "Sorting"
           sort -u < TODO/all | tee TODO/all
 
-          #PASSED=$(grep -c '^PASS:' result | wc -l)
-          #FAILED=$(grep -c '^FAIL:' result | wc -l 2>/dev/null | echo '0')
-          #SKIPPED=$(grep -c '^SKIP:' result | wc -l)
-          #echo "$PASSED/$FAILED 🏁 / 💀" >> $GITHUB_STEP_SUMMARY
-          #echo "$SKIPPED Skipped" >> $GITHUB_STEP_SUMMARY
+      - name: "Removing temp files"
+        run: |
+          rm -f public/tmp*
+          rm -rf results
 
       - name: "Table"
         if: always()
@@ -208,7 +203,7 @@ jobs:
               if [[ -z "$EDITION" ]]; then
                 EDITION=" "
               fi
-              tables[$NAME][$EDITION]+="|$RELEASE|$iso|\n"
+              ${tables[$NAME][$EDITION]+="|$RELEASE|$iso|\n"}
             done <<< "$content"
             rm "$file"
           done
@@ -245,14 +240,7 @@ jobs:
         if: always()
         run: |
           git status
-
-          #git add .
-          #git add TODO/all
-          #git rm -f --ignore-unmatch public/tmp_\*
-          #git add public/*
-          #git add README.md
-
           git add --all
-          git commit -m "update supported"
+          git commit -m "Update supported"
           git push --force
           git status
