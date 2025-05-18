@@ -154,7 +154,8 @@ jobs:
             #rm "$file"
           done
           echo "Rewriting ERRORS"
-          echo -e "# Table of supported\n<!-- TABLE -->\n$table" | grep 'ERROR' > ERRORS.md
+          echo -e "# Table of supported\n<!-- TABLE -->\n| OS|RELEASE|EDITION|ISO |\n|---|---|---|---|\n" > ERRORS.md
+          echo "$table" | grep 'ERROR' >> ERRORS.md
 
       - name: "Table"
         if: always()
