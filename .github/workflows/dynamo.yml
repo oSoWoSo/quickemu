@@ -170,7 +170,7 @@ jobs:
               if [[ ! ${tables[$NAME]} ]]; then
                 declare -A tables[$NAME]
               fi
-              if [[ "$EDITION" == "" ]]; then
+              if [[ -z "$EDITION" ]]; then
                 EDITION=" "
               fi
               tables[$NAME][$EDITION]+="|$RELEASE|$iso|\n"
@@ -240,6 +240,7 @@ jobs:
           #echo "$SKIPPED Skipped" >> $GITHUB_STEP_SUMMARY
 
       - name: "Push results"
+        if: always()
         run: |
           git status
 
