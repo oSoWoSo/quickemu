@@ -1,6 +1,6 @@
 maboxlinux
 
-maboxlinux latest:                   https://gigenet.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
+maboxlinux latest:                   https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"

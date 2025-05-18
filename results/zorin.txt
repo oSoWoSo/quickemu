@@ -1,11 +1,11 @@
 zorin
 
-zorin 17 core64:                     https://mirror.umd.edu/zorin/17/Zorin-OS-17.3-Core-64-bit-r1.iso
-zorin 17 lite64:                     https://mirror.umd.edu/zorin/17/Zorin-OS-17.3-Lite-64-bit-r1.iso
-zorin 17 education64:                https://mirror.umd.edu/zorin/17/Zorin-OS-17.3-Education-64-bit-r1.iso
-zorin 16 core64:                     https://mirror.umd.edu/zorin/16/Zorin-OS-16.3-Core-64-bit.iso
-zorin 16 lite64:                     https://mirror.umd.edu/zorin/16/Zorin-OS-16.3-Lite-64-bit.iso
-zorin 16 education64:                https://mirror.umd.edu/zorin/16/Zorin-OS-16.3-Education-64-bit.iso
+zorin 17 core64:                     https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Core-64-bit-r1.iso
+zorin 17 lite64:                     https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Lite-64-bit-r1.iso
+zorin 17 education64:                https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Education-64-bit-r1.iso
+zorin 16 core64:                     https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Core-64-bit.iso
+zorin 16 lite64:                     https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Lite-64-bit.iso
+zorin 16 education64:                https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Education-64-bit.iso
 
 # Template file for 'zorin'
 OSNAME="zorin"

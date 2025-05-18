@@ -1,6 +1,6 @@
 archcraft
 
-archcraft latest:                    https://netactuate.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
+archcraft latest:                    https://versaweb.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
