@@ -222,7 +222,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://cytranet-dal.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
+archcraft latest:                    https://netactuate.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1072,9 +1072,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzU0MDY4Mwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzU0MDY4Mwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzU0MDY4Mwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzU0NTMwNwo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzU0NTMwNwo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzU0NTMwNwo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -2062,7 +2062,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://netactuate.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
+maboxlinux latest:                   https://cfhcable.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2236,11 +2236,11 @@ function specific_tweaks() {
 
 mageia
 
-mageia 9 Plasma:                     https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
-mageia 9 GNOME:                      https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso
-mageia 9 Xfce:                       https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso
-mageia 8 Plasma:                     https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-Plasma-x86_64/Mageia-8-Live-Plasma-x86_64.iso
-mageia 8 GNOME:                      https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-GNOME-x86_64/Mageia-8-Live-GNOME-x86_64.iso
+mageia 9 Plasma:                     https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
+mageia 9 GNOME:                      https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso
+mageia 9 Xfce:                       https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso
+mageia 8 Plasma:                     https://mirror.math.princeton.edu/pub/mageia/iso/8/Mageia-8-Live-Plasma-x86_64/Mageia-8-Live-Plasma-x86_64.iso
+mageia 8 GNOME:                      https://mirror.math.princeton.edu/pub/mageia/iso/8/Mageia-8-Live-GNOME-x86_64/Mageia-8-Live-GNOME-x86_64.iso
 mageia 8 Xfce:                       https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-Xfce-x86_64/Mageia-8-Live-Xfce-x86_64.iso
 
 # Template file for 'mageia'
@@ -2276,8 +2276,8 @@ manjaro cinnamon full:               https://download.manjaro.org/cinnamon/24.0.
 manjaro cinnamon minimal:            https://download.manjaro.org/cinnamon/24.0.5/manjaro-cinnamon-24.0.5-minimal-240729-linux69.iso
 manjaro i3 full:                     https://download.manjaro.org/i3/24.0.5/manjaro-i3-24.0.5-240729-linux69.iso
 manjaro i3 minimal:                  https://download.manjaro.org/i3/24.0.5/manjaro-i3-24.0.5-minimal-240729-linux69.iso
-manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250511-linux612.iso
-manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250511-linux612.iso
+manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250518-linux612.iso
+manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250518-linux612.iso
 
 # Template file for 'manjaro'
 OSNAME="manjaro"
@@ -2970,7 +2970,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -4396,12 +4396,12 @@ function get_() {
 
 zorin
 
-zorin 17 core64:                     https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Core-64-bit-r1.iso
-zorin 17 lite64:                     https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Lite-64-bit-r1.iso
-zorin 17 education64:                https://distro.ibiblio.org/zorinos/17/Zorin-OS-17.3-Education-64-bit-r1.iso
-zorin 16 core64:                     https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Core-64-bit.iso
-zorin 16 lite64:                     https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Lite-64-bit.iso
-zorin 16 education64:                https://distro.ibiblio.org/zorinos/16/Zorin-OS-16.3-Education-64-bit.iso
+zorin 17 core64:                     https://mirror.umd.edu/zorin/17/Zorin-OS-17.3-Core-64-bit-r1.iso
+zorin 17 lite64:                     https://mirror.umd.edu/zorin/17/Zorin-OS-17.3-Lite-64-bit-r1.iso
+zorin 17 education64:                https://mirror.umd.edu/zorin/17/Zorin-OS-17.3-Education-64-bit-r1.iso
+zorin 16 core64:                     https://mirror.umd.edu/zorin/16/Zorin-OS-16.3-Core-64-bit.iso
+zorin 16 lite64:                     https://mirror.umd.edu/zorin/16/Zorin-OS-16.3-Lite-64-bit.iso
+zorin 16 education64:                https://mirror.umd.edu/zorin/16/Zorin-OS-16.3-Education-64-bit.iso
 
 # Template file for 'zorin'
 OSNAME="zorin"
