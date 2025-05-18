@@ -154,8 +154,42 @@ jobs:
             #rm "$file"
           done
           echo "Rewriting ERRORS"
-          echo -e "# Table of supported\n<!-- TABLE -->\n| OS|RELEASE|EDITION|ISO |\n|---|---|---|---|\n" > ERRORS.md
-          echo "$table" | grep 'ERROR' >> ERRORS.md
+          echo -e "# Table of errors\n<!-- TABLE -->\n| OS|RELEASE|EDITION|ISO |\n|---|---|---|---|\n" > ERRORS.md
+          echo -e "$table" | grep 'ERROR' >> ERRORS.md
+
+      - name: "Create table"
+        if: always()
+        run: |
+          header="OS|RELEASE|EDITION|ISO"
+          table="| $header |\n|---|---|---|---|\n"
+          echo "Creating table"
+          for file in results/*.txt; do
+            content=$(awk '/# Template file for/{exit} {print}' "$file" | tail -n +3)
+            while IFS= read -r line; do
+              NAME=$(echo "$line" | cut -d' ' -f1)
+              RELEASE=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f2)
+              EDITION=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f3)
+              iso=$(echo "$line" | cut -d':' -f2- | awk '{$1=$1; print}')
+              if [[ "$iso" =~ 'http' ]]; then
+                ISO="$iso"
+              else
+                ISO="**ERROR**"
+              fi
+              table+="| ${NAME} | ${RELEASE} | ${EDITION} | ${ISO} |\n"
+            done <<< "$content"
+            rm "$file"
+          done
+          echo "Rewriting README"
+          echo -e "# Table of supported\n<!-- TABLE -->\n$table" > README.md
+          rm -f public/tmp*
+          echo "Sorting"
+          sort -u < TODO/all | tee TODO/all
+
+          #PASSED=$(grep -c '^PASS:' result | wc -l)
+          #FAILED=$(grep -c '^FAIL:' result | wc -l 2>/dev/null | echo '0')
+          #SKIPPED=$(grep -c '^SKIP:' result | wc -l)
+          #echo "$PASSED/$FAILED 🏁 / 💀" >> $GITHUB_STEP_SUMMARY
+          #echo "$SKIPPED Skipped" >> $GITHUB_STEP_SUMMARY
 
       - name: "Table"
         if: always()
@@ -205,40 +239,6 @@ jobs:
             table+="\n"
           done
           echo -e "# Table of supported\n<!-- TABLE -->\n$table" > TABLE.md
-
-      - name: "Create table"
-        if: always()
-        run: |
-          header="OS|RELEASE|EDITION|ISO"
-          table="| $header |\n|---|---|---|---|\n"
-          echo "Creating table"
-          for file in results/*.txt; do
-            content=$(awk '/# Template file for/{exit} {print}' "$file" | tail -n +3)
-            while IFS= read -r line; do
-              NAME=$(echo "$line" | cut -d' ' -f1)
-              RELEASE=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f2)
-              EDITION=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f3)
-              iso=$(echo "$line" | cut -d':' -f2- | awk '{$1=$1; print}')
-              if [[ "$iso" =~ 'http' ]]; then
-                ISO="$iso"
-              else
-                ISO="**ERROR**"
-              fi
-              table+="| ${NAME} | ${RELEASE} | ${EDITION} | ${ISO} |\n"
-            done <<< "$content"
-            rm "$file"
-          done
-          echo "Rewriting README"
-          echo -e "# Table of supported\n<!-- TABLE -->\n$table" > README.md
-          rm -f public/tmp*
-          echo "Sorting"
-          sort -u < TODO/all | tee TODO/all
-
-          #PASSED=$(grep -c '^PASS:' result | wc -l)
-          #FAILED=$(grep -c '^FAIL:' result | wc -l 2>/dev/null | echo '0')
-          #SKIPPED=$(grep -c '^SKIP:' result | wc -l)
-          #echo "$PASSED/$FAILED 🏁 / 💀" >> $GITHUB_STEP_SUMMARY
-          #echo "$SKIPPED Skipped" >> $GITHUB_STEP_SUMMARY
 
       - name: "Push results"
         if: always()
