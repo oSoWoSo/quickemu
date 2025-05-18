@@ -154,7 +154,7 @@ jobs:
             #rm "$file"
           done
           echo "Rewriting ERRORS"
-          echo -e "# Table of errors\n<!-- TABLE -->\n| OS|RELEASE|EDITION|ISO |\n|---|---|---|---|\n" > ERRORS.md
+          echo -e "# Table of errors\n<!-- TABLE -->\n| OS|RELEASE|EDITION|ISO |\n|---|---|---|---|" > ERRORS.md
           echo -e "$table" | grep 'ERROR' >> ERRORS.md
 
       - name: "Create table"
