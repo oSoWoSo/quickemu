@@ -181,6 +181,7 @@ jobs:
           echo "Rewriting README"
           echo -e "# Table of supported\n<!-- TABLE -->\n$table" | grep -v 'ERROR' > README.md
           rm -f public/tmp*
+          rm -rf results
           echo "Sorting"
           sort -u < TODO/all | tee TODO/all
 
