@@ -1,11 +1,11 @@
 mageia
 
-mageia 9 Plasma:                     https://mirror2.tuxinator.org/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
-mageia 9 GNOME:                      https://ftp.fau.de/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso
-mageia 9 Xfce:                       https://ftp5.gwdg.de/pub/linux/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso
-mageia 8 Plasma:                     https://ftp5.gwdg.de/pub/linux/mageia/iso/8/Mageia-8-Live-Plasma-x86_64/Mageia-8-Live-Plasma-x86_64.iso
-mageia 8 GNOME:                      https://ftp-stud.hs-esslingen.de/pub/Mirrors/Mageia/iso/8/Mageia-8-Live-GNOME-x86_64/Mageia-8-Live-GNOME-x86_64.iso
-mageia 8 Xfce:                       https://ftp5.gwdg.de/pub/linux/mageia/iso/8/Mageia-8-Live-Xfce-x86_64/Mageia-8-Live-Xfce-x86_64.iso
+mageia 9 Plasma:                     https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
+mageia 9 GNOME:                      https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso
+mageia 9 Xfce:                       https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso
+mageia 8 Plasma:                     https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-Plasma-x86_64/Mageia-8-Live-Plasma-x86_64.iso
+mageia 8 GNOME:                      https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-GNOME-x86_64/Mageia-8-Live-GNOME-x86_64.iso
+mageia 8 Xfce:                       https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-Xfce-x86_64/Mageia-8-Live-Xfce-x86_64.iso
 
 # Template file for 'mageia'
 OSNAME="mageia"
