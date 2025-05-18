@@ -131,6 +131,56 @@ jobs:
           echo "Rewriting READMEsmall"
           echo -e "# Table of supported\n<!-- TABLE -->\n$table" > READMEsmall.md
 
+      - name: "Table"
+        run: |
+          declare -A tables
+          for file in results/*.txt; do
+            content=$(awk '/# Template file for/{exit} {print}' "$file" | tail -n +3)
+            while IFS= read -r line; do
+              NAME=$(echo "$line" | cut -d' ' -f1)
+              RELEASE=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f2)
+              EDITION=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f3)
+              iso=$(echo "$line" | cut -d':' -f2- | awk '{$1=$1; print}')
+              if [[ ! ${tables[$NAME]} ]]; then
+                tables[$NAME]=""
+              fi
+              if [[ "$EDITION" == "" ]]; then
+                EDITION=" "
+              fi
+              if [[ ! ${tables[$NAME][$EDITION]} ]]; then
+                tables[$NAME][$EDITION]=""
+              fi
+              tables[$NAME][$EDITION]+="|$RELEASE|$iso|\n"
+            done <<< "$content"
+          done
+          table=""
+          for os in "${!tables[@]}"; do
+            echo "Creating table for $os"
+            header="| Release |"
+            for edition in "${!tables[$os][@]}"; do
+              header+=" $edition |"
+            done
+            table+="## $os\n"
+            table+="|---|"
+            for edition in "${!tables[$os][@]}"; do
+              table+="---|"
+            done
+            table+="\n"
+            for release in $(echo "${tables[$os][ ]}" | cut -d'|' -f2); do
+              row="|$release|"
+              for edition in "${!tables[$os][@]}"; do
+                if [[ ${tables[$os][$edition]} =~ $release ]]; then
+                  row+=" $(echo "${tables[$os][$edition]}" | grep $release | cut -d'|' -f3) |"
+                else
+                  row+="  |"
+                fi
+              done
+              table+=$row"\n"
+            done
+            table+="\n"
+          done
+          echo -e "# Table of supported\n<!-- TABLE -->\n$table" > TABLE.md
+
       - name: "Create table"
         run: |
           header="OS|RELEASE|EDITION|ISO"
