@@ -5,7 +5,6 @@
 |  |  |  | **ERROR** |
 | fedora | 42 | COSMIC-Atomic | **ERROR** |
 | fedora | 42 | KDE | **ERROR** |
-| fedora | 40 | Xfce | **ERROR** |
 |  |  |  | **ERROR** |
 | rebornos | latest |  | **ERROR** |
 |  |  |  | **ERROR** |
