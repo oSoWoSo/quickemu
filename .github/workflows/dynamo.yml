@@ -110,20 +110,14 @@ jobs:
           table="| $header |\n|---|---|---|---|\n"
           echo "Creating table"
           for file in results/*.txt; do
-            #NAME=$(basename -s .txt "$file")
-            #isos=$(awk '/# Template file for/{exit} {print}' "$file")
-            #ISOS=$(echo "$isos" | tail -n +3 | cut -d':' -f2- | awk '{$1=$1; print}')
-            #content=$(awk '/# Template file for/{found=1; next} found' "$file")
-            #RELEASES=$(echo "$content" | grep 'RELEASES=' | cut -d'=' -f2 | tr -d '"')
-            #EDITIONS=$(echo "$content" | grep 'EDITIONS=' | cut -d'=' -f2 | tr -d '"' || echo '')
             content=$(awk '/# Template file for/{exit} {print}' "$file" | tail -n +3)
-            for line in $content; do
+            while IFS= read -r line; do
               NAME=$(echo "$line" | cut -d' ' -f1)
               RELEASE=$(echo "$line" | cut -d' ' -f2)
-              EDITION=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f3 || echo '-')
-              ISO=$(echo "$line" | cut -d':' -f2- | awk '{$1=$1; print}' || echo '-')
-              table+="| ${NAME} | ${RELEASE} | ${EDITION} | ${ISO} |\n"
-            done
+              EDITION=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f3)
+              ISO=$(echo "$line" | cut -d':' -f2- | awk '{$1=$1; print}')
+              table+="| ${NAME} | ${RELEASE} | ${EDITION:-'-'} | ${ISO:-'-'} |\n"
+            done <<< "$content"
             rm "$file"
           done
           echo "Rewriting readme"
