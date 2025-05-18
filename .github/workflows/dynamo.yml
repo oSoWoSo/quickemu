@@ -177,7 +177,6 @@ jobs:
               fi
               table+="| ${NAME} | ${RELEASE} | ${EDITION} | ${ISO} |\n"
             done <<< "$content"
-            rm "$file"
           done
           echo "Rewriting README"
           echo -e "# Table of supported\n<!-- TABLE -->\n$table" | grep -v 'ERROR' > README.md
@@ -210,6 +209,7 @@ jobs:
               fi
               tables[$NAME][$EDITION]+="|$RELEASE|$iso|\n"
             done <<< "$content"
+            rm "$file"
           done
           table=""
           for os in "${!tables[@]}"; do
