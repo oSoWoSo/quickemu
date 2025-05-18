@@ -116,7 +116,7 @@ jobs:
               RELEASE=$(echo "$line" | cut -d' ' -f2)
               EDITION=$(echo "$line" | cut -d':' -f1 | cut -d' ' -f3)
               ISO=$(echo "$line" | cut -d':' -f2- | awk '{$1=$1; print}')
-              table+="| ${NAME} | ${RELEASE} | ${EDITION:-'-'} | ${ISO:-'-'} |\n"
+              table+="| ${NAME} | ${RELEASE} | ${EDITION} | ${ISO:-**ERROR**} |\n"
             done <<< "$content"
             rm "$file"
           done
