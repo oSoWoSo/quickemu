@@ -80,7 +80,7 @@ antix 21 base-runit:                 https://sourceforge.net/projects/antix-linu
 antix 21 full-runit:                 https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso |
 | archcraft | latest |  | archcraft
 
-archcraft latest:                    https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso |
+archcraft latest:                    https://versaweb.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso |
 | archlinux | latest |  | archlinux
 
 archlinux latest:                    https://mirror.rackspace.com/archlinux/iso/2025.05.01/archlinux-2025.05.01-x86_64.iso |
@@ -267,9 +267,9 @@ edubuntu 25.04:                      https://cdimage.ubuntu.com/edubuntu/release
 edubuntu daily-live:                 https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
 | elementary | 8.0 7.1 7.0 |  | elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzUzMjE4MQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzUzMjE4MQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzUzMjE4MQo=/elementaryos-7.0-stable.20230129rc.iso |
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzUzMjYzMgo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzUzMjYzMgo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzUzMjYzMgo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 mercury-2025.02.08 gemini-2024.04.20 galileo-neo-2024.01.25 galileo-11-2023
 
 $(web_pipe ${URL}/ | grep -o '<a href |  | endeavouros
@@ -512,7 +512,7 @@ lubuntu 25.04:                       https://cdimage.ubuntu.com/lubuntu/releases
 lubuntu daily-live:                  https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso |
 | maboxlinux | latest |  | maboxlinux
 
-maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso |
+maboxlinux latest:                   https://versaweb.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso |
 | macos | ventura sonoma monterey mojave catalina big-sur |  | macos
 
 macos mojave:                        http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg
@@ -523,12 +523,12 @@ macos ventura:                       http://oscdn.apple.com/content/downloads/60
 macos sonoma:                        http://oscdn.apple.com/content/downloads/04/11/082-33203/orvwro1v8xhjrakr7tvl5hu1s1ew3epxne/RecoveryImage/BaseSystem.dmg |
 | mageia | 9 8 | Xfce Plasma GNOME | mageia
 
-mageia 9 Plasma:                     https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
-mageia 9 GNOME:                      https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso
-mageia 9 Xfce:                       https://mirrors.kernel.org/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso
-mageia 8 Plasma:                     https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-Plasma-x86_64/Mageia-8-Live-Plasma-x86_64.iso
-mageia 8 GNOME:                      https://mirror.math.princeton.edu/pub/mageia/iso/8/Mageia-8-Live-GNOME-x86_64/Mageia-8-Live-GNOME-x86_64.iso
-mageia 8 Xfce:                       https://mirrors.kernel.org/mageia/iso/8/Mageia-8-Live-Xfce-x86_64/Mageia-8-Live-Xfce-x86_64.iso |
+mageia 9 Plasma:                     https://ftp-stud.hs-esslingen.de/pub/Mirrors/Mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
+mageia 9 GNOME:                      https://mirror.tuxinator.org/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso
+mageia 9 Xfce:                       https://ftp.fau.de/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso
+mageia 8 Plasma:                     https://ftp-stud.hs-esslingen.de/pub/Mirrors/Mageia/iso/8/Mageia-8-Live-Plasma-x86_64/Mageia-8-Live-Plasma-x86_64.iso
+mageia 8 GNOME:                      https://ftp.fau.de/mageia/iso/8/Mageia-8-Live-GNOME-x86_64/Mageia-8-Live-GNOME-x86_64.iso
+mageia 8 Xfce:                       https://mirror.tuxinator.org/mageia/iso/8/Mageia-8-Live-Xfce-x86_64/Mageia-8-Live-Xfce-x86_64.iso |
 | manjaro | xfce sway plasma i3 gnome cinnamon | minimal full | manjaro
 
 manjaro xfce full:                   https://download.manjaro.org/xfce/25.0.1/manjaro-xfce-25.0.1-250508-linux612.iso
@@ -683,7 +683,7 @@ pureos 10.3 gnome:                   https://downloads.puri.sm/byzantium/gnome/2
 pureos 10.3 plasma:                  https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
 | reactos | latest |  | reactos
 
-reactos latest:                      https://cfhcable.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+reactos latest:                      https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | rebornos | latest |  | rebornos
 
 rebornos latest:                      |

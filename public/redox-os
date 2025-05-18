@@ -17,7 +17,7 @@ function get_() {
     local DATA
     DATA="$(curl -s "${URL}/SHA256SUM" | grep ".iso" | grep "${EDITION}" | grep "${RELEASE}")"
     ISO="$(echo "${DATA}" | cut -d '*' -f2)"
-    HASH="$(echo "${DATA}" | cut_1)"
+    HASH="$(echo "${DATA}" | cut -d' ' -f1)"
     echo "${URL}/${ISO} ${HASH}"
 }
 
