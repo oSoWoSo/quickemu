@@ -46,6 +46,7 @@ clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2
 crux            https://git.crux.nu/system/iso/releases/download/3.8-rc5/crux-3.8-rc5.iso
 crux            https://git.crux.nu/system/iso/releases/download/3.8/crux-3.8.iso
 debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.10.0-amd64-DVD-1.iso
+debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.11.0-amd64-DVD-1.iso
 deepin          http://ftp.snt.utwente.nl/pub/os/linux/deepin-cd/25-alpha/amd64/deepin-desktop-community-25-alpha-amd64.iso
 deepin          https://ftp.gwdg.de/pub/linux/linuxdeepin/releases/23.1/amd64/deepin-desktop-community-23.1-amd64.iso
 dragonflybsd    https://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.1_REL.iso
@@ -142,6 +143,7 @@ rosa            https://mirror.rosa.ru/rosa/rosa13/iso/ROSA.FRESH.13/plasma6/ROS
 runtu           https://downloads.sourceforge.net/runtu/runtu-xfce-24.04-amd64_20250315.iso
 sdesk           https://stevestudios.net/wp-content/uploads/2025/05/sdesk-2025.05.06-x86_64.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.10.0-amd64-BD-1.iso
+skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.11.0-amd64-BD-1.iso
 smoothwall      https://downloads.sourceforge.net/smoothwall/Express-3.1-SP6-x86_64.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-2025.03-x86_64-lxqt.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-7.7-x86_64-lxqt.iso
