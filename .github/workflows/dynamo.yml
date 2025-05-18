@@ -240,7 +240,8 @@ jobs:
       - name: "Push results"
         if: always()
         run: |
-          git status
+          git config --global user.name "web-flow"
+          git config --global user.email "noreply@github.com"          git status
           git add --all
           git commit -m "Update supported"
           git push --force
