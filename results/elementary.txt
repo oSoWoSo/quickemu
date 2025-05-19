@@ -1,8 +1,8 @@
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzY1NzIwMwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzY1NzIwMwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzY1NzIwMwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzY3ODQ4NQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzY3ODQ4NQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzY3ODQ4NQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
