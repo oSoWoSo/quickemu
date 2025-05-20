@@ -1,7 +1,7 @@
 kdeneon
 
 kdeneon user:                        https://files.kde.org/neon/images/user/current/neon-user-20250518-0744.iso
-kdeneon testing:                     https://files.kde.org/neon/images/testing/current/neon-testing-20250513-0430.iso
+kdeneon testing:                     https://files.kde.org/neon/images/testing/current/neon-testing-20250520-0032.iso
 kdeneon unstable:                    https://files.kde.org/neon/images/unstable/current/neon-unstable-20250511-1146.iso
 kdeneon developer:                   https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250512-0038.iso
 

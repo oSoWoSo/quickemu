@@ -1,6 +1,6 @@
 gnomeos
 
-gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/842745/live_842745-x86_64.iso
+gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/844194/live_844194-x86_64.iso
 gnomeos 48.rc:                       https://download.gnome.org/gnomeos/48.rc/gnome_os_installer_48.rc.iso
 gnomeos 48.beta:                     https://download.gnome.org/gnomeos/48.beta/gnome_os_installer_48.beta.iso
 gnomeos 48.alpha:                    https://download.gnome.org/gnomeos/48.alpha/gnome_os_installer_48.alpha.8.iso
