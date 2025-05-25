@@ -1,6 +1,6 @@
 tails
 
-tails stable:                        https://download.tails.net/tails/stable/tails-amd64-6.15/tails-amd64-6.15.iso
+tails stable:                        https://download.tails.net/tails/stable/tails-amd64-6.15.1/tails-amd64-6.15.1.iso
 
 # Template file for 'tails'
 OSNAME="tails"

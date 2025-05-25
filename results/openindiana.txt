@@ -1,2 +1,46 @@
 openindiana
 
+openindiana 20250402 gui:            https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-gui-20250402.iso
+openindiana 20250402 text:           https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-text-20250402.iso
+openindiana 20250402 minimal:        https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-minimal-20250402.iso
+openindiana 20241026 gui:            https://dlc.openindiana.org/isos/hipster/20241026/OI-hipster-gui-20241026.iso
+openindiana 20241026 text:           https://dlc.openindiana.org/isos/hipster/20241026/OI-hipster-text-20241026.iso
+openindiana 20241026 minimal:        https://dlc.openindiana.org/isos/hipster/20241026/OI-hipster-minimal-20241026.iso
+openindiana 20240426 gui:            https://dlc.openindiana.org/isos/hipster/20240426/OI-hipster-gui-20240426.iso
+openindiana 20240426 text:           https://dlc.openindiana.org/isos/hipster/20240426/OI-hipster-text-20240426.iso
+openindiana 20240426 minimal:        https://dlc.openindiana.org/isos/hipster/20240426/OI-hipster-minimal-20240426.iso
+openindiana 20231027 gui:            https://dlc.openindiana.org/isos/hipster/20231027/OI-hipster-gui-20231027.iso
+openindiana 20231027 text:           https://dlc.openindiana.org/isos/hipster/20231027/OI-hipster-text-20231027.iso
+openindiana 20231027 minimal:        https://dlc.openindiana.org/isos/hipster/20231027/OI-hipster-minimal-20231027.iso
+openindiana 20230502 gui:            https://dlc.openindiana.org/isos/hipster/20230502/OI-hipster-gui-20230502.iso
+openindiana 20230502 text:           https://dlc.openindiana.org/isos/hipster/20230502/OI-hipster-text-20230502.iso
+openindiana 20230502 minimal:        https://dlc.openindiana.org/isos/hipster/20230502/OI-hipster-minimal-20230502.iso
+
+# Template file for 'openindiana'
+OSNAME="openindiana"
+PRETTY="OpenIndiana"
+BASEDOF="Solaris OPenSolaris"
+DESCRIPTION="Community supported illumos-based operating system"
+HOMEPAGE="https://www.openindiana.org"
+CREDENTIALS="-"
+solaris
+
+RELEASES="20250402 20241026 20240426 20231027 20230502"
+EDITIONS="text minimal gui"
+
+function get_() {
+    local HASH=""
+    local ISO=""
+    local URL=""
+    URL="https://dlc.openindiana.org/isos/hipster/${RELEASE}"
+    ISO="OI-hipster-${EDITION}-${RELEASE}.iso"
+    HASH=$(web_pipe "${URL}/${ISO}.sha256" |cut -d' ' -f1)
+    echo "${URL}/${ISO} ${HASH}"
+}
+
+function specific_tweaks() {
+    echo "boot=\"legacy\"" >> "${CONF_FILE}"
+    echo "disk_size=\"32G\"" >> "${CONF_FILE}"
+}
+
+

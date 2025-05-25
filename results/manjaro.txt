@@ -10,8 +10,8 @@ manjaro cinnamon full:               https://download.manjaro.org/cinnamon/24.0.
 manjaro cinnamon minimal:            https://download.manjaro.org/cinnamon/24.0.5/manjaro-cinnamon-24.0.5-minimal-240729-linux69.iso
 manjaro i3 full:                     https://download.manjaro.org/i3/24.0.5/manjaro-i3-24.0.5-240729-linux69.iso
 manjaro i3 minimal:                  https://download.manjaro.org/i3/24.0.5/manjaro-i3-24.0.5-minimal-240729-linux69.iso
-manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250518-linux612.iso
-manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250518-linux612.iso
+manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250525-linux612.iso
+manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250525-linux612.iso
 
 # Template file for 'manjaro'
 OSNAME="manjaro"
