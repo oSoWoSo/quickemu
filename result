@@ -222,7 +222,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://cytranet-dal.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
+archcraft latest:                    https://versaweb.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1035,9 +1035,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0ODI0NDAzNQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0ODI0NDAzNgo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0ODI0NDAzNgo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0ODI0NDIyNQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0ODI0NDIyNQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0ODI0NDIyNQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1933,7 +1933,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://psychz.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
+maboxlinux latest:                   https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2640,6 +2640,42 @@ function get_() {
       ISO="VoidPup64-22.02-${RELEASE}.iso"
     fi
     HASH=$(web_pipe "${URL}"/SHA512checksums.txt | grep "${ISO}" | cut -d' ' -f1)
+    echo "${URL}/${ISO} ${HASH}"
+}
+
+
+pclinuxos
+
+pclinuxos 2024.10 kde:               https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2024.10.iso
+pclinuxos 2024.10 kde-darkstar:      https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-darkstar-2024.10.iso
+pclinuxos 2024.10 mate:              https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-mate-2024-10.iso
+pclinuxos 2024.10 xfce:              https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-xfce-2024.10.iso
+
+# Template file for 'pclinuxos'
+OSNAME="pclinuxos"
+PRETTY="PCLinuxOS"
+BASEDOF=""
+DESCRIPTION="Free, easy to use Linux-based Operating System for x86_64 desktops or laptops"
+HOMEPAGE="https://www.pclinuxos.com"
+CREDENTIALS="-"
+
+
+RELEASES="2024.10"
+EDITIONS="xfce mate kde-darkstar kde"
+
+function get_() {
+    # shellcheck disable=SC2155
+    case ${EDITION} in
+        mate) RELEASE="${RELEASE//./-}";;
+        # in case an edition is added that uses the mate style and sorts higher
+        kde|kde-darkstar) RELEASE="${RELEASE//-/.}";;
+        xfce) RELEASE="${RELEASE//-/.}";;
+        *) ;;
+    esac
+    # shellcheck disable=SC2155
+    local HASH="$(web_pipe "${URL}/pclinuxos64-${EDITION}-${RELEASE}.md5sum" | head -c 32)"
+    local ISO="pclinuxos64-${EDITION}-${RELEASE}.iso"
+    local URL="https://ftp.fau.de/pclinuxos/pclinuxos/iso"
     echo "${URL}/${ISO} ${HASH}"
 }
 
