@@ -1,5 +1,6 @@
 deepin
 
+deepin 25-beta:                      https://cdimage.deepin.com/releases/25-beta/amd64/deepin-desktop-community-25-beta-amd64.iso
 deepin 25-alpha:                     https://cdimage.deepin.com/releases/25-alpha/amd64/deepin-desktop-community-25-alpha-amd64.iso
 deepin 23.1:                         https://cdimage.deepin.com/releases/23.1/amd64/deepin-desktop-community-23.1-amd64.iso
 deepin 23:                           https://cdimage.deepin.com/releases/23/amd64/deepin-desktop-community-23-amd64.iso
@@ -14,7 +15,7 @@ HOMEPAGE="https://www.deepin.org"
 CREDENTIALS="-"
 
 
-RELEASES="25-alpha 23.1 23 20.9"
+RELEASES="25-beta 25-alpha 23.1 23 20.9"
 
 
 function get_() {
