@@ -8,7 +8,7 @@ CREDENTIALS="-"
 
 
 RELEASES="latest"
-EDITIONS="kde gnome"
+EDITIONS="plasma gnome deck-plasma deck-gnome"
 
 function get_() {
     local HASH=""
@@ -16,7 +16,9 @@ function get_() {
     local URL="https://download.bazzite.gg"
     case ${EDITION} in
         gnome) ISO="bazzite-gnome-stable-amd64.iso";;
-        kde)  ISO="bazzite-stable-amd64.iso";;
+        plasma)  ISO="bazzite-stable-amd64.iso";;
+        deck-gnome)  ISO="bazzite-deck-gnome-stable-amd64.iso";;
+        deck-plasma)  ISO="bazzite-deck-stable-amd64.iso";;
     esac
     HASH=$(web_pipe "${URL}/${ISO}-CHECKSUM" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
