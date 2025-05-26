@@ -10,6 +10,7 @@ CREDENTIALS="-"
 function releases_() {
     #shellcheck disable=SC2046,SC2005
     echo $(web_pipe "https://ant.seedhost.eu/arcolinux/iso/" | grep -o -E -e "v[[:digit:]]{2}.[[:digit:]]{2}.[[:digit:]]{2}" | sort -ru | head -n 5)
+    # https://sourceforge.net/projects/arconetpro/files/
 }
 
 function editions_() {
