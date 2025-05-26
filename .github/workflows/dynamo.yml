@@ -183,7 +183,7 @@ jobs:
           sort -u < TODO/all | tee TODO/all
 
       - name: "Table"
-        if: never()
+        if: failed()
         run: |
           declare -A tables
           for file in results/*.txt; do
