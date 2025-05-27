@@ -222,7 +222,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://versaweb.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
+archcraft latest:                    https://gigenet.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -270,10 +270,6 @@ function get_() {
     echo "${URL}${ISO} ${HASH}"
 }
 
-
-arco
-
-arcolinux
 
 artixlinux
 
@@ -1038,9 +1034,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0ODI4NjM2Ngo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0ODI4NjM2Ngo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0ODI4NjM2Ngo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0ODMxMTA5MQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0ODMxMTA5MQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0ODMxMTA5MQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1546,7 +1542,7 @@ function specific_tweaks() {
 kdeneon
 
 kdeneon user:                        https://files.kde.org/neon/images/user/current/neon-user-20250522-1320.iso
-kdeneon testing:                     https://files.kde.org/neon/images/testing/current/neon-testing-20250520-0032.iso
+kdeneon testing:                     https://files.kde.org/neon/images/testing/current/neon-testing-20250527-0033.iso
 kdeneon unstable:                    https://files.kde.org/neon/images/unstable/current/neon-unstable-20250511-1146.iso
 kdeneon developer:                   https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250512-0038.iso
 
@@ -1936,7 +1932,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
+maboxlinux latest:                   https://netactuate.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2894,7 +2890,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -2928,37 +2924,6 @@ function specific_tweaks() {
     echo "boot=\"legacy\"" >> "${CONF_FILE}"
     echo "disk_size=\"12G\"" >> "${CONF_FILE}"
     echo "ram=\"2048M\"" >> "${CONF_FILE}"
-}
-
-
-rebornos
-
-rebornos latest:                     
-
-# Template file for 'rebornos'
-OSNAME="rebornos"
-PRETTY="RebornOS"
-BASEDOF="Arch"
-DESCRIPTION="Aiming to make Arch Linux as user friendly as possible by providing interface solutions to things you normally have to do in a terminal"
-HOMEPAGE="https://rebornos.org"
-CREDENTIALS="-"
-
-
-RELEASES="latest"
-
-
-function get_() {
-    local JSON ISO HASH
-    JSON=$(web_pipe "https://meta.cdn.soulharsh007.dev/RebornOS-ISO?format=json")
-    if ! echo "$JSON" | jq . > /dev/null 2>&1; then
-      echo "JSON not valid!" >&2
-      echo "DEBUG: JSON response:" >&2
-      echo "$JSON" >&2
-    fi
-    URL=$(echo "$JSON" | jq -r ".url")
-    ISO=$(echo "${URL}" | cut -d'/' -f3)
-    HASH=$(echo "$JSON" | jq -r ".md5")
-    echo "${URL} ${HASH}"
 }
 
 
@@ -4186,68 +4151,6 @@ function get_() {
     HASH=$(web_pipe "${URL}/vx-${RELEASE}.md5" | cut -d' ' -f1)
     echo "${URL}/${ISO} ${HASH}"
 }
-
-
-windows-server
-
-
-# Template file for 'windows-server'
-OSNAME="windows-server"
-PRETTY="Windows Server"
-BASEDOF="-"
-DESCRIPTION="Platform for building an infrastructure of connected applications, networks, and web services"
-HOMEPAGE="https://www.microsoft.com/en-us/windows-server"
-CREDENTIALS="-"
-GUEST="windows-server"
-
-RELEASES=""
-
-
-function get_() {
-    if [ "${OS}" == "windows-server" ]; then
-        download_windows_server "windows-server-${RELEASE}"
-    else
-        download_windows_workstation "${RELEASE}"
-    fi
-
-    if [ "${OPERATION}" == "download" ]; then
-        exit 0
-    fi
-
-    echo "Downloading VirtIO drivers..."
-    web_get "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso" "${VM_PATH}"
-
-    rm -f "${VM_PATH}/unattended.iso"
-    case ${RELEASE} in
-        10|11)
-            unattended_windows "${VM_PATH}"
-            ;;
-    esac
-
-    if [ -n "${FILE_NAME}" ]; then
-        make_vm_config "${FILE_NAME}" "virtio-win.iso"
-    else
-        make_vm_config "windows-${RELEASE}.iso" "virtio-win.iso"
-    fi
-}
-
-
-windows
-
-
-# Template file for 'windows'
-OSNAME="windows"
-PRETTY="Windows"
-BASEDOF="-"
-DESCRIPTION="Whether you’re gaming, studying, running a business, or running a household, Windows helps you get it done"
-HOMEPAGE="https://www.microsoft.com/en-us/windows"
-CREDENTIALS="-"
-GUEST="windows"
-
-RELEASES=""
-
-
-
 
 
 xubuntu
