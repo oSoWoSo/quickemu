@@ -210,9 +210,9 @@
 | edubuntu | 24.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.10/release/edubuntu-24.10-desktop-amd64.iso |
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc0ODMyNzY4Ngo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc0ODMyNzY4Ngo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc0ODMyNzY4Ngo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc0ODM1MDMzNwo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc0ODM1MDMzNwo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc0ODM1MDMzNwo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -354,7 +354,7 @@
 | lubuntu | 24.10 |  | https://cdimage.ubuntu.com/lubuntu/releases/24.10/release/lubuntu-24.10-desktop-amd64.iso |
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso |
-| maboxlinux | latest |  | https://gigenet.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso |
+| maboxlinux | latest |  | https://psychz.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -545,6 +545,11 @@
 | siduction | latest | nox | https://mirrors.dotsrc.org/siduction/iso/Shine_on/nox/siduction-2024.1.0-Shine_on-nox-amd64-202412261752.iso |
 | siduction | latest | xfce | https://mirrors.dotsrc.org/siduction/iso/Shine_on/xfce/siduction-2024.1.0-Shine_on-xfce-amd64-202412261728.iso |
 | siduction | latest | xorg | https://mirrors.dotsrc.org/siduction/iso/Shine_on/xorg/siduction-2024.1.0-Shine_on-xorg-amd64-202412261745.iso |
+| slackware | 15.0 |  | https://slackware.nl/slackware/slackware-iso/slackware64-15.0-iso/slackware64-15.0-install-dvd.iso |
+| slackware | 14.2 |  | https://slackware.nl/slackware/slackware-iso/slackware64-14.2-iso/slackware64-14.2-install-dvd.iso |
+| slackware | 14.1 |  | https://slackware.nl/slackware/slackware-iso/slackware64-14.1-iso/slackware64-14.1-install-dvd.iso |
+| slackware | 14.0 |  | https://slackware.nl/slackware/slackware-iso/slackware64-14.0-iso/slackware64-14.0-install-dvd.iso |
+| slackware | 13.37 |  | https://slackware.nl/slackware/slackware-iso/slackware64-13.37-iso/slackware64-13.37-install-dvd.iso |
 | slax | latest | debian | https://ftp.fi.muni.cz/pub/linux/slax/Slax-12.x/slax-64bit-debian-12.2.0.iso |
 | slax | latest | slackware | https://ftp.fi.muni.cz/pub/linux/slax/Slax-15.x/slax-64bit-slackware-15.0.4.iso |
 | slint | 15.0-5 |  | https://slackware.uk/slint/x86_64/slint-15.0/iso/slint64-15.0-5.iso |

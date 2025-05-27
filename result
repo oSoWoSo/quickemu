@@ -1034,9 +1034,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0ODMyNzY4Ngo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0ODMyNzY4Ngo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0ODMyNzY4Ngo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0ODM1MDMzNwo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0ODM1MDMzNwo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0ODM1MDMzNwo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1932,7 +1932,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://gigenet.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
+maboxlinux latest:                   https://psychz.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -3111,6 +3111,37 @@ function get_() {
 
 
 slackware
+
+slackware 15.0:                      https://slackware.nl/slackware/slackware-iso/slackware64-15.0-iso/slackware64-15.0-install-dvd.iso
+slackware 14.2:                      https://slackware.nl/slackware/slackware-iso/slackware64-14.2-iso/slackware64-14.2-install-dvd.iso
+slackware 14.1:                      https://slackware.nl/slackware/slackware-iso/slackware64-14.1-iso/slackware64-14.1-install-dvd.iso
+slackware 14.0:                      https://slackware.nl/slackware/slackware-iso/slackware64-14.0-iso/slackware64-14.0-install-dvd.iso
+slackware 13.37:                     https://slackware.nl/slackware/slackware-iso/slackware64-13.37-iso/slackware64-13.37-install-dvd.iso
+
+# Template file for 'slackware'
+OSNAME="slackware"
+PRETTY="slackware"
+BASEDOF="-"
+DESCRIPTION="Advanced Linux operating system, designed with the twin goals of ease of use and stability as top priorities"
+HOMEPAGE="http://www.slackware.com"
+CREDENTIALS="-"
+
+
+RELEASES="15.0 14.2 14.1 14.0 13.37"
+
+
+function get_() {
+    local HASH=""
+    local ISO="slackware64-${RELEASE}-install-dvd.iso"
+    local URL="https://slackware.nl/slackware/slackware-iso/slackware64-${RELEASE}-iso"
+    HASH=$(web_pipe "${URL}/${ISO}.md5" | cut -d' ' -f1)
+    echo "${URL}/${ISO} ${HASH}"
+}
+
+function specific_tweaks() {
+    echo "boot=\"legacy\"" >> "${CONF_FILE}"
+}
+
 
 slax
 
