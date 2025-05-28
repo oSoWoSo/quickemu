@@ -96,6 +96,7 @@ ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core193/ip
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core194/ipfire-2.29-core194-x86_64.iso
 kali            https://cdimage.kali.org/kali-2025.1a/kali-linux-2025.1a-installer-amd64.iso
 kaos            https://downloads.sourceforge.net/kaosx/KaOS-2025.03-x86_64.iso
+kaos            https://sourceforge.net/projects/kaosx/files/ISO/KaOS-2025.05-x86_64.iso
 kdeneon         https://files.kde.org/neon/images/user/20250314-2153/neon-user-20250314-2153.iso
 kdeneon         https://files.kde.org/neon/images/user/20250320-1319/neon-user-20250320-1319.iso
 kdeneon         https://files.kde.org/neon/images/user/20250327-1319/neon-user-20250327-1319.iso
@@ -160,6 +161,7 @@ rosa            https://mirror.rosa.ru/rosa/rosa13/iso/ROSA.FRESH.13/plasma6/ROS
 runtu           https://downloads.sourceforge.net/runtu/runtu-xfce-24.04-amd64_20250315.iso
 sdesk           https://stevestudios.net/wp-content/uploads/2025/05/sdesk-2025.05.06-x86_64.iso
 securonis       https://downloads.sourceforge.net/securonis/SecuronisLinux2.5-rolling-MATE.iso
+securonis       https://downloads.sourceforge.net/securonis/SecuronisLinux2.6-rolling-GNOME.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.10.0-amd64-BD-1.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.11.0-amd64-BD-1.iso
 smoothwall      https://downloads.sourceforge.net/smoothwall/Express-3.1-SP6-x86_64.iso
