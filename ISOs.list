@@ -24,6 +24,7 @@ athena          https://downloads.sourceforge.net/athena-iso/athenaos-rolling-x8
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.3.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.4.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.6.iso
+axos            https://github.com/AxOS-project/AxOS/releases/download/25.05/AxOS-25.05-x86_64.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-04_k612.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-12_k614.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-23_k612.iso
@@ -183,6 +184,7 @@ truenas         https://download.sys.truenas.net/TrueNAS-Fangtooth/25.04.0/TrueN
 truenas         https://download.sys.truenas.net/TrueNAS-SCALE-Fangtooth-RC/25.04-RC.1/TrueNAS-SCALE-25.04-RC.1.iso
 truenas         https://download.sys.truenas.net/TrueNAS-SCALE-Fangtooth/25.04.1/TrueNAS-SCALE-25.04.1.iso
 tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202504150920.iso
+ubuntu          https://cdimage.ubuntu.com/releases/25.10/snapshot-1/ubuntu-25.10-snapshot1-desktop-amd64.iso
 ubuntu          https://releases.ubuntu.com/25.04/ubuntu-25.04-beta-desktop-amd64.iso
 ubuntu          https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
 ubuntubudgie    https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.04/beta/ubuntu-budgie-25.04-beta-desktop-amd64.iso
