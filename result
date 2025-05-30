@@ -4,7 +4,7 @@ agarimos latest plasma:              https://sourceforge.net/projects/agarimos/f
 agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.15.0_1-20250529.iso
 agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-x86_64-6.15.0_1-20250529.iso
 agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.15.0_1-20250529.iso
-agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/void-live-x86_64-6.12.30_2-20250529.iso
+agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-Live-x86_64-6.12.30_2-20250530.iso
 
 # Template file for 'agarimos'
 OSNAME="agarimos"
@@ -63,7 +63,7 @@ function specific_tweaks() {
 
 alpine
 
-alpine v3.22:                        https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/x86_64/alpine-virt-3.22.0_rc3-x86_64.iso
+alpine v3.22:                        https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/x86_64/alpine-virt-3.22.0-x86_64.iso
 alpine v3.21:                        https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-virt-3.21.3-x86_64.iso
 alpine v3.20:                        https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-virt-3.20.6-x86_64.iso
 alpine v3.19:                        https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-virt-3.19.7-x86_64.iso
@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://cfhcable.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
+archcraft latest:                    https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1035,9 +1035,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0ODU4Njg2Ngo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0ODU4Njg2Ngo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0ODU4Njg2Ngo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0ODYwOTQ4MAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0ODYwOTQ4MAo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0ODYwOTQ4MAo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1933,7 +1933,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://psychz.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
+maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2107,16 +2107,16 @@ function specific_tweaks() {
 
 manjaro
 
-manjaro xfce full:                   https://download.manjaro.org/xfce/25.0.1/manjaro-xfce-25.0.1-250508-linux612.iso
-manjaro xfce minimal:                https://download.manjaro.org/xfce/25.0.1/manjaro-xfce-25.0.1-minimal-250508-linux612.iso
-manjaro gnome full:                  https://download.manjaro.org/gnome/25.0.1/manjaro-gnome-25.0.1-250508-linux612.iso
-manjaro gnome minimal:               https://download.manjaro.org/gnome/25.0.1/manjaro-gnome-25.0.1-minimal-250508-linux612.iso
-manjaro plasma full:                 https://download.manjaro.org/kde/25.0.1/manjaro-kde-25.0.1-250508-linux612.iso
-manjaro plasma minimal:              https://download.manjaro.org/kde/25.0.1/manjaro-kde-25.0.1-minimal-250508-linux612.iso
+manjaro xfce full:                   https://download.manjaro.org/xfce/25.0.3/manjaro-xfce-25.0.3-250526-linux612.iso
+manjaro xfce minimal:                https://download.manjaro.org/xfce/25.0.3/manjaro-xfce-25.0.3-minimal-250526-linux612.iso
+manjaro gnome full:                  https://download.manjaro.org/gnome/25.0.3/manjaro-gnome-25.0.3-250526-linux612.iso
+manjaro gnome minimal:               https://download.manjaro.org/gnome/25.0.3/manjaro-gnome-25.0.3-minimal-250526-linux612.iso
+manjaro plasma full:                 https://download.manjaro.org/kde/25.0.3/manjaro-kde-25.0.3-250526-linux612.iso
+manjaro plasma minimal:              https://download.manjaro.org/kde/25.0.3/manjaro-kde-25.0.3-minimal-250526-linux612.iso
 manjaro cinnamon full:               https://download.manjaro.org/cinnamon/25.0.0/manjaro-cinnamon-25.0.0-250417-linux614.iso
 manjaro cinnamon minimal:            https://download.manjaro.org/cinnamon/25.0.0/manjaro-cinnamon-25.0.0-minimal-250417-linux614.iso
 manjaro i3 full:                     https://download.manjaro.org/i3/25.0.0/manjaro-i3-25.0.0-250417-linux614.iso
-manjaro i3 minimal:                  https://download.manjaro.org/i3/25.0.0/manjaro-i3-25.0.0-250417-minimal-linux614.iso
+manjaro i3 minimal:                  https://download.manjaro.org/i3/25.0.0/manjaro-i3-25.0.0-minimal-250417-linux614.iso
 manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250525-linux612.iso
 manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250525-linux612.iso
 
@@ -2891,7 +2891,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
