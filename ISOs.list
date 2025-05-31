@@ -29,6 +29,7 @@ axos            https://github.com/AxOS-project/AxOS/releases/download/25.05/AxO
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-04_k612.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-12_k614.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-23_k612.iso
+biglinux        https://iso.biglinux.com.br/biglinux_2025-05-30_k612.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-30_k614.iso
 blueonyx        http://mirror.blueonyx.de/pub/BlueOnyx/ISO/BlueOnyx-5211R-AlmaLinux-9.6-20250522.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.13.6-3-2025.03.11-x86_64.iso
@@ -140,6 +141,7 @@ mx              https://downloads.sourceforge.net/mx-linux/MX-23.6_x64.iso
 nitrux          https://downloads.sourceforge.net/nitruxos/nitrux-nx-desktop-plasma-cf782a84-amd64.iso
 nixos           https://channels.nixos.org/nixos-25.05/latest-nixos-graphical-x86_64-linux.iso
 nobara          https://nobara-images.nobaraproject.org/Nobara-42-Official-2025-05-13.iso
+nyarch          https://downloads.sourceforge.net/nyarchlinux/Nyarch_Gnome_25.04.1.iso
 obarun          https://cloud.server.obarun.org/iso/2025.04.28/obarun-JWM-2025.04.28-x86_64.iso
 obarun          https://cloud.server.obarun.org/iso/2025.04.30/obarun-JWM-2025.04.30-x86_64.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
