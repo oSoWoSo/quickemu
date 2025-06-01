@@ -211,9 +211,9 @@
 | edubuntu | 24.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.10/release/edubuntu-24.10-desktop-amd64.iso |
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc0ODc4MjA3NAo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc0ODc4MjA3NAo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc0ODc4MjA3NAo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc0ODgwMjc0Ngo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc0ODgwMjc0Ngo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc0ODgwMjc0Ngo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -448,12 +448,6 @@
 | parrotsec | 6.1 | home | https://download.parrot.sh/parrot/iso/6.1/Parrot-home-6.1_amd64.iso |
 | parrotsec | 6.1 | htb | https://download.parrot.sh/parrot/iso/6.1/Parrot-htb-6.1_amd64.iso |
 | parrotsec | 6.1 | security | https://download.parrot.sh/parrot/iso/6.1/Parrot-security-6.1_amd64.iso |
-| pbpuppy | 250301 | BookwormPup64-ghtest | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250301.iso |
-| pbpuppy | 250301 | S15Pup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250301.iso |
-| pbpuppy | 250301 | VoidPup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250301.iso |
-| pbpuppy | 250314 | BookwormPup64-ghtest | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250314.iso |
-| pbpuppy | 250314 | S15Pup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250314.iso |
-| pbpuppy | 250314 | VoidPup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250314.iso |
 | pbpuppy | 250402 | BookwormPup64-ghtest | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250402.iso |
 | pbpuppy | 250402 | S15Pup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250402.iso |
 | pbpuppy | 250402 | VoidPup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250402.iso |
@@ -466,6 +460,9 @@
 | pbpuppy | 250502 | BookwormPup64-ghtest | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250502.iso |
 | pbpuppy | 250502 | S15Pup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250502.iso |
 | pbpuppy | 250502 | VoidPup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250502.iso |
+| pbpuppy | 250601 | BookwormPup64-ghtest | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250601.iso |
+| pbpuppy | 250601 | S15Pup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250601.iso |
+| pbpuppy | 250601 | VoidPup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250601.iso |
 | pclinuxos | 2024.10 | kde | https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2024.10.iso |
 | pclinuxos | 2024.10 | kde-darkstar | https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-darkstar-2024.10.iso |
 | pclinuxos | 2024.10 | mate | https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-mate-2024-10.iso |
@@ -494,7 +491,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://cfhcable.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/redox_demo_x86_64_2025-05-16_33_livedisk.iso.zst |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/redox_desktop_x86_64_2025-05-16_33_livedisk.iso.zst |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/redox_server_x86_64_2025-05-16_33_livedisk.iso.zst |
