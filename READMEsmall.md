@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://cfhcable.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso) |
+| archcraft | latest |  | [url](https://psychz.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2025.06.01/archlinux-2025.06.01-x86_64.iso) |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
 | artixlinux | 20250407 | base-openrc | [url](https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso) |
@@ -175,10 +175,8 @@
 | devuan | chimaera |  | [url](https://files.devuan.org/devuan_chimaera/desktop-live/devuan_chimaera_4.0.3_amd64_desktop-live.iso) |
 | devuan | beowulf |  | [url](https://files.devuan.org/devuan_beowulf/desktop-live/devuan_beowulf_3.1.1_amd64_desktop-live.iso) |
 | dietpi | bios | Bookworm | [url](https://dietpi.com/downloads/images/DietPi_VM-x86_64-Bookworm_Installer.iso) |
-| dietpi | bios | Bullseye | [url](https://dietpi.com/downloads/images/DietPi_VM-x86_64-Bullseye_Installer.iso) |
 | dietpi | bios | Trixie | [url](https://dietpi.com/downloads/images/DietPi_VM-x86_64-Trixie_Installer.iso) |
 | dietpi | uefi | Bookworm | [url](https://dietpi.com/downloads/images/DietPi_VM-UEFI-x86_64-Bookworm_Installer.iso) |
-| dietpi | uefi | Bullseye | [url](https://dietpi.com/downloads/images/DietPi_VM-UEFI-x86_64-Bullseye_Installer.iso) |
 | dietpi | uefi | Trixie | [url](https://dietpi.com/downloads/images/DietPi_VM-UEFI-x86_64-Trixie_Installer.iso) |
 | dragonflybsd | 6.4.2 |  | [url](http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.2_REL.iso.bz2) |
 | dragonflybsd | 6.4.1 |  | [url](http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.1_REL.iso.bz2) |
@@ -211,9 +209,9 @@
 | edubuntu | 24.10 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/24.10/release/edubuntu-24.10-desktop-amd64.iso) |
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc0ODg4OTMyMQo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc0ODg4OTMyMQo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc0ODg4OTMyMQo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc0ODkxNjA5NQo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc0ODkxNjA5NQo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc0ODkxNjA5NQo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -256,7 +254,7 @@
 | ghostbsd | 24.10.1 | xfce | [url](https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso) |
 | ghostbsd | 24.07.3 | mate | [url](https://download.ghostbsd.org/releases/amd64/24.07.3/GhostBSD-24.07.3.iso) |
 | ghostbsd | 24.07.3 | xfce | [url](https://download.ghostbsd.org/releases/amd64/24.07.3/GhostBSD-24.07.3-XFCE.iso) |
-| gnomeos | nightly |  | [url](https://1270333429.rsc.cdn77.org/nightly/851533/live_851533-x86_64.iso) |
+| gnomeos | nightly |  | [url](https://1270333429.rsc.cdn77.org/nightly/851764/live_851764-x86_64.iso) |
 | gnomeos | 48.rc |  | [url](https://download.gnome.org/gnomeos/48.rc/gnome_os_installer_48.rc.iso) |
 | gnomeos | 48.beta |  | [url](https://download.gnome.org/gnomeos/48.beta/gnome_os_installer_48.beta.iso) |
 | gnomeos | 48.alpha |  | [url](https://download.gnome.org/gnomeos/48.alpha/gnome_os_installer_48.alpha.8.iso) |
@@ -299,7 +297,7 @@
 | kali | current |  | [url](https://cdimage.kali.org/current/kali-linux-2025.1c-installer-amd64.iso) |
 | kali | kali-weekly |  | [url](https://cdimage.kali.org/kali-weekly/kali-linux-2025-W22-installer-amd64.iso) |
 | kdeneon | user |  | [url](https://files.kde.org/neon/images/user/current/neon-user-20250601-0745.iso) |
-| kdeneon | testing |  | [url](https://files.kde.org/neon/images/testing/current/neon-testing-20250527-0430.iso) |
+| kdeneon | testing |  | [url](https://files.kde.org/neon/images/testing/current/neon-testing-20250603-0032.iso) |
 | kdeneon | unstable |  | [url](https://files.kde.org/neon/images/unstable/current/neon-unstable-20250601-1146.iso) |
 | kdeneon | developer |  | [url](https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250602-0038.iso) |
 | kodachi | latest |  | [url](https://sourceforge.net/projects/linuxkodachi/files/kodachi-8.27-64-kernel-6.2.iso) |
@@ -491,7 +489,7 @@
 | proxmox-ve | 5.4-1 |  | [url](https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso) |
 | pureos | 10.3 | gnome | [url](https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso) |
 | pureos | 10.3 | plasma | [url](https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso) |
-| reactos | latest |  | [url](https://cytranet-dal.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
+| reactos | latest |  | [url](https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
 | redox-os | livedisk | demo | [url](https://static.redox-os.org/img/x86_64/redox_demo_x86_64_2025-05-16_33_livedisk.iso.zst) |
 | redox-os | livedisk | desktop | [url](https://static.redox-os.org/img/x86_64/redox_desktop_x86_64_2025-05-16_33_livedisk.iso.zst) |
 | redox-os | livedisk | server | [url](https://static.redox-os.org/img/x86_64/redox_server_x86_64_2025-05-16_33_livedisk.iso.zst) |
@@ -633,6 +631,14 @@
 | ubuntu-unity | 24.10 |  | [url](https://cdimage.ubuntu.com/ubuntu-unity/releases/24.10/release/ubuntu-unity-24.10-desktop-amd64.iso) |
 | ubuntu-unity | 25.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-unity/releases/25.04/release/ubuntu-unity-25.04-desktop-amd64.iso) |
 | ubuntu-unity | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu-unity/daily-live/current/questing-desktop-amd64.iso) |
+| ubuntu | 14.04 |  | [url](https://releases.ubuntu.com/14.04/ubuntu-14.04.6-desktop-amd64.iso) |
+| ubuntu | 16.04 |  | [url](https://releases.ubuntu.com/16.04/ubuntu-16.04.7-desktop-amd64.iso) |
+| ubuntu | 18.04 |  | [url](https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso) |
+| ubuntu | 20.04 |  | [url](https://releases.ubuntu.com/20.04/ubuntu-20.04.6-desktop-amd64.iso) |
+| ubuntu | 22.04 |  | [url](https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso) |
+| ubuntu | 24.04 |  | [url](https://releases.ubuntu.com/24.04/ubuntu-24.04.2-desktop-amd64.iso) |
+| ubuntu | 24.10 |  | [url](https://releases.ubuntu.com/24.10/ubuntu-24.10-desktop-amd64.iso) |
+| ubuntu | 25.04 |  | [url](https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso) |
 | ubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu/daily-live/current/questing-desktop-amd64.iso) |
 | ubuntustudio | 16.04 |  | [url](https://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/ubuntustudio-16.04.5-dvd-amd64.iso) |
 | ubuntustudio | 18.04 |  | [url](https://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-amd64.iso) |
