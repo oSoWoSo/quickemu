@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso |
 | antix | 21 | base-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso |
 | antix | 21 | full-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso |
-| archcraft | latest |  | https://netactuate.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso |
+| archcraft | latest |  | https://cfhcable.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso |
 | archlinux | latest |  | https://mirror.rackspace.com/archlinux/iso/2025.06.01/archlinux-2025.06.01-x86_64.iso |
 | artixlinux | 20250407 | base-dinit | https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-openrc | https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso |
@@ -110,9 +110,8 @@
 | batocera | 37 |  | https://mirrors.o2switch.fr/batocera/x86_64/stable/37/batocera-x86_64-37-20230617.img.gz |
 | bazzite | latest | gnome | https://download.bazzite.gg/bazzite-gnome-stable-amd64.iso |
 | bazzite | latest | kde | https://download.bazzite.gg/bazzite-stable-amd64.iso |
-| biglinux | 2025-05-30 | k614 | https://iso.biglinux.com.br/biglinux_2025-05-30_k614.iso |
-| biglinux | 2025-05-30 | k612 | https://iso.biglinux.com.br/biglinux_2025-05-30_k612.iso |
-| biglinux | 2025-05-30 | k66 | https://iso.biglinux.com.br/biglinux_2025-05-30_k66.iso |
+| biglinux | 2025-06-07 | k612 | https://iso.biglinux.com.br/biglinux_2025-06-07_k612.iso |
+| biglinux | 2025-06-07 | k66 | https://iso.biglinux.com.br/biglinux_2025-06-07_k66.iso |
 | blendos | latest |  | https://git.blendos.co/api/v4/projects/32/jobs/artifacts/main/raw/blendOS.iso?job=build-job |
 | bodhi | 7.0.0 | standard | https://sourceforge.net/projects/bodhilinux/files/7.0.0/bodhi-7.0.0-64.iso |
 | bodhi | 7.0.0 | hwe | https://sourceforge.net/projects/bodhilinux/files/7.0.0/bodhi-7.0.0-64-hwe.iso |
@@ -207,9 +206,9 @@
 | edubuntu | 24.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.10/release/edubuntu-24.10-desktop-amd64.iso |
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc0OTIzNDkzNgo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc0OTIzNDkzNgo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc0OTIzNDkzNgo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc0OTI2MTUxOQo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc0OTI2MTUxOQo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc0OTI2MTUxOQo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -254,7 +253,7 @@
 | ghostbsd | 24.10.1 | xfce | https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso |
 | ghostbsd | 24.07.3 | mate | https://download.ghostbsd.org/releases/amd64/24.07.3/GhostBSD-24.07.3.iso |
 | ghostbsd | 24.07.3 | xfce | https://download.ghostbsd.org/releases/amd64/24.07.3/GhostBSD-24.07.3-XFCE.iso |
-| gnomeos | nightly |  | https://1270333429.rsc.cdn77.org/nightly/853375/live_853375-x86_64.iso |
+| gnomeos | nightly |  | https://1270333429.rsc.cdn77.org/nightly/854114/live_854114-x86_64.iso |
 | gnomeos | 48.rc |  | https://download.gnome.org/gnomeos/48.rc/gnome_os_installer_48.rc.iso |
 | gnomeos | 48.beta |  | https://download.gnome.org/gnomeos/48.beta/gnome_os_installer_48.beta.iso |
 | gnomeos | 48.alpha |  | https://download.gnome.org/gnomeos/48.alpha/gnome_os_installer_48.alpha.8.iso |
@@ -353,7 +352,7 @@
 | lubuntu | 24.10 |  | https://cdimage.ubuntu.com/lubuntu/releases/24.10/release/lubuntu-24.10-desktop-amd64.iso |
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso |
-| maboxlinux | latest |  | https://psychz.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso |
+| maboxlinux | latest |  | https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -454,8 +453,8 @@
 | peppermint | latest | devuan-gnome | https://sourceforge.net/projects/peppermintos/files/isos/Gnome_FlashBack/PeppermintOS-devuan_64_gfb.iso |
 | peppermint | latest | debian-xfce | https://sourceforge.net/projects/peppermintos/files/isos/XFCE/PeppermintOS-Debian-64.iso |
 | peppermint | latest | debian-gnome | https://sourceforge.net/projects/peppermintos/files/isos/Gnome_FlashBack/PeppermintOS-Debian_64_gfb.iso |
-| popos | 22.04 | intel | https://iso.pop-os.org/22.04/amd64/intel/53/pop-os_22.04_amd64_intel_53.iso |
-| popos | 22.04 | nvidia | https://iso.pop-os.org/22.04/amd64/nvidia/53/pop-os_22.04_amd64_nvidia_53.iso |
+| popos | 22.04 | intel | https://iso.pop-os.org/22.04/amd64/intel/54/pop-os_22.04_amd64_intel_54.iso |
+| popos | 22.04 | nvidia | https://iso.pop-os.org/22.04/amd64/nvidia/54/pop-os_22.04_amd64_nvidia_54.iso |
 | popos | 20.04 | intel | https://iso.pop-os.org/20.04/amd64/intel/39/pop-os_20.04_amd64_intel_39.iso |
 | popos | 20.04 | nvidia | https://iso.pop-os.org/20.04/amd64/nvidia/39/pop-os_20.04_amd64_nvidia_39.iso |
 | porteus | 5.01 | cinnamon | https://mirrors.dotsrc.org/porteus/x86_64/Porteus-v5.01/Porteus-CINNAMON-v5.01-x86_64.iso |
@@ -474,7 +473,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://cfhcable.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/redox_demo_x86_64_2025-05-16_33_livedisk.iso.zst |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/redox_desktop_x86_64_2025-05-16_33_livedisk.iso.zst |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/redox_server_x86_64_2025-05-16_33_livedisk.iso.zst |
