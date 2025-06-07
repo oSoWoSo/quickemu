@@ -22,6 +22,7 @@ athena          https://downloads.sourceforge.net/athena-iso/athenaos-rolling-x8
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.3.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.4.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.6.iso
+austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.7.iso
 axos            https://github.com/AxOS-project/AxOS/releases/download/25.06/AxOS-25.06-x86_64.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-04_k612.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-12_k614.iso
@@ -139,6 +140,7 @@ oracle          https://yum.oracle.com/ISOS/OracleLinux/OL9/u6/x86_64/OracleLinu
 pardus          https://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.4-GNOME-amd64.iso
 peropesis       https://peropesis.org/peropesis/Peropesis-2.9-live.iso
 pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.05.05-1.iso
+pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.06.07-1.iso
 pisi            https://downloads.sourceforge.net/pisilinux/Pisi-Linux-2.4.1-KDE6-x86_64.iso
 plamo           http://www.ring.gr.jp/pub/linux/Plamo/plamo-8.2_x86_64_usb.iso
 plop            https://download.plop.at/ploplinux/25.2/live/ploplinux-25.2-x86_64.iso
