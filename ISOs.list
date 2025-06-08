@@ -9,10 +9,8 @@ anduin          https://download.anduinos.com/1.2/1.2.4/AnduinOS-1.2.4-en_US.iso
 anduin          https://download.anduinos.com/1.3/1.3.0/AnduinOS-1.3.0-en_US.iso
 anduin          https://download.anduinos.com/1.3/1.3.1/AnduinOS-1.3.1-en_US.iso
 arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.05.01-x86_64.iso
-arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.06.01-x86_64.iso
 archbang        https://downloads.sourceforge.net/archbang/archbang-0904-x86_64.iso
 archcraft       https://downloads.sourceforge.net/archcraft/archcraft-2025.04.24-x86_64.iso
-archman         https://downloads.sourceforge.net/archman-os/Archman_Xfce-20250607.iso
 arco            https://downloads.sourceforge.net/arconetpro/arcopro-v25.04.01-x86_64.iso
 arco            https://downloads.sourceforge.net/arconetpro/arcopro-v25.05.01-x86_64.iso
 artix           https://download.artixlinux.org/iso/artix-base-openrc-20250303-x86_64.iso
@@ -22,12 +20,8 @@ athena          https://downloads.sourceforge.net/athena-iso/athenaos-rolling-x8
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.3.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.4.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.6.iso
-austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.7.iso
-axos            https://github.com/AxOS-project/AxOS/releases/download/25.06/AxOS-25.06-x86_64.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-04_k612.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-12_k614.iso
-biglinux        https://iso.biglinux.com.br/biglinux_2025-06-07_k612.iso
-blendos         https://mirrors.de.sahilister.net/blendos/blendOS.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.13.6-3-2025.03.11-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.13.8-1-2025.03.24-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.1-1-2025.04.09-x86_64.iso
@@ -62,7 +56,6 @@ dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R3.iso
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.04-amd64.iso
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.05-amd64.iso
-drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.06-amd64.iso
 dynfi           https://dynfi.com/files/firewall/dynfi_installer_vga_4.04-20250305-075641.iso.bz2
 dynfi           https://dynfi.com/files/firewall/dynfi_installer_vga_4.04-20250401-105254.iso.bz2
 edubuntu        https://cdimage.ubuntu.com/edubuntu/releases/25.04/beta/edubuntu-25.04-beta-desktop-amd64.iso
@@ -82,7 +75,6 @@ freebsd         https://download.freebsd.org/releases/ISO-IMAGES/13.5/FreeBSD-13
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14.3-BETA1-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14.3-BETA2-amd64-dvd1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14.3-BETA3-amd64-disc1.iso
-freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14.3-RELEASE-amd64-disc1.iso
 funos           https://downloads.sourceforge.net/funos/funos-24.04.2-stable.20250303.iso
 funos           https://downloads.sourceforge.net/funos/funos-25.04-stable.20250420.iso
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-dr460nized-linux-zen-250308.iso
@@ -99,7 +91,6 @@ kdeneon         https://files.kde.org/neon/images/user/20250327-1319/neon-user-2
 kdeneon         https://files.kde.org/neon/images/user/20250410-1320/neon-user-20250410-1320.iso
 kdeneon         https://files.kde.org/neon/images/user/20250501-1319/neon-user-20250501-1319.iso
 kdeneon         https://files.kde.org/neon/images/user/20250508-1319/neon-user-20250508-1319.iso
-kdeneon         https://files.kde.org/neon/images/user/20250605-1319/neon-user-20250605-1319.iso
 kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.04/beta/kubuntu-25.04-beta-desktop-amd64.iso
 kubuntu         https://cdimages.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso
 kumander        https://dl.kumander.org/kumander-linux-2.0-live-amd64.iso
@@ -121,13 +112,9 @@ manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-kde-25.0.
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-kde-25.0.1-250506-linux612.iso
 max             https://ftp.rediris.es/mirror/MaX-Linux/MaXdesktop/ultima-version/MAX-12.0-FINAL-live-amd64-20250307_1411.iso
 midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/3.2.3/MidnightBSD-3.2.3--amd64-disc1.iso
-modicia         https://downloads.sourceforge.net/modicia-o-s/MODICIAprofessional-community-6.12.22%2Bbpo-amd64.iso
 mx              https://downloads.sourceforge.net/mx-linux/MX-23.6_x64.iso
-neptune         https://download.neptuneos.com/download/Neptune82-20250605.iso
-neptune         https://download2.neptuneos.com/dev/Neptune9-20250606.iso
 nitrux          https://downloads.sourceforge.net/nitruxos/nitrux-nx-desktop-plasma-cf782a84-amd64.iso
 nobara          https://nobara-images.nobaraproject.org/Nobara-42-Official-2025-05-13.iso
-nst             https://downloads.sourceforge.net/nst/nst-42-14476.x86_64.iso
 obarun          https://cloud.server.obarun.org/iso/2025.04.28/obarun-JWM-2025.04.28-x86_64.iso
 obarun          https://cloud.server.obarun.org/iso/2025.04.30/obarun-JWM-2025.04.30-x86_64.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
@@ -136,18 +123,15 @@ openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250420.x86_64.iso
 openmandriva    https://downloads.sourceforge.net/openmandriva/openmandriva-6.0-plasma6.x11-slim.x86_64.iso
 opensuse        https://download.opensuse.org/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso
-oracle          https://yum.oracle.com/ISOS/OracleLinux/OL9/u6/x86_64/OracleLinux-R9-U6-x86_64-dvd.iso
 pardus          https://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.4-GNOME-amd64.iso
 peropesis       https://peropesis.org/peropesis/Peropesis-2.9-live.iso
 pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.05.05-1.iso
-pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.06.07-1.iso
 pisi            https://downloads.sourceforge.net/pisilinux/Pisi-Linux-2.4.1-KDE6-x86_64.iso
 plamo           http://www.ring.gr.jp/pub/linux/Plamo/plamo-8.2_x86_64_usb.iso
 plop            https://download.plop.at/ploplinux/25.2/live/ploplinux-25.2-x86_64.iso
 popos           https://iso.pop-os.org/24.04/amd64/intel/17/pop-os_24.04_amd64_intel_17.iso
 porteus         https://mirror.yandex.ru/mirrors/porteus/x86_64/Porteus-v5.1/Porteus-LXQT-v5.1-alpha2-x86_64.iso
 porteux         https://github.com/porteux/porteux/releases/download/v2.0/porteux-v2.0-current-gnome-48.0-x86_64.iso
-porteux         https://github.com/porteux/porteux/releases/download/v2.1.1/porteux-v2.1.1-current-mate-1.28.2-x86_64.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-backup-server_3.4-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-5.8-x64.r1.iso
@@ -156,7 +140,6 @@ rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.04.
 regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_en-US.x86_64-25.0.0.iso
 regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_pt-BR.x86_64-25.0.0.iso
 rescuezilla     https://github.com/rescuezilla/rescuezilla/releases/download/2.6/rescuezilla-2.6-64bit.oracular.iso
-rocky           https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.6-x86_64-dvd.iso
 rosa            https://mirror.rosa.ru/rosa/rosa13/iso/ROSA.FRESH.13/plasma6/ROSA.FRESH.PLASMA6.13.0.x86_64.iso
 runtu           https://downloads.sourceforge.net/runtu/runtu-xfce-24.04-amd64_20250315.iso
 sdesk           https://stevestudios.net/wp-content/uploads/2025/05/sdesk-2025.05.06-x86_64.iso
@@ -190,7 +173,6 @@ ubuntuunity     https://cdimage.ubuntu.com/ubuntu-unity/releases/25.04/beta/ubun
 ubuntuunity     https://cdimages.ubuntu.com/ubuntu-unity/releases/25.04/release/ubuntu-unity-25.04-desktop-amd64.iso
 ultimate        https://downloads.sourceforge.net/ultimate-arch-developer-2025.05.04-x86_64-kde.iso
 ultimate        https://downloads.sourceforge.net/ultimateedition/ultimate-arch-developer-2025.05.17-x86_64-kde_security.iso
-ultimate        https://downloads.sourceforge.net/ultimateedition/ultimate-arch-gamers-2025.06.06-x86_64-kde.iso
 ultimate        https://downloads.sourceforge.net/ultimateedition/ultimate-arch-lite-2025.04.08-x86_64-xfce.iso
 ultramarine     https://images.fyralabs.com/isos/ultramarine/41/ultramarine-flagship-41-live-anaconda-x86_64.iso
 univention      https://updates.software-univention.de/download/ucs-cds/ucs5.2-1/UCS_5.2-1-amd64.iso
