@@ -1,10 +1,10 @@
 agarimos
 
 agarimos latest plasma:              https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.16_1-20250228.iso
-agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.28_1-20250517.iso
-agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-x86_64-6.12.28_1-20250516.iso
-agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.26_1-20250510.iso
-agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-Live-x86_64-6.12.28_1-20250516.iso
+agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.31_1-20250531.iso
+agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.30_2-20250530.iso
+agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.31_1-20250531.iso
+agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-Live-x86_64-6.12.31_1-20250608.iso
 
 # Template file for 'agarimos'
 OSNAME="agarimos"
@@ -63,6 +63,7 @@ function specific_tweaks() {
 
 alpine
 
+alpine v3.22:                        https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/x86_64/alpine-virt-3.22.0-x86_64.iso
 alpine v3.21:                        https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-virt-3.21.3-x86_64.iso
 alpine v3.20:                        https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-virt-3.20.6-x86_64.iso
 alpine v3.19:                        https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-virt-3.19.7-x86_64.iso
@@ -82,7 +83,7 @@ HOMEPAGE="https://alpinelinux.org/"
 CREDENTIALS="-"
 
 
-RELEASES="v3.21 v3.20 v3.19 v3.18 v3.17 v3.16 v3.15 v3.14 v3.13"
+RELEASES="v3.22 v3.21 v3.20 v3.19 v3.18 v3.17 v3.16 v3.15 v3.14 v3.13"
 
 
 function get_() {
@@ -222,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://psychz.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
+archcraft latest:                    https://gigenet.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -247,7 +248,7 @@ function get_() {
 
 archlinux
 
-archlinux latest:                    https://mirror.rackspace.com/archlinux/iso/2025.05.01/archlinux-2025.05.01-x86_64.iso
+archlinux latest:                    https://mirror.rackspace.com/archlinux/iso/2025.06.01/archlinux-2025.06.01-x86_64.iso
 
 # Template file for 'archlinux'
 OSNAME="archlinux"
@@ -434,7 +435,8 @@ function specific_tweaks() {
 
 biglinux
 
-biglinux 2025-05-12 k614:            https://iso.biglinux.com.br/biglinux_2025-05-12_k614.iso
+biglinux 2025-06-07 k612:            https://iso.biglinux.com.br/biglinux_2025-06-07_k612.iso
+biglinux 2025-06-07 k66:             https://iso.biglinux.com.br/biglinux_2025-06-07_k66.iso
 
 # Template file for 'biglinux'
 OSNAME="biglinux"
@@ -445,8 +447,8 @@ HOMEPAGE="https://www.biglinux.com.br"
 CREDENTIALS="-"
 
 
-RELEASES="2025-05-12"
-EDITIONS="k614"
+RELEASES="2025-06-07"
+EDITIONS="k66 k612"
 
 function get_() {
     local HASH=""
@@ -540,8 +542,8 @@ function get_() {
 
 cachyos
 
-cachyos latest desktop:              https://cdn77.cachyos.org/ISO/desktop/250422/cachyos-desktop-linux-250422.iso
-cachyos latest handheld:             https://cdn77.cachyos.org/ISO/handheld/250422/cachyos-handheld-linux-250422.iso
+cachyos latest desktop:              https://cdn77.cachyos.org/ISO/desktop/250530/cachyos-desktop-linux-250530.iso
+cachyos latest handheld:             https://cdn77.cachyos.org/ISO/handheld/250530/cachyos-handheld-linux-250530.iso
 
 # Template file for 'cachyos'
 OSNAME="cachyos"
@@ -751,6 +753,7 @@ function get_() {
 
 deepin
 
+deepin 25-beta:                      https://cdimage.deepin.com/releases/25-beta/amd64/deepin-desktop-community-25-beta-amd64.iso
 deepin 25-alpha:                     https://cdimage.deepin.com/releases/25-alpha/amd64/deepin-desktop-community-25-alpha-amd64.iso
 deepin 23.1:                         https://cdimage.deepin.com/releases/23.1/amd64/deepin-desktop-community-23.1-amd64.iso
 deepin 23:                           https://cdimage.deepin.com/releases/23/amd64/deepin-desktop-community-23-amd64.iso
@@ -765,7 +768,7 @@ HOMEPAGE="https://www.deepin.org"
 CREDENTIALS="-"
 
 
-RELEASES="25-alpha 23.1 23 20.9"
+RELEASES="25-beta 25-alpha 23.1 23 20.9"
 
 
 function get_() {
@@ -825,10 +828,8 @@ function get_() {
 dietpi
 
 dietpi bios Bookworm:                https://dietpi.com/downloads/images/DietPi_VM-x86_64-Bookworm_Installer.iso
-dietpi bios Bullseye:                https://dietpi.com/downloads/images/DietPi_VM-x86_64-Bullseye_Installer.iso
 dietpi bios Trixie:                  https://dietpi.com/downloads/images/DietPi_VM-x86_64-Trixie_Installer.iso
 dietpi uefi Bookworm:                https://dietpi.com/downloads/images/DietPi_VM-UEFI-x86_64-Bookworm_Installer.iso
-dietpi uefi Bullseye:                https://dietpi.com/downloads/images/DietPi_VM-UEFI-x86_64-Bullseye_Installer.iso
 dietpi uefi Trixie:                  https://dietpi.com/downloads/images/DietPi_VM-UEFI-x86_64-Trixie_Installer.iso
 
 # Template file for 'dietpi'
@@ -841,7 +842,7 @@ CREDENTIALS="-"
 
 
 RELEASES="uefi bios"
-EDITIONS="Trixie Bullseye Bookworm"
+EDITIONS="Trixie Bookworm"
 
 function get_() {
     local HASH=""
@@ -1029,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0NzYxNjAyNQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0NzYxNjAyNQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0NzYxNjAyNQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0OTM3ODgxNgo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0OTM3ODgxNgo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0OTM3ODgxNgo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1139,6 +1140,8 @@ function specific_tweaks() {
 
 freebsd
 
+freebsd 14.3 disc1:                  https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.3/FreeBSD-14.3-RELEASE-amd64-disc1.iso
+freebsd 14.3 dvd1:                   https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.3/FreeBSD-14.3-RELEASE-amd64-dvd1.iso
 freebsd 14.2 disc1:                  https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-disc1.iso
 freebsd 14.2 dvd1:                   https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-dvd1.iso
 freebsd 14.1 disc1:                  https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.1/FreeBSD-14.1-RELEASE-amd64-disc1.iso
@@ -1157,7 +1160,7 @@ HOMEPAGE="https://www.freebsd.org"
 CREDENTIALS="-"
 freebsd
 
-RELEASES="14.2 14.1 13.5 13.4"
+RELEASES="14.3 14.2 14.1 13.5 13.4"
 EDITIONS="dvd1 disc1"
 
 function get_() {
@@ -1382,7 +1385,7 @@ function get_() {
 
 gnomeos
 
-gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/842745/live_842745-x86_64.iso
+gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/854114/live_854114-x86_64.iso
 gnomeos 48.rc:                       https://download.gnome.org/gnomeos/48.rc/gnome_os_installer_48.rc.iso
 gnomeos 48.beta:                     https://download.gnome.org/gnomeos/48.beta/gnome_os_installer_48.beta.iso
 gnomeos 48.alpha:                    https://download.gnome.org/gnomeos/48.alpha/gnome_os_installer_48.alpha.8.iso
@@ -1506,7 +1509,7 @@ function specific_tweaks() {
 kali
 
 kali current:                        https://cdimage.kali.org/current/kali-linux-2025.1c-installer-amd64.iso
-kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2025-W20-installer-amd64.iso
+kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2025-W23-installer-amd64.iso
 
 # Template file for 'kali'
 OSNAME="kali"
@@ -1536,10 +1539,10 @@ function specific_tweaks() {
 
 kdeneon
 
-kdeneon user:                        https://files.kde.org/neon/images/user/current/neon-user-20250518-0744.iso
-kdeneon testing:                     https://files.kde.org/neon/images/testing/current/neon-testing-20250513-0430.iso
-kdeneon unstable:                    https://files.kde.org/neon/images/unstable/current/neon-unstable-20250511-1146.iso
-kdeneon developer:                   https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250512-0038.iso
+kdeneon user:                        https://files.kde.org/neon/images/user/current/neon-user-20250608-0745.iso
+kdeneon testing:                     https://files.kde.org/neon/images/testing/current/neon-testing-20250603-0430.iso
+kdeneon unstable:                    https://files.kde.org/neon/images/unstable/current/neon-unstable-20250601-1146.iso
+kdeneon developer:                   https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250602-0038.iso
 
 # Template file for 'kdeneon'
 OSNAME="kdeneon"
@@ -1927,7 +1930,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://cfhcable.dl.sourceforge.net/project/mabox-linux/25.04/linux61/mabox-linux-25.04-Istredd-250430-linux61.iso
+maboxlinux latest:                   https://psychz.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2101,18 +2104,18 @@ function specific_tweaks() {
 
 manjaro
 
-manjaro xfce full:                   https://download.manjaro.org/xfce/25.0.1/manjaro-xfce-25.0.1-250508-linux612.iso
-manjaro xfce minimal:                https://download.manjaro.org/xfce/25.0.1/manjaro-xfce-25.0.1-minimal-250508-linux612.iso
-manjaro gnome full:                  https://download.manjaro.org/gnome/25.0.1/manjaro-gnome-25.0.1-250508-linux612.iso
-manjaro gnome minimal:               https://download.manjaro.org/gnome/25.0.1/manjaro-gnome-25.0.1-minimal-250508-linux612.iso
-manjaro plasma full:                 https://download.manjaro.org/kde/25.0.1/manjaro-kde-25.0.1-250508-linux612.iso
-manjaro plasma minimal:              https://download.manjaro.org/kde/25.0.1/manjaro-kde-25.0.1-minimal-250508-linux612.iso
-manjaro cinnamon full:               https://download.manjaro.org/cinnamon/24.0.5/manjaro-cinnamon-24.0.5-240729-linux69.iso
-manjaro cinnamon minimal:            https://download.manjaro.org/cinnamon/24.0.5/manjaro-cinnamon-24.0.5-minimal-240729-linux69.iso
-manjaro i3 full:                     https://download.manjaro.org/i3/24.0.5/manjaro-i3-24.0.5-240729-linux69.iso
-manjaro i3 minimal:                  https://download.manjaro.org/i3/24.0.5/manjaro-i3-24.0.5-minimal-240729-linux69.iso
-manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250518-linux612.iso
-manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250518-linux612.iso
+manjaro xfce full:                   https://download.manjaro.org/xfce/25.0.3/manjaro-xfce-25.0.3-250526-linux612.iso
+manjaro xfce minimal:                https://download.manjaro.org/xfce/25.0.3/manjaro-xfce-25.0.3-minimal-250526-linux612.iso
+manjaro gnome full:                  https://download.manjaro.org/gnome/25.0.3/manjaro-gnome-25.0.3-250526-linux612.iso
+manjaro gnome minimal:               https://download.manjaro.org/gnome/25.0.3/manjaro-gnome-25.0.3-minimal-250526-linux612.iso
+manjaro plasma full:                 https://download.manjaro.org/kde/25.0.3/manjaro-kde-25.0.3-250526-linux612.iso
+manjaro plasma minimal:              https://download.manjaro.org/kde/25.0.3/manjaro-kde-25.0.3-minimal-250526-linux612.iso
+manjaro cinnamon full:               https://download.manjaro.org/cinnamon/25.0.0/manjaro-cinnamon-25.0.0-250417-linux614.iso
+manjaro cinnamon minimal:            https://download.manjaro.org/cinnamon/25.0.0/manjaro-cinnamon-25.0.0-minimal-250417-linux614.iso
+manjaro i3 full:                     https://download.manjaro.org/i3/25.0.0/manjaro-i3-25.0.0-250417-linux614.iso
+manjaro i3 minimal:                  https://download.manjaro.org/i3/25.0.0/manjaro-i3-25.0.0-minimal-250417-linux614.iso
+manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250608-linux612.iso
+manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250608-linux612.iso
 
 # Template file for 'manjaro'
 OSNAME="manjaro"
@@ -2360,8 +2363,8 @@ function specific_tweaks() {
 
 nwg-shell
 
+nwg-shell 2025.06.08:                https://sourceforge.net/projects/nwg-iso/files/nwg-live-2025.06.08-x86_64.iso
 nwg-shell 2025.05.17:                https://sourceforge.net/projects/nwg-iso/files/nwg-live-2025.05.17-x86_64.iso
-nwg-shell 2025.04.20:                https://sourceforge.net/projects/nwg-iso/files/nwg-live-2025.04.20-x86_64.iso
 
 # Template file for 'nwg-shell'
 OSNAME="nwg-shell"
@@ -2372,7 +2375,7 @@ HOMEPAGE="https://nwg-piotr.github.io/nwg-shell"
 CREDENTIALS="nwg:nwg"
 
 
-RELEASES="2025.05.17 2025.04.20"
+RELEASES="2025.06.08 2025.05.17"
 
 
 function get_() {
@@ -2415,6 +2418,50 @@ function specific_tweaks() {
 
 
 openindiana
+
+openindiana 20250402 gui:            https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-gui-20250402.iso
+openindiana 20250402 text:           https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-text-20250402.iso
+openindiana 20250402 minimal:        https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-minimal-20250402.iso
+openindiana 20241026 gui:            https://dlc.openindiana.org/isos/hipster/20241026/OI-hipster-gui-20241026.iso
+openindiana 20241026 text:           https://dlc.openindiana.org/isos/hipster/20241026/OI-hipster-text-20241026.iso
+openindiana 20241026 minimal:        https://dlc.openindiana.org/isos/hipster/20241026/OI-hipster-minimal-20241026.iso
+openindiana 20240426 gui:            https://dlc.openindiana.org/isos/hipster/20240426/OI-hipster-gui-20240426.iso
+openindiana 20240426 text:           https://dlc.openindiana.org/isos/hipster/20240426/OI-hipster-text-20240426.iso
+openindiana 20240426 minimal:        https://dlc.openindiana.org/isos/hipster/20240426/OI-hipster-minimal-20240426.iso
+openindiana 20231027 gui:            https://dlc.openindiana.org/isos/hipster/20231027/OI-hipster-gui-20231027.iso
+openindiana 20231027 text:           https://dlc.openindiana.org/isos/hipster/20231027/OI-hipster-text-20231027.iso
+openindiana 20231027 minimal:        https://dlc.openindiana.org/isos/hipster/20231027/OI-hipster-minimal-20231027.iso
+openindiana 20230502 gui:            https://dlc.openindiana.org/isos/hipster/20230502/OI-hipster-gui-20230502.iso
+openindiana 20230502 text:           https://dlc.openindiana.org/isos/hipster/20230502/OI-hipster-text-20230502.iso
+openindiana 20230502 minimal:        https://dlc.openindiana.org/isos/hipster/20230502/OI-hipster-minimal-20230502.iso
+
+# Template file for 'openindiana'
+OSNAME="openindiana"
+PRETTY="OpenIndiana"
+BASEDOF="Solaris OPenSolaris"
+DESCRIPTION="Community supported illumos-based operating system"
+HOMEPAGE="https://www.openindiana.org"
+CREDENTIALS="-"
+solaris
+
+RELEASES="20250402 20241026 20240426 20231027 20230502"
+EDITIONS="text minimal gui"
+
+function get_() {
+    local HASH=""
+    local ISO=""
+    local URL=""
+    URL="https://dlc.openindiana.org/isos/hipster/${RELEASE}"
+    ISO="OI-hipster-${EDITION}-${RELEASE}.iso"
+    HASH=$(web_pipe "${URL}/${ISO}.sha256" |cut -d' ' -f1)
+    echo "${URL}/${ISO} ${HASH}"
+}
+
+function specific_tweaks() {
+    echo "boot=\"legacy\"" >> "${CONF_FILE}"
+    echo "disk_size=\"32G\"" >> "${CONF_FILE}"
+}
+
 
 opensuse
 
@@ -2550,12 +2597,6 @@ function get_() {
 
 pbpuppy
 
-pbpuppy 250301 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250301.iso
-pbpuppy 250301 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250301.iso
-pbpuppy 250301 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250301.iso
-pbpuppy 250314 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250314.iso
-pbpuppy 250314 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250314.iso
-pbpuppy 250314 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250314.iso
 pbpuppy 250402 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250402.iso
 pbpuppy 250402 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250402.iso
 pbpuppy 250402 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250402.iso
@@ -2568,6 +2609,9 @@ pbpuppy 250501 VoidPup64:            https://sourceforge.net/projects/pb-gh-rele
 pbpuppy 250502 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250502.iso
 pbpuppy 250502 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250502.iso
 pbpuppy 250502 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250502.iso
+pbpuppy 250601 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250601.iso
+pbpuppy 250601 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250601.iso
+pbpuppy 250601 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250601.iso
 
 # Template file for 'pbpuppy'
 OSNAME="pbpuppy"
@@ -2578,7 +2622,7 @@ HOMEPAGE="https://sourceforge.net/projects/pb-gh-releases"
 CREDENTIALS="-"
 
 
-RELEASES="250502 250501 250404 250402 250314 250301"
+RELEASES="250601 250502 250501 250404 250402"
 EDITIONS="VoidPup64 S15Pup64 BookwormPup64-ghtest"
 
 function get_() {
@@ -2590,6 +2634,42 @@ function get_() {
       ISO="VoidPup64-22.02-${RELEASE}.iso"
     fi
     HASH=$(web_pipe "${URL}"/SHA512checksums.txt | grep "${ISO}" | cut -d' ' -f1)
+    echo "${URL}/${ISO} ${HASH}"
+}
+
+
+pclinuxos
+
+pclinuxos 2024.10 kde:               https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2024.10.iso
+pclinuxos 2024.10 kde-darkstar:      https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-darkstar-2024.10.iso
+pclinuxos 2024.10 mate:              https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-mate-2024-10.iso
+pclinuxos 2024.10 xfce:              https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-xfce-2024.10.iso
+
+# Template file for 'pclinuxos'
+OSNAME="pclinuxos"
+PRETTY="PCLinuxOS"
+BASEDOF=""
+DESCRIPTION="Free, easy to use Linux-based Operating System for x86_64 desktops or laptops"
+HOMEPAGE="https://www.pclinuxos.com"
+CREDENTIALS="-"
+
+
+RELEASES="2024.10"
+EDITIONS="xfce mate kde-darkstar kde"
+
+function get_() {
+    # shellcheck disable=SC2155
+    case ${EDITION} in
+        mate) RELEASE="${RELEASE//./-}";;
+        # in case an edition is added that uses the mate style and sorts higher
+        kde|kde-darkstar) RELEASE="${RELEASE//-/.}";;
+        xfce) RELEASE="${RELEASE//-/.}";;
+        *) ;;
+    esac
+    # shellcheck disable=SC2155
+    local HASH="$(web_pipe "${URL}/pclinuxos64-${EDITION}-${RELEASE}.md5sum" | head -c 32)"
+    local ISO="pclinuxos64-${EDITION}-${RELEASE}.iso"
+    local URL="https://ftp.fau.de/pclinuxos/pclinuxos/iso"
     echo "${URL}/${ISO} ${HASH}"
 }
 
@@ -2638,8 +2718,8 @@ function get_() {
 
 popos
 
-popos 22.04 intel:                   https://iso.pop-os.org/22.04/amd64/intel/53/pop-os_22.04_amd64_intel_53.iso
-popos 22.04 nvidia:                  https://iso.pop-os.org/22.04/amd64/nvidia/53/pop-os_22.04_amd64_nvidia_53.iso
+popos 22.04 intel:                   https://iso.pop-os.org/22.04/amd64/intel/54/pop-os_22.04_amd64_intel_54.iso
+popos 22.04 nvidia:                  https://iso.pop-os.org/22.04/amd64/nvidia/54/pop-os_22.04_amd64_nvidia_54.iso
 popos 20.04 intel:                   https://iso.pop-os.org/20.04/amd64/intel/39/pop-os_20.04_amd64_intel_39.iso
 popos 20.04 nvidia:                  https://iso.pop-os.org/20.04/amd64/nvidia/39/pop-os_20.04_amd64_nvidia_39.iso
 
@@ -2805,7 +2885,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -2951,6 +3031,9 @@ function get_() {
 
 rockylinux
 
+rockylinux 9.6 minimal:              https://dl.rockylinux.org/vault/rocky/9.6/isos/x86_64/Rocky-9.6-x86_64-minimal.iso
+rockylinux 9.6 dvd:                  https://dl.rockylinux.org/vault/rocky/9.6/isos/x86_64/Rocky-9.6-x86_64-dvd.iso
+rockylinux 9.6 boot:                 https://dl.rockylinux.org/vault/rocky/9.6/isos/x86_64/Rocky-9.6-x86_64-boot.iso
 rockylinux 9.5 minimal:              https://dl.rockylinux.org/vault/rocky/9.5/isos/x86_64/Rocky-9.5-x86_64-minimal.iso
 rockylinux 9.5 dvd:                  https://dl.rockylinux.org/vault/rocky/9.5/isos/x86_64/Rocky-9.5-x86_64-dvd.iso
 rockylinux 9.5 boot:                 https://dl.rockylinux.org/vault/rocky/9.5/isos/x86_64/Rocky-9.5-x86_64-boot.iso
@@ -3000,7 +3083,7 @@ HOMEPAGE="https://rockylinux.org"
 CREDENTIALS="-"
 
 
-RELEASES="9.5 9.4 9.3 9.2 9.1 9.0 8.9 8.8 8.7 8.6 8.5 8.4 8.3"
+RELEASES="9.6 9.5 9.4 9.3 9.2 9.1 9.0 8.9 8.8 8.7 8.6 8.5 8.4 8.3"
 EDITIONS="minimal dvd boot"
 
 function get_() {
@@ -3195,6 +3278,14 @@ function specific_tweaks() {
 
 solus
 
+solus 2024-10-14 Budgie:             https://downloads.getsol.us/isos/2024-10-14/Solus-Budgie-Release-2024-10-14.iso
+solus 2024-10-14 GNOME:              https://downloads.getsol.us/isos/2024-10-14/Solus-GNOME-Release-2024-10-14.iso
+solus 2024-10-14 Plasma:             https://downloads.getsol.us/isos/2024-10-14/Solus-Plasma-Release-2024-10-14.iso
+solus 2024-10-14 XFCE-Beta:          https://downloads.getsol.us/isos/2024-10-14/Solus-XFCE-Beta-Release-2024-10-14.iso
+solus 2025-01-26 Budgie:             https://downloads.getsol.us/isos/2025-01-26/Solus-Budgie-Release-2025-01-26.iso
+solus 2025-01-26 GNOME:              https://downloads.getsol.us/isos/2025-01-26/Solus-GNOME-Release-2025-01-26.iso
+solus 2025-01-26 Plasma:             https://downloads.getsol.us/isos/2025-01-26/Solus-Plasma-Release-2025-01-26.iso
+solus 2025-01-26 XFCE-Beta:          https://downloads.getsol.us/isos/2025-01-26/Solus-XFCE-Beta-Release-2025-01-26.iso
 
 # Template file for 'solus'
 OSNAME="solus"
@@ -3205,8 +3296,8 @@ HOMEPAGE="https://getsol.us"
 CREDENTIALS="-"
 
 
-RELEASES=""
-EDITIONS=""
+RELEASES="2025-01-26 2024-10-14"
+EDITIONS="XFCE-Beta Plasma GNOME Budgie"
 
 function get_() {
     local HASH=""
@@ -3287,7 +3378,7 @@ function get_() {
 
 tails
 
-tails stable:                        https://download.tails.net/tails/stable/tails-amd64-6.15/tails-amd64-6.15.iso
+tails stable:                        https://download.tails.net/tails/stable/tails-amd64-6.16/tails-amd64-6.16.iso
 
 # Template file for 'tails'
 OSNAME="tails"
