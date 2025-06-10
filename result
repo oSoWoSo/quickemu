@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://psychz.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
+archcraft latest:                    https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1030,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0OTU1OTk1Mwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0OTU1OTk1Mwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0OTU1OTk1Mwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0OTU4MDQ4NQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0OTU4MDQ4NQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0OTU4MDQ4NQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1930,7 +1930,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://versaweb.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso
+maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2419,6 +2419,9 @@ function specific_tweaks() {
 
 openindiana
 
+openindiana 20250606 gui:            https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-gui-20250606.iso
+openindiana 20250606 text:           https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-text-20250606.iso
+openindiana 20250606 minimal:        https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-minimal-20250606.iso
 openindiana 20250402 gui:            https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-gui-20250402.iso
 openindiana 20250402 text:           https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-text-20250402.iso
 openindiana 20250402 minimal:        https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-minimal-20250402.iso
@@ -2431,9 +2434,6 @@ openindiana 20240426 minimal:        https://dlc.openindiana.org/isos/hipster/20
 openindiana 20231027 gui:            https://dlc.openindiana.org/isos/hipster/20231027/OI-hipster-gui-20231027.iso
 openindiana 20231027 text:           https://dlc.openindiana.org/isos/hipster/20231027/OI-hipster-text-20231027.iso
 openindiana 20231027 minimal:        https://dlc.openindiana.org/isos/hipster/20231027/OI-hipster-minimal-20231027.iso
-openindiana 20230502 gui:            https://dlc.openindiana.org/isos/hipster/20230502/OI-hipster-gui-20230502.iso
-openindiana 20230502 text:           https://dlc.openindiana.org/isos/hipster/20230502/OI-hipster-text-20230502.iso
-openindiana 20230502 minimal:        https://dlc.openindiana.org/isos/hipster/20230502/OI-hipster-minimal-20230502.iso
 
 # Template file for 'openindiana'
 OSNAME="openindiana"
@@ -2444,7 +2444,7 @@ HOMEPAGE="https://www.openindiana.org"
 CREDENTIALS="-"
 solaris
 
-RELEASES="20250402 20241026 20240426 20231027 20230502"
+RELEASES="20250606 20250402 20241026 20240426 20231027"
 EDITIONS="text minimal gui"
 
 function get_() {

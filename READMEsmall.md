@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://psychz.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso) |
+| archcraft | latest |  | [url](https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2025.06.01/archlinux-2025.06.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
@@ -207,9 +207,9 @@
 | edubuntu | 24.10 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/24.10/release/edubuntu-24.10-desktop-amd64.iso) |
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc0OTU1OTk1Mwo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc0OTU1OTk1Mwo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc0OTU1OTk1Mwo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc0OTU4MDQ4NQo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc0OTU4MDQ4NQo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc0OTU4MDQ4NQo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -353,7 +353,7 @@
 | lubuntu | 24.10 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/24.10/release/lubuntu-24.10-desktop-amd64.iso) |
 | lubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso) |
 | lubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso) |
-| maboxlinux | latest |  | [url](https://versaweb.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso) |
+| maboxlinux | latest |  | [url](https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso) |
 | macos | mojave |  | [url](http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg) |
 | macos | catalina |  | [url](http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg) |
 | macos | big-sur |  | [url](http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg) |
@@ -399,6 +399,9 @@
 | nwg-shell | 2025.05.17 |  | [url](https://sourceforge.net/projects/nwg-iso/files/nwg-live-2025.05.17-x86_64.iso) |
 | openbsd | 7.7 |  | [url](https://mirror.leaseweb.com/pub/OpenBSD/7.7/amd64/install77.iso) |
 | openbsd | 7.6 |  | [url](https://mirror.leaseweb.com/pub/OpenBSD/7.6/amd64/install76.iso) |
+| openindiana | 20250606 | gui | [url](https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-gui-20250606.iso) |
+| openindiana | 20250606 | text | [url](https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-text-20250606.iso) |
+| openindiana | 20250606 | minimal | [url](https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-minimal-20250606.iso) |
 | openindiana | 20250402 | gui | [url](https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-gui-20250402.iso) |
 | openindiana | 20250402 | text | [url](https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-text-20250402.iso) |
 | openindiana | 20250402 | minimal | [url](https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-minimal-20250402.iso) |
@@ -411,9 +414,6 @@
 | openindiana | 20231027 | gui | [url](https://dlc.openindiana.org/isos/hipster/20231027/OI-hipster-gui-20231027.iso) |
 | openindiana | 20231027 | text | [url](https://dlc.openindiana.org/isos/hipster/20231027/OI-hipster-text-20231027.iso) |
 | openindiana | 20231027 | minimal | [url](https://dlc.openindiana.org/isos/hipster/20231027/OI-hipster-minimal-20231027.iso) |
-| openindiana | 20230502 | gui | [url](https://dlc.openindiana.org/isos/hipster/20230502/OI-hipster-gui-20230502.iso) |
-| openindiana | 20230502 | text | [url](https://dlc.openindiana.org/isos/hipster/20230502/OI-hipster-text-20230502.iso) |
-| openindiana | 20230502 | minimal | [url](https://dlc.openindiana.org/isos/hipster/20230502/OI-hipster-minimal-20230502.iso) |
 | opensuse | tumbleweed |  | [url](https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso) |
 | opensuse | microos |  | [url](https://download.opensuse.org/tumbleweed/iso/openSUSE-MicroOS-DVD-x86_64-Current.iso) |
 | opensuse | aeon |  | [url](https://mirrorcache.opensuse.org/tumbleweed/appliances/iso/opensuse-aeon.x86_64.iso) |
