@@ -1030,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0OTY0NjM2OQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0OTY0NjM2OQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0OTY0NjM2OQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc0OTY2NjkzNAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc0OTY2NjkzNAo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc0OTY2NjkzNAo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1508,7 +1508,7 @@ function specific_tweaks() {
 
 kali
 
-kali current:                        https://cdimage.kali.org/current/kali-linux-2025.1c-installer-amd64.iso
+kali current:                        https://cdimage.kali.org/current/kali-linux-2025.2-installer-amd64.iso
 kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2025-W23-installer-amd64.iso
 
 # Template file for 'kali'
@@ -1930,7 +1930,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://netactuate.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso
+maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -3747,7 +3747,7 @@ ubuntu-server 24.04:                 https://releases.ubuntu.com/24.04/ubuntu-24
 ubuntu-server 22.04:                 https://releases.ubuntu.com/22.04/ubuntu-22.04.5-live-server-amd64.iso
 ubuntu-server 20.04:                 https://releases.ubuntu.com/20.04/ubuntu-20.04.6-live-server-amd64.iso
 ubuntu-server 18.04:                 https://releases.ubuntu.com/18.04/ubuntu-18.04.6-live-server-amd64.iso
-ubuntu-server 16.04:                 https://releases.ubuntu.com/16.04/
+ubuntu-server 16.04:                 https://releases.ubuntu.com/16.04/ubuntu-16.04.7-server-amd64.iso
 ubuntu-server 14.04:                 https://releases.ubuntu.com/14.04/ubuntu-14.04.6-server-amd64.iso
 
 # Template file for 'ubuntu-server'

@@ -206,9 +206,9 @@
 | edubuntu | 24.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.10/release/edubuntu-24.10-desktop-amd64.iso |
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc0OTY0NjM2OQo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc0OTY0NjM2OQo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc0OTY0NjM2OQo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc0OTY2NjkzNAo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc0OTY2NjkzNAo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc0OTY2NjkzNAo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -293,7 +293,7 @@
 | haiku | r1beta4 | x86_gcc2h | http://mirror.rit.edu/haiku/r1beta4/haiku-r1beta4-x86_gcc2h-anyboot.iso |
 | haiku | r1beta3 | x86_64 | http://mirror.rit.edu/haiku/r1beta3/haiku-r1beta3-x86_64-anyboot.iso |
 | haiku | r1beta3 | x86_gcc2h | http://mirror.rit.edu/haiku/r1beta3/haiku-r1beta3-x86_gcc2h-anyboot.iso |
-| kali | current |  | https://cdimage.kali.org/current/kali-linux-2025.1c-installer-amd64.iso |
+| kali | current |  | https://cdimage.kali.org/current/kali-linux-2025.2-installer-amd64.iso |
 | kali | kali-weekly |  | https://cdimage.kali.org/kali-weekly/kali-linux-2025-W23-installer-amd64.iso |
 | kdeneon | user |  | https://files.kde.org/neon/images/user/current/neon-user-20250608-0745.iso |
 | kdeneon | testing |  | https://files.kde.org/neon/images/testing/current/neon-testing-20250610-0429.iso |
@@ -352,7 +352,7 @@
 | lubuntu | 24.10 |  | https://cdimage.ubuntu.com/lubuntu/releases/24.10/release/lubuntu-24.10-desktop-amd64.iso |
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso |
-| maboxlinux | latest |  | https://netactuate.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso |
+| maboxlinux | latest |  | https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -621,7 +621,7 @@
 | ubuntu-server | 22.04 |  | https://releases.ubuntu.com/22.04/ubuntu-22.04.5-live-server-amd64.iso |
 | ubuntu-server | 20.04 |  | https://releases.ubuntu.com/20.04/ubuntu-20.04.6-live-server-amd64.iso |
 | ubuntu-server | 18.04 |  | https://releases.ubuntu.com/18.04/ubuntu-18.04.6-live-server-amd64.iso |
-| ubuntu-server | 16.04 |  | https://releases.ubuntu.com/16.04/ |
+| ubuntu-server | 16.04 |  | https://releases.ubuntu.com/16.04/ubuntu-16.04.7-server-amd64.iso |
 | ubuntu-server | 14.04 |  | https://releases.ubuntu.com/14.04/ubuntu-14.04.6-server-amd64.iso |
 | ubuntu-unity | 24.04 |  | https://cdimage.ubuntu.com/ubuntu-unity/releases/24.04/release/ubuntu-unity-24.04.2-desktop-amd64.iso |
 | ubuntu-unity | 24.10 |  | https://cdimage.ubuntu.com/ubuntu-unity/releases/24.10/release/ubuntu-unity-24.10-desktop-amd64.iso |
