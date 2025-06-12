@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso |
 | antix | 21 | base-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso |
 | antix | 21 | full-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso |
-| archcraft | latest |  | https://psychz.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso |
+| archcraft | latest |  | https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso |
 | archlinux | latest |  | https://mirror.rackspace.com/archlinux/iso/2025.06.01/archlinux-2025.06.01-x86_64.iso |
 | artixlinux | 20250407 | base-dinit | https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-openrc | https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso |
@@ -175,40 +175,15 @@
 | dietpi | bios | Trixie | https://dietpi.com/downloads/images/DietPi_VM-x86_64-Trixie_Installer.iso |
 | dietpi | uefi | Bookworm | https://dietpi.com/downloads/images/DietPi_VM-UEFI-x86_64-Bookworm_Installer.iso |
 | dietpi | uefi | Trixie | https://dietpi.com/downloads/images/DietPi_VM-UEFI-x86_64-Trixie_Installer.iso |
-| dragonflybsd | 6.4.2 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.2_REL.iso.bz2 |
-| dragonflybsd | 6.4.1 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.1_REL.iso.bz2 |
-| dragonflybsd | 6.4.0 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.0_REL.iso.bz2 |
-| dragonflybsd | 6.2.2 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.2.2_REL.iso.bz2 |
-| dragonflybsd | 6.2.1 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.2.1_REL.iso.bz2 |
-| dragonflybsd | 6.0.1 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.0.1_REL.iso.bz2 |
-| dragonflybsd | 6.0.0 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.0.0_REL.iso.bz2 |
-| dragonflybsd | 5.8.3 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.8.3_REL.iso.bz2 |
-| dragonflybsd | 5.8.2 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.8.2_REL.iso.bz2 |
-| dragonflybsd | 5.8.1 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.8.1_REL.iso.bz2 |
-| dragonflybsd | 5.6.3 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.6.3_REL.iso.bz2 |
-| dragonflybsd | 5.8.0 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.8.0_REL.iso.bz2 |
-| dragonflybsd | 5.6.2 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.6.2_REL.iso.bz2 |
-| dragonflybsd | 5.6.1 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.6.1_REL.iso.bz2 |
-| dragonflybsd | 5.6.0 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.6.0_REL.iso.bz2 |
-| dragonflybsd | 5.4.3 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.4.3_REL.iso.bz2 |
-| dragonflybsd | 5.4.2 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.4.2_REL.iso.bz2 |
-| dragonflybsd | 5.4.1 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.4.1_REL.iso.bz2 |
-| dragonflybsd | 5.4.0 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.4.0_REL.iso.bz2 |
-| dragonflybsd | 5.2.2 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.2.2_REL.iso.bz2 |
-| dragonflybsd | 5.2.1 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.2.1_REL.iso.bz2 |
-| dragonflybsd | 5.2.0 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.2.0_REL.iso.bz2 |
-| dragonflybsd | 5.0.2 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.0.2_REL.iso.bz2 |
-| dragonflybsd | 5.0.1 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.0.1_REL.iso.bz2 |
-| dragonflybsd | 5.0.0 |  | http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.0.0_REL.iso.bz2 |
 | dsl | 2024.rc7 | lz4 | https://www.damnsmalllinux.org/download/dsl-2024.rc7.lz4.iso |
 | dsl | 2024.rc7 | cdrom | https://www.damnsmalllinux.org/download/dsl-2024.rc7.iso |
 | edubuntu | 24.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.2-desktop-amd64.iso |
 | edubuntu | 24.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.10/release/edubuntu-24.10-desktop-amd64.iso |
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc0OTY5MzY1MAo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc0OTY5MzY1MAo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc0OTY5MzY1MAo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc0OTcxMDE3NAo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc0OTcxMDE3NAo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc0OTcxMDE3NAo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -352,7 +327,7 @@
 | lubuntu | 24.10 |  | https://cdimage.ubuntu.com/lubuntu/releases/24.10/release/lubuntu-24.10-desktop-amd64.iso |
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso |
-| maboxlinux | latest |  | https://versaweb.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso |
+| maboxlinux | latest |  | https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -488,7 +463,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/redox_demo_x86_64_2025-05-16_33_livedisk.iso.zst |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/redox_desktop_x86_64_2025-05-16_33_livedisk.iso.zst |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/redox_server_x86_64_2025-05-16_33_livedisk.iso.zst |
