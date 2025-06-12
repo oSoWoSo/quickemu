@@ -3,6 +3,7 @@
 | OS|RELEASE|EDITION|ISO |
 |---|---|---|---|
 |  |  |  | **ERROR** |
+|  |  |  | **ERROR** |
 | rebornos | latest |  | **ERROR** |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
