@@ -26,6 +26,7 @@ berry           https://downloads.sourceforge.net/berryos/berry-1.41.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-04_k612.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-12_k614.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-06-07_k612.iso
+biglinux        https://iso.biglinux.com.br/biglinux_2025-06-13_k614.iso
 blendos         https://mirrors.de.sahilister.net/blendos/blendOS.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.13.6-3-2025.03.11-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.13.8-1-2025.03.24-x86_64.iso
@@ -132,6 +133,7 @@ nitrux          https://downloads.sourceforge.net/nitruxos/nitrux-nx-desktop-pla
 nobara          https://nobara-images.nobaraproject.org/Nobara-42-Official-2025-05-13.iso
 obarun          https://cloud.server.obarun.org/iso/2025.04.28/obarun-JWM-2025.04.28-x86_64.iso
 obarun          https://cloud.server.obarun.org/iso/2025.04.30/obarun-JWM-2025.04.30-x86_64.iso
+obarun          https://cloud.server.obarun.org/iso/2025.06.13/obarun-JWM-2025.06.13-x86_64.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250312.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250320.x86_64.iso
