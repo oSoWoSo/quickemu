@@ -96,6 +96,7 @@ ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core192/ip
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core193/ipfire-2.29-core193-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core194/ipfire-2.29-core194-x86_64.iso
 kali            https://cdimage.kali.org/kali-2025.1a/kali-linux-2025.1a-installer-amd64.iso
+kali            https://cdimage.kali.org/kali-2025.2/kali-linux-2025.2-installer-amd64.iso
 kaos            https://downloads.sourceforge.net/kaosx/KaOS-2025.03-x86_64.iso
 kdeneon         https://files.kde.org/neon/images/user/20250314-2153/neon-user-20250314-2153.iso
 kdeneon         https://files.kde.org/neon/images/user/20250320-1319/neon-user-20250320-1319.iso
@@ -109,6 +110,7 @@ kubuntu         https://cdimages.ubuntu.com/kubuntu/releases/25.04/release/kubun
 kumander        https://dl.kumander.org/kumander-linux-2.0-live-amd64.iso
 kumander        https://dl.kumander.org/kumander-linux-2.1-live-amd64.iso
 lernstick       https://releases.lernstick.ch/lernstick12/lernstick_debian12_edu-mini_2025-04-06.iso
+lingmo          https://downloads.sourceforge.net/lingmo-os/lingmo-os-3.0.0-helium-desktop-x86_64.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.03.1-noble-lts.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04-noble-lts.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04.1-noble-lts.iso
