@@ -1030,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1MDAzOTU1Mgo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1MDAzOTU1Mgo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1MDAzOTU1Mgo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1MDA1NTg2OAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1MDA1NTg2OAo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1MDA1NTg2OAo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1385,7 +1385,7 @@ function get_() {
 
 gnomeos
 
-gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/858673/live_858673-x86_64.iso
+gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/858801/live_858801-x86_64.iso
 gnomeos 48.rc:                       https://download.gnome.org/gnomeos/48.rc/gnome_os_installer_48.rc.iso
 gnomeos 48.beta:                     https://download.gnome.org/gnomeos/48.beta/gnome_os_installer_48.beta.iso
 gnomeos 48.alpha:                    https://download.gnome.org/gnomeos/48.alpha/gnome_os_installer_48.alpha.8.iso
@@ -1930,7 +1930,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso
+maboxlinux latest:                   https://psychz.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2885,7 +2885,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"

@@ -206,9 +206,9 @@
 | edubuntu | 24.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.10/release/edubuntu-24.10-desktop-amd64.iso |
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1MDAzOTU1Mgo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1MDAzOTU1Mgo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1MDAzOTU1Mgo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1MDA1NTg2OAo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1MDA1NTg2OAo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1MDA1NTg2OAo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -253,7 +253,7 @@
 | ghostbsd | 24.10.1 | xfce | https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso |
 | ghostbsd | 24.07.3 | mate | https://download.ghostbsd.org/releases/amd64/24.07.3/GhostBSD-24.07.3.iso |
 | ghostbsd | 24.07.3 | xfce | https://download.ghostbsd.org/releases/amd64/24.07.3/GhostBSD-24.07.3-XFCE.iso |
-| gnomeos | nightly |  | https://1270333429.rsc.cdn77.org/nightly/858673/live_858673-x86_64.iso |
+| gnomeos | nightly |  | https://1270333429.rsc.cdn77.org/nightly/858801/live_858801-x86_64.iso |
 | gnomeos | 48.rc |  | https://download.gnome.org/gnomeos/48.rc/gnome_os_installer_48.rc.iso |
 | gnomeos | 48.beta |  | https://download.gnome.org/gnomeos/48.beta/gnome_os_installer_48.beta.iso |
 | gnomeos | 48.alpha |  | https://download.gnome.org/gnomeos/48.alpha/gnome_os_installer_48.alpha.8.iso |
@@ -352,7 +352,7 @@
 | lubuntu | 24.10 |  | https://cdimage.ubuntu.com/lubuntu/releases/24.10/release/lubuntu-24.10-desktop-amd64.iso |
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso |
-| maboxlinux | latest |  | https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso |
+| maboxlinux | latest |  | https://psychz.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -488,7 +488,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/redox_demo_x86_64_2025-05-16_33_livedisk.iso.zst |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/redox_desktop_x86_64_2025-05-16_33_livedisk.iso.zst |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/redox_server_x86_64_2025-05-16_33_livedisk.iso.zst |
