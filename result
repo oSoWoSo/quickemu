@@ -1,7 +1,7 @@
 agarimos
 
 agarimos latest plasma:              https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.16_1-20250228.iso
-agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/void-live-x86_64-6.12.33_1-20250617.iso
+agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.33_1-20250617.iso
 agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.33_1-20250616.iso
 agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.33_1-20250615.iso
 agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-Live-x86_64-6.12.33_1-20250613.iso
@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://netactuate.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
+archcraft latest:                    https://psychz.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1030,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1MDE4NTMzNwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1MDE4NTMzNwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1MDE4NTMzNwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1MDIxMjEyNQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1MDIxMjEyNQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1MDIxMjEyNQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1144,8 +1144,6 @@ freebsd 14.3 disc1:                  https://download.freebsd.org/ftp/releases/a
 freebsd 14.3 dvd1:                   https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.3/FreeBSD-14.3-RELEASE-amd64-dvd1.iso
 freebsd 14.2 disc1:                  https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-disc1.iso
 freebsd 14.2 dvd1:                   https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-dvd1.iso
-freebsd 14.1 disc1:                  https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.1/FreeBSD-14.1-RELEASE-amd64-disc1.iso
-freebsd 14.1 dvd1:                   https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.1/FreeBSD-14.1-RELEASE-amd64-dvd1.iso
 freebsd 13.5 disc1:                  https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/13.5/FreeBSD-13.5-RELEASE-amd64-disc1.iso
 freebsd 13.5 dvd1:                   https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/13.5/FreeBSD-13.5-RELEASE-amd64-dvd1.iso
 freebsd 13.4 disc1:                  https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/13.4/FreeBSD-13.4-RELEASE-amd64-disc1.iso
@@ -1160,7 +1158,7 @@ HOMEPAGE="https://www.freebsd.org"
 CREDENTIALS="-"
 freebsd
 
-RELEASES="14.3 14.2 14.1 13.5 13.4"
+RELEASES="14.3 14.2 13.5 13.4"
 EDITIONS="dvd1 disc1"
 
 function get_() {
@@ -1385,7 +1383,7 @@ function get_() {
 
 gnomeos
 
-gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/859567/live_859567-x86_64.iso
+gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/860053/live_860053-x86_64.iso
 gnomeos 48.rc:                       https://download.gnome.org/gnomeos/48.rc/gnome_os_installer_48.rc.iso
 gnomeos 48.beta:                     https://download.gnome.org/gnomeos/48.beta/gnome_os_installer_48.beta.iso
 gnomeos 48.alpha:                    https://download.gnome.org/gnomeos/48.alpha/gnome_os_installer_48.alpha.8.iso
@@ -1930,7 +1928,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso
+maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.05/linux61/mabox-linux-25.05-Istredd-250531-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2885,7 +2883,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://unlimited.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
