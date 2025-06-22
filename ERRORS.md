@@ -7,7 +7,6 @@
 | truenas-core | 13 |  | **ERROR** |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
-| Ubuntu | daily-live | is | **ERROR** |
 | UbuntuStudio | dvd | is | **ERROR** |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
