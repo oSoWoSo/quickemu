@@ -55,6 +55,7 @@ clear           https://cdn.download.clearlinux.org/releases/43300/clear/clear-4
 clear           https://cdn.download.clearlinux.org/releases/43400/clear/clear-43400-live-desktop.iso
 clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2.1-28-amd64.iso
 clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2.1-9-amd64.iso
+clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2.2-15-amd64.iso
 clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2.2-5-amd64.iso
 crux            https://git.crux.nu/system/iso/releases/download/3.8-rc5/crux-3.8-rc5.iso
 crux            https://git.crux.nu/system/iso/releases/download/3.8/crux-3.8.iso
