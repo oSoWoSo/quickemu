@@ -81,6 +81,7 @@ emmabuntus      https://downloads.sourceforge.net/emmabuntus/emmabuntus-de6-amd6
 endeavour       https://mirrors.gigenet.com/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso
 endless         https://images-dl.endlessm.com/release/6.0.7/eos-amd64-amd64/base/eos-eos6.0-amd64-amd64.250610-092703.base.iso
 exe             https://downloads.sourceforge.net/exegnulinux/exegnu64_daedalus-20250508.iso
+expirion        https://downloads.sourceforge.net/expirion-linux/Expirion-6.0-LXQt-250624.iso
 extix           https://downloads.sourceforge.net/extix/extix-25.3-64bit-kde-waydroid-2910mb-250305.iso
 exton           https://downloads.sourceforge.net/opsus/exton-opsus-64bit-lxqt-refractasnapshot-1850mb-250621.iso
 fedora          https://mirror.us.leaseweb.net/fedora/linux/releases/test/42_Beta/Workstation/x86_64/iso/Fedora-Workstation-Live-42_Beta-1.4.x86_64.iso
@@ -179,6 +180,7 @@ rocky           https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.
 rosa            https://mirror.rosa.ru/rosa/rosa13/iso/ROSA.FRESH.13/plasma6/ROSA.FRESH.PLASMA6.13.0.x86_64.iso
 runtu           https://downloads.sourceforge.net/runtu/runtu-xfce-24.04-amd64_20250315.iso
 sdesk           https://stevestudios.net/wp-content/uploads/2025/05/sdesk-2025.05.06-x86_64.iso
+sdesk           https://stevestudios.net/wp-content/uploads/2025/06/sdesk-2025.06.24-x86_64.iso
 securonis       https://downloads.sourceforge.net/securonis/SecuronisLinux3.0-rolling.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.10.0-amd64-BD-1.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.11.0-amd64-BD-1.iso
@@ -192,6 +194,7 @@ tails           https://download.tails.net/tails/stable/tails-amd64-6.13/tails-a
 tails           https://download.tails.net/tails/stable/tails-amd64-6.14.1/tails-amd64-6.14.1.iso
 tails           https://download.tails.net/tails/stable/tails-amd64-6.14.2/tails-amd64-6.14.2.iso
 tails           https://download.tails.net/tails/stable/tails-amd64-6.15/tails-amd64-6.15.iso
+tromjaro        https://archive.org/download/TROM-Jaro-OS/TROMjaro%202025.06.24.iso
 truenas         https://download.sys.truenas.net/TrueNAS-Fangtooth/25.04.0/TrueNAS-SCALE-25.04.0.iso
 truenas         https://download.sys.truenas.net/TrueNAS-SCALE-Fangtooth-RC/25.04-RC.1/TrueNAS-SCALE-25.04-RC.1.iso
 tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202504150920.iso
