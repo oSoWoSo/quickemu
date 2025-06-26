@@ -62,6 +62,7 @@ crux            https://git.crux.nu/system/iso/releases/download/3.8/crux-3.8.is
 debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.10.0-amd64-DVD-1.iso
 debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.11.0-amd64-DVD-1.iso
 deepin          http://ftp.snt.utwente.nl/pub/os/linux/deepin-cd/25-alpha/amd64/deepin-desktop-community-25-alpha-amd64.iso
+deepin          https://downloads.sourceforge.net/deepin/deepin-desktop-community-25-amd64.iso
 deepin          https://ftp.gwdg.de/pub/linux/linuxdeepin/releases/23.1/amd64/deepin-desktop-community-23.1-amd64.iso
 dragonflybsd    https://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.1_REL.iso
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R1.iso
@@ -152,6 +153,7 @@ obarun          https://cloud.server.obarun.org/iso/2025.04.28/obarun-JWM-2025.0
 obarun          https://cloud.server.obarun.org/iso/2025.04.30/obarun-JWM-2025.04.30-x86_64.iso
 obarun          https://cloud.server.obarun.org/iso/2025.06.13/obarun-JWM-2025.06.13-x86_64.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
+openkylin       https://mirror.accum.se/mirror/openkylin.top/releases/2.0-SP2/openKylin-Desktop-V2.0-SP2-beta1-x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250312.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250320.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250420.x86_64.iso
@@ -197,6 +199,7 @@ tails           https://download.tails.net/tails/stable/tails-amd64-6.13/tails-a
 tails           https://download.tails.net/tails/stable/tails-amd64-6.14.1/tails-amd64-6.14.1.iso
 tails           https://download.tails.net/tails/stable/tails-amd64-6.14.2/tails-amd64-6.14.2.iso
 tails           https://download.tails.net/tails/stable/tails-amd64-6.15/tails-amd64-6.15.iso
+tails           https://download.tails.net/tails/stable/tails-amd64-6.17/tails-amd64-6.17.iso
 tromjaro        https://archive.org/download/TROM-Jaro-OS/TROMjaro%202025.06.24.iso
 truenas         https://download.sys.truenas.net/TrueNAS-Fangtooth/25.04.0/TrueNAS-SCALE-25.04.0.iso
 truenas         https://download.sys.truenas.net/TrueNAS-SCALE-Fangtooth-RC/25.04-RC.1/TrueNAS-SCALE-25.04-RC.1.iso
