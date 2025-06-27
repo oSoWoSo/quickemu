@@ -156,6 +156,7 @@ obarun          https://cloud.server.obarun.org/iso/2025.04.28/obarun-JWM-2025.0
 obarun          https://cloud.server.obarun.org/iso/2025.04.30/obarun-JWM-2025.04.30-x86_64.iso
 obarun          https://cloud.server.obarun.org/iso/2025.06.13/obarun-JWM-2025.06.13-x86_64.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
+openeuler       https://mirror.accum.se/mirror/openeuler.org/openEuler-24.03-LTS-SP2/DevStation/x86_64/openEuler-24.03-LTS-SP2-DevStation-x86_64-dvd.iso
 openkylin       https://mirror.accum.se/mirror/openkylin.top/releases/2.0-SP2/openKylin-Desktop-V2.0-SP2-beta1-x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250312.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250320.x86_64.iso
@@ -193,6 +194,7 @@ securityonion   https://download.securityonion.net/file/securityonion/securityon
 securonis       https://downloads.sourceforge.net/securonis/SecuronisLinux3.0-rolling.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.10.0-amd64-BD-1.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.11.0-amd64-BD-1.iso
+smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/20250626T191621Z/smartos-20250626T191621Z.iso
 smoothwall      https://downloads.sourceforge.net/smoothwall/Express-3.1-SP6-x86_64.iso
 soplos          https://downloads.sourceforge.net/soplos-linux/soplos-linux-tyron-alpha-3.0.1.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-2025.03-x86_64-lxqt.iso
