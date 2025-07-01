@@ -42,6 +42,7 @@ bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.3-9-20
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.5-2-2025.05.08-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.15.1-2-2025.06.10-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.15.3-1-2025.06.22-x86_64.iso
+bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.15.4-2-2025.06.30-x86_64.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250330.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250422.iso
 calculate       https://mirror.calculate-linux.org/release/20250409/cld-20250409-x86_64.iso
@@ -91,6 +92,7 @@ endless         https://images-dl.endlessm.com/release/6.0.7/eos-amd64-amd64/bas
 exe             https://downloads.sourceforge.net/exegnulinux/exegnu64_daedalus-20250508.iso
 expirion        https://downloads.sourceforge.net/expirion-linux/Expirion-6.0-LXQt-250624.iso
 extix           https://downloads.sourceforge.net/extix/extix-25.3-64bit-kde-waydroid-2910mb-250305.iso
+extix           https://downloads.sourceforge.net/extix/extix-25.7-deepin25-refractasnapshot-5370mb-250701.iso
 exton           https://downloads.sourceforge.net/opsus/exton-opsus-64bit-lxqt-refractasnapshot-1850mb-250621.iso
 fedora          https://mirror.us.leaseweb.net/fedora/linux/releases/test/42_Beta/Workstation/x86_64/iso/Fedora-Workstation-Live-42_Beta-1.4.x86_64.iso
 fedora          https://mirrors.xmission.com/fedora/linux/releases/42/Workstation/x86_64/iso/Fedora-Workstation-Live-42-1.1.x86_64.iso
