@@ -31,6 +31,7 @@ biglinux        https://iso.biglinux.com.br/biglinux_2025-06-13_k614.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-06-20_k614.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-06-27_k612.iso
 blendos         https://mirrors.de.sahilister.net/blendos/blendOS.iso
+blendos         https://nl.blendos.niranjan.co/blendOS.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.13.6-3-2025.03.11-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.13.8-1-2025.03.24-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.1-1-2025.04.09-x86_64.iso
@@ -52,6 +53,7 @@ centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250429.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250506.2-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250611.0-x86_64-dvd1.iso
+centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250630.0-x86_64-dvd1.iso
 chimera         https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso
 clear           https://cdn.download.clearlinux.org/releases/43300/clear/clear-43300-live-desktop.iso
 clear           https://cdn.download.clearlinux.org/releases/43400/clear/clear-43400-live-desktop.iso
@@ -101,6 +103,7 @@ freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14
 funos           https://downloads.sourceforge.net/funos/funos-24.04.2-stable.20250303.iso
 funos           https://downloads.sourceforge.net/funos/funos-25.04-stable.20250420.iso
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-dr460nized-linux-zen-250308.iso
+gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20250629T163708Z/livegui-amd64-20250629T163708Z.iso
 gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix25_6_Beta18-xfce-420.iso
 gobo            https://gobolinux.neonsys.org/017.01-ISO/GoboLinux-017.01-x86_64.iso
 grml            https://download.grml.org/grml-full-2025.05-amd64.iso
