@@ -24,6 +24,7 @@ austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.3.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.4.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.6.iso
 berry           https://downloads.sourceforge.net/berryos/berry-1.41.iso
+berry           https://downloads.sourceforge.net/berryos/berry-1.42.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-04_k612.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-12_k614.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-06-07_k612.iso
@@ -75,6 +76,7 @@ dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R4.iso
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.04-amd64.iso
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.05-amd64.iso
+drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.07-amd64.iso
 dynfi           https://dynfi.com/files/firewall/dynfi_installer_vga_4.04-20250305-075641.iso.bz2
 dynfi           https://dynfi.com/files/firewall/dynfi_installer_vga_4.04-20250401-105254.iso.bz2
 edubuntu        https://cdimage.ubuntu.com/edubuntu/releases/25.04/beta/edubuntu-25.04-beta-desktop-amd64.iso
