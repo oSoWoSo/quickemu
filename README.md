@@ -3,7 +3,7 @@
 | OS|RELEASE|EDITION|ISO |
 |---|---|---|---|
 | agarimos | latest | plasma | https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.16_1-20250228.iso |
-| agarimos | latest | xfce4 | https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.34_1-20250624.iso |
+| agarimos | latest | xfce4 | https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.35_1-20250701.iso |
 | agarimos | latest | cinnamon | https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.35_1-20250630.iso |
 | agarimos | latest | lxqt-kwin | https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.34_1-20250629.iso |
 | agarimos | latest | gnome | https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-Live-x86_64-6.12.34_1-20250627.iso |
@@ -69,8 +69,8 @@
 | antix | 21 | core-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso |
 | antix | 21 | base-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso |
 | antix | 21 | full-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso |
-| archcraft | latest |  | https://versaweb.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso |
-| archlinux | latest |  | https://mirror.rackspace.com/archlinux/iso/2025.06.01/archlinux-2025.06.01-x86_64.iso |
+| archcraft | latest |  | https://netactuate.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso |
+| archlinux | latest |  | https://mirror.rackspace.com/archlinux/iso/2025.07.01/archlinux-2025.07.01-x86_64.iso |
 | artixlinux | 20250407 | base-dinit | https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-openrc | https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-runit | https://iso.artixlinux.org/iso/artix-base-runit-20250407-x86_64.iso |
@@ -208,9 +208,9 @@
 | edubuntu | 24.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.10/release/edubuntu-24.10-desktop-amd64.iso |
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1MTM3NDM2Nwo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1MTM3NDM2Nwo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1MTM3NDM2Nwo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1MTM5NDkzMwo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1MTM5NDkzMwo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1MTM5NDkzMwo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -352,7 +352,7 @@
 | lubuntu | 24.10 |  | https://cdimage.ubuntu.com/lubuntu/releases/24.10/release/lubuntu-24.10-desktop-amd64.iso |
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso |
-| maboxlinux | latest |  | https://versaweb.dl.sourceforge.net/project/mabox-linux/25.06/linux61/mabox-linux-25.06-Istredd-250625-linux61.iso |
+| maboxlinux | latest |  | https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.06/linux61/mabox-linux-25.06-Istredd-250625-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -445,12 +445,6 @@
 | parrotsec | 6.1 | home | https://download.parrot.sh/parrot/iso/6.1/Parrot-home-6.1_amd64.iso |
 | parrotsec | 6.1 | htb | https://download.parrot.sh/parrot/iso/6.1/Parrot-htb-6.1_amd64.iso |
 | parrotsec | 6.1 | security | https://download.parrot.sh/parrot/iso/6.1/Parrot-security-6.1_amd64.iso |
-| pbpuppy | 250402 | BookwormPup64-ghtest | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250402.iso |
-| pbpuppy | 250402 | S15Pup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250402.iso |
-| pbpuppy | 250402 | VoidPup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250402.iso |
-| pbpuppy | 250404 | BookwormPup64-ghtest | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250404.iso |
-| pbpuppy | 250404 | S15Pup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250404.iso |
-| pbpuppy | 250404 | VoidPup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250404.iso |
 | pbpuppy | 250501 | BookwormPup64-ghtest | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250501.iso |
 | pbpuppy | 250501 | S15Pup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250501.iso |
 | pbpuppy | 250501 | VoidPup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250501.iso |
@@ -460,6 +454,9 @@
 | pbpuppy | 250601 | BookwormPup64-ghtest | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250601.iso |
 | pbpuppy | 250601 | S15Pup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250601.iso |
 | pbpuppy | 250601 | VoidPup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250601.iso |
+| pbpuppy | 250701 | BookwormPup64-ghtest | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250701.iso |
+| pbpuppy | 250701 | S15Pup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250701.iso |
+| pbpuppy | 250701 | VoidPup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250701.iso |
 | pclinuxos | 2024.10 | kde | https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2024.10.iso |
 | pclinuxos | 2024.10 | kde-darkstar | https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-darkstar-2024.10.iso |
 | pclinuxos | 2024.10 | mate | https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-mate-2024-10.iso |
@@ -488,7 +485,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://phoenixnap.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/ |
