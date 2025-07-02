@@ -7,7 +7,7 @@ HOMEPAGE="https://www.deepin.org"
 CREDENTIALS="-"
 
 
-RELEASES="25-beta 25-alpha 25 23.1 23 20.9"
+RELEASES="25.0.1 25-beta 25-alpha 25 23.1 23 20.9"
 
 
 function get_() {

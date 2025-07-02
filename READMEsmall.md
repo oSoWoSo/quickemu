@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://psychz.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso) |
+| archcraft | latest |  | [url](https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2025.07.01/archlinux-2025.07.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
@@ -165,6 +165,7 @@
 | debian | 10.13.0 | mate | [url](https://cdimage.debian.org/cdimage/archive/10.13.0-live/amd64/iso-hybrid/debian-live-10.13.0-amd64-mate.iso) |
 | debian | 10.13.0 | xfce | [url](https://cdimage.debian.org/cdimage/archive/10.13.0-live/amd64/iso-hybrid/debian-live-10.13.0-amd64-xfce.iso) |
 | debian | 10.13.0 | netinst | [url](https://cdimage.debian.org/cdimage/archive/10.13.0/amd64/iso-cd/debian-10.13.0-amd64-netinst.iso) |
+| deepin | 25.0.1 |  | [url](https://cdimage.deepin.com/releases/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso) |
 | deepin | 25-beta |  | [url](https://cdimage.deepin.com/releases/25-beta/amd64/deepin-desktop-community-25-beta-amd64.iso) |
 | deepin | 25-alpha |  | [url](https://cdimage.deepin.com/releases/25-alpha/amd64/deepin-desktop-community-25-alpha-amd64.iso) |
 | deepin | 25 |  | [url](https://cdimage.deepin.com/releases/25/amd64/deepin-desktop-community-25-amd64.iso) |
@@ -209,9 +210,9 @@
 | edubuntu | 24.10 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/24.10/release/edubuntu-24.10-desktop-amd64.iso) |
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1MTQ2MDc0MAo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc1MTQ2MDc0MAo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1MTQ2MDc0MAo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1MTQ4MTMxNgo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc1MTQ4MTMxNgo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1MTQ4MTMxNgo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -437,15 +438,15 @@
 | oraclelinux | 7.9 |  | [url](https://yum.oracle.com/ISOS/OracleLinux/OL7/u9/x86_64/OracleLinux-R7-U9-Server-x86_64-dvd.iso) |
 | oraclelinux | 7.8 |  | [url](https://yum.oracle.com/ISOS/OracleLinux/OL7/u8/x86_64/OracleLinux-R7-U8-Server-x86_64-dvd.iso) |
 | oraclelinux | 7.7 |  | [url](https://yum.oracle.com/ISOS/OracleLinux/OL7/u7/x86_64/OracleLinux-R7-U7-Server-x86_64-dvd.iso) |
-| parrotsec | 6.4 | home | [url](https://download.parrot.sh/parrot/iso/6.4/Parrot-home-6.4_amd64.iso) |
-| parrotsec | 6.4 | htb | [url](https://download.parrot.sh/parrot/iso/6.4/Parrot-htb-6.4_amd64.iso) |
-| parrotsec | 6.4 | security | [url](https://download.parrot.sh/parrot/iso/6.4/Parrot-security-6.4_amd64.iso) |
 | parrotsec | 6.3.2 | home | [url](https://download.parrot.sh/parrot/iso/6.3.2/Parrot-home-6.3.2_amd64.iso) |
 | parrotsec | 6.3.2 | htb | [url](https://download.parrot.sh/parrot/iso/6.3.2/Parrot-htb-6.3.2_amd64.iso) |
 | parrotsec | 6.3.2 | security | [url](https://download.parrot.sh/parrot/iso/6.3.2/Parrot-security-6.3.2_amd64.iso) |
 | parrotsec | 6.2 | home | [url](https://download.parrot.sh/parrot/iso/6.2/Parrot-home-6.2_amd64.iso) |
 | parrotsec | 6.2 | htb | [url](https://download.parrot.sh/parrot/iso/6.2/Parrot-htb-6.2_amd64.iso) |
 | parrotsec | 6.2 | security | [url](https://download.parrot.sh/parrot/iso/6.2/Parrot-security-6.2_amd64.iso) |
+| parrotsec | 6.1 | home | [url](https://download.parrot.sh/parrot/iso/6.1/Parrot-home-6.1_amd64.iso) |
+| parrotsec | 6.1 | htb | [url](https://download.parrot.sh/parrot/iso/6.1/Parrot-htb-6.1_amd64.iso) |
+| parrotsec | 6.1 | security | [url](https://download.parrot.sh/parrot/iso/6.1/Parrot-security-6.1_amd64.iso) |
 | pbpuppy | 250501 | BookwormPup64-ghtest | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250501.iso) |
 | pbpuppy | 250501 | S15Pup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250501.iso) |
 | pbpuppy | 250501 | VoidPup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250501.iso) |
@@ -486,7 +487,7 @@
 | proxmox-ve | 5.4-1 |  | [url](https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso) |
 | pureos | 10.3 | gnome | [url](https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso) |
 | pureos | 10.3 | plasma | [url](https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso) |
-| reactos | latest |  | [url](https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
+| reactos | latest |  | [url](https://phoenixnap.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
 | rebornos | latest |  | **ERROR** |
 | redox-os | livedisk | demo | [url](https://static.redox-os.org/img/x86_64/) |
 | redox-os | livedisk | desktop | [url](https://static.redox-os.org/img/x86_64/) |
