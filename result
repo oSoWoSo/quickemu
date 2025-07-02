@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://netactuate.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
+archcraft latest:                    https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -829,8 +829,6 @@ function get_() {
 
 dietpi
 
-dietpi bios Bookworm:                https://dietpi.com/downloads/images/DietPi_VM-x86_64-Bookworm_Installer.iso
-dietpi bios Trixie:                  https://dietpi.com/downloads/images/DietPi_VM-x86_64-Trixie_Installer.iso
 dietpi uefi Bookworm:                https://dietpi.com/downloads/images/DietPi_VM-UEFI-x86_64-Bookworm_Installer.iso
 dietpi uefi Trixie:                  https://dietpi.com/downloads/images/DietPi_VM-UEFI-x86_64-Trixie_Installer.iso
 
@@ -843,7 +841,7 @@ HOMEPAGE="https://dietpi.com"
 CREDENTIALS="-"
 
 
-RELEASES="uefi bios"
+RELEASES="uefi"
 EDITIONS="Trixie Bookworm"
 
 function get_() {
@@ -1032,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1MTM5NDkzMwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1MTM5NDkzMwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1MTM5NDkzMwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1MTQyMTc4Nwo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1MTQyMTc4Nwo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1MTQyMTc4Nwo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1930,7 +1928,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.06/linux61/mabox-linux-25.06-Istredd-250625-linux61.iso
+maboxlinux latest:                   https://netactuate.dl.sourceforge.net/project/mabox-linux/25.06/linux61/mabox-linux-25.06-Istredd-250625-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2104,12 +2102,12 @@ function specific_tweaks() {
 
 manjaro
 
-manjaro xfce full:                   https://download.manjaro.org/xfce/25.0.3/manjaro-xfce-25.0.3-250526-linux612.iso
-manjaro xfce minimal:                https://download.manjaro.org/xfce/25.0.3/manjaro-xfce-25.0.3-minimal-250526-linux612.iso
-manjaro gnome full:                  https://download.manjaro.org/gnome/25.0.3/manjaro-gnome-25.0.3-250526-linux612.iso
-manjaro gnome minimal:               https://download.manjaro.org/gnome/25.0.3/manjaro-gnome-25.0.3-minimal-250526-linux612.iso
-manjaro plasma full:                 https://download.manjaro.org/kde/25.0.3/manjaro-kde-25.0.3-250526-linux612.iso
-manjaro plasma minimal:              https://download.manjaro.org/kde/25.0.3/manjaro-kde-25.0.3-minimal-250526-linux612.iso
+manjaro xfce full:                   https://download.manjaro.org/xfce/25.0.4/manjaro-xfce-25.0.4-250623-linux612.iso
+manjaro xfce minimal:                https://download.manjaro.org/xfce/25.0.4/manjaro-xfce-25.0.4-minimal-250623-linux612.iso
+manjaro gnome full:                  https://download.manjaro.org/gnome/25.0.4/manjaro-gnome-25.0.4-250623-linux612.iso
+manjaro gnome minimal:               https://download.manjaro.org/gnome/25.0.4/manjaro-gnome-25.0.4-minimal-250623-linux612.iso
+manjaro plasma full:                 https://download.manjaro.org/kde/25.0.4/manjaro-kde-25.0.4-250623-linux612.iso
+manjaro plasma minimal:              https://download.manjaro.org/kde/25.0.4/manjaro-kde-25.0.4-minimal-250623-linux612.iso
 manjaro cinnamon full:               https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-250609-linux612.iso
 manjaro cinnamon minimal:            https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-minimal-250609-linux612.iso
 manjaro i3 full:                     https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-250609-linux612.iso
@@ -2882,7 +2880,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://cytranet-dal.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
