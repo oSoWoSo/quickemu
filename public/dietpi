@@ -7,7 +7,7 @@ HOMEPAGE="https://dietpi.com"
 CREDENTIALS="-"
 
 
-RELEASES="uefi"
+RELEASES="uefi bios"
 EDITIONS="Trixie Bookworm"
 
 function get_() {
