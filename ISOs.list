@@ -72,6 +72,7 @@ debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debia
 deepin          http://ftp.snt.utwente.nl/pub/os/linux/deepin-cd/25-alpha/amd64/deepin-desktop-community-25-alpha-amd64.iso
 deepin          https://cdimage.deepin.com/releases/25.0.1/amd64/deepin-desktop-community-25.0.1-amd64.iso
 deepin          https://downloads.sourceforge.net/deepin/deepin-desktop-community-25-amd64.iso
+deepin          https://downloads.sourceforge.net/deepin/deepin-desktop-community-25.0.1-amd64.iso
 deepin          https://ftp.gwdg.de/pub/linux/linuxdeepin/releases/23.1/amd64/deepin-desktop-community-23.1-amd64.iso
 dragonflybsd    https://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.1_REL.iso
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R1.iso
@@ -113,6 +114,7 @@ funos           https://downloads.sourceforge.net/funos/funos-25.04-stable.20250
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-dr460nized-linux-zen-250308.iso
 gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20250629T163708Z/livegui-amd64-20250629T163708Z.iso
 gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix25_6_Beta18-xfce-420.iso
+gnuinos         https://www.gnuinos.org/mirror/daedalus/installer-iso/gnuinos-daedalus_2025.07.02_amd64_desktop.iso
 gobo            https://gobolinux.neonsys.org/017.01-ISO/GoboLinux-017.01-x86_64.iso
 grml            https://download.grml.org/grml-full-2025.05-amd64.iso
 gxde            https://repo.gxde.top/ISO/25.1/amd64/GXDE-OS_25.1_amd64.iso
@@ -229,6 +231,7 @@ truenas         https://download.sys.truenas.net/TrueNAS-Fangtooth/25.04.0/TrueN
 truenas         https://download.sys.truenas.net/TrueNAS-SCALE-Fangtooth-RC/25.04-RC.1/TrueNAS-SCALE-25.04-RC.1.iso
 tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202504150920.iso
 tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202506201700.iso
+tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202507021446.iso
 ubuntu          https://cdimage.ubuntu.com/releases/25.10/snapshot-2/ubuntu-25.10-snapshot2-desktop-amd64.iso
 ubuntu          https://releases.ubuntu.com/25.04/ubuntu-25.04-beta-desktop-amd64.iso
 ubuntu          https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
