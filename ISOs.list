@@ -49,6 +49,7 @@ cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-l
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250422.iso
 calculate       https://mirror.calculate-linux.org/release/20250409/cld-20250409-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/20250616/cld-20250616-x86_64.iso
+calculate       https://mirror.calculate-linux.org/release/20250703/cld-20250703-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250313-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250318-x86_64.iso
 centos          https://ftp.udx.icscoe.jp/Linux/CentOS-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250303.3-x86_64-dvd1.iso
@@ -79,6 +80,7 @@ dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R2.iso
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R3.iso
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R4.iso
+dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R5.iso
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.04-amd64.iso
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.05-amd64.iso
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.07-amd64.iso
@@ -133,6 +135,7 @@ kdeneon         https://files.kde.org/neon/images/user/20250501-1319/neon-user-2
 kdeneon         https://files.kde.org/neon/images/user/20250508-1319/neon-user-20250508-1319.iso
 kdeneon         https://files.kde.org/neon/images/user/20250612-1319/neon-user-20250612-1319.iso
 kdeneon         https://files.kde.org/neon/images/user/20250619-1319/neon-user-20250619-1319.iso
+kdeneon         https://files.kde.org/neon/images/user/20250703-1319/neon-user-20250703-1319.iso
 kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.04/beta/kubuntu-25.04-beta-desktop-amd64.iso
 kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.10/snapshot-2/kubuntu-25.10-snapshot2-desktop-amd64.iso
 kubuntu         https://cdimages.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso
