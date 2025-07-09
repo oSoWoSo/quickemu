@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
+archcraft latest:                    https://netactuate.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1033,9 +1033,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1MjA0MzEwMAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1MjA0MzEwMAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1MjA0MzEwMAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1MjA2NTU4Mgo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1MjA2NTU4Mgo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1MjA2NTU4Mgo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -2884,7 +2884,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3889,7 +3889,7 @@ ubuntu 22.04:                        https://releases.ubuntu.com/22.04/ubuntu-22
 ubuntu 24.04:                        https://releases.ubuntu.com/24.04/ubuntu-24.04.2-desktop-amd64.iso
 ubuntu 24.10:                        https://releases.ubuntu.com/24.10/ubuntu-24.10-desktop-amd64.iso
 ubuntu 25.04:                        https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
-Ubuntu daily-live is currently unavailable. Please select other OS/Release combination
+ubuntu daily-live:                   https://cdimage.ubuntu.com/ubuntu/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'ubuntu'
 OSNAME="ubuntu"
@@ -4033,17 +4033,17 @@ function get_() {
 
 vanillaos
 
-vanillaos 22.10-r8:                  
-vanillaos 22.10-r7.5:                
-vanillaos 22.10-r7:                  
-vanillaos 22.10-r6:                  
-vanillaos 22.10-r5:                  
-vanillaos 22.10-r4:                  
-vanillaos 22.10-r3:                  
-vanillaos 22.10-r2:                  
-vanillaos 22.10-r1:                  
-vanillaos 22.10:                     
-vanillaos 2.0:                       
+vanillaos 22.10-r8:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso
+vanillaos 22.10-r7.5:                https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso
+vanillaos 22.10-r7:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso
+vanillaos 22.10-r6:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r6/VanillaOS-22.10-all.20230123.iso
+vanillaos 22.10-r5:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r5/VanillaOS-22.10-all.20230116.iso
+vanillaos 22.10-r4:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r4/VanillaOS-22.10-all.20230115.iso
+vanillaos 22.10-r3:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r3/VanillaOS-22.10-all.20230105.iso
+vanillaos 22.10-r2:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r2/VanillaOS-22.10-all.20221231.iso
+vanillaos 22.10-r1:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r1/VanillaOS-22.10-all.20221230.iso
+vanillaos 22.10:                     https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso
+vanillaos 2.0:                       https://github.com/Vanilla-OS/live-iso/releases/download/2.0/VanillaOS-2-stable.20250220.iso
 
 # Template file for 'vanillaos'
 OSNAME="vanillaos"
