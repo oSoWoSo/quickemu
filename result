@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://netactuate.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
+archcraft latest:                    https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.04/archcraft-2025.04.24-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1032,9 +1032,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1MjE1MjAxMAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1MjE1MjAxMAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1MjE1MjAxMAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1MjE3MjU1NQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1MjE3MjU1NQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1MjE3MjU1NQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1860,7 +1860,7 @@ lubuntu 20.04:                       https://cdimage.ubuntu.com/lubuntu/releases
 lubuntu 22.04:                       https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04.5-desktop-amd64.iso
 lubuntu 24.04:                       https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.2-desktop-amd64.iso
 lubuntu 25.04:                       https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso
-lubuntu daily-live:                  https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso
+Lubuntu daily-live is currently unavailable. Please select other OS/Release combination
 
 # Template file for 'lubuntu'
 OSNAME="lubuntu"
@@ -1929,7 +1929,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://versaweb.dl.sourceforge.net/project/mabox-linux/25.06/linux61/mabox-linux-25.06-Istredd-250625-linux61.iso
+maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.06/linux61/mabox-linux-25.06-Istredd-250625-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -3736,7 +3736,7 @@ function get_() {
 ubuntu-server
 
 ubuntu-server daily-live:            https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-amd64.iso
-ubuntu-server 24.10:                 https://releases.ubuntu.com/24.10/ubuntu-24.10-live-server-amd64.iso
+ubuntu-server 24.10:                 https://old-releases.ubuntu.com/releases/24.10/ubuntu-24.10-live-server-amd64.iso
 ubuntu-server 24.04:                 https://releases.ubuntu.com/24.04/ubuntu-24.04.2-live-server-amd64.iso
 ubuntu-server 22.04:                 https://releases.ubuntu.com/22.04/ubuntu-22.04.5-live-server-amd64.iso
 ubuntu-server 20.04:                 https://releases.ubuntu.com/20.04/ubuntu-20.04.6-live-server-amd64.iso
@@ -3950,12 +3950,12 @@ function get_() {
 
 ubuntustudio
 
-ubuntustudio 16.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/ubuntustudio-16.04.5-dvd-amd64.iso
-ubuntustudio 18.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-amd64.iso
-ubuntustudio 20.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/20.04/release/ubuntustudio-20.04.5-dvd-amd64.iso
-ubuntustudio 22.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04.5-dvd-amd64.iso
-ubuntustudio 24.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/release/ubuntustudio-24.04.2-dvd-amd64.iso
-ubuntustudio 25.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/25.04/release/ubuntustudio-25.04-desktop-amd64.iso
+UbuntuStudio 16.04 is currently unavailable. Please select other OS/Release combination
+UbuntuStudio 18.04 is currently unavailable. Please select other OS/Release combination
+UbuntuStudio 20.04 is currently unavailable. Please select other OS/Release combination
+UbuntuStudio 22.04 is currently unavailable. Please select other OS/Release combination
+UbuntuStudio 24.04 is currently unavailable. Please select other OS/Release combination
+UbuntuStudio 25.04 is currently unavailable. Please select other OS/Release combination
 UbuntuStudio dvd is currently unavailable. Please select other OS/Release combination
 
 # Template file for 'ubuntustudio'
@@ -4236,13 +4236,13 @@ RELEASES=""
 
 xubuntu
 
-xubuntu 16.04:                       https://cdimage.ubuntu.com/xubuntu/releases/16.04/release/xubuntu-16.04.6-desktop-amd64.iso
-xubuntu 18.04:                       https://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.5-desktop-amd64.iso
-xubuntu 20.04:                       https://cdimage.ubuntu.com/xubuntu/releases/20.04/release/xubuntu-20.04.6-desktop-amd64.iso
-xubuntu 22.04:                       https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.5-desktop-amd64.iso
-xubuntu 24.04:                       https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.2-desktop-amd64.iso
-xubuntu 25.04:                       https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso
-xubuntu daily-live:                  https://cdimage.ubuntu.com/xubuntu/daily-live/current/questing-desktop-amd64.iso
+Xubuntu 16.04 is currently unavailable. Please select other OS/Release combination
+Xubuntu 18.04 is currently unavailable. Please select other OS/Release combination
+Xubuntu 20.04 is currently unavailable. Please select other OS/Release combination
+Xubuntu 22.04 is currently unavailable. Please select other OS/Release combination
+Xubuntu 24.04 is currently unavailable. Please select other OS/Release combination
+Xubuntu 25.04 is currently unavailable. Please select other OS/Release combination
+Xubuntu daily-live is currently unavailable. Please select other OS/Release combination
 
 # Template file for 'xubuntu'
 OSNAME="xubuntu"
