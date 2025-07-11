@@ -10,5 +10,3 @@
 | UbuntuStudio | dvd | is | **ERROR** |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
-| Xubuntu | 22.04 | is | **ERROR** |
-| Xubuntu | 24.04 | is | **ERROR** |
