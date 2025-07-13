@@ -7,7 +7,7 @@ HOMEPAGE="https://www.biglinux.com.br"
 CREDENTIALS="-"
 
 
-RELEASES="2025-06-27"
+RELEASES="2025-07-13"
 EDITIONS="k66 k615 k612"
 
 function get_() {
