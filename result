@@ -3,7 +3,7 @@ agarimos
 agarimos latest plasma:              https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.16_1-20250228.iso
 agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.37_1-20250715.iso
 agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.37_1-20250713.iso
-agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.35_1-20250708.iso
+agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/void-live-x86_64-6.12.37_1-20250718.iso
 agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-Live-x86_64-6.12.36_1-20250711.iso
 
 # Template file for 'agarimos'
@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://versaweb.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
+archcraft latest:                    https://psychz.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1032,9 +1032,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1MjgyMDcwNQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1MjgyMDcwNQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1MjgyMDcwNQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1Mjg0MzM4NAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1Mjg0MzM4NAo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1Mjg0MzM4NAo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1929,7 +1929,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://netactuate.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250717-linux61.iso
+maboxlinux latest:                   https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250717-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -3586,6 +3586,7 @@ ubuntu-budgie 18.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/re
 ubuntu-budgie 20.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/20.04/release/ubuntu-budgie-20.04.6-desktop-amd64.iso
 ubuntu-budgie 22.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04.5-desktop-amd64.iso
 ubuntu-budgie 24.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.2-desktop-amd64.iso
+Ubuntu Budgie 24.10 is currently unavailable. Please select other OS/Release combination
 ubuntu-budgie 25.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.04/release/ubuntu-budgie-25.04-desktop-amd64.iso
 ubuntu-budgie daily-live:            https://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/questing-desktop-amd64.iso
 
@@ -3805,6 +3806,7 @@ function specific_tweaks() {
 ubuntu-unity
 
 ubuntu-unity 24.04:                  https://cdimage.ubuntu.com/ubuntu-unity/releases/24.04/release/ubuntu-unity-24.04.2-desktop-amd64.iso
+Ubuntu Unity 24.10 is currently unavailable. Please select other OS/Release combination
 ubuntu-unity 25.04:                  https://cdimage.ubuntu.com/ubuntu-unity/releases/25.04/release/ubuntu-unity-25.04-desktop-amd64.iso
 ubuntu-unity daily-live:             https://cdimage.ubuntu.com/ubuntu-unity/daily-live/current/questing-desktop-amd64.iso
 
@@ -4024,46 +4026,6 @@ function get_() {
 
 
 vanillaos
-
-vanillaos 22.10-r8:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso
-vanillaos 22.10-r7.5:                https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso
-vanillaos 22.10-r7:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso
-vanillaos 22.10-r6:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r6/VanillaOS-22.10-all.20230123.iso
-vanillaos 22.10-r5:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r5/VanillaOS-22.10-all.20230116.iso
-vanillaos 22.10-r4:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r4/VanillaOS-22.10-all.20230115.iso
-vanillaos 22.10-r3:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r3/VanillaOS-22.10-all.20230105.iso
-vanillaos 22.10-r2:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r2/VanillaOS-22.10-all.20221231.iso
-vanillaos 22.10-r1:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r1/VanillaOS-22.10-all.20221230.iso
-vanillaos 22.10:                     https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso
-vanillaos 2.0:                       https://github.com/Vanilla-OS/live-iso/releases/download/2.0/VanillaOS-2-stable.20250220.iso
-
-# Template file for 'vanillaos'
-OSNAME="vanillaos"
-PRETTY="Vanilla OS"
-BASEDOF="Ubuntu"
-DESCRIPTION="Designed to be a reliable and productive operating system for your daily work"
-HOMEPAGE="https://vanillaos.org"
-CREDENTIALS="-"
-
-
-RELEASES="22.10-r8 22.10-r7.5 22.10-r7 22.10-r6 22.10-r5 22.10-r4 22.10-r3 22.10-r2 22.10-r1 22.10 2.0"
-
-
-function get_() {
-    local HASH=""
-    local HASH_URL=""
-    local ISO=""
-    ISO=$(web_pipe "https://api.github.com/repos/Vanilla-OS/live-iso/releases" | grep 'download_url' | grep "${RELEASE}" | head -n 1 | cut -d'"' -f4)
-    HASH_URL="${ISO//.iso/.sha256.txt}"
-    HASH=$(web_pipe "${HASH_URL}" | cut -d' ' -f1)
-    echo "${ISO} ${HASH}"
-}
-
-function specific_tweaks() {
-    ## Minimum is 50G for abroot, but a 64GB is allocated to give some headroom
-    echo "disk_size=\"64G\"" >> "${CONF_FILE}"
-}
-
 
 ventoy
 
