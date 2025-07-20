@@ -7,7 +7,7 @@ HOMEPAGE="https://www.pclinuxos.com"
 CREDENTIALS="-"
 
 
-RELEASES="2024.10"
+RELEASES="2025.07"
 EDITIONS="xfce mate kde-darkstar kde"
 
 function get_() {
