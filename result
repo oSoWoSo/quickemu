@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://gigenet.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
+archcraft latest:                    https://psychz.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -330,6 +330,34 @@ function get_() {
 
 
 athenaos
+
+athenaos v23.06.23:                  https://github.com/Athena-OS/athena/releases/download/v23.06.23/athena-rolling-x86_64.iso
+athenaos v23.11:                     https://github.com/Athena-OS/athena/releases/download/v23.11/athena-rolling-x86_64.iso
+
+# Template file for 'athenaos'
+OSNAME="athenaos"
+PRETTY="Athena OS"
+BASEDOF="Arch"
+DESCRIPTION="Offer a different experience than the most used pentesting distributions by providing only tools that fit with the user needs and improving the access to hacking resources and learning materials"
+HOMEPAGE="https://athenaos.org"
+CREDENTIALS="-"
+
+
+RELEASES="v23.11 v23.06.23"
+
+
+function get_() {
+    local HASH=""
+    local URL="https://github.com/Athena-OS/athena/releases/download/${RELEASE}"
+    local ISO="athena-rolling-x86_64.iso"
+    HASH=$(web_pipe "${URL}/${ISO}.sha256" | cut -d' ' -f1)
+    echo "${URL}/${ISO} ${HASH}"
+}
+
+function specific_tweaks() {
+    echo "disk_size=\"32G\"" >> "${CONF_FILE}"
+}
+
 
 batocera
 
@@ -637,31 +665,6 @@ function get_() {
 
 
 crunchbang++
-
-crunchbang++ 12.0:                   https://github.com/CBPP/cbpp/releases/download/v12.0/cbpp-12.0-amd64-20230611.iso
-crunchbang++ 11.2:                   https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-amd64-20230514.iso
-crunchbang++ 10.1:                   https://github.com/CBPP/cbpp/releases/download/v10/cbpp-10.1-amd64-20190713.iso
-crunchbang++ 9.0:                    https://github.com/CBPP/cbpp/releases/download/v9/cbpp-9.0-amd64-20170621.iso
-
-# Template file for 'crunchbang++'
-OSNAME="crunchbang++"
-PRETTY="Crunchbangplusplus"
-BASEDOF="Debian"
-DESCRIPTION="The classic minimal crunchbang feel, now with debian 12 bookworm"
-HOMEPAGE="https://www.crunchbangplusplus.org"
-CREDENTIALS="-"
-
-
-RELEASES="9.0 12.0 11.2 10.1"
-
-
-function get_() {
-    local HASH=""
-    local ISO=""
-    ISO=$(web_pipe "https://api.github.com/repos/CBPP/cbpp/releases" | grep 'download_url' | grep amd64 | grep "${RELEASE}" | cut -d'"' -f4)
-    echo "${ISO} ${HASH}"
-}
-
 
 debian
 
@@ -1004,9 +1007,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1MzEwMjU4Ngo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1MzEwMjU4Ngo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1MzEwMjU4Ngo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1MzEyMzE2Mgo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1MzEyMzE2Mgo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1MzEyMzE2Mgo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1901,7 +1904,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://netactuate.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250717-linux61.iso
+maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250717-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
