@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso |
 | antix | 21 | base-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso |
 | antix | 21 | full-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso |
-| archcraft | latest |  | https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso |
+| archcraft | latest |  | https://gigenet.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso |
 | archlinux | latest |  | https://mirror.rackspace.com/archlinux/iso/2025.07.01/archlinux-2025.07.01-x86_64.iso |
 | artixlinux | 20250407 | base-dinit | https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-openrc | https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso |
@@ -208,9 +208,9 @@
 | edubuntu | 24.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.2-desktop-amd64.iso |
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1MzAzNjQ1Nwo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1MzAzNjQ1Nwo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1MzAzNjQ1Nwo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1MzA2NDUyNAo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1MzA2NDUyNAo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1MzA2NDUyNAo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -245,7 +245,7 @@
 | garuda | latest | mokka | https://iso.builds.garudalinux.org/iso/latest/garuda/mokka/latest.iso |
 | garuda | latest | sway | https://iso.builds.garudalinux.org/iso/latest/garuda/sway/latest.iso |
 | garuda | latest | xfce | https://iso.builds.garudalinux.org/iso/latest/garuda/xfce/latest.iso |
-| gentoo | latest | minimal | https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/20250713T165350Z/install-amd64-minimal-20250713T165350Z.iso |
+| gentoo | latest | minimal | https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/20250720T165240Z/install-amd64-minimal-20250720T165240Z.iso |
 | gentoo | latest | livegui | https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/20250713T165350Z/livegui-amd64-20250713T165350Z.iso |
 | ghostbsd | 25.01-R14.2p1 | mate | https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1.iso |
 | ghostbsd | 25.01-R14.2p1 | xfce | https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso |
@@ -299,7 +299,7 @@
 | kdeneon | user |  | https://files.kde.org/neon/images/user/current/neon-user-20250720-0745.iso |
 | kdeneon | testing |  | https://files.kde.org/neon/images/testing/current/neon-testing-20250715-0431.iso |
 | kdeneon | unstable |  | https://files.kde.org/neon/images/unstable/current/neon-unstable-20250720-1148.iso |
-| kdeneon | developer |  | https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250630-0037.iso |
+| kdeneon | developer |  | https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250721-0038.iso |
 | kodachi | latest |  | https://sourceforge.net/projects/linuxkodachi/files/kodachi-8.27-64-kernel-6.2.iso |
 | kolibrios | latest | en_US | http://builds.kolibrios.org/en_US/latest-iso.7z |
 | kolibrios | latest | ru_RU | http://builds.kolibrios.org/ru_RU/latest-iso.7z |
@@ -351,7 +351,7 @@
 | lubuntu | 24.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.2-desktop-amd64.iso |
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso |
-| maboxlinux | latest |  | https://gigenet.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250717-linux61.iso |
+| maboxlinux | latest |  | https://versaweb.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250717-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -483,7 +483,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://cytranet-dal.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/ |
@@ -632,17 +632,6 @@
 | ubuntustudio | 22.04 |  | https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04.5-dvd-amd64.iso |
 | ubuntustudio | 24.04 |  | https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/release/ubuntustudio-24.04.2-dvd-amd64.iso |
 | ubuntustudio | 25.04 |  | https://cdimage.ubuntu.com/ubuntustudio/releases/25.04/release/ubuntustudio-25.04-desktop-amd64.iso |
-| vanillaos | 22.10-r8 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso |
-| vanillaos | 22.10-r7.5 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso |
-| vanillaos | 22.10-r7 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso |
-| vanillaos | 22.10-r6 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r6/VanillaOS-22.10-all.20230123.iso |
-| vanillaos | 22.10-r5 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r5/VanillaOS-22.10-all.20230116.iso |
-| vanillaos | 22.10-r4 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r4/VanillaOS-22.10-all.20230115.iso |
-| vanillaos | 22.10-r3 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r3/VanillaOS-22.10-all.20230105.iso |
-| vanillaos | 22.10-r2 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r2/VanillaOS-22.10-all.20221231.iso |
-| vanillaos | 22.10-r1 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r1/VanillaOS-22.10-all.20221230.iso |
-| vanillaos | 22.10 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso |
-| vanillaos | 2.0 |  | https://github.com/Vanilla-OS/live-iso/releases/download/2.0/VanillaOS-2-stable.20250220.iso |
 | ventoy | 1.1.05 |  | https://github.com/ventoy/Ventoy/releases/download/v1.1.05/ventoy-1.1.05-livecd.iso |
 | ventoy | 1.1.04 |  | https://github.com/ventoy/Ventoy/releases/download/v1.1.04/ventoy-1.1.04-livecd.iso |
 | ventoy | 1.1.02 |  | https://github.com/ventoy/Ventoy/releases/download/v1.1.02/ventoy-1.1.02-livecd.iso |
