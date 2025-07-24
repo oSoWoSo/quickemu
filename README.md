@@ -2,8 +2,8 @@
 <!-- TABLE -->
 | OS|RELEASE|EDITION|ISO |
 |---|---|---|---|
-| agarimos | latest | plasma | https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.16_1-20250228.iso |
-| agarimos | latest | xfce4 | https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.37_1-20250715.iso |
+| agarimos | latest | plasma | https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.37_1-20250724.iso |
+| agarimos | latest | xfce4 | https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.37_1-20250724.iso |
 | agarimos | latest | cinnamon | https://sourceforge.net/projects/agarimos/files/CINNAMON/ |
 | agarimos | latest | lxqt-kwin | https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.37_1-20250718.iso |
 | agarimos | latest | gnome | https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-Live-x86_64-6.12.37_1-20250718.iso |
@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso |
 | antix | 21 | base-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso |
 | antix | 21 | full-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso |
-| archcraft | latest |  | https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso |
+| archcraft | latest |  | https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso |
 | archlinux | latest |  | https://mirror.rackspace.com/archlinux/iso/2025.07.01/archlinux-2025.07.01-x86_64.iso |
 | artixlinux | 20250407 | base-dinit | https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-openrc | https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso |
@@ -133,6 +133,10 @@
 | cereus | latest | musl-xfce | https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso |
 | chimeralinux | latest | base | https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-base.iso |
 | chimeralinux | latest | gnome | https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso |
+| crunchbang++ | 12.0 |  | https://github.com/CBPP/cbpp/releases/download/v12.0/cbpp-12.0-amd64-20230611.iso |
+| crunchbang++ | 11.2 |  | https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-amd64-20230514.iso |
+| crunchbang++ | 10.1 |  | https://github.com/CBPP/cbpp/releases/download/v10/cbpp-10.1-amd64-20190713.iso |
+| crunchbang++ | 9.0 |  | https://github.com/CBPP/cbpp/releases/download/v9/cbpp-9.0-amd64-20170621.iso |
 | debian | 12.11.0 | standard | https://cdimage.debian.org/debian-cd/12.11.0-live/amd64/iso-hybrid/debian-live-12.11.0-amd64-standard.iso |
 | debian | 12.11.0 | cinnamon | https://cdimage.debian.org/debian-cd/12.11.0-live/amd64/iso-hybrid/debian-live-12.11.0-amd64-cinnamon.iso |
 | debian | 12.11.0 | gnome | https://cdimage.debian.org/debian-cd/12.11.0-live/amd64/iso-hybrid/debian-live-12.11.0-amd64-gnome.iso |
@@ -204,9 +208,9 @@
 | edubuntu | 24.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.2-desktop-amd64.iso |
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1MzMzOTE3Ngo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1MzMzOTE3Ngo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1MzMzOTE3Ngo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1MzM2MTc0NAo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1MzM2MTc0NAo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1MzM2MTc0NAo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -479,7 +483,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://phoenixnap.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://cytranet-dal.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/ |
@@ -628,6 +632,17 @@
 | ubuntustudio | 22.04 |  | https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04.5-dvd-amd64.iso |
 | ubuntustudio | 24.04 |  | https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/release/ubuntustudio-24.04.2-dvd-amd64.iso |
 | ubuntustudio | 25.04 |  | https://cdimage.ubuntu.com/ubuntustudio/releases/25.04/release/ubuntustudio-25.04-desktop-amd64.iso |
+| vanillaos | 22.10-r8 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso |
+| vanillaos | 22.10-r7.5 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso |
+| vanillaos | 22.10-r7 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso |
+| vanillaos | 22.10-r6 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r6/VanillaOS-22.10-all.20230123.iso |
+| vanillaos | 22.10-r5 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r5/VanillaOS-22.10-all.20230116.iso |
+| vanillaos | 22.10-r4 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r4/VanillaOS-22.10-all.20230115.iso |
+| vanillaos | 22.10-r3 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r3/VanillaOS-22.10-all.20230105.iso |
+| vanillaos | 22.10-r2 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r2/VanillaOS-22.10-all.20221231.iso |
+| vanillaos | 22.10-r1 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r1/VanillaOS-22.10-all.20221230.iso |
+| vanillaos | 22.10 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso |
+| vanillaos | 2.0 |  | https://github.com/Vanilla-OS/live-iso/releases/download/2.0/VanillaOS-2-stable.20250220.iso |
 | ventoy | 1.1.05 |  | https://github.com/ventoy/Ventoy/releases/download/v1.1.05/ventoy-1.1.05-livecd.iso |
 | ventoy | 1.1.04 |  | https://github.com/ventoy/Ventoy/releases/download/v1.1.04/ventoy-1.1.04-livecd.iso |
 | ventoy | 1.1.02 |  | https://github.com/ventoy/Ventoy/releases/download/v1.1.02/ventoy-1.1.02-livecd.iso |
