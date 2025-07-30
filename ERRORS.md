@@ -5,6 +5,7 @@
 |  |  |  | **ERROR** |
 | rebornos | latest |  | **ERROR** |
 | truenas-core | 13 |  | **ERROR** |
+| truenas-scale | 24 |  | **ERROR** |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
 | UbuntuStudio | dvd | is | **ERROR** |
