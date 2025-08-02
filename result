@@ -1032,9 +1032,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NDExNjU3NAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NDExNjU3NAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NDExNjU3NAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NDEzOTA4OAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NDEzOTA4OAo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NDEzOTA4OAo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1929,7 +1929,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://versaweb.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250731-linux61.iso
+maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250731-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2103,12 +2103,12 @@ function specific_tweaks() {
 
 manjaro
 
-manjaro xfce full:                   https://download.manjaro.org/xfce/25.0.5/manjaro-xfce-25.0.5-250713-linux612.iso
-manjaro xfce minimal:                https://download.manjaro.org/xfce/25.0.5/manjaro-xfce-25.0.5-minimal-250713-linux612.iso
-manjaro gnome full:                  https://download.manjaro.org/gnome/25.0.5/manjaro-gnome-25.0.5-250713-linux612.iso
-manjaro gnome minimal:               https://download.manjaro.org/gnome/25.0.5/manjaro-gnome-25.0.5-minimal-250713-linux612.iso
-manjaro plasma full:                 https://download.manjaro.org/kde/25.0.5/manjaro-kde-25.0.5-250713-linux612.iso
-manjaro plasma minimal:              https://download.manjaro.org/kde/25.0.5/manjaro-kde-25.0.5-minimal-250713-linux612.iso
+manjaro xfce full:                   https://download.manjaro.org/xfce/25.0.6/manjaro-xfce-25.0.6-250730-linux612.iso
+manjaro xfce minimal:                https://download.manjaro.org/xfce/25.0.6/manjaro-xfce-25.0.6-minimal-250730-linux612.iso
+manjaro gnome full:                  https://download.manjaro.org/gnome/25.0.6/manjaro-gnome-25.0.6-250730-linux612.iso
+manjaro gnome minimal:               https://download.manjaro.org/gnome/25.0.6/manjaro-gnome-25.0.6-minimal-250730-linux612.iso
+manjaro plasma full:                 https://download.manjaro.org/kde/25.0.6/manjaro-kde-25.0.6-250730-linux612.iso
+manjaro plasma minimal:              https://download.manjaro.org/kde/25.0.6/manjaro-kde-25.0.6-minimal-250730-linux612.iso
 manjaro cinnamon full:               https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-250609-linux612.iso
 manjaro cinnamon minimal:            https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-minimal-250609-linux612.iso
 manjaro i3 full:                     https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-250609-linux612.iso
@@ -2880,7 +2880,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://cytranet-dal.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
