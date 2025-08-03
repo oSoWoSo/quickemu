@@ -668,8 +668,8 @@ crunchbang++
 
 crunchbang++ 12.0:                   https://github.com/CBPP/cbpp/releases/download/v12.0/cbpp-12.0-amd64-20230611.iso
 crunchbang++ 11.2:                   https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-amd64-20230514.iso
-crunchbang++ 10.1:                   
-crunchbang++ 9.0:                    
+crunchbang++ 10.1:                   https://github.com/CBPP/cbpp/releases/download/v10/cbpp-10.1-amd64-20190713.iso
+crunchbang++ 9.0:                    https://github.com/CBPP/cbpp/releases/download/v9/cbpp-9.0-amd64-20170621.iso
 
 # Template file for 'crunchbang++'
 OSNAME="crunchbang++"
@@ -1032,9 +1032,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NDE4ODEwMAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NDE4ODEwMAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NDE4ODEwMAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NDIwMzAyMgo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NDIwMzAyMgo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NDIwMzAyMgo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1510,7 +1510,7 @@ function specific_tweaks() {
 kali
 
 kali current:                        https://cdimage.kali.org/current/kali-linux-2025.2-installer-amd64.iso
-kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2025-W30-installer-amd64.iso
+kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2025-W31-installer-amd64.iso
 
 # Template file for 'kali'
 OSNAME="kali"
@@ -1929,7 +1929,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250731-linux61.iso
+maboxlinux latest:                   https://versaweb.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250731-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2113,8 +2113,8 @@ manjaro cinnamon full:               https://download.manjaro.org/cinnamon/25.0.
 manjaro cinnamon minimal:            https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-minimal-250609-linux612.iso
 manjaro i3 full:                     https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-250609-linux612.iso
 manjaro i3 minimal:                  https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-minimal-250609-linux612.iso
-manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250727-linux612.iso
-manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250727-linux612.iso
+manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250803-linux612.iso
+manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250803-linux612.iso
 
 # Template file for 'manjaro'
 OSNAME="manjaro"
