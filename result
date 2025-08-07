@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://psychz.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
+archcraft latest:                    https://versaweb.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -961,7 +961,7 @@ function get_() {
 
 edubuntu
 
-edubuntu 24.04:                      https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.2-desktop-amd64.iso
+edubuntu 24.04:                      https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.3-desktop-amd64.iso
 edubuntu 25.04:                      https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso
 edubuntu daily-live:                 https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso
 
@@ -1032,9 +1032,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NDU0ODkwOQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NDU0ODkwOQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NDU0ODkwOQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NDU3MTQ3Mgo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NDU3MTQ3Mgo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NDU3MTQ3Mgo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1652,7 +1652,7 @@ kubuntu 16.04:                       https://cdimage.ubuntu.com/kubuntu/releases
 kubuntu 18.04:                       https://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.5-desktop-amd64.iso
 kubuntu 20.04:                       https://cdimage.ubuntu.com/kubuntu/releases/20.04/release/kubuntu-20.04.6-desktop-amd64.iso
 kubuntu 22.04:                       https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04.5-desktop-amd64.iso
-kubuntu 24.04:                       https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04.2-desktop-amd64.iso
+kubuntu 24.04:                       https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04.3-desktop-amd64.iso
 kubuntu 25.04:                       https://cdimage.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso
 kubuntu daily-live:                  https://cdimage.ubuntu.com/kubuntu/daily-live/current/questing-desktop-amd64.iso
 
@@ -1858,7 +1858,7 @@ lubuntu 16.04:                       https://cdimage.ubuntu.com/lubuntu/releases
 lubuntu 18.04:                       https://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.5-desktop-amd64.iso
 lubuntu 20.04:                       https://cdimage.ubuntu.com/lubuntu/releases/20.04/release/lubuntu-20.04.5-desktop-amd64.iso
 lubuntu 22.04:                       https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04.5-desktop-amd64.iso
-lubuntu 24.04:                       https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.2-desktop-amd64.iso
+lubuntu 24.04:                       https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.3-desktop-amd64.iso
 lubuntu 25.04:                       https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso
 lubuntu daily-live:                  https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso
 
@@ -1929,7 +1929,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://versaweb.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250731-linux61.iso
+maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250731-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2881,7 +2881,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3585,7 +3585,7 @@ ubuntu-budgie
 ubuntu-budgie 18.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.5-desktop-amd64.iso
 ubuntu-budgie 20.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/20.04/release/ubuntu-budgie-20.04.6-desktop-amd64.iso
 ubuntu-budgie 22.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04.5-desktop-amd64.iso
-ubuntu-budgie 24.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.2-desktop-amd64.iso
+ubuntu-budgie 24.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.3-desktop-amd64.iso
 ubuntu-budgie 25.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.04/release/ubuntu-budgie-25.04-desktop-amd64.iso
 ubuntu-budgie daily-live:            https://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/questing-desktop-amd64.iso
 
@@ -3664,7 +3664,7 @@ ubuntu-mate 16.04:                   https://cdimage.ubuntu.com/ubuntu-mate/rele
 ubuntu-mate 18.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-amd64.iso
 ubuntu-mate 20.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.6-desktop-amd64.iso
 ubuntu-mate 22.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.5-desktop-amd64.iso
-ubuntu-mate 24.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.2-desktop-amd64.iso
+ubuntu-mate 24.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.3-desktop-amd64.iso
 ubuntu-mate 25.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso
 ubuntu-mate daily-live:              https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/questing-desktop-amd64.iso
 
@@ -3738,6 +3738,7 @@ ubuntu-server
 ubuntu-server daily-live:            https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-amd64.iso
 ubuntu-server 24.10:                 https://old-releases.ubuntu.com/releases/24.10/ubuntu-24.10-live-server-amd64.iso
 ubuntu-server 24.04:                 https://releases.ubuntu.com/24.04/ubuntu-24.04.2-live-server-amd64.iso
+ubuntu-24.04.3-live-server-amd64.iso
 ubuntu-server 22.04:                 https://releases.ubuntu.com/22.04/ubuntu-22.04.5-live-server-amd64.iso
 ubuntu-server 20.04:                 https://releases.ubuntu.com/20.04/ubuntu-20.04.6-live-server-amd64.iso
 ubuntu-server 18.04:                 https://releases.ubuntu.com/18.04/ubuntu-18.04.6-live-server-amd64.iso
@@ -3954,7 +3955,7 @@ ubuntustudio 16.04:                  https://cdimage.ubuntu.com/ubuntustudio/rel
 ubuntustudio 18.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-amd64.iso
 ubuntustudio 20.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/20.04/release/ubuntustudio-20.04.5-dvd-amd64.iso
 ubuntustudio 22.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04.5-dvd-amd64.iso
-ubuntustudio 24.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/release/ubuntustudio-24.04.2-dvd-amd64.iso
+ubuntustudio 24.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/release/ubuntustudio-24.04.3-dvd-amd64.iso
 ubuntustudio 25.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/25.04/release/ubuntustudio-25.04-desktop-amd64.iso
 UbuntuStudio dvd is currently unavailable. Please select other OS/Release combination
 
@@ -4240,7 +4241,7 @@ xubuntu 16.04:                       https://cdimage.ubuntu.com/xubuntu/releases
 xubuntu 18.04:                       https://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.5-desktop-amd64.iso
 xubuntu 20.04:                       https://cdimage.ubuntu.com/xubuntu/releases/20.04/release/xubuntu-20.04.6-desktop-amd64.iso
 xubuntu 22.04:                       https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.5-desktop-amd64.iso
-xubuntu 24.04:                       https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.2-desktop-amd64.iso
+xubuntu 24.04:                       https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.3-desktop-amd64.iso
 xubuntu 25.04:                       https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso
 xubuntu daily-live:                  https://cdimage.ubuntu.com/xubuntu/daily-live/current/questing-desktop-amd64.iso
 
