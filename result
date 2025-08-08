@@ -1032,9 +1032,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NDU5MjA4MAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NDU5MjA4MAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NDU5MjA4MAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NDYxOTY0Ngo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NDYxOTY0Ngo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NDYxOTY0Ngo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1929,7 +1929,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://versaweb.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250731-linux61.iso
+maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250731-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2714,8 +2714,8 @@ function get_() {
 
 popos
 
-popos 22.04 intel:                   https://iso.pop-os.org/22.04/amd64/intel/55/pop-os_22.04_amd64_intel_55.iso
-popos 22.04 nvidia:                  https://iso.pop-os.org/22.04/amd64/nvidia/55/pop-os_22.04_amd64_nvidia_55.iso
+popos 22.04 intel:                   https://iso.pop-os.org/22.04/amd64/intel/56/pop-os_22.04_amd64_intel_56.iso
+popos 22.04 nvidia:                  https://iso.pop-os.org/22.04/amd64/nvidia/56/pop-os_22.04_amd64_nvidia_56.iso
 popos 20.04 intel:                   https://iso.pop-os.org/20.04/amd64/intel/39/pop-os_20.04_amd64_intel_39.iso
 popos 20.04 nvidia:                  https://iso.pop-os.org/20.04/amd64/nvidia/39/pop-os_20.04_amd64_nvidia_39.iso
 
@@ -2881,7 +2881,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://cytranet-dal.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3521,7 +3521,7 @@ function specific_tweaks() {
 
 truenas-scale
 
-truenas-scale 24:                    https://download.sys.truenas.net/TrueNAS-SCALE-ElectricEel/24.10.2.3/TrueNAS-SCALE-24.10.2.3.iso
+truenas-scale 24:                    https://download.sys.truenas.net/TrueNAS-SCALE-ElectricEel/24.10.2.4/TrueNAS-SCALE-24.10.2.4.iso
 
 # Template file for 'truenas-scale'
 OSNAME="truenas-scale"
