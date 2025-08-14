@@ -69,8 +69,8 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso) |
-| archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux) |
+| archcraft | latest |  | [url](https://cytranet-dal.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso) |
+| archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2025.08.01/archlinux-2025.08.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
 | artixlinux | 20250407 | base-openrc | [url](https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso) |
@@ -209,9 +209,9 @@
 | edubuntu | 24.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.3-desktop-amd64.iso) |
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1NTE1MzUyNQo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc1NTE1MzUyNQo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1NTE1MzUyNQo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1NTE3NjEyOQo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc1NTE3NjEyOQo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1NTE3NjEyOQo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -248,7 +248,12 @@
 | garuda | latest | xfce | [url](https://iso.builds.garudalinux.org/iso/latest/garuda/xfce/latest.iso) |
 | gentoo | latest | minimal | [url](https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/20250803T163732Z/install-amd64-minimal-20250803T163732Z.iso) |
 | gentoo | latest | livegui | [url](https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/20250720T165240Z/livegui-amd64-20250720T165240Z.iso) |
-|  |  |  | **ERROR** |
+| ghostbsd | 25.01-R14.2p1 | mate | [url](https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1.iso) |
+| ghostbsd | 25.01-R14.2p1 | xfce | [url](https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso) |
+| ghostbsd | 24.10.1 | mate | [url](https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1.iso) |
+| ghostbsd | 24.10.1 | xfce | [url](https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso) |
+| ghostbsd | 24.07.3 | mate | [url](https://download.ghostbsd.org/releases/amd64/24.07.3/GhostBSD-24.07.3.iso) |
+| ghostbsd | 24.07.3 | xfce | [url](https://download.ghostbsd.org/releases/amd64/24.07.3/GhostBSD-24.07.3-XFCE.iso) |
 | gnomeos | nightly |  | [url](https://1270333429.rsc.cdn77.org/nightly/887659/live_887659-x86_64.iso) |
 | gnomeos | 49.alpha.1 |  | [url](https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso) |
 | gnomeos | 48.rc |  | [url](https://download.gnome.org/gnomeos/48.rc/gnome_os_installer_48.rc.iso) |
@@ -347,7 +352,7 @@
 | lubuntu | 24.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.3-desktop-amd64.iso) |
 | lubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso) |
 | lubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso) |
-| maboxlinux | latest |  | [url](https://psychz.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250731-linux61.iso) |
+| maboxlinux | latest |  | [url](https://gigenet.dl.sourceforge.net/project/mabox-linux/25.08/linux61/mabox-linux-25.08-Istredd-250814-linux61.iso) |
 | macos | mojave |  | [url](http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg) |
 | macos | catalina |  | [url](http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg) |
 | macos | big-sur |  | [url](http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg) |
@@ -477,7 +482,7 @@
 | proxmox-ve | 5.4-1 |  | [url](https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso) |
 | pureos | 10.3 | gnome | [url](https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso) |
 | pureos | 10.3 | plasma | [url](https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso) |
-| reactos | latest |  | [url](https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
+| reactos | latest |  | [url](https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
 | rebornos | latest |  | **ERROR** |
 | redox-os | livedisk | demo | [url](https://static.redox-os.org/img/x86_64/) |
 | redox-os | livedisk | desktop | [url](https://static.redox-os.org/img/x86_64/) |
@@ -554,12 +559,12 @@
 | solus | 2025-01-26 | GNOME | [url](https://downloads.getsol.us/isos/2025-01-26/Solus-GNOME-Release-2025-01-26.iso) |
 | solus | 2025-01-26 | Plasma | [url](https://downloads.getsol.us/isos/2025-01-26/Solus-Plasma-Release-2025-01-26.iso) |
 | solus | 2025-01-26 | XFCE-Beta | [url](https://downloads.getsol.us/isos/2025-01-26/Solus-XFCE-Beta-Release-2025-01-26.iso) |
-| sparkylinux | 7.8 | minimalcli | [url](https://sourceforge.net/projects/sparkylinux/files/cli/sparkylinux-7.8-x86_64-minimalcli.iso) |
-| sparkylinux | 7.8 | minimalgui | [url](https://sourceforge.net/projects/sparkylinux/files/base/sparkylinux-7.8-x86_64-minimalgui.iso) |
-| sparkylinux | 7.8 | mate | [url](https://sourceforge.net/projects/sparkylinux/files/mate/sparkylinux-7.8-x86_64-mate.iso) |
-| sparkylinux | 7.8 | lxqt | [url](https://sourceforge.net/projects/sparkylinux/files/lxqt/sparkylinux-7.8-x86_64-lxqt.iso) |
-| sparkylinux | 7.8 | kde | [url](https://sourceforge.net/projects/sparkylinux/files/kde/sparkylinux-7.8-x86_64-kde.iso) |
-| sparkylinux | 7.8 | xfce | [url](https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-7.8-x86_64-xfce.iso) |
+| sparkylinux | 8.0 | minimalcli | [url](https://sourceforge.net/projects/sparkylinux/files/cli/sparkylinux-8.0-x86_64-minimalcli.iso) |
+| sparkylinux | 8.0 | minimalgui | [url](https://sourceforge.net/projects/sparkylinux/files/base/sparkylinux-8.0-x86_64-minimalgui.iso) |
+| sparkylinux | 8.0 | mate | [url](https://sourceforge.net/projects/sparkylinux/files/mate/sparkylinux-8.0-x86_64-mate.iso) |
+| sparkylinux | 8.0 | lxqt | [url](https://sourceforge.net/projects/sparkylinux/files/lxqt/sparkylinux-8.0-x86_64-lxqt.iso) |
+| sparkylinux | 8.0 | kde | [url](https://sourceforge.net/projects/sparkylinux/files/kde/sparkylinux-8.0-x86_64-kde.iso) |
+| sparkylinux | 8.0 | xfce | [url](https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-8.0-x86_64-xfce.iso) |
 | spirallinux | latest | Plasma | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_Plasma_12.231005_x86-64.iso) |
 | spirallinux | latest | XFCE | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_XFCE_12.231005_x86-64.iso) |
 | spirallinux | latest | Mate | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_Mate_12.231005_x86-64.iso) |

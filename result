@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
+archcraft latest:                    https://cytranet-dal.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -248,7 +248,7 @@ function get_() {
 
 archlinux
 
-archlinux latest:                    https://mirror.rackspace.com/archlinux
+archlinux latest:                    https://mirror.rackspace.com/archlinux/iso/2025.08.01/archlinux-2025.08.01-x86_64.iso
 
 # Template file for 'archlinux'
 OSNAME="archlinux"
@@ -1032,9 +1032,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NTE1MzUyNQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NTE1MzUyNQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NTE1MzUyNQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NTE3NjEyOQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NTE3NjEyOQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NTE3NjEyOQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1350,6 +1350,38 @@ function specific_tweaks() {
 
 
 ghostbsd
+
+ghostbsd 25.01-R14.2p1 mate:         https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1.iso
+ghostbsd 25.01-R14.2p1 xfce:         https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso
+ghostbsd 24.10.1 mate:               https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1.iso
+ghostbsd 24.10.1 xfce:               https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso
+ghostbsd 24.07.3 mate:               https://download.ghostbsd.org/releases/amd64/24.07.3/GhostBSD-24.07.3.iso
+ghostbsd 24.07.3 xfce:               https://download.ghostbsd.org/releases/amd64/24.07.3/GhostBSD-24.07.3-XFCE.iso
+
+# Template file for 'ghostbsd'
+OSNAME="ghostbsd"
+PRETTY="GhostBSD"
+BASEDOF="FreeBSD"
+DESCRIPTION="Simple, elegant desktop BSD Operating System"
+HOMEPAGE="https://www.ghostbsd.org"
+CREDENTIALS="-"
+freebsd
+
+RELEASES="25.01-R14.2p1 24.10.1 24.07.3"
+EDITIONS="xfce mate"
+
+function get_() {
+    local ISO=""
+    local URL="https://download.ghostbsd.org/releases/amd64/${RELEASE}"
+    local HASH=""
+    case ${EDITION} in
+        mate) ISO="GhostBSD-${RELEASE}.iso";;
+        xfce) ISO="GhostBSD-${RELEASE}-XFCE.iso";;
+    esac
+    HASH=$(web_pipe "${URL}/${ISO}.sha256" | grep "${ISO}" | cut -d' ' -f4)
+    echo "${URL}/${ISO} ${HASH}"
+}
+
 
 gnomeos
 
@@ -1897,7 +1929,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://psychz.dl.sourceforge.net/project/mabox-linux/25.07/linux61/mabox-linux-25.07-Istredd-250731-linux61.iso
+maboxlinux latest:                   https://gigenet.dl.sourceforge.net/project/mabox-linux/25.08/linux61/mabox-linux-25.08-Istredd-250814-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2846,7 +2878,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3271,12 +3303,12 @@ function get_() {
 
 sparkylinux
 
-sparkylinux 7.8 minimalcli:          https://sourceforge.net/projects/sparkylinux/files/cli/sparkylinux-7.8-x86_64-minimalcli.iso
-sparkylinux 7.8 minimalgui:          https://sourceforge.net/projects/sparkylinux/files/base/sparkylinux-7.8-x86_64-minimalgui.iso
-sparkylinux 7.8 mate:                https://sourceforge.net/projects/sparkylinux/files/mate/sparkylinux-7.8-x86_64-mate.iso
-sparkylinux 7.8 lxqt:                https://sourceforge.net/projects/sparkylinux/files/lxqt/sparkylinux-7.8-x86_64-lxqt.iso
-sparkylinux 7.8 kde:                 https://sourceforge.net/projects/sparkylinux/files/kde/sparkylinux-7.8-x86_64-kde.iso
-sparkylinux 7.8 xfce:                https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-7.8-x86_64-xfce.iso
+sparkylinux 8.0 minimalcli:          https://sourceforge.net/projects/sparkylinux/files/cli/sparkylinux-8.0-x86_64-minimalcli.iso
+sparkylinux 8.0 minimalgui:          https://sourceforge.net/projects/sparkylinux/files/base/sparkylinux-8.0-x86_64-minimalgui.iso
+sparkylinux 8.0 mate:                https://sourceforge.net/projects/sparkylinux/files/mate/sparkylinux-8.0-x86_64-mate.iso
+sparkylinux 8.0 lxqt:                https://sourceforge.net/projects/sparkylinux/files/lxqt/sparkylinux-8.0-x86_64-lxqt.iso
+sparkylinux 8.0 kde:                 https://sourceforge.net/projects/sparkylinux/files/kde/sparkylinux-8.0-x86_64-kde.iso
+sparkylinux 8.0 xfce:                https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-8.0-x86_64-xfce.iso
 
 # Template file for 'sparkylinux'
 OSNAME="sparkylinux"
@@ -3287,7 +3319,7 @@ HOMEPAGE="https://sparkylinux.org"
 CREDENTIALS="-"
 
 
-RELEASES="7.8"
+RELEASES="8.0"
 EDITIONS="xfce minimalgui minimalcli mate lxqt kde"
 
 function get_() {
