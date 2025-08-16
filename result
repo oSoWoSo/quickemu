@@ -2,7 +2,7 @@ agarimos
 
 agarimos latest plasma:              https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.41_1-20250815.iso
 agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.41_1-20250803.iso
-agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.41_1-20250803.iso
+agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.41_1-20250815.iso
 agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.41_1-20250803.iso
 agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-Live-x86_64-6.12.41_1-20250803.iso
 
@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://versaweb.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
+archcraft latest:                    https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1032,9 +1032,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NTI4MzAxNwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NTI4MzAxNwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NTI4MzAxNwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NTMwOTUyOAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NTMwOTUyOAo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NTMwOTUyOAo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1386,6 +1386,7 @@ function get_() {
 gnomeos
 
 gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/887659/live_887659-x86_64.iso
+gnomeos 49.beta:                     https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso
 gnomeos 49.alpha.1:                  https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso
 gnomeos 48.rc:                       https://download.gnome.org/gnomeos/48.rc/gnome_os_installer_48.rc.iso
 gnomeos 48.beta:                     https://download.gnome.org/gnomeos/48.beta/gnome_os_installer_48.beta.iso
@@ -1428,7 +1429,7 @@ HOMEPAGE="https://os.gnome.org"
 CREDENTIALS="-"
 
 
-RELEASES="nightly 49.alpha.1 48.rc 48.beta 48.alpha 48.0 47.rc 47.beta 47.alpha 47.0 46.rc 46.beta 46.alpha 46.0 45.rc 45.beta 44.rc 44.beta 44.0 43.beta 43.alpha 43.0 42.rc 42.beta 42.0 41.rc 41.beta 41.0 40.rc 40.beta 40.0 3.38.1 3.38.0"
+RELEASES="nightly 49.beta 49.alpha.1 48.rc 48.beta 48.alpha 48.0 47.rc 47.beta 47.alpha 47.0 46.rc 46.beta 46.alpha 46.0 45.rc 45.beta 44.rc 44.beta 44.0 43.beta 43.alpha 43.0 42.rc 42.beta 42.0 41.rc 41.beta 41.0 40.rc 40.beta 40.0 3.38.1 3.38.0"
 
 
 function get_() {
@@ -1929,7 +1930,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.08/linux61/mabox-linux-25.08-Istredd-250814-linux61.iso
+maboxlinux latest:                   https://netactuate.dl.sourceforge.net/project/mabox-linux/25.08/linux61/mabox-linux-25.08-Istredd-250814-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2878,7 +2879,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
