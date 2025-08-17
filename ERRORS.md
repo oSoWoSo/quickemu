@@ -3,7 +3,6 @@
 | OS|RELEASE|EDITION|ISO |
 |---|---|---|---|
 |  |  |  | **ERROR** |
-| Lubuntu | daily-live | is | **ERROR** |
 | rebornos | latest |  | **ERROR** |
 | truenas-core | 13 |  | **ERROR** |
 |  |  |  | **ERROR** |
