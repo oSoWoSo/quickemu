@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://versaweb.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
+archcraft latest:                    https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1032,9 +1032,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NTQ4MzA2Mgo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NTQ4MzA2Mgo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NTQ4MzA2Mgo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NTQ5OTI2NQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NTQ5OTI2NQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NTQ5OTI2NQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1930,7 +1930,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://psychz.dl.sourceforge.net/project/mabox-linux/25.08/linux61/mabox-linux-25.08-Istredd-250814-linux61.iso
+maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.08/linux61/mabox-linux-25.08-Istredd-250814-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -4066,6 +4066,7 @@ function specific_tweaks() {
 
 ventoy
 
+ventoy 1.1.06:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.06/ventoy-1.1.06-livecd.iso
 ventoy 1.1.05:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.05/ventoy-1.1.05-livecd.iso
 ventoy 1.1.04:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.04/ventoy-1.1.04-livecd.iso
 ventoy 1.1.02:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.02/ventoy-1.1.02-livecd.iso
@@ -4084,7 +4085,6 @@ ventoy 1.0.89:                       https://github.com/ventoy/Ventoy/releases/d
 ventoy 1.0.88:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.88/ventoy-1.0.88-livecd.iso
 ventoy 1.0.87:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.87/ventoy-1.0.87-livecd.iso
 ventoy 1.0.86:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.86/ventoy-1.0.86-livecd.iso
-ventoy 1.0.85:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.85/ventoy-1.0.85-livecd.iso
 
 # Template file for 'ventoy'
 OSNAME="ventoy"
@@ -4095,7 +4095,7 @@ HOMEPAGE="https://www.ventoy.net"
 CREDENTIALS="-"
 
 
-RELEASES="1.1.05 1.1.04 1.1.02 1.1.01 1.1.00 1.0.99 1.0.98 1.0.97 1.0.96 1.0.95 1.0.94 1.0.93 1.0.91 1.0.90 1.0.89 1.0.88 1.0.87 1.0.86 1.0.85"
+RELEASES="1.1.06 1.1.05 1.1.04 1.1.02 1.1.01 1.1.00 1.0.99 1.0.98 1.0.97 1.0.96 1.0.95 1.0.94 1.0.93 1.0.91 1.0.90 1.0.89 1.0.88 1.0.87 1.0.86"
 
 
 function get_() {
