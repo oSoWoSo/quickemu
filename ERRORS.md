@@ -4,7 +4,6 @@
 |---|---|---|---|
 |  |  |  | **ERROR** |
 | rebornos | latest |  | **ERROR** |
-|  |  |  | **ERROR** |
 | truenas-core | 13 |  | **ERROR** |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
