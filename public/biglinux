@@ -8,7 +8,7 @@ CREDENTIALS="-"
 
 
 RELEASES="2025-08-22"
-EDITIONS="k66 k612"
+EDITIONS="k66 k616 k612"
 
 function get_() {
     local HASH=""
