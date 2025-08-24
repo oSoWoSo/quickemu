@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso |
 | antix | 21 | base-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso |
 | antix | 21 | full-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso |
-| archcraft | latest |  | https://cytranet-dal.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso |
+| archcraft | latest |  | https://psychz.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso |
 | archlinux | latest |  | https://mirror.rackspace.com/archlinux |
 | artixlinux | 20250407 | base-dinit | https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-openrc | https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso |
@@ -119,8 +119,8 @@
 | bodhi | 7.0.0 | s76 | https://sourceforge.net/projects/bodhilinux/files/7.0.0/bodhi-7.0.0-64-s76.iso |
 | bodhi | 7.0.0 | apppack | https://sourceforge.net/projects/bodhilinux/files/7.0.0/bodhi-7.0.0-64-apppack.iso |
 | bunsenlabs | boron |  | https://ddl.bunsenlabs.org/ddl/boron-1-240123-amd64.hybrid.iso |
-| cachyos | latest | desktop | https://cdn77.cachyos.org/ISO/desktop/250713/cachyos-desktop-linux-250713.iso |
-| cachyos | latest | handheld | https://cdn77.cachyos.org/ISO/handheld/250713/cachyos-handheld-linux-250713.iso |
+| cachyos | latest | desktop | https://cdn77.cachyos.org/ISO/desktop/250824/cachyos-desktop-linux-250824.iso |
+| cachyos | latest | handheld | https://cdn77.cachyos.org/ISO/handheld/250824/cachyos-handheld-linux-250824.iso |
 | centos-stream | 10 | boot | https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-latest-x86_64-boot.iso |
 | centos-stream | 10 | dvd1 | https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-latest-x86_64-dvd1.iso |
 | centos-stream | 9 | boot | https://linuxsoft.cern.ch/centos-stream/9-stream/BaseOS/x86_64/iso/CentOS-Stream-9-latest-x86_64-boot.iso |
@@ -208,9 +208,9 @@
 | edubuntu | 24.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.3-desktop-amd64.iso |
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1NjAzOTU4OQo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1NjAzOTU4OQo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1NjAzOTU4OQo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1NjA2MDMzMgo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1NjA2MDMzMgo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1NjA2MDMzMgo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -352,7 +352,7 @@
 | lubuntu | 24.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.3-desktop-amd64.iso |
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso |
-| maboxlinux | latest |  | https://psychz.dl.sourceforge.net/project/mabox-linux/25.08/linux61/mabox-linux-25.08-Istredd-250814-linux61.iso |
+| maboxlinux | latest |  | https://netix.dl.sourceforge.net/project/mabox-linux/25.08/linux61/mabox-linux-25.08-Istredd-250814-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -482,7 +482,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/ |
@@ -490,48 +490,6 @@
 | redox-os | harddrive | desktop | https://static.redox-os.org/img/x86_64/ |
 | redox-os | harddrive | server | https://static.redox-os.org/img/x86_64/ |
 | rhino | 2025.1 |  | https://sourceforge.net/projects/rhino-linux-builder/files/2025.1/Rhino-Linux-2025.1-amd64.iso |
-| rockylinux | 9.6 | minimal | https://dl.rockylinux.org/vault/rocky/9.6/isos/x86_64/Rocky-9.6-x86_64-minimal.iso |
-| rockylinux | 9.6 | dvd | https://dl.rockylinux.org/vault/rocky/9.6/isos/x86_64/Rocky-9.6-x86_64-dvd.iso |
-| rockylinux | 9.6 | boot | https://dl.rockylinux.org/vault/rocky/9.6/isos/x86_64/Rocky-9.6-x86_64-boot.iso |
-| rockylinux | 9.5 | minimal | https://dl.rockylinux.org/vault/rocky/9.5/isos/x86_64/Rocky-9.5-x86_64-minimal.iso |
-| rockylinux | 9.5 | dvd | https://dl.rockylinux.org/vault/rocky/9.5/isos/x86_64/Rocky-9.5-x86_64-dvd.iso |
-| rockylinux | 9.5 | boot | https://dl.rockylinux.org/vault/rocky/9.5/isos/x86_64/Rocky-9.5-x86_64-boot.iso |
-| rockylinux | 9.4 | minimal | https://dl.rockylinux.org/vault/rocky/9.4/isos/x86_64/Rocky-9.4-x86_64-minimal.iso |
-| rockylinux | 9.4 | dvd | https://dl.rockylinux.org/vault/rocky/9.4/isos/x86_64/Rocky-9.4-x86_64-dvd.iso |
-| rockylinux | 9.4 | boot | https://dl.rockylinux.org/vault/rocky/9.4/isos/x86_64/Rocky-9.4-x86_64-boot.iso |
-| rockylinux | 9.3 | minimal | https://dl.rockylinux.org/vault/rocky/9.3/isos/x86_64/Rocky-9.3-x86_64-minimal.iso |
-| rockylinux | 9.3 | dvd | https://dl.rockylinux.org/vault/rocky/9.3/isos/x86_64/Rocky-9.3-x86_64-dvd.iso |
-| rockylinux | 9.3 | boot | https://dl.rockylinux.org/vault/rocky/9.3/isos/x86_64/Rocky-9.3-x86_64-boot.iso |
-| rockylinux | 9.2 | minimal | https://dl.rockylinux.org/vault/rocky/9.2/isos/x86_64/Rocky-9.2-x86_64-minimal.iso |
-| rockylinux | 9.2 | dvd | https://dl.rockylinux.org/vault/rocky/9.2/isos/x86_64/Rocky-9.2-x86_64-dvd.iso |
-| rockylinux | 9.2 | boot | https://dl.rockylinux.org/vault/rocky/9.2/isos/x86_64/Rocky-9.2-x86_64-boot.iso |
-| rockylinux | 9.1 | minimal | https://dl.rockylinux.org/vault/rocky/9.1/isos/x86_64/Rocky-9.1-x86_64-minimal.iso |
-| rockylinux | 9.1 | dvd | https://dl.rockylinux.org/vault/rocky/9.1/isos/x86_64/Rocky-9.1-x86_64-dvd.iso |
-| rockylinux | 9.1 | boot | https://dl.rockylinux.org/vault/rocky/9.1/isos/x86_64/Rocky-9.1-x86_64-boot.iso |
-| rockylinux | 9.0 | minimal | https://dl.rockylinux.org/vault/rocky/9.0/isos/x86_64/Rocky-9.0-x86_64-minimal.iso |
-| rockylinux | 9.0 | dvd | https://dl.rockylinux.org/vault/rocky/9.0/isos/x86_64/Rocky-9.0-x86_64-dvd.iso |
-| rockylinux | 9.0 | boot | https://dl.rockylinux.org/vault/rocky/9.0/isos/x86_64/Rocky-9.0-x86_64-boot.iso |
-| rockylinux | 8.9 | minimal | https://dl.rockylinux.org/vault/rocky/8.9/isos/x86_64/Rocky-8.9-x86_64-minimal.iso |
-| rockylinux | 8.9 | dvd | https://dl.rockylinux.org/vault/rocky/8.9/isos/x86_64/Rocky-8.9-x86_64-dvd1.iso |
-| rockylinux | 8.9 | boot | https://dl.rockylinux.org/vault/rocky/8.9/isos/x86_64/Rocky-8.9-x86_64-boot.iso |
-| rockylinux | 8.8 | minimal | https://dl.rockylinux.org/vault/rocky/8.8/isos/x86_64/Rocky-8.8-x86_64-minimal.iso |
-| rockylinux | 8.8 | dvd | https://dl.rockylinux.org/vault/rocky/8.8/isos/x86_64/Rocky-8.8-x86_64-dvd1.iso |
-| rockylinux | 8.8 | boot | https://dl.rockylinux.org/vault/rocky/8.8/isos/x86_64/Rocky-8.8-x86_64-boot.iso |
-| rockylinux | 8.7 | minimal | https://dl.rockylinux.org/vault/rocky/8.7/isos/x86_64/Rocky-8.7-x86_64-minimal.iso |
-| rockylinux | 8.7 | dvd | https://dl.rockylinux.org/vault/rocky/8.7/isos/x86_64/Rocky-8.7-x86_64-dvd1.iso |
-| rockylinux | 8.7 | boot | https://dl.rockylinux.org/vault/rocky/8.7/isos/x86_64/Rocky-8.7-x86_64-boot.iso |
-| rockylinux | 8.6 | minimal | https://dl.rockylinux.org/vault/rocky/8.6/isos/x86_64/Rocky-8.6-x86_64-minimal.iso |
-| rockylinux | 8.6 | dvd | https://dl.rockylinux.org/vault/rocky/8.6/isos/x86_64/Rocky-8.6-x86_64-dvd1.iso |
-| rockylinux | 8.6 | boot | https://dl.rockylinux.org/vault/rocky/8.6/isos/x86_64/Rocky-8.6-x86_64-boot.iso |
-| rockylinux | 8.5 | minimal | https://dl.rockylinux.org/vault/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-minimal.iso |
-| rockylinux | 8.5 | dvd | https://dl.rockylinux.org/vault/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-dvd1.iso |
-| rockylinux | 8.5 | boot | https://dl.rockylinux.org/vault/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-boot.iso |
-| rockylinux | 8.4 | minimal | https://dl.rockylinux.org/vault/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-minimal.iso |
-| rockylinux | 8.4 | dvd | https://dl.rockylinux.org/vault/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-dvd1.iso |
-| rockylinux | 8.4 | boot | https://dl.rockylinux.org/vault/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-boot.iso |
-| rockylinux | 8.3 | minimal | https://dl.rockylinux.org/vault/rocky/8.3/isos/x86_64/Rocky-8.3-x86_64-minimal.iso |
-| rockylinux | 8.3 | dvd | https://dl.rockylinux.org/vault/rocky/8.3/isos/x86_64/Rocky-8.3-x86_64-dvd1.iso |
-| rockylinux | 8.3 | boot | https://dl.rockylinux.org/vault/rocky/8.3/isos/x86_64/Rocky-8.3-x86_64-boot.iso |
 | siduction | latest | kde | https://mirrors.dotsrc.org/siduction/iso/Shine_on/kde/siduction-2025.1.0-Shine_on-kde-amd64-202503241412.iso |
 | siduction | latest | lxqt | https://mirrors.dotsrc.org/siduction/iso/Shine_on/lxqt/siduction-2024.1.0-Shine_on-lxqt-amd64-202412261736.iso |
 | siduction | latest | nox | https://mirrors.dotsrc.org/siduction/iso/Shine_on/nox/siduction-2024.1.0-Shine_on-nox-amd64-202412261752.iso |
