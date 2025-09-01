@@ -6,7 +6,7 @@
 | agarimos | latest | xfce4 | [url](https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.43_1-20250830.iso) |
 | agarimos | latest | cinnamon | [url](https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.43_1-20250831.iso) |
 | agarimos | latest | lxqt-kwin | [url](https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.43_1-20250829.iso) |
-| agarimos | latest | gnome | [url](https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-Live-x86_64-6.12.43_1-20250826.iso) |
+| agarimos | latest | gnome | [url](https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-Live-x86_64-6.12.43_1-20250901.iso) |
 | alma | 9 | boot | [url](https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-boot.iso) |
 | alma | 9 | minimal | [url](https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-minimal.iso) |
 | alma | 9 | dvd | [url](https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-dvd.iso) |
@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso) |
+| archcraft | latest |  | [url](https://netactuate.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2025.08.01/archlinux-2025.08.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
@@ -211,9 +211,9 @@
 | edubuntu | 24.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.3-desktop-amd64.iso) |
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1NjcwODcwOQo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc1NjcwODcwOQo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1NjcwODcwOQo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1NjczMTA2Ngo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc1NjczMTA2Ngo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1NjczMTA2Ngo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -302,7 +302,7 @@
 | kali | kali-weekly |  | [url](https://cdimage.kali.org/kali-weekly/kali-linux-2025-W35-installer-amd64.iso) |
 | kdeneon | user |  | [url](https://files.kde.org/neon/images/user/current/neon-user-20250803-0744.iso) |
 | kdeneon | testing |  | [url](https://files.kde.org/neon/images/testing/current/neon-testing-20250826-0032.iso) |
-| kdeneon | unstable |  | [url](https://files.kde.org/neon/images/unstable/current/neon-unstable-20250831-1147.iso) |
+| kdeneon | unstable |  | [url](https://files.kde.org/neon/images/unstable/current/neon-unstable-20250901-1047.iso) |
 | kdeneon | developer |  | [url](https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250901-0038.iso) |
 | kodachi | latest |  | [url](https://sourceforge.net/projects/linuxkodachi/files/kodachi-8.27-64-kernel-6.2.iso) |
 | kolibrios | latest | en_US | [url](http://builds.kolibrios.org/en_US/latest-iso.7z) |
@@ -448,15 +448,15 @@
 | parrotsec | 6.2 | home | [url](https://download.parrot.sh/parrot/iso/6.2/Parrot-home-6.2_amd64.iso) |
 | parrotsec | 6.2 | htb | [url](https://download.parrot.sh/parrot/iso/6.2/Parrot-htb-6.2_amd64.iso) |
 | parrotsec | 6.2 | security | [url](https://download.parrot.sh/parrot/iso/6.2/Parrot-security-6.2_amd64.iso) |
-| pbpuppy | 250601 | BookwormPup64-ghtest | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250601.iso) |
-| pbpuppy | 250601 | S15Pup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250601.iso) |
-| pbpuppy | 250601 | VoidPup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250601.iso) |
 | pbpuppy | 250701 | BookwormPup64-ghtest | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250701.iso) |
 | pbpuppy | 250701 | S15Pup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250701.iso) |
 | pbpuppy | 250701 | VoidPup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250701.iso) |
 | pbpuppy | 250809 | BookwormPup64-ghtest | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250809.iso) |
 | pbpuppy | 250809 | S15Pup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250809.iso) |
 | pbpuppy | 250809 | VoidPup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250809.iso) |
+| pbpuppy | 250901 | BookwormPup64-ghtest | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250901.iso) |
+| pbpuppy | 250901 | S15Pup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250901.iso) |
+| pbpuppy | 250901 | VoidPup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250901.iso) |
 | pclinuxos | 2025.07 | kde | [url](https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2025.07.iso) |
 | pclinuxos | 2025.07 | kde-darkstar | [url](https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-darkstar-2025.07.iso) |
 | pclinuxos | 2025.07 | mate | [url](https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-mate-2025-07.iso) |
@@ -485,7 +485,7 @@
 | proxmox-ve | 5.4-1 |  | [url](https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso) |
 | pureos | 10.3 | gnome | [url](https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso) |
 | pureos | 10.3 | plasma | [url](https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso) |
-| reactos | latest |  | [url](https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
+| reactos | latest |  | [url](https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
 | rebornos | latest |  | **ERROR** |
 | redox-os | livedisk | demo | [url](https://static.redox-os.org/img/x86_64/) |
 | redox-os | livedisk | desktop | [url](https://static.redox-os.org/img/x86_64/) |
