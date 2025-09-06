@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://gigenet.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
+archcraft latest:                    https://versaweb.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -996,9 +996,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NzE0MDI1Mwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NzE0MDI1Mwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NzE0MDI1Mwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NzE2MjUxMQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NzE2MjUxMQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NzE2MjUxMQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1618,7 +1618,7 @@ kubuntu 16.04:                       https://cdimage.ubuntu.com/kubuntu/releases
 kubuntu 18.04:                       https://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.5-desktop-amd64.iso
 kubuntu 20.04:                       https://cdimage.ubuntu.com/kubuntu/releases/20.04/release/kubuntu-20.04.6-desktop-amd64.iso
 kubuntu 22.04:                       https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04.5-desktop-amd64.iso
-kubuntu 24.04:                       https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04.3-desktop-amd64.iso
+Kubuntu 24.04 is currently unavailable. Please select other OS/Release combination
 kubuntu 25.04:                       https://cdimage.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso
 kubuntu daily-live:                  https://cdimage.ubuntu.com/kubuntu/daily-live/current/questing-desktop-amd64.iso
 
@@ -1820,13 +1820,13 @@ function get_() {
 
 lubuntu
 
-lubuntu 16.04:                       https://cdimage.ubuntu.com/lubuntu/releases/16.04/release/lubuntu-16.04.6-desktop-amd64.iso
+Lubuntu 16.04 is currently unavailable. Please select other OS/Release combination
 lubuntu 18.04:                       https://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.5-desktop-amd64.iso
 lubuntu 20.04:                       https://cdimage.ubuntu.com/lubuntu/releases/20.04/release/lubuntu-20.04.5-desktop-amd64.iso
 lubuntu 22.04:                       https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04.5-desktop-amd64.iso
 lubuntu 24.04:                       https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.3-desktop-amd64.iso
 lubuntu 25.04:                       https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso
-lubuntu daily-live:                  https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso
+Lubuntu daily-live is currently unavailable. Please select other OS/Release combination
 
 # Template file for 'lubuntu'
 OSNAME="lubuntu"
@@ -2069,12 +2069,12 @@ function specific_tweaks() {
 
 manjaro
 
-manjaro xfce full:                   https://download.manjaro.org/xfce/25.0.7/manjaro-xfce-25.0.7-250812-linux612.iso
-manjaro xfce minimal:                https://download.manjaro.org/xfce/25.0.7/manjaro-xfce-25.0.7-minimal-250812-linux612.iso
-manjaro gnome full:                  https://download.manjaro.org/gnome/25.0.7/manjaro-gnome-25.0.7-250812-linux612.iso
-manjaro gnome minimal:               https://download.manjaro.org/gnome/25.0.7/manjaro-gnome-25.0.7-minimal-250812-linux612.iso
-manjaro plasma full:                 https://download.manjaro.org/kde/25.0.7/manjaro-kde-25.0.7-250812-linux612.iso
-manjaro plasma minimal:              https://download.manjaro.org/kde/25.0.7/manjaro-kde-25.0.7-minimal-250812-linux612.iso
+manjaro xfce full:                   https://download.manjaro.org/xfce/25.0.8/manjaro-xfce-25.0.8-250902-linux612.iso
+manjaro xfce minimal:                https://download.manjaro.org/xfce/25.0.8/manjaro-xfce-25.0.8-minimal-250903-linux612.iso
+manjaro gnome full:                  https://download.manjaro.org/gnome/25.0.8/manjaro-gnome-25.0.8-250902-linux612.iso
+manjaro gnome minimal:               https://download.manjaro.org/gnome/25.0.8/manjaro-gnome-25.0.8-minimal-250902-linux612.iso
+manjaro plasma full:                 https://download.manjaro.org/kde/25.0.8/manjaro-kde-25.0.8-250902-linux612.iso
+manjaro plasma minimal:              https://download.manjaro.org/kde/25.0.8/manjaro-kde-25.0.8-minimal-250902-linux612.iso
 manjaro cinnamon full:               https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-250609-linux612.iso
 manjaro cinnamon minimal:            https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-minimal-250609-linux612.iso
 manjaro i3 full:                     https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-250609-linux612.iso
@@ -2599,10 +2599,10 @@ function get_() {
 
 pclinuxos
 
-pclinuxos 2025.07 kde:               https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2025.07.iso
-pclinuxos 2025.07 kde-darkstar:      https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-darkstar-2025.07.iso
-pclinuxos 2025.07 mate:              https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-mate-2025-07.iso
-pclinuxos 2025.07 xfce:              https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-xfce-2025.07.iso
+pclinuxos 2025.08 kde:               https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2025.08.iso
+pclinuxos 2025.08 kde-darkstar:      https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-darkstar-2025.08.iso
+pclinuxos 2025.08 mate:              https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-mate-2025-08.iso
+pclinuxos 2025.08 xfce:              https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-xfce-2025.08.iso
 
 # Template file for 'pclinuxos'
 OSNAME="pclinuxos"
@@ -2613,7 +2613,7 @@ HOMEPAGE="https://www.pclinuxos.com"
 CREDENTIALS="-"
 
 
-RELEASES="2025.07"
+RELEASES="2025.08"
 EDITIONS="xfce mate kde-darkstar kde"
 
 function get_() {
@@ -2844,7 +2844,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3482,7 +3482,7 @@ ubuntu-budgie
 ubuntu-budgie 18.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.5-desktop-amd64.iso
 ubuntu-budgie 20.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/20.04/release/ubuntu-budgie-20.04.6-desktop-amd64.iso
 ubuntu-budgie 22.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04.5-desktop-amd64.iso
-Ubuntu Budgie 24.04 is currently unavailable. Please select other OS/Release combination
+ubuntu-budgie 24.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.3-desktop-amd64.iso
 ubuntu-budgie 25.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.04/release/ubuntu-budgie-25.04-desktop-amd64.iso
 ubuntu-budgie daily-live:            https://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/questing-desktop-amd64.iso
 
@@ -3560,7 +3560,7 @@ ubuntu-mate
 ubuntu-mate 16.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04.6-desktop-amd64.iso
 ubuntu-mate 18.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-amd64.iso
 ubuntu-mate 20.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.6-desktop-amd64.iso
-Ubuntu Mate 22.04 is currently unavailable. Please select other OS/Release combination
+ubuntu-mate 22.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.5-desktop-amd64.iso
 ubuntu-mate 24.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.3-desktop-amd64.iso
 ubuntu-mate 25.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso
 ubuntu-mate daily-live:              https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/questing-desktop-amd64.iso
@@ -4137,7 +4137,7 @@ xubuntu
 
 xubuntu 16.04:                       https://cdimage.ubuntu.com/xubuntu/releases/16.04/release/xubuntu-16.04.6-desktop-amd64.iso
 xubuntu 18.04:                       https://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.5-desktop-amd64.iso
-Xubuntu 20.04 is currently unavailable. Please select other OS/Release combination
+xubuntu 20.04:                       https://cdimage.ubuntu.com/xubuntu/releases/20.04/release/xubuntu-20.04.6-desktop-amd64.iso
 xubuntu 22.04:                       https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.5-desktop-amd64.iso
 xubuntu 24.04:                       https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.3-desktop-amd64.iso
 xubuntu 25.04:                       https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso
