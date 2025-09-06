@@ -4,9 +4,6 @@
 |---|---|---|---|
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
-| Kubuntu | 24.04 | is | **ERROR** |
-| Lubuntu | 16.04 | is | **ERROR** |
-| Lubuntu | daily-live | is | **ERROR** |
 | rebornos | latest |  | **ERROR** |
 |  |  |  | **ERROR** |
 | truenas-core | 13 |  | **ERROR** |
