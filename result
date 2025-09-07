@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://versaweb.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
+archcraft latest:                    https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -248,7 +248,7 @@ function get_() {
 
 archlinux
 
-archlinux latest:                    https://mirror.rackspace.com/archlinux
+archlinux latest:                    https://mirror.rackspace.com/archlinux/iso/2025.09.01/archlinux-2025.09.01-x86_64.iso
 
 # Template file for 'archlinux'
 OSNAME="archlinux"
@@ -664,15 +664,15 @@ debian 13.1.0 lxqt:                  https://cdimage.debian.org/debian-cd/13.1.0
 debian 13.1.0 mate:                  https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-mate.iso
 debian 13.1.0 xfce:                  https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-xfce.iso
 debian 13.1.0 netinst:               https://cdimage.debian.org/debian-cd/13.1.0/amd64/iso-cd/debian-13.1.0-amd64-netinst.iso
-debian 12.12.0-live standard:        https://cdimage.debian.org/cdimage/archive/12.12.0-live-live/amd64/iso-hybrid/debian-live-12.12.0-live-amd64-standard.iso
-debian 12.12.0-live cinnamon:        https://cdimage.debian.org/cdimage/archive/12.12.0-live-live/amd64/iso-hybrid/debian-live-12.12.0-live-amd64-cinnamon.iso
-debian 12.12.0-live gnome:           https://cdimage.debian.org/cdimage/archive/12.12.0-live-live/amd64/iso-hybrid/debian-live-12.12.0-live-amd64-gnome.iso
-debian 12.12.0-live kde:             https://cdimage.debian.org/cdimage/archive/12.12.0-live-live/amd64/iso-hybrid/debian-live-12.12.0-live-amd64-kde.iso
-debian 12.12.0-live lxde:            https://cdimage.debian.org/cdimage/archive/12.12.0-live-live/amd64/iso-hybrid/debian-live-12.12.0-live-amd64-lxde.iso
-debian 12.12.0-live lxqt:            https://cdimage.debian.org/cdimage/archive/12.12.0-live-live/amd64/iso-hybrid/debian-live-12.12.0-live-amd64-lxqt.iso
-debian 12.12.0-live mate:            https://cdimage.debian.org/cdimage/archive/12.12.0-live-live/amd64/iso-hybrid/debian-live-12.12.0-live-amd64-mate.iso
-debian 12.12.0-live xfce:            https://cdimage.debian.org/cdimage/archive/12.12.0-live-live/amd64/iso-hybrid/debian-live-12.12.0-live-amd64-xfce.iso
-debian 12.12.0-live netinst:         https://cdimage.debian.org/cdimage/archive/12.12.0-live/amd64/iso-cd/debian-12.12.0-live-amd64-netinst.iso
+debian 12.12.0 standard:             https://cdimage.debian.org/cdimage/archive/12.12.0-live/amd64/iso-hybrid/debian-live-12.12.0-amd64-standard.iso
+debian 12.12.0 cinnamon:             https://cdimage.debian.org/cdimage/archive/12.12.0-live/amd64/iso-hybrid/debian-live-12.12.0-amd64-cinnamon.iso
+debian 12.12.0 gnome:                https://cdimage.debian.org/cdimage/archive/12.12.0-live/amd64/iso-hybrid/debian-live-12.12.0-amd64-gnome.iso
+debian 12.12.0 kde:                  https://cdimage.debian.org/cdimage/archive/12.12.0-live/amd64/iso-hybrid/debian-live-12.12.0-amd64-kde.iso
+debian 12.12.0 lxde:                 https://cdimage.debian.org/cdimage/archive/12.12.0-live/amd64/iso-hybrid/debian-live-12.12.0-amd64-lxde.iso
+debian 12.12.0 lxqt:                 https://cdimage.debian.org/cdimage/archive/12.12.0-live/amd64/iso-hybrid/debian-live-12.12.0-amd64-lxqt.iso
+debian 12.12.0 mate:                 https://cdimage.debian.org/cdimage/archive/12.12.0-live/amd64/iso-hybrid/debian-live-12.12.0-amd64-mate.iso
+debian 12.12.0 xfce:                 https://cdimage.debian.org/cdimage/archive/12.12.0-live/amd64/iso-hybrid/debian-live-12.12.0-amd64-xfce.iso
+debian 12.12.0 netinst:              https://cdimage.debian.org/cdimage/archive/12.12.0/amd64/iso-cd/debian-12.12.0-amd64-netinst.iso
 debian 11.11.0 standard:             https://cdimage.debian.org/cdimage/archive/11.11.0-live/amd64/iso-hybrid/debian-live-11.11.0-amd64-standard.iso
 debian 11.11.0 cinnamon:             https://cdimage.debian.org/cdimage/archive/11.11.0-live/amd64/iso-hybrid/debian-live-11.11.0-amd64-cinnamon.iso
 debian 11.11.0 gnome:                https://cdimage.debian.org/cdimage/archive/11.11.0-live/amd64/iso-hybrid/debian-live-11.11.0-amd64-gnome.iso
@@ -692,7 +692,7 @@ HOMEPAGE="https://www.debian.org"
 CREDENTIALS="-"
 
 
-RELEASES="13.1.0 12.12.0-live 11.11.0"
+RELEASES="13.1.0 12.12.0 11.11.0"
 EDITIONS="xfce standard netinst mate lxqt lxde kde gnome cinnamon"
 
 function get_() {
@@ -925,7 +925,7 @@ function get_() {
 
 edubuntu
 
-edubuntu 24.04:                      https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.3-desktop-amd64.iso
+Edubuntu 24.04 is currently unavailable. Please select other OS/Release combination
 edubuntu 25.04:                      https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso
 edubuntu daily-live:                 https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso
 
@@ -996,9 +996,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NzIxMDExMgo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NzIxMDExMgo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NzIxMDExMgo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NzIyNjY5OQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NzIyNjY5OQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NzIyNjY5OQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1476,7 +1476,7 @@ function specific_tweaks() {
 kali
 
 kali current:                        https://cdimage.kali.org/current/kali-linux-2025.2-installer-amd64.iso
-kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2025-W35-installer-amd64.iso
+kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2025-W36-installer-amd64.iso
 
 # Template file for 'kali'
 OSNAME="kali"
@@ -1824,7 +1824,7 @@ lubuntu 16.04:                       https://cdimage.ubuntu.com/lubuntu/releases
 lubuntu 18.04:                       https://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.5-desktop-amd64.iso
 lubuntu 20.04:                       https://cdimage.ubuntu.com/lubuntu/releases/20.04/release/lubuntu-20.04.5-desktop-amd64.iso
 lubuntu 22.04:                       https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04.5-desktop-amd64.iso
-lubuntu 24.04:                       https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.3-desktop-amd64.iso
+Lubuntu 24.04 is currently unavailable. Please select other OS/Release combination
 lubuntu 25.04:                       https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso
 lubuntu daily-live:                  https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso
 
@@ -1895,7 +1895,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://netactuate.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250905-linux61.iso
+maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250905-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2079,8 +2079,8 @@ manjaro cinnamon full:               https://download.manjaro.org/cinnamon/25.0.
 manjaro cinnamon minimal:            https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-minimal-250609-linux612.iso
 manjaro i3 full:                     https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-250609-linux612.iso
 manjaro i3 minimal:                  https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-minimal-250609-linux612.iso
-manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250831-linux612.iso
-manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250831-linux612.iso
+manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250907-linux612.iso
+manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-250907-linux612.iso
 
 # Template file for 'manjaro'
 OSNAME="manjaro"
@@ -2844,7 +2844,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3563,7 +3563,7 @@ ubuntu-mate 20.04:                   https://cdimage.ubuntu.com/ubuntu-mate/rele
 ubuntu-mate 22.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.5-desktop-amd64.iso
 ubuntu-mate 24.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.3-desktop-amd64.iso
 ubuntu-mate 25.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso
-ubuntu-mate daily-live:              https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/questing-desktop-amd64.iso
+Ubuntu Mate daily-live is currently unavailable. Please select other OS/Release combination
 
 # Template file for 'ubuntu-mate'
 OSNAME="ubuntu-mate"
@@ -3633,10 +3633,10 @@ function get_() {
 ubuntu-server
 
 ubuntu-server daily-live:            https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-amd64.iso
-ubuntu-server 25.04:                 https://releases.ubuntu.com/25.04/
+ubuntu-server 25.04:                 https://releases.ubuntu.com/25.04/ubuntu-25.04-live-server-amd64.iso
 ubuntu-server 24.04:                 https://releases.ubuntu.com/24.04/ubuntu-24.04.2-live-server-amd64.iso
 ubuntu-24.04.3-live-server-amd64.iso
-ubuntu-server 22.04:                 https://releases.ubuntu.com/22.04/
+ubuntu-server 22.04:                 https://releases.ubuntu.com/22.04/ubuntu-22.04.5-live-server-amd64.iso
 ubuntu-server 20.04:                 https://releases.ubuntu.com/20.04/ubuntu-20.04.6-live-server-amd64.iso
 ubuntu-server 18.04:                 https://releases.ubuntu.com/18.04/ubuntu-18.04.6-live-server-amd64.iso
 ubuntu-server 16.04:                 https://releases.ubuntu.com/16.04/ubuntu-16.04.7-server-amd64.iso
@@ -4141,7 +4141,7 @@ xubuntu 20.04:                       https://cdimage.ubuntu.com/xubuntu/releases
 xubuntu 22.04:                       https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.5-desktop-amd64.iso
 xubuntu 24.04:                       https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.3-desktop-amd64.iso
 xubuntu 25.04:                       https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso
-Xubuntu daily-live is currently unavailable. Please select other OS/Release combination
+xubuntu daily-live:                  https://cdimage.ubuntu.com/xubuntu/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'xubuntu'
 OSNAME="xubuntu"

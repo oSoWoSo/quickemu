@@ -4,14 +4,16 @@
 |---|---|---|---|
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
+| Edubuntu | 24.04 | is | **ERROR** |
+| Lubuntu | 24.04 | is | **ERROR** |
 | rebornos | latest |  | **ERROR** |
 |  |  |  | **ERROR** |
 | truenas-core | 13 |  | **ERROR** |
 | truenas-scale | 24 |  | **ERROR** |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
+| Ubuntu | Mate | daily-live | **ERROR** |
 | ubuntu-24.04.3-live-server-amd64.iso | ubuntu-24.04.3-live-server-amd64.iso | ubuntu-24.04.3-live-server-amd64.iso | **ERROR** |
 | UbuntuStudio | dvd | is | **ERROR** |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
-| Xubuntu | daily-live | is | **ERROR** |
