@@ -18,6 +18,7 @@ arco            https://downloads.sourceforge.net/arconetpro/arcopro-v25.05.01-x
 artix           https://download.artixlinux.org/iso/artix-base-openrc-20250303-x86_64.iso
 artix           https://download.artixlinux.org/iso/artix-cinnamon-openrc-20250407-x86_64.iso
 artix           https://download.artixlinux.org/iso/artix-xfce-s6-20250310-x86_64.iso
+asmi            https://github.com/teejee2008/asmi-linux/releases/download/v13.1/asmi-linux-13.1-amd64.iso
 athena          https://downloads.sourceforge.net/athena-iso/athenaos-rolling-x86_64.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.3.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.4.iso
@@ -31,6 +32,7 @@ bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.1-1-20
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.2-1-2025.04.11-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.3-9-2025.04.26-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.5-2-2025.05.08-x86_64.iso
+bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.16.5-1-2025.09.07-x86_64.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250330.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250422.iso
 calculate       https://mirror.calculate-linux.org/release/20250409/cld-20250409-x86_64.iso
