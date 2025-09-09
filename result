@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://psychz.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
+archcraft latest:                    https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -360,6 +360,44 @@ function specific_tweaks() {
 
 
 batocera
+
+batocera last:                       https://mirrors.o2switch.fr/batocera/x86_64/stable/last/batocera-x86_64-41-20250106.img.gz
+batocera 41:                         https://mirrors.o2switch.fr/batocera/x86_64/stable/41/batocera-x86_64-41-20250106.img.gz
+batocera 40:                         https://mirrors.o2switch.fr/batocera/x86_64/stable/40/batocera-x86_64-40-20240801.img.gz
+batocera 39:                         https://mirrors.o2switch.fr/batocera/x86_64/stable/39/batocera-x86_64-x86_64-39-20240304.img.gz
+batocera 38:                         https://mirrors.o2switch.fr/batocera/x86_64/stable/38/batocera-x86_64-x86_64-38-20231014.img.gz
+
+# Template file for 'batocera'
+OSNAME="batocera"
+PRETTY="Batocera"
+BASEDOF="-"
+DESCRIPTION="Retro-gaming distribution with the aim of turning any computer/nano computer into a gaming console during a game or permanently"
+HOMEPAGE="https://batocera.org"
+CREDENTIALS="-"
+GUEST="batocera"
+IMAGE_TYPE="img"
+RELEASES="last 41 40 39 38"
+
+
+function get_() {
+    local HASH=""
+    local ISO=""
+    local URL="https://mirrors.o2switch.fr/batocera/x86_64/stable/${RELEASE}"
+    ISO="$(web_pipe "${URL}/" | grep -e 'batocera.*img.gz'| cut -d'"' -f2)"
+    echo "${URL}/${ISO} ${HASH}"
+}
+
+function distro_specific() {
+    if [[ ${ISO} = *".gz"* ]]; then
+        gzip -d "${VM_PATH}/${ISO}"
+        ISO="${ISO/.gz/}"
+    fi
+}
+
+function specific_tweaks() {
+    echo "disk_size=\"8G\"" >> "${CONF_FILE}"
+}
+
 
 bazzite
 
@@ -996,9 +1034,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NzQyMjMyMwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NzQyMjMyMwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NzQyMjMyMwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NzQ0MjYyMAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NzQ0MjYyMQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NzQ0MjYyMQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1895,7 +1933,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://psychz.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250905-linux61.iso
+maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250905-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2847,7 +2885,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
