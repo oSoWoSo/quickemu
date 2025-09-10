@@ -49,6 +49,7 @@ centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/
 chimera         https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso
 clear           https://cdn.download.clearlinux.org/releases/43300/clear/clear-43300-live-desktop.iso
 clear           https://cdn.download.clearlinux.org/releases/43400/clear/clear-43400-live-desktop.iso
+clearndr        https://my.stamus-networks.com/sn-dl/ClearNDRCommunity/6d46518e85f546bddcc82d9d1143fbe0ce2749abc862646fda470bad3335f1aa/ClearNDR-desktop-1.0.0.iso
 clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2.1-28-amd64.iso
 clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2.1-9-amd64.iso
 clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2.2-5-amd64.iso
@@ -122,6 +123,7 @@ linuxhub        https://downloads.sourceforge.net/linuxhub-prime/Linuxhub_Prime_
 lite            https://downloads.sourceforge.net/linux-lite/linux-lite-7.4-64bit.iso
 liveraizo       https://downloads.sourceforge.net/live-raizo/Live-Raizo-v16.25.04.12i.iso
 liveraizo       https://downloads.sourceforge.net/live-raizo/Live-Raizo-v16.25.09.06i.iso
+luberri         https://luberrilinux.eus/wp-content/uploads/2025/09/Luberri-25.1-2025.08.31.iso
 lubuntu         https://cdimage.ubuntu.com/lubuntu/releases/25.04/beta/lubuntu-25.04-beta-desktop-amd64.iso
 lubuntu         https://cdimages.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso
 mabox           https://downloads.sourceforge.net/mabox-linux/mabox-linux-25.03-Istredd-250331-linux612.iso
