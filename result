@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://versaweb.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
+archcraft latest:                    https://cytranet-dal.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -435,9 +435,9 @@ function specific_tweaks() {
 
 biglinux
 
-biglinux 2025-08-30 k616:            https://iso.biglinux.com.br/biglinux_2025-08-30_k616.iso
-biglinux 2025-08-30 k612:            https://iso.biglinux.com.br/biglinux_2025-08-30_k612.iso
-biglinux 2025-08-30 k66:             https://iso.biglinux.com.br/biglinux_2025-08-30_k66.iso
+biglinux 2025-09-12 k616:            https://iso.biglinux.com.br/biglinux_2025-09-12_k616.iso
+biglinux 2025-09-12 k612:            https://iso.biglinux.com.br/biglinux_2025-09-12_k612.iso
+biglinux 2025-09-12 k66:             https://iso.biglinux.com.br/biglinux_2025-09-12_k66.iso
 
 # Template file for 'biglinux'
 OSNAME="biglinux"
@@ -448,7 +448,7 @@ HOMEPAGE="https://www.biglinux.com.br"
 CREDENTIALS="-"
 
 
-RELEASES="2025-08-30"
+RELEASES="2025-09-12"
 EDITIONS="k66 k616 k612"
 
 function get_() {
@@ -1034,9 +1034,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NzY4MTE5NQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NzY4MTE5NQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NzY4MTE5NQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1NzcwMTczMgo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1NzcwMTczMgo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1NzcwMTczMgo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -2885,7 +2885,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://phoenixnap.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
