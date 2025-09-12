@@ -37,6 +37,7 @@ bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.16.5-1-20
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250330.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250422.iso
 calculate       https://mirror.calculate-linux.org/release/20250409/cld-20250409-x86_64.iso
+calculate       https://mirror.calculate-linux.org/release/20250911/cld-20250911-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250313-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250318-x86_64.iso
 centos          https://ftp.udx.icscoe.jp/Linux/CentOS-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250303.3-x86_64-dvd1.iso
@@ -168,6 +169,7 @@ proxmox         https://enterprise.proxmox.com/iso/proxmox-backup-server_3.4-1.i
 proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso
 puppy           https://distro.ibiblio.org/puppylinux/puppy-bookwormpup/BookwormPup64/10.0.12/BookwormPup64_10.0.12.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-5.8-x64.r1.iso
+q4os            https://downloads.sourceforge.net/q4os/q4os-6.1-x64-tde.r1.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.03.04-x86_64.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.04.26-x86_64.iso
 refracta        https://get.refracta.org/files/stable/refracta_12.4_xfce_amd64-20250911_1218.iso
