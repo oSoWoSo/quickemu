@@ -153,6 +153,7 @@ openmandriva    https://downloads.sourceforge.net/openmandriva/openmandriva-6.0-
 opensuse        https://download.opensuse.org/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso
 pardus          https://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.4-GNOME-amd64.iso
 pclinuxos       https://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2025.08.iso
+pelicanhpc      https://downloads.sourceforge.net/pelicanhpc/pelicanhpc-v6.1-mate.iso
 peropesis       https://peropesis.org/peropesis/Peropesis-2.9-live.iso
 pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.05.05-1.iso
 pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.09.06-2.iso
@@ -169,6 +170,7 @@ puppy           https://distro.ibiblio.org/puppylinux/puppy-bookwormpup/Bookworm
 q4os            https://downloads.sourceforge.net/q4os/q4os-5.8-x64.r1.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.03.04-x86_64.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.04.26-x86_64.iso
+refracta        https://get.refracta.org/files/stable/refracta_12.4_xfce_amd64-20250911_1218.iso
 regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_en-US.x86_64-25.0.0.iso
 regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_pt-BR.x86_64-25.0.0.iso
 rescuezilla     https://github.com/rescuezilla/rescuezilla/releases/download/2.6/rescuezilla-2.6-64bit.oracular.iso
