@@ -3,8 +3,6 @@
 | OS|RELEASE|EDITION|ISO |
 |---|---|---|---|
 |  |  |  | **ERROR** |
-| Edubuntu | daily-live | is | **ERROR** |
-| Kubuntu | daily-live | is | **ERROR** |
 | rebornos | latest |  | **ERROR** |
 |  |  |  | **ERROR** |
 | truenas-core | 13 |  | **ERROR** |
