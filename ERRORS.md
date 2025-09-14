@@ -13,3 +13,4 @@
 | UbuntuStudio | dvd | is | **ERROR** |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
+| Xubuntu | daily-live | is | **ERROR** |
