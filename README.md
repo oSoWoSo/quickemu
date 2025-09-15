@@ -643,3 +643,5 @@
 | xubuntu | 25.04 |  | https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso |
 | xubuntu | daily-live |  | https://cdimage.ubuntu.com/xubuntu/daily-live/current/questing-desktop-amd64.iso |
 
+
+We got a :star: from [@matthifrak2023](https://github.com/matthifrak2023)
