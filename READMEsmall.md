@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://versaweb.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso) |
+| archcraft | latest |  | [url](https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2025.09.01/archlinux-2025.09.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
@@ -208,10 +208,12 @@
 | dragonflybsd | 5.0.0 |  | [url](http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-5.0.0_REL.iso.bz2) |
 | dsl | 2024.rc7 | lz4 | [url](https://www.damnsmalllinux.org/download/dsl-2024.rc7.lz4.iso) |
 | dsl | 2024.rc7 | cdrom | [url](https://www.damnsmalllinux.org/download/dsl-2024.rc7.iso) |
+| edubuntu | 24.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.3-desktop-amd64.iso) |
+| edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1NzkxODI2OAo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc1NzkxODI2OAo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1NzkxODI2OAo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1Nzk0MDYyMQo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc1Nzk0MDYyMQo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1Nzk0MDYyMQo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -254,7 +256,7 @@
 | ghostbsd | 25.01-R14.2p1 | xfce | [url](https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso) |
 | ghostbsd | 24.10.1 | mate | [url](https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1.iso) |
 | ghostbsd | 24.10.1 | xfce | [url](https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso) |
-| gnomeos | nightly |  | [url](https://1270333429.rsc.cdn77.org/nightly/910514/live_910514-x86_64.iso) |
+| gnomeos | nightly |  | [url](https://1270333429.rsc.cdn77.org/nightly/910903/live_910903-x86_64.iso) |
 | gnomeos | 49.rc |  | [url](https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso) |
 | gnomeos | 49.beta |  | [url](https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso) |
 | gnomeos | 49.alpha.1 |  | [url](https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso) |
@@ -354,7 +356,7 @@
 | lubuntu | 24.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.3-desktop-amd64.iso) |
 | lubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso) |
 | lubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso) |
-| maboxlinux | latest |  | [url](https://gigenet.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250905-linux61.iso) |
+| maboxlinux | latest |  | [url](https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250905-linux61.iso) |
 | macos | mojave |  | [url](http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg) |
 | macos | catalina |  | [url](http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg) |
 | macos | big-sur |  | [url](http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg) |
@@ -591,7 +593,7 @@
 | ubuntu-server | 14.04 |  | [url](https://releases.ubuntu.com/14.04/ubuntu-14.04.6-server-amd64.iso) |
 | ubuntu-unity | 24.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-unity/releases/24.04/release/ubuntu-unity-24.04.3-desktop-amd64.iso) |
 | ubuntu-unity | 25.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-unity/releases/25.04/release/ubuntu-unity-25.04-desktop-amd64.iso) |
-| Ubuntu | Unity | daily-live | **ERROR** |
+| ubuntu-unity | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu-unity/daily-live/current/questing-desktop-amd64.iso) |
 | ubuntu | 14.04 |  | [url](https://releases.ubuntu.com/14.04/ubuntu-14.04.6-desktop-amd64.iso) |
 | ubuntu | 16.04 |  | [url](https://releases.ubuntu.com/16.04/ubuntu-16.04.7-desktop-amd64.iso) |
 | ubuntu | 18.04 |  | [url](https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso) |
