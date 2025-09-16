@@ -5,7 +5,6 @@
 |  |  |  | **ERROR** |
 | rebornos | latest |  | **ERROR** |
 |  |  |  | **ERROR** |
-|  |  |  | **ERROR** |
 | truenas-core | 13 |  | **ERROR** |
 | truenas-scale | 24 |  | **ERROR** |
 |  |  |  | **ERROR** |
