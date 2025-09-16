@@ -3,8 +3,8 @@
 | OS|RELEASE|EDITION|ISO |
 |---|---|---|---|
 |  |  |  | **ERROR** |
-| Kubuntu | daily-live | is | **ERROR** |
 | rebornos | latest |  | **ERROR** |
+|  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
 | truenas-core | 13 |  | **ERROR** |
 | truenas-scale | 24 |  | **ERROR** |
@@ -14,4 +14,3 @@
 | UbuntuStudio | dvd | is | **ERROR** |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
-| Xubuntu | daily-live | is | **ERROR** |
