@@ -149,8 +149,10 @@ mauna           https://downloads.sourceforge.net/maunalinux/MaunaLinux-25-Cinna
 max             https://ftp.rediris.es/mirror/MaX-Linux/MaXdesktop/ultima-version/MAX-12.0-FINAL-live-amd64-20250307_1411.iso
 midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/3.2.3/MidnightBSD-3.2.3--amd64-disc1.iso
 mint            https://mirrors.cicku.me/linuxmint/iso/stable/22.2/linuxmint-22.2-cinnamon-64bit.iso
+mint            https://pub.linuxmint.io/testing/lmde-7-cinnamon-64bit-beta.iso
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.09/MocaccinoOS-GNOME-0.20250908.iso.tar.xz
 mx              https://downloads.sourceforge.net/mx-linux/MX-23.6_x64.iso
+neptune         https://download.neptuneos.com/download/Neptune9-20250717.iso
 nitrux          https://downloads.sourceforge.net/nitruxos/nitrux-nx-desktop-plasma-cf782a84-amd64.iso
 nobara          https://nobara-images.nobaraproject.org/Nobara-42-Official-2025-05-13.iso
 obarun          https://cloud.server.obarun.org/iso/2025.04.28/obarun-JWM-2025.04.28-x86_64.iso
