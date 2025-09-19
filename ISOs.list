@@ -111,6 +111,7 @@ hackeros        https://downloads.sourceforge.net/hackeros/HackerOS-V3.0.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core192/ipfire-2.29-core192-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core193/ipfire-2.29-core193-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core194/ipfire-2.29-core194-x86_64.iso
+ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core197/ipfire-2.29-core197-x86_64.iso
 kali            https://cdimage.kali.org/kali-2025.1a/kali-linux-2025.1a-installer-amd64.iso
 kamuriki        https://downloads.sourceforge.net/kamurikilinux/nrrk-400s.iso
 kaos            https://downloads.sourceforge.net/kaosx/KaOS-2025.03-x86_64.iso
@@ -258,6 +259,7 @@ voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.04-beta
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.04-beta2-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.04.1-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.04.2-amd64.iso
+voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-beta-amd64.iso
 wmlive          https://downloads.sourceforge.net/wmlive/wmlive-bookworm_12.12-amd64.iso
 xigmanas        https://downloads.sourceforge.net/xigmanas/XigmaNAS-x64-LiveCD-14.3.0.5.10432.iso
 xivastudio      https://iso.biglinux.com.br/xivastudio_2025-09-04_k612.iso
