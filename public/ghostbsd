@@ -7,7 +7,7 @@ HOMEPAGE="https://www.ghostbsd.org"
 CREDENTIALS="-"
 freebsd
 
-RELEASES="25.02-R14.3p2 25.01-R14.2p1 24.10.1"
+RELEASES="25.01-R14.2p1 24.10.1 24.07.3"
 EDITIONS="xfce mate"
 
 function get_() {
