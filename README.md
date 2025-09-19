@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso |
 | antix | 21 | base-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso |
 | antix | 21 | full-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso |
-| archcraft | latest |  | https://versaweb.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso |
+| archcraft | latest |  | https://psychz.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso |
 | archlinux | latest |  | https://mirror.rackspace.com/archlinux/iso/2025.09.01/archlinux-2025.09.01-x86_64.iso |
 | artixlinux | 20250407 | base-dinit | https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-openrc | https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso |
@@ -133,6 +133,10 @@
 | cereus | latest | musl-xfce | https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso |
 | chimeralinux | latest | base | https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-base.iso |
 | chimeralinux | latest | gnome | https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso |
+| crunchbang++ | 12.0 |  | https://github.com/CBPP/cbpp/releases/download/v12.0/cbpp-12.0-amd64-20230611.iso |
+| crunchbang++ | 11.2 |  | https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-amd64-20230514.iso |
+| crunchbang++ | 10.1 |  | https://github.com/CBPP/cbpp/releases/download/v10/cbpp-10.1-amd64-20190713.iso |
+| crunchbang++ | 9.0 |  | https://github.com/CBPP/cbpp/releases/download/v9/cbpp-9.0-amd64-20170621.iso |
 | debian | 13.1.0 | standard | https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-standard.iso |
 | debian | 13.1.0 | cinnamon | https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-cinnamon.iso |
 | debian | 13.1.0 | gnome | https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-gnome.iso |
@@ -206,9 +210,9 @@
 | edubuntu | 24.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.3-desktop-amd64.iso |
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1ODIyMDQ2NQo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1ODIyMDQ2NQo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1ODIyMDQ2NQo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1ODI0NjY1Mgo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1ODI0NjY1Mgo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1ODI0NjY1Mgo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -573,6 +577,7 @@
 | ubuntu-mate | 25.04 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso |
 | ubuntu-mate | daily-live |  | https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/questing-desktop-amd64.iso |
 | ubuntu-server | daily-live |  | https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-amd64.iso |
+| ubuntu-server | 25.10 |  | https://releases.ubuntu.com/25.10/ubuntu-25.10-beta-live-server-amd64.iso |
 | ubuntu-server | 25.04 |  | https://releases.ubuntu.com/25.04/ubuntu-25.04-live-server-amd64.iso |
 | ubuntu-server | 24.04 |  | https://releases.ubuntu.com/24.04/ubuntu-24.04.2-live-server-amd64.iso |
 | ubuntu-server | 22.04 |  | https://releases.ubuntu.com/22.04/ubuntu-22.04.5-live-server-amd64.iso |
