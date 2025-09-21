@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://netactuate.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
+archcraft latest:                    https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1034,9 +1034,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1ODM5Mjk2MAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1ODM5Mjk2MAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1ODM5Mjk2MAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1ODQxOTg3NQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1ODQxOTg3NQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1ODQxOTg3NQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1932,7 +1932,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250905-linux61.iso
+maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250905-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2639,10 +2639,10 @@ function get_() {
 
 pclinuxos
 
-pclinuxos 2025.08 kde:               https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2025.08.iso
-pclinuxos 2025.08 kde-darkstar:      https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-darkstar-2025.08.iso
-pclinuxos 2025.08 mate:              https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-mate-2025-08.iso
-pclinuxos 2025.08 xfce:              https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-xfce-2025.08.iso
+pclinuxos 2025.09 kde:               https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2025.09.iso
+pclinuxos 2025.09 kde-darkstar:      https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-darkstar-2025.09.iso
+pclinuxos 2025.09 mate:              https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-mate-2025-09.iso
+pclinuxos 2025.09 xfce:              https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-xfce-2025.09.iso
 
 # Template file for 'pclinuxos'
 OSNAME="pclinuxos"
@@ -2653,7 +2653,7 @@ HOMEPAGE="https://www.pclinuxos.com"
 CREDENTIALS="-"
 
 
-RELEASES="2025.08"
+RELEASES="2025.09"
 EDITIONS="xfce mate kde-darkstar kde"
 
 function get_() {
@@ -3673,7 +3673,7 @@ function get_() {
 ubuntu-server
 
 ubuntu-server daily-live:            https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-amd64.iso
-ubuntu-server 25.10:                 https://releases.ubuntu.com/25.10/ubuntu-25.10-beta-live-server-amd64.iso
+ubuntu-server 25.10:                 https://releases.ubuntu.com/25.10/
 ubuntu-server 25.04:                 https://releases.ubuntu.com/25.04/ubuntu-25.04-live-server-amd64.iso
 ubuntu-server 24.04:                 https://releases.ubuntu.com/24.04/ubuntu-24.04.2-live-server-amd64.iso
 ubuntu-24.04.3-live-server-amd64.iso
