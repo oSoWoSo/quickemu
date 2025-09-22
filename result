@@ -63,12 +63,15 @@ function specific_tweaks() {
 
 alpine
 
+alpine v3.22:                        https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/x86_64/alpine-virt-3.22.1-x86_64.iso
+alpine v3.21:                        https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-virt-3.21.4-x86_64.iso
 alpine v3.20:                        https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-virt-3.20.7-x86_64.iso
-alpine v3.19:                        https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-virt--x86_64.iso
-alpine v3.18:                        https://dl-cdn.alpinelinux.org/alpine/v3.18/releases/x86_64/alpine-virt--x86_64.iso
+alpine v3.19:                        https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-virt-3.19.8-x86_64.iso
+alpine v3.18:                        https://dl-cdn.alpinelinux.org/alpine/v3.18/releases/x86_64/alpine-virt-3.18.12-x86_64.iso
 alpine v3.17:                        https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86_64/alpine-virt-3.17.10-x86_64.iso
-alpine v3.15:                        https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-virt--x86_64.iso
-alpine v3.14:                        https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-virt--x86_64.iso
+alpine v3.16:                        https://dl-cdn.alpinelinux.org/alpine/v3.16/releases/x86_64/alpine-virt-3.16.9-x86_64.iso
+alpine v3.15:                        https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-virt-3.15.11-x86_64.iso
+alpine v3.14:                        https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-virt-3.14.10-x86_64.iso
 alpine v3.13:                        https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86_64/alpine-virt-3.13.12-x86_64.iso
 
 # Template file for 'alpine'
@@ -80,7 +83,7 @@ HOMEPAGE="https://alpinelinux.org/"
 CREDENTIALS="-"
 
 
-RELEASES="v3.20 v3.19 v3.18 v3.17 v3.15 v3.14 v3.13"
+RELEASES="v3.22 v3.21 v3.20 v3.19 v3.18 v3.17 v3.16 v3.15 v3.14 v3.13"
 
 
 function get_() {
@@ -220,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
+archcraft latest:                    https://gigenet.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1031,9 +1034,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1ODUyMzA0OQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1ODUyMzA0OQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1ODUyMzA0OQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1ODU0NTQ4NAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1ODU0NTQ4NAo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1ODU0NTQ4NAo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1509,7 +1512,7 @@ function specific_tweaks() {
 
 kali
 
-kali current:                        https://cdimage.kali.org/current/kali-linux-2025.2-installer-amd64.iso
+kali current:                        https://cdimage.kali.org/current/kali-linux-2025.3-installer-amd64.iso
 kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2025-W38-installer-amd64.iso
 
 # Template file for 'kali'
@@ -1929,7 +1932,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250905-linux61.iso
+maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250905-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2881,7 +2884,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3670,7 +3673,7 @@ function get_() {
 ubuntu-server
 
 ubuntu-server daily-live:            https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-amd64.iso
-ubuntu-server 25.10:                 https://releases.ubuntu.com/25.10/ubuntu-25.10-beta-live-server-amd64.iso
+ubuntu-server 25.10:                 https://releases.ubuntu.com/25.10/
 ubuntu-server 25.04:                 https://releases.ubuntu.com/25.04/ubuntu-25.04-live-server-amd64.iso
 ubuntu-server 24.04:                 https://releases.ubuntu.com/24.04/ubuntu-24.04.2-live-server-amd64.iso
 ubuntu-24.04.3-live-server-amd64.iso

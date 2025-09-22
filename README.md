@@ -13,12 +13,15 @@
 | alma | 8 | boot | https://repo.almalinux.org/almalinux/8/isos/x86_64/AlmaLinux-8-latest-x86_64-boot.iso |
 | alma | 8 | minimal | https://repo.almalinux.org/almalinux/8/isos/x86_64/AlmaLinux-8-latest-x86_64-minimal.iso |
 | alma | 8 | dvd | https://repo.almalinux.org/almalinux/8/isos/x86_64/AlmaLinux-8-latest-x86_64-dvd.iso |
+| alpine | v3.22 |  | https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/x86_64/alpine-virt-3.22.1-x86_64.iso |
+| alpine | v3.21 |  | https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-virt-3.21.4-x86_64.iso |
 | alpine | v3.20 |  | https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-virt-3.20.7-x86_64.iso |
-| alpine | v3.19 |  | https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-virt--x86_64.iso |
-| alpine | v3.18 |  | https://dl-cdn.alpinelinux.org/alpine/v3.18/releases/x86_64/alpine-virt--x86_64.iso |
+| alpine | v3.19 |  | https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-virt-3.19.8-x86_64.iso |
+| alpine | v3.18 |  | https://dl-cdn.alpinelinux.org/alpine/v3.18/releases/x86_64/alpine-virt-3.18.12-x86_64.iso |
 | alpine | v3.17 |  | https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86_64/alpine-virt-3.17.10-x86_64.iso |
-| alpine | v3.15 |  | https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-virt--x86_64.iso |
-| alpine | v3.14 |  | https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-virt--x86_64.iso |
+| alpine | v3.16 |  | https://dl-cdn.alpinelinux.org/alpine/v3.16/releases/x86_64/alpine-virt-3.16.9-x86_64.iso |
+| alpine | v3.15 |  | https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-virt-3.15.11-x86_64.iso |
+| alpine | v3.14 |  | https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-virt-3.14.10-x86_64.iso |
 | alpine | v3.13 |  | https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86_64/alpine-virt-3.13.12-x86_64.iso |
 | android | 9.0 | x86_64 | https://mirrors.gigenet.com/OSDN/android-x86/71931/android-x86_64-9.0-r2.iso |
 | android | 9.0 | x86 | https://mirrors.gigenet.com/OSDN/android-x86/71931/android-x86-9.0-r2.iso |
@@ -66,7 +69,7 @@
 | antix | 21 | core-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso |
 | antix | 21 | base-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso |
 | antix | 21 | full-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso |
-| archcraft | latest |  | https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso |
+| archcraft | latest |  | https://gigenet.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso |
 | archlinux | latest |  | https://mirror.rackspace.com/archlinux/iso/2025.09.01/archlinux-2025.09.01-x86_64.iso |
 | artixlinux | 20250407 | base-dinit | https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-openrc | https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso |
@@ -207,9 +210,9 @@
 | edubuntu | 24.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.3-desktop-amd64.iso |
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1ODUyMzA0OQo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1ODUyMzA0OQo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1ODUyMzA0OQo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1ODU0NTQ4NAo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1ODU0NTQ4NAo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1ODU0NTQ4NAo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -294,7 +297,7 @@
 | haiku | r1beta4 | x86_gcc2h | http://mirror.rit.edu/haiku/r1beta4/haiku-r1beta4-x86_gcc2h-anyboot.iso |
 | haiku | r1beta3 | x86_64 | http://mirror.rit.edu/haiku/r1beta3/haiku-r1beta3-x86_64-anyboot.iso |
 | haiku | r1beta3 | x86_gcc2h | http://mirror.rit.edu/haiku/r1beta3/haiku-r1beta3-x86_gcc2h-anyboot.iso |
-| kali | current |  | https://cdimage.kali.org/current/kali-linux-2025.2-installer-amd64.iso |
+| kali | current |  | https://cdimage.kali.org/current/kali-linux-2025.3-installer-amd64.iso |
 | kali | kali-weekly |  | https://cdimage.kali.org/kali-weekly/kali-linux-2025-W38-installer-amd64.iso |
 | kdeneon | user |  | https://files.kde.org/neon/images/user/current/neon-user-20250918-0744.iso |
 | kdeneon | testing |  | https://files.kde.org/neon/images/testing/current/neon-testing-20250916-0032.iso |
@@ -351,7 +354,7 @@
 | lubuntu | 24.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.3-desktop-amd64.iso |
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso |
-| maboxlinux | latest |  | https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250905-linux61.iso |
+| maboxlinux | latest |  | https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250905-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -484,7 +487,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/ |
@@ -572,7 +575,7 @@
 | ubuntu-mate | 25.04 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso |
 | ubuntu-mate | daily-live |  | https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/questing-desktop-amd64.iso |
 | ubuntu-server | daily-live |  | https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-amd64.iso |
-| ubuntu-server | 25.10 |  | https://releases.ubuntu.com/25.10/ubuntu-25.10-beta-live-server-amd64.iso |
+| ubuntu-server | 25.10 |  | https://releases.ubuntu.com/25.10/ |
 | ubuntu-server | 25.04 |  | https://releases.ubuntu.com/25.04/ubuntu-25.04-live-server-amd64.iso |
 | ubuntu-server | 24.04 |  | https://releases.ubuntu.com/24.04/ubuntu-24.04.2-live-server-amd64.iso |
 | ubuntu-server | 22.04 |  | https://releases.ubuntu.com/22.04/ubuntu-22.04.5-live-server-amd64.iso |
