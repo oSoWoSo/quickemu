@@ -13,15 +13,12 @@
 | alma | 8 | boot | [url](https://repo.almalinux.org/almalinux/8/isos/x86_64/AlmaLinux-8-latest-x86_64-boot.iso) |
 | alma | 8 | minimal | [url](https://repo.almalinux.org/almalinux/8/isos/x86_64/AlmaLinux-8-latest-x86_64-minimal.iso) |
 | alma | 8 | dvd | [url](https://repo.almalinux.org/almalinux/8/isos/x86_64/AlmaLinux-8-latest-x86_64-dvd.iso) |
-| alpine | v3.22 |  | [url](https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/x86_64/alpine-virt-3.22.1-x86_64.iso) |
-| alpine | v3.21 |  | [url](https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-virt-3.21.4-x86_64.iso) |
 | alpine | v3.20 |  | [url](https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-virt-3.20.7-x86_64.iso) |
-| alpine | v3.19 |  | [url](https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-virt-3.19.8-x86_64.iso) |
-| alpine | v3.18 |  | [url](https://dl-cdn.alpinelinux.org/alpine/v3.18/releases/x86_64/alpine-virt-3.18.12-x86_64.iso) |
+| alpine | v3.19 |  | [url](https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-virt--x86_64.iso) |
+| alpine | v3.18 |  | [url](https://dl-cdn.alpinelinux.org/alpine/v3.18/releases/x86_64/alpine-virt--x86_64.iso) |
 | alpine | v3.17 |  | [url](https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86_64/alpine-virt-3.17.10-x86_64.iso) |
-| alpine | v3.16 |  | [url](https://dl-cdn.alpinelinux.org/alpine/v3.16/releases/x86_64/alpine-virt-3.16.9-x86_64.iso) |
-| alpine | v3.15 |  | [url](https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-virt-3.15.11-x86_64.iso) |
-| alpine | v3.14 |  | [url](https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-virt-3.14.10-x86_64.iso) |
+| alpine | v3.15 |  | [url](https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-virt--x86_64.iso) |
+| alpine | v3.14 |  | [url](https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-virt--x86_64.iso) |
 | alpine | v3.13 |  | [url](https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86_64/alpine-virt-3.13.12-x86_64.iso) |
 | android | 9.0 | x86_64 | [url](https://mirrors.gigenet.com/OSDN/android-x86/71931/android-x86_64-9.0-r2.iso) |
 | android | 9.0 | x86 | [url](https://mirrors.gigenet.com/OSDN/android-x86/71931/android-x86-9.0-r2.iso) |
@@ -69,7 +66,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://versaweb.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso) |
+| archcraft | latest |  | [url](https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2025.09.01/archlinux-2025.09.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
@@ -211,9 +208,9 @@
 | edubuntu | 24.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.3-desktop-amd64.iso) |
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1ODUwNjI3Ngo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc1ODUwNjI3Ngo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1ODUwNjI3Ngo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1ODUyMzA0OQo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc1ODUyMzA0OQo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc1ODUyMzA0OQo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -355,7 +352,7 @@
 | lubuntu | 24.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.3-desktop-amd64.iso) |
 | lubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso) |
 | lubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso) |
-| maboxlinux | latest |  | [url](https://versaweb.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250905-linux61.iso) |
+| maboxlinux | latest |  | [url](https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250905-linux61.iso) |
 | macos | mojave |  | [url](http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg) |
 | macos | catalina |  | [url](http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg) |
 | macos | big-sur |  | [url](http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg) |
@@ -488,7 +485,7 @@
 | proxmox-ve | 5.4-1 |  | [url](https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso) |
 | pureos | 10.3 | gnome | [url](https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso) |
 | pureos | 10.3 | plasma | [url](https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso) |
-| reactos | latest |  | [url](https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
+| reactos | latest |  | [url](https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
 | rebornos | latest |  | **ERROR** |
 | redox-os | livedisk | demo | [url](https://static.redox-os.org/img/x86_64/) |
 | redox-os | livedisk | desktop | [url](https://static.redox-os.org/img/x86_64/) |
@@ -582,7 +579,7 @@
 | ubuntu-mate | 25.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso) |
 | ubuntu-mate | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/questing-desktop-amd64.iso) |
 | ubuntu-server | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-amd64.iso) |
-| ubuntu-server | 25.10 |  | [url](https://releases.ubuntu.com/25.10/) |
+| ubuntu-server | 25.10 |  | [url](https://releases.ubuntu.com/25.10/ubuntu-25.10-beta-live-server-amd64.iso) |
 | ubuntu-server | 25.04 |  | [url](https://releases.ubuntu.com/25.04/ubuntu-25.04-live-server-amd64.iso) |
 | ubuntu-server | 24.04 |  | [url](https://releases.ubuntu.com/24.04/ubuntu-24.04.2-live-server-amd64.iso) |
 | ubuntu-24.04.3-live-server-amd64.iso | ubuntu-24.04.3-live-server-amd64.iso | ubuntu-24.04.3-live-server-amd64.iso | **ERROR** |
