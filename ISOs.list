@@ -41,6 +41,7 @@ centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250429.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250506.2-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250915.0-x86_64-dvd1.iso
+centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250923.0-x86_64-dvd1.iso
 chimera         https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso
 clear           https://cdn.download.clearlinux.org/releases/43300/clear/clear-43300-live-desktop.iso
 clear           https://cdn.download.clearlinux.org/releases/43400/clear/clear-43400-live-desktop.iso
@@ -97,6 +98,7 @@ ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core193/ip
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core194/ipfire-2.29-core194-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core197/ipfire-2.29-core197-x86_64.iso
 kali            https://cdimage.kali.org/kali-2025.1a/kali-linux-2025.1a-installer-amd64.iso
+kali            https://cdimage.kali.org/kali-2025.3/kali-linux-2025.3-installer-amd64.iso
 kaos            https://downloads.sourceforge.net/kaosx/KaOS-2025.03-x86_64.iso
 kdeneon         https://files.kde.org/neon/images/user/20250314-2153/neon-user-20250314-2153.iso
 kdeneon         https://files.kde.org/neon/images/user/20250320-1319/neon-user-20250320-1319.iso
@@ -187,6 +189,7 @@ tails           https://mirrors.edge.kernel.org/tails/stable/tails-amd64-7.0/tai
 truenas         https://download.sys.truenas.net/TrueNAS-Fangtooth/25.04.0/TrueNAS-SCALE-25.04.0.iso
 truenas         https://download.sys.truenas.net/TrueNAS-SCALE-Fangtooth-RC/25.04-RC.1/TrueNAS-SCALE-25.04-RC.1.iso
 tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202504150920.iso
+tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202509231610.iso
 ubuntu          https://releases.ubuntu.com/25.04/ubuntu-25.04-beta-desktop-amd64.iso
 ubuntu          https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
 ubuntu          https://releases.ubuntu.com/25.10/ubuntu-25.10-beta-desktop-amd64.iso
