@@ -8,7 +8,7 @@ CREDENTIALS="-"
 
 
 RELEASES="uefi bios"
-EDITIONS="Trixie Bullseye Bookworm"
+EDITIONS="Trixie Forky Bookworm"
 
 function get_() {
     local HASH=""
