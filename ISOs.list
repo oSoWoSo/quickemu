@@ -94,6 +94,7 @@ ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core197/ip
 kali            https://cdimage.kali.org/kali-2025.1a/kali-linux-2025.1a-installer-amd64.iso
 kali            https://cdimage.kali.org/kali-2025.3/kali-linux-2025.3-installer-amd64.iso
 kaos            https://downloads.sourceforge.net/kaosx/KaOS-2025.03-x86_64.iso
+kaos            https://downloads.sourceforge.net/kaosx/KaOS-2025.09-x86_64.iso
 kdeneon         https://files.kde.org/neon/images/user/20250314-2153/neon-user-20250314-2153.iso
 kdeneon         https://files.kde.org/neon/images/user/20250320-1319/neon-user-20250320-1319.iso
 kdeneon         https://files.kde.org/neon/images/user/20250327-1319/neon-user-20250327-1319.iso
