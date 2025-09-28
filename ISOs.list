@@ -71,6 +71,7 @@ emmabuntus      https://downloads.sourceforge.net/emmabuntus/emmabuntus-de5-amd6
 endeavour       https://mirrors.gigenet.com/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso
 exe             https://downloads.sourceforge.net/exegnulinux/exegnu64_daedalus-20250508.iso
 extix           https://downloads.sourceforge.net/extix/extix-25.3-64bit-kde-waydroid-2910mb-250305.iso
+extrox          https://downloads.sourceforge.net/extrox/extrox-2.0_RC1-20250927_1924.iso
 fedora          https://mirror.us.leaseweb.net/fedora/linux/releases/test/42_Beta/Workstation/x86_64/iso/Fedora-Workstation-Live-42_Beta-1.4.x86_64.iso
 fedora          https://mirrors.xmission.com/fedora/linux/releases/42/Workstation/x86_64/iso/Fedora-Workstation-Live-42-1.1.x86_64.iso
 ferenos         https://downloads.sourceforge.net/feren-os-development-builds/Feren%20OS%20on%2022.04%20Beta%202.iso
@@ -81,6 +82,7 @@ freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14.3-BETA2-amd64-dvd1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14.3-BETA3-amd64-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA3-amd64-20250921-26988773d1da-280233-disc1.iso
+freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA4-amd64-20250927-d2b670b27f37-280334-disc1.iso
 funos           https://downloads.sourceforge.net/funos/funos-24.04.2-stable.20250303.iso
 funos           https://downloads.sourceforge.net/funos/funos-25.04-stable.20250420.iso
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-dr460nized-linux-zen-250308.iso
