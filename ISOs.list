@@ -75,6 +75,7 @@ emmabuntus      https://downloads.sourceforge.net/emmabuntus/emmabuntus-de5-amd6
 endeavour       https://mirrors.gigenet.com/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso
 exe             https://downloads.sourceforge.net/exegnulinux/exegnu64_daedalus-20250508.iso
 extix           https://downloads.sourceforge.net/extix/extix-25.3-64bit-kde-waydroid-2910mb-250305.iso
+exton           http://ftp.svenskalinuxforeningen.se/distributions/exton/puppex-slack64-uefi-nvidia-1430mb-251002.iso
 extrox          https://downloads.sourceforge.net/extrox/extrox-2.0_RC1-20250927_1924.iso
 fedora          https://mirror.us.leaseweb.net/fedora/linux/releases/test/42_Beta/Workstation/x86_64/iso/Fedora-Workstation-Live-42_Beta-1.4.x86_64.iso
 fedora          https://mirrors.xmission.com/fedora/linux/releases/42/Workstation/x86_64/iso/Fedora-Workstation-Live-42-1.1.x86_64.iso
@@ -93,6 +94,7 @@ garuda          https://downloads.sourceforge.net/garuda-linux/garuda-dr460nized
 gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix25_10-kde-rolling.iso
 gobo            https://gobolinux.neonsys.org/017.01-ISO/GoboLinux-017.01-x86_64.iso
 grml            https://download.grml.org/grml-full-2025.05-amd64.iso
+hardenedbsd     https://installers.hardenedbsd.org/pub/14-stable/amd64/amd64/installer/build-30/disc1.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core192/ipfire-2.29-core192-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core193/ipfire-2.29-core193-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core194/ipfire-2.29-core194-x86_64.iso
@@ -159,6 +161,7 @@ popos           https://iso.pop-os.org/24.04/amd64/intel/19/pop-os_24.04_amd64_i
 porteus         https://mirror.yandex.ru/mirrors/porteus/x86_64/Porteus-v5.1/Porteus-LXQT-v5.1-alpha2-x86_64.iso
 porteux         https://github.com/porteux/porteux/releases/download/v2.0/porteux-v2.0-current-gnome-48.0-x86_64.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-backup-server_3.4-1.iso
+proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-BETA-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-5.8-x64.r1.iso
