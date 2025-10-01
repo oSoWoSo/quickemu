@@ -35,6 +35,7 @@ bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.5-2-20
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.16.8-6-2025.09.25-x86_64.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250330.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250422.iso
+calam           https://downloads.sourceforge.net/blue-arch-installer/Calam-Arch-Installer-2025-10.iso
 calculate       https://mirror.calculate-linux.org/release/20250409/cld-20250409-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250313-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250318-x86_64.iso
@@ -221,6 +222,7 @@ voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.04.1-am
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.04.2-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-beta-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-beta2-amd64.iso
+xigmanas        https://sourceforge.net/projects/xigmanas/files/XigmaNAS-14.3.0.5/14.3.0.5.10483/XigmaNAS-x64-LiveCD-14.3.0.5.10483.iso/download
 xubuntu         https://cdimage.ubuntu.com/xubuntu/releases/25.04/beta/xubuntu-25.04-beta-desktop-amd64.iso
 xubuntu         https://cdimage.ubuntu.com/xubuntu/releases/25.10/beta/xubuntu-25.10-beta-desktop-amd64.iso
 xubuntu         https://cdimages.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso
