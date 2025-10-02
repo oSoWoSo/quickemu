@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso |
 | antix | 21 | base-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso |
 | antix | 21 | full-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso |
-| archcraft | latest |  | https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso |
+| archcraft | latest |  | https://versaweb.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso |
 | archlinux | latest |  | https://mirror.rackspace.com/archlinux/iso/2025.10.01/archlinux-2025.10.01-x86_64.iso |
 | artixlinux | 20250407 | base-dinit | https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-openrc | https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso |
@@ -206,9 +206,9 @@
 | edubuntu | 24.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.3-desktop-amd64.iso |
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1OTM4Njg0Mwo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1OTM4Njg0Mwo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1OTM4Njg0Mwo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1OTQwOTI2Mwo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1OTQwOTI2Mwo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1OTQwOTI2Mwo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -295,7 +295,7 @@
 | haiku | r1beta3 | x86_gcc2h | http://mirror.rit.edu/haiku/r1beta3/haiku-r1beta3-x86_gcc2h-anyboot.iso |
 | kali | current |  | https://cdimage.kali.org/current/kali-linux-2025.3-installer-amd64.iso |
 | kali | kali-weekly |  | https://cdimage.kali.org/kali-weekly/kali-linux-2025-W39-installer-amd64.iso |
-| kdeneon | user |  | https://files.kde.org/neon/images/user/current/neon-user-20250925-0744.iso |
+| kdeneon | user |  | https://files.kde.org/neon/images/user/current/neon-user-20251002-0758.iso |
 | kdeneon | testing |  | https://files.kde.org/neon/images/testing/current/neon-testing-20250923-0032.iso |
 | kdeneon | unstable |  | https://files.kde.org/neon/images/unstable/current/neon-unstable-20250921-1146.iso |
 | kdeneon | developer |  | https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250901-0038.iso |
@@ -350,7 +350,7 @@
 | lubuntu | 24.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.3-desktop-amd64.iso |
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso |
-| maboxlinux | latest |  | https://psychz.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso |
+| maboxlinux | latest |  | https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -443,9 +443,6 @@
 | parrotsec | 6.2 | home | https://download.parrot.sh/parrot/iso/6.2/Parrot-home-6.2_amd64.iso |
 | parrotsec | 6.2 | htb | https://download.parrot.sh/parrot/iso/6.2/Parrot-htb-6.2_amd64.iso |
 | parrotsec | 6.2 | security | https://download.parrot.sh/parrot/iso/6.2/Parrot-security-6.2_amd64.iso |
-| pbpuppy | 250701 | BookwormPup64-ghtest | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250701.iso |
-| pbpuppy | 250701 | S15Pup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250701.iso |
-| pbpuppy | 250701 | VoidPup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250701.iso |
 | pbpuppy | 250809 | BookwormPup64-ghtest | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250809.iso |
 | pbpuppy | 250809 | S15Pup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250809.iso |
 | pbpuppy | 250809 | VoidPup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250809.iso |
@@ -455,6 +452,9 @@
 | pbpuppy | 250907 | BookwormPup64-ghtest | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250907.iso |
 | pbpuppy | 250907 | S15Pup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250907.iso |
 | pbpuppy | 250907 | VoidPup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250907.iso |
+| pbpuppy | 251001 | BookwormPup64-ghtest | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251001.iso |
+| pbpuppy | 251001 | S15Pup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251001.iso |
+| pbpuppy | 251001 | VoidPup64 | https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251001.iso |
 | pclinuxos | 2025.09 | kde | https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2025.09.iso |
 | pclinuxos | 2025.09 | kde-darkstar | https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-darkstar-2025.09.iso |
 | pclinuxos | 2025.09 | mate | https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-mate-2025-09.iso |
