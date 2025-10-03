@@ -102,7 +102,7 @@ android
 
 android 9.0 x86_64:                  https://mirrors.gigenet.com/OSDN/android-x86/71931/android-x86_64-9.0-r2.iso
 android 9.0 x86:                     https://mirrors.gigenet.com/OSDN/android-x86/71931/android-x86-9.0-r2.iso
-android 8.1 x86_64:                  https://mirrors.gigenet.com/OSDN/android-x86/69704/android-x86_64-8.1-r6.iso
+android 8.1 x86_64:                  https://mirrors.gigenet.com/OSDN/android-x86/71931/
 android 8.1 x86:                     https://mirrors.gigenet.com/OSDN/android-x86/69704/android-x86-8.1-r6.iso
 android 7.1 x86_64:                  https://mirrors.gigenet.com/OSDN/android-x86/67834/android-x86_64-7.1-r5.iso
 android 7.1 x86:                     https://mirrors.gigenet.com/OSDN/android-x86/67834/android-x86-7.1-r5.iso
@@ -435,9 +435,9 @@ function specific_tweaks() {
 
 biglinux
 
-biglinux 2025-09-29 k616:            https://iso.biglinux.com.br/biglinux_2025-09-29_k616.iso
-biglinux 2025-09-29 k612:            https://iso.biglinux.com.br/biglinux_2025-09-29_k612.iso
-biglinux 2025-09-29 k66:             https://iso.biglinux.com.br/biglinux_2025-09-29_k66.iso
+biglinux 2025-10-03 k616:            https://iso.biglinux.com.br/biglinux_2025-10-03_k616.iso
+biglinux 2025-10-03 k612:            https://iso.biglinux.com.br/biglinux_2025-10-03_k612.iso
+biglinux 2025-10-03 k66:             https://iso.biglinux.com.br/biglinux_2025-10-03_k66.iso
 
 # Template file for 'biglinux'
 OSNAME="biglinux"
@@ -448,7 +448,7 @@ HOMEPAGE="https://www.biglinux.com.br"
 CREDENTIALS="-"
 
 
-RELEASES="2025-09-29"
+RELEASES="2025-10-03"
 EDITIONS="k66 k616 k612"
 
 function get_() {
@@ -1030,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1OTQ5NTY3Mgo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1OTQ5NTY3Mgo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1OTQ5NTY3Mgo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1OTUxNjM1Ngo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1OTUxNjM1Ngo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1OTUxNjM1Ngo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1928,7 +1928,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
+maboxlinux latest:                   https://versaweb.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2880,7 +2880,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
