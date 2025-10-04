@@ -196,6 +196,7 @@ tails           https://download.tails.net/tails/stable/tails-amd64-6.14.1/tails
 tails           https://download.tails.net/tails/stable/tails-amd64-6.14.2/tails-amd64-6.14.2.iso
 tails           https://download.tails.net/tails/stable/tails-amd64-6.15/tails-amd64-6.15.iso
 talos           https://github.com/siderolabs/talos/releases/download/v1.11.2/metal-amd64.iso
+tealinux        https://pinguin.dinus.ac.id/iso/tealinuxos/TeaLinuxOS-Arch/2025/release/tealinux-celia-cosmic-2025.09.17-x86_64.iso
 tinycore        https://distro.ibiblio.org/tinycorelinux/16.x/x86/release/TinyCore-16.2.iso
 truenas         https://download.sys.truenas.net/TrueNAS-Fangtooth/25.04.0/TrueNAS-SCALE-25.04.0.iso
 truenas         https://download.sys.truenas.net/TrueNAS-SCALE-Fangtooth-RC/25.04-RC.1/TrueNAS-SCALE-25.04-RC.1.iso
