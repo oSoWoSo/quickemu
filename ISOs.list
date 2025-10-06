@@ -158,6 +158,7 @@ openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250312.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250320.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250420.x86_64.iso
+openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20251006.x86_64.iso
 openmandriva    https://downloads.sourceforge.net/openmandriva/openmandriva-6.0-plasma6.x11-slim.x86_64.iso
 opensuse        https://download.opensuse.org/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso
 pardus          https://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.4-GNOME-amd64.iso
@@ -243,6 +244,7 @@ voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.04.2-am
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-beta-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-beta2-amd64.iso
 xigmanas        https://sourceforge.net/projects/xigmanas/files/XigmaNAS-14.3.0.5/14.3.0.5.10483/XigmaNAS-x64-LiveCD-14.3.0.5.10483.iso/download
+xivastudio      https://iso.biglinux.com.br/xivastudio_2025-10-06_xanmodlts612.iso
 xray            https://downloads.sourceforge.net/xray-os/Xray_OS-2025.10.03-x86_64.iso
 xubuntu         https://cdimage.ubuntu.com/xubuntu/releases/25.04/beta/xubuntu-25.04-beta-desktop-amd64.iso
 xubuntu         https://cdimage.ubuntu.com/xubuntu/releases/25.10/beta/xubuntu-25.10-beta-desktop-amd64.iso
