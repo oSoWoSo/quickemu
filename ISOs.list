@@ -99,6 +99,7 @@ garuda          https://downloads.sourceforge.net/garuda-linux/garuda-cinnamon-l
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-dr460nized-linux-zen-250308.iso
 gnomeos         https://os.gnome.org/download/921729/live_921729-x86_64.iso
 gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix25_10-kde-rolling.iso
+gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix25_10-kde.iso
 gobo            https://gobolinux.neonsys.org/017.01-ISO/GoboLinux-017.01-x86_64.iso
 greenbang       https://downloads.sourceforge.net/archbang/greenbang-0510-x86_64.iso
 grml            https://download.grml.org/grml-full-2025.05-amd64.iso
@@ -120,6 +121,7 @@ kdeneon         https://files.kde.org/neon/images/user/20250501-1319/neon-user-2
 kdeneon         https://files.kde.org/neon/images/user/20250508-1319/neon-user-20250508-1319.iso
 kdeneon         https://files.kde.org/neon/images/user/20250925-0744/neon-user-20250925-0744.iso
 kdeneon         https://files.kde.org/neon/images/user/20251002-0758/neon-user-20251002-0758.iso
+kicksecure      https://www.kicksecure.com/download/iso/18.0.4.1/Kicksecure-LXQt-18.0.4.1.Intel_AMD64.iso
 kiro            https://downloads.sourceforge.net/kiro/kiro-v25.10.01.01-x86_64.iso
 kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.04/beta/kubuntu-25.04-beta-desktop-amd64.iso
 kubuntu         https://cdimages.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso
