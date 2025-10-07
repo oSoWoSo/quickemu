@@ -3,6 +3,9 @@
 | OS|RELEASE|EDITION|ISO |
 |---|---|---|---|
 |  |  |  | **ERROR** |
+| crunchbang++ | 11.2 |  | **ERROR** |
+| crunchbang++ | 10.1 |  | **ERROR** |
+| crunchbang++ | 9.0 |  | **ERROR** |
 | rebornos | latest |  | **ERROR** |
 |  |  |  | **ERROR** |
 | truenas-core | 13 |  | **ERROR** |
