@@ -48,6 +48,7 @@ centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250506.2-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250923.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250929.0-x86_64-dvd1.iso
+centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251006.0-x86_64-dvd1.iso
 chimera         https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso
 clear           https://cdn.download.clearlinux.org/releases/43300/clear/clear-43300-live-desktop.iso
 clear           https://cdn.download.clearlinux.org/releases/43400/clear/clear-43400-live-desktop.iso
