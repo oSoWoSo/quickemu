@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://gigenet.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
+archcraft latest:                    https://netactuate.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -248,7 +248,7 @@ function get_() {
 
 archlinux
 
-archlinux latest:                    https://mirror.rackspace.com/archlinux/iso/2025.10.01/archlinux-2025.10.01-x86_64.iso
+archlinux latest:                    https://mirror.rackspace.com/archlinux
 
 # Template file for 'archlinux'
 OSNAME="archlinux"
@@ -1030,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1OTg4ODEyMAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1OTg4ODEyMAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1OTg4ODEyMAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1OTkwNTM0NQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1OTkwNTM0NQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1OTkwNTM0NQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1928,7 +1928,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
+maboxlinux latest:                   https://psychz.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2102,12 +2102,12 @@ function specific_tweaks() {
 
 manjaro
 
-manjaro xfce full:                   https://download.manjaro.org/xfce/25.0.8/manjaro-xfce-25.0.8-250902-linux612.iso
-manjaro xfce minimal:                https://download.manjaro.org/xfce/25.0.8/manjaro-xfce-25.0.8-minimal-250903-linux612.iso
-manjaro gnome full:                  https://download.manjaro.org/gnome/25.0.8/manjaro-gnome-25.0.8-250902-linux612.iso
-manjaro gnome minimal:               https://download.manjaro.org/gnome/25.0.8/manjaro-gnome-25.0.8-minimal-250902-linux612.iso
-manjaro plasma full:                 https://download.manjaro.org/kde/25.0.8/manjaro-kde-25.0.8-250902-linux612.iso
-manjaro plasma minimal:              https://download.manjaro.org/kde/25.0.8/manjaro-kde-25.0.8-minimal-250902-linux612.iso
+manjaro xfce full:                   https://download.manjaro.org/xfce/25.0.9/manjaro-xfce-25.0.9-251003-linux612.iso
+manjaro xfce minimal:                https://download.manjaro.org/xfce/25.0.9/manjaro-xfce-25.0.9-minimal-250903-linux612.iso
+manjaro gnome full:                  https://download.manjaro.org/gnome/25.0.9/manjaro-gnome-25.0.9-251003-linux612.iso
+manjaro gnome minimal:               https://download.manjaro.org/gnome/25.0.9/manjaro-gnome-25.0.9-minimal-251003-linux612.iso
+manjaro plasma full:                 https://download.manjaro.org/kde/25.0.9/manjaro-kde-25.0.9-251003-linux612.iso
+manjaro plasma minimal:              https://download.manjaro.org/kde/25.0.9/manjaro-kde-25.0.9-minimal-251003-linux612.iso
 manjaro cinnamon full:               https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-250609-linux612.iso
 manjaro cinnamon minimal:            https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-minimal-250609-linux612.iso
 manjaro i3 full:                     https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-250609-linux612.iso
@@ -2880,7 +2880,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://phoenixnap.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
