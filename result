@@ -668,8 +668,8 @@ crunchbang++
 
 crunchbang++ 12.0:                   https://github.com/CBPP/cbpp/releases/download/v12.0/cbpp-12.0-amd64-20230611.iso
 crunchbang++ 11.2:                   https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-amd64-20230514.iso
-crunchbang++ 10.1:                   https://github.com/CBPP/cbpp/releases/download/v10/cbpp-10.1-amd64-20190713.iso
-crunchbang++ 9.0:                    https://github.com/CBPP/cbpp/releases/download/v9/cbpp-9.0-amd64-20170621.iso
+crunchbang++ 10.1:                   
+crunchbang++ 9.0:                    
 
 # Template file for 'crunchbang++'
 OSNAME="crunchbang++"
@@ -1030,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1OTk3NDU1NQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1OTk3NDU1Ngo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1OTk3NDU1Ngo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1OTk5MTc1OAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1OTk5MTc1OAo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1OTk5MTc1OAo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -2880,7 +2880,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://cytranet-dal.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
