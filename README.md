@@ -135,6 +135,8 @@
 | chimeralinux | latest | gnome | https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso |
 | crunchbang++ | 12.0 |  | https://github.com/CBPP/cbpp/releases/download/v12.0/cbpp-12.0-amd64-20230611.iso |
 | crunchbang++ | 11.2 |  | https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-amd64-20230514.iso |
+| crunchbang++ | 10.1 |  | https://github.com/CBPP/cbpp/releases/download/v10/cbpp-10.1-amd64-20190713.iso |
+| crunchbang++ | 9.0 |  | https://github.com/CBPP/cbpp/releases/download/v9/cbpp-9.0-amd64-20170621.iso |
 | debian | 13.1.0 | standard | https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-standard.iso |
 | debian | 13.1.0 | cinnamon | https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-cinnamon.iso |
 | debian | 13.1.0 | gnome | https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-gnome.iso |
@@ -203,10 +205,11 @@
 | dsl | 2024.rc7 | cdrom | https://www.damnsmalllinux.org/download/dsl-2024.rc7.iso |
 | edubuntu | 24.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.3-desktop-amd64.iso |
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
+| edubuntu | 25.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc1OTk5MTc1OAo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc1OTk5MTc1OAo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc1OTk5MTc1OAo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2MDAxNDI2Mgo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2MDAxNDI2Mgo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2MDAxNDI2Mgo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -293,7 +296,7 @@
 | haiku | r1beta3 | x86_gcc2h | http://mirror.rit.edu/haiku/r1beta3/haiku-r1beta3-x86_gcc2h-anyboot.iso |
 | kali | current |  | https://cdimage.kali.org/current/kali-linux-2025.3-installer-amd64.iso |
 | kali | kali-weekly |  | https://cdimage.kali.org/kali-weekly/kali-linux-2025-W40-installer-amd64.iso |
-| kdeneon | user |  | https://files.kde.org/neon/images/user/current/neon-user-20251002-0758.iso |
+| kdeneon | user |  | https://files.kde.org/neon/images/user/current/neon-user-20251009-0746.iso |
 | kdeneon | testing |  | https://files.kde.org/neon/images/testing/current/neon-testing-20251007-0032.iso |
 | kdeneon | unstable |  | https://files.kde.org/neon/images/unstable/current/neon-unstable-20251005-1147.iso |
 | kdeneon | developer |  | https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250901-0038.iso |
@@ -308,6 +311,7 @@
 | kubuntu | 22.04 |  | https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04.5-desktop-amd64.iso |
 | kubuntu | 24.04 |  | https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04.3-desktop-amd64.iso |
 | kubuntu | 25.04 |  | https://cdimage.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso |
+| kubuntu | 25.10 |  | https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso |
 | kubuntu | daily-live |  | https://cdimage.ubuntu.com/kubuntu/daily-live/current/questing-desktop-amd64.iso |
 | linuxlite | 6.6 |  | https://sourceforge.net/projects/linux-lite/files/6.6/linux-lite-6.6-64bit.iso |
 | linuxlite | 6.4 |  | https://sourceforge.net/projects/linux-lite/files/6.4/linux-lite-6.4-64bit.iso |
@@ -347,6 +351,7 @@
 | lubuntu | 22.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04.5-desktop-amd64.iso |
 | lubuntu | 24.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.3-desktop-amd64.iso |
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
+| lubuntu | 25.10 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso |
 | maboxlinux | latest |  | https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
@@ -560,6 +565,7 @@
 | ubuntu-budgie | 22.04 |  | https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04.5-desktop-amd64.iso |
 | ubuntu-budgie | 24.04 |  | https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.3-desktop-amd64.iso |
 | ubuntu-budgie | 25.04 |  | https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.04/release/ubuntu-budgie-25.04-desktop-amd64.iso |
+| ubuntu-budgie | 25.10 |  | https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.10/release/ubuntu-budgie-25.10-desktop-amd64.iso |
 | ubuntu-budgie | daily-live |  | https://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/questing-desktop-amd64.iso |
 | ubuntu-mate | 16.04 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04.6-desktop-amd64.iso |
 | ubuntu-mate | 18.04 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-amd64.iso |
@@ -567,6 +573,7 @@
 | ubuntu-mate | 22.04 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.5-desktop-amd64.iso |
 | ubuntu-mate | 24.04 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.3-desktop-amd64.iso |
 | ubuntu-mate | 25.04 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso |
+| ubuntu-mate | 25.10 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/25.10/release/ubuntu-mate-25.10-desktop-amd64.iso |
 | ubuntu-mate | daily-live |  | https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/questing-desktop-amd64.iso |
 | ubuntu-server | daily-live |  | https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-amd64.iso |
 | ubuntu-server | 25.10 |  | https://releases.ubuntu.com/25.10/ubuntu-25.10-beta-live-server-amd64.iso |
@@ -587,6 +594,7 @@
 | ubuntu | 22.04 |  | https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso |
 | ubuntu | 24.04 |  | https://releases.ubuntu.com/24.04/ubuntu-24.04.2-desktop-amd64.iso |
 | ubuntu | 25.04 |  | https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso |
+| ubuntu | 25.10 |  | https://releases.ubuntu.com/25.10/ubuntu-25.10-beta-desktop-amd64.iso |
 | ubuntu | daily-live |  | https://cdimage.ubuntu.com/ubuntu/daily-live/current/questing-desktop-amd64.iso |
 | ubuntustudio | 16.04 |  | https://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/ubuntustudio-16.04.5-dvd-amd64.iso |
 | ubuntustudio | 18.04 |  | https://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-amd64.iso |
@@ -594,6 +602,7 @@
 | ubuntustudio | 22.04 |  | https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04.5-dvd-amd64.iso |
 | ubuntustudio | 24.04 |  | https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/release/ubuntustudio-24.04.3-dvd-amd64.iso |
 | ubuntustudio | 25.04 |  | https://cdimage.ubuntu.com/ubuntustudio/releases/25.04/release/ubuntustudio-25.04-desktop-amd64.iso |
+| ubuntustudio | 25.10 |  | https://cdimage.ubuntu.com/ubuntustudio/releases/25.10/release/ubuntustudio-25.10-desktop-amd64.iso |
 | vanillaos | 22.10-r8 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso |
 | vanillaos | 22.10-r7.5 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso |
 | vanillaos | 22.10-r7 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso |
@@ -636,5 +645,6 @@
 | xubuntu | 22.04 |  | https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.5-desktop-amd64.iso |
 | xubuntu | 24.04 |  | https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.3-desktop-amd64.iso |
 | xubuntu | 25.04 |  | https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso |
+| xubuntu | 25.10 |  | https://cdimage.ubuntu.com/xubuntu/releases/25.10/release/xubuntu-25.10-desktop-amd64.iso |
 | xubuntu | daily-live |  | https://cdimage.ubuntu.com/xubuntu/daily-live/current/questing-desktop-amd64.iso |
 

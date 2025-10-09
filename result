@@ -668,8 +668,8 @@ crunchbang++
 
 crunchbang++ 12.0:                   https://github.com/CBPP/cbpp/releases/download/v12.0/cbpp-12.0-amd64-20230611.iso
 crunchbang++ 11.2:                   https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-amd64-20230514.iso
-crunchbang++ 10.1:                   
-crunchbang++ 9.0:                    
+crunchbang++ 10.1:                   https://github.com/CBPP/cbpp/releases/download/v10/cbpp-10.1-amd64-20190713.iso
+crunchbang++ 9.0:                    https://github.com/CBPP/cbpp/releases/download/v9/cbpp-9.0-amd64-20170621.iso
 
 # Template file for 'crunchbang++'
 OSNAME="crunchbang++"
@@ -961,6 +961,7 @@ edubuntu
 
 edubuntu 24.04:                      https://cdimage.ubuntu.com/edubuntu/releases/24.04/release/edubuntu-24.04.3-desktop-amd64.iso
 edubuntu 25.04:                      https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso
+edubuntu 25.10:                      https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso
 edubuntu daily-live:                 https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'edubuntu'
@@ -1030,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc1OTk5MTc1OAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc1OTk5MTc1OAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc1OTk5MTc1OAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MDAxNDI2Mgo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MDAxNDI2Mgo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MDAxNDI2Mgo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1539,7 +1540,7 @@ function specific_tweaks() {
 
 kdeneon
 
-kdeneon user:                        https://files.kde.org/neon/images/user/current/neon-user-20251002-0758.iso
+kdeneon user:                        https://files.kde.org/neon/images/user/current/neon-user-20251009-0746.iso
 kdeneon testing:                     https://files.kde.org/neon/images/testing/current/neon-testing-20251007-0032.iso
 kdeneon unstable:                    https://files.kde.org/neon/images/unstable/current/neon-unstable-20251005-1147.iso
 kdeneon developer:                   https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250901-0038.iso
@@ -1653,6 +1654,7 @@ kubuntu 20.04:                       https://cdimage.ubuntu.com/kubuntu/releases
 kubuntu 22.04:                       https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04.5-desktop-amd64.iso
 kubuntu 24.04:                       https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04.3-desktop-amd64.iso
 kubuntu 25.04:                       https://cdimage.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso
+kubuntu 25.10:                       https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso
 kubuntu daily-live:                  https://cdimage.ubuntu.com/kubuntu/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'kubuntu'
@@ -1859,6 +1861,7 @@ lubuntu 20.04:                       https://cdimage.ubuntu.com/lubuntu/releases
 lubuntu 22.04:                       https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04.5-desktop-amd64.iso
 lubuntu 24.04:                       https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.3-desktop-amd64.iso
 lubuntu 25.04:                       https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso
+lubuntu 25.10:                       https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso
 lubuntu daily-live:                  https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'lubuntu'
@@ -3520,6 +3523,7 @@ ubuntu-budgie 20.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/re
 ubuntu-budgie 22.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04.5-desktop-amd64.iso
 ubuntu-budgie 24.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.3-desktop-amd64.iso
 ubuntu-budgie 25.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.04/release/ubuntu-budgie-25.04-desktop-amd64.iso
+ubuntu-budgie 25.10:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.10/release/ubuntu-budgie-25.10-desktop-amd64.iso
 ubuntu-budgie daily-live:            https://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'ubuntu-budgie'
@@ -3599,6 +3603,7 @@ ubuntu-mate 20.04:                   https://cdimage.ubuntu.com/ubuntu-mate/rele
 ubuntu-mate 22.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.5-desktop-amd64.iso
 ubuntu-mate 24.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.3-desktop-amd64.iso
 ubuntu-mate 25.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso
+ubuntu-mate 25.10:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/25.10/release/ubuntu-mate-25.10-desktop-amd64.iso
 ubuntu-mate daily-live:              https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'ubuntu-mate'
@@ -3670,6 +3675,7 @@ ubuntu-server
 
 ubuntu-server daily-live:            https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-amd64.iso
 ubuntu-server 25.10:                 https://releases.ubuntu.com/25.10/ubuntu-25.10-beta-live-server-amd64.iso
+ubuntu-25.10-live-server-amd64.iso
 ubuntu-server 25.04:                 https://releases.ubuntu.com/25.04/ubuntu-25.04-live-server-amd64.iso
 ubuntu-server 24.04:                 https://releases.ubuntu.com/24.04/ubuntu-24.04.2-live-server-amd64.iso
 ubuntu-24.04.3-live-server-amd64.iso
@@ -3741,6 +3747,7 @@ ubuntu-unity
 
 ubuntu-unity 24.04:                  https://cdimage.ubuntu.com/ubuntu-unity/releases/24.04/release/ubuntu-unity-24.04.3-desktop-amd64.iso
 ubuntu-unity 25.04:                  https://cdimage.ubuntu.com/ubuntu-unity/releases/25.04/release/ubuntu-unity-25.04-desktop-amd64.iso
+Ubuntu Unity 25.10 is currently unavailable. Please select other OS/Release combination
 ubuntu-unity daily-live:             https://cdimage.ubuntu.com/ubuntu-unity/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'ubuntu-unity'
@@ -3817,6 +3824,7 @@ ubuntu 20.04:                        https://releases.ubuntu.com/20.04/ubuntu-20
 ubuntu 22.04:                        https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso
 ubuntu 24.04:                        https://releases.ubuntu.com/24.04/ubuntu-24.04.2-desktop-amd64.iso
 ubuntu 25.04:                        https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
+ubuntu 25.10:                        https://releases.ubuntu.com/25.10/ubuntu-25.10-beta-desktop-amd64.iso
 ubuntu daily-live:                   https://cdimage.ubuntu.com/ubuntu/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'ubuntu'
@@ -3891,6 +3899,7 @@ ubuntustudio 20.04:                  https://cdimage.ubuntu.com/ubuntustudio/rel
 ubuntustudio 22.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04.5-dvd-amd64.iso
 ubuntustudio 24.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/release/ubuntustudio-24.04.3-dvd-amd64.iso
 ubuntustudio 25.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/25.04/release/ubuntustudio-25.04-desktop-amd64.iso
+ubuntustudio 25.10:                  https://cdimage.ubuntu.com/ubuntustudio/releases/25.10/release/ubuntustudio-25.10-desktop-amd64.iso
 UbuntuStudio dvd is currently unavailable. Please select other OS/Release combination
 
 # Template file for 'ubuntustudio'
@@ -4178,6 +4187,7 @@ xubuntu 20.04:                       https://cdimage.ubuntu.com/xubuntu/releases
 xubuntu 22.04:                       https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.5-desktop-amd64.iso
 xubuntu 24.04:                       https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.3-desktop-amd64.iso
 xubuntu 25.04:                       https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso
+xubuntu 25.10:                       https://cdimage.ubuntu.com/xubuntu/releases/25.10/release/xubuntu-25.10-desktop-amd64.iso
 xubuntu daily-live:                  https://cdimage.ubuntu.com/xubuntu/daily-live/current/questing-desktop-amd64.iso
 
 # Template file for 'xubuntu'
