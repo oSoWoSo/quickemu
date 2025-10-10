@@ -7,8 +7,8 @@ HOMEPAGE="https://www.biglinux.com.br"
 CREDENTIALS="-"
 
 
-RELEASES="2025-10-06"
-EDITIONS="k66 k616 k612"
+RELEASES="2025-10-10"
+EDITIONS="k66"
 
 function get_() {
     local HASH=""
