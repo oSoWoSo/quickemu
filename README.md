@@ -207,9 +207,9 @@
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | 25.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2MDMzNzQzOAo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2MDMzNzQzOAo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2MDMzNzQzOAo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2MDM1OTg2Mwo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2MDM1OTg2Mwo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2MDM1OTg2Mwo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -244,6 +244,12 @@
 | garuda | latest | xfce | https://iso.builds.garudalinux.org/iso/latest/garuda/xfce/latest.iso |
 | gentoo | latest | minimal | https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/20250803T163732Z/install-amd64-minimal-20250803T163732Z.iso |
 | gentoo | latest | livegui | https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/20250720T165240Z/livegui-amd64-20250720T165240Z.iso |
+| ghostbsd | 25.02-R14.3p2 | mate | https://download.ghostbsd.org/releases/amd64/25.02-R14.3p2/GhostBSD-25.02-R14.3p2.iso |
+| ghostbsd | 25.02-R14.3p2 | xfce | https://download.ghostbsd.org/releases/amd64/25.02-R14.3p2/GhostBSD-25.02-R14.3p2-XFCE.iso |
+| ghostbsd | 25.01-R14.2p1 | mate | https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1.iso |
+| ghostbsd | 25.01-R14.2p1 | xfce | https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso |
+| ghostbsd | 24.10.1 | mate | https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1.iso |
+| ghostbsd | 24.10.1 | xfce | https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso |
 | gnomeos | nightly |  | https://1270333429.rsc.cdn77.org/nightly/925940/live_925940-x86_64.iso |
 | gnomeos | 49.rc |  | https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso |
 | gnomeos | 49.beta |  | https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso |
@@ -347,7 +353,7 @@
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | 25.10 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/questing-desktop-amd64.iso |
-| maboxlinux | latest |  | https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso |
+| maboxlinux | latest |  | https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -481,7 +487,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/ |
@@ -499,7 +505,7 @@
 | slackware | 14.1 |  | https://slackware.nl/slackware/slackware-iso/slackware64-14.1-iso/slackware64-14.1-install-dvd.iso |
 | slackware | 14.0 |  | https://slackware.nl/slackware/slackware-iso/slackware64-14.0-iso/slackware64-14.0-install-dvd.iso |
 | slackware | 13.37 |  | https://slackware.nl/slackware/slackware-iso/slackware64-13.37-iso/slackware64-13.37-install-dvd.iso |
-| slax | latest | debian | https://ftp.fi.muni.cz/pub/linux/slax/Slax-12.x/slax-64bit-debian-12.2.0.iso |
+| slax | latest | debian | https://ftp.fi.muni.cz/pub/linux/slax/Slax-12.x/ |
 | slax | latest | slackware | https://ftp.fi.muni.cz/pub/linux/slax/Slax-15.x/slax-64bit-slackware-15.0.4.iso |
 | slint | 15.0-5 |  | https://slackware.uk/slint/x86_64/slint-15.0/iso/slint64-15.0-5.iso |
 | slitaz | core |  | http://mirror.slitaz.org/iso/rolling/slitaz-rolling-core.iso |

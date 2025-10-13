@@ -1031,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MDMzNzQzOAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MDMzNzQzOAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MDMzNzQzOAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MDM1OTg2Mwo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MDM1OTg2Mwo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MDM1OTg2Mwo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1347,6 +1347,38 @@ function specific_tweaks() {
 
 
 ghostbsd
+
+ghostbsd 25.02-R14.3p2 mate:         https://download.ghostbsd.org/releases/amd64/25.02-R14.3p2/GhostBSD-25.02-R14.3p2.iso
+ghostbsd 25.02-R14.3p2 xfce:         https://download.ghostbsd.org/releases/amd64/25.02-R14.3p2/GhostBSD-25.02-R14.3p2-XFCE.iso
+ghostbsd 25.01-R14.2p1 mate:         https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1.iso
+ghostbsd 25.01-R14.2p1 xfce:         https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso
+ghostbsd 24.10.1 mate:               https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1.iso
+ghostbsd 24.10.1 xfce:               https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso
+
+# Template file for 'ghostbsd'
+OSNAME="ghostbsd"
+PRETTY="GhostBSD"
+BASEDOF="FreeBSD"
+DESCRIPTION="Simple, elegant desktop BSD Operating System"
+HOMEPAGE="https://www.ghostbsd.org"
+CREDENTIALS="-"
+freebsd
+
+RELEASES="25.02-R14.3p2 25.01-R14.2p1 24.10.1"
+EDITIONS="xfce mate"
+
+function get_() {
+    local ISO=""
+    local URL="https://download.ghostbsd.org/releases/amd64/${RELEASE}"
+    local HASH=""
+    case ${EDITION} in
+        mate) ISO="GhostBSD-${RELEASE}.iso";;
+        xfce) ISO="GhostBSD-${RELEASE}-XFCE.iso";;
+    esac
+    HASH=$(web_pipe "${URL}/${ISO}.sha256" | grep "${ISO}" | cut -d' ' -f4)
+    echo "${URL}/${ISO} ${HASH}"
+}
+
 
 gnomeos
 
@@ -1899,7 +1931,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
+maboxlinux latest:                   https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2852,7 +2884,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3069,7 +3101,7 @@ function specific_tweaks() {
 
 slax
 
-slax latest debian:                  https://ftp.fi.muni.cz/pub/linux/slax/Slax-12.x/slax-64bit-debian-12.2.0.iso
+slax latest debian:                  https://ftp.fi.muni.cz/pub/linux/slax/Slax-12.x/
 slax latest slackware:               https://ftp.fi.muni.cz/pub/linux/slax/Slax-15.x/slax-64bit-slackware-15.0.4.iso
 
 # Template file for 'slax'
