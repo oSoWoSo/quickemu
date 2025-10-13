@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://cytranet-dal.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
+archcraft latest:                    https://psychz.dl.sourceforge.net/project/archcraft/v25.07/archcraft-2025.07.12-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -361,7 +361,7 @@ function specific_tweaks() {
 
 batocera
 
-batocera last:                       https://mirrors.o2switch.fr/batocera/x86_64/stable/last/batocera-x86_64-41-20250106.img.gz
+batocera 42:                         https://mirrors.o2switch.fr/batocera/x86_64/stable/42/batocera-x86_64-42-20251006.img.gz
 batocera 41:                         https://mirrors.o2switch.fr/batocera/x86_64/stable/41/batocera-x86_64-41-20250106.img.gz
 batocera 40:                         https://mirrors.o2switch.fr/batocera/x86_64/stable/40/batocera-x86_64-40-20240801.img.gz
 batocera 39:                         https://mirrors.o2switch.fr/batocera/x86_64/stable/39/batocera-x86_64-x86_64-39-20240304.img.gz
@@ -376,7 +376,7 @@ HOMEPAGE="https://batocera.org"
 CREDENTIALS="-"
 GUEST="batocera"
 IMAGE_TYPE="img"
-RELEASES="last 41 40 39 38"
+RELEASES="42 41 40 39 38"
 
 
 function get_() {
@@ -1031,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MDI5MzgwNwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MDI5MzgwNwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MDI5MzgwNwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MDMyMDYzNQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MDMyMDYzNQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MDMyMDYzNQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -2884,7 +2884,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"

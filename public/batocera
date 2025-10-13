@@ -7,7 +7,7 @@ HOMEPAGE="https://batocera.org"
 CREDENTIALS="-"
 GUEST="batocera"
 IMAGE_TYPE="img"
-RELEASES="last 41 40 39 38"
+RELEASES="42 41 40 39 38"
 
 
 function get_() {
