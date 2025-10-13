@@ -165,6 +165,7 @@ manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-kde-25.0.
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-kde-25.0.1-250506-linux612.iso
 max             https://ftp.rediris.es/mirror/MaX-Linux/MaXdesktop/ultima-version/MAX-12.0-FINAL-live-amd64-20250307_1411.iso
 midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/3.2.3/MidnightBSD-3.2.3--amd64-disc1.iso
+mint            https://mirror.rackspace.com/linuxmint/iso/debian/lmde-7-cinnamon-64bit.iso
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.10/MocaccinoOS-GNOME-0.20251001.iso.tar.xz
 mx              https://downloads.sourceforge.net/mx-linux/MX-23.6_x64.iso
 mx              https://downloads.sourceforge.net/mx-linux/MX-25_Xfce_beta1_x64.iso
@@ -222,6 +223,7 @@ tails           https://download.tails.net/tails/stable/tails-amd64-6.13/tails-a
 tails           https://download.tails.net/tails/stable/tails-amd64-6.14.1/tails-amd64-6.14.1.iso
 tails           https://download.tails.net/tails/stable/tails-amd64-6.14.2/tails-amd64-6.14.2.iso
 tails           https://download.tails.net/tails/stable/tails-amd64-6.15/tails-amd64-6.15.iso
+tails           https://mirrors.edge.kernel.org/tails/stable/tails-amd64-7.1/tails-amd64-7.1.iso
 talos           https://github.com/siderolabs/talos/releases/download/v1.11.2/metal-amd64.iso
 tealinux        https://pinguin.dinus.ac.id/iso/tealinuxos/TeaLinuxOS-Arch/2025/release/tealinux-celia-cosmic-2025.09.17-x86_64.iso
 tinycore        https://distro.ibiblio.org/tinycorelinux/16.x/x86/release/TinyCore-16.2.iso
