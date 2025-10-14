@@ -24,6 +24,7 @@ artix           https://download.artixlinux.org/iso/artix-cinnamon-openrc-202504
 artix           https://download.artixlinux.org/iso/artix-xfce-s6-20250310-x86_64.iso
 asmi            https://github.com/teejee2008/asmi-linux/releases/download/v25.10/asmi-linux-25.10-amd64.iso
 athena          https://downloads.sourceforge.net/athena-iso/athenaos-rolling-x86_64.iso
+athena          https://github.com/Athena-OS/athena/releases/download/v25.11/athenaos-live-x86_64.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.3.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.4.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.6.iso
@@ -115,6 +116,7 @@ gnuinos         https://www.gnuinos.org/mirror/daedalus/installer-iso/gnuinos-da
 gobo            https://gobolinux.neonsys.org/017.01-ISO/GoboLinux-017.01-x86_64.iso
 greenbang       https://downloads.sourceforge.net/archbang/greenbang-0510-x86_64.iso
 grml            https://download.grml.org/grml-full-2025.05-amd64.iso
+hackeros        ^https://downloads.sourceforge.net/hackeros/HackerOS-V3.3.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/14-stable/amd64/amd64/installer/build-30/disc1.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/15-stable/amd64/amd64/installer/build-3/disc1.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core192/ipfire-2.29-core192-x86_64.iso
@@ -218,6 +220,7 @@ smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/202510
 smoothwall      https://downloads.sourceforge.net/smoothwall/Express-3.1-SP6-x86_64.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-2025.03-x86_64-lxqt.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-7.7-x86_64-lxqt.iso
+spirit          https://downloads.sourceforge.net/spirit-os/spiritOS-16.2.iso
 synex           https://downloads.sourceforge.net/synex/synex-gnome-13.1-amd64.hybrid.iso
 syslinuxos      https://downloads.sourceforge.net/syslinuxos/SysLinuxOS-13-Mate_amd64.iso
 systemrescue    https://downloads.sourceforge.net/systemrescuecd/systemrescue-12.00-amd64.iso
