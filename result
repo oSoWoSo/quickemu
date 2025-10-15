@@ -4,7 +4,7 @@ agarimos latest plasma:              https://sourceforge.net/projects/agarimos/f
 agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.51_1-20251008.iso
 agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.51_1-20251011.iso
 agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.50_1-20251006.iso
-agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-x86_64-6.12.50_1-20251004.iso
+agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-x86_64-6.12.52_1-20251015.iso
 
 # Template file for 'agarimos'
 OSNAME="agarimos"
@@ -1031,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MDUzMjc1NAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MDUzMjc1NAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MDUzMjc1NAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MDU1MzMzOQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MDU1MzMzOQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MDU1MzMzOQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1382,7 +1382,7 @@ function get_() {
 
 gnomeos
 
-gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/928315/live_928315-x86_64.iso
+gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/928591/live_928591-x86_64.iso
 gnomeos 49.rc:                       https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso
 gnomeos 49.beta:                     https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso
 gnomeos 49.alpha.1:                  https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso
@@ -1931,7 +1931,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
+maboxlinux latest:                   https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2888,7 +2888,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://cytranet-dal.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3036,6 +3036,11 @@ rockylinux
 
 siduction
 
+siduction latest kde:                https://mirrors.dotsrc.org/siduction/iso/Shine_on/kde/siduction-2025.1.0-Shine_on-kde-amd64-202503241412.iso
+siduction latest lxqt:               https://mirrors.dotsrc.org/siduction/iso/Shine_on/lxqt/siduction-2024.1.0-Shine_on-lxqt-amd64-202412261736.iso
+siduction latest nox:                https://mirrors.dotsrc.org/siduction/iso/Shine_on/nox/siduction-2024.1.0-Shine_on-nox-amd64-202412261752.iso
+siduction latest xfce:               https://mirrors.dotsrc.org/siduction/iso/Shine_on/xfce/siduction-2024.1.0-Shine_on-xfce-amd64-202412261728.iso
+siduction latest xorg:               https://mirrors.dotsrc.org/siduction/iso/Shine_on/xorg/siduction-2024.1.0-Shine_on-xorg-amd64-202412261745.iso
 
 # Template file for 'siduction'
 OSNAME="siduction"
@@ -3046,8 +3051,8 @@ HOMEPAGE="https://siduction.org"
 CREDENTIALS="-"
 
 
-RELEASES=""
-EDITIONS=""
+RELEASES="latest"
+EDITIONS="xorg xfce nox lxqt kde"
 
 function get_() {
     local HASH=""
@@ -3969,16 +3974,16 @@ function get_() {
 vanillaos
 
 vanillaos 22.10-r8:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso
-vanillaos 22.10-r7.5:                https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso
-vanillaos 22.10-r7:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso
-vanillaos 22.10-r6:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r6/VanillaOS-22.10-all.20230123.iso
-vanillaos 22.10-r5:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r5/VanillaOS-22.10-all.20230116.iso
-vanillaos 22.10-r4:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r4/VanillaOS-22.10-all.20230115.iso
-vanillaos 22.10-r3:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r3/VanillaOS-22.10-all.20230105.iso
-vanillaos 22.10-r2:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r2/VanillaOS-22.10-all.20221231.iso
-vanillaos 22.10-r1:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r1/VanillaOS-22.10-all.20221230.iso
-vanillaos 22.10:                     https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso
-vanillaos 2.0:                       https://github.com/Vanilla-OS/live-iso/releases/download/2.0/VanillaOS-2-stable.20250220.iso
+vanillaos 22.10-r7.5:                
+vanillaos 22.10-r7:                  
+vanillaos 22.10-r6:                  
+vanillaos 22.10-r5:                  
+vanillaos 22.10-r4:                  
+vanillaos 22.10-r3:                  
+vanillaos 22.10-r2:                  
+vanillaos 22.10-r1:                  
+vanillaos 22.10:                     
+vanillaos 2.0:                       
 
 # Template file for 'vanillaos'
 OSNAME="vanillaos"
