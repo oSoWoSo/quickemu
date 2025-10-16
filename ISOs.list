@@ -17,6 +17,7 @@ arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2
 arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.10.01-x86_64.iso
 archbang        https://downloads.sourceforge.net/archbang/archbang-0904-x86_64.iso
 archcraft       https://downloads.sourceforge.net/archcraft/archcraft-2025.04.24-x86_64.iso
+archcraft       https://downloads.sourceforge.net/archcraft/archcraft-2025.10.16-x86_64.iso
 archman         https://downloads.sourceforge.net/archman-os/Archman_Xfce-20251008.iso
 arco            https://downloads.sourceforge.net/arconetpro/arcopro-v25.04.01-x86_64.iso
 arco            https://downloads.sourceforge.net/arconetpro/arcopro-v25.05.01-x86_64.iso
@@ -118,6 +119,7 @@ gobo            https://gobolinux.neonsys.org/017.01-ISO/GoboLinux-017.01-x86_64
 greenbang       https://downloads.sourceforge.net/archbang/greenbang-0510-x86_64.iso
 grml            https://download.grml.org/grml-full-2025.05-amd64.iso
 hackeros        ^https://downloads.sourceforge.net/hackeros/HackerOS-V3.3.iso
+hackeros        https://downloads.sourceforge.net/hackeros/HackerOS-V3.3.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/14-stable/amd64/amd64/installer/build-30/disc1.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/15-stable/amd64/amd64/installer/build-3/disc1.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core192/ipfire-2.29-core192-x86_64.iso
@@ -137,6 +139,7 @@ kdeneon         https://files.kde.org/neon/images/user/20250508-1319/neon-user-2
 kdeneon         https://files.kde.org/neon/images/user/20250925-0744/neon-user-20250925-0744.iso
 kdeneon         https://files.kde.org/neon/images/user/20251002-0758/neon-user-20251002-0758.iso
 kdeneon         https://files.kde.org/neon/images/user/20251009-0746/neon-user-20251009-0746.iso
+kdeneon         https://files.kde.org/neon/images/user/20251016-0745/neon-user-20251016-0745.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.4.1/Kicksecure-LXQt-18.0.4.1.Intel_AMD64.iso
 kiro            https://downloads.sourceforge.net/kiro/kiro-v25.10.01.01-x86_64.iso
 kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.04/beta/kubuntu-25.04-beta-desktop-amd64.iso
@@ -220,6 +223,7 @@ shanios         https://downloads.sourceforge.net/shanios/signed_shanios-gnome-2
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.10.0-amd64-BD-1.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.11.0-amd64-BD-1.iso
 smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/20251002T000521Z/smartos-20251002T000521Z.iso
+smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/20251016T000143Z/smartos-20251016T000143Z.iso
 smoothwall      https://downloads.sourceforge.net/smoothwall/Express-3.1-SP6-x86_64.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-2025.03-x86_64-lxqt.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-7.7-x86_64-lxqt.iso
