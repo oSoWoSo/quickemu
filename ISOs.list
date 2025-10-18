@@ -104,6 +104,7 @@ freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14.3-BETA2-amd64-dvd1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14.3-BETA3-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-BETA1-amd64-disc1.iso
+freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-BETA2-amd64-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA3-amd64-20250921-26988773d1da-280233-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA4-amd64-20250927-d2b670b27f37-280334-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA5-amd64-20251004-1c0898edf28f-280541-disc1.iso
@@ -220,6 +221,7 @@ rescuezilla     https://github.com/rescuezilla/rescuezilla/releases/download/2.6
 rosa            https://mirror.rosa.ru/rosa/rosa13/iso/ROSA.FRESH.13/plasma6/ROSA.FRESH.PLASMA6.13.0.x86_64.iso
 runtu           https://downloads.sourceforge.net/runtu/runtu-xfce-24.04-amd64_20250315.iso
 sdesk           https://stevestudios.net/wp-content/uploads/2025/05/sdesk-2025.05.06-x86_64.iso
+sdesk           https://stevestudios.net/wp-content/uploads/2025/10/sdesk-2025.10.17-quartz-x86_64.iso
 shanios         https://downloads.sourceforge.net/shanios/signed_shanios-gnome-2025.10.05-x86_64.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.10.0-amd64-BD-1.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.11.0-amd64-BD-1.iso
