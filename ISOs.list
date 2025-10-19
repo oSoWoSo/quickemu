@@ -151,6 +151,7 @@ kumander        https://dl.kumander.org/kumander-linux-2.0-live-amd64.iso
 kumander        https://dl.kumander.org/kumander-linux-2.1-live-amd64.iso
 lastos          https://downloads.sourceforge.net/lastoslinux/LastOSLinux_LMDE7_amd64_2025-09-29_2110.iso
 lernstick       https://releases.lernstick.ch/lernstick12/lernstick_debian12_edu-mini_2025-04-06.iso
+lingmo          https://downloads.sourceforge.net/lingmo-os/lingmo-os-3.0.5-25R06-stable-desktop-amd64.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.03.1-noble-lts.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04-noble-lts.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04.1-noble-lts.iso
@@ -185,6 +186,7 @@ nitrux          https://downloads.sourceforge.net/nitruxos/nitrux-nx-desktop-pla
 nobara          https://nobara-images.nobaraproject.org/Nobara-42-Official-2025-05-13.iso
 obarun          https://cloud.server.obarun.org/iso/2025.04.28/obarun-JWM-2025.04.28-x86_64.iso
 obarun          https://cloud.server.obarun.org/iso/2025.04.30/obarun-JWM-2025.04.30-x86_64.iso
+omarchy         https://iso.omarchy.org/omarchy-3.1.0.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250312.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250320.x86_64.iso
