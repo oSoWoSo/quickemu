@@ -7,7 +7,7 @@ HOMEPAGE="https://alpinelinux.org/"
 CREDENTIALS="-"
 
 
-RELEASES="v3.22 v3.21 v3.20 v3.19 v3.18 v3.17 v3.16 v3.15 v3.14 v3.13"
+RELEASES="v3.22 v3.21 v3.20 v3.19 v3.18 v3.17 v3.16 v3.15 v3.14"
 
 
 function get_() {
