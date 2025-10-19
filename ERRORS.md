@@ -3,6 +3,7 @@
 | OS|RELEASE|EDITION|ISO |
 |---|---|---|---|
 |  |  |  | **ERROR** |
+|  |  |  | **ERROR** |
 | rebornos | latest |  | **ERROR** |
 |  |  |  | **ERROR** |
 | truenas-core | 13 |  | **ERROR** |
@@ -13,10 +14,5 @@
 | Ubuntu | Unity | 25.10 | **ERROR** |
 | Ubuntu | daily-live | is | **ERROR** |
 | UbuntuStudio | dvd | is | **ERROR** |
-| vanillaos | 22.10-r3 |  | **ERROR** |
-| vanillaos | 22.10-r2 |  | **ERROR** |
-| vanillaos | 22.10-r1 |  | **ERROR** |
-| vanillaos | 22.10 |  | **ERROR** |
-| vanillaos | 2.0 |  | **ERROR** |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
