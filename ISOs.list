@@ -43,6 +43,7 @@ bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.3-9-20
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.5-2-2025.05.08-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.16.10-1-2025.10.02-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.16.8-6-2025.09.25-x86_64.iso
+bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.17.3-1-2025.10.19-x86_64.iso
 bros            https://downloads.sourceforge.net/bros/BrOS-13.1.1_amd64_hybrid.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250330.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250422.iso
@@ -215,6 +216,7 @@ proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-1.is
 proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-BETA-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-5.8-x64.r1.iso
+q4os            https://downloads.sourceforge.net/q4os/q4os-6.1-x64-tde.r1.1-testing.iso
 qubes           https://ftp.qubes-os.org/iso/Qubes-R4.3.0-rc2-x86_64.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.03.04-x86_64.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.04.26-x86_64.iso
