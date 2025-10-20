@@ -49,6 +49,7 @@ cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-l
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250422.iso
 calam           https://downloads.sourceforge.net/blue-arch-installer/Calam-Arch-Installer-2025-10.iso
 calculate       https://mirror.calculate-linux.org/release/20250409/cld-20250409-x86_64.iso
+calculate       https://mirror.calculate-linux.org/release/20251020/cld-20251020-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250313-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250318-x86_64.iso
 centos          https://ftp.udx.icscoe.jp/Linux/CentOS-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250303.3-x86_64-dvd1.iso
