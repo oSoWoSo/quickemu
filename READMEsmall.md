@@ -68,7 +68,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
+| archcraft | latest |  | [url](https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2025.10.01/archlinux-2025.10.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
@@ -110,9 +110,9 @@
 | batocera | 38 |  | [url](https://mirrors.o2switch.fr/batocera/x86_64/stable/38/batocera-x86_64-x86_64-38-20231014.img.gz) |
 | bazzite | latest | gnome | [url](https://download.bazzite.gg/bazzite-gnome-stable-amd64.iso) |
 | bazzite | latest | kde | [url](https://download.bazzite.gg/bazzite-stable-amd64.iso) |
-| biglinux | 2025-10-10 | k617 | [url](https://iso.biglinux.com.br/biglinux_2025-10-10_k617.iso) |
-| biglinux | 2025-10-10 | k612 | [url](https://iso.biglinux.com.br/biglinux_2025-10-10_k612.iso) |
-| biglinux | 2025-10-10 | k66 | [url](https://iso.biglinux.com.br/biglinux_2025-10-10_k66.iso) |
+| biglinux | 2025-10-21 | k617 | [url](https://iso.biglinux.com.br/biglinux_2025-10-21_k617.iso) |
+| biglinux | 2025-10-21 | k612 | [url](https://iso.biglinux.com.br/biglinux_2025-10-21_k612.iso) |
+| biglinux | 2025-10-21 | k66 | [url](https://iso.biglinux.com.br/biglinux_2025-10-21_k66.iso) |
 | blendos | latest |  | [url](https://git.blendos.co/api/v4/projects/32/jobs/artifacts/main/raw/blendOS.iso?job=build-job) |
 | bodhi | 7.0.0 | standard | [url](https://sourceforge.net/projects/bodhilinux/files/7.0.0/bodhi-7.0.0-64.iso) |
 | bodhi | 7.0.0 | hwe | [url](https://sourceforge.net/projects/bodhilinux/files/7.0.0/bodhi-7.0.0-64-hwe.iso) |
@@ -207,9 +207,9 @@
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2MTA1MTE5MQo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2MTA1MTE5MQo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2MTA1MTE5MQo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2MTA3MTcxOQo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2MTA3MTcxOQo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2MTA3MTcxOQo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -291,7 +291,7 @@
 | haiku | r1beta3 | x86_gcc2h | [url](http://mirror.rit.edu/haiku/r1beta3/haiku-r1beta3-x86_gcc2h-anyboot.iso) |
 | kali | current |  | [url](https://cdimage.kali.org/current/kali-linux-2025.3-installer-amd64.iso) |
 | kali | kali-weekly |  | [url](https://cdimage.kali.org/kali-weekly/kali-linux-2025-W42-installer-amd64.iso) |
-| kdeneon | user |  | [url](https://files.kde.org/neon/images/user/current/neon-user-20251016-0745.iso) |
+| kdeneon | user |  | [url](https://files.kde.org/neon/images/user/current/neon-user-20251021-1242.iso) |
 | kdeneon | testing |  | [url](https://files.kde.org/neon/images/testing/current/neon-testing-20251021-0038.iso) |
 | kdeneon | unstable |  | [url](https://files.kde.org/neon/images/unstable/current/neon-unstable-20251019-1147.iso) |
 | kdeneon | developer |  | [url](https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250901-0038.iso) |
@@ -394,7 +394,6 @@
 | nwg-shell | 2025.06.08 |  | [url](https://sourceforge.net/projects/nwg-iso/files/nwg-live-2025.06.08-x86_64.iso) |
 | openbsd | 7.8 |  | [url](https://mirror.leaseweb.com/pub/OpenBSD/7.8/amd64/install78.iso) |
 | openbsd | 7.7 |  | [url](https://mirror.leaseweb.com/pub/OpenBSD/7.7/amd64/install77.iso) |
-| openbsd | 7.6 |  | [url](https://mirror.leaseweb.com/pub/OpenBSD/7.6/amd64/install76.iso) |
 | openindiana | 20250606 | gui | [url](https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-gui-20250606.iso) |
 | openindiana | 20250606 | text | [url](https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-text-20250606.iso) |
 | openindiana | 20250606 | minimal | [url](https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-minimal-20250606.iso) |
@@ -486,7 +485,7 @@
 | proxmox-ve | 5.4-1 |  | [url](https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso) |
 | pureos | 10.3 | gnome | [url](https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso) |
 | pureos | 10.3 | plasma | [url](https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso) |
-| reactos | latest |  | [url](https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
+| reactos | latest |  | [url](https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
 | rebornos | latest |  | **ERROR** |
 | redox-os | livedisk | demo | [url](https://static.redox-os.org/img/x86_64/) |
 | redox-os | livedisk | desktop | [url](https://static.redox-os.org/img/x86_64/) |
@@ -570,7 +569,7 @@
 | ubuntu-budgie | 24.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.3-desktop-amd64.iso) |
 | ubuntu-budgie | 25.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.04/release/ubuntu-budgie-25.04-desktop-amd64.iso) |
 | ubuntu-budgie | 25.10 |  | [url](https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.10/release/ubuntu-budgie-25.10-desktop-amd64.iso) |
-| ubuntu-budgie | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/questing-desktop-amd64.iso) |
+| ubuntu-budgie | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/resolute-desktop-amd64.iso) |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
 | ubuntu-mate | 16.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04.6-desktop-amd64.iso) |

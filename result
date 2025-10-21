@@ -222,7 +222,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
+archcraft latest:                    https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -434,9 +434,9 @@ function specific_tweaks() {
 
 biglinux
 
-biglinux 2025-10-10 k617:            https://iso.biglinux.com.br/biglinux_2025-10-10_k617.iso
-biglinux 2025-10-10 k612:            https://iso.biglinux.com.br/biglinux_2025-10-10_k612.iso
-biglinux 2025-10-10 k66:             https://iso.biglinux.com.br/biglinux_2025-10-10_k66.iso
+biglinux 2025-10-21 k617:            https://iso.biglinux.com.br/biglinux_2025-10-21_k617.iso
+biglinux 2025-10-21 k612:            https://iso.biglinux.com.br/biglinux_2025-10-21_k612.iso
+biglinux 2025-10-21 k66:             https://iso.biglinux.com.br/biglinux_2025-10-21_k66.iso
 
 # Template file for 'biglinux'
 OSNAME="biglinux"
@@ -447,7 +447,7 @@ HOMEPAGE="https://www.biglinux.com.br"
 CREDENTIALS="-"
 
 
-RELEASES="2025-10-10"
+RELEASES="2025-10-21"
 EDITIONS="k66 k617 k612"
 
 function get_() {
@@ -1030,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MTA1MTE5MQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MTA1MTE5MQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MTA1MTE5MQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MTA3MTcxOQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MTA3MTcxOQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MTA3MTcxOQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1507,7 +1507,7 @@ function specific_tweaks() {
 
 kdeneon
 
-kdeneon user:                        https://files.kde.org/neon/images/user/current/neon-user-20251016-0745.iso
+kdeneon user:                        https://files.kde.org/neon/images/user/current/neon-user-20251021-1242.iso
 kdeneon testing:                     https://files.kde.org/neon/images/testing/current/neon-testing-20251021-0038.iso
 kdeneon unstable:                    https://files.kde.org/neon/images/unstable/current/neon-unstable-20251019-1147.iso
 kdeneon developer:                   https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250901-0038.iso
@@ -2359,7 +2359,6 @@ openbsd
 
 openbsd 7.8:                         https://mirror.leaseweb.com/pub/OpenBSD/7.8/amd64/install78.iso
 openbsd 7.7:                         https://mirror.leaseweb.com/pub/OpenBSD/7.7/amd64/install77.iso
-openbsd 7.6:                         https://mirror.leaseweb.com/pub/OpenBSD/7.6/amd64/install76.iso
 
 # Template file for 'openbsd'
 OSNAME="openbsd"
@@ -2370,7 +2369,7 @@ HOMEPAGE="https://www.openbsd.org"
 CREDENTIALS="-"
 GUEST="openbsd"
 
-RELEASES="7.8 7.7 7.6"
+RELEASES="7.8 7.7"
 
 
 function get_() {
@@ -2855,7 +2854,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3496,7 +3495,7 @@ ubuntu-budgie 22.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/re
 ubuntu-budgie 24.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.3-desktop-amd64.iso
 ubuntu-budgie 25.04:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.04/release/ubuntu-budgie-25.04-desktop-amd64.iso
 ubuntu-budgie 25.10:                 https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.10/release/ubuntu-budgie-25.10-desktop-amd64.iso
-ubuntu-budgie daily-live:            https://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/questing-desktop-amd64.iso
+ubuntu-budgie daily-live:            https://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/resolute-desktop-amd64.iso
 
 # Template file for 'ubuntu-budgie'
 OSNAME="ubuntu-budgie"
