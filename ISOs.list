@@ -1,6 +1,7 @@
 4mlinux         https://downloads.sourceforge.net/linux4m/4MLinux-48.0-64bit.iso
 ac              https://downloads.sourceforge.net/accessible-coconut/Accessible-Coconut-24.04-beta-desktop-amd64.iso
 acreetionos     https://iso.acreetionos.org:8448/acreetion/GNOME/AcreetionOS-GNOME-1.0-x86_64.iso
+agarimos        https://downloads.sourceforge.net/agarimos/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.54_1-20251021.iso
 alma            https://repo.almalinux.org/almalinux/9.6-beta/isos/x86_64/AlmaLinux-9.6-beta-1-x86_64-dvd.iso
 alma            https://repo.almalinux.org/almalinux/9.7-beta/isos/x86_64/AlmaLinux-9.7-beta-1-x86_64-dvd.iso
 alpine          https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/x86_64/alpine-extended-3.22.2-x86_64.iso
@@ -67,6 +68,7 @@ clear           https://cdn.download.clearlinux.org/releases/43400/clear/clear-4
 clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2.1-28-amd64.iso
 clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2.1-9-amd64.iso
 clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2.2-5-amd64.iso
+clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.3.0-33-amd64.iso
 crux            https://git.crux.nu/system/iso/releases/download/3.8-rc5/crux-3.8-rc5.iso
 crux            https://git.crux.nu/system/iso/releases/download/3.8/crux-3.8.iso
 debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.10.0-amd64-DVD-1.iso
@@ -145,6 +147,7 @@ kdeneon         https://files.kde.org/neon/images/user/20250925-0744/neon-user-2
 kdeneon         https://files.kde.org/neon/images/user/20251002-0758/neon-user-20251002-0758.iso
 kdeneon         https://files.kde.org/neon/images/user/20251009-0746/neon-user-20251009-0746.iso
 kdeneon         https://files.kde.org/neon/images/user/20251016-0745/neon-user-20251016-0745.iso
+kdeneon         https://files.kde.org/neon/images/user/20251021-1242/neon-user-20251021-1242.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.4.1/Kicksecure-LXQt-18.0.4.1.Intel_AMD64.iso
 kiro            https://downloads.sourceforge.net/kiro/kiro-v25.10.01.01-x86_64.iso
 kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.04/beta/kubuntu-25.04-beta-desktop-amd64.iso
@@ -290,6 +293,7 @@ ultimate        https://downloads.sourceforge.net/ultimateedition/ultimate-arch-
 ultimate        https://downloads.sourceforge.net/ultimateedition/ultimate-arch-developer-2025.10.10-x86_64-cinnamon.iso
 ultimate        https://downloads.sourceforge.net/ultimateedition/ultimate-arch-lite-2025.04.08-x86_64-xfce.iso
 ultramarine     https://images.fyralabs.com/isos/ultramarine/41/ultramarine-flagship-41-live-anaconda-x86_64.iso
+ultramarine     https://images.fyralabs.com/isos/ultramarine/42/ultramarine-flagship-42-live-anaconda-x86_64.iso
 uncom           https://mirror.uncom.tech/iso/uncom-2025.10.12-desktop-amd64-r2.5.21-main-ret-ru-f0cf1.iso
 univention      https://updates.software-univention.de/download/ucs-cds/ucs5.2-1/UCS_5.2-1-amd64.iso
 vendefoul       https://downloads.sourceforge.net/vendefoul-wolf-linux/Vendefoul_Wolf_Excalibur_TDE_k6-16-9_amd64_v280925.iso
