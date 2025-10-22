@@ -195,6 +195,7 @@ obarun          https://cloud.server.obarun.org/iso/2025.04.28/obarun-JWM-2025.0
 obarun          https://cloud.server.obarun.org/iso/2025.04.30/obarun-JWM-2025.04.30-x86_64.iso
 omarchy         https://iso.omarchy.org/omarchy-3.1.0.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
+openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.8/amd64/install78.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250312.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250320.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250420.x86_64.iso
