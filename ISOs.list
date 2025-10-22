@@ -223,6 +223,7 @@ proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-BETA
 proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-5.8-x64.r1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-6.1-x64-tde.r1.1-testing.iso
+q4os            https://downloads.sourceforge.net/q4os/q4os-6.2-x64-tde.r1.iso
 qubes           https://ftp.qubes-os.org/iso/Qubes-R4.3.0-rc2-x86_64.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.03.04-x86_64.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.04.26-x86_64.iso
