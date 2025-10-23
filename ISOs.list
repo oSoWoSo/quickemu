@@ -76,6 +76,7 @@ debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debia
 debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.11.0-amd64-DVD-1.iso
 deepin          http://ftp.snt.utwente.nl/pub/os/linux/deepin-cd/25-alpha/amd64/deepin-desktop-community-25-alpha-amd64.iso
 deepin          https://ftp.gwdg.de/pub/linux/linuxdeepin/releases/23.1/amd64/deepin-desktop-community-23.1-amd64.iso
+dietpi          https://dietpi.com/downloads/images/DietPi_NativePC-UEFI-x86_64-Trixie_Installer.iso
 dragonflybsd    https://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.1_REL.iso
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R1.iso
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R2.iso
@@ -130,6 +131,7 @@ hackeros        ^https://downloads.sourceforge.net/hackeros/HackerOS-V3.3.iso
 hackeros        https://downloads.sourceforge.net/hackeros/HackerOS-V3.3.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/14-stable/amd64/amd64/installer/build-30/disc1.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/15-stable/amd64/amd64/installer/build-3/disc1.iso
+hydrapwk        https://downloads.sourceforge.net/hydrapwk-gnu-linux/hydrapwk-2025.03.251004164-apes-amd64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core192/ipfire-2.29-core192-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core193/ipfire-2.29-core193-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core194/ipfire-2.29-core194-x86_64.iso
