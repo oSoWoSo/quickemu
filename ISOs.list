@@ -159,6 +159,7 @@ kubuntu         https://cdimages.ubuntu.com/kubuntu/releases/25.04/release/kubun
 kumander        https://dl.kumander.org/kumander-linux-2.0-live-amd64.iso
 kumander        https://dl.kumander.org/kumander-linux-2.1-live-amd64.iso
 lastos          https://downloads.sourceforge.net/lastoslinux/LastOSLinux_LMDE7_amd64_2025-09-29_2110.iso
+lazylinux       https://downloads.sourceforge.net/lazylinux/lazylinux-live-x86_64-6.17.4_1-20251023.iso
 lernstick       https://releases.lernstick.ch/lernstick12/lernstick_debian12_edu-mini_2025-04-06.iso
 lingmo          https://downloads.sourceforge.net/lingmo-os/lingmo-os-3.0.5-25R06-stable-desktop-amd64.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.03.1-noble-lts.iso
@@ -226,6 +227,7 @@ proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-5.8-x64.r1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-6.1-x64-tde.r1.1-testing.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-6.2-x64-tde.r1.iso
+quarkos         https://downloads.sourceforge.net/quark-os/quarkos-24.04-x64.r4.iso
 qubes           https://ftp.qubes-os.org/iso/Qubes-R4.3.0-rc2-x86_64.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.03.04-x86_64.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.04.26-x86_64.iso
