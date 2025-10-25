@@ -4,7 +4,7 @@ agarimos latest plasma:              https://sourceforge.net/projects/agarimos/f
 agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.54_1-20251021.iso
 agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.54_1-20251021.iso
 agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.53_1-20251020.iso
-agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-x86_64-6.12.53_1-20251020.iso
+agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-x86_64-6.12.55_1-20251025.iso
 
 # Template file for 'agarimos'
 OSNAME="agarimos"
@@ -222,7 +222,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://cytranet-dal.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
+archcraft latest:                    https://psychz.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1029,9 +1029,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MTM5NjI0NAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MTM5NjI0NAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MTM5NjI0NAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MTQxNzA5Nwo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MTQxNzA5Nwo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MTQxNzA5Nwo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1380,7 +1380,7 @@ function get_() {
 
 gnomeos
 
-gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/936412/live_936412-x86_64.iso
+gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/936501/live_936501-x86_64.iso
 gnomeos 49.rc:                       https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso
 gnomeos 49.beta:                     https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso
 gnomeos 49.alpha.1:                  https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso
@@ -1823,7 +1823,7 @@ function get_() {
 
 loc-os
 
-loc-os latest lxde:                  https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/Loc-OS-23-LXDE-x86_64.iso
+loc-os latest lxde:                  https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/
 loc-os latest xfce:                  https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/Loc-OS-23-XFCE-x86_64.iso
 loc-os latest kde:                   https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/Loc-OS-23-KDE-x86_64.iso
 
@@ -1929,7 +1929,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
+maboxlinux latest:                   https://netactuate.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
