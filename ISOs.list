@@ -112,6 +112,7 @@ freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14.3-BETA3-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-BETA1-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-BETA2-amd64-disc1.iso
+freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-BETA3-amd64-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA3-amd64-20250921-26988773d1da-280233-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA4-amd64-20250927-d2b670b27f37-280334-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA5-amd64-20251004-1c0898edf28f-280541-disc1.iso
@@ -214,6 +215,7 @@ pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.05.05-
 pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.10.14-2.iso
 pisi            https://downloads.sourceforge.net/pisilinux/Pisi-Linux-2.4.1-KDE6-x86_64.iso
 plamo           http://www.ring.gr.jp/pub/linux/Plamo/plamo-8.2_x86_64_usb.iso
+planetatecno    https://www.planetatecno.com.uy/programas/planetatecno_os-7.iso
 plop            https://download.plop.at/ploplinux/25.2/live/ploplinux-25.2-x86_64.iso
 popos           https://iso.pop-os.org/24.04/amd64/intel/17/pop-os_24.04_amd64_intel_17.iso
 popos           https://iso.pop-os.org/24.04/amd64/intel/19/pop-os_24.04_amd64_intel_19.iso
@@ -239,6 +241,7 @@ rosa            https://mirror.rosa.ru/rosa/rosa13/iso/ROSA.FRESH.13/plasma6/ROS
 runtu           https://downloads.sourceforge.net/runtu/runtu-xfce-24.04-amd64_20250315.iso
 sdesk           https://stevestudios.net/wp-content/uploads/2025/05/sdesk-2025.05.06-x86_64.iso
 sdesk           https://stevestudios.net/wp-content/uploads/2025/10/sdesk-2025.10.17-quartz-x86_64.iso
+securityonion   https://download.securityonion.net/file/securityonion/securityonion-2.4.190-20251024.iso
 shanios         https://downloads.sourceforge.net/shanios/signed_shanios-gnome-2025.10.05-x86_64.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.10.0-amd64-BD-1.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.11.0-amd64-BD-1.iso
