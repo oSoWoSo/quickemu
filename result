@@ -1029,9 +1029,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MTQxNzA5Nwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MTQxNzA5Nwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MTQxNzA5Nwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MTQ0Mzk3OAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MTQ0Mzk3OAo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MTQ0Mzk3OAo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1380,7 +1380,7 @@ function get_() {
 
 gnomeos
 
-gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/936501/live_936501-x86_64.iso
+gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/936653/live_936653-x86_64.iso
 gnomeos 49.rc:                       https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso
 gnomeos 49.beta:                     https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso
 gnomeos 49.alpha.1:                  https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso
@@ -1823,7 +1823,7 @@ function get_() {
 
 loc-os
 
-loc-os latest lxde:                  https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/
+loc-os latest lxde:                  https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/Loc-OS-23-LXDE-x86_64.iso
 loc-os latest xfce:                  https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/Loc-OS-23-XFCE-x86_64.iso
 loc-os latest kde:                   https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/Loc-OS-23-KDE-x86_64.iso
 
@@ -1929,7 +1929,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://netactuate.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
+maboxlinux latest:                   https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2885,7 +2885,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://phoenixnap.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3970,46 +3970,6 @@ function get_() {
 
 
 vanillaos
-
-vanillaos 22.10-r8:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso
-vanillaos 22.10-r7.5:                https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso
-vanillaos 22.10-r7:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso
-vanillaos 22.10-r6:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r6/VanillaOS-22.10-all.20230123.iso
-vanillaos 22.10-r5:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r5/VanillaOS-22.10-all.20230116.iso
-vanillaos 22.10-r4:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r4/VanillaOS-22.10-all.20230115.iso
-vanillaos 22.10-r3:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r3/VanillaOS-22.10-all.20230105.iso
-vanillaos 22.10-r2:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r2/VanillaOS-22.10-all.20221231.iso
-vanillaos 22.10-r1:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r1/VanillaOS-22.10-all.20221230.iso
-vanillaos 22.10:                     https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso
-vanillaos 2.0:                       https://github.com/Vanilla-OS/live-iso/releases/download/2.0/VanillaOS-2-stable.20250220.iso
-
-# Template file for 'vanillaos'
-OSNAME="vanillaos"
-PRETTY="Vanilla OS"
-BASEDOF="Ubuntu"
-DESCRIPTION="Designed to be a reliable and productive operating system for your daily work"
-HOMEPAGE="https://vanillaos.org"
-CREDENTIALS="-"
-
-
-RELEASES="22.10-r8 22.10-r7.5 22.10-r7 22.10-r6 22.10-r5 22.10-r4 22.10-r3 22.10-r2 22.10-r1 22.10 2.0"
-
-
-function get_() {
-    local HASH=""
-    local HASH_URL=""
-    local ISO=""
-    ISO=$(web_pipe "https://api.github.com/repos/Vanilla-OS/live-iso/releases" | grep 'download_url' | grep "${RELEASE}" | head -n 1 | cut -d'"' -f4)
-    HASH_URL="${ISO//.iso/.sha256.txt}"
-    HASH=$(web_pipe "${HASH_URL}" | cut -d' ' -f1)
-    echo "${ISO} ${HASH}"
-}
-
-function specific_tweaks() {
-    ## Minimum is 50G for abroot, but a 64GB is allocated to give some headroom
-    echo "disk_size=\"64G\"" >> "${CONF_FILE}"
-}
-
 
 ventoy
 
