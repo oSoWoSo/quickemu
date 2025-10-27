@@ -194,6 +194,7 @@ midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/
 mint            https://mirror.rackspace.com/linuxmint/iso/debian/lmde-7-cinnamon-64bit.iso
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.10/MocaccinoOS-GNOME-0.20251001.iso.tar.xz
 mx              https://downloads.sourceforge.net/mx-linux/MX-23.6_x64.iso
+mx              https://downloads.sourceforge.net/mx-linux/MX-25_Xfce_RC1_x64.iso
 mx              https://downloads.sourceforge.net/mx-linux/MX-25_Xfce_beta1_x64.iso
 nitrux          https://downloads.sourceforge.net/nitruxos/nitrux-nx-desktop-plasma-cf782a84-amd64.iso
 nobara          https://nobara-images.nobaraproject.org/Nobara-42-Official-2025-05-13.iso
@@ -202,6 +203,7 @@ obarun          https://cloud.server.obarun.org/iso/2025.04.30/obarun-JWM-2025.0
 omarchy         https://iso.omarchy.org/omarchy-3.1.0.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.8/amd64/install78.iso
+openindiana     https://dlc.openindiana.org/isos/hipster/20251026/OI-hipster-gui-20251026.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250312.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250320.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250420.x86_64.iso
