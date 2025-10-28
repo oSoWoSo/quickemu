@@ -63,6 +63,7 @@ centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250929.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251006.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251013.0-x86_64-dvd1.iso
+centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251027.0-x86_64-dvd1.iso
 chimera         https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso
 clear           https://cdn.download.clearlinux.org/releases/43300/clear/clear-43300-live-desktop.iso
 clear           https://cdn.download.clearlinux.org/releases/43400/clear/clear-43400-live-desktop.iso
@@ -101,6 +102,7 @@ exton           https://downloads.sourceforge.net/debian-pixel/debian-12-pixel-3
 exton           https://downloads.sourceforge.net/puppex/puppex-noble64-uefi-nvidia-1960mb-251008.iso
 extrox          https://downloads.sourceforge.net/extrox/extrox-2.0_RC1-20250927_1924.iso
 extrox          https://downloads.sourceforge.net/extrox/extrox_2.0_RC2-20251003_0933.iso
+fedora          https://dl.fedoraproject.org/pub/fedora/linux/releases/43/Workstation/x86_64/iso/Fedora-Workstation-Live-43-1.6.x86_64.iso
 fedora          https://mirror.us.leaseweb.net/fedora/linux/releases/test/42_Beta/Workstation/x86_64/iso/Fedora-Workstation-Live-42_Beta-1.4.x86_64.iso
 fedora          https://mirrors.xmission.com/fedora/linux/releases/42/Workstation/x86_64/iso/Fedora-Workstation-Live-42-1.1.x86_64.iso
 ferenos         https://downloads.sourceforge.net/feren-os-development-builds/Feren%20OS%20on%2022.04%20Beta%202.iso
@@ -137,6 +139,7 @@ ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core192/ip
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core193/ipfire-2.29-core193-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core194/ipfire-2.29-core194-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core197/ipfire-2.29-core197-x86_64.iso
+ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core198/ipfire-2.29-core198-x86_64.iso
 kali            https://cdimage.kali.org/kali-2025.1a/kali-linux-2025.1a-installer-amd64.iso
 kali            https://cdimage.kali.org/kali-2025.3/kali-linux-2025.3-installer-amd64.iso
 kaos            https://downloads.sourceforge.net/kaosx/KaOS-2025.03-x86_64.iso
@@ -163,6 +166,7 @@ lastos          https://downloads.sourceforge.net/lastoslinux/LastOSLinux_LMDE7_
 lazylinux       https://downloads.sourceforge.net/lazylinux/lazylinux-live-x86_64-6.17.4_1-20251023.iso
 lernstick       https://releases.lernstick.ch/lernstick12/lernstick_debian12_edu-mini_2025-04-06.iso
 lingmo          https://downloads.sourceforge.net/lingmo-os/lingmo-os-3.0.5-25R06-stable-desktop-amd64.iso
+linuxcnc        https://www.linuxcnc.org/iso/linuxcnc_2.9.6-amd64.hybrid.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.03.1-noble-lts.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04-noble-lts.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04.1-noble-lts.iso
@@ -173,6 +177,7 @@ linuxhub        https://downloads.sourceforge.net/linuxhub-prime/Linuxhub_Prime_
 linuxhub        https://downloads.sourceforge.net/linuxhub-prime/Linuxhub_Prime_v3.0.8-2025.10.24-x86_64.iso
 lite            https://downloads.sourceforge.net/linux-lite/linux-lite-7.4-64bit.iso
 liveraizo       https://downloads.sourceforge.net/live-raizo/Live-Raizo-v16.25.04.12i.iso
+liveraizo       https://downloads.sourceforge.net/live-raizo/Live-Raizo-v16.25.10.26p.iso
 lubuntu         https://cdimage.ubuntu.com/lubuntu/releases/25.04/beta/lubuntu-25.04-beta-desktop-amd64.iso
 lubuntu         https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso
 lubuntu         https://cdimages.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso
