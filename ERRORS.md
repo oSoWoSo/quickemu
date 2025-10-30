@@ -10,6 +10,7 @@
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
 | resolute-live-server-amd64.iso | resolute-live-server-amd64.iso | resolute-live-server-amd64.iso | **ERROR** |
+| ubuntu-24.04.3-live-server-amd64.iso | ubuntu-24.04.3-live-server-amd64.iso | ubuntu-24.04.3-live-server-amd64.iso | **ERROR** |
 | Ubuntu | Unity | 25.10 | **ERROR** |
 | UbuntuStudio | dvd | is | **ERROR** |
 |  |  |  | **ERROR** |
