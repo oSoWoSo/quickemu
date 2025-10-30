@@ -33,6 +33,7 @@ austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.3.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.4.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.6.iso
 bazzite         https://download.bazzite.gg/bazzite-stable-amd64.iso
+besgnulinux     https://downloads.sourceforge.net/besgnulinux/besgnulinux-jwm-3-1-amd64.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-04_k612.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-12_k614.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-09-26_k616.iso
@@ -159,6 +160,7 @@ kdeneon         https://files.kde.org/neon/images/user/20251002-0758/neon-user-2
 kdeneon         https://files.kde.org/neon/images/user/20251009-0746/neon-user-20251009-0746.iso
 kdeneon         https://files.kde.org/neon/images/user/20251016-0745/neon-user-20251016-0745.iso
 kdeneon         https://files.kde.org/neon/images/user/20251021-1242/neon-user-20251021-1242.iso
+kdeneon         https://files.kde.org/neon/images/user/20251030-0745/neon-user-20251030-0745.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.4.1/Kicksecure-LXQt-18.0.4.1.Intel_AMD64.iso
 kiro            https://downloads.sourceforge.net/kiro/kiro-v25.10.01.01-x86_64.iso
 kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.04/beta/kubuntu-25.04-beta-desktop-amd64.iso
@@ -260,6 +262,7 @@ securityonion   https://download.securityonion.net/file/securityonion/securityon
 shanios         https://downloads.sourceforge.net/shanios/signed_shanios-gnome-2025.10.05-x86_64.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.10.0-amd64-BD-1.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.11.0-amd64-BD-1.iso
+slimbookos      https://cloud.slimbook.net/public.php/dav/files/download/Operating%20systems/Slimbook%20OS/24/slimbookos-24-r110.iso
 smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/20251002T000521Z/smartos-20251002T000521Z.iso
 smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/20251016T000143Z/smartos-20251016T000143Z.iso
 smoothwall      https://downloads.sourceforge.net/smoothwall/Express-3.1-SP6-x86_64.iso
