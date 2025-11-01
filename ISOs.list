@@ -53,6 +53,7 @@ bros            https://downloads.sourceforge.net/bros/BrOS-13.1.1_amd64_hybrid.
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250330.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250422.iso
 calam           https://downloads.sourceforge.net/blue-arch-installer/Calam-Arch-Installer-2025-10.iso
+calam           https://downloads.sourceforge.net/blue-arch-installer/Calam-Arch-Installer-2025-11.iso
 calculate       https://mirror.calculate-linux.org/release/20250409/cld-20250409-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/20251020/cld-20251020-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250313-x86_64.iso
@@ -121,6 +122,7 @@ freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-BETA1-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-BETA2-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-BETA3-amd64-disc1.iso
+freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-BETA4-amd64-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA3-amd64-20250921-26988773d1da-280233-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA4-amd64-20250927-d2b670b27f37-280334-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA5-amd64-20251004-1c0898edf28f-280541-disc1.iso
