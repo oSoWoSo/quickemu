@@ -91,6 +91,7 @@ dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.04-amd64.iso
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.05-amd64.iso
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.10-amd64.iso
+drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.11-amd64.iso
 dynfi           https://dynfi.com/files/firewall/dynfi_installer_vga_4.04-20250305-075641.iso.bz2
 dynfi           https://dynfi.com/files/firewall/dynfi_installer_vga_4.04-20250401-105254.iso.bz2
 edubuntu        https://cdimage.ubuntu.com/edubuntu/releases/25.04/beta/edubuntu-25.04-beta-desktop-amd64.iso
@@ -143,6 +144,7 @@ hackeros        https://downloads.sourceforge.net/hackeros/HackerOS-V3.3.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/14-stable/amd64/amd64/installer/build-30/disc1.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/15-stable/amd64/amd64/installer/build-3/disc1.iso
 hydrapwk        https://downloads.sourceforge.net/hydrapwk-gnu-linux/hydrapwk-2025.03.251004164-apes-amd64.iso
+hydrapwk        https://downloads.sourceforge.net/hydrapwk-gnu-linux/hydrapwk-2025.03.T1-apes-amd64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core192/ipfire-2.29-core192-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core193/ipfire-2.29-core193-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core194/ipfire-2.29-core194-x86_64.iso
@@ -166,6 +168,7 @@ kdeneon         https://files.kde.org/neon/images/user/20251021-1242/neon-user-2
 kdeneon         https://files.kde.org/neon/images/user/20251030-0745/neon-user-20251030-0745.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.4.1/Kicksecure-LXQt-18.0.4.1.Intel_AMD64.iso
 kiro            https://downloads.sourceforge.net/kiro/kiro-v25.10.01.01-x86_64.iso
+kiro            https://downloads.sourceforge.net/kiro/kiro-v25.11.01.01-x86_64.iso
 kodachi         https://downloads.sourceforge.net/linuxkodachi/linux-kodachi-terminal-9.0.1-amd64.iso
 kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.04/beta/kubuntu-25.04-beta-desktop-amd64.iso
 kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso
