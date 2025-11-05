@@ -239,9 +239,11 @@ openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250320.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250420.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20251006.x86_64.iso
+openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20251105.x86_64.iso
 openmandriva    https://downloads.sourceforge.net/openmandriva/openmandriva-6.0-plasma6.x11-slim.x86_64.iso
 opensuse        https://download.opensuse.org/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso
 oreon           https://boostyconnect.com/oreon-iso/Oreon-10-Core-2510-x86_64.iso
+osolinux        https://downloads.sourceforge.net/oso/OsoLinux-fc43-Atlas-x86_64.iso
 pardus          https://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.4-GNOME-amd64.iso
 pclinuxos       https://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2025.09.iso
 peppermint      https://downloads.sourceforge.net/peppermintos/PeppermintOS-Debian-64.iso
@@ -347,6 +349,7 @@ ultimate        https://downloads.sourceforge.net/ultimateedition/ultimate-arch-
 ultramarine     https://images.fyralabs.com/isos/ultramarine/41/ultramarine-flagship-41-live-anaconda-x86_64.iso
 ultramarine     https://images.fyralabs.com/isos/ultramarine/42/ultramarine-flagship-42-live-anaconda-x86_64.iso
 umbrelos        https://download.umbrel.com/release/1.5.0-beta.3/umbrelos-amd64-usb-installer.iso
+umbrelos        https://download.umbrel.com/release/1.5.0/umbrelos-amd64-usb-installer.iso
 uncom           https://mirror.uncom.tech/iso/uncom-2025.10.12-desktop-amd64-r2.5.21-main-ret-ru-f0cf1.iso
 univention      https://updates.software-univention.de/download/ucs-cds/ucs5.2-1/UCS_5.2-1-amd64.iso
 vailuxos        https://downloads.vailux.de/VailuxOS-1.5-desktop-stable-amd64.iso
