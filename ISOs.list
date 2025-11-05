@@ -131,6 +131,7 @@ freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA3-amd64-20250921-26988773d1da-280233-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA4-amd64-20250927-d2b670b27f37-280334-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA5-amd64-20251004-1c0898edf28f-280541-disc1.iso
+fuguita         https://jp1.dl.fuguita.org/LiveDVD/FuguIta-7.8-amd64-202511052.iso.gz
 funos           https://downloads.sourceforge.net/funos/funos-24.04.2-stable.20250303.iso
 funos           https://downloads.sourceforge.net/funos/funos-25.04-stable.20250420.iso
 funos           https://downloads.sourceforge.net/funos/funos-25.10-stable.20251014.iso
