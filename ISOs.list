@@ -107,6 +107,7 @@ elive           https://www.elivecd.org/downloads/development/3.8.48/6a90c38ecd/
 elysiaos        https://downloads.sourceforge.net/elysiaos/elysiaos-release-2025.11.03-x86_64.iso
 emmabuntus      https://downloads.sourceforge.net/emmabuntus/emmabuntus-de5-amd64-12.10-1.04.iso
 endeavour       https://mirrors.gigenet.com/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso
+endless         https://images-dl.endlessm.com/release/6.0.8/eos-amd64-amd64/base/eos-eos6.0-amd64-amd64.251107-052648.base.iso
 exe             https://downloads.sourceforge.net/exegnulinux/exegnu64_daedalus-20250508.iso
 expirion        https://downloads.sourceforge.net/expirion-linux/Expirion-6.1-LXQt-251005.iso
 expirion        https://downloads.sourceforge.net/expirion-linux/Expirion-6.1-LXQt-251105.iso
@@ -150,6 +151,7 @@ greenbang       https://downloads.sourceforge.net/archbang/greenbang-0510-x86_64
 grml            https://download.grml.org/grml-full-2025.05-amd64.iso
 hackeros        ^https://downloads.sourceforge.net/hackeros/HackerOS-V3.3.iso
 hackeros        https://downloads.sourceforge.net/hackeros/HackerOS-V3.3.iso
+hackeros        https://downloads.sourceforge.net/hackeros/HackerOS-V3.6.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/14-stable/amd64/amd64/installer/build-30/disc1.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/15-stable/amd64/amd64/installer/build-3/disc1.iso
 hydrapwk        https://downloads.sourceforge.net/hydrapwk-gnu-linux/hydrapwk-2025.03.251004164-apes-amd64.iso
