@@ -206,9 +206,9 @@
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | 25.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2MjY1MzY1OAo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2MjY1MzY1OAo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2MjY1MzY1OAo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2MjY3MDA0Nwo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2MjY3MDA0Nwo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2MjY3MDA0Nwo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -294,7 +294,7 @@
 | haiku | r1beta3 | x86_64 | http://mirror.rit.edu/haiku/r1beta3/haiku-r1beta3-x86_64-anyboot.iso |
 | haiku | r1beta3 | x86_gcc2h | http://mirror.rit.edu/haiku/r1beta3/haiku-r1beta3-x86_gcc2h-anyboot.iso |
 | kali | current |  | https://cdimage.kali.org/current/kali-linux-2025.3-installer-amd64.iso |
-| kali | kali-weekly |  | https://cdimage.kali.org/kali-weekly/kali-linux-2025-W44-installer-amd64.iso |
+| kali | kali-weekly |  | https://cdimage.kali.org/kali-weekly/kali-linux-2025-W45-installer-amd64.iso |
 | kdeneon | user |  | https://files.kde.org/neon/images/user/current/neon-user-20251106-0745.iso |
 | kdeneon | testing |  | https://files.kde.org/neon/images/testing/current/neon-testing-20251104-0033.iso |
 | kdeneon | unstable |  | https://files.kde.org/neon/images/unstable/current/neon-unstable-20251026-1147.iso |
@@ -352,7 +352,7 @@
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | 25.10 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/resolute-desktop-amd64.iso |
-| maboxlinux | latest |  | https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso |
+| maboxlinux | latest |  | https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -369,8 +369,8 @@
 | manjaro | cinnamon | minimal | https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-minimal-250609-linux612.iso |
 | manjaro | i3 | full | https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-250609-linux612.iso |
 | manjaro | i3 | minimal | https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-minimal-250609-linux612.iso |
-| manjaro | sway | full | https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-251026-linux612.iso |
-| manjaro | sway | minimal | https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-251026-linux612.iso |
+| manjaro | sway | full | https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-251109-linux612.iso |
+| manjaro | sway | minimal | https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-251109-linux612.iso |
 | miyo | 2022 | Kwin | https://sourceforge.net/projects/miyolinux/files/2022-Release// |
 | miyo | 2022 | Deboot-Ceres | https://sourceforge.net/projects/miyolinux/files/2022-Release// |
 | miyo | 2022 | JWM | https://sourceforge.net/projects/miyolinux/files/2022-Release// |
@@ -489,7 +489,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://phoenixnap.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/ |
@@ -570,13 +570,6 @@
 | ubuntu-budgie | 25.04 |  | https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.04/release/ubuntu-budgie-25.04-desktop-amd64.iso |
 | ubuntu-budgie | 25.10 |  | https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.10/release/ubuntu-budgie-25.10-desktop-amd64.iso |
 | ubuntu-budgie | daily-live |  | https://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/resolute-desktop-amd64.iso |
-| ubuntu-mate | 16.04 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04.6-desktop-amd64.iso |
-| ubuntu-mate | 18.04 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-amd64.iso |
-| ubuntu-mate | 20.04 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.6-desktop-amd64.iso |
-| ubuntu-mate | 22.04 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.5-desktop-amd64.iso |
-| ubuntu-mate | 24.04 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.3-desktop-amd64.iso |
-| ubuntu-mate | 25.04 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso |
-| ubuntu-mate | 25.10 |  | https://cdimage.ubuntu.com/ubuntu-mate/releases/25.10/release/ubuntu-mate-25.10-desktop-amd64.iso |
 | ubuntu-mate | daily-live |  | https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/resolute-desktop-amd64.iso |
 | ubuntu-server | daily-live |  | https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-amd64.iso |
 | ubuntu-server | 25.10 |  | https://releases.ubuntu.com/25.10/ubuntu-25.10-live-server-amd64.iso |
@@ -615,6 +608,8 @@
 | vanillaos | 22.10-r3 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r3/VanillaOS-22.10-all.20230105.iso |
 | vanillaos | 22.10-r2 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r2/VanillaOS-22.10-all.20221231.iso |
 | vanillaos | 22.10-r1 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r1/VanillaOS-22.10-all.20221230.iso |
+| vanillaos | 22.10 |  | https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso |
+| vanillaos | 2.0 |  | https://github.com/Vanilla-OS/live-iso/releases/download/2.0/VanillaOS-2-stable.20250220.iso |
 | ventoy | 1.1.07 |  | https://github.com/ventoy/Ventoy/releases/download/v1.1.07/ventoy-1.1.07-livecd.iso |
 | ventoy | 1.1.06 |  | https://github.com/ventoy/Ventoy/releases/download/v1.1.06/ventoy-1.1.06-livecd.iso |
 | ventoy | 1.1.05 |  | https://github.com/ventoy/Ventoy/releases/download/v1.1.05/ventoy-1.1.05-livecd.iso |
