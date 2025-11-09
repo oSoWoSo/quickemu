@@ -2,11 +2,11 @@
 <!-- TABLE -->
 | OS|RELEASE|EDITION|ISO |
 |---|---|---|---|
-| agarimos | latest | plasma | [url](https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.57_1-20251107.iso) |
-| agarimos | latest | xfce4 | [url](https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.57_1-20251108.iso) |
-| agarimos | latest | cinnamon | [url](https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.57_1-20251108.iso) |
-| agarimos | latest | lxqt-kwin | [url](https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.53_1-20251020.iso) |
-| agarimos | latest | gnome | [url](https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-x86_64-6.12.57_1-20251106.iso) |
+| agarimos | latest | plasma | [url](https://sourceforge.net/projects/agarimos/files/PLASMA/) |
+| agarimos | latest | xfce4 | [url](https://sourceforge.net/projects/agarimos/files/XFCE4/) |
+| agarimos | latest | cinnamon | [url](https://sourceforge.net/projects/agarimos/files/CINNAMON/) |
+| agarimos | latest | lxqt-kwin | [url](https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/) |
+| agarimos | latest | gnome | [url](https://sourceforge.net/projects/agarimos/files/GNOME/) |
 | alma | 9 | boot | [url](https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-boot.iso) |
 | alma | 9 | minimal | [url](https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-minimal.iso) |
 | alma | 9 | dvd | [url](https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-dvd.iso) |
@@ -68,7 +68,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://gigenet.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
+| archcraft | latest |  | [url](https://sourceforge.net/projects/archcraft/files/latest/download) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2025.11.01/archlinux-2025.11.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
@@ -125,12 +125,12 @@
 | centos-stream | 10 | dvd1 | [url](https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-latest-x86_64-dvd1.iso) |
 | centos-stream | 9 | boot | [url](https://linuxsoft.cern.ch/centos-stream/9-stream/BaseOS/x86_64/iso/CentOS-Stream-9-latest-x86_64-boot.iso) |
 | centos-stream | 9 | dvd1 | [url](https://linuxsoft.cern.ch/centos-stream/9-stream/BaseOS/x86_64/iso/CentOS-Stream-9-latest-x86_64-dvd1.iso) |
-| cereus | latest | base | [url](https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso) |
-| cereus | latest | musl-base | [url](https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso) |
-| cereus | latest | lxqt | [url](https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso) |
-| cereus | latest | musl-lxqt | [url](https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso) |
-| cereus | latest | xfce | [url](https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso) |
-| cereus | latest | musl-xfce | [url](https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso) |
+| cereus | latest | base | [url](https://sourceforge.net/projects/cereus-linux/files) |
+| cereus | latest | musl-base | [url](https://sourceforge.net/projects/cereus-linux/files) |
+| cereus | latest | lxqt | [url](https://sourceforge.net/projects/cereus-linux/files) |
+| cereus | latest | musl-lxqt | [url](https://sourceforge.net/projects/cereus-linux/files) |
+| cereus | latest | xfce | [url](https://sourceforge.net/projects/cereus-linux/files) |
+| cereus | latest | musl-xfce | [url](https://sourceforge.net/projects/cereus-linux/files) |
 | chimeralinux | latest | base | [url](https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-base.iso) |
 | chimeralinux | latest | gnome | [url](https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso) |
 | crunchbang++ | 12.0 |  | [url](https://github.com/CBPP/cbpp/releases/download/v12.0/cbpp-12.0-amd64-20230611.iso) |
@@ -207,9 +207,9 @@
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2MjY3MDA0Nwo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2MjY3MDA0Nwo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2MjY3MDA0Nwo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2MjY5MjM2Mwo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2MjY5MjM2Mwo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2MjY5MjM2Mwo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -230,8 +230,8 @@
 | freebsd | 13.4 | dvd1 | [url](https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/13.4/FreeBSD-13.4-RELEASE-amd64-dvd1.iso) |
 | freedos | 1.3 |  | [url](https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.3/official/FD13-LiveCD.zip) |
 | freedos | 1.2 |  | [url](https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/official/FD12CD.iso) |
-| fvoid | latest |  | [url](https://sourceforge.net/projects/f-void/files/28_03_2024/fvoid-live-x86_64-20240328-lxqt.iso) |
-| gabeeos | latest | Qtile | [url](https://sourceforge.net/projects/gabeeoslinux/files/Distro/Qtile/beta/gabeeOSLinux-Qtile-x86_64-6.6.43_1-20240806.iso) |
+| fvoid | latest |  | [url](https://sourceforge.net/projects/f-void/files) |
+|  |  |  | **ERROR** |
 | garuda | latest | cinnamon | [url](https://iso.builds.garudalinux.org/iso/latest/garuda/cinnamon/latest.iso) |
 | garuda | latest | dr460nized | [url](https://iso.builds.garudalinux.org/iso/latest/garuda/dr460nized/latest.iso) |
 | garuda | latest | dr460nized-gaming | [url](https://iso.builds.garudalinux.org/iso/latest/garuda/dr460nized-gaming/latest.iso) |
@@ -250,7 +250,7 @@
 | ghostbsd | 25.01-R14.2p1 | xfce | [url](https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso) |
 | ghostbsd | 24.10.1 | mate | [url](https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1.iso) |
 | ghostbsd | 24.10.1 | xfce | [url](https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso) |
-| gnomeos | nightly |  | [url](https://1270333429.rsc.cdn77.org/nightly/944185/gnome_os_944185-x86_64.iso) |
+| gnomeos | nightly |  | [url](https://1270333429.rsc.cdn77.org/nightly/944407/gnome_os_944407-x86_64.iso) |
 | gnomeos | 49.rc |  | [url](https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso) |
 | gnomeos | 49.beta |  | [url](https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso) |
 | gnomeos | 49.alpha.1 |  | [url](https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso) |
@@ -298,9 +298,9 @@
 | kali | kali-weekly |  | [url](https://cdimage.kali.org/kali-weekly/kali-linux-2025-W45-installer-amd64.iso) |
 | kdeneon | user |  | [url](https://files.kde.org/neon/images/user/current/neon-user-20251106-0745.iso) |
 | kdeneon | testing |  | [url](https://files.kde.org/neon/images/testing/current/neon-testing-20251104-0033.iso) |
-| kdeneon | unstable |  | [url](https://files.kde.org/neon/images/unstable/current/neon-unstable-20251026-1147.iso) |
+| kdeneon | unstable |  | [url](https://files.kde.org/neon/images/unstable/current/neon-unstable-20251109-1147.iso) |
 | kdeneon | developer |  | [url](https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250901-0038.iso) |
-| kodachi | latest |  | [url](https://sourceforge.net/projects/linuxkodachi/files/linux-kodachi-terminal-9.0.1-amd64.iso) |
+| kodachi | latest |  | [url](https://sourceforge.net/projects/linuxkodachi/files) |
 | kolibrios | latest | en_US | [url](http://builds.kolibrios.org/en_US/latest-iso.7z) |
 | kolibrios | latest | ru_RU | [url](http://builds.kolibrios.org/ru_RU/latest-iso.7z) |
 | kolibrios | latest | it_IT | [url](http://builds.kolibrios.org/it_IT/kolibrios-0.7.7.0%2B8797-9f5dd6c-iso.7z) |
@@ -342,9 +342,9 @@
 | linuxmint | 20.2 | mate | [url](https://mirror.bytemark.co.uk/linuxmint/stable/20.2/linuxmint-20.2-mate-64bit.iso) |
 | linuxmint | 20.2 | xfce | [url](https://mirror.bytemark.co.uk/linuxmint/stable/20.2/linuxmint-20.2-xfce-64bit.iso) |
 | lmde | 6 | cinnamon | [url](https://mirror.bytemark.co.uk/linuxmint/debian/lmde-6-cinnamon-64bit.iso) |
-| loc-os | latest | lxde | [url](https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/Loc-OS-23-LXDE-x86_64.iso) |
-| loc-os | latest | xfce | [url](https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/Loc-OS-23-XFCE-x86_64.iso) |
-| loc-os | latest | kde | [url](https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/Loc-OS-23-KDE-x86_64.iso) |
+| loc-os | latest | lxde | [url](https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/) |
+| loc-os | latest | xfce | [url](https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/) |
+| loc-os | latest | kde | [url](https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/) |
 | lubuntu | 16.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/16.04/release/lubuntu-16.04.6-desktop-amd64.iso) |
 | lubuntu | 18.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.5-desktop-amd64.iso) |
 | lubuntu | 20.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/20.04/release/lubuntu-20.04.5-desktop-amd64.iso) |
@@ -353,7 +353,7 @@
 | lubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso) |
 | lubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso) |
 | lubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/lubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| maboxlinux | latest |  | [url](https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso) |
+| maboxlinux | latest |  | [url](https://sourceforge.net/projects/mabox-linux/files/latest/download) |
 | macos | mojave |  | [url](http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg) |
 | macos | catalina |  | [url](http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg) |
 | macos | big-sur |  | [url](http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg) |
@@ -377,9 +377,7 @@
 | miyo | 2022 | JWM | [url](https://sourceforge.net/projects/miyolinux/files/2022-Release//) |
 | miyo | 2022 | Openbox | [url](https://sourceforge.net/projects/miyolinux/files/2022-Release//) |
 | miyo | 2022 | MATE | [url](https://sourceforge.net/projects/miyolinux/files/2022-Release//) |
-| mxlinux | 23.6 | Xfce | [url](https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-23.6_x64.iso) |
-| mxlinux | 23.6 | KDE | [url](https://sourceforge.net/projects/mx-linux/files/Final/KDE/MX-23.6_KDE_x64.iso) |
-| mxlinux | 23.6 | Fluxbox | [url](https://sourceforge.net/projects/mx-linux/files/Final/Fluxbox/MX-23.6_fluxbox_x64.iso) |
+|  |  |  | **ERROR** |
 | netboot | latest |  | [url](https://boot.netboot.xyz/ipxe/netboot.xyz.iso) |
 | netbsd | 10.1 |  | [url](https://cdn.netbsd.org/pub/NetBSD/NetBSD-10.1/images/NetBSD-10.1-amd64.iso) |
 | netbsd | 10.0 |  | [url](https://cdn.netbsd.org/pub/NetBSD/NetBSD-10.0/images/NetBSD-10.0-amd64.iso) |
@@ -395,8 +393,7 @@
 | nixos | 24.11 | minimal | [url](https://channels.nixos.org/nixos-24.11/latest-nixos-minimal-x86_64-linux.iso) |
 | nixos | 24.11 | plasma | [url](https://channels.nixos.org/nixos-24.11/latest-nixos-plasma6-x86_64-linux.iso) |
 | nixos | 24.11 | gnome | [url](https://channels.nixos.org/nixos-24.11/latest-nixos-gnome-x86_64-linux.iso) |
-| nwg-shell | 2025.07.01 |  | [url](https://sourceforge.net/projects/nwg-iso/files/nwg-live-2025.07.01-x86_64.iso) |
-| nwg-shell | 2025.06.08 |  | [url](https://sourceforge.net/projects/nwg-iso/files/nwg-live-2025.06.08-x86_64.iso) |
+|  |  |  | **ERROR** |
 | openbsd | 7.8 |  | [url](https://mirror.leaseweb.com/pub/OpenBSD/7.8/amd64/install78.iso) |
 | openbsd | 7.7 |  | [url](https://mirror.leaseweb.com/pub/OpenBSD/7.7/amd64/install77.iso) |
 | openindiana | 20251026 | gui | [url](https://dlc.openindiana.org/isos/hipster/20251026/OI-hipster-gui-20251026.iso) |
@@ -446,22 +443,7 @@
 | parrotsec | 6.2 | home | [url](https://download.parrot.sh/parrot/iso/6.2/Parrot-home-6.2_amd64.iso) |
 | parrotsec | 6.2 | htb | [url](https://download.parrot.sh/parrot/iso/6.2/Parrot-htb-6.2_amd64.iso) |
 | parrotsec | 6.2 | security | [url](https://download.parrot.sh/parrot/iso/6.2/Parrot-security-6.2_amd64.iso) |
-| pbpuppy | 250901 | BookwormPup64-ghtest | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250901.iso) |
-| pbpuppy | 250901 | S15Pup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250901.iso) |
-| pbpuppy | 250901 | TrixiePup64Wayland | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250901.iso) |
-| pbpuppy | 250901 | VoidPup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250901.iso) |
-| pbpuppy | 250907 | BookwormPup64-ghtest | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250907.iso) |
-| pbpuppy | 250907 | S15Pup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250907.iso) |
-| pbpuppy | 250907 | TrixiePup64Wayland | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250907.iso) |
-| pbpuppy | 250907 | VoidPup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250907.iso) |
-| pbpuppy | 251001 | BookwormPup64-ghtest | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251001.iso) |
-| pbpuppy | 251001 | S15Pup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251001.iso) |
-| pbpuppy | 251001 | TrixiePup64Wayland | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251001.iso) |
-| pbpuppy | 251001 | VoidPup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251001.iso) |
-| pbpuppy | 251101 | BookwormPup64-ghtest | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251101.iso) |
-| pbpuppy | 251101 | S15Pup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251101.iso) |
-| pbpuppy | 251101 | TrixiePup64Wayland | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251101.iso) |
-| pbpuppy | 251101 | VoidPup64 | [url](https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251101.iso) |
+|  |  |  | **ERROR** |
 | pclinuxos | 2025.09 | kde | [url](https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2025.09.iso) |
 | pclinuxos | 2025.09 | kde-darkstar | [url](https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-kde-darkstar-2025.09.iso) |
 | pclinuxos | 2025.09 | mate | [url](https://ftp.fau.de/pclinuxos/pclinuxos/iso/pclinuxos64-mate-2025-09.iso) |
@@ -490,7 +472,7 @@
 | proxmox-ve | 5.4-1 |  | [url](https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso) |
 | pureos | 10.3 | gnome | [url](https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso) |
 | pureos | 10.3 | plasma | [url](https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso) |
-| reactos | latest |  | [url](https://phoenixnap.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
+| reactos | latest |  | [url](https://sourceforge.net/projects/reactos/files/latest/download) |
 | rebornos | latest |  | **ERROR** |
 | redox-os | livedisk | demo | [url](https://static.redox-os.org/img/x86_64/) |
 | redox-os | livedisk | desktop | [url](https://static.redox-os.org/img/x86_64/) |
@@ -577,6 +559,13 @@
 | ubuntu-budgie | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/resolute-desktop-amd64.iso) |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
+| ubuntu-mate | 16.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04.6-desktop-amd64.iso) |
+| ubuntu-mate | 18.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-amd64.iso) |
+| ubuntu-mate | 20.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.6-desktop-amd64.iso) |
+| ubuntu-mate | 22.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.5-desktop-amd64.iso) |
+| ubuntu-mate | 24.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.3-desktop-amd64.iso) |
+| ubuntu-mate | 25.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso) |
+| ubuntu-mate | 25.10 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/25.10/release/ubuntu-mate-25.10-desktop-amd64.iso) |
 | ubuntu-mate | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/resolute-desktop-amd64.iso) |
 | ubuntu-server | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-amd64.iso) |
 | resolute-live-server-amd64.iso | resolute-live-server-amd64.iso | resolute-live-server-amd64.iso | **ERROR** |
@@ -621,26 +610,7 @@
 | vanillaos | 22.10-r1 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r1/VanillaOS-22.10-all.20221230.iso) |
 | vanillaos | 22.10 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso) |
 | vanillaos | 2.0 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/2.0/VanillaOS-2-stable.20250220.iso) |
-| ventoy | 1.1.07 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.1.07/ventoy-1.1.07-livecd.iso) |
-| ventoy | 1.1.06 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.1.06/ventoy-1.1.06-livecd.iso) |
-| ventoy | 1.1.05 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.1.05/ventoy-1.1.05-livecd.iso) |
-| ventoy | 1.1.04 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.1.04/ventoy-1.1.04-livecd.iso) |
-| ventoy | 1.1.02 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.1.02/ventoy-1.1.02-livecd.iso) |
-| ventoy | 1.1.01 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.1.01/ventoy-1.1.01-livecd.iso) |
-| ventoy | 1.1.00 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.1.00/ventoy-1.1.00-livecd.iso) |
-| ventoy | 1.0.99 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.0.99/ventoy-1.0.99-livecd.iso) |
-| ventoy | 1.0.98 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.0.98/ventoy-1.0.98-livecd.iso) |
-| ventoy | 1.0.97 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.0.97/ventoy-1.0.97-livecd.iso) |
-| ventoy | 1.0.96 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.0.96/ventoy-1.0.96-livecd.iso) |
-| ventoy | 1.0.95 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.0.95/ventoy-1.0.95-livecd.iso) |
-| ventoy | 1.0.94 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.0.94/ventoy-1.0.94-livecd.iso) |
-| ventoy | 1.0.93 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.0.93/ventoy-1.0.93-livecd.iso) |
-| ventoy | 1.0.91 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.0.91/ventoy-1.0.91-livecd.iso) |
-| ventoy | 1.0.90 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.0.90/ventoy-1.0.90-livecd.iso) |
-| ventoy | 1.0.89 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.0.89/ventoy-1.0.89-livecd.iso) |
-| ventoy | 1.0.88 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.0.88/ventoy-1.0.88-livecd.iso) |
-| ventoy | 1.0.87 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.0.87/ventoy-1.0.87-livecd.iso) |
-| ventoy | 1.0.86 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.0.86/ventoy-1.0.86-livecd.iso) |
+|  |  |  | **ERROR** |
 | void | current | glibc | [url](https://repo-default.voidlinux.org/live/current/void-live-x86_64-20250202-base.iso) |
 | void | current | musl | [url](https://repo-default.voidlinux.org/live/current/void-live-x86_64-musl-20250202-base.iso) |
 | void | current | xfce-glibc | [url](https://repo-default.voidlinux.org/live/current/void-live-x86_64-20250202-xfce.iso) |
