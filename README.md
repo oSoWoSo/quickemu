@@ -206,9 +206,9 @@
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | 25.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2MjcxMzA2NAo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2MjcxMzA2NAo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2MjcxMzA2NAo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2Mjc0MDE1Nwo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2Mjc0MDE1Nwo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2Mjc0MDE1Nwo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -248,7 +248,7 @@
 | ghostbsd | 25.01-R14.2p1 | xfce | https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso |
 | ghostbsd | 24.10.1 | mate | https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1.iso |
 | ghostbsd | 24.10.1 | xfce | https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso |
-| gnomeos | nightly |  | https://1270333429.rsc.cdn77.org/nightly/944599/gnome_os_944599-x86_64.iso |
+| gnomeos | nightly |  | https://1270333429.rsc.cdn77.org/nightly/944691/gnome_os_944691-x86_64.iso |
 | gnomeos | 49.rc |  | https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso |
 | gnomeos | 49.beta |  | https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso |
 | gnomeos | 49.alpha.1 |  | https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso |
