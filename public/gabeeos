@@ -7,8 +7,8 @@ HOMEPAGE="https://sourceforge.net/projects/gabeeoslinux/"
 CREDENTIALS="anon:voidlinux,root:voidlinux"
 
 
-RELEASES=""
-EDITIONS=""
+RELEASES="latest"
+EDITIONS="Qtile"
 
 function get_() {
     local HASH=""

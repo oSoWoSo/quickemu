@@ -1,10 +1,10 @@
 agarimos
 
-agarimos latest plasma:              https://sourceforge.net/projects/agarimos/files/PLASMA/
-agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/
-agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/
-agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/
-agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/
+agarimos latest plasma:              https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.57_1-20251107.iso
+agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.57_1-20251108.iso
+agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.57_1-20251108.iso
+agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.53_1-20251020.iso
+agarimos latest gnome:               https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-x86_64-6.12.57_1-20251106.iso
 
 # Template file for 'agarimos'
 OSNAME="agarimos"
@@ -222,7 +222,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://sourceforge.net/projects/archcraft/files/latest/download
+archcraft latest:                    https://cytranet.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -600,12 +600,12 @@ function specific_tweaks() {
 
 cereus
 
-cereus latest base:                  https://sourceforge.net/projects/cereus-linux/files
-cereus latest musl-base:             https://sourceforge.net/projects/cereus-linux/files
-cereus latest lxqt:                  https://sourceforge.net/projects/cereus-linux/files
-cereus latest musl-lxqt:             https://sourceforge.net/projects/cereus-linux/files
-cereus latest xfce:                  https://sourceforge.net/projects/cereus-linux/files
-cereus latest musl-xfce:             https://sourceforge.net/projects/cereus-linux/files
+cereus latest base:                  https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso
+cereus latest musl-base:             https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso
+cereus latest lxqt:                  https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso
+cereus latest musl-lxqt:             https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso
+cereus latest xfce:                  https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso
+cereus latest musl-xfce:             https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso
 
 # Template file for 'cereus'
 OSNAME="cereus"
@@ -1030,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2Mjc3OTI1Nwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2Mjc3OTI1Nwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2Mjc3OTI1Nwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2Mjc5OTc3MQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2Mjc5OTc3MQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2Mjc5OTc3MQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1218,7 +1218,7 @@ function specific_tweaks() {
 
 fvoid
 
-fvoid latest:                        https://sourceforge.net/projects/f-void/files
+fvoid latest:                        https://sourceforge.net/projects/f-void/files/28_03_2024/fvoid-live-x86_64-20240328-lxqt.iso
 
 # Template file for 'fvoid'
 OSNAME="fvoid"
@@ -1242,6 +1242,7 @@ function get_() {
 
 gabeeos
 
+gabeeos latest Qtile:                https://sourceforge.net/projects/gabeeoslinux/files/Distro/Qtile/beta/gabeeOSLinux-Qtile-x86_64-6.6.43_1-20240806.iso
 
 # Template file for 'gabeeos'
 OSNAME="gabeeos"
@@ -1252,8 +1253,8 @@ HOMEPAGE="https://sourceforge.net/projects/gabeeoslinux/"
 CREDENTIALS="anon:voidlinux,root:voidlinux"
 
 
-RELEASES=""
-EDITIONS=""
+RELEASES="latest"
+EDITIONS="Qtile"
 
 function get_() {
     local HASH=""
@@ -1571,7 +1572,7 @@ function get_() {
 
 kodachi
 
-kodachi latest:                      https://sourceforge.net/projects/linuxkodachi/files
+kodachi latest:                      https://sourceforge.net/projects/linuxkodachi/files/linux-kodachi-terminal-9.0.1-amd64.iso
 
 # Template file for 'kodachi'
 OSNAME="kodachi"
@@ -1823,9 +1824,9 @@ function get_() {
 
 loc-os
 
-loc-os latest lxde:                  https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/
-loc-os latest xfce:                  https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/
-loc-os latest kde:                   https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/
+loc-os latest lxde:                  https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/Loc-OS-23-LXDE-x86_64.iso
+loc-os latest xfce:                  https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/Loc-OS-23-XFCE-x86_64.iso
+loc-os latest kde:                   https://sourceforge.net/projects/loc-os/files/Loc-OS%2023/Loc-OS-23-KDE-x86_64.iso
 
 # Template file for 'loc-os'
 OSNAME="loc-os"
@@ -1929,7 +1930,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://sourceforge.net/projects/mabox-linux/files/latest/download
+maboxlinux latest:                   https://cytranet.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2197,6 +2198,36 @@ function get_() {
 
 mxlinux
 
+mxlinux 25 Xfce:                     https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-25_x64.iso
+mxlinux 25 KDE:                      https://sourceforge.net/projects/mx-linux/files/Final/KDE/MX-25_KDE_x64.iso
+mxlinux 25 Fluxbox:                  https://sourceforge.net/projects/mx-linux/files/Final/Fluxbox/MX-25_fluxbox_x64.iso
+
+# Template file for 'mxlinux'
+OSNAME="mxlinux"
+PRETTY="MX Linux"
+BASEDOF="Debian Antix"
+DESCRIPTION="Designed to combine elegant and efficient desktops with high stability and solid performance"
+HOMEPAGE="https://mxlinux.org"
+CREDENTIALS="-"
+
+
+RELEASES="25"
+EDITIONS="Xfce KDE Fluxbox"
+
+function get_() {
+    local HASH=""
+    local ISO=""
+    local URL="https://sourceforge.net/projects/mx-linux/files/Final/${EDITION}"
+    case ${EDITION} in
+        Xfce) ISO="MX-${RELEASE}_x64.iso";;
+        KDE) ISO="MX-${RELEASE}_KDE_x64.iso";;
+        Fluxbox) ISO="MX-${RELEASE}_fluxbox_x64.iso";;
+    esac
+    HASH=$(web_pipe "${URL}/${ISO}.sha256" | cut -d' ' -f1)
+    echo "${URL}/${ISO} ${HASH}"
+}
+
+
 netboot
 
 netboot latest:                      https://boot.netboot.xyz/ipxe/netboot.xyz.iso
@@ -2331,6 +2362,30 @@ function specific_tweaks() {
 
 
 nwg-shell
+
+nwg-shell 2025.07.01:                https://sourceforge.net/projects/nwg-iso/files/nwg-live-2025.07.01-x86_64.iso
+nwg-shell 2025.06.08:                https://sourceforge.net/projects/nwg-iso/files/nwg-live-2025.06.08-x86_64.iso
+
+# Template file for 'nwg-shell'
+OSNAME="nwg-shell"
+PRETTY="nwg-shell"
+BASEDOF="Arch"
+DESCRIPTION="Arch Linux ISO with nwg-shell for sway and Hyprland"
+HOMEPAGE="https://nwg-piotr.github.io/nwg-shell"
+CREDENTIALS="nwg:nwg"
+
+
+RELEASES="2025.07.01 2025.06.08"
+
+
+function get_() {
+    local HASH=""
+    local ISO="nwg-live-${RELEASE}-x86_64.iso"
+    local URL="https://sourceforge.net/projects/nwg-iso/files"
+    HASH="$(web_pipe "https://sourceforge.net/projects/nwg-iso/rss?path=/" | grep "${ISO}" | cut -d'>' -f3 | cut -d'<' -f1 | tail -n 1)"
+    echo "${URL}/${ISO} ${HASH}"
+}
+
 
 openbsd
 
@@ -2541,6 +2596,48 @@ function get_() {
 
 
 pbpuppy
+
+pbpuppy 250901 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250901.iso
+pbpuppy 250901 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250901.iso
+pbpuppy 250901 TrixiePup64Wayland:   https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250901.iso
+pbpuppy 250901 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250901.iso
+pbpuppy 250907 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250907.iso
+pbpuppy 250907 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250907.iso
+pbpuppy 250907 TrixiePup64Wayland:   https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250907.iso
+pbpuppy 250907 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250907.iso
+pbpuppy 251001 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251001.iso
+pbpuppy 251001 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251001.iso
+pbpuppy 251001 TrixiePup64Wayland:   https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251001.iso
+pbpuppy 251001 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251001.iso
+pbpuppy 251101 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251101.iso
+pbpuppy 251101 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251101.iso
+pbpuppy 251101 TrixiePup64Wayland:   https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251101.iso
+pbpuppy 251101 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251101.iso
+
+# Template file for 'pbpuppy'
+OSNAME="pbpuppy"
+PRETTY="PeaBee's Puppy Linux"
+BASEDOF="Void,Ubuntu,Debian,Slackware"
+DESCRIPTION="Puppy Linux releases from Github. Brought to you by: peabee"
+HOMEPAGE="https://sourceforge.net/projects/pb-gh-releases"
+CREDENTIALS="-"
+
+
+RELEASES="251101 251001 250907 250901"
+EDITIONS="VoidPup64 TrixiePup64Wayland S15Pup64 BookwormPup64-ghtest"
+
+function get_() {
+    local HASH=""
+    local URL="https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release"
+    if [ "${RELEASE}" == 'ghtest' ]; then
+      ISO=$(web_pipe "https://sourceforge.net/projects/pb-gh-releases/rss?path=/" | grep 'title><!\[CDATA' | cut -d'[' -f3 | cut -d']' -f1 | grep '\.iso' | grep '64' | cut -d'/' -f3 | grep "${RELEASE}" | grep "${EDITION}")
+    else
+      ISO="VoidPup64-22.02-${RELEASE}.iso"
+    fi
+    HASH=$(web_pipe "${URL}"/SHA512checksums.txt | grep "${ISO}" | cut -d' ' -f1)
+    echo "${URL}/${ISO} ${HASH}"
+}
+
 
 pclinuxos
 
@@ -2789,7 +2886,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://sourceforge.net/projects/reactos/files/latest/download
+reactos latest:                      https://cytranet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3916,6 +4013,48 @@ function specific_tweaks() {
 
 
 ventoy
+
+ventoy 1.1.07:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.07/ventoy-1.1.07-livecd.iso
+ventoy 1.1.06:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.06/ventoy-1.1.06-livecd.iso
+ventoy 1.1.05:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.05/ventoy-1.1.05-livecd.iso
+ventoy 1.1.04:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.04/ventoy-1.1.04-livecd.iso
+ventoy 1.1.02:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.02/ventoy-1.1.02-livecd.iso
+ventoy 1.1.01:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.01/ventoy-1.1.01-livecd.iso
+ventoy 1.1.00:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.00/ventoy-1.1.00-livecd.iso
+ventoy 1.0.99:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.99/ventoy-1.0.99-livecd.iso
+ventoy 1.0.98:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.98/ventoy-1.0.98-livecd.iso
+ventoy 1.0.97:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.97/ventoy-1.0.97-livecd.iso
+ventoy 1.0.96:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.96/ventoy-1.0.96-livecd.iso
+ventoy 1.0.95:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.95/ventoy-1.0.95-livecd.iso
+ventoy 1.0.94:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.94/ventoy-1.0.94-livecd.iso
+ventoy 1.0.93:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.93/ventoy-1.0.93-livecd.iso
+ventoy 1.0.91:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.91/ventoy-1.0.91-livecd.iso
+ventoy 1.0.90:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.90/ventoy-1.0.90-livecd.iso
+ventoy 1.0.89:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.89/ventoy-1.0.89-livecd.iso
+ventoy 1.0.88:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.88/ventoy-1.0.88-livecd.iso
+ventoy 1.0.87:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.87/ventoy-1.0.87-livecd.iso
+ventoy 1.0.86:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.86/ventoy-1.0.86-livecd.iso
+
+# Template file for 'ventoy'
+OSNAME="ventoy"
+PRETTY="Ventoy"
+BASEDOF="Void"
+DESCRIPTION="Tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files. "
+HOMEPAGE="https://www.ventoy.net"
+CREDENTIALS="-"
+
+
+RELEASES="1.1.07 1.1.06 1.1.05 1.1.04 1.1.02 1.1.01 1.1.00 1.0.99 1.0.98 1.0.97 1.0.96 1.0.95 1.0.94 1.0.93 1.0.91 1.0.90 1.0.89 1.0.88 1.0.87 1.0.86"
+
+
+function get_() {
+    local HASH=""
+    local ISO="ventoy-${RELEASE}-livecd.iso"
+    local URL="https://github.com/ventoy/Ventoy/releases/download/v${RELEASE}"
+    HASH="$(wget -q -O- "${URL}/sha256.txt" | grep "${ISO}" | cut -d' ' -f4)"
+    echo "${URL}/${ISO} ${HASH}"
+}
+
 
 void
 
