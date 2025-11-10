@@ -88,6 +88,7 @@ debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debia
 debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.11.0-amd64-DVD-1.iso
 deepin          http://ftp.snt.utwente.nl/pub/os/linux/deepin-cd/25-alpha/amd64/deepin-desktop-community-25-alpha-amd64.iso
 deepin          https://ftp.gwdg.de/pub/linux/linuxdeepin/releases/23.1/amd64/deepin-desktop-community-23.1-amd64.iso
+desert          https://downloads.sourceforge.net/desert-os-linux/DESERT_4.5_RU_amd64.iso
 devuan          https://files.devuan.org/devuan_excalibur/installer-iso/devuan_excalibur_6.0.0_amd64_desktop.iso
 dietpi          https://dietpi.com/downloads/images/DietPi_NativePC-UEFI-x86_64-Trixie_Installer.iso
 dragonflybsd    https://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.1_REL.iso
@@ -183,6 +184,7 @@ kdeneon         https://files.kde.org/neon/images/user/20251030-0745/neon-user-2
 kdeneon         https://files.kde.org/neon/images/user/20251106-0745/neon-user-20251106-0745.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.4.1/Kicksecure-LXQt-18.0.4.1.Intel_AMD64.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.5.8/Kicksecure-LXQt-18.0.5.8.Intel_AMD64.iso
+kicksecure      https://www.kicksecure.com/download/iso/18.0.6.4/Kicksecure-LXQt-18.0.6.4.Intel_AMD64.iso
 kiro            https://downloads.sourceforge.net/kiro/kiro-v25.10.01.01-x86_64.iso
 kiro            https://downloads.sourceforge.net/kiro/kiro-v25.11.01.01-x86_64.iso
 kodachi         https://downloads.sourceforge.net/linuxkodachi/linux-kodachi-terminal-9.0.1-amd64.iso
@@ -235,6 +237,7 @@ mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.1
 mx              https://downloads.sourceforge.net/mx-linux/MX-23.6_x64.iso
 mx              https://downloads.sourceforge.net/mx-linux/MX-25_Xfce_RC1_x64.iso
 mx              https://downloads.sourceforge.net/mx-linux/MX-25_Xfce_beta1_x64.iso
+mx              https://downloads.sourceforge.net/mx-linux/MX-25_Xfce_x64.iso
 nebios          https://downloads.sourceforge.net/nebios-official-mirror/nebios-x-10.0-amd64.iso
 nitrux          https://downloads.sourceforge.net/nitruxos/nitrux-nx-desktop-plasma-cf782a84-amd64.iso
 nobara          https://nobara-images.nobaraproject.org/Nobara-42-Official-2025-05-13.iso
@@ -272,6 +275,7 @@ popos           https://iso.pop-os.org/24.04/amd64/intel/19/pop-os_24.04_amd64_i
 porteus         https://mirror.yandex.ru/mirrors/porteus/x86_64/Porteus-v5.1/Porteus-LXQT-v5.1-alpha2-x86_64.iso
 porteus         https://mirrors.dotsrc.org/porteus/x86_64/Porteus-v5.1/Porteus-LXDE-v5.1-alpha3-x86_64.iso
 porteux         https://github.com/porteux/porteux/releases/download/v2.0/porteux-v2.0-current-gnome-48.0-x86_64.iso
+porteux         https://github.com/porteux/porteux/releases/download/v2.4/porteux-2.4-current-cinnamon-6.4.13-x86_64.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-backup-server_3.4-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-BETA-1.iso
@@ -321,6 +325,7 @@ talos           https://github.com/siderolabs/talos/releases/download/v1.11.3/me
 talos           https://github.com/siderolabs/talos/releases/download/v1.12.0-alpha.2/metal-amd64.iso
 tealinux        https://pinguin.dinus.ac.id/iso/tealinuxos/TeaLinuxOS-Arch/2025/release/tealinux-celia-cosmic-2025.09.17-x86_64.iso
 tinycore        https://distro.ibiblio.org/tinycorelinux/16.x/x86/release/TinyCore-16.2.iso
+tribblix        https://iso.tribblix.org/iso/tribblix-0m38.iso
 tromjaro        https://archive.org/download/TROM-Jaro-OS/TROMjaro%202025.10.08.iso
 truenas         https://download.sys.truenas.net/TrueNAS-Fangtooth/25.04.0/TrueNAS-SCALE-25.04.0.iso
 truenas         https://download.sys.truenas.net/TrueNAS-SCALE-Fangtooth-RC/25.04-RC.1/TrueNAS-SCALE-25.04-RC.1.iso
