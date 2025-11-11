@@ -309,6 +309,7 @@ smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/202510
 smoothwall      https://downloads.sourceforge.net/smoothwall/Express-3.1-SP6-x86_64.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-2025.03-x86_64-lxqt.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-7.7-x86_64-lxqt.iso
+sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-8.1-x86_64-lxqt.iso
 spirit          https://downloads.sourceforge.net/spirit-os/spiritOS-16.2.iso
 startos         https://github.com/Start9Labs/start-os/releases/download/v0.4.0-alpha.12/startos-0.4.0-alpha.12-9f8a0e8.dev_x86_64.iso
 synex           https://downloads.sourceforge.net/synex/synex-gnome-13.1-amd64.hybrid.iso
