@@ -7,7 +7,7 @@ HOMEPAGE="https://sparkylinux.org"
 CREDENTIALS="-"
 
 
-RELEASES="8.0.1 8.0"
+RELEASES="8.1"
 EDITIONS="xfce minimalgui minimalcli mate lxqt kde"
 
 function get_() {
