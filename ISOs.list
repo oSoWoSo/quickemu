@@ -127,6 +127,7 @@ fedora          https://mirrors.xmission.com/fedora/linux/releases/42/Workstatio
 ferenos         https://downloads.sourceforge.net/feren-os-development-builds/Feren%20OS%20on%2022.04%20Beta%202.iso
 ferenos         https://downloads.sourceforge.net/ferenoslinux/Feren-OS-standarddt.iso
 finnix          https://www.finnix.org/releases/250/finnix-250.iso
+flatcar         https://stable.release.flatcar-linux.net/amd64-usr/4459.2.0/flatcar_production_iso_image.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/13.5/FreeBSD-13.5-RELEASE-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14.3-BETA1-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14.3-BETA2-amd64-dvd1.iso
@@ -324,6 +325,7 @@ tails           https://download.tails.net/tails/stable/tails-amd64-6.14.1/tails
 tails           https://download.tails.net/tails/stable/tails-amd64-6.14.2/tails-amd64-6.14.2.iso
 tails           https://download.tails.net/tails/stable/tails-amd64-6.15/tails-amd64-6.15.iso
 tails           https://mirrors.edge.kernel.org/tails/stable/tails-amd64-7.1/tails-amd64-7.1.iso
+tails           https://mirrors.edge.kernel.org/tails/stable/tails-amd64-7.2/tails-amd64-7.2.iso
 talos           https://github.com/siderolabs/talos/releases/download/v1.11.2/metal-amd64.iso
 talos           https://github.com/siderolabs/talos/releases/download/v1.11.3/metal-amd64.iso
 talos           https://github.com/siderolabs/talos/releases/download/v1.12.0-alpha.2/metal-amd64.iso
