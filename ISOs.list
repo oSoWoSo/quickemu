@@ -209,6 +209,7 @@ linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04.
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04.2-noble-lts.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04.3-noble-lts.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-winux-11.25.10-noble-fat-lts.iso
+linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-winux-11.25.11-noble-lts.iso
 linuxhub        https://downloads.sourceforge.net/linuxhub-prime/Linuxhub_Prime_v3.0.8-2025.10.06-x86_64.iso
 linuxhub        https://downloads.sourceforge.net/linuxhub-prime/Linuxhub_Prime_v3.0.8-2025.10.24-x86_64.iso
 linuxhub        https://downloads.sourceforge.net/linuxhub-prime/Linuxhub_Prime_v3.0.9-2025.11.03-x86_64.iso
@@ -310,6 +311,7 @@ slimbookos      https://cloud.slimbook.net/public.php/dav/files/download/Operati
 slitaz          https://mirror.slitaz.org/iso/latest/slitaz-rolling-core64.iso
 smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/20251002T000521Z/smartos-20251002T000521Z.iso
 smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/20251016T000143Z/smartos-20251016T000143Z.iso
+smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/20251113T010957Z/smartos-20251113T010957Z.iso
 smoothwall      https://downloads.sourceforge.net/smoothwall/Express-3.1-SP6-x86_64.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-2025.03-x86_64-lxqt.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-7.7-x86_64-lxqt.iso
@@ -394,6 +396,7 @@ voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-beta
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-alpha-amd64.iso
 xigmanas        https://sourceforge.net/projects/xigmanas/files/XigmaNAS-14.3.0.5/14.3.0.5.10483/XigmaNAS-x64-LiveCD-14.3.0.5.10483.iso/download
 xivastudio      https://iso.biglinux.com.br/xivastudio_2025-10-06_xanmodlts612.iso
+xivastudio      https://iso.biglinux.com.br/xivastudio_2025-11-13_k612.iso
 xray            https://downloads.sourceforge.net/xray-os/Xray_OS-2025.10.03-x86_64.iso
 xubuntu         https://cdimage.ubuntu.com/xubuntu/releases/25.04/beta/xubuntu-25.04-beta-desktop-amd64.iso
 xubuntu         https://cdimage.ubuntu.com/xubuntu/releases/25.10/beta/xubuntu-25.10-beta-desktop-amd64.iso
