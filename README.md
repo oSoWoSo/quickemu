@@ -3,7 +3,7 @@
 | OS|RELEASE|EDITION|ISO |
 |---|---|---|---|
 | agarimos | latest | plasma | https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.57_1-20251112.iso |
-| agarimos | latest | xfce4 | https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.57_1-20251108.iso |
+| agarimos | latest | xfce4 | https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.57_1-20251114.iso |
 | agarimos | latest | cinnamon | https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.57_1-20251108.iso |
 | agarimos | latest | lxqt-kwin | https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.53_1-20251020.iso |
 | agarimos | latest | gnome | https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-x86_64-6.12.57_1-20251112.iso |
@@ -68,7 +68,7 @@
 | antix | 21 | core-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso |
 | antix | 21 | base-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso |
 | antix | 21 | full-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso |
-| archcraft | latest |  | https://psychz.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso |
+| archcraft | latest |  | https://gigenet.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso |
 | archlinux | latest |  | https://mirror.rackspace.com/archlinux/iso/2025.11.01/archlinux-2025.11.01-x86_64.iso |
 | artixlinux | 20250407 | base-dinit | https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-openrc | https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso |
@@ -109,9 +109,9 @@
 | batocera | 38 |  | https://mirrors.o2switch.fr/batocera/x86_64/stable/38/batocera-x86_64-x86_64-38-20231014.img.gz |
 | bazzite | latest | gnome | https://download.bazzite.gg/bazzite-gnome-stable-amd64.iso |
 | bazzite | latest | kde | https://download.bazzite.gg/bazzite-stable-amd64.iso |
-| biglinux | 2025-11-07 | k617 | https://iso.biglinux.com.br/biglinux_2025-11-07_k617.iso |
-| biglinux | 2025-11-07 | k612 | https://iso.biglinux.com.br/biglinux_2025-11-07_k612.iso |
-| biglinux | 2025-11-07 | k66 | https://iso.biglinux.com.br/biglinux_2025-11-07_k66.iso |
+| biglinux | 2025-11-14 | k617 | https://iso.biglinux.com.br/biglinux_2025-11-14_k617.iso |
+| biglinux | 2025-11-14 | k612 | https://iso.biglinux.com.br/biglinux_2025-11-14_k612.iso |
+| biglinux | 2025-11-14 | k66 | https://iso.biglinux.com.br/biglinux_2025-11-14_k66.iso |
 | blendos | latest |  | https://git.blendos.co/api/v4/projects/32/jobs/artifacts/main/raw/blendOS.iso?job=build-job |
 | bodhi | 7.0.0 | standard | https://sourceforge.net/projects/bodhilinux/files/7.0.0/bodhi-7.0.0-64.iso |
 | bodhi | 7.0.0 | hwe | https://sourceforge.net/projects/bodhilinux/files/7.0.0/bodhi-7.0.0-64-hwe.iso |
@@ -206,9 +206,9 @@
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | 25.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2MzEwMjIzMwo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2MzEwMjIzMwo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2MzEwMjIzMwo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2MzEyNDcxOAo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2MzEyNDcxOAo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2MzEyNDcxOAo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -352,7 +352,7 @@
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | 25.10 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/resolute-desktop-amd64.iso |
-| maboxlinux | latest |  | https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso |
+| maboxlinux | latest |  | https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -523,12 +523,6 @@
 | solus | 2025-01-26 | GNOME | https://downloads.getsol.us/isos/2025-01-26/Solus-GNOME-Release-2025-01-26.iso |
 | solus | 2025-01-26 | Plasma | https://downloads.getsol.us/isos/2025-01-26/Solus-Plasma-Release-2025-01-26.iso |
 | solus | 2025-01-26 | XFCE-Beta | https://downloads.getsol.us/isos/2025-01-26/Solus-XFCE-Beta-Release-2025-01-26.iso |
-| sparkylinux | 8.1 | minimalcli | https://sourceforge.net/projects/sparkylinux/files/cli/sparkylinux-8.1-x86_64-minimalcli.iso |
-| sparkylinux | 8.1 | minimalgui | https://sourceforge.net/projects/sparkylinux/files/base/sparkylinux-8.1-x86_64-minimalgui.iso |
-| sparkylinux | 8.1 | mate | https://sourceforge.net/projects/sparkylinux/files/mate/sparkylinux-8.1-x86_64-mate.iso |
-| sparkylinux | 8.1 | lxqt | https://sourceforge.net/projects/sparkylinux/files/lxqt/sparkylinux-8.1-x86_64-lxqt.iso |
-| sparkylinux | 8.1 | kde | https://sourceforge.net/projects/sparkylinux/files/kde/sparkylinux-8.1-x86_64-kde.iso |
-| sparkylinux | 8.1 | xfce | https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-8.1-x86_64-xfce.iso |
 | spirallinux | latest | Plasma | https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_Plasma_12.231005_x86-64.iso |
 | spirallinux | latest | XFCE | https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_XFCE_12.231005_x86-64.iso |
 | spirallinux | latest | Mate | https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_Mate_12.231005_x86-64.iso |
