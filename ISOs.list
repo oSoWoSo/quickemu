@@ -217,6 +217,7 @@ linuxhub        https://downloads.sourceforge.net/linuxhub-prime/Linuxhub_Prime_
 lite            https://downloads.sourceforge.net/linux-lite/linux-lite-7.4-64bit.iso
 liveraizo       https://downloads.sourceforge.net/live-raizo/Live-Raizo-v16.25.04.12i.iso
 liveraizo       https://downloads.sourceforge.net/live-raizo/Live-Raizo-v16.25.10.26p.iso
+lliurex         https://releaseslliurexnet.gva.es/isos/23/20251113/LliureX-desktop_64bits_23_20251113.iso
 luberri         https://luberrilinux.eus/wp-content/uploads/2025/11/Luberri-25.2.iso
 lubuntu         https://cdimage.ubuntu.com/lubuntu/releases/25.04/beta/lubuntu-25.04-beta-desktop-amd64.iso
 lubuntu         https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso
@@ -333,6 +334,7 @@ tails           https://mirrors.edge.kernel.org/tails/stable/tails-amd64-7.2/tai
 talos           https://github.com/siderolabs/talos/releases/download/v1.11.2/metal-amd64.iso
 talos           https://github.com/siderolabs/talos/releases/download/v1.11.3/metal-amd64.iso
 talos           https://github.com/siderolabs/talos/releases/download/v1.12.0-alpha.2/metal-amd64.iso
+talos           https://github.com/siderolabs/talos/releases/download/v1.12.0-beta.0/metal-arm64.iso
 tealinux        https://pinguin.dinus.ac.id/iso/tealinuxos/TeaLinuxOS-Arch/2025/release/tealinux-celia-cosmic-2025.09.17-x86_64.iso
 tinycore        https://distro.ibiblio.org/tinycorelinux/16.x/x86/release/TinyCore-16.2.iso
 tribblix        https://iso.tribblix.org/iso/tribblix-0m38.iso
