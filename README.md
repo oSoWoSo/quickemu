@@ -5,7 +5,7 @@
 | agarimos | latest | plasma | https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.57_1-20251112.iso |
 | agarimos | latest | xfce4 | https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.57_1-20251114.iso |
 | agarimos | latest | cinnamon | https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.57_1-20251108.iso |
-| agarimos | latest | lxqt-kwin | https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Dracula-Live-x86_64-6.12.53_1-20251020.iso |
+| agarimos | latest | lxqt-kwin | https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Catppuccin-Live-x86_64-6.12.58_1-20251115.iso |
 | agarimos | latest | gnome | https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-x86_64-6.12.57_1-20251112.iso |
 | alma | 9 | boot | https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-boot.iso |
 | alma | 9 | minimal | https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-minimal.iso |
@@ -68,7 +68,7 @@
 | antix | 21 | core-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso |
 | antix | 21 | base-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso |
 | antix | 21 | full-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso |
-| archcraft | latest |  | https://netactuate.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso |
+| archcraft | latest |  | https://psychz.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso |
 | archlinux | latest |  | https://mirror.rackspace.com/archlinux/iso/2025.11.01/archlinux-2025.11.01-x86_64.iso |
 | artixlinux | 20250407 | base-dinit | https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-openrc | https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso |
@@ -136,15 +136,15 @@
 | crunchbang++ | 11.2 |  | https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-amd64-20230514.iso |
 | crunchbang++ | 10.1 |  | https://github.com/CBPP/cbpp/releases/download/v10/cbpp-10.1-amd64-20190713.iso |
 | crunchbang++ | 9.0 |  | https://github.com/CBPP/cbpp/releases/download/v9/cbpp-9.0-amd64-20170621.iso |
-| debian | 13.1.0 | standard | https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-standard.iso |
-| debian | 13.1.0 | cinnamon | https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-cinnamon.iso |
-| debian | 13.1.0 | gnome | https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-gnome.iso |
-| debian | 13.1.0 | kde | https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-kde.iso |
-| debian | 13.1.0 | lxde | https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-lxde.iso |
-| debian | 13.1.0 | lxqt | https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-lxqt.iso |
-| debian | 13.1.0 | mate | https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-mate.iso |
-| debian | 13.1.0 | xfce | https://cdimage.debian.org/debian-cd/13.1.0-live/amd64/iso-hybrid/debian-live-13.1.0-amd64-xfce.iso |
-| debian | 13.1.0 | netinst | https://cdimage.debian.org/debian-cd/13.1.0/amd64/iso-cd/debian-13.1.0-amd64-netinst.iso |
+| debian | 13.2.0 | standard | https://cdimage.debian.org/debian-cd/13.2.0-live/amd64/iso-hybrid/debian-live-13.2.0-amd64-standard.iso |
+| debian | 13.2.0 | cinnamon | https://cdimage.debian.org/debian-cd/13.2.0-live/amd64/iso-hybrid/debian-live-13.2.0-amd64-cinnamon.iso |
+| debian | 13.2.0 | gnome | https://cdimage.debian.org/debian-cd/13.2.0-live/amd64/iso-hybrid/debian-live-13.2.0-amd64-gnome.iso |
+| debian | 13.2.0 | kde | https://cdimage.debian.org/debian-cd/13.2.0-live/amd64/iso-hybrid/debian-live-13.2.0-amd64-kde.iso |
+| debian | 13.2.0 | lxde | https://cdimage.debian.org/debian-cd/13.2.0-live/amd64/iso-hybrid/debian-live-13.2.0-amd64-lxde.iso |
+| debian | 13.2.0 | lxqt | https://cdimage.debian.org/debian-cd/13.2.0-live/amd64/iso-hybrid/debian-live-13.2.0-amd64-lxqt.iso |
+| debian | 13.2.0 | mate | https://cdimage.debian.org/debian-cd/13.2.0-live/amd64/iso-hybrid/debian-live-13.2.0-amd64-mate.iso |
+| debian | 13.2.0 | xfce | https://cdimage.debian.org/debian-cd/13.2.0-live/amd64/iso-hybrid/debian-live-13.2.0-amd64-xfce.iso |
+| debian | 13.2.0 | netinst | https://cdimage.debian.org/debian-cd/13.2.0/amd64/iso-cd/debian-13.2.0-amd64-netinst.iso |
 | debian | 12.12.0 | standard | https://cdimage.debian.org/cdimage/archive/12.12.0-live/amd64/iso-hybrid/debian-live-12.12.0-amd64-standard.iso |
 | debian | 12.12.0 | cinnamon | https://cdimage.debian.org/cdimage/archive/12.12.0-live/amd64/iso-hybrid/debian-live-12.12.0-amd64-cinnamon.iso |
 | debian | 12.12.0 | gnome | https://cdimage.debian.org/cdimage/archive/12.12.0-live/amd64/iso-hybrid/debian-live-12.12.0-amd64-gnome.iso |
@@ -206,9 +206,9 @@
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | 25.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2MzIxMDc4MAo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2MzIxMDc4MAo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2MzIxMDc4MAo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2MzIzMTQ5NQo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2MzIzMTQ5NQo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2MzIzMTQ5NQo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -249,7 +249,7 @@
 | ghostbsd | 25.01-R14.2p1 | xfce | https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso |
 | ghostbsd | 24.10.1 | mate | https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1.iso |
 | ghostbsd | 24.10.1 | xfce | https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso |
-| gnomeos | nightly |  | https://1270333429.rsc.cdn77.org/nightly/947693/gnome_os_947693-x86_64.iso |
+| gnomeos | nightly |  | https://1270333429.rsc.cdn77.org/nightly/947794/gnome_os_947794-x86_64.iso |
 | gnomeos | 49.rc |  | https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso |
 | gnomeos | 49.beta |  | https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso |
 | gnomeos | 49.alpha.1 |  | https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso |
@@ -489,7 +489,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://cytranet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/ |
