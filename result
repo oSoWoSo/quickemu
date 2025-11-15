@@ -222,7 +222,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://gigenet.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
+archcraft latest:                    https://netactuate.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1030,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MzE4ODQ1OQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MzE4ODQ1OQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MzE4ODQ1OQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MzIxMDc4MAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MzIxMDc4MAo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MzIxMDc4MAo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1274,6 +1274,16 @@ function get_() {
 
 garuda
 
+garuda latest cinnamon:              https://iso.builds.garudalinux.org/iso/latest/garuda/cinnamon/latest.iso
+garuda latest dr460nized:            https://iso.builds.garudalinux.org/iso/latest/garuda/dr460nized/latest.iso
+garuda latest dr460nized-gaming:     https://iso.builds.garudalinux.org/iso/latest/garuda/dr460nized-gaming/latest.iso
+garuda latest gnome:                 https://iso.builds.garudalinux.org/iso/latest/garuda/gnome/latest.iso
+garuda latest hyprland:              https://iso.builds.garudalinux.org/iso/latest/garuda/hyprland/latest.iso
+garuda latest i3:                    https://iso.builds.garudalinux.org/iso/latest/garuda/i3/latest.iso
+garuda latest kde-lite:              https://iso.builds.garudalinux.org/iso/latest/garuda/kde-lite/latest.iso
+garuda latest mokka:                 https://iso.builds.garudalinux.org/iso/latest/garuda/mokka/latest.iso
+garuda latest sway:                  https://iso.builds.garudalinux.org/iso/latest/garuda/sway/latest.iso
+garuda latest xfce:                  https://iso.builds.garudalinux.org/iso/latest/garuda/xfce/latest.iso
 
 # Template file for 'garuda'
 OSNAME="garuda"
@@ -1284,8 +1294,8 @@ HOMEPAGE="https://garudalinux.org"
 CREDENTIALS="-"
 
 
-RELEASES=""
-EDITIONS=""
+RELEASES="latest"
+EDITIONS="xfce sway mokka kde-lite i3 hyprland gnome dr460nized-gaming dr460nized cinnamon"
 
 function get_() {
     local HASH=""
@@ -1371,7 +1381,7 @@ function get_() {
 
 gnomeos
 
-gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/947390/gnome_os_947390-x86_64.iso
+gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/947693/gnome_os_947693-x86_64.iso
 gnomeos 49.rc:                       https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso
 gnomeos 49.beta:                     https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso
 gnomeos 49.alpha.1:                  https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso
@@ -2876,7 +2886,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://cytranet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"

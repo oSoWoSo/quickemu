@@ -7,8 +7,8 @@ HOMEPAGE="https://garudalinux.org"
 CREDENTIALS="-"
 
 
-RELEASES=""
-EDITIONS=""
+RELEASES="latest"
+EDITIONS="xfce sway mokka kde-lite i3 hyprland gnome dr460nized-gaming dr460nized cinnamon"
 
 function get_() {
     local HASH=""
