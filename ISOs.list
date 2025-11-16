@@ -201,6 +201,7 @@ kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubunt
 kubuntu         https://cdimages.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso
 kumander        https://dl.kumander.org/kumander-linux-2.0-live-amd64.iso
 kumander        https://dl.kumander.org/kumander-linux-2.1-live-amd64.iso
+lainos          https://de01.pixeldrain.com/api/filesystem/kFHJqp4N/LainOS-2025.11.16-x86_64.iso
 lastos          https://downloads.sourceforge.net/lastoslinux/LastOSLinux_LMDE7_amd64_2025-09-29_2110.iso
 lastos          https://downloads.sourceforge.net/lastoslinux/LastOSLinux_Mint_22.2_amd64_2025-10-29_1419.iso
 lazylinux       https://downloads.sourceforge.net/lazylinux/lazylinux-live-x86_64-6.17.4_1-20251023.iso
@@ -299,6 +300,7 @@ qubes           https://ftp.qubes-os.org/iso/Qubes-R4.3.0-rc2-x86_64.iso
 qubes           https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.3.0-rc3-x86_64.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.03.04-x86_64.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.04.26-x86_64.iso
+refracta        https://get.refracta.org/files/stable/refracta_13.1_xfce_amd64-20251116_1420.iso
 regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_en-US.x86_64-25.0.0.iso
 regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_pt-BR.x86_64-25.0.0.iso
 regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_pt-BR.x86_64-25.0.6.iso
