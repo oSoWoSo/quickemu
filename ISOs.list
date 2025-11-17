@@ -142,6 +142,7 @@ freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-BETA3-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-BETA4-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-BETA5-amd64-disc1.iso
+freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-RC1-amd64-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA3-amd64-20250921-26988773d1da-280233-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA4-amd64-20250927-d2b670b27f37-280334-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA5-amd64-20251004-1c0898edf28f-280541-disc1.iso
@@ -152,6 +153,7 @@ funos           https://downloads.sourceforge.net/funos/funos-25.10-stable.20251
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-cinnamon-linux-zen-251002.iso
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-dr460nized-linux-zen-250308.iso
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-mokka-linux-zen-251102.iso
+gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251116T161545Z/livegui-amd64-20251116T161545Z.iso
 gnomeos         https://os.gnome.org/download/921729/live_921729-x86_64.iso
 gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix25_10-kde-rolling.iso
 gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix25_10-kde.iso
@@ -407,6 +409,7 @@ voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-amd6
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-beta-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-beta2-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-alpha-amd64.iso
+vyos            https://community-downloads.vyos.dev/stream/2025.11/vyos-2025.11-generic-amd64.iso
 xigmanas        https://sourceforge.net/projects/xigmanas/files/XigmaNAS-14.3.0.5/14.3.0.5.10483/XigmaNAS-x64-LiveCD-14.3.0.5.10483.iso/download
 xivastudio      https://iso.biglinux.com.br/xivastudio_2025-10-06_xanmodlts612.iso
 xivastudio      https://iso.biglinux.com.br/xivastudio_2025-11-13_k612.iso
