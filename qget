@@ -168,7 +168,7 @@ function error_specify_os() {
     echo $"ERROR! You must specify an operating system."
     echo $"- Supported Operating Systems:"
     os_support | fmt -w $(tput cols)
-    echo -e $"\nTo see all possible arguments, use:\n   quickget -h  or  quickget --help"
+    echo -e $"\nTo see all possible arguments, use:\n   qget -h  or  qget --help"
     exit 1
 }
 
