@@ -126,6 +126,7 @@ exton           https://downloads.sourceforge.net/debian-pixel/debian-12-pixel-3
 exton           https://downloads.sourceforge.net/opsus/exton-opsus-64bit-tumbleweed-gnome-refractasnapshot-2640mb-251115.iso
 exton           https://downloads.sourceforge.net/puppex/puppex-noble64-uefi-nvidia-1960mb-251008.iso
 extrox          https://downloads.sourceforge.net/extrox/extrox-2.0_RC1-20250927_1924.iso
+extrox          https://downloads.sourceforge.net/extrox/extrox2.0B-True_Normal-ProductEdition-20251118_1823.iso
 extrox          https://downloads.sourceforge.net/extrox/extrox_2.0_RC2-20251003_0933.iso
 fedora          https://dl.fedoraproject.org/pub/fedora/linux/releases/43/Workstation/x86_64/iso/Fedora-Workstation-Live-43-1.6.x86_64.iso
 fedora          https://download.fedoraproject.org/pub/fedora/linux/releases/43/Workstation/x86_64/iso/Fedora-Workstation-Live-43-1.6.x86_64.iso
@@ -247,6 +248,7 @@ manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-kde-25.0.
 max             https://ftp.rediris.es/mirror/MaX-Linux/MaXdesktop/ultima-version/MAX-12.0-FINAL-live-amd64-20250307_1411.iso
 midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/3.2.3/MidnightBSD-3.2.3--amd64-disc1.iso
 midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/3.2.4/MidnightBSD-3.2.4--amd64-disc1.iso
+minios          https://github.com/minios-linux/minios-live/releases/download/v5.1.0-rc1/minios-trixie-xfce-standard-amd64-5.1.0-rc1.iso
 mint            https://mirror.rackspace.com/linuxmint/iso/debian/lmde-7-cinnamon-64bit.iso
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.10/MocaccinoOS-GNOME-0.20251001.iso.tar.xz
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.11/MocaccinoOS-MATE-0.20251101.iso.tar.xz
