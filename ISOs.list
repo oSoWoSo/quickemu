@@ -423,6 +423,7 @@ xubuntu         https://cdimage.ubuntu.com/xubuntu/releases/25.10/beta/xubuntu-2
 xubuntu         https://cdimage.ubuntu.com/xubuntu/releases/25.10/release/xubuntu-25.10-desktop-amd64.iso
 xubuntu         https://cdimages.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso
 zimaos          https://github.com/IceWhaleTech/ZimaOS/releases/download/1.5.1/zimaos-x86_64-1.5.1_installer.iso
+zimaos          https://github.com/IceWhaleTech/ZimaOS/releases/download/1.5.2-beta1/zimaos-x86_64-1.5.2-beta1_installer.iso
 zorin           https://distro.ibiblio.org/zorinos/18/Zorin-OS-18-Core-64-bit.iso
 zorin           https://distro.ibiblio.org/zorinos/18/Zorin-OS-18-Core-Beta-64-bit.iso
 zorin           https://mirror.webworld.ie/zorinos/17/Zorin-OS-17.3-Core-64-bit.iso
