@@ -133,6 +133,7 @@ fedora          https://mirrors.xmission.com/fedora/linux/releases/42/Workstatio
 ferenos         https://downloads.sourceforge.net/feren-os-development-builds/Feren%20OS%20on%2022.04%20Beta%202.iso
 ferenos         https://downloads.sourceforge.net/ferenoslinux/Feren-OS-standarddt.iso
 finnix          https://www.finnix.org/releases/250/finnix-250.iso
+finnix          https://www.finnix.org/releases/251/finnix-251.iso
 flatcar         https://stable.release.flatcar-linux.net/amd64-usr/4459.2.0/flatcar_production_iso_image.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/13.5/FreeBSD-13.5-RELEASE-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14.3-BETA1-amd64-disc1.iso
@@ -397,6 +398,7 @@ umbrelos        https://download.umbrel.com/release/1.5.0/umbrelos-amd64-usb-ins
 uncom           https://mirror.uncom.tech/iso/uncom-2025.10.12-desktop-amd64-r2.5.21-main-ret-ru-f0cf1.iso
 univention      https://updates.software-univention.de/download/ucs-cds/ucs5.2-1/UCS_5.2-1-amd64.iso
 vailuxos        https://downloads.vailux.de/VailuxOS-1.5-desktop-stable-amd64.iso
+vendefoul       https://downloads.sourceforge.net/vendefoul-wolf-linux/Vendefoul-Wolf-Excalibur_TDE_k6-17-8_XLibre_openRC_amd64_v181125.iso
 vendefoul       https://downloads.sourceforge.net/vendefoul-wolf-linux/Vendefoul_Wolf_Excalibur_TDE_k6-16-9_amd64_v280925.iso
 vinari          https://downloads.sourceforge.net/vinari-os/Vinari-OS-5.0.0-KRYPTON-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-12.10-debian-amd64.iso
