@@ -89,6 +89,7 @@ clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2
 clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2.1-9-amd64.iso
 clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.2.2-5-amd64.iso
 clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.3.0-33-amd64.iso
+cloudlinux      https://www.repo.cloudlinux.com/cloudlinux/9/iso/x86_64/CloudLinux-9.7-x86_64-dvd.iso
 crux            https://git.crux.nu/system/iso/releases/download/3.8-rc5/crux-3.8-rc5.iso
 crux            https://git.crux.nu/system/iso/releases/download/3.8/crux-3.8.iso
 cyrethium       https://downloads.sourceforge.net/cyrethium/Cyrethium-V1R-amd64.iso
@@ -306,6 +307,7 @@ proxmox         https://enterprise.proxmox.com/iso/proxmox-backup-server_3.4-1.i
 proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-BETA-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso
+proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_9.1-1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-5.8-x64.r1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-6.1-x64-tde.r1.1-testing.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-6.2-x64-tde.r1.iso
@@ -365,6 +367,7 @@ tromjaro        https://archive.org/download/TROM-Jaro-OS/TROMjaro%202025.10.08.
 truenas         https://download.sys.truenas.net/TrueNAS-Fangtooth/25.04.0/TrueNAS-SCALE-25.04.0.iso
 truenas         https://download.sys.truenas.net/TrueNAS-SCALE-Fangtooth-RC/25.04-RC.1/TrueNAS-SCALE-25.04-RC.1.iso
 truenas         https://download.sys.truenas.net/TrueNAS-SCALE-Goldeye-RC/25.10-RC.1/TrueNAS-SCALE-25.10-RC.1.iso
+truenas         https://download.sys.truenas.net/TrueNAS-SCALE-Goldeye/25.10.0.1/TrueNAS-SCALE-25.10.0.1.iso
 truenas         https://download.sys.truenas.net/TrueNAS-SCALE-Goldeye/25.10.0/TrueNAS-SCALE-25.10.0.iso
 tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202504150920.iso
 tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202509231610.iso
