@@ -36,6 +36,7 @@ artix           https://download.artixlinux.org/iso/artix-xfce-s6-20250310-x86_6
 asmi            https://github.com/teejee2008/asmi-linux/releases/download/v25.10/asmi-linux-25.10-amd64.iso
 athena          https://downloads.sourceforge.net/athena-iso/athenaos-rolling-x86_64.iso
 athena          https://github.com/Athena-OS/athena/releases/download/v25.11/athenaos-live-x86_64.iso
+aurora          https://dl.getaurora.dev/aurora-stable-x86_64.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.3.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.4.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.6.iso
@@ -47,6 +48,7 @@ biglinux        https://iso.biglinux.com.br/biglinux_2025-09-26_k616.iso
 blade           https://downloads.sourceforge.net/blade-os/blade.iso
 blendos         https://blend.asterisk.lol/dvd/v4/blendOS.iso
 blendos         https://mirrors.de.sahilister.net/blendos/blendOS.iso
+blueonyx        http://mirror.blueonyx.de/pub/BlueOnyx/ISO/BlueOnyx-5212R-AlmaLinux-10.0-20251117.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.13.6-3-2025.03.11-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.13.8-1-2025.03.24-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.1-1-2025.04.09-x86_64.iso
@@ -65,6 +67,7 @@ calam           https://downloads.sourceforge.net/blue-arch-installer/Calam-Arch
 calculate       https://mirror.calculate-linux.org/release/20250409/cld-20250409-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/20251020/cld-20251020-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/20251108/cld-20251108-x86_64.iso
+calculate       https://mirror.calculate-linux.org/release/20251118/cld-20251118-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250313-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250318-x86_64.iso
 centos          https://ftp.udx.icscoe.jp/Linux/CentOS-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250303.3-x86_64-dvd1.iso
@@ -147,6 +150,7 @@ freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-BETA4-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-BETA5-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-RC1-amd64-disc1.iso
+freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-RC2-amd64-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA3-amd64-20250921-26988773d1da-280233-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA4-amd64-20250927-d2b670b27f37-280334-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA5-amd64-20251004-1c0898edf28f-280541-disc1.iso
