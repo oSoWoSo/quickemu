@@ -1164,11 +1164,41 @@ function configure_tpm() {
     fi
 }
 
+function configure_cpu_pinning() {
+    if [ -z "${CORE_MAPPING}" ]; then
+        return
+    fi
+
+    GUEST_CPUS=""
+    idx=0
+    for tid_dir in /proc/"${VM_PID}"/task/*; do
+        tid=$(basename "$tid_dir")
+        name=$(cat "$tid_dir/comm")
+
+        if [[ "$name" == CPU* ]]; then
+            # Map per core, if threads are specified pin them to the same core
+            core_idx=$(( idx / GUEST_CPU_THREADS ))
+            host_cpu=${CORE_MAPPING[$core_idx]}
+
+            if (( idx % GUEST_CPU_THREADS == 0 )); then
+                [[ -n "$GUEST_CPUS" ]] && GUEST_CPUS+=","
+                GUEST_CPUS+="$core_idx"
+            fi
+
+            taskset -cp "$host_cpu" "$tid" &>/dev/null
+            idx=$((idx + 1))
+        fi
+    done
+
+    echo " - CPU Pinning: Bind guest cores to host cores (${GUEST_CPUS} -> ${CPU_PINNING})"
+}
+
 function vm_boot() {
     AUDIO_DEV=""
     BALLOON="-device virtio-balloon"
     BOOT_STATUS=""
     CPU=""
+    CORE_MAPPING=""
     DISK_USED=""
     DISPLAY_DEVICE=""
     DISPLAY_RENDER=""
@@ -1239,7 +1269,7 @@ function vm_boot() {
     # Changing process name is not supported on macOS
     if [ "${OS_KERNEL}" == "Linux" ]; then
         # shellcheck disable=SC2054,SC2206,SC2140
-        args+=(-name ${VMNAME},process=${VMNAME})
+        args+=(-name ${VMNAME},process=${VMNAME},debug-threads=on)
     fi
     # shellcheck disable=SC2054,SC2206,SC2140
     args+=(-machine ${MACHINE_TYPE},smm=${SMM},vmport=off,accel=${QEMU_ACCEL} ${GUEST_TWEAKS}
@@ -1339,6 +1369,22 @@ function vm_boot() {
             args+=(-usbdevice braille)
         else
             echo $" - WARNING!  ${QEMU} does not support -chardev braille "
+        fi
+    fi
+
+    # Validate input of the CPU_PINNING, pinning is not supported on macOS
+    if [ -n "${CPU_PINNING}" ] && [ "${OS_KERNEL}" == "Linux" ]; then
+        if ! [[ "${CPU_PINNING}" =~ ^[0-9]+(,[0-9]+)*$ ]]; then
+            echo " - ERROR!  Couldn't parse CPU pinning: '${CPU_PINNING}', only comma-separated list is supported"
+            exit 1
+        fi
+
+        IFS=',' read -r -a CORE_MAPPING <<< "$CPU_PINNING"
+
+        NUM_CORE_MAPPING=${#CORE_MAPPING[@]}
+        if [ "$NUM_CORE_MAPPING" -ne "$GUEST_CPU_LOGICAL_CORES" ]; then
+            echo " - ERROR!  Number of host cores for pinning should be equal to VM core count ($NUM_CORE_MAPPING != $GUEST_CPU_LOGICAL_CORES)"
+            exit 1
         fi
     fi
 
@@ -1586,7 +1632,8 @@ function vm_boot() {
         VM_PID=$!
         sleep 0.25
         if kill -0 "${VM_PID}" 2>/dev/null; then
-            echo $" - Process:  Started ${VM} as ${VMNAME} (${VM_PID})"
+            echo " - Process:  Started ${VM} as ${VMNAME} (${VM_PID})"
+            configure_cpu_pinning
         else
             echo $" - Process:  ERROR! Failed to start ${VM} as ${VMNAME}"
             rm -f "${VMDIR}/${VMNAME}.pid"
@@ -1667,43 +1714,44 @@ function usage() {
     echo $"Usage"
     echo $"  ${LAUNCHER} --vm ubuntu.conf <arguments>"
     echo
-    echo $"Arguments"
-    echo $"  --access                          : Enable remote spice access support. 'local' (default), 'remote', 'clientipaddress'"
-    echo $"  --braille                         : Enable braille support. Requires SDL."
-    echo $"  --delete-disk                     : Delete the disk image and EFI variables"
-    echo $"  --delete-vm                       : Delete the entire VM and its configuration"
-    echo $"  --display                         : Select display backend. 'sdl' (default), 'cocoa', 'gtk', 'none', 'spice' or 'spice-app'"
-    echo $"  --fullscreen                      : Starts VM in full screen mode (Ctl+Alt+f to exit)"
-    echo $"  --ignore-msrs-always              : Configure KVM to always ignore unhandled machine-specific registers"
-    echo $"  --kill                            : Kill the VM process if it is running"
-    echo $"  --offline                         : Override all network settings and start the VM offline"
-    echo $"  --shortcut                        : Create a desktop shortcut"
-    echo $"  --snapshot apply <tag>            : Apply/restore a snapshot."
-    echo $"  --snapshot create <tag>           : Create a snapshot."
-    echo $"  --snapshot delete <tag>           : Delete a snapshot."
-    echo $"  --snapshot info                   : Show disk/snapshot info."
-    echo $"  --status-quo                      : Do not commit any changes to disk/snapshot."
-    echo $"  --viewer <viewer>                 : Choose an alternative viewer. @Options: 'spicy' (default), 'remote-viewer', 'none'"
-    echo $"  --width <width>                   : Set VM screen width; requires '--height'"
-    echo $"  --height <height>                 : Set VM screen height; requires '--width'"
-    echo $"  --ssh-port <port>                 : Set SSH port manually"
-    echo $"  --spice-port <port>               : Set SPICE port manually"
-    echo $"  --public-dir <path>               : Expose share directory. @Options: '' (default: xdg-user-dir PUBLICSHARE), '<directory>', 'none'"
-    echo $"  --monitor <type>                  : Set monitor connection type. @Options: 'socket' (default), 'telnet', 'none'"
-    echo $"  --monitor-telnet-host <ip/host>   : Set telnet host for monitor. (default: 'localhost')"
-    echo $"  --monitor-telnet-port <port>      : Set telnet port for monitor. (default: '4440')"
-    echo $"  --monitor-cmd <cmd>               : Send command to monitor if available. (Example: system_powerdown)"
-    echo $"  --serial <type>                   : Set serial connection type. @Options: 'socket' (default), 'telnet', 'none'"
-    echo $"  --serial-telnet-host <ip/host>    : Set telnet host for serial. (default: 'localhost')"
-    echo $"  --serial-telnet-port <port>       : Set telnet port for serial. (default: '6660')"
-    echo $"  --keyboard <type>                 : Set keyboard. @Options: 'usb' (default), 'ps2', 'virtio'"
-    echo $"  --keyboard_layout <layout>        : Set keyboard layout: 'en-us' (default)"
-    echo $"  --mouse <type>                    : Set mouse. @Options: 'tablet' (default), 'ps2', 'usb', 'virtio'"
-    echo $"  --usb-controller <type>           : Set usb-controller. @Options: 'ehci' (default), 'xhci', 'none'"
-    echo $"  --sound-card <type>               : Set sound card. @Options: 'intel-hda' (default), 'ac97', 'es1370', 'sb16', 'usb-audio', 'none'"
-    echo $"  --sound-duplex <type>             : Set sound card duplex. @Options: 'hda-micro' (default: speaker/mic), 'hda-duplex' (line-in/line-out), 'hda-output' (output-only)"
-    echo $"  --extra_args <arguments>          : Pass additional arguments to qemu"
-    echo $"  --version                         : Print version"
+    echo "Arguments"
+    echo "  --access                          : Enable remote spice access support. 'local' (default), 'remote', 'clientipaddress'"
+    echo "  --braille                         : Enable braille support. Requires SDL."
+    echo "  --cpu-pinning                     : Choose which host cores correspond to which guest cores."
+    echo "  --delete-disk                     : Delete the disk image and EFI variables"
+    echo "  --delete-vm                       : Delete the entire VM and its configuration"
+    echo "  --display                         : Select display backend. 'sdl' (default), 'cocoa', 'gtk', 'none', 'spice' or 'spice-app'"
+    echo "  --fullscreen                      : Starts VM in full screen mode (Ctl+Alt+f to exit)"
+    echo "  --ignore-msrs-always              : Configure KVM to always ignore unhandled machine-specific registers"
+    echo "  --kill                            : Kill the VM process if it is running"
+    echo "  --offline                         : Override all network settings and start the VM offline"
+    echo "  --shortcut                        : Create a desktop shortcut"
+    echo "  --snapshot apply <tag>            : Apply/restore a snapshot."
+    echo "  --snapshot create <tag>           : Create a snapshot."
+    echo "  --snapshot delete <tag>           : Delete a snapshot."
+    echo "  --snapshot info                   : Show disk/snapshot info."
+    echo "  --status-quo                      : Do not commit any changes to disk/snapshot."
+    echo "  --viewer <viewer>                 : Choose an alternative viewer. @Options: 'spicy' (default), 'remote-viewer', 'none'"
+    echo "  --width <width>                   : Set VM screen width; requires '--height'"
+    echo "  --height <height>                 : Set VM screen height; requires '--width'"
+    echo "  --ssh-port <port>                 : Set SSH port manually"
+    echo "  --spice-port <port>               : Set SPICE port manually"
+    echo "  --public-dir <path>               : Expose share directory. @Options: '' (default: xdg-user-dir PUBLICSHARE), '<directory>', 'none'"
+    echo "  --monitor <type>                  : Set monitor connection type. @Options: 'socket' (default), 'telnet', 'none'"
+    echo "  --monitor-telnet-host <ip/host>   : Set telnet host for monitor. (default: 'localhost')"
+    echo "  --monitor-telnet-port <port>      : Set telnet port for monitor. (default: '4440')"
+    echo "  --monitor-cmd <cmd>               : Send command to monitor if available. (Example: system_powerdown)"
+    echo "  --serial <type>                   : Set serial connection type. @Options: 'socket' (default), 'telnet', 'none'"
+    echo "  --serial-telnet-host <ip/host>    : Set telnet host for serial. (default: 'localhost')"
+    echo "  --serial-telnet-port <port>       : Set telnet port for serial. (default: '6660')"
+    echo "  --keyboard <type>                 : Set keyboard. @Options: 'usb' (default), 'ps2', 'virtio'"
+    echo "  --keyboard_layout <layout>        : Set keyboard layout: 'en-us' (default)"
+    echo "  --mouse <type>                    : Set mouse. @Options: 'tablet' (default), 'ps2', 'usb', 'virtio'"
+    echo "  --usb-controller <type>           : Set usb-controller. @Options: 'ehci' (default), 'xhci', 'none'"
+    echo "  --sound-card <type>               : Set sound card. @Options: 'intel-hda' (default), 'ac97', 'es1370', 'sb16', 'usb-audio', 'none'"
+    echo "  --sound-duplex <type>             : Set sound card duplex. @Options: 'hda-micro' (default: speaker/mic), 'hda-duplex' (line-in/line-out), 'hda-output' (output-only)"
+    echo "  --extra_args <arguments>          : Pass additional arguments to qemu"
+    echo "  --version                         : Print version"
 }
 
 function display_param_check() {
@@ -1939,6 +1987,7 @@ sound_duplex="${sound_duplex:-hda-micro}"
 ACCESS=""
 ACTIONS=()
 BRAILLE=""
+CPU_PINNING=""
 FULLSCREEN=""
 MONITOR_CMD=""
 PUBLIC=""
@@ -2008,6 +2057,10 @@ else
                 SHORTCUT_OPTIONS+="--braille "
                 BRAILLE="on"
                 shift;;
+            -cpu-pinning|--cpu-pinning)
+                SHORTCUT_OPTIONS+="--cpu-pinning ${2} "
+                CPU_PINNING=${2}
+                shift 2;;
             -delete|--delete|-delete-disk|--delete-disk)
                 ACTIONS+=(delete_disk)
                 shift;;
