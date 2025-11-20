@@ -204,6 +204,7 @@ kdeneon         https://files.kde.org/neon/images/user/20251021-1242/neon-user-2
 kdeneon         https://files.kde.org/neon/images/user/20251030-0745/neon-user-20251030-0745.iso
 kdeneon         https://files.kde.org/neon/images/user/20251106-0745/neon-user-20251106-0745.iso
 kdeneon         https://files.kde.org/neon/images/user/20251113-0744/neon-user-20251113-0744.iso
+kdeneon         https://files.kde.org/neon/images/user/20251120-0743/neon-user-20251120-0743.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.4.1/Kicksecure-LXQt-18.0.4.1.Intel_AMD64.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.5.8/Kicksecure-LXQt-18.0.5.8.Intel_AMD64.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.6.4/Kicksecure-LXQt-18.0.6.4.Intel_AMD64.iso
@@ -315,6 +316,7 @@ q4os            https://downloads.sourceforge.net/q4os/q4os-5.8-x64.r1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-6.1-x64-tde.r1.1-testing.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-6.2-x64-tde.r1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-6.3-x64.r1.iso
+q4os            https://downloads.sourceforge.net/q4os/q4os-7.0-x64-plasma.r1-testing.iso
 quarkos         https://downloads.sourceforge.net/quark-os/quarkos-24.04-x64.r4.iso
 qubes           https://ftp.qubes-os.org/iso/Qubes-R4.3.0-rc2-x86_64.iso
 qubes           https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.3.0-rc3-x86_64.iso
@@ -429,6 +431,7 @@ voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-amd6
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-beta-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-beta2-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-alpha-amd64.iso
+voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-alpha2-amd64.iso
 vyos            https://community-downloads.vyos.dev/stream/2025.11/vyos-2025.11-generic-amd64.iso
 xigmanas        https://sourceforge.net/projects/xigmanas/files/XigmaNAS-14.3.0.5/14.3.0.5.10483/XigmaNAS-x64-LiveCD-14.3.0.5.10483.iso/download
 xivastudio      https://iso.biglinux.com.br/xivastudio_2025-10-06_xanmodlts612.iso
