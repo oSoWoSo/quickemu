@@ -1,6 +1,6 @@
 agarimos
 
-agarimos latest plasma:              https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.58_1-20251117.iso
+agarimos latest plasma:              https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.58_1-20251120.iso
 agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.58_1-20251117.iso
 agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live--x86_64-6.12.58_1-20251117.iso
 agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Catppuccin-Live-x86_64-6.12.58_1-20251115.iso
@@ -1030,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MzY2MzgwMwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MzY2MzgwMwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MzY2MzgwMwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2MzY5MDIyOQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2MzY5MDIyOQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2MzY5MDIyOQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1244,6 +1244,7 @@ gabeeos
 
 gabeeos latest Hyprland:             https://sourceforge.net/projects/gabeeoslinux/files/Distro/Hyprland/gabeeOSLinux-Hyprland-live-x86_64-6.12.58_1-20251118.iso/
 gabeeos latest Qtile:                https://sourceforge.net/projects/gabeeoslinux/files/Distro/Qtile/Release-2025/gabeeOSLinux-Qtile-live-x86_64-6.12.58_1-20251119.iso
+gabeeos latest i3-gaps:              https://sourceforge.net/projects/gabeeoslinux/files/Distro/i3-gaps/gabeeOSLinux-i3-gaps-live-x86_64-6.12.58_1-20251120.iso
 
 # Template file for 'gabeeos'
 OSNAME="gabeeos"
@@ -1255,7 +1256,7 @@ CREDENTIALS="anon:voidlinux,root:voidlinux"
 
 
 RELEASES="latest"
-EDITIONS="Qtile Hyprland"
+EDITIONS="i3-gaps Qtile Hyprland"
 
 function get_() {
     local HASH=""
@@ -1931,7 +1932,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://gigenet.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
+maboxlinux latest:                   https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2115,8 +2116,8 @@ manjaro cinnamon full:               https://download.manjaro.org/cinnamon/25.0.
 manjaro cinnamon minimal:            https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-minimal-250609-linux612.iso
 manjaro i3 full:                     https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-250609-linux612.iso
 manjaro i3 minimal:                  https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-minimal-250609-linux612.iso
-manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-251116-linux612.iso
-manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-251116-linux612.iso
+manjaro sway full:                   https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-251120-linux612.iso
+manjaro sway minimal:                https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-251120-linux612.iso
 
 # Template file for 'manjaro'
 OSNAME="manjaro"
@@ -3815,14 +3816,6 @@ function get_() {
 
 ubuntu
 
-ubuntu 14.04:                        https://releases.ubuntu.com/14.04/ubuntu-14.04.6-desktop-amd64.iso
-ubuntu 16.04:                        https://releases.ubuntu.com/16.04/ubuntu-16.04.7-desktop-amd64.iso
-ubuntu 18.04:                        https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso
-ubuntu 20.04:                        https://releases.ubuntu.com/20.04/ubuntu-20.04.6-desktop-amd64.iso
-ubuntu 22.04:                        https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso
-ubuntu 24.04:                        https://releases.ubuntu.com/24.04/ubuntu-24.04.2-desktop-amd64.iso
-ubuntu 25.04:                        https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
-ubuntu 25.10:                        https://releases.ubuntu.com/25.10/ubuntu-25.10-desktop-amd64.iso
 ubuntu daily-live:                   https://cdimage.ubuntu.com/ubuntu/daily-live/current/resolute-desktop-amd64.iso
 
 # Template file for 'ubuntu'

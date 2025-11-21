@@ -8,7 +8,7 @@ CREDENTIALS="anon:voidlinux,root:voidlinux"
 
 
 RELEASES="latest"
-EDITIONS="Qtile Hyprland"
+EDITIONS="i3-gaps Qtile Hyprland"
 
 function get_() {
     local HASH=""

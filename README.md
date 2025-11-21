@@ -2,7 +2,7 @@
 <!-- TABLE -->
 | OS|RELEASE|EDITION|ISO |
 |---|---|---|---|
-| agarimos | latest | plasma | https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.58_1-20251117.iso |
+| agarimos | latest | plasma | https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.58_1-20251120.iso |
 | agarimos | latest | xfce4 | https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.58_1-20251117.iso |
 | agarimos | latest | cinnamon | https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live--x86_64-6.12.58_1-20251117.iso |
 | agarimos | latest | lxqt-kwin | https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Catppuccin-Live-x86_64-6.12.58_1-20251115.iso |
@@ -206,9 +206,9 @@
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | 25.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2MzY2MzgwMwo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2MzY2MzgwMwo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2MzY2MzgwMwo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2MzY5MDIyOQo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2MzY5MDIyOQo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2MzY5MDIyOQo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -232,6 +232,7 @@
 | fvoid | latest |  | https://sourceforge.net/projects/f-void/files/28_03_2024/fvoid-live-x86_64-20240328-lxqt.iso |
 | gabeeos | latest | Hyprland | https://sourceforge.net/projects/gabeeoslinux/files/Distro/Hyprland/gabeeOSLinux-Hyprland-live-x86_64-6.12.58_1-20251118.iso/ |
 | gabeeos | latest | Qtile | https://sourceforge.net/projects/gabeeoslinux/files/Distro/Qtile/Release-2025/gabeeOSLinux-Qtile-live-x86_64-6.12.58_1-20251119.iso |
+| gabeeos | latest | i3-gaps | https://sourceforge.net/projects/gabeeoslinux/files/Distro/i3-gaps/gabeeOSLinux-i3-gaps-live-x86_64-6.12.58_1-20251120.iso |
 | garuda | latest | cinnamon | https://iso.builds.garudalinux.org/iso/latest/garuda/cinnamon/latest.iso |
 | garuda | latest | dr460nized | https://iso.builds.garudalinux.org/iso/latest/garuda/dr460nized/latest.iso |
 | garuda | latest | dr460nized-gaming | https://iso.builds.garudalinux.org/iso/latest/garuda/dr460nized-gaming/latest.iso |
@@ -353,7 +354,7 @@
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | 25.10 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/resolute-desktop-amd64.iso |
-| maboxlinux | latest |  | https://gigenet.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso |
+| maboxlinux | latest |  | https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -370,8 +371,8 @@
 | manjaro | cinnamon | minimal | https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-minimal-250609-linux612.iso |
 | manjaro | i3 | full | https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-250609-linux612.iso |
 | manjaro | i3 | minimal | https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-minimal-250609-linux612.iso |
-| manjaro | sway | full | https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-251116-linux612.iso |
-| manjaro | sway | minimal | https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-251116-linux612.iso |
+| manjaro | sway | full | https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-251120-linux612.iso |
+| manjaro | sway | minimal | https://manjaro-sway.download/download?file=manjaro-sway-25.0.0-251120-linux612.iso |
 | miyo | 2022 | Kwin | https://sourceforge.net/projects/miyolinux/files/2022-Release// |
 | miyo | 2022 | Deboot-Ceres | https://sourceforge.net/projects/miyolinux/files/2022-Release// |
 | miyo | 2022 | JWM | https://sourceforge.net/projects/miyolinux/files/2022-Release// |
@@ -586,14 +587,6 @@
 | ubuntu-unity | 24.04 |  | https://cdimage.ubuntu.com/ubuntu-unity/releases/24.04/release/ubuntu-unity-24.04.3-desktop-amd64.iso |
 | ubuntu-unity | 25.04 |  | https://cdimage.ubuntu.com/ubuntu-unity/releases/25.04/release/ubuntu-unity-25.04-desktop-amd64.iso |
 | ubuntu-unity | daily-live |  | https://cdimage.ubuntu.com/ubuntu-unity/daily-live/current/resolute-desktop-amd64.iso |
-| ubuntu | 14.04 |  | https://releases.ubuntu.com/14.04/ubuntu-14.04.6-desktop-amd64.iso |
-| ubuntu | 16.04 |  | https://releases.ubuntu.com/16.04/ubuntu-16.04.7-desktop-amd64.iso |
-| ubuntu | 18.04 |  | https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso |
-| ubuntu | 20.04 |  | https://releases.ubuntu.com/20.04/ubuntu-20.04.6-desktop-amd64.iso |
-| ubuntu | 22.04 |  | https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso |
-| ubuntu | 24.04 |  | https://releases.ubuntu.com/24.04/ubuntu-24.04.2-desktop-amd64.iso |
-| ubuntu | 25.04 |  | https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso |
-| ubuntu | 25.10 |  | https://releases.ubuntu.com/25.10/ubuntu-25.10-desktop-amd64.iso |
 | ubuntu | daily-live |  | https://cdimage.ubuntu.com/ubuntu/daily-live/current/resolute-desktop-amd64.iso |
 | ubuntustudio | 16.04 |  | https://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/ubuntustudio-16.04.5-dvd-amd64.iso |
 | ubuntustudio | 18.04 |  | https://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-amd64.iso |
