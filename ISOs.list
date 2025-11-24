@@ -248,6 +248,7 @@ mabox           https://downloads.sourceforge.net/mabox-linux/mabox-linux-25.04-
 macaroni        https://macaronios.mirror.garr.it/iso/iso-macaroni-funtoo-live-25.09/Macaroni-Phoenix-Gnome-Live-25.09.iso
 magos           http://ftp.magos-linux.ru/iso/MagOS_2021_20250926.iso
 magos           http://ftp.magos-linux.ru/iso/MagOS_2021_20251024.iso
+magos           http://ftp.magos-linux.ru/iso/MagOS_2021_20251122.iso
 makulu          https://downloads.sourceforge.net/makulu/MakuluLinux-LinDoz-U-2025-09-23.iso
 makulu          https://downloads.sourceforge.net/makulu/MakuluLinux-LinDoz-U-2025-10-05.iso
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-gnome-25.0.2-250516-linux612.iso
@@ -435,6 +436,7 @@ voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-beta
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-alpha-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-alpha2-amd64.iso
 vyos            https://community-downloads.vyos.dev/stream/2025.11/vyos-2025.11-generic-amd64.iso
+wmlive          https://downloads.sourceforge.net/wmlive/wmlive-trixie_13.2-i386.iso
 xigmanas        https://sourceforge.net/projects/xigmanas/files/XigmaNAS-14.3.0.5/14.3.0.5.10483/XigmaNAS-x64-LiveCD-14.3.0.5.10483.iso/download
 xivastudio      https://iso.biglinux.com.br/xivastudio_2025-10-06_xanmodlts612.iso
 xivastudio      https://iso.biglinux.com.br/xivastudio_2025-11-13_k612.iso
