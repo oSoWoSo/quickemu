@@ -1030,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2Mzk0OTk3Nwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2Mzk0OTk3Nwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2Mzk0OTk3Nwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2Mzk2NjMwMgo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2Mzk2NjMwMgo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2Mzk2NjMwMgo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1511,7 +1511,7 @@ function specific_tweaks() {
 kali
 
 kali current:                        https://cdimage.kali.org/current/kali-linux-2025.3-installer-amd64.iso
-kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2025-W46-installer-amd64.iso
+kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2025-W47-installer-amd64.iso
 
 # Template file for 'kali'
 OSNAME="kali"
@@ -1932,7 +1932,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
+maboxlinux latest:                   https://gigenet.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -3674,7 +3674,7 @@ function get_() {
 ubuntu-server
 
 ubuntu-server daily-live:            https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/resolute-live-server-amd64.iso
-ubuntu-server 25.10:                 https://releases.ubuntu.com/25.10/ubuntu-25.10-live-server-amd64.iso
+ubuntu-server 25.10:                 https://releases.ubuntu.com/25.10/
 ubuntu-server 25.04:                 https://releases.ubuntu.com/25.04/ubuntu-25.04-live-server-amd64.iso
 ubuntu-server 24.04:                 https://releases.ubuntu.com/24.04/ubuntu-24.04.2-live-server-amd64.iso
 ubuntu-24.04.3-live-server-amd64.iso
