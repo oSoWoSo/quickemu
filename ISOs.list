@@ -59,6 +59,7 @@ bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.5-2-20
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.16.10-1-2025.10.02-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.16.8-6-2025.09.25-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.17.3-1-2025.10.19-x86_64.iso
+bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.17.8-6-2025.11.23-x86_64.iso
 bros            https://downloads.sourceforge.net/bros/BrOS-13.1.1_amd64_hybrid.iso
 bros            https://downloads.sourceforge.net/bros/BrOS-13.2_amd64.hybrid.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250330.iso
@@ -293,6 +294,7 @@ opensuse        https://download.opensuse.org/distribution/leap/16.0/offline/Lea
 oreon           https://boostyconnect.com/oreon-iso/Oreon-10-Core-2510-x86_64.iso
 osolinux        https://downloads.sourceforge.net/oso/OsoLinux-fc43-Atlas-x86_64.iso
 pardus          https://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.4-GNOME-amd64.iso
+pardus          https://indir.pardus.org.tr/ISO/Pardus25/Pardus-25.0-XFCE-amd64.iso
 pclinuxos       https://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2025.09.iso
 peppermint      https://downloads.sourceforge.net/peppermintos/PeppermintOS-Debian-64.iso
 peropesis       https://peropesis.org/peropesis/Peropesis-2.9-live.iso
