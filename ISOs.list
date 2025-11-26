@@ -62,6 +62,7 @@ bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.16.10-1-2
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.16.8-6-2025.09.25-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.17.3-1-2025.10.19-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.17.8-6-2025.11.23-x86_64.iso
+bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.17.9-2-2025.11.25-x86_64.iso
 bros            https://downloads.sourceforge.net/bros/BrOS-13.1.1_amd64_hybrid.iso
 bros            https://downloads.sourceforge.net/bros/BrOS-13.2_amd64.hybrid.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250330.iso
@@ -295,6 +296,7 @@ openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20251105.x86_64.iso
 openmandriva    https://downloads.sourceforge.net/openmandriva/openmandriva-6.0-plasma6.x11-slim.x86_64.iso
 opensuse        https://download.opensuse.org/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso
+oracle          https://yum.oracle.com/ISOS/OracleLinux/OL9/u7/x86_64/OracleLinux-R9-U7-x86_64-dvd.iso
 oreon           https://boostyconnect.com/oreon-iso/Oreon-10-Core-2510-x86_64.iso
 osolinux        https://downloads.sourceforge.net/oso/OsoLinux-fc43-Atlas-x86_64.iso
 pardus          https://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.4-GNOME-amd64.iso
@@ -336,6 +338,7 @@ regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_en-US.x8
 regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_pt-BR.x86_64-25.0.0.iso
 regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_pt-BR.x86_64-25.0.6.iso
 rescuezilla     https://github.com/rescuezilla/rescuezilla/releases/download/2.6/rescuezilla-2.6-64bit.oracular.iso
+rocky           https://download.rockylinux.org/pub/rocky/10/isos/x86_64/Rocky-10.1-x86_64-dvd1.iso
 rosa            https://mirror.rosa.ru/rosa/rosa13/iso/ROSA.FRESH.13/plasma6/ROSA.FRESH.PLASMA6.13.0.x86_64.iso
 rosa            https://mirror.rosa.ru/rosa/rosa13/iso/ROSA.FRESH.13/plasma6/ROSA.FRESH.PLASMA6.13.1.x86_64.iso
 runtu           https://downloads.sourceforge.net/runtu/runtu-xfce-24.04-amd64_20250315.iso
