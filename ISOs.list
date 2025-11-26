@@ -318,6 +318,7 @@ porteus         https://mirrors.dotsrc.org/porteus/x86_64/Porteus-v5.1/Porteus-L
 porteux         https://github.com/porteux/porteux/releases/download/v2.0/porteux-v2.0-current-gnome-48.0-x86_64.iso
 porteux         https://github.com/porteux/porteux/releases/download/v2.4/porteux-2.4-current-cinnamon-6.4.13-x86_64.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-backup-server_3.4-1.iso
+proxmox         https://enterprise.proxmox.com/iso/proxmox-backup-server_4.1-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-BETA-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso
@@ -393,6 +394,7 @@ tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202509231610.iso
 tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202509291437.iso
 tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202510131615.iso
 tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202511061317.iso
+tuxedo          https://os.tuxedocomputers.com/TUXEDO-OS-202511261534.iso
 ubuntu          https://releases.ubuntu.com/25.04/ubuntu-25.04-beta-desktop-amd64.iso
 ubuntu          https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
 ubuntu          https://releases.ubuntu.com/25.10/ubuntu-25.10-desktop-amd64.iso
@@ -460,6 +462,7 @@ xubuntu         https://cdimage.ubuntu.com/xubuntu/releases/25.10/release/xubunt
 xubuntu         https://cdimages.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso
 zimaos          https://github.com/IceWhaleTech/ZimaOS/releases/download/1.5.1/zimaos-x86_64-1.5.1_installer.iso
 zimaos          https://github.com/IceWhaleTech/ZimaOS/releases/download/1.5.2-beta1/zimaos-x86_64-1.5.2-beta1_installer.iso
+zimaos          https://github.com/IceWhaleTech/ZimaOS/releases/download/1.5.2/zimaos-x86_64-1.5.2_installer.iso
 zorin           https://distro.ibiblio.org/zorinos/18/Zorin-OS-18-Core-64-bit.iso
 zorin           https://distro.ibiblio.org/zorinos/18/Zorin-OS-18-Core-Beta-64-bit.iso
 zorin           https://mirror.webworld.ie/zorinos/17/Zorin-OS-17.3-Core-64-bit.iso
