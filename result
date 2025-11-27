@@ -1030,9 +1030,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NDI0ODA0OQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NDI0ODA0OQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NDI0ODA0OQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NDI2ODQ3Ngo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NDI2ODQ3Ngo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NDI2ODQ3Ngo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1383,7 +1383,7 @@ function get_() {
 
 gnomeos
 
-gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/953979/gnome_os_953979-x86_64.iso
+gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/954311/gnome_os_954311-x86_64.iso
 gnomeos 49.rc:                       https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso
 gnomeos 49.beta:                     https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso
 gnomeos 49.alpha.1:                  https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso
@@ -2421,6 +2421,50 @@ function specific_tweaks() {
 
 openindiana
 
+openindiana 20251026 gui:            https://dlc.openindiana.org/isos/hipster/20251026/OI-hipster-gui-20251026.iso
+openindiana 20251026 text:           https://dlc.openindiana.org/isos/hipster/20251026/OI-hipster-text-20251026.iso
+openindiana 20251026 minimal:        https://dlc.openindiana.org/isos/hipster/20251026/OI-hipster-minimal-20251026.iso
+openindiana 20250606 gui:            https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-gui-20250606.iso
+openindiana 20250606 text:           https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-text-20250606.iso
+openindiana 20250606 minimal:        https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-minimal-20250606.iso
+openindiana 20250402 gui:            https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-gui-20250402.iso
+openindiana 20250402 text:           https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-text-20250402.iso
+openindiana 20250402 minimal:        https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-minimal-20250402.iso
+openindiana 20241026 gui:            https://dlc.openindiana.org/isos/hipster/20241026/OI-hipster-gui-20241026.iso
+openindiana 20241026 text:           https://dlc.openindiana.org/isos/hipster/20241026/OI-hipster-text-20241026.iso
+openindiana 20241026 minimal:        https://dlc.openindiana.org/isos/hipster/20241026/OI-hipster-minimal-20241026.iso
+openindiana 20240426 gui:            https://dlc.openindiana.org/isos/hipster/20240426/OI-hipster-gui-20240426.iso
+openindiana 20240426 text:           https://dlc.openindiana.org/isos/hipster/20240426/OI-hipster-text-20240426.iso
+openindiana 20240426 minimal:        https://dlc.openindiana.org/isos/hipster/20240426/OI-hipster-minimal-20240426.iso
+
+# Template file for 'openindiana'
+OSNAME="openindiana"
+PRETTY="OpenIndiana"
+BASEDOF="Solaris OPenSolaris"
+DESCRIPTION="Community supported illumos-based operating system"
+HOMEPAGE="https://www.openindiana.org"
+CREDENTIALS="-"
+solaris
+
+RELEASES="20251026 20250606 20250402 20241026 20240426"
+EDITIONS="text minimal gui"
+
+function get_() {
+    local HASH=""
+    local ISO=""
+    local URL=""
+    URL="https://dlc.openindiana.org/isos/hipster/${RELEASE}"
+    ISO="OI-hipster-${EDITION}-${RELEASE}.iso"
+    HASH=$(web_pipe "${URL}/${ISO}.sha256" |cut -d' ' -f1)
+    echo "${URL}/${ISO} ${HASH}"
+}
+
+function specific_tweaks() {
+    echo "boot=\"legacy\"" >> "${CONF_FILE}"
+    echo "disk_size=\"32G\"" >> "${CONF_FILE}"
+}
+
+
 opensuse
 
 opensuse tumbleweed:                 https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso
@@ -2845,7 +2889,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://cytranet-dal.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"

@@ -206,9 +206,9 @@
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | 25.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2NDI0ODA0OQo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2NDI0ODA0OQo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2NDI0ODA0OQo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2NDI2ODQ3Ngo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2NDI2ODQ3Ngo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2NDI2ODQ3Ngo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -251,7 +251,7 @@
 | ghostbsd | 25.01-R14.2p1 | xfce | https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso |
 | ghostbsd | 24.10.1 | mate | https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1.iso |
 | ghostbsd | 24.10.1 | xfce | https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso |
-| gnomeos | nightly |  | https://1270333429.rsc.cdn77.org/nightly/953979/gnome_os_953979-x86_64.iso |
+| gnomeos | nightly |  | https://1270333429.rsc.cdn77.org/nightly/954311/gnome_os_954311-x86_64.iso |
 | gnomeos | 49.rc |  | https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso |
 | gnomeos | 49.beta |  | https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso |
 | gnomeos | 49.alpha.1 |  | https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso |
@@ -400,6 +400,21 @@
 | nwg-shell | 2025.06.08 |  | https://sourceforge.net/projects/nwg-iso/files/nwg-live-2025.06.08-x86_64.iso |
 | openbsd | 7.8 |  | https://mirror.leaseweb.com/pub/OpenBSD/7.8/amd64/install78.iso |
 | openbsd | 7.7 |  | https://mirror.leaseweb.com/pub/OpenBSD/7.7/amd64/install77.iso |
+| openindiana | 20251026 | gui | https://dlc.openindiana.org/isos/hipster/20251026/OI-hipster-gui-20251026.iso |
+| openindiana | 20251026 | text | https://dlc.openindiana.org/isos/hipster/20251026/OI-hipster-text-20251026.iso |
+| openindiana | 20251026 | minimal | https://dlc.openindiana.org/isos/hipster/20251026/OI-hipster-minimal-20251026.iso |
+| openindiana | 20250606 | gui | https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-gui-20250606.iso |
+| openindiana | 20250606 | text | https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-text-20250606.iso |
+| openindiana | 20250606 | minimal | https://dlc.openindiana.org/isos/hipster/20250606/OI-hipster-minimal-20250606.iso |
+| openindiana | 20250402 | gui | https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-gui-20250402.iso |
+| openindiana | 20250402 | text | https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-text-20250402.iso |
+| openindiana | 20250402 | minimal | https://dlc.openindiana.org/isos/hipster/20250402/OI-hipster-minimal-20250402.iso |
+| openindiana | 20241026 | gui | https://dlc.openindiana.org/isos/hipster/20241026/OI-hipster-gui-20241026.iso |
+| openindiana | 20241026 | text | https://dlc.openindiana.org/isos/hipster/20241026/OI-hipster-text-20241026.iso |
+| openindiana | 20241026 | minimal | https://dlc.openindiana.org/isos/hipster/20241026/OI-hipster-minimal-20241026.iso |
+| openindiana | 20240426 | gui | https://dlc.openindiana.org/isos/hipster/20240426/OI-hipster-gui-20240426.iso |
+| openindiana | 20240426 | text | https://dlc.openindiana.org/isos/hipster/20240426/OI-hipster-text-20240426.iso |
+| openindiana | 20240426 | minimal | https://dlc.openindiana.org/isos/hipster/20240426/OI-hipster-minimal-20240426.iso |
 | opensuse | tumbleweed |  | https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso |
 | opensuse | microos |  | https://download.opensuse.org/tumbleweed/iso/openSUSE-MicroOS-DVD-x86_64-Current.iso |
 | opensuse | aeon |  | https://mirrorcache.opensuse.org/tumbleweed/appliances/iso/opensuse-aeon.x86_64.iso |
@@ -477,7 +492,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://cytranet-dal.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/ |
