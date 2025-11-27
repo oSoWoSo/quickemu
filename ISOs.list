@@ -213,6 +213,7 @@ kdeneon         https://files.kde.org/neon/images/user/20251030-0745/neon-user-2
 kdeneon         https://files.kde.org/neon/images/user/20251106-0745/neon-user-20251106-0745.iso
 kdeneon         https://files.kde.org/neon/images/user/20251113-0744/neon-user-20251113-0744.iso
 kdeneon         https://files.kde.org/neon/images/user/20251120-0743/neon-user-20251120-0743.iso
+kdeneon         https://files.kde.org/neon/images/user/20251127-0745/neon-user-20251127-0745.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.4.1/Kicksecure-LXQt-18.0.4.1.Intel_AMD64.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.5.8/Kicksecure-LXQt-18.0.5.8.Intel_AMD64.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.6.4/Kicksecure-LXQt-18.0.6.4.Intel_AMD64.iso
@@ -359,6 +360,7 @@ slitaz          https://mirror.slitaz.org/iso/latest/slitaz-rolling-core64.iso
 smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/20251002T000521Z/smartos-20251002T000521Z.iso
 smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/20251016T000143Z/smartos-20251016T000143Z.iso
 smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/20251113T010957Z/smartos-20251113T010957Z.iso
+smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/20251127T000410Z/smartos-20251127T000410Z.iso
 smoothwall      https://downloads.sourceforge.net/smoothwall/Express-3.1-SP6-x86_64.iso
 snal            https://downloads.sourceforge.net/snallinux/snallinux-1.39-x86_64.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-2025.03-x86_64-lxqt.iso
