@@ -63,6 +63,7 @@ function specific_tweaks() {
 
 alpine
 
+alpine v3.23:                        https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/x86_64/alpine-virt-3.23.0_rc1-x86_64.iso
 alpine v3.22:                        https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/x86_64/alpine-virt-3.22.2-x86_64.iso
 alpine v3.21:                        https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-virt-3.21.5-x86_64.iso
 alpine v3.20:                        https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-virt-3.20.8-x86_64.iso
@@ -82,7 +83,7 @@ HOMEPAGE="https://alpinelinux.org/"
 CREDENTIALS="-"
 
 
-RELEASES="v3.22 v3.21 v3.20 v3.19 v3.18 v3.17 v3.16 v3.15 v3.14"
+RELEASES="v3.23 v3.22 v3.21 v3.20 v3.19 v3.18 v3.17 v3.16 v3.15 v3.14"
 
 
 function get_() {
@@ -222,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
+archcraft latest:                    https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1030,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NDMzNDM1OAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NDMzNDM1OAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NDMzNDM1OAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NDM1NDkxNgo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NDM1NDkxNgo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NDM1NDkxNgo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1140,6 +1141,8 @@ function specific_tweaks() {
 
 freebsd
 
+freebsd 15.0 disc1:                  https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/15.0/FreeBSD-15.0-RELEASE-amd64-disc1.iso
+freebsd 15.0 dvd1:                   https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/15.0/FreeBSD-15.0-RELEASE-amd64-dvd1.iso
 freebsd 14.3 disc1:                  https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.3/FreeBSD-14.3-RELEASE-amd64-disc1.iso
 freebsd 14.3 dvd1:                   https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.3/FreeBSD-14.3-RELEASE-amd64-dvd1.iso
 freebsd 14.2 disc1:                  https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-disc1.iso
@@ -1158,7 +1161,7 @@ HOMEPAGE="https://www.freebsd.org"
 CREDENTIALS="-"
 freebsd
 
-RELEASES="14.3 14.2 13.5 13.4"
+RELEASES="15.0 14.3 14.2 13.5 13.4"
 EDITIONS="dvd1 disc1"
 
 function get_() {
@@ -1932,7 +1935,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://gigenet.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
+maboxlinux latest:                   https://psychz.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2889,7 +2892,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://cytranet-dal.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://phoenixnap.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
