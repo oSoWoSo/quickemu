@@ -42,6 +42,7 @@ aurora          https://dl.getaurora.dev/aurora-stable-x86_64.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.3.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.4.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.6.iso
+avlinux         https://downloads.bandshed.net/AVL_MXe_25/AVL_MXe-25_x64.iso
 bazzite         https://download.bazzite.gg/bazzite-stable-amd64.iso
 besgnulinux     https://downloads.sourceforge.net/besgnulinux/besgnulinux-jwm-3-1-amd64.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-04_k612.iso
@@ -303,6 +304,7 @@ opensuse        https://download.opensuse.org/distribution/leap/16.0/offline/Lea
 oracle          https://yum.oracle.com/ISOS/OracleLinux/OL9/u7/x86_64/OracleLinux-R9-U7-x86_64-dvd.iso
 oreon           https://boostyconnect.com/oreon-iso/Oreon-10-Core-2510-x86_64.iso
 osolinux        https://downloads.sourceforge.net/oso/OsoLinux-fc43-Atlas-x86_64.iso
+parch           https://mirror.parchlinux.ir/plasma/ParchLinux-plasma-latest.iso
 pardus          https://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.4-GNOME-amd64.iso
 pardus          https://indir.pardus.org.tr/ISO/Pardus25/Pardus-25.0-XFCE-amd64.iso
 pclinuxos       https://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2025.09.iso
