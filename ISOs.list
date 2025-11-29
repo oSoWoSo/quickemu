@@ -1,4 +1,5 @@
 4mlinux         https://downloads.sourceforge.net/linux4m/4MLinux-48.0-64bit.iso
+4mlinux         https://downloads.sourceforge.net/linux4m/4MLinux-50.0-64bit.iso
 Talos           https://github.com/siderolabs/talos/releases/download/v1.11.4/metal-amd64.iso
 ac              https://downloads.sourceforge.net/accessible-coconut/Accessible-Coconut-24.04-beta-desktop-amd64.iso
 acreetionos     https://iso.acreetionos.org:8448/acreetion/GNOME/AcreetionOS-GNOME-1.0-x86_64.iso
@@ -275,6 +276,7 @@ max             https://ftp.rediris.es/mirror/MaX-Linux/MaXdesktop/ultima-versio
 midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/3.2.3/MidnightBSD-3.2.3--amd64-disc1.iso
 midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/3.2.4/MidnightBSD-3.2.4--amd64-disc1.iso
 minios          https://github.com/minios-linux/minios-live/releases/download/v5.1.0-rc1/minios-trixie-xfce-standard-amd64-5.1.0-rc1.iso
+minios          https://github.com/minios-linux/minios-live/releases/download/v5.1.0/minios-trixie-xfce-standard-amd64-5.1.0.iso
 mint            https://mirror.rackspace.com/linuxmint/iso/debian/lmde-7-cinnamon-64bit.iso
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.10/MocaccinoOS-GNOME-0.20251001.iso.tar.xz
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.11/MocaccinoOS-MATE-0.20251101.iso.tar.xz
