@@ -2,8 +2,8 @@
 <!-- TABLE -->
 | OS|RELEASE|EDITION|ISO |
 |---|---|---|---|
-| agarimos | latest | plasma | [url](https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.59_1-20251128.iso) |
-| agarimos | latest | xfce4 | [url](https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.58_1-20251122.iso) |
+| agarimos | latest | plasma | [url](https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.59_1-20251129.iso) |
+| agarimos | latest | xfce4 | [url](https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.59_1-20251129.iso) |
 | agarimos | latest | cinnamon | [url](https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.59_1-20251128.iso) |
 | agarimos | latest | lxqt-kwin | [url](https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Catppuccin-Live-x86_64-6.12.59_1-20251126.iso) |
 | agarimos | latest | gnome | [url](https://sourceforge.net/projects/agarimos/files/GNOME/AgarimOS-Gnome-Catppuccin-Live-x86_64-6.12.59_1-20251127.iso) |
@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://psychz.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
+| archcraft | latest |  | [url](https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2025.11.01/archlinux-2025.11.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
@@ -120,8 +120,8 @@
 | bodhi | 7.0.0 | s76 | [url](https://sourceforge.net/projects/bodhilinux/files/7.0.0/bodhi-7.0.0-64-s76.iso) |
 | bodhi | 7.0.0 | apppack | [url](https://sourceforge.net/projects/bodhilinux/files/7.0.0/bodhi-7.0.0-64-apppack.iso) |
 | bunsenlabs | boron |  | [url](https://ddl.bunsenlabs.org/ddl/boron-1-240123-amd64.hybrid.iso) |
-| cachyos | latest | desktop | [url](https://cdn77.cachyos.org/ISO/desktop/250828/cachyos-desktop-linux-250828.iso) |
-| cachyos | latest | handheld | [url](https://cdn77.cachyos.org/ISO/handheld/250824/cachyos-handheld-linux-250824.iso) |
+| cachyos | latest | desktop | [url](https://cdn77.cachyos.org/ISO/desktop/251129/cachyos-desktop-linux-251129.iso) |
+| cachyos | latest | handheld | [url](https://cdn77.cachyos.org/ISO/handheld/251129/cachyos-handheld-linux-251129.iso) |
 | centos-stream | 10 | boot | [url](https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-latest-x86_64-boot.iso) |
 | centos-stream | 10 | dvd1 | [url](https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-latest-x86_64-dvd1.iso) |
 | centos-stream | 9 | boot | [url](https://linuxsoft.cern.ch/centos-stream/9-stream/BaseOS/x86_64/iso/CentOS-Stream-9-latest-x86_64-boot.iso) |
@@ -208,9 +208,9 @@
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NDQyMDU2Mgo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2NDQyMDU2Mgo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NDQyMDU2Mgo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NDQ0MTI2Nwo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2NDQ0MTI2Nwo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NDQ0MTI2Nwo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -255,7 +255,7 @@
 | ghostbsd | 25.01-R14.2p1 | xfce | [url](https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso) |
 | ghostbsd | 24.10.1 | mate | [url](https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1.iso) |
 | ghostbsd | 24.10.1 | xfce | [url](https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso) |
-| gnomeos | nightly |  | [url](https://1270333429.rsc.cdn77.org/nightly/954779/gnome_os_954779-x86_64.iso) |
+| gnomeos | nightly |  | [url](https://1270333429.rsc.cdn77.org/nightly/955434/gnome_os_955434-x86_64.iso) |
 | gnomeos | 49.rc |  | [url](https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso) |
 | gnomeos | 49.beta |  | [url](https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso) |
 | gnomeos | 49.alpha.1 |  | [url](https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso) |
@@ -358,7 +358,7 @@
 | lubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso) |
 | lubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso) |
 | lubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/lubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| maboxlinux | latest |  | [url](https://cytranet.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso) |
+| maboxlinux | latest |  | [url](https://netactuate.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso) |
 | macos | mojave |  | [url](http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg) |
 | macos | catalina |  | [url](http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg) |
 | macos | big-sur |  | [url](http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg) |
@@ -527,11 +527,15 @@
 | solus | 2024-10-14 | Budgie | [url](https://downloads.getsol.us/isos/2024-10-14/Solus-Budgie-Release-2024-10-14.iso) |
 | solus | 2024-10-14 | GNOME | [url](https://downloads.getsol.us/isos/2024-10-14/Solus-GNOME-Release-2024-10-14.iso) |
 | solus | 2024-10-14 | Plasma | [url](https://downloads.getsol.us/isos/2024-10-14/Solus-Plasma-Release-2024-10-14.iso) |
-| solus | 2024-10-14 | XFCE-Beta | [url](https://downloads.getsol.us/isos/2024-10-14/Solus-XFCE-Beta-Release-2024-10-14.iso) |
+| solus | 2024-10-14 | Xfce | [url](https://downloads.getsol.us/isos/2024-10-14/Solus-Xfce-Release-2024-10-14.iso) |
 | solus | 2025-01-26 | Budgie | [url](https://downloads.getsol.us/isos/2025-01-26/Solus-Budgie-Release-2025-01-26.iso) |
 | solus | 2025-01-26 | GNOME | [url](https://downloads.getsol.us/isos/2025-01-26/Solus-GNOME-Release-2025-01-26.iso) |
 | solus | 2025-01-26 | Plasma | [url](https://downloads.getsol.us/isos/2025-01-26/Solus-Plasma-Release-2025-01-26.iso) |
-| solus | 2025-01-26 | XFCE-Beta | [url](https://downloads.getsol.us/isos/2025-01-26/Solus-XFCE-Beta-Release-2025-01-26.iso) |
+| solus | 2025-01-26 | Xfce | [url](https://downloads.getsol.us/isos/2025-01-26/Solus-Xfce-Release-2025-01-26.iso) |
+| solus | 2025-11-29 | Budgie | [url](https://downloads.getsol.us/isos/2025-11-29/Solus-Budgie-Release-2025-11-29.iso) |
+| solus | 2025-11-29 | GNOME | [url](https://downloads.getsol.us/isos/2025-11-29/Solus-GNOME-Release-2025-11-29.iso) |
+| solus | 2025-11-29 | Plasma | [url](https://downloads.getsol.us/isos/2025-11-29/Solus-Plasma-Release-2025-11-29.iso) |
+| solus | 2025-11-29 | Xfce | [url](https://downloads.getsol.us/isos/2025-11-29/Solus-Xfce-Release-2025-11-29.iso) |
 |  |  |  | **ERROR** |
 | spirallinux | latest | Plasma | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_Plasma_12.231005_x86-64.iso) |
 | spirallinux | latest | XFCE | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_XFCE_12.231005_x86-64.iso) |

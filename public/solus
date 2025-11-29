@@ -7,8 +7,8 @@ HOMEPAGE="https://getsol.us"
 CREDENTIALS="-"
 
 
-RELEASES="2025-01-26 2024-10-14"
-EDITIONS="XFCE-Beta Plasma GNOME Budgie"
+RELEASES="2025-11-29 2025-01-26 2024-10-14"
+EDITIONS="Xfce Plasma GNOME Budgie"
 
 function get_() {
     local HASH=""
