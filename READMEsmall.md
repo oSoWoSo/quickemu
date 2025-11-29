@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://netactuate.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
+| archcraft | latest |  | [url](https://psychz.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2025.11.01/archlinux-2025.11.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
@@ -208,9 +208,9 @@
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NDM5ODE0Nwo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2NDM5ODE0Nwo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NDM5ODE0Nwo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NDQyMDU2Mgo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2NDQyMDU2Mgo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NDQyMDU2Mgo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -234,7 +234,7 @@
 | freedos | 1.3 |  | [url](https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.3/official/FD13-LiveCD.zip) |
 | freedos | 1.2 |  | [url](https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/official/FD12CD.iso) |
 | fvoid | latest |  | [url](https://sourceforge.net/projects/f-void/files/28_03_2024/fvoid-live-x86_64-20240328-lxqt.iso) |
-| gabeeos | latest | Hyprland | [url](https://sourceforge.net/projects/gabeeoslinux/files/Distro/Hyprland/gabeeOSLinux-Hyprland-live-x86_64-6.12.58_1-20251118.iso/) |
+| gabeeos | latest | Hyprland | [url](https://sourceforge.net/projects/gabeeoslinux/files/Distro/Hyprland/gabeeOSLinux-Hyprland-live-x86_64-6.12.59_1-20251129.iso/) |
 | gabeeos | latest | Qtile | [url](https://sourceforge.net/projects/gabeeoslinux/files/Distro/Qtile/Release-2025/gabeeOSLinux-Qtile-live-x86_64-6.12.58_1-20251119.iso) |
 | gabeeos | latest | i3-gaps | [url](https://sourceforge.net/projects/gabeeoslinux/files/Distro/i3-gaps/gabeeOSLinux-i3-gaps-live-x86_64-6.12.58_1-20251120.iso) |
 | garuda | latest | cinnamon | [url](https://iso.builds.garudalinux.org/iso/latest/garuda/cinnamon/latest.iso) |
@@ -496,7 +496,7 @@
 | proxmox-ve | 5.4-1 |  | [url](https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso) |
 | pureos | 10.3 | gnome | [url](https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso) |
 | pureos | 10.3 | plasma | [url](https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso) |
-| reactos | latest |  | [url](https://cytranet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
+| reactos | latest |  | [url](https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
 | rebornos | latest |  | **ERROR** |
 | redox-os | livedisk | demo | [url](https://static.redox-os.org/img/x86_64/) |
 | redox-os | livedisk | desktop | [url](https://static.redox-os.org/img/x86_64/) |
@@ -532,12 +532,7 @@
 | solus | 2025-01-26 | GNOME | [url](https://downloads.getsol.us/isos/2025-01-26/Solus-GNOME-Release-2025-01-26.iso) |
 | solus | 2025-01-26 | Plasma | [url](https://downloads.getsol.us/isos/2025-01-26/Solus-Plasma-Release-2025-01-26.iso) |
 | solus | 2025-01-26 | XFCE-Beta | [url](https://downloads.getsol.us/isos/2025-01-26/Solus-XFCE-Beta-Release-2025-01-26.iso) |
-| sparkylinux | 8.1 | minimalcli | [url](https://sourceforge.net/projects/sparkylinux/files/cli/sparkylinux-8.1-x86_64-minimalcli.iso) |
-| sparkylinux | 8.1 | minimalgui | [url](https://sourceforge.net/projects/sparkylinux/files/base/sparkylinux-8.1-x86_64-minimalgui.iso) |
-| sparkylinux | 8.1 | mate | [url](https://sourceforge.net/projects/sparkylinux/files/mate/sparkylinux-8.1-x86_64-mate.iso) |
-| sparkylinux | 8.1 | lxqt | [url](https://sourceforge.net/projects/sparkylinux/files/lxqt/sparkylinux-8.1-x86_64-lxqt.iso) |
-| sparkylinux | 8.1 | kde | [url](https://sourceforge.net/projects/sparkylinux/files/kde/sparkylinux-8.1-x86_64-kde.iso) |
-| sparkylinux | 8.1 | xfce | [url](https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-8.1-x86_64-xfce.iso) |
+|  |  |  | **ERROR** |
 | spirallinux | latest | Plasma | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_Plasma_12.231005_x86-64.iso) |
 | spirallinux | latest | XFCE | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_XFCE_12.231005_x86-64.iso) |
 | spirallinux | latest | Mate | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_Mate_12.231005_x86-64.iso) |
