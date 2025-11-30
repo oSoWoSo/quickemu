@@ -71,6 +71,7 @@ bros            https://downloads.sourceforge.net/bros/BrOS-13.1.1_amd64_hybrid.
 bros            https://downloads.sourceforge.net/bros/BrOS-13.2_amd64.hybrid.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250330.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250422.iso
+cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-251129.iso
 calam           https://downloads.sourceforge.net/blue-arch-installer/Calam-Arch-Installer-2025-10.iso
 calam           https://downloads.sourceforge.net/blue-arch-installer/Calam-Arch-Installer-2025-11.iso
 calculate       https://mirror.calculate-linux.org/release/20250409/cld-20250409-x86_64.iso
@@ -370,6 +371,7 @@ smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/202511
 smartos         https://us-central.manta.mnx.io/Joyent_Dev/public/SmartOS/20251127T000410Z/smartos-20251127T000410Z.iso
 smoothwall      https://downloads.sourceforge.net/smoothwall/Express-3.1-SP6-x86_64.iso
 snal            https://downloads.sourceforge.net/snallinux/snallinux-1.39-x86_64.iso
+solus           https://downloads.getsol.us/isos/2025-11-29/Solus-Budgie-Release-2025-11-29.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-2025.03-x86_64-lxqt.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-7.7-x86_64-lxqt.iso
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-8.1-x86_64-lxqt.iso
