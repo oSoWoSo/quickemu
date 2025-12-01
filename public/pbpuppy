@@ -7,8 +7,8 @@ HOMEPAGE="https://sourceforge.net/projects/pb-gh-releases"
 CREDENTIALS="-"
 
 
-RELEASES="251101 251001 250907 250901"
-EDITIONS="VoidPup64 TrixiePup64Wayland S15Pup64 BookwormPup64-ghtest"
+RELEASES="251101"
+EDITIONS="VoidPup64 TrixiePup64Wayland TrixiePup64-Wayland S15Pup64 BookwormPup64-ghtest"
 
 function get_() {
     local HASH=""
