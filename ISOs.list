@@ -204,6 +204,7 @@ kali            https://cdimage.kali.org/kali-2025.1a/kali-linux-2025.1a-install
 kali            https://cdimage.kali.org/kali-2025.3/kali-linux-2025.3-installer-amd64.iso
 kaos            https://downloads.sourceforge.net/kaosx/KaOS-2025.03-x86_64.iso
 kaos            https://downloads.sourceforge.net/kaosx/KaOS-2025.09-x86_64.iso
+kaos            https://downloads.sourceforge.net/kaosx/KaOS-2025.11-x86_64.iso
 kdeneon         https://files.kde.org/neon/images/user/20250314-2153/neon-user-20250314-2153.iso
 kdeneon         https://files.kde.org/neon/images/user/20250320-1319/neon-user-20250320-1319.iso
 kdeneon         https://files.kde.org/neon/images/user/20250327-1319/neon-user-20250327-1319.iso
@@ -290,6 +291,7 @@ nebios          https://downloads.sourceforge.net/nebios-official-mirror/nebios-
 nebios          https://downloads.sourceforge.net/nebios-official-mirror/nebios-x-10.1-amd64.iso
 nitrux          https://downloads.sourceforge.net/nitruxos/nitrux-contemporary-cachy-nvopen-997f8883-amd64.iso
 nitrux          https://downloads.sourceforge.net/nitruxos/nitrux-nx-desktop-plasma-cf782a84-amd64.iso
+nixos           https://channels.nixos.org/nixos-25.11/latest-nixos-graphical-x86_64-linux.iso
 nobara          https://nobara-images.nobaraproject.org/Nobara-42-Official-2025-05-13.iso
 nutyx           https://downloads.sourceforge.net/nutyx/NuTyX_x86_64-systemd-25.03.1-KDE6.iso
 obarun          https://cloud.server.obarun.org/iso/2025.04.28/obarun-JWM-2025.04.28-x86_64.iso
