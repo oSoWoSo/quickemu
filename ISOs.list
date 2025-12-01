@@ -123,6 +123,7 @@ drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live2
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.11-amd64.iso
 dynfi           https://dynfi.com/files/firewall/dynfi_installer_vga_4.04-20250305-075641.iso.bz2
 dynfi           https://dynfi.com/files/firewall/dynfi_installer_vga_4.04-20250401-105254.iso.bz2
+dynfi           https://dynfi.com/files/firewall/dynfi_installer_vga_4.11-20251201-095440.iso.bz2
 edubuntu        https://cdimage.ubuntu.com/edubuntu/releases/25.04/beta/edubuntu-25.04-beta-desktop-amd64.iso
 edubuntu        https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso
 edubuntu        https://cdimage.ubuntu.com/edubuntu/releases/26.04/snapshot1/edubuntu-26.04-desktop-amd64.iso
@@ -226,6 +227,7 @@ kicksecure      https://www.kicksecure.com/download/iso/18.0.5.8/Kicksecure-LXQt
 kicksecure      https://www.kicksecure.com/download/iso/18.0.6.4/Kicksecure-LXQt-18.0.6.4.Intel_AMD64.iso
 kiro            https://downloads.sourceforge.net/kiro/kiro-v25.10.01.01-x86_64.iso
 kiro            https://downloads.sourceforge.net/kiro/kiro-v25.11.01.01-x86_64.iso
+kiro            https://downloads.sourceforge.net/kiro/kiro-v25.12.01.01-x86_64.iso
 kodachi         https://downloads.sourceforge.net/linuxkodachi/linux-kodachi-terminal-9.0.1-amd64.iso
 kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.04/beta/kubuntu-25.04-beta-desktop-amd64.iso
 kubuntu         https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso
