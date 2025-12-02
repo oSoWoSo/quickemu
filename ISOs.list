@@ -27,6 +27,7 @@ aosc            https://releases.aosc.io/os-amd64/installer/aosc-os_installer_20
 arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.05.01-x86_64.iso
 arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.10.01-x86_64.iso
 arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.11.01-x86_64.iso
+arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.12.01-x86_64.iso
 archbang        https://downloads.sourceforge.net/archbang/archbang-0904-x86_64.iso
 archcraft       https://downloads.sourceforge.net/archcraft/archcraft-2025.04.24-x86_64.iso
 archcraft       https://downloads.sourceforge.net/archcraft/archcraft-2025.10.16-x86_64.iso
@@ -104,6 +105,7 @@ crux            https://git.crux.nu/system/iso/releases/download/3.8-rc5/crux-3.
 crux            https://git.crux.nu/system/iso/releases/download/3.8/crux-3.8.iso
 cyrethium       https://downloads.sourceforge.net/cyrethium/Cyrethium-V1R-amd64.iso
 d77void         https://downloads.sourceforge.net/d77void/d77void-live-x86_64-20251028-qtile.iso
+d77void         https://downloads.sourceforge.net/d77void/d77void-live-x86_64-20251201-hyprland.iso
 debian          https://cdimage.debian.org/debian-cd/13.2.0/amd64/iso-dvd/debian-13.2.0-amd64-DVD-1.iso
 debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.10.0-amd64-DVD-1.iso
 debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.11.0-amd64-DVD-1.iso
@@ -171,6 +173,7 @@ freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-RC2-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-RC3-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-RC4-amd64-disc1.iso
+freebsd         https://download.freebsd.org/releases/ISO-IMAGES/15.0/FreeBSD-15.0-RELEASE-amd64-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA3-amd64-20250921-26988773d1da-280233-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA4-amd64-20250927-d2b670b27f37-280334-disc1.iso
 freebsd         https://download.freebsd.org/snapshots/ISO-IMAGES/15.0/FreeBSD-15.0-ALPHA5-amd64-20251004-1c0898edf28f-280541-disc1.iso
