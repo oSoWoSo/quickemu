@@ -162,6 +162,7 @@ ferenos         https://downloads.sourceforge.net/ferenoslinux/Feren-OS-standard
 finnix          https://www.finnix.org/releases/250/finnix-250.iso
 finnix          https://www.finnix.org/releases/251/finnix-251.iso
 flatcar         https://stable.release.flatcar-linux.net/amd64-usr/4459.2.0/flatcar_production_iso_image.iso
+flora           https://downloads.sourceforge.net/flora-linux-libre/floralinux-libre-debian-trixie-xfce-amd64-20251203_1041.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/13.5/FreeBSD-13.5-RELEASE-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14.3-BETA1-amd64-disc1.iso
 freebsd         https://download.freebsd.org/releases/ISO-IMAGES/14.3/FreeBSD-14.3-BETA2-amd64-dvd1.iso
@@ -365,6 +366,7 @@ qubes           https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.3.0-rc3-x86_6
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.03.04-x86_64.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.04.26-x86_64.iso
 refracta        https://get.refracta.org/files/stable/refracta_13.1_xfce_amd64-20251116_1420.iso
+refracta        https://get.refracta.org/files/stable/refracta_13.2_xfce_amd64-20251203_1310.iso
 regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_en-US.x86_64-25.0.0.iso
 regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_pt-BR.x86_64-25.0.0.iso
 regata          https://downloads.sourceforge.net/regataos/Regata_OS_25_pt-BR.x86_64-25.0.6.iso
