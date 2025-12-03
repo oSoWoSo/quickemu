@@ -111,3 +111,5 @@ The wiki describes how to get up and running with Quickemu and also covers more 
 - [**References**](https://github.com/quickemu-project/quickemu/wiki/08-References) 📚️
 
 We got a :star: from [@matthifrak2023](https://github.com/matthifrak2023)
+
+We got a :star: from [@rchk](https://github.com/rchk)
