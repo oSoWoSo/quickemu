@@ -651,3 +651,5 @@
 | xubuntu | 25.10 |  | https://cdimage.ubuntu.com/xubuntu/releases/25.10/release/xubuntu-25.10-desktop-amd64.iso |
 | xubuntu | daily-live |  | https://cdimage.ubuntu.com/xubuntu/daily-live/current/resolute-desktop-amd64.iso |
 
+
+We got a :star: from [@rchk](https://github.com/rchk)
