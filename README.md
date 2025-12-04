@@ -70,7 +70,7 @@
 | antix | 21 | base-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso |
 | antix | 21 | full-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso |
 | archcraft | latest |  | https://cytranet.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso |
-| archlinux | latest |  | https://mirror.rackspace.com/archlinux/iso/2025.12.01/archlinux-2025.12.01-x86_64.iso |
+| archlinux | latest |  | https://mirror.rackspace.com/archlinux |
 | artixlinux | 20250407 | base-dinit | https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-openrc | https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-runit | https://iso.artixlinux.org/iso/artix-base-runit-20250407-x86_64.iso |
@@ -207,9 +207,9 @@
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | 25.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2NDgzMDM3NAo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2NDgzMDM3NAo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2NDgzMDM3NAo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2NDg1Mjk5Ngo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2NDg1Mjk5Ngo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2NDg1Mjk5Ngo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -300,7 +300,7 @@
 | haiku | r1beta3 | x86_gcc2h | http://mirror.rit.edu/haiku/r1beta3/haiku-r1beta3-x86_gcc2h-anyboot.iso |
 | kali | current |  | https://cdimage.kali.org/current/kali-linux-2025.3-installer-amd64.iso |
 | kali | kali-weekly |  | https://cdimage.kali.org/kali-weekly/kali-linux-2025-W48-installer-amd64.iso |
-| kdeneon | user |  | https://files.kde.org/neon/images/user/current/neon-user-20251127-0745.iso |
+| kdeneon | user |  | https://files.kde.org/neon/images/user/current/neon-user-20251204-0745.iso |
 | kdeneon | testing |  | https://files.kde.org/neon/images/testing/current/neon-testing-20251202-0430.iso |
 | kdeneon | unstable |  | https://files.kde.org/neon/images/unstable/current/neon-unstable-20251130-1148.iso |
 | kdeneon | developer |  | https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250901-0038.iso |
@@ -491,7 +491,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://phoenixnap.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/ |
