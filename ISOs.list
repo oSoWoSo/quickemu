@@ -185,6 +185,7 @@ fuguita         https://jp1.dl.fuguita.org/LiveDVD/FuguIta-7.8-amd64-202511052.i
 funos           https://downloads.sourceforge.net/funos/funos-24.04.2-stable.20250303.iso
 funos           https://downloads.sourceforge.net/funos/funos-25.04-stable.20250420.iso
 funos           https://downloads.sourceforge.net/funos/funos-25.10-stable.20251014.iso
+funos           https://downloads.sourceforge.net/funos/funos-26.04-snapshot1.iso
 gabee           https://downloads.sourceforge.net/gabeeoslinux/gabeeOSLinux-Hyprland-live-x86_64-6.12.58_1-20251118.iso
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-cinnamon-linux-zen-251002.iso
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-dr460nized-linux-zen-250308.iso
@@ -233,6 +234,7 @@ kdeneon         https://files.kde.org/neon/images/user/20251106-0745/neon-user-2
 kdeneon         https://files.kde.org/neon/images/user/20251113-0744/neon-user-20251113-0744.iso
 kdeneon         https://files.kde.org/neon/images/user/20251120-0743/neon-user-20251120-0743.iso
 kdeneon         https://files.kde.org/neon/images/user/20251127-0745/neon-user-20251127-0745.iso
+kdeneon         https://files.kde.org/neon/images/user/20251204-0745/neon-user-20251204-0745.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.4.1/Kicksecure-LXQt-18.0.4.1.Intel_AMD64.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.5.8/Kicksecure-LXQt-18.0.5.8.Intel_AMD64.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.6.4/Kicksecure-LXQt-18.0.6.4.Intel_AMD64.iso
@@ -266,6 +268,7 @@ linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-winux-11.
 linuxhub        https://downloads.sourceforge.net/linuxhub-prime/Linuxhub_Prime_v3.0.8-2025.10.06-x86_64.iso
 linuxhub        https://downloads.sourceforge.net/linuxhub-prime/Linuxhub_Prime_v3.0.8-2025.10.24-x86_64.iso
 linuxhub        https://downloads.sourceforge.net/linuxhub-prime/Linuxhub_Prime_v3.0.9-2025.11.03-x86_64.iso
+linuxhub        https://downloads.sourceforge.net/linuxhub-prime/Linuxhub_Prime_v3.1.0-2025.12.03-x86_64.iso
 linuxhub        https://downloads.sourceforge.net/linuxhub-prime^Linuxhub_Prime_v3.1.0-2025.12.03-x86_64.iso
 lite            https://downloads.sourceforge.net/linux-lite/linux-lite-7.4-64bit.iso
 liveraizo       https://downloads.sourceforge.net/live-raizo/Live-Raizo-v16.25.04.12i.iso
