@@ -356,6 +356,7 @@ porteux         https://github.com/porteux/porteux/releases/download/v2.0/porteu
 porteux         https://github.com/porteux/porteux/releases/download/v2.4/porteux-2.4-current-cinnamon-6.4.13-x86_64.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-backup-server_3.4-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-backup-server_4.1-1.iso
+proxmox         https://enterprise.proxmox.com/iso/proxmox-datacenter-manager_1.0-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-BETA-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso
