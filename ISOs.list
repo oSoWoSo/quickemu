@@ -25,6 +25,7 @@ anduin          https://download.anduinos.com/1.4/1.4.0/AnduinOS-1.4.0-en_US.iso
 anduin          https://download.anduinos.com/1.4/1.4.1/AnduinOS-1.4.1-en_US.iso
 antix           https://downloads.sourceforge.net/antix-linux/antiX-25-beta1_x64-full.iso
 aosc            https://releases.aosc.io/os-amd64/installer/aosc-os_installer_20251115_amd64.iso
+aosc            https://releases.aosc.io/os-amd64/installer/aosc-os_installer_20251206_amd64.iso
 arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.05.01-x86_64.iso
 arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.10.01-x86_64.iso
 arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.11.01-x86_64.iso
@@ -53,6 +54,7 @@ besgnulinux     https://downloads.sourceforge.net/besgnulinux/besgnulinux-jwm-3-
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-04_k612.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-12_k614.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-09-26_k616.iso
+biglinux        https://iso.biglinux.com.br/biglinux_2025-12-05_k617.iso
 blade           https://downloads.sourceforge.net/blade-os/blade.iso
 blendos         https://blend.asterisk.lol/dvd/v4/blendOS.iso
 blendos         https://mirrors.de.sahilister.net/blendos/blendOS.iso
@@ -373,6 +375,7 @@ q4os            https://downloads.sourceforge.net/q4os/q4os-7.0-x64-plasma.r1-te
 quarkos         https://downloads.sourceforge.net/quark-os/quarkos-24.04-x64.r4.iso
 qubes           https://ftp.qubes-os.org/iso/Qubes-R4.3.0-rc2-x86_64.iso
 qubes           https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.3.0-rc3-x86_64.iso
+qubes           https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.3.0-rc4-x86_64.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.03.04-x86_64.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.04.26-x86_64.iso
 refracta        https://get.refracta.org/files/stable/refracta_13.1_xfce_amd64-20251116_1420.iso
@@ -487,6 +490,7 @@ univention      https://updates.software-univention.de/download/ucs-cds/ucs5.2-1
 vailuxos        https://downloads.vailux.de/VailuxOS-1.5-desktop-stable-amd64.iso
 vailuxos        https://downloads.vailux.de/VailuxOS-1.5.1-desktop-stable-amd64.iso
 vendefoul       https://downloads.sourceforge.net/vendefoul-wolf-linux/Vendefoul-Wolf-Excalibur_TDE_k6-17-8_XLibre_openRC_amd64_v181125.iso
+vendefoul       https://downloads.sourceforge.net/vendefoul-wolf-linux/Vendefoul_Wolf_Excalibur_Kde-20251126.iso
 vendefoul       https://downloads.sourceforge.net/vendefoul-wolf-linux/Vendefoul_Wolf_Excalibur_TDE_k6-16-9_amd64_v280925.iso
 vinari          https://downloads.sourceforge.net/vinari-os/Vinari-OS-5.0.0-KRYPTON-amd64.iso
 vincent         https://downloads.sourceforge.net/vincent-os/vincentOS-1.1-x86_64.iso
