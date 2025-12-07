@@ -108,6 +108,7 @@ clonezilla      https://downloads.sourceforge.net/clonezilla/clonezilla-live-3.3
 cloudlinux      https://www.repo.cloudlinux.com/cloudlinux/9/iso/x86_64/CloudLinux-9.7-x86_64-dvd.iso
 crux            https://git.crux.nu/system/iso/releases/download/3.8-rc5/crux-3.8-rc5.iso
 crux            https://git.crux.nu/system/iso/releases/download/3.8/crux-3.8.iso
+cuerdos         https://downloads.sourceforge.net/cuerdos/CuerdOS-2.0-Cinnamon.iso
 cyrethium       https://downloads.sourceforge.net/cyrethium/Cyrethium-V1R-amd64.iso
 d77void         https://downloads.sourceforge.net/d77void/d77void-live-x86_64-20251028-qtile.iso
 d77void         https://downloads.sourceforge.net/d77void/d77void-live-x86_64-20251201-hyprland.iso
@@ -212,6 +213,7 @@ hardenedbsd     https://installers.hardenedbsd.org/pub/15-stable/amd64/amd64/ins
 hydrapwk        https://downloads.sourceforge.net/hydrapwk-gnu-linux/hydrapwk-2025.03.251004164-apes-amd64.iso
 hydrapwk        https://downloads.sourceforge.net/hydrapwk-gnu-linux/hydrapwk-2025.03.T1-apes-amd64.iso
 hydrapwk        https://downloads.sourceforge.net/hydrapwk-gnu-linux/hydrapwk-2025.04-Viper-amd64.iso
+ideal           https://downloads.sourceforge.net/ideal-os/2025.12.07_iDeal_OS_Emerald_x64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core192/ipfire-2.29-core192-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core193/ipfire-2.29-core193-x86_64.iso
 ipfire          https://downloads.ipfire.org/releases/ipfire-2.x/2.29-core194/ipfire-2.29-core194-x86_64.iso
@@ -527,3 +529,4 @@ zimaos          https://github.com/IceWhaleTech/ZimaOS/releases/download/1.5.3/z
 zorin           https://distro.ibiblio.org/zorinos/18/Zorin-OS-18-Core-64-bit.iso
 zorin           https://distro.ibiblio.org/zorinos/18/Zorin-OS-18-Core-Beta-64-bit.iso
 zorin           https://mirror.webworld.ie/zorinos/17/Zorin-OS-17.3-Core-64-bit.iso
+zorin           https://mirrors.edge.kernel.org/zorinos-isos/18/Zorin-OS-18-Core-64-bit-r1.iso
