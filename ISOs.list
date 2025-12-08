@@ -195,6 +195,7 @@ garuda          https://downloads.sourceforge.net/garuda-linux/garuda-cinnamon-l
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-dr460nized-linux-zen-250308.iso
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-mokka-linux-zen-251102.iso
 gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251116T161545Z/livegui-amd64-20251116T161545Z.iso
+gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251207T170056Z/livegui-amd64-20251207T170056Z.iso
 gnomeos         https://os.gnome.org/download/921729/live_921729-x86_64.iso
 gnomeos         https://os.gnome.org/download/956432/gnome_os_956432-x86_64.iso
 gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix25_10-kde-rolling.iso
@@ -210,6 +211,7 @@ hackeros        https://downloads.sourceforge.net/hackeros/HackerOS-V3.3.iso
 hackeros        https://downloads.sourceforge.net/hackeros/HackerOS-V3.6.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/14-stable/amd64/amd64/installer/build-30/disc1.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/15-stable/amd64/amd64/installer/build-3/disc1.iso
+hardenedbsd     https://installers.hardenedbsd.org/pub/15-stable/amd64/amd64/installer/build-5/disc1.iso
 hydrapwk        https://downloads.sourceforge.net/hydrapwk-gnu-linux/hydrapwk-2025.03.251004164-apes-amd64.iso
 hydrapwk        https://downloads.sourceforge.net/hydrapwk-gnu-linux/hydrapwk-2025.03.T1-apes-amd64.iso
 hydrapwk        https://downloads.sourceforge.net/hydrapwk-gnu-linux/hydrapwk-2025.04-Viper-amd64.iso
@@ -413,6 +415,7 @@ sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-7.7-x8
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-8.1-x86_64-lxqt.iso
 spirit          https://downloads.sourceforge.net/spirit-os/spiritOS-16.2.iso
 startos         https://github.com/Start9Labs/start-os/releases/download/v0.4.0-alpha.12/startos-0.4.0-alpha.12-9f8a0e8.dev_x86_64.iso
+stratos         https://downloads.stratos-linux.org/gnome-iso/StratOS-2025.12.07-x86_64.iso
 synex           https://downloads.sourceforge.net/synex/synex-gnome-13.1-amd64.hybrid.iso
 synex           https://downloads.sourceforge.net/synex/synex-xfce-13-u2-amd64.hybrid.iso
 syslinuxos      https://downloads.sourceforge.net/syslinuxos/SysLinuxOS-13-Mate_amd64.iso
