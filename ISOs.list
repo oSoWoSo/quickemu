@@ -437,6 +437,7 @@ talos           https://github.com/siderolabs/talos/releases/download/v1.11.3/me
 talos           https://github.com/siderolabs/talos/releases/download/v1.12.0-alpha.2/metal-amd64.iso
 talos           https://github.com/siderolabs/talos/releases/download/v1.12.0-beta.0/metal-arm64.iso
 talos           https://github.com/siderolabs/talos/releases/download/v1.12.0-beta.1/metal-amd64.iso
+talos           https://github.com/siderolabs/talos/releases/download/v1.12.0-rc.0/metal-amd64.iso
 tealinux        https://pinguin.dinus.ac.id/iso/tealinuxos/TeaLinuxOS-Arch/2025/release/tealinux-celia-cosmic-2025.09.17-x86_64.iso
 tinycore        https://distro.ibiblio.org/tinycorelinux/16.x/x86/release/TinyCore-16.2.iso
 tribblix        https://iso.tribblix.org/iso/tribblix-0m38.iso
@@ -497,6 +498,7 @@ umbrelos        https://download.umbrel.com/release/1.5.0-beta.3/umbrelos-amd64-
 umbrelos        https://download.umbrel.com/release/1.5.0/umbrelos-amd64-usb-installer.iso
 uncom           https://mirror.uncom.tech/iso/uncom-2025.10.12-desktop-amd64-r2.5.21-main-ret-ru-f0cf1.iso
 univention      https://updates.software-univention.de/download/ucs-cds/ucs5.2-1/UCS_5.2-1-amd64.iso
+univention      https://updates.software-univention.de/download/ucs-cds/ucs5.2-4/UCS_5.2-4-amd64.iso
 vailuxos        https://downloads.vailux.de/VailuxOS-1.5-desktop-stable-amd64.iso
 vailuxos        https://downloads.vailux.de/VailuxOS-1.5.1-desktop-stable-amd64.iso
 vendefoul       https://downloads.sourceforge.net/vendefoul-wolf-linux/Vendefoul-Wolf-Excalibur_TDE_k6-17-8_XLibre_openRC_amd64_v181125.iso
