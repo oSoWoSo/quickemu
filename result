@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://gigenet.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
+archcraft latest:                    https://psychz.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -248,7 +248,7 @@ function get_() {
 
 archlinux
 
-archlinux latest:                    https://mirror.rackspace.com/archlinux
+archlinux latest:                    https://mirror.rackspace.com/archlinux/iso/2025.12.01/archlinux-2025.12.01-x86_64.iso
 
 # Template file for 'archlinux'
 OSNAME="archlinux"
@@ -1031,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NTI4NTAxMQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NTI4NTAxMQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NTI4NTAxMQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NTMwNTMxNQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NTMwNTMxNQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NTMwNTMxNQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1145,12 +1145,8 @@ freebsd 15.0 disc1:                  https://download.freebsd.org/ftp/releases/a
 freebsd 15.0 dvd1:                   https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/15.0/FreeBSD-15.0-RELEASE-amd64-dvd1.iso
 freebsd 14.3 disc1:                  https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.3/FreeBSD-14.3-RELEASE-amd64-disc1.iso
 freebsd 14.3 dvd1:                   https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.3/FreeBSD-14.3-RELEASE-amd64-dvd1.iso
-freebsd 14.2 disc1:                  https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-disc1.iso
-freebsd 14.2 dvd1:                   https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-dvd1.iso
 freebsd 13.5 disc1:                  https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/13.5/FreeBSD-13.5-RELEASE-amd64-disc1.iso
 freebsd 13.5 dvd1:                   https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/13.5/FreeBSD-13.5-RELEASE-amd64-dvd1.iso
-freebsd 13.4 disc1:                  https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/13.4/FreeBSD-13.4-RELEASE-amd64-disc1.iso
-freebsd 13.4 dvd1:                   https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/13.4/FreeBSD-13.4-RELEASE-amd64-dvd1.iso
 
 # Template file for 'freebsd'
 OSNAME="freebsd"
@@ -1161,7 +1157,7 @@ HOMEPAGE="https://www.freebsd.org"
 CREDENTIALS="-"
 freebsd
 
-RELEASES="15.0 14.3 14.2 13.5 13.4"
+RELEASES="15.0 14.3 13.5"
 EDITIONS="dvd1 disc1"
 
 function get_() {
@@ -1318,7 +1314,7 @@ function specific_tweaks() {
 
 gentoo
 
-gentoo latest minimal:               https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/
+gentoo latest minimal:               https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/20250803T163732Z/install-amd64-minimal-20250803T163732Z.iso
 gentoo latest livegui:               https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/20250720T165240Z/livegui-amd64-20250720T165240Z.iso
 
 # Template file for 'gentoo'
@@ -1935,7 +1931,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://gigenet.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
+maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2888,7 +2884,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://pilotfiber.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3600,13 +3596,6 @@ ubuntu-kylin
 
 ubuntu-mate
 
-ubuntu-mate 16.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04.6-desktop-amd64.iso
-ubuntu-mate 18.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-amd64.iso
-ubuntu-mate 20.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.6-desktop-amd64.iso
-ubuntu-mate 22.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.5-desktop-amd64.iso
-ubuntu-mate 24.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.3-desktop-amd64.iso
-ubuntu-mate 25.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso
-ubuntu-mate 25.10:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/25.10/release/ubuntu-mate-25.10-desktop-amd64.iso
 ubuntu-mate daily-live:              https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/resolute-desktop-amd64.iso
 
 # Template file for 'ubuntu-mate'
