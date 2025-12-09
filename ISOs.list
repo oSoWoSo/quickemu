@@ -209,6 +209,7 @@ gxde            https://mirror.nyist.edu.cn/GXDE/ISO/25.3/amd64/GXDE-OS_25.3_amd
 hackeros        ^https://downloads.sourceforge.net/hackeros/HackerOS-V3.3.iso
 hackeros        https://downloads.sourceforge.net/hackeros/HackerOS-V3.3.iso
 hackeros        https://downloads.sourceforge.net/hackeros/HackerOS-V3.6.iso
+hackeros        https://downloads.sourceforge.net/hackeros/HackerOS-V4.0.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/14-stable/amd64/amd64/installer/build-30/disc1.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/15-stable/amd64/amd64/installer/build-3/disc1.iso
 hardenedbsd     https://installers.hardenedbsd.org/pub/15-stable/amd64/amd64/installer/build-5/disc1.iso
@@ -246,6 +247,7 @@ kdeneon         https://files.kde.org/neon/images/user/20251204-0745/neon-user-2
 kicksecure      https://www.kicksecure.com/download/iso/18.0.4.1/Kicksecure-LXQt-18.0.4.1.Intel_AMD64.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.5.8/Kicksecure-LXQt-18.0.5.8.Intel_AMD64.iso
 kicksecure      https://www.kicksecure.com/download/iso/18.0.6.4/Kicksecure-LXQt-18.0.6.4.Intel_AMD64.iso
+kicksecure      https://www.kicksecure.com/download/iso/18.0.8.4/Kicksecure-LXQt-18.0.8.4.Intel_AMD64.iso
 kiro            https://downloads.sourceforge.net/kiro/kiro-v25.10.01.01-x86_64.iso
 kiro            https://downloads.sourceforge.net/kiro/kiro-v25.11.01.01-x86_64.iso
 kiro            https://downloads.sourceforge.net/kiro/kiro-v25.12.01.01-x86_64.iso
