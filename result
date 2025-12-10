@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://cfhcable.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
+archcraft latest:                    https://psychz.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -667,7 +667,7 @@ function get_() {
 crunchbang++
 
 crunchbang++ 12.0:                   https://github.com/CBPP/cbpp/releases/download/v12.0/cbpp-12.0-amd64-20230611.iso
-crunchbang++ 11.2:                   
+crunchbang++ 11.2:                   https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-amd64-20230514.iso
 crunchbang++ 10.1:                   https://github.com/CBPP/cbpp/releases/download/v10/cbpp-10.1-amd64-20190713.iso
 crunchbang++ 9.0:                    https://github.com/CBPP/cbpp/releases/download/v9/cbpp-9.0-amd64-20170621.iso
 
@@ -1031,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NTM0ODgzOQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NTM0ODgzOQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NTM0ODgzOQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NTM3MTQ1Mwo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NTM3MTQ1Mwo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NTM3MTQ1Mwo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
