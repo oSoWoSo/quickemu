@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://psychz.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
+archcraft latest:                    https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1031,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NTMwNTMxNQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NTMwNTMxNQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NTMwNTMxNQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NTMzMjI1OQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NTMzMjI1OQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NTMzMjI1OQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1931,7 +1931,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
+maboxlinux latest:                   https://cytranet.dl.sourceforge.net/project/mabox-linux/25.09/linux61/mabox-linux-25.09-Istredd-250930-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -3596,6 +3596,13 @@ ubuntu-kylin
 
 ubuntu-mate
 
+ubuntu-mate 16.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04.6-desktop-amd64.iso
+ubuntu-mate 18.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-amd64.iso
+ubuntu-mate 20.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.6-desktop-amd64.iso
+ubuntu-mate 22.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.5-desktop-amd64.iso
+ubuntu-mate 24.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.3-desktop-amd64.iso
+ubuntu-mate 25.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso
+ubuntu-mate 25.10:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/25.10/release/ubuntu-mate-25.10-desktop-amd64.iso
 ubuntu-mate daily-live:              https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/resolute-desktop-amd64.iso
 
 # Template file for 'ubuntu-mate'
