@@ -4,6 +4,7 @@ Talos           https://github.com/siderolabs/talos/releases/download/v1.11.4/me
 ac              https://downloads.sourceforge.net/accessible-coconut/Accessible-Coconut-24.04-beta-desktop-amd64.iso
 acreetionos     https://iso.acreetionos.org:8448/acreetion/GNOME/AcreetionOS-GNOME-1.0-x86_64.iso
 aerynos         https://cdn.aerynos.dev/isos/AerynOS-2025.10-GNOME-live-x86_64.iso
+aerynos         https://cdn.aerynos.dev/isos/AerynOS-2025.12-GNOME-live-x86_64.iso
 agarimos        https://downloads.sourceforge.net/agarimos/AgarimOS-Gnome-Catppuccin-x86_64-6.12.57_1-20251106.iso
 agarimos        https://downloads.sourceforge.net/agarimos/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.54_1-20251021.iso
 alma            https://mirrors.sonic.net/almalinux/9.7/isos/x86_64/AlmaLinux-9.7-x86_64-dvd.iso
@@ -98,6 +99,7 @@ centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251111.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251124.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251201.0-x86_64-dvd1.iso
+centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251209.0-x86_64-dvd1.iso
 chimera         https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso
 clear           https://cdn.download.clearlinux.org/releases/43300/clear/clear-43300-live-desktop.iso
 clear           https://cdn.download.clearlinux.org/releases/43400/clear/clear-43400-live-desktop.iso
