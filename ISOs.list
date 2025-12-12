@@ -355,6 +355,7 @@ pardus          https://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.4-GNOME-amd64
 pardus          https://indir.pardus.org.tr/ISO/Pardus25/Pardus-25.0-XFCE-amd64.iso
 parrot          https://download.parrot.sh/parrot/iso/7.0-beta/Parrot-home-7.0-beta_amd64.iso
 pclinuxos       https://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2025.09.iso
+pearos          https://eu-east-cdn.pearos.xyz/pearOS-NiceC0re-2025.12-x86_64.iso
 peppermint      https://downloads.sourceforge.net/peppermintos/PeppermintOS-Debian-64.iso
 peropesis       https://peropesis.org/peropesis/Peropesis-2.9-live.iso
 pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.05.05-1.iso
@@ -365,6 +366,7 @@ pisi            https://downloads.sourceforge.net/pisilinux/Pisi-Linux-2.4.3-KDE
 plamo           http://www.ring.gr.jp/pub/linux/Plamo/plamo-8.2_x86_64_usb.iso
 planetatecno    https://www.planetatecno.com.uy/programas/planetatecno_os-7.iso
 plop            https://download.plop.at/ploplinux/25.2/live/ploplinux-25.2-x86_64.iso
+popos           https://iso.pop-os.org/24.04/amd64/generic/22/pop-os_24.04_amd64_generic_22.iso
 popos           https://iso.pop-os.org/24.04/amd64/intel/17/pop-os_24.04_amd64_intel_17.iso
 popos           https://iso.pop-os.org/24.04/amd64/intel/19/pop-os_24.04_amd64_intel_19.iso
 porteus         https://mirror.yandex.ru/mirrors/porteus/x86_64/Porteus-v5.1/Porteus-LXQT-v5.1-alpha2-x86_64.iso
