@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://cytranet.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
+archcraft latest:                    https://psychz.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -248,7 +248,7 @@ function get_() {
 
 archlinux
 
-archlinux latest:                    https://mirror.rackspace.com/archlinux
+archlinux latest:                    https://mirror.rackspace.com/archlinux/iso/2025.12.01/archlinux-2025.12.01-x86_64.iso
 
 # Template file for 'archlinux'
 OSNAME="archlinux"
@@ -1031,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NTU0NDEzNwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NTU0NDEzNwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NTU0NDEzNwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NTU2NDc0OQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NTU2NDc0OQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NTU2NDc0OQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -2884,7 +2884,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://cfhcable.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -4009,6 +4009,7 @@ function specific_tweaks() {
 
 ventoy
 
+ventoy 1.1.09:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.09/ventoy-1.1.09-livecd.iso
 ventoy 1.1.08:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.08/ventoy-1.1.08-livecd.iso
 ventoy 1.1.07:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.07/ventoy-1.1.07-livecd.iso
 ventoy 1.1.06:                       https://github.com/ventoy/Ventoy/releases/download/v1.1.06/ventoy-1.1.06-livecd.iso
@@ -4028,7 +4029,6 @@ ventoy 1.0.91:                       https://github.com/ventoy/Ventoy/releases/d
 ventoy 1.0.90:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.90/ventoy-1.0.90-livecd.iso
 ventoy 1.0.89:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.89/ventoy-1.0.89-livecd.iso
 ventoy 1.0.88:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.88/ventoy-1.0.88-livecd.iso
-ventoy 1.0.87:                       https://github.com/ventoy/Ventoy/releases/download/v1.0.87/ventoy-1.0.87-livecd.iso
 
 # Template file for 'ventoy'
 OSNAME="ventoy"
@@ -4039,7 +4039,7 @@ HOMEPAGE="https://www.ventoy.net"
 CREDENTIALS="-"
 
 
-RELEASES="1.1.08 1.1.07 1.1.06 1.1.05 1.1.04 1.1.02 1.1.01 1.1.00 1.0.99 1.0.98 1.0.97 1.0.96 1.0.95 1.0.94 1.0.93 1.0.91 1.0.90 1.0.89 1.0.88 1.0.87"
+RELEASES="1.1.09 1.1.08 1.1.07 1.1.06 1.1.05 1.1.04 1.1.02 1.1.01 1.1.00 1.0.99 1.0.98 1.0.97 1.0.96 1.0.95 1.0.94 1.0.93 1.0.91 1.0.90 1.0.89 1.0.88"
 
 
 function get_() {
