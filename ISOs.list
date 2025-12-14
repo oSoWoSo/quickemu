@@ -432,6 +432,7 @@ spirit          https://downloads.sourceforge.net/spirit-os/spiritOS-16.2.iso
 startos         https://github.com/Start9Labs/start-os/releases/download/v0.4.0-alpha.12/startos-0.4.0-alpha.12-9f8a0e8.dev_x86_64.iso
 stratos         https://downloads.stratos-linux.org/gnome-iso/StratOS-2025.12.07-x86_64.iso
 synex           https://downloads.sourceforge.net/synex/synex-gnome-13.1-amd64.hybrid.iso
+synex           https://downloads.sourceforge.net/synex/synex-lxde-13-u3-amd64.hybrid.iso
 synex           https://downloads.sourceforge.net/synex/synex-xfce-13-u2-amd64.hybrid.iso
 syslinuxos      https://downloads.sourceforge.net/syslinuxos/SysLinuxOS-13-Mate_amd64.iso
 systemrescue    https://downloads.sourceforge.net/systemrescuecd/systemrescue-12.00-amd64.iso
