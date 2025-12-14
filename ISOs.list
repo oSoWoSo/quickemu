@@ -347,6 +347,7 @@ openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20251105.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20251205.x86_64.iso
 openmandriva    https://downloads.sourceforge.net/openmandriva/openmandriva-6.0-plasma6.x11-slim.x86_64.iso
+openmediavault  https://downloads.sourceforge.net/openmediavault/openmediavault_8.0-12-amd64.iso
 opensuse        https://download.opensuse.org/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso
 oracle          https://yum.oracle.com/ISOS/OracleLinux/OL10/u1/x86_64/OracleLinux-R10-U1-x86_64-dvd.iso
 oracle          https://yum.oracle.com/ISOS/OracleLinux/OL9/u7/x86_64/OracleLinux-R9-U7-x86_64-dvd.iso
@@ -382,6 +383,7 @@ proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-1.is
 proxmox         https://enterprise.proxmox.com/iso/proxmox-mail-gateway_9.0-BETA-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_9.1-1.iso
+puppy           https://distro.ibiblio.org/puppylinux/puppy-trixie/TrixiePup64/11.2/wayland/Trixiepup64_Wayland-11.2.iso
 puppy           https://downloads.sourceforge.net/pb-gh-releases/TrixiePup64-Wayland-2510-251119.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-5.8-x64.r1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-6.1-x64-tde.r1.1-testing.iso
