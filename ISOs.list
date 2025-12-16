@@ -373,6 +373,7 @@ peropesis       https://peropesis.org/peropesis/Peropesis-2.9-live.iso
 pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.05.05-1.iso
 pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.10.14-2.iso
 pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.11.01-1.iso
+pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.12.16-1.iso
 pisi            https://downloads.sourceforge.net/pisilinux/Pisi-Linux-2.4.1-KDE6-x86_64.iso
 pisi            https://downloads.sourceforge.net/pisilinux/Pisi-Linux-2.4.3-KDE6-x86_64.iso
 plamo           http://www.ring.gr.jp/pub/linux/Plamo/plamo-8.2_x86_64_usb.iso
@@ -420,6 +421,7 @@ runtu           https://downloads.sourceforge.net/runtu/runtu-xfce-24.04-amd64_2
 sdesk           https://stevestudios.net/wp-content/uploads/2025/05/sdesk-2025.05.06-x86_64.iso
 sdesk           https://stevestudios.net/wp-content/uploads/2025/10/sdesk-2025.10.17-quartz-x86_64.iso
 securityonion   https://download.securityonion.net/file/securityonion/securityonion-2.4.190-20251024.iso
+securityonion   https://download.securityonion.net/file/securityonion/securityonion-2.4.200-20251216.iso
 shanios         https://downloads.sourceforge.net/shanios/signed_shanios-gnome-2025.10.05-x86_64.iso
 shanios         https://downloads.sourceforge.net/shanios/signed_shanios-gnome-2025.11.01-x86_64.iso
 shanios         https://downloads.sourceforge.net/shanios/signed_shanios-plasma-2025.12.14-x86_64.iso
@@ -460,6 +462,7 @@ tails           https://mirrors.edge.kernel.org/tails/stable/tails-amd64-7.2/tai
 tails           https://mirrors.edge.kernel.org/tails/stable/tails-amd64-7.3.1/tails-amd64-7.3.1.iso
 talos           https://github.com/siderolabs/talos/releases/download/v1.11.2/metal-amd64.iso
 talos           https://github.com/siderolabs/talos/releases/download/v1.11.3/metal-amd64.iso
+talos           https://github.com/siderolabs/talos/releases/download/v1.11.6/metal-amd64.iso
 talos           https://github.com/siderolabs/talos/releases/download/v1.12.0-alpha.2/metal-amd64.iso
 talos           https://github.com/siderolabs/talos/releases/download/v1.12.0-beta.0/metal-arm64.iso
 talos           https://github.com/siderolabs/talos/releases/download/v1.12.0-beta.1/metal-amd64.iso
