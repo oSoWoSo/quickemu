@@ -101,6 +101,7 @@ centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251124.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251201.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251209.0-x86_64-dvd1.iso
+centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251215.0-x86_64-dvd1.iso
 chimera         https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso
 clear           https://cdn.download.clearlinux.org/releases/43300/clear/clear-43300-live-desktop.iso
 clear           https://cdn.download.clearlinux.org/releases/43400/clear/clear-43400-live-desktop.iso
@@ -144,6 +145,7 @@ elementary      https://nyc3.dl.elementary.io/download/MTc0MjM0NTQ2Ng==/elementa
 elive           https://www.elivecd.org/downloads/development/3.8.48/6a90c38ecd/elive_3.8.48_beta_hybrid_amd64.iso
 elysiaos        https://downloads.sourceforge.net/elysiaos/elysiaos-release-2025.11.03-x86_64.iso
 emmabuntus      https://downloads.sourceforge.net/emmabuntus/emmabuntus-de5-amd64-12.10-1.04.iso
+emmabuntus      https://downloads.sourceforge.net/emmabuntus/emmabuntus-de6-amd64-13.2-1.00.iso
 endeavour       https://ftp.belnet.be/mirror/endeavouros/iso/EndeavourOS_Ganymede-2025.11.24.iso
 endeavour       https://mirrors.gigenet.com/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso
 endless         https://images-dl.endlessm.com/release/6.0.8/eos-amd64-amd64/base/eos-eos6.0-amd64-amd64.251107-052648.base.iso
@@ -309,6 +311,7 @@ makulu          https://downloads.sourceforge.net/makulu/MakuluLinux-LinDoz-U-20
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-gnome-25.0.2-250516-linux612.iso
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-gnome-25.0.9-250926-linux612.iso
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-gnome-25.1-pre1-251208-linux618.iso
+manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-gnome-25.1-pre2-251215-linux618.iso
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-kde-25.0.0-250414-linux612.iso
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-kde-25.0.1-250506-linux612.iso
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-kde-25.0.10-minimal-251013-linux612.iso
@@ -322,6 +325,7 @@ minios          https://github.com/minios-linux/minios-live/releases/download/v5
 mint            https://mirror.rackspace.com/linuxmint/iso/debian/lmde-7-cinnamon-64bit.iso
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.10/MocaccinoOS-GNOME-0.20251001.iso.tar.xz
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.11/MocaccinoOS-MATE-0.20251101.iso.tar.xz
+mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.12/MocaccinoOS-XFCE-0.20251215.iso.tar.xz
 modicia         https://downloads.sourceforge.net/modicia-o-o/MODICIA-O.S.Caravaggio-6.12.57-RT-LTS-amd64.iso
 mx              https://downloads.sourceforge.net/mx-linux/MX-23.6_x64.iso
 mx              https://downloads.sourceforge.net/mx-linux/MX-25_Xfce_RC1_x64.iso
