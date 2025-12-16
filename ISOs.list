@@ -124,6 +124,7 @@ deepin          http://ftp.snt.utwente.nl/pub/os/linux/deepin-cd/25-alpha/amd64/
 deepin          https://ftp.gwdg.de/pub/linux/linuxdeepin/releases/23.1/amd64/deepin-desktop-community-23.1-amd64.iso
 desert          https://downloads.sourceforge.net/desert-os-linux/DESERT_4.5_RU_amd64.iso
 devuan          https://files.devuan.org/devuan_excalibur/installer-iso/devuan_excalibur_6.0.0_amd64_desktop.iso
+dietpi          https://dietpi.com/downloads/images/DietPi_NativePC-BIOS-x86_64-Trixie_Installer.iso
 dietpi          https://dietpi.com/downloads/images/DietPi_NativePC-UEFI-x86_64-Trixie_Installer.iso
 dragonflybsd    https://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.1_REL.iso
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R1.iso
@@ -320,6 +321,7 @@ max             https://ftp.rediris.es/mirror/MaX-Linux/MaXdesktop/ultima-versio
 max             https://ftp.rediris.es/mirror/MaX-Linux/MaXdesktop/ultima-version/MAX-12.5-FINAL-live-amd64-20251204_1351.iso
 midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/3.2.3/MidnightBSD-3.2.3--amd64-disc1.iso
 midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/3.2.4/MidnightBSD-3.2.4--amd64-disc1.iso
+midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/4.0/MidnightBSD-4.0--amd64-disc1.iso
 minios          https://github.com/minios-linux/minios-live/releases/download/v5.1.0-rc1/minios-trixie-xfce-standard-amd64-5.1.0-rc1.iso
 minios          https://github.com/minios-linux/minios-live/releases/download/v5.1.0/minios-trixie-xfce-standard-amd64-5.1.0.iso
 mint            https://mirror.rackspace.com/linuxmint/iso/debian/lmde-7-cinnamon-64bit.iso
