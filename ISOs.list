@@ -25,6 +25,7 @@ anduin          https://download.anduinos.com/1.3/1.3.1/AnduinOS-1.3.1-en_US.iso
 anduin          https://download.anduinos.com/1.3/1.3.6/AnduinOS-1.3.6-en_US.iso
 anduin          https://download.anduinos.com/1.4/1.4.0/AnduinOS-1.4.0-en_US.iso
 anduin          https://download.anduinos.com/1.4/1.4.1/AnduinOS-1.4.1-en_US.iso
+antix           https://downloads.sourceforge.net/antix-linux/antiX-25-b2_x64-full.iso
 antix           https://downloads.sourceforge.net/antix-linux/antiX-25-beta1_x64-full.iso
 anubitux        https://downloads.anubitux.org/AnuBitux-3.5.5-amd64.iso
 aosc            https://releases.aosc.io/os-amd64/installer/aosc-os_installer_20251115_amd64.iso
@@ -555,6 +556,7 @@ voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-beta
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-beta2-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-alpha-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-alpha2-amd64.iso
+voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-alpha3-amd64.iso
 vyos            https://community-downloads.vyos.dev/stream/2025.11/vyos-2025.11-generic-amd64.iso
 wmlive          https://downloads.sourceforge.net/wmlive/wmlive-trixie_13.2-i386.iso
 xigmanas        https://sourceforge.net/projects/xigmanas/files/XigmaNAS-14.3.0.5/14.3.0.5.10483/XigmaNAS-x64-LiveCD-14.3.0.5.10483.iso/download
