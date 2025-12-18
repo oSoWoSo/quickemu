@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://cfhcable.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
+| archcraft | latest |  | [url](https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2025.12.01/archlinux-2025.12.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
@@ -208,9 +208,9 @@
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NjA0MDA3MQo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2NjA0MDA3MQo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NjA0MDA3MQo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NjA2MjU1Mwo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2NjA2MjU1Mwo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NjA2MjU1Mwo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -251,7 +251,7 @@
 | ghostbsd | 25.01-R14.2p1 | xfce | [url](https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso) |
 | ghostbsd | 24.10.1 | mate | [url](https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1.iso) |
 | ghostbsd | 24.10.1 | xfce | [url](https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso) |
-| gnomeos | nightly |  | [url](https://1270333429.rsc.cdn77.org/nightly/963032/gnome_os_963032-x86_64.iso) |
+| gnomeos | nightly |  | [url](https://1270333429.rsc.cdn77.org/nightly/964665/gnome_os_964665-x86_64.iso) |
 | gnomeos | 49.rc |  | [url](https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso) |
 | gnomeos | 49.beta |  | [url](https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso) |
 | gnomeos | 49.alpha.1 |  | [url](https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso) |
@@ -297,7 +297,7 @@
 | haiku | r1beta3 | x86_gcc2h | [url](http://mirror.rit.edu/haiku/r1beta3/haiku-r1beta3-x86_gcc2h-anyboot.iso) |
 | kali | current |  | [url](https://cdimage.kali.org/current/kali-linux-2025.4-installer-amd64.iso) |
 | kali | kali-weekly |  | [url](https://cdimage.kali.org/kali-weekly/kali-linux-2025-W50-installer-amd64.iso) |
-| kdeneon | user |  | [url](https://files.kde.org/neon/images/user/current/neon-user-20251211-1320.iso) |
+| kdeneon | user |  | [url](https://files.kde.org/neon/images/user/current/neon-user-20251218-0746.iso) |
 | kdeneon | testing |  | [url](https://files.kde.org/neon/images/testing/current/neon-testing-20251216-0034.iso) |
 | kdeneon | unstable |  | [url](https://files.kde.org/neon/images/unstable/current/neon-unstable-20251216-0845.iso) |
 | kdeneon | developer |  | [url](https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250901-0038.iso) |
@@ -354,7 +354,7 @@
 | lubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso) |
 | lubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso) |
 | lubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/lubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| maboxlinux | latest |  | [url](https://psychz.dl.sourceforge.net/project/mabox-linux/25.12/linux61/mabox-linux-25.12-Istredd-251216-linux61.iso) |
+| maboxlinux | latest |  | [url](https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.12/linux61/mabox-linux-25.12-Istredd-251216-linux61.iso) |
 | macos | mojave |  | [url](http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg) |
 | macos | catalina |  | [url](http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg) |
 | macos | big-sur |  | [url](http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg) |
@@ -488,8 +488,7 @@
 | proxmox-ve | 5.4-1 |  | [url](https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso) |
 | pureos | 10.3 | gnome | [url](https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso) |
 | pureos | 10.3 | plasma | [url](https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso) |
-| reactos | latest |  | [url](https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
-| rebornos | latest |  | **ERROR** |
+| reactos | latest |  | [url](https://cytranet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
 | redox-os | livedisk | demo | [url](https://static.redox-os.org/img/x86_64/) |
 | redox-os | livedisk | desktop | [url](https://static.redox-os.org/img/x86_64/) |
 | redox-os | livedisk | server | [url](https://static.redox-os.org/img/x86_64/) |
@@ -534,14 +533,6 @@
 | sparkylinux | 8.1 | lxqt | [url](https://sourceforge.net/projects/sparkylinux/files/lxqt/sparkylinux-8.1-x86_64-lxqt.iso) |
 | sparkylinux | 8.1 | kde | [url](https://sourceforge.net/projects/sparkylinux/files/kde/sparkylinux-8.1-x86_64-kde.iso) |
 | sparkylinux | 8.1 | xfce | [url](https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-8.1-x86_64-xfce.iso) |
-| spirallinux | latest | Plasma | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_Plasma_12.231005_x86-64.iso) |
-| spirallinux | latest | XFCE | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_XFCE_12.231005_x86-64.iso) |
-| spirallinux | latest | Mate | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_Mate_12.231005_x86-64.iso) |
-| spirallinux | latest | LXQt | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_LXQt_12.231005_x86-64.iso) |
-| spirallinux | latest | Gnome | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_Gnome_12.231005_x86-64.iso) |
-| spirallinux | latest | Budgie | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_Budgie_12.231005_x86-64.iso) |
-| spirallinux | latest | Cinnamon | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_Cinnamon_12.231005_x86-64.iso) |
-| spirallinux | latest | Builder | [url](https://sourceforge.net/projects/spirallinux/files/12.231005/SpiralLinux_Builder_12.231005_x86-64.iso) |
 | tails | stable |  | [url](https://download.tails.net/tails/stable/tails-amd64-7.3.1/tails-amd64-7.3.1.iso) |
 | tinycore | 15 | Core | [url](https://distro.ibiblio.org/tinycorelinux/15.x/x86/release/Core-15.0.iso) |
 | tinycore | 15 | TinyCore | [url](https://distro.ibiblio.org/tinycorelinux/15.x/x86/release/TinyCore-15.0.iso) |
