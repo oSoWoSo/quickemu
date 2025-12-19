@@ -76,6 +76,7 @@ bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.16.8-6-20
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.17.3-1-2025.10.19-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.17.8-6-2025.11.23-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.17.9-2-2025.11.25-x86_64.iso
+bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.18.1-2-2025.12.18-x86_64.iso
 bros            https://downloads.sourceforge.net/bros/BrOS-13.1.1_amd64_hybrid.iso
 bros            https://downloads.sourceforge.net/bros/BrOS-13.2_amd64.hybrid.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250330.iso
@@ -125,6 +126,7 @@ debianedu       https://cdimage.debian.org/debian-cd/13.2.0/amd64/iso-bd/debian-
 deepin          http://ftp.snt.utwente.nl/pub/os/linux/deepin-cd/25-alpha/amd64/deepin-desktop-community-25-alpha-amd64.iso
 deepin          https://ftp.gwdg.de/pub/linux/linuxdeepin/releases/23.1/amd64/deepin-desktop-community-23.1-amd64.iso
 desert          https://downloads.sourceforge.net/desert-os-linux/DESERT_4.5_RU_amd64.iso
+desert          https://downloads.sourceforge.net/desert-os-linux/DESERT_5.0_amd64.iso
 devuan          https://files.devuan.org/devuan_excalibur/installer-iso/devuan_excalibur_6.0.0_amd64_desktop.iso
 dietpi          https://dietpi.com/downloads/images/DietPi_NativePC-BIOS-x86_64-Trixie_Installer.iso
 dietpi          https://dietpi.com/downloads/images/DietPi_NativePC-UEFI-x86_64-Trixie_Installer.iso
@@ -289,6 +291,7 @@ linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04.
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04.3-noble-lts.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-winux-11.25.10-noble-fat-lts.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-winux-11.25.11-noble-lts.iso
+linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-winux-11.25.12-noble-lts.iso
 linuxhub        https://downloads.sourceforge.net/linuxhub-prime/Linuxhub_Prime_v3.0.8-2025.10.06-x86_64.iso
 linuxhub        https://downloads.sourceforge.net/linuxhub-prime/Linuxhub_Prime_v3.0.8-2025.10.24-x86_64.iso
 linuxhub        https://downloads.sourceforge.net/linuxhub-prime/Linuxhub_Prime_v3.0.9-2025.11.03-x86_64.iso
@@ -329,6 +332,7 @@ midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/
 minios          https://github.com/minios-linux/minios-live/releases/download/v5.1.0-rc1/minios-trixie-xfce-standard-amd64-5.1.0-rc1.iso
 minios          https://github.com/minios-linux/minios-live/releases/download/v5.1.0/minios-trixie-xfce-standard-amd64-5.1.0.iso
 mint            https://mirror.rackspace.com/linuxmint/iso/debian/lmde-7-cinnamon-64bit.iso
+mint            https://mirror.rackspace.com/linuxmint/iso/testing/linuxmint-22.3-cinnamon-64bit-beta.iso
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.10/MocaccinoOS-GNOME-0.20251001.iso.tar.xz
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.11/MocaccinoOS-MATE-0.20251101.iso.tar.xz
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.12/MocaccinoOS-XFCE-0.20251215.iso.tar.xz
@@ -563,6 +567,7 @@ voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-alpha3-amd64.iso
 vyos            https://community-downloads.vyos.dev/stream/2025.11/vyos-2025.11-generic-amd64.iso
 wmlive          https://downloads.sourceforge.net/wmlive/wmlive-trixie_13.2-i386.iso
+xcpng           https://updates.xcp-ng.org/isos/8.3/xcp-ng-8.3.0-20250606.2.iso
 xigmanas        https://sourceforge.net/projects/xigmanas/files/XigmaNAS-14.3.0.5/14.3.0.5.10483/XigmaNAS-x64-LiveCD-14.3.0.5.10483.iso/download
 xivastudio      https://iso.biglinux.com.br/xivastudio_2025-10-06_xanmodlts612.iso
 xivastudio      https://iso.biglinux.com.br/xivastudio_2025-11-13_k612.iso
