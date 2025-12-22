@@ -211,6 +211,7 @@ garuda          https://downloads.sourceforge.net/garuda-linux/garuda-dr460nized
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-mokka-linux-zen-251102.iso
 gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251116T161545Z/livegui-amd64-20251116T161545Z.iso
 gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251207T170056Z/livegui-amd64-20251207T170056Z.iso
+gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251221T154556Z/livegui-amd64-20251221T154556Z.iso
 gnomeos         https://os.gnome.org/download/921729/live_921729-x86_64.iso
 gnomeos         https://os.gnome.org/download/956432/gnome_os_956432-x86_64.iso
 gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix25_10-kde-rolling.iso
@@ -417,6 +418,7 @@ quarkos         https://downloads.sourceforge.net/quark-os/quarkos-24.04-x64.r4.
 qubes           https://ftp.qubes-os.org/iso/Qubes-R4.3.0-rc2-x86_64.iso
 qubes           https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.3.0-rc3-x86_64.iso
 qubes           https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.3.0-rc4-x86_64.iso
+qubes           https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.3.0-x86_64.iso
 quirinux        https://repo.quirinux.org/dev/isos/Quirinux2-1-Estable_x64_Rev4.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.03.04-x86_64.iso
 rebornos        https://downloads.sourceforge.net/rebornos/rebornos_iso-2025.04.26-x86_64.iso
