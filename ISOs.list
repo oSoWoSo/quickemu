@@ -217,6 +217,7 @@ gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251207T
 gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251221T154556Z/livegui-amd64-20251221T154556Z.iso
 gnomeos         https://os.gnome.org/download/921729/live_921729-x86_64.iso
 gnomeos         https://os.gnome.org/download/956432/gnome_os_956432-x86_64.iso
+gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix-26-core-kde.iso
 gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix25_10-kde-rolling.iso
 gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix25_10-kde.iso
 gnuinos         https://www.gnuinos.org/mirror/daedalus/installer-iso/gnuinos-daedalus_2025.10.10_amd64_desktop.iso
@@ -384,6 +385,7 @@ parch           https://mirror.parchlinux.ir/plasma/ParchLinux-plasma-latest.iso
 pardus          https://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.4-GNOME-amd64.iso
 pardus          https://indir.pardus.org.tr/ISO/Pardus25/Pardus-25.0-XFCE-amd64.iso
 parrot          https://download.parrot.sh/parrot/iso/7.0-beta/Parrot-home-7.0-beta_amd64.iso
+parrot          https://download.parrot.sh/parrot/iso/7.0/Parrot-security-7.0_amd64.iso
 pclinuxos       https://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2025.09.iso
 pearos          https://eu-east-cdn.pearos.xyz/pearOS-NiceC0re-2025.12-x86_64.iso
 peppermint      https://downloads.sourceforge.net/peppermintos/PeppermintOS-Debian-64.iso
@@ -564,6 +566,7 @@ ventoy          https://downloads.sourceforge.net/ventoy/ventoy-1.1.08-livecd.is
 vinari          https://downloads.sourceforge.net/vinari-os/Vinari-OS-5.0.0-KRYPTON-amd64.iso
 vincent         https://downloads.sourceforge.net/vincent-os/vincentOS-1.1-x86_64.iso
 vipnix          https://downloads.sourceforge.net/vipnix-repo/vipnix-livecd-20251119-2145.iso
+vipnix          https://downloads.sourceforge.net/vipnix-repo/vipnix-livecd-20251223-0746.iso
 vitalinux       https://mirror.vitalinux.educa.aragon.es/isos/vitalinux-3.4-2025.11.29-desktop-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-12.10-debian-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.04-alpha6-amd64.iso
