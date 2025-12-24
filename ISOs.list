@@ -108,6 +108,7 @@ centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251201.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251209.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251215.0-x86_64-dvd1.iso
+centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251223.1-x86_64-dvd1.iso
 chimera         https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso
 chimera         https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20251220-plasma.iso
 clear           https://cdn.download.clearlinux.org/releases/43300/clear/clear-43300-live-desktop.iso
@@ -138,6 +139,7 @@ dragonflybsd    https://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R1.iso
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R2.iso
 dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R3.iso
+dragonos        https://downloads.sourceforge.net/dragonos-focal/DragonOS_Noble_R8.iso
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.04-amd64.iso
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.05-amd64.iso
 drparted        https://downloads.sourceforge.net/dr-parted-live/Dr.Parted-Live25.10-amd64.iso
@@ -174,6 +176,7 @@ exton           https://downloads.sourceforge.net/puppex/puppex-noble64-uefi-nvi
 extrox          https://downloads.sourceforge.net/extrox/extrox-2.0_RC1-20250927_1924.iso
 extrox          https://downloads.sourceforge.net/extrox/extrox2.0B-True_Normal-ProductEdition-20251118_1823.iso
 extrox          https://downloads.sourceforge.net/extrox/extrox_2.0_RC2-20251003_0933.iso
+extrox          https://downloads.sourceforge.net/extrox/extrox_ver2.1_SoundHeaven_24Dec2025.iso
 fedora          https://dl.fedoraproject.org/pub/fedora/linux/releases/43/Workstation/x86_64/iso/Fedora-Workstation-Live-43-1.6.x86_64.iso
 fedora          https://download.fedoraproject.org/pub/fedora/linux/releases/43/Workstation/x86_64/iso/Fedora-Workstation-Live-43-1.6.x86_64.iso
 fedora          https://mirror.us.leaseweb.net/fedora/linux/releases/test/42_Beta/Workstation/x86_64/iso/Fedora-Workstation-Live-42_Beta-1.4.x86_64.iso
