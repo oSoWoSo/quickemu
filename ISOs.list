@@ -53,6 +53,7 @@ aurora          https://dl.getaurora.dev/aurora-stable-x86_64.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.3.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.4.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.6.iso
+austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.1.3.iso
 avlinux         https://downloads.bandshed.net/AVL_MXe_25/AVL_MXe-25_x64.iso
 bazzite         https://download.bazzite.gg/bazzite-stable-amd64.iso
 besgnulinux     https://downloads.sourceforge.net/besgnulinux/besgnulinux-jwm-3-1-amd64.iso
@@ -369,6 +370,7 @@ obarun          https://cloud.server.obarun.org/iso/2025.11.16/obarun-JWM-2025.1
 obsidianos      https://files.obsidianos.xyz/latestKDE.iso
 omarchy         https://iso.omarchy.org/omarchy-3.1.0.iso
 omarchy         https://iso.omarchy.org/omarchy-3.1.5.iso
+omegalinux      https://github.com/ohjhas/omega-linux/releases/download/3.3/omegalinux-3.3-seaopen-amd64-alb67q.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.8/amd64/install78.iso
 openindiana     https://dlc.openindiana.org/isos/hipster/20251026/OI-hipster-gui-20251026.iso
