@@ -377,6 +377,7 @@ omegalinux      https://github.com/ohjhas/omega-linux/releases/download/3.3/omeg
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.8/amd64/install78.iso
 openindiana     https://dlc.openindiana.org/isos/hipster/20251026/OI-hipster-gui-20251026.iso
+openkylin       https://mirror.accum.se/mirror/openkylin.top/releases/2.0-SP2/openKylin-Desktop-V2.0-SP2-20251225-x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250312.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250320.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20250420.x86_64.iso
@@ -385,6 +386,7 @@ openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20251205.x86_64.iso
 openmandriva    https://downloads.sourceforge.net/openmandriva/openmandriva-6.0-plasma6.x11-slim.x86_64.iso
 openmediavault  https://downloads.sourceforge.net/openmediavault/openmediavault_8.0-12-amd64.iso
+openmediavault  https://downloads.sourceforge.net/openmediavault/openmediavault_8.0.2-amd64.iso
 opensuse        https://download.opensuse.org/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso
 oracle          https://yum.oracle.com/ISOS/OracleLinux/OL10/u1/x86_64/OracleLinux-R10-U1-x86_64-dvd.iso
 oracle          https://yum.oracle.com/ISOS/OracleLinux/OL9/u7/x86_64/OracleLinux-R9-U7-x86_64-dvd.iso
