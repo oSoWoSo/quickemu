@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://pilotfiber.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
+archcraft latest:                    https://psychz.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1031,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2Njg4ODYyMQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2Njg4ODYyMQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2Njg4ODYyMQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NjkwNDAwMQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NjkwNDAwMQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NjkwNDAwMQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1510,7 +1510,7 @@ function specific_tweaks() {
 kali
 
 kali current:                        https://cdimage.kali.org/current/kali-linux-2025.4-installer-amd64.iso
-kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2025-W51-installer-amd64.iso
+kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2026-W01-installer-amd64.iso
 
 # Template file for 'kali'
 OSNAME="kali"
@@ -1931,7 +1931,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://gigenet.dl.sourceforge.net/project/mabox-linux/25.12/linux61/mabox-linux-25.12-Istredd-251216-linux61.iso
+maboxlinux latest:                   https://psychz.dl.sourceforge.net/project/mabox-linux/25.12/linux61/mabox-linux-25.12-Istredd-251216-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2884,7 +2884,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3971,13 +3971,13 @@ vanillaos 22.10-r8:                  https://github.com/Vanilla-OS/live-iso/rele
 vanillaos 22.10-r7.5:                https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso
 vanillaos 22.10-r7:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso
 vanillaos 22.10-r6:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r6/VanillaOS-22.10-all.20230123.iso
-vanillaos 22.10-r5:                  
-vanillaos 22.10-r4:                  
-vanillaos 22.10-r3:                  
-vanillaos 22.10-r2:                  
-vanillaos 22.10-r1:                  
-vanillaos 22.10:                     
-vanillaos 2.0:                       
+vanillaos 22.10-r5:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r5/VanillaOS-22.10-all.20230116.iso
+vanillaos 22.10-r4:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r4/VanillaOS-22.10-all.20230115.iso
+vanillaos 22.10-r3:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r3/VanillaOS-22.10-all.20230105.iso
+vanillaos 22.10-r2:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r2/VanillaOS-22.10-all.20221231.iso
+vanillaos 22.10-r1:                  https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r1/VanillaOS-22.10-all.20221230.iso
+vanillaos 22.10:                     https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso
+vanillaos 2.0:                       https://github.com/Vanilla-OS/live-iso/releases/download/2.0/VanillaOS-2-stable.20251114.iso
 
 # Template file for 'vanillaos'
 OSNAME="vanillaos"
