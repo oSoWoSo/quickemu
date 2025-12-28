@@ -95,6 +95,7 @@ calculate       https://mirror.calculate-linux.org/release/20251108/cld-20251108
 calculate       https://mirror.calculate-linux.org/release/20251118/cld-20251118-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250313-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250318-x86_64.iso
+canaima         http://repositorio.softwarelibre.gob.ve/canaima/iso/kavanayen/canaima-8.3-gnome_amd64.iso
 centos          https://ftp.udx.icscoe.jp/Linux/CentOS-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250303.3-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250414.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20250422.0-x86_64-dvd1.iso
