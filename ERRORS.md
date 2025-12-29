@@ -12,6 +12,5 @@
 | ubuntu-24.04.3-live-server-amd64.iso | ubuntu-24.04.3-live-server-amd64.iso | ubuntu-24.04.3-live-server-amd64.iso | **ERROR** |
 | Ubuntu | Unity | 25.10 | **ERROR** |
 | UbuntuStudio | dvd | is | **ERROR** |
-| vanillaos | 2.0 |  | **ERROR** |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
