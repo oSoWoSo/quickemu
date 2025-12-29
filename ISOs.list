@@ -231,6 +231,7 @@ gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix25_10-kde.iso
 gnuinos         https://www.gnuinos.org/mirror/daedalus/installer-iso/gnuinos-daedalus_2025.10.10_amd64_desktop.iso
 gobo            https://gobolinux.neonsys.org/017.01-ISO/GoboLinux-017.01-x86_64.iso
 gparted         https://downloads.sourceforge.net/gparted/gparted-live-1.7.0-12-amd64.iso
+green           https://mirror.truenetwork.ru/greenlinux/stable/22.3/greenlinux-cinnamon-64bit-22.3.0.iso
 greenbang       https://downloads.sourceforge.net/archbang/greenbang-0510-x86_64.iso
 grml            https://download.grml.org/grml-full-2025.05-amd64.iso
 grml            https://download.grml.org/grml-full-2025.12-amd64.iso
@@ -485,6 +486,7 @@ sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-7.7-x8
 sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-8.1-x86_64-lxqt.iso
 spirit          https://downloads.sourceforge.net/spirit-os/spiritOS-16.2.iso
 startos         https://github.com/Start9Labs/start-os/releases/download/v0.4.0-alpha.12/startos-0.4.0-alpha.12-9f8a0e8.dev_x86_64.iso
+stormos         https://downloads.sourceforge.net/hackman-linux/StormOS_Phobos-January%20Point%201-x86_64.iso
 stratos         https://downloads.stratos-linux.org/gnome-iso/StratOS-2025.12.07-x86_64.iso
 synex           https://downloads.sourceforge.net/synex/synex-gnome-13.1-amd64.hybrid.iso
 synex           https://downloads.sourceforge.net/synex/synex-lxde-13-u3-amd64.hybrid.iso
