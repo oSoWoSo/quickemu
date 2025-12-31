@@ -470,6 +470,7 @@ securityonion   https://download.securityonion.net/file/securityonion/securityon
 shanios         https://downloads.sourceforge.net/shanios/signed_shanios-gnome-2025.10.05-x86_64.iso
 shanios         https://downloads.sourceforge.net/shanios/signed_shanios-gnome-2025.11.01-x86_64.iso
 shanios         https://downloads.sourceforge.net/shanios/signed_shanios-plasma-2025.12.14-x86_64.iso
+side            https://downloads.sourceforge.net/lxdeside/side-0.1.4-firmwareless.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.10.0-amd64-BD-1.iso
 skolelinux      https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.11.0-amd64-BD-1.iso
 slimbookos      https://cloud.slimbook.net/public.php/dav/files/download/Operating%20systems/Slimbook%20OS/24/slimbookos-24-r110.iso
