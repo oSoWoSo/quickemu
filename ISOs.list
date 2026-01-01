@@ -89,6 +89,7 @@ cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-l
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-251129.iso
 calam           https://downloads.sourceforge.net/blue-arch-installer/Calam-Arch-Installer-2025-10.iso
 calam           https://downloads.sourceforge.net/blue-arch-installer/Calam-Arch-Installer-2025-11.iso
+calam           https://downloads.sourceforge.net/blue-arch-installer/Calam-Arch-Installer-2026-01.iso
 calculate       https://mirror.calculate-linux.org/release/20250409/cld-20250409-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/20251020/cld-20251020-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/20251108/cld-20251108-x86_64.iso
@@ -223,6 +224,7 @@ garuda          https://downloads.sourceforge.net/garuda-linux/garuda-mokka-linu
 gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251116T161545Z/livegui-amd64-20251116T161545Z.iso
 gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251207T170056Z/livegui-amd64-20251207T170056Z.iso
 gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251221T154556Z/livegui-amd64-20251221T154556Z.iso
+gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251231T090058Z/livegui-amd64-20251231T090058Z.iso
 gnomeos         https://os.gnome.org/download/921729/live_921729-x86_64.iso
 gnomeos         https://os.gnome.org/download/956432/gnome_os_956432-x86_64.iso
 gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix-26-core-kde.iso
