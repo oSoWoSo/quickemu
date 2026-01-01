@@ -6,6 +6,7 @@ acreetionos     https://iso.acreetionos.org:8448/acreetion/GNOME/AcreetionOS-GNO
 aerynos         https://cdn.aerynos.dev/isos/AerynOS-2025.10-GNOME-live-x86_64.iso
 aerynos         https://cdn.aerynos.dev/isos/AerynOS-2025.12-GNOME-live-x86_64.iso
 agarimos        https://downloads.sourceforge.net/agarimos/AgarimOS-Gnome-Catppuccin-x86_64-6.12.57_1-20251106.iso
+agarimos        https://downloads.sourceforge.net/agarimos/AgarimOS-LXQT-KWIN-Catppuccin-Live-x86_64-6.12.63_1-20260101.iso
 agarimos        https://downloads.sourceforge.net/agarimos/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.54_1-20251021.iso
 alma            https://mirrors.sonic.net/almalinux/9.7/isos/x86_64/AlmaLinux-9.7-x86_64-dvd.iso
 alma            https://mirrors.upr.edu/almalinux/10.1/isos/x86_64/AlmaLinux-10.1-x86_64-dvd.iso
@@ -36,6 +37,7 @@ arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2
 arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.10.01-x86_64.iso
 arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.11.01-x86_64.iso
 arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.12.01-x86_64.iso
+arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2026.01.01-x86_64.iso
 archbang        https://downloads.sourceforge.net/archbang/archbang-0904-x86_64.iso
 archcraft       https://downloads.sourceforge.net/archcraft/archcraft-2025.04.24-x86_64.iso
 archcraft       https://downloads.sourceforge.net/archcraft/archcraft-2025.10.16-x86_64.iso
@@ -128,6 +130,7 @@ cuerdos         https://downloads.sourceforge.net/cuerdos/CuerdOS-2.0-Cinnamon.i
 cyrethium       https://downloads.sourceforge.net/cyrethium/Cyrethium-V1R-amd64.iso
 d77void         https://downloads.sourceforge.net/d77void/d77void-live-x86_64-20251028-qtile.iso
 d77void         https://downloads.sourceforge.net/d77void/d77void-live-x86_64-20251201-hyprland.iso
+d77void         https://downloads.sourceforge.net/d77void/d77void-live-x86_64-20260101-cosmic.iso
 debian          https://cdimage.debian.org/debian-cd/13.2.0/amd64/iso-dvd/debian-13.2.0-amd64-DVD-1.iso
 debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.10.0-amd64-DVD-1.iso
 debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.11.0-amd64-DVD-1.iso
@@ -168,6 +171,7 @@ emmabuntus      https://downloads.sourceforge.net/emmabuntus/emmabuntus-de6-amd6
 endeavour       https://ftp.belnet.be/mirror/endeavouros/iso/EndeavourOS_Ganymede-2025.11.24.iso
 endeavour       https://mirrors.gigenet.com/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso
 endless         https://images-dl.endlessm.com/release/6.0.8/eos-amd64-amd64/base/eos-eos6.0-amd64-amd64.251107-052648.base.iso
+enos            https://downloads.sourceforge.net/en-os/EN-OS-EN-OS%201.0%20Len_region2025.12.31-x86_64.iso
 exe             https://downloads.sourceforge.net/exegnulinux/exegnu64_daedalus-20250508.iso
 exe             https://downloads.sourceforge.net/exegnulinux/exegnu64_excalibur-20251119.iso
 expirion        https://downloads.sourceforge.net/expirion-linux/Expirion-6.1-LXQt-251005.iso
@@ -345,6 +349,7 @@ manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-gnome-25.
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-gnome-25.0.9-250926-linux612.iso
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-gnome-25.1-pre1-251208-linux618.iso
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-gnome-25.1-pre2-251215-linux618.iso
+manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-gnome-26.0-rc3-260101-linux618.iso
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-kde-25.0.0-250414-linux612.iso
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-kde-25.0.1-250506-linux612.iso
 manjaro         https://downloads.sourceforge.net/manjarolinux/manjaro-kde-25.0.10-minimal-251013-linux612.iso
