@@ -8,6 +8,7 @@ aerynos         https://cdn.aerynos.dev/isos/AerynOS-2025.12-GNOME-live-x86_64.i
 agarimos        https://downloads.sourceforge.net/agarimos/AgarimOS-Gnome-Catppuccin-x86_64-6.12.57_1-20251106.iso
 agarimos        https://downloads.sourceforge.net/agarimos/AgarimOS-LXQT-KWIN-Catppuccin-Live-x86_64-6.12.63_1-20260101.iso
 agarimos        https://downloads.sourceforge.net/agarimos/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.54_1-20251021.iso
+alienos         https://downloads.sourceforge.net/alien-os-nano/Alien-OS_Regolith_Prime_26.01.iso
 alma            https://mirrors.sonic.net/almalinux/9.7/isos/x86_64/AlmaLinux-9.7-x86_64-dvd.iso
 alma            https://mirrors.upr.edu/almalinux/10.1/isos/x86_64/AlmaLinux-10.1-x86_64-dvd.iso
 alma            https://repo.almalinux.org/almalinux/10.1-beta/isos/x86_64/AlmaLinux-10.1-beta-1-x86_64-dvd.iso
@@ -140,6 +141,7 @@ deepin          https://ftp.gwdg.de/pub/linux/linuxdeepin/releases/23.1/amd64/de
 desert          https://downloads.sourceforge.net/desert-os-linux/DESERT_4.5_RU_amd64.iso
 desert          https://downloads.sourceforge.net/desert-os-linux/DESERT_5.0_amd64.iso
 devuan          https://files.devuan.org/devuan_excalibur/installer-iso/devuan_excalibur_6.0.0_amd64_desktop.iso
+devuan          https://files.devuan.org/devuan_excalibur/installer-iso/devuan_excalibur_6.1.0_amd64_desktop.iso
 dietpi          https://dietpi.com/downloads/images/DietPi_NativePC-BIOS-x86_64-Trixie_Installer.iso
 dietpi          https://dietpi.com/downloads/images/DietPi_NativePC-UEFI-x86_64-Trixie_Installer.iso
 dragonflybsd    https://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-6.4.1_REL.iso
