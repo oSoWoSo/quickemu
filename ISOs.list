@@ -66,6 +66,7 @@ biglinux        https://iso.biglinux.com.br/biglinux_2025-05-04_k612.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-05-12_k614.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-09-26_k616.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-12-05_k617.iso
+biglinux        https://iso.biglinux.com.br/biglinux_2026-01-03_k617.iso
 blade           https://downloads.sourceforge.net/blade-os/blade.iso
 blendos         https://at.blendos.niranjan.co/blendOS.iso
 blendos         https://blend.asterisk.lol/dvd/v4/blendOS.iso
@@ -98,6 +99,7 @@ calculate       https://mirror.calculate-linux.org/release/20250409/cld-20250409
 calculate       https://mirror.calculate-linux.org/release/20251020/cld-20251020-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/20251108/cld-20251108-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/20251118/cld-20251118-x86_64.iso
+calculate       https://mirror.calculate-linux.org/release/20260103/cld-20260103-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250313-x86_64.iso
 calculate       https://mirror.calculate-linux.org/release/cld-20250318-x86_64.iso
 canaima         http://repositorio.softwarelibre.gob.ve/canaima/iso/kavanayen/canaima-8.3-gnome_amd64.iso
@@ -315,6 +317,7 @@ lingmo          https://downloads.sourceforge.net/lingmo-os/lingmo-os-3.0.5-25R0
 lingmo          https://downloads.sourceforge.net/lingmo-os/lingmo-os-3.0.5-25R06-stable-desktop-amd64.iso
 linuxcnc        https://www.linuxcnc.org/iso/linuxcnc_2.9.6-amd64.hybrid.iso
 linuxcnc        https://www.linuxcnc.org/iso/linuxcnc_2.9.7-amd64.hybrid.iso
+linuxcnc        https://www.linuxcnc.org/iso/linuxcnc_2.9.8-amd64.hybrid.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.03.1-noble-lts.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04-noble-lts.iso
 linuxfx         https://downloads.sourceforge.net/linuxfxdevil/linuxfx-11.25.04.1-noble-lts.iso
