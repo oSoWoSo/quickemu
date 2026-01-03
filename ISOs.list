@@ -67,6 +67,7 @@ biglinux        https://iso.biglinux.com.br/biglinux_2025-05-12_k614.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-09-26_k616.iso
 biglinux        https://iso.biglinux.com.br/biglinux_2025-12-05_k617.iso
 blade           https://downloads.sourceforge.net/blade-os/blade.iso
+blendos         https://at.blendos.niranjan.co/blendOS.iso
 blendos         https://blend.asterisk.lol/dvd/v4/blendOS.iso
 blendos         https://mirrors.de.sahilister.net/blendos/blendOS.iso
 bluefin         https://download.projectbluefin.io/bluefin-stable-x86_64.iso
@@ -430,6 +431,7 @@ pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.05.05-
 pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.10.14-2.iso
 pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.11.01-1.iso
 pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-25.12.16-1.iso
+pikaos          https://cdn.pika-os.com/PikaOS-Nest-GNOME-4.0-amd64-v3-26.01.02-1.iso
 pisi            https://downloads.sourceforge.net/pisilinux/Pisi-Linux-2.4.1-KDE6-x86_64.iso
 pisi            https://downloads.sourceforge.net/pisilinux/Pisi-Linux-2.4.3-KDE6-x86_64.iso
 plamo           http://www.ring.gr.jp/pub/linux/Plamo/plamo-8.2_x86_64_usb.iso
