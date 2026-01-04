@@ -7,7 +7,7 @@ HOMEPAGE="https://sourceforge.net/projects/pb-gh-releases"
 CREDENTIALS="-"
 
 
-RELEASES="251201 251101 251001"
+RELEASES="260104 260103 251201 251101"
 EDITIONS="VoidPup64 TrixiePup64Wayland S15Pup64 BookwormPup64-ghtest"
 
 function get_() {
