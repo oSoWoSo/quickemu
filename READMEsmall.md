@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://netactuate.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
+| archcraft | latest |  | [url](https://gigenet.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2026.01.01/archlinux-2026.01.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
@@ -134,10 +134,7 @@
 | cereus | latest | musl-xfce | [url](https://sourceforge.net/projects/cereus-linux/files/isos/beta/2023.02.19/base/cereus-beta-live-x86_64-musl-base-2023.02.17.iso) |
 | chimeralinux | latest | base | [url](https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20251220-base.iso) |
 | chimeralinux | latest | gnome | [url](https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20251220-gnome.iso) |
-| crunchbang++ | 12.0 |  | [url](https://github.com/CBPP/cbpp/releases/download/v12.0/cbpp-12.0-amd64-20230611.iso) |
-| crunchbang++ | 11.2 |  | [url](https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-amd64-20230514.iso) |
-| crunchbang++ | 10.1 |  | [url](https://github.com/CBPP/cbpp/releases/download/v10/cbpp-10.1-amd64-20190713.iso) |
-| crunchbang++ | 9.0 |  | [url](https://github.com/CBPP/cbpp/releases/download/v9/cbpp-9.0-amd64-20170621.iso) |
+|  |  |  | **ERROR** |
 | debian | 13.2.0 | standard | [url](https://cdimage.debian.org/debian-cd/13.2.0-live/amd64/iso-hybrid/debian-live-13.2.0-amd64-standard.iso) |
 | debian | 13.2.0 | cinnamon | [url](https://cdimage.debian.org/debian-cd/13.2.0-live/amd64/iso-hybrid/debian-live-13.2.0-amd64-cinnamon.iso) |
 | debian | 13.2.0 | gnome | [url](https://cdimage.debian.org/debian-cd/13.2.0-live/amd64/iso-hybrid/debian-live-13.2.0-amd64-gnome.iso) |
@@ -208,9 +205,9 @@
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NzQ2NTQyNQo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2NzQ2NTQyNQo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NzQ2NTQyNQo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NzQ5MzU1Ngo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2NzQ5MzU1Ngo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2NzQ5MzU1Ngo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -354,7 +351,7 @@
 | lubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso) |
 | lubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso) |
 | lubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/lubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| maboxlinux | latest |  | [url](https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.12/linux61/mabox-linux-25.12-Istredd-251216-linux61.iso) |
+| maboxlinux | latest |  | [url](https://cfhcable.dl.sourceforge.net/project/mabox-linux/25.12/linux61/mabox-linux-25.12-Istredd-251216-linux61.iso) |
 | macos | mojave |  | [url](http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg) |
 | macos | catalina |  | [url](http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg) |
 | macos | big-sur |  | [url](http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg) |
@@ -488,7 +485,7 @@
 | proxmox-ve | 5.4-1 |  | [url](https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso) |
 | pureos | 10.3 | gnome | [url](https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso) |
 | pureos | 10.3 | plasma | [url](https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso) |
-| reactos | latest |  | [url](https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
+| reactos | latest |  | [url](https://phoenixnap.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
 | rebornos | latest |  | **ERROR** |
 | redox-os | livedisk | demo | [url](https://static.redox-os.org/img/x86_64/) |
 | redox-os | livedisk | desktop | [url](https://static.redox-os.org/img/x86_64/) |
@@ -511,7 +508,11 @@
 | slax | latest | debian | [url](https://ftp.fi.muni.cz/pub/linux/slax/Slax-12.x/slax-64bit-debian-12.2.0.iso) |
 | slax | latest | slackware | [url](https://ftp.fi.muni.cz/pub/linux/slax/Slax-15.x/slax-64bit-slackware-15.0.4.iso) |
 | slint | 15.0-5 |  | [url](https://slackware.uk/slint/x86_64/slint-15.0/iso/slint64-15.0-5.iso) |
-|  |  |  | **ERROR** |
+| slitaz | core |  | [url](http://mirror.slitaz.org/iso/rolling/slitaz-rolling-core.iso) |
+| slitaz | core-5in1 |  | [url](http://mirror.slitaz.org/iso/rolling/slitaz-rolling-core-5in1.iso) |
+| slitaz | core64 |  | [url](http://mirror.slitaz.org/iso/rolling/slitaz-rolling-core64.iso) |
+| slitaz | loram |  | [url](http://mirror.slitaz.org/iso/rolling/slitaz-rolling-loram.iso) |
+| slitaz | preinit |  | [url](http://mirror.slitaz.org/iso/rolling/slitaz-rolling-preinit.iso) |
 | solus | 2024-10-14 | Budgie | [url](https://downloads.getsol.us/isos/2024-10-14/Solus-Budgie-Release-2024-10-14.iso) |
 | solus | 2024-10-14 | GNOME | [url](https://downloads.getsol.us/isos/2024-10-14/Solus-GNOME-Release-2024-10-14.iso) |
 | solus | 2024-10-14 | Plasma | [url](https://downloads.getsol.us/isos/2024-10-14/Solus-Plasma-Release-2024-10-14.iso) |

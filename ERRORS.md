@@ -3,8 +3,8 @@
 | OS|RELEASE|EDITION|ISO |
 |---|---|---|---|
 |  |  |  | **ERROR** |
-| rebornos | latest |  | **ERROR** |
 |  |  |  | **ERROR** |
+| rebornos | latest |  | **ERROR** |
 |  |  |  | **ERROR** |
 | truenas-core | 13 |  | **ERROR** |
 | truenas-scale | 24 |  | **ERROR** |
