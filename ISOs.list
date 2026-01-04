@@ -239,6 +239,7 @@ gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251221T
 gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251231T090058Z/livegui-amd64-20251231T090058Z.iso
 gnomeos         https://os.gnome.org/download/921729/live_921729-x86_64.iso
 gnomeos         https://os.gnome.org/download/956432/gnome_os_956432-x86_64.iso
+gnomeos         https://os.gnome.org/download/972056/gnome_os_972056-x86_64.iso
 gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix-26-core-kde.iso
 gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix25_10-kde-rolling.iso
 gnoppix         https://downloads.sourceforge.net/gnoppixng/gnoppix25_10-kde.iso
