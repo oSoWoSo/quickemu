@@ -187,6 +187,7 @@ expirion        https://downloads.sourceforge.net/expirion-linux/Expirion-6.2-Xf
 extix           https://downloads.sourceforge.net/extix/extix-25.12-64bit-lxqt-refractasnapshot-2440mb-251201.iso
 extix           https://downloads.sourceforge.net/extix/extix-25.3-64bit-kde-waydroid-2910mb-250305.iso
 exton           http://ftp.svenskalinuxforeningen.se/distributions/exton/puppex-slack64-uefi-nvidia-1430mb-251002.iso
+exton           https://downloads.sourceforge.net/archex/archex-64bit-efi-mate-calamares-2610mb-260104.iso
 exton           https://downloads.sourceforge.net/debian-pixel/debian-12-pixel-32bit-pae-exton-build-2030mb-251019.iso
 exton           https://downloads.sourceforge.net/opsus/exton-opsus-64bit-tumbleweed-gnome-refractasnapshot-2640mb-251115.iso
 exton           https://downloads.sourceforge.net/puppex/puppex-noble64-uefi-nvidia-1960mb-251008.iso
@@ -459,6 +460,7 @@ proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso
 proxmox         https://enterprise.proxmox.com/iso/proxmox-ve_9.1-1.iso
 puppy           https://distro.ibiblio.org/puppylinux/puppy-trixie/TrixiePup64/11.2/wayland/Trixiepup64_Wayland-11.2.iso
 puppy           https://downloads.sourceforge.net/pb-gh-releases/TrixiePup64-Wayland-2510-251119.iso
+puppy           https://downloads.sourceforge.net/pb-gh-releases/TrixiePup64-Wayland-2601-260103.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-5.8-x64.r1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-6.1-x64-tde.r1.1-testing.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-6.2-x64-tde.r1.iso
