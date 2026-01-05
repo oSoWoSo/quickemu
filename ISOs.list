@@ -415,6 +415,7 @@ openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20251006.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20251105.x86_64.iso
 openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20251205.x86_64.iso
+openmamba       https://cdn.openmamba.org/pub/openmamba/media/rolling/livedvd/en/openmamba-livedvd-en-snapshot-20260105.x86_64.iso
 openmandriva    https://downloads.sourceforge.net/openmandriva/openmandriva-6.0-plasma6.x11-slim.x86_64.iso
 openmediavault  https://downloads.sourceforge.net/openmediavault/openmediavault_8.0-12-amd64.iso
 openmediavault  https://downloads.sourceforge.net/openmediavault/openmediavault_8.0.2-amd64.iso
@@ -611,6 +612,7 @@ univention      https://updates.software-univention.de/download/ucs-cds/ucs5.2-1
 univention      https://updates.software-univention.de/download/ucs-cds/ucs5.2-4/UCS_5.2-4-amd64.iso
 vailuxos        https://downloads.vailux.de/VailuxOS-1.5-desktop-stable-amd64.iso
 vailuxos        https://downloads.vailux.de/VailuxOS-1.5.1-desktop-stable-amd64.iso
+vailuxos        https://downloads.vailux.de/VailuxOS-1.6-desktop-stable-amd64.iso
 vendefoul       https://downloads.sourceforge.net/vendefoul-wolf-linux/Vendefoul-Wolf-Excalibur_TDE_k6-17-8_XLibre_openRC_amd64_v181125.iso
 vendefoul       https://downloads.sourceforge.net/vendefoul-wolf-linux/Vendefoul_Wolf_Excalibur_Kde-20251126.iso
 vendefoul       https://downloads.sourceforge.net/vendefoul-wolf-linux/Vendefoul_Wolf_Excalibur_TDE_k6-16-9_amd64_v280925.iso
