@@ -8,7 +8,7 @@ CREDENTIALS="-"
 
 
 RELEASES="260104 260103 251201 251101"
-EDITIONS="VoidPup64 TrixiePup64Wayland S15Pup64 BookwormPup64-ghtest"
+EDITIONS="VoidPup64 TrixiePup64Wayland TrixiePup64Retro S15Pup64 BookwormPup64-ghtest"
 
 function get_() {
     local HASH=""

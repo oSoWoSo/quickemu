@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://phoenixnap.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
+archcraft latest:                    https://cfhcable.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1031,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NzYxNzk2Ngo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NzYxNzk2Ngo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NzYxNzk2Ngo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2NzYzODQ3NAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2NzYzODQ3NAo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2NzYzODQ3NAo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -2600,18 +2600,22 @@ pbpuppy
 
 pbpuppy 251101 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251101.iso
 pbpuppy 251101 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251101.iso
+pbpuppy 251101 TrixiePup64Retro:     https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251101.iso
 pbpuppy 251101 TrixiePup64Wayland:   https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251101.iso
 pbpuppy 251101 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251101.iso
 pbpuppy 251201 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251201.iso
 pbpuppy 251201 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251201.iso
+pbpuppy 251201 TrixiePup64Retro:     https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251201.iso
 pbpuppy 251201 TrixiePup64Wayland:   https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251201.iso
 pbpuppy 251201 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-251201.iso
 pbpuppy 260103 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-260103.iso
 pbpuppy 260103 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-260103.iso
+pbpuppy 260103 TrixiePup64Retro:     https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-260103.iso
 pbpuppy 260103 TrixiePup64Wayland:   https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-260103.iso
 pbpuppy 260103 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-260103.iso
 pbpuppy 260104 BookwormPup64-ghtest: https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-260104.iso
 pbpuppy 260104 S15Pup64:             https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-260104.iso
+pbpuppy 260104 TrixiePup64Retro:     https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-260104.iso
 pbpuppy 260104 TrixiePup64Wayland:   https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-260104.iso
 pbpuppy 260104 VoidPup64:            https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-260104.iso
 
@@ -2625,7 +2629,7 @@ CREDENTIALS="-"
 
 
 RELEASES="260104 260103 251201 251101"
-EDITIONS="VoidPup64 TrixiePup64Wayland S15Pup64 BookwormPup64-ghtest"
+EDITIONS="VoidPup64 TrixiePup64Wayland TrixiePup64Retro S15Pup64 BookwormPup64-ghtest"
 
 function get_() {
     local HASH=""
@@ -2888,7 +2892,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://cytranet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://cytranet-dal.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
