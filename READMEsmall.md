@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://cfhcable.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
+| archcraft | latest |  | [url](https://cytranet-dal.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2026.01.01/archlinux-2026.01.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
@@ -208,9 +208,9 @@
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2Nzc1MTcwNAo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2Nzc1MTcwNAo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2Nzc1MTcwNAo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2Nzc2ODE3Ngo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2Nzc2ODE3Ngo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2Nzc2ODE3Ngo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -354,7 +354,7 @@
 | lubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso) |
 | lubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso) |
 | lubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/lubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| maboxlinux | latest |  | [url](https://cytranet.dl.sourceforge.net/project/mabox-linux/25.12/linux61/mabox-linux-25.12-Istredd-251216-linux61.iso) |
+| maboxlinux | latest |  | [url](https://gigenet.dl.sourceforge.net/project/mabox-linux/25.12/linux61/mabox-linux-25.12-Istredd-251216-linux61.iso) |
 | macos | mojave |  | [url](http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg) |
 | macos | catalina |  | [url](http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg) |
 | macos | big-sur |  | [url](http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg) |
@@ -506,7 +506,11 @@
 | redox-os | harddrive | server | [url](https://static.redox-os.org/img/x86_64/) |
 | rhino | 2025.1 |  | [url](https://sourceforge.net/projects/rhino-linux-builder/files/2025.1/Rhino-Linux-2025.1-amd64.iso) |
 |  |  |  | **ERROR** |
-|  |  |  | **ERROR** |
+| siduction | latest | kde | [url](https://mirrors.dotsrc.org/siduction/iso/Shine_on/kde/siduction-2025.1.0-Shine_on-kde-amd64-202503241412.iso) |
+| siduction | latest | lxqt | [url](https://mirrors.dotsrc.org/siduction/iso/Shine_on/lxqt/siduction-2024.1.0-Shine_on-lxqt-amd64-202412261736.iso) |
+| siduction | latest | nox | [url](https://mirrors.dotsrc.org/siduction/iso/Shine_on/nox/siduction-2024.1.0-Shine_on-nox-amd64-202412261752.iso) |
+| siduction | latest | xfce | [url](https://mirrors.dotsrc.org/siduction/iso/Shine_on/xfce/siduction-2024.1.0-Shine_on-xfce-amd64-202412261728.iso) |
+| siduction | latest | xorg | [url](https://mirrors.dotsrc.org/siduction/iso/Shine_on/xorg/siduction-2024.1.0-Shine_on-xorg-amd64-202412261745.iso) |
 | slackware | 15.0 |  | [url](https://slackware.nl/slackware/slackware-iso/slackware64-15.0-iso/slackware64-15.0-install-dvd.iso) |
 | slackware | 14.2 |  | [url](https://slackware.nl/slackware/slackware-iso/slackware64-14.2-iso/slackware64-14.2-install-dvd.iso) |
 | slackware | 14.1 |  | [url](https://slackware.nl/slackware/slackware-iso/slackware64-14.1-iso/slackware64-14.1-install-dvd.iso) |
@@ -616,17 +620,17 @@
 | ubuntustudio | 25.04 |  | [url](https://cdimage.ubuntu.com/ubuntustudio/releases/25.04/release/ubuntustudio-25.04-desktop-amd64.iso) |
 | ubuntustudio | 25.10 |  | [url](https://cdimage.ubuntu.com/ubuntustudio/releases/25.10/release/ubuntustudio-25.10-desktop-amd64.iso) |
 | UbuntuStudio | dvd | is | **ERROR** |
-| vanillaos | 22.10-r8 |  | **ERROR** |
-| vanillaos | 22.10-r7.5 |  | **ERROR** |
-| vanillaos | 22.10-r7 |  | **ERROR** |
-| vanillaos | 22.10-r6 |  | **ERROR** |
-| vanillaos | 22.10-r5 |  | **ERROR** |
-| vanillaos | 22.10-r4 |  | **ERROR** |
-| vanillaos | 22.10-r3 |  | **ERROR** |
-| vanillaos | 22.10-r2 |  | **ERROR** |
-| vanillaos | 22.10-r1 |  | **ERROR** |
-| vanillaos | 22.10 |  | **ERROR** |
-| vanillaos | 2.0 |  | **ERROR** |
+| vanillaos | 22.10-r8 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso) |
+| vanillaos | 22.10-r7.5 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso) |
+| vanillaos | 22.10-r7 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso) |
+| vanillaos | 22.10-r6 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r6/VanillaOS-22.10-all.20230123.iso) |
+| vanillaos | 22.10-r5 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r5/VanillaOS-22.10-all.20230116.iso) |
+| vanillaos | 22.10-r4 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r4/VanillaOS-22.10-all.20230115.iso) |
+| vanillaos | 22.10-r3 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r3/VanillaOS-22.10-all.20230105.iso) |
+| vanillaos | 22.10-r2 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r2/VanillaOS-22.10-all.20221231.iso) |
+| vanillaos | 22.10-r1 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r1/VanillaOS-22.10-all.20221230.iso) |
+| vanillaos | 22.10 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso) |
+| vanillaos | 2.0 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/2.0/VanillaOS-2-stable.20251114.iso) |
 | ventoy | 1.1.10 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.1.10/ventoy-1.1.10-livecd.iso) |
 | ventoy | 1.1.09 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.1.09/ventoy-1.1.09-livecd.iso) |
 | ventoy | 1.1.08 |  | [url](https://github.com/ventoy/Ventoy/releases/download/v1.1.08/ventoy-1.1.08-livecd.iso) |
