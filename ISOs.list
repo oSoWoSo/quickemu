@@ -382,6 +382,7 @@ midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/
 midnightbsd     https://discovery.midnightbsd.org/ftp/releases/amd64/ISO-IMAGES/4.0/MidnightBSD-4.0--amd64-disc1.iso
 minios          https://github.com/minios-linux/minios-live/releases/download/v5.1.0-rc1/minios-trixie-xfce-standard-amd64-5.1.0-rc1.iso
 minios          https://github.com/minios-linux/minios-live/releases/download/v5.1.0/minios-trixie-xfce-standard-amd64-5.1.0.iso
+minios          https://github.com/minios-linux/minios-live/releases/download/v5.1.1/minios-trixie-xfce-standard-amd64-5.1.1.iso
 mint            https://mirror.rackspace.com/linuxmint/iso/debian/lmde-7-cinnamon-64bit.iso
 mint            https://mirror.rackspace.com/linuxmint/iso/testing/linuxmint-22.3-cinnamon-64bit-beta.iso
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.10/MocaccinoOS-GNOME-0.20251001.iso.tar.xz
