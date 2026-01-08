@@ -76,6 +76,7 @@ blendos         https://mirrors.de.sahilister.net/blendos/blendOS.iso
 bluefin         https://download.projectbluefin.io/bluefin-stable-x86_64.iso
 blueonyx        http://mirror.blueonyx.de/pub/BlueOnyx/ISO/BlueOnyx-5212R-AlmaLinux-10.0-20251117.iso
 blueonyx        http://mirror.blueonyx.de/pub/BlueOnyx/ISO/BlueOnyx-5212R-AlmaLinux-10.1-20251127.iso
+blueonyx        http://mirror.blueonyx.de/pub/BlueOnyx/ISO/BlueOnyx-5212R-AlmaLinux-10.1-20260107.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.13.6-3-2025.03.11-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.13.8-1-2025.03.24-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.14.1-1-2025.04.09-x86_64.iso
@@ -410,6 +411,7 @@ obarun          https://cloud.server.obarun.org/iso/2025.11.16/obarun-JWM-2025.1
 obsidianos      https://files.obsidianos.xyz/latestKDE.iso
 omarchy         https://iso.omarchy.org/omarchy-3.1.0.iso
 omarchy         https://iso.omarchy.org/omarchy-3.1.5.iso
+omarchy         https://iso.omarchy.org/omarchy-3.3.0.iso
 omegalinux      https://github.com/ohjhas/omega-linux/releases/download/3.3/omegalinux-3.3-seaopen-amd64-alb67q.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.7/amd64/install77.iso
 openbsd         https://cdn.openbsd.org/pub/OpenBSD/7.8/amd64/install78.iso
@@ -608,6 +610,7 @@ ultimate        https://downloads.sourceforge.net/ultimate-arch-developer-2025.0
 ultimate        https://downloads.sourceforge.net/ultimateedition/ultimate-arch-developer-2025.05.17-x86_64-kde_security.iso
 ultimate        https://downloads.sourceforge.net/ultimateedition/ultimate-arch-developer-2025.10.10-x86_64-cinnamon.iso
 ultimate        https://downloads.sourceforge.net/ultimateedition/ultimate-arch-developer-2025.12.28-x86_64-kde.iso
+ultimate        https://downloads.sourceforge.net/ultimateedition/ultimate-arch-developer-2026.01.07-x86_64-kde.iso
 ultimate        https://downloads.sourceforge.net/ultimateedition/ultimate-arch-lite-2025.04.08-x86_64-xfce.iso
 ultramarine     https://images.fyralabs.com/isos/ultramarine/41/ultramarine-flagship-41-live-anaconda-x86_64.iso
 ultramarine     https://images.fyralabs.com/isos/ultramarine/42/ultramarine-flagship-42-live-anaconda-x86_64.iso
