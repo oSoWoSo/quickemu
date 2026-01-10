@@ -435,9 +435,9 @@ function specific_tweaks() {
 
 biglinux
 
-biglinux 2026-01-03 k617:            https://iso.biglinux.com.br/biglinux_2026-01-03_k617.iso
-biglinux 2026-01-03 k612:            https://iso.biglinux.com.br/biglinux_2026-01-03_k612.iso
-biglinux 2026-01-03 k66:             https://iso.biglinux.com.br/biglinux_2026-01-03_k66.iso
+biglinux 2026-01-10 k618:            https://iso.biglinux.com.br/biglinux_2026-01-10_k618.iso
+biglinux 2026-01-10 k612:            https://iso.biglinux.com.br/biglinux_2026-01-10_k612.iso
+biglinux 2026-01-10 k66:             https://iso.biglinux.com.br/biglinux_2026-01-10_k66.iso
 
 # Template file for 'biglinux'
 OSNAME="biglinux"
@@ -448,8 +448,8 @@ HOMEPAGE="https://www.biglinux.com.br"
 CREDENTIALS="-"
 
 
-RELEASES="2026-01-03"
-EDITIONS="k66 k617 k612"
+RELEASES="2026-01-10"
+EDITIONS="k66 k618 k612"
 
 function get_() {
     local HASH=""
@@ -1031,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2ODAxMDcyOAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2ODAxMDcyOAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2ODAxMDcyOAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2ODAyNzE0OQo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2ODAyNzE0OQo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2ODAyNzE0OQo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1931,7 +1931,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/25.12/linux61/mabox-linux-25.12-Istredd-251216-linux61.iso
+maboxlinux latest:                   https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.12/linux61/mabox-linux-25.12-Istredd-251216-linux61.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2892,7 +2892,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://gigenet.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
