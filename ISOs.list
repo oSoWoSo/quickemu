@@ -41,6 +41,7 @@ arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2
 arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2025.12.01-x86_64.iso
 arch            https://mirrors.edge.kernel.org/archlinux/iso/latest/archlinux-2026.01.01-x86_64.iso
 archbang        https://downloads.sourceforge.net/archbang/archbang-0904-x86_64.iso
+archbang        https://sourceforge.net/projects/archbang/files/ArchBANG/archbang-1001.iso
 archcraft       https://downloads.sourceforge.net/archcraft/archcraft-2025.04.24-x86_64.iso
 archcraft       https://downloads.sourceforge.net/archcraft/archcraft-2025.10.16-x86_64.iso
 archman         https://downloads.sourceforge.net/archman-os/Archman_Xfce-20251008.iso
