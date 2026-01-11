@@ -143,7 +143,9 @@ d77void         https://downloads.sourceforge.net/d77void/d77void-live-x86_64-20
 debian          https://cdimage.debian.org/debian-cd/13.2.0/amd64/iso-dvd/debian-13.2.0-amd64-DVD-1.iso
 debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.10.0-amd64-DVD-1.iso
 debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.11.0-amd64-DVD-1.iso
+debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-13.3.0-amd64-DVD-1.iso
 debianedu       https://cdimage.debian.org/debian-cd/13.2.0/amd64/iso-bd/debian-edu-13.2.0-amd64-BD-1.iso
+debianedu       https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-13.3.0-amd64-BD-1.iso
 deepin          http://ftp.snt.utwente.nl/pub/os/linux/deepin-cd/25-alpha/amd64/deepin-desktop-community-25-alpha-amd64.iso
 deepin          https://ftp.gwdg.de/pub/linux/linuxdeepin/releases/23.1/amd64/deepin-desktop-community-23.1-amd64.iso
 desert          https://downloads.sourceforge.net/desert-os-linux/DESERT_4.5_RU_amd64.iso
