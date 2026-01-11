@@ -7,7 +7,7 @@ HOMEPAGE="https://www.debian.org"
 CREDENTIALS="-"
 
 
-RELEASES="13.2.0 12.12.0 11.11.0"
+RELEASES="13.3.0 12.13.0 11.11.0"
 EDITIONS="xfce standard netinst mate lxqt lxde kde gnome cinnamon"
 
 function get_() {
