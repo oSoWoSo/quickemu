@@ -90,6 +90,7 @@ bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.17.3-1-20
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.17.8-6-2025.11.23-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.17.9-2-2025.11.25-x86_64.iso
 bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.18.1-2-2025.12.18-x86_64.iso
+bluestar        https://downloads.sourceforge.net/bluestarlinux/bslx-6.18.4-1-2026.01.10-x86_64.iso
 brgv            https://downloads.sourceforge.net/brgv-os/BRGV-OS_gnome_en_US.UTF-8_x86_64_20122025_112057.iso
 bros            https://downloads.sourceforge.net/bros/BrOS-13.1.1_amd64_hybrid.iso
 bros            https://downloads.sourceforge.net/bros/BrOS-13.2_amd64.hybrid.iso
@@ -657,6 +658,7 @@ voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-alpha3-amd64.iso
 vyos            https://community-downloads.vyos.dev/stream/2025.11/vyos-2025.11-generic-amd64.iso
 wmlive          https://downloads.sourceforge.net/wmlive/wmlive-trixie_13.2-i386.iso
+wmlive          https://downloads.sourceforge.net/wmlive/wmlive-trixie_13.3-amd64.iso
 xcpng           https://updates.xcp-ng.org/isos/8.3/xcp-ng-8.3.0-20250606.2.iso
 xigmanas        https://sourceforge.net/projects/xigmanas/files/XigmaNAS-14.3.0.5/14.3.0.5.10483/XigmaNAS-x64-LiveCD-14.3.0.5.10483.iso/download
 xivastudio      https://iso.biglinux.com.br/xivastudio_2025-10-06_xanmodlts612.iso
