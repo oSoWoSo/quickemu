@@ -541,11 +541,13 @@ sparky          https://downloads.sourceforge.net/sparkylinux/sparkylinux-8.1-x8
 spirit          https://downloads.sourceforge.net/spirit-os/spiritOS-16.2.iso
 startos         https://github.com/Start9Labs/start-os/releases/download/v0.4.0-alpha.12/startos-0.4.0-alpha.12-9f8a0e8.dev_x86_64.iso
 stormos         https://downloads.sourceforge.net/hackman-linux/StormOS_Phobos-January%20Point%201-x86_64.iso
+stormos         https://sourceforge.net/projects/hackman-linux/files/2026/xfce/StormOS_Oblivion-January-Point%202-x86_64.iso
 stratos         https://downloads.stratos-linux.org/gnome-iso/StratOS-2025.12.07-x86_64.iso
 synex           https://downloads.sourceforge.net/synex/synex-gnome-13.1-amd64.hybrid.iso
 synex           https://downloads.sourceforge.net/synex/synex-lxde-13-u3-amd64.hybrid.iso
 synex           https://downloads.sourceforge.net/synex/synex-server-13-amd64.hybrid.iso
 synex           https://downloads.sourceforge.net/synex/synex-xfce-13-u2-amd64.hybrid.iso
+synex           https://sourceforge.net/projects/synex/files/Stable/KDE/synex-kde-13-u4-amd64.hybrid.iso
 syslinuxos      https://downloads.sourceforge.net/syslinuxos/SysLinuxOS-13-Mate_amd64.iso
 systemrescue    https://downloads.sourceforge.net/systemrescuecd/systemrescue-12.00-amd64.iso
 systemrescue    https://downloads.sourceforge.net/systemrescuecd/systemrescue-12.03-amd64.iso
