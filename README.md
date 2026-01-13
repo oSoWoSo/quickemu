@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso |
 | antix | 21 | base-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso |
 | antix | 21 | full-runit | https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso |
-| archcraft | latest |  | https://netactuate.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso |
+| archcraft | latest |  | https://psychz.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso |
 | archlinux | latest |  | https://mirror.rackspace.com/archlinux/iso/2026.01.01/archlinux-2026.01.01-x86_64.iso |
 | artixlinux | 20250407 | base-dinit | https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso |
 | artixlinux | 20250407 | base-openrc | https://iso.artixlinux.org/iso/artix-base-openrc-20250407-x86_64.iso |
@@ -207,9 +207,9 @@
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | 25.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2ODI0MzI5Mwo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2ODI0MzI5Mwo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2ODI0MzI5Mwo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2ODI3MDAyNQo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2ODI3MDAyNQo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2ODI3MDAyNQo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -297,7 +297,7 @@
 | kali | current |  | https://cdimage.kali.org/current/kali-linux-2025.4-installer-amd64.iso |
 | kali | kali-weekly |  | https://cdimage.kali.org/kali-weekly/kali-linux-2026-W02-installer-amd64.iso |
 | kdeneon | user |  | https://files.kde.org/neon/images/user/current/neon-user-20260108-1321.iso |
-| kdeneon | testing |  | https://files.kde.org/neon/images/testing/current/neon-testing-20260106-0440.iso |
+| kdeneon | testing |  | https://files.kde.org/neon/images/testing/current/neon-testing-20260113-0033.iso |
 | kdeneon | unstable |  | https://files.kde.org/neon/images/unstable/current/neon-unstable-20260111-1146.iso |
 | kdeneon | developer |  | https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250901-0038.iso |
 | kodachi | latest |  | https://sourceforge.net/projects/linuxkodachi/files/linux-kodachi-terminal-9.0.1-amd64.iso |
@@ -353,7 +353,7 @@
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | 25.10 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/resolute-desktop-amd64.iso |
-| maboxlinux | latest |  | https://pilotfiber.dl.sourceforge.net/project/mabox-linux/25.12/linux61/mabox-linux-25.12-Istredd-251216-linux61.iso |
+| maboxlinux | latest |  | https://phoenixnap.dl.sourceforge.net/project/mabox-linux/25.12/linux61/mabox-linux-25.12-Istredd-251216-linux61.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
@@ -495,7 +495,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://cytranet-dal.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/ |
@@ -516,6 +516,11 @@
 | slax | latest | debian | https://ftp.fi.muni.cz/pub/linux/slax/Slax-12.x/slax-64bit-debian-12.2.0.iso |
 | slax | latest | slackware | https://ftp.fi.muni.cz/pub/linux/slax/Slax-15.x/slax-64bit-slackware-15.0.4.iso |
 | slint | 15.0-5 |  | https://slackware.uk/slint/x86_64/slint-15.0/iso/slint64-15.0-5.iso |
+| slitaz | core |  | http://mirror.slitaz.org/iso/rolling/slitaz-rolling-core.iso |
+| slitaz | core-5in1 |  | http://mirror.slitaz.org/iso/rolling/slitaz-rolling-core-5in1.iso |
+| slitaz | core64 |  | http://mirror.slitaz.org/iso/rolling/slitaz-rolling-core64.iso |
+| slitaz | loram |  | http://mirror.slitaz.org/iso/rolling/slitaz-rolling-loram.iso |
+| slitaz | preinit |  | http://mirror.slitaz.org/iso/rolling/slitaz-rolling-preinit.iso |
 | solus | 2024-10-14 | Budgie | https://downloads.getsol.us/isos/2024-10-14/Solus-Budgie-Release-2024-10-14.iso |
 | solus | 2024-10-14 | GNOME | https://downloads.getsol.us/isos/2024-10-14/Solus-GNOME-Release-2024-10-14.iso |
 | solus | 2024-10-14 | Plasma | https://downloads.getsol.us/isos/2024-10-14/Solus-Plasma-Release-2024-10-14.iso |
