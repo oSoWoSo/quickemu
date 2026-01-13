@@ -95,6 +95,7 @@ brgv            https://downloads.sourceforge.net/brgv-os/BRGV-OS_gnome_en_US.UT
 bros            https://downloads.sourceforge.net/bros/BrOS-13.1.1_amd64_hybrid.iso
 bros            https://downloads.sourceforge.net/bros/BrOS-13.2_amd64.hybrid.iso
 bros            https://sourceforge.net/projects/bros/files/BrOS-13.3_amd64.hybrid.iso
+bunsenlabs      https://sourceforge.net/projects/bunsenlabs-releases/files/isos/carbon-rc2-260111-amd64.hybrid.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250330.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-250422.iso
 cachyos         https://downloads.sourceforge.net/cachyos-arch/cachyos-desktop-linux-251129.iso
@@ -452,6 +453,7 @@ parrot          https://download.parrot.sh/parrot/iso/7.0/Parrot-security-7.0_am
 pclinuxos       https://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/iso/pclinuxos64-kde-2025.09.iso
 pearl           https://downloads.sourceforge.net/pearlos/pearl-13-PDE-desktop.iso
 pearos          https://eu-east-cdn.pearos.xyz/pearOS-NiceC0re-2025.12-x86_64.iso
+pelandukos      https://tunnelbiz.com/pelandukos/download/pelandukosv2-amd64-gnome-2026.01.12.iso
 pentoo          https://www.pentoo.ch/isos/Release/Pentoo_Full_amd64_hardened/pentoo-full-amd64-hardened-2026.0_p20260108.iso
 peppermint      https://downloads.sourceforge.net/peppermintos/PeppermintOS-Debian-64.iso
 peropesis       https://peropesis.org/peropesis/Peropesis-2.9-live.iso
@@ -489,6 +491,7 @@ q4os            https://downloads.sourceforge.net/q4os/q4os-6.1-x64-tde.r1.1-tes
 q4os            https://downloads.sourceforge.net/q4os/q4os-6.2-x64-tde.r1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-6.3-x64.r1.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-6.4-x64.r1.iso
+q4os            https://downloads.sourceforge.net/q4os/q4os-6.5-x64.r2.iso
 q4os            https://downloads.sourceforge.net/q4os/q4os-7.0-x64-plasma.r1-testing.iso
 quarkos         https://downloads.sourceforge.net/quark-os/quarkos-24.04-x64.r4.iso
 qubes           https://ftp.qubes-os.org/iso/Qubes-R4.3.0-rc2-x86_64.iso
