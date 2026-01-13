@@ -395,6 +395,7 @@ minios          https://github.com/minios-linux/minios-live/releases/download/v5
 minios          https://github.com/minios-linux/minios-live/releases/download/v5.1.1/minios-trixie-xfce-standard-amd64-5.1.1.iso
 mint            https://mirror.rackspace.com/linuxmint/iso/debian/lmde-7-cinnamon-64bit.iso
 mint            https://mirror.rackspace.com/linuxmint/iso/testing/linuxmint-22.3-cinnamon-64bit-beta.iso
+mint            https://mirrors.usinternet.com/mint/images/linuxmint.com/stable/22.3/linuxmint-22.3-cinnamon-64bit.iso
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.10/MocaccinoOS-GNOME-0.20251001.iso.tar.xz
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.11/MocaccinoOS-MATE-0.20251101.iso.tar.xz
 mocaccinoos     https://github.com/mocaccinoOS/mocaccino/releases/download/v25.12/MocaccinoOS-XFCE-0.20251215.iso.tar.xz
