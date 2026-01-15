@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://gigenet.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
+archcraft latest:                    https://cfhcable.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -1031,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2ODQ4MTkwOAo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2ODQ4MTkwOAo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2ODQ4MTkwOAo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2ODUwMjcwOAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2ODUwMjcwOAo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2ODUwMjcwOAo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1065,8 +1065,8 @@ endeavouros
 endeavouros mercury-neo-2025.03.19:  https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso
 endeavouros mercury-2025.02.08:      https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso
 endeavouros gemini-2024.04.20:       https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso
+endeavouros ganymede-neo-2026.01.12: https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Ganymede-Neo-2026.01.12.iso
 endeavouros ganymede-2025.11.24:     https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Ganymede-2025.11.24.iso
-endeavouros galileo-neo-2024.01.25:  https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Galileo-Neo-2024.01.25.iso
 
 # Template file for 'endeavouros'
 OSNAME="endeavouros"
@@ -1077,7 +1077,7 @@ HOMEPAGE="https://endeavouros.com"
 CREDENTIALS="-"
 
 
-RELEASES="mercury-neo-2025.03.19 mercury-2025.02.08 gemini-2024.04.20 ganymede-2025.11.24 galileo-neo-2024.01.25"
+RELEASES="mercury-neo-2025.03.19 mercury-2025.02.08 gemini-2024.04.20 ganymede-neo-2026.01.12 ganymede-2025.11.24"
 
 
 function get_() {
@@ -1382,7 +1382,7 @@ function get_() {
 
 gnomeos
 
-gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/978371/gnome_os_978371-x86_64.iso
+gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/978912/gnome_os_978912-x86_64.iso
 gnomeos 49.rc:                       https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso
 gnomeos 49.beta:                     https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso
 gnomeos 49.alpha.1:                  https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso
@@ -1540,7 +1540,7 @@ function specific_tweaks() {
 
 kdeneon
 
-kdeneon user:                        https://files.kde.org/neon/images/user/current/neon-user-20260115-0745.iso
+kdeneon user:                        https://files.kde.org/neon/images/user/current/neon-user-20260115-1320.iso
 kdeneon testing:                     https://files.kde.org/neon/images/testing/current/neon-testing-20260113-0432.iso
 kdeneon unstable:                    https://files.kde.org/neon/images/unstable/current/neon-unstable-20260111-1146.iso
 kdeneon developer:                   https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250901-0038.iso
@@ -1648,13 +1648,6 @@ function specific_tweaks() {
 
 kubuntu
 
-kubuntu 16.04:                       https://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04.6-desktop-amd64.iso
-kubuntu 18.04:                       https://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.5-desktop-amd64.iso
-kubuntu 20.04:                       https://cdimage.ubuntu.com/kubuntu/releases/20.04/release/kubuntu-20.04.6-desktop-amd64.iso
-kubuntu 22.04:                       https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04.5-desktop-amd64.iso
-kubuntu 24.04:                       https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04.3-desktop-amd64.iso
-kubuntu 25.04:                       https://cdimage.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso
-kubuntu 25.10:                       https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso
 kubuntu daily-live:                  https://cdimage.ubuntu.com/kubuntu/daily-live/current/resolute-desktop-amd64.iso
 
 # Template file for 'kubuntu'
@@ -1931,7 +1924,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://netactuate.dl.sourceforge.net/project/mabox-linux/26.01/linux66/mabox-linux-26.01-Istredd-260114-linux66.iso
+maboxlinux latest:                   https://sitsa.dl.sourceforge.net/project/mabox-linux/26.01/linux66/mabox-linux-26.01-Istredd-260114-linux66.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2892,7 +2885,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://phoenixnap.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://cfhcable.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
@@ -3604,13 +3597,6 @@ ubuntu-kylin
 
 ubuntu-mate
 
-ubuntu-mate 16.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04.6-desktop-amd64.iso
-ubuntu-mate 18.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-amd64.iso
-ubuntu-mate 20.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.6-desktop-amd64.iso
-ubuntu-mate 22.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.5-desktop-amd64.iso
-ubuntu-mate 24.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.3-desktop-amd64.iso
-ubuntu-mate 25.04:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso
-ubuntu-mate 25.10:                   https://cdimage.ubuntu.com/ubuntu-mate/releases/25.10/release/ubuntu-mate-25.10-desktop-amd64.iso
 ubuntu-mate daily-live:              https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/resolute-desktop-amd64.iso
 
 # Template file for 'ubuntu-mate'
@@ -3751,9 +3737,6 @@ function specific_tweaks() {
 
 ubuntu-unity
 
-ubuntu-unity 24.04:                  https://cdimage.ubuntu.com/ubuntu-unity/releases/24.04/release/ubuntu-unity-24.04.3-desktop-amd64.iso
-ubuntu-unity 25.04:                  https://cdimage.ubuntu.com/ubuntu-unity/releases/25.04/release/ubuntu-unity-25.04-desktop-amd64.iso
-Ubuntu Unity 25.10 is currently unavailable. Please select other OS/Release combination
 ubuntu-unity daily-live:             https://cdimage.ubuntu.com/ubuntu-unity/daily-live/current/resolute-desktop-amd64.iso
 
 # Template file for 'ubuntu-unity'
@@ -3823,14 +3806,6 @@ function get_() {
 
 ubuntu
 
-ubuntu 14.04:                        https://releases.ubuntu.com/14.04/ubuntu-14.04.6-desktop-amd64.iso
-ubuntu 16.04:                        https://releases.ubuntu.com/16.04/ubuntu-16.04.7-desktop-amd64.iso
-ubuntu 18.04:                        https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso
-ubuntu 20.04:                        https://releases.ubuntu.com/20.04/ubuntu-20.04.6-desktop-amd64.iso
-ubuntu 22.04:                        https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso
-ubuntu 24.04:                        https://releases.ubuntu.com/24.04/ubuntu-24.04.2-desktop-amd64.iso
-ubuntu 25.04:                        https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
-ubuntu 25.10:                        https://releases.ubuntu.com/25.10/ubuntu-25.10-desktop-amd64.iso
 ubuntu daily-live:                   https://cdimage.ubuntu.com/ubuntu/daily-live/current/resolute-desktop-amd64.iso
 
 # Template file for 'ubuntu'
@@ -3899,13 +3874,6 @@ function get_() {
 
 ubuntustudio
 
-ubuntustudio 16.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/ubuntustudio-16.04.5-dvd-amd64.iso
-ubuntustudio 18.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-amd64.iso
-ubuntustudio 20.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/20.04/release/ubuntustudio-20.04.5-dvd-amd64.iso
-ubuntustudio 22.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04.5-dvd-amd64.iso
-ubuntustudio 24.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/release/ubuntustudio-24.04.3-dvd-amd64.iso
-ubuntustudio 25.04:                  https://cdimage.ubuntu.com/ubuntustudio/releases/25.04/release/ubuntustudio-25.04-desktop-amd64.iso
-ubuntustudio 25.10:                  https://cdimage.ubuntu.com/ubuntustudio/releases/25.10/release/ubuntustudio-25.10-desktop-amd64.iso
 UbuntuStudio dvd is currently unavailable. Please select other OS/Release combination
 
 # Template file for 'ubuntustudio'
@@ -4186,13 +4154,6 @@ RELEASES=""
 
 xubuntu
 
-xubuntu 16.04:                       https://cdimage.ubuntu.com/xubuntu/releases/16.04/release/xubuntu-16.04.6-desktop-amd64.iso
-xubuntu 18.04:                       https://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.5-desktop-amd64.iso
-xubuntu 20.04:                       https://cdimage.ubuntu.com/xubuntu/releases/20.04/release/xubuntu-20.04.6-desktop-amd64.iso
-xubuntu 22.04:                       https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.5-desktop-amd64.iso
-xubuntu 24.04:                       https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.3-desktop-amd64.iso
-xubuntu 25.04:                       https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso
-xubuntu 25.10:                       https://cdimage.ubuntu.com/xubuntu/releases/25.10/release/xubuntu-25.10-desktop-amd64.iso
 xubuntu daily-live:                  https://cdimage.ubuntu.com/xubuntu/daily-live/current/resolute-desktop-amd64.iso
 
 # Template file for 'xubuntu'

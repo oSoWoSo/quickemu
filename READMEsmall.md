@@ -69,7 +69,7 @@
 | antix | 21 | core-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-core.iso) |
 | antix | 21 | base-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-base.iso) |
 | antix | 21 | full-runit | [url](https://sourceforge.net/projects/antix-linux/files/Final/antiX-21/runit-bullseye/antiX-21-runit_x64-full.iso) |
-| archcraft | latest |  | [url](https://gigenet.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
+| archcraft | latest |  | [url](https://cfhcable.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso) |
 | archlinux | latest |  | [url](https://mirror.rackspace.com/archlinux/iso/2026.01.01/archlinux-2026.01.01-x86_64.iso) |
 |  |  |  | **ERROR** |
 | artixlinux | 20250407 | base-dinit | [url](https://iso.artixlinux.org/iso/artix-base-dinit-20250407-x86_64.iso) |
@@ -208,14 +208,14 @@
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2ODQ4MTkwOAo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2ODQ4MTkwOAo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2ODQ4MTkwOAo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2ODUwMjcwOAo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2ODUwMjcwOAo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2ODUwMjcwOAo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
+| endeavouros | ganymede-neo-2026.01.12 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Ganymede-Neo-2026.01.12.iso) |
 | endeavouros | ganymede-2025.11.24 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Ganymede-2025.11.24.iso) |
-| endeavouros | galileo-neo-2024.01.25 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Galileo-Neo-2024.01.25.iso) |
 | endless | 6.0.4 | base | [url](https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/base/eos-eos6.0-amd64-amd64.241023-183516.base.iso) |
 | endless | 6.0.4 | en | [url](https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/en/eos-eos6.0-amd64-amd64.241023-200926.en.iso) |
 | endless | 6.0.4 | fr | [url](https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/fr/eos-eos6.0-amd64-amd64.241023-191212.fr.iso) |
@@ -251,7 +251,7 @@
 | ghostbsd | 25.01-R14.2p1 | xfce | [url](https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso) |
 | ghostbsd | 24.10.1 | mate | [url](https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1.iso) |
 | ghostbsd | 24.10.1 | xfce | [url](https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso) |
-| gnomeos | nightly |  | [url](https://1270333429.rsc.cdn77.org/nightly/978371/gnome_os_978371-x86_64.iso) |
+| gnomeos | nightly |  | [url](https://1270333429.rsc.cdn77.org/nightly/978912/gnome_os_978912-x86_64.iso) |
 | gnomeos | 49.rc |  | [url](https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso) |
 | gnomeos | 49.beta |  | [url](https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso) |
 | gnomeos | 49.alpha.1 |  | [url](https://download.gnome.org/gnomeos/49.alpha.1/gnome_os_installer_49.alpha.1.iso) |
@@ -297,7 +297,7 @@
 | haiku | r1beta3 | x86_gcc2h | [url](http://mirror.rit.edu/haiku/r1beta3/haiku-r1beta3-x86_gcc2h-anyboot.iso) |
 | kali | current |  | [url](https://cdimage.kali.org/current/kali-linux-2025.4-installer-amd64.iso) |
 | kali | kali-weekly |  | [url](https://cdimage.kali.org/kali-weekly/kali-linux-2026-W02-installer-amd64.iso) |
-| kdeneon | user |  | [url](https://files.kde.org/neon/images/user/current/neon-user-20260115-0745.iso) |
+| kdeneon | user |  | [url](https://files.kde.org/neon/images/user/current/neon-user-20260115-1320.iso) |
 | kdeneon | testing |  | [url](https://files.kde.org/neon/images/testing/current/neon-testing-20260113-0432.iso) |
 | kdeneon | unstable |  | [url](https://files.kde.org/neon/images/unstable/current/neon-unstable-20260111-1146.iso) |
 | kdeneon | developer |  | [url](https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250901-0038.iso) |
@@ -306,13 +306,6 @@
 | kolibrios | latest | ru_RU | [url](http://builds.kolibrios.org/ru_RU/latest-iso.7z) |
 | kolibrios | latest | it_IT | [url](http://builds.kolibrios.org/it_IT/kolibrios-0.7.7.0%2B8797-9f5dd6c-iso.7z) |
 | kolibrios | latest | es_ES | [url](http://builds.kolibrios.org/es_ES/latest-iso.7z) |
-| kubuntu | 16.04 |  | [url](https://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04.6-desktop-amd64.iso) |
-| kubuntu | 18.04 |  | [url](https://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.5-desktop-amd64.iso) |
-| kubuntu | 20.04 |  | [url](https://cdimage.ubuntu.com/kubuntu/releases/20.04/release/kubuntu-20.04.6-desktop-amd64.iso) |
-| kubuntu | 22.04 |  | [url](https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04.5-desktop-amd64.iso) |
-| kubuntu | 24.04 |  | [url](https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04.3-desktop-amd64.iso) |
-| kubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso) |
-| kubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso) |
 | kubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/kubuntu/daily-live/current/resolute-desktop-amd64.iso) |
 | linuxlite | 6.6 |  | [url](https://sourceforge.net/projects/linux-lite/files/6.6/linux-lite-6.6-64bit.iso) |
 | linuxlite | 6.4 |  | [url](https://sourceforge.net/projects/linux-lite/files/6.4/linux-lite-6.4-64bit.iso) |
@@ -354,7 +347,7 @@
 | lubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso) |
 | lubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso) |
 | lubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/lubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| maboxlinux | latest |  | [url](https://netactuate.dl.sourceforge.net/project/mabox-linux/26.01/linux66/mabox-linux-26.01-Istredd-260114-linux66.iso) |
+| maboxlinux | latest |  | [url](https://sitsa.dl.sourceforge.net/project/mabox-linux/26.01/linux66/mabox-linux-26.01-Istredd-260114-linux66.iso) |
 | macos | mojave |  | [url](http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg) |
 | macos | catalina |  | [url](http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg) |
 | macos | big-sur |  | [url](http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg) |
@@ -496,7 +489,7 @@
 | proxmox-ve | 5.4-1 |  | [url](https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso) |
 | pureos | 10.3 | gnome | [url](https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso) |
 | pureos | 10.3 | plasma | [url](https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso) |
-| reactos | latest |  | [url](https://phoenixnap.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
+| reactos | latest |  | [url](https://cfhcable.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
 | rebornos | latest |  | **ERROR** |
 | redox-os | livedisk | demo | [url](https://static.redox-os.org/img/x86_64/) |
 | redox-os | livedisk | desktop | [url](https://static.redox-os.org/img/x86_64/) |
@@ -581,13 +574,6 @@
 | ubuntu-budgie | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/resolute-desktop-amd64.iso) |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
-| ubuntu-mate | 16.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04.6-desktop-amd64.iso) |
-| ubuntu-mate | 18.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-amd64.iso) |
-| ubuntu-mate | 20.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.6-desktop-amd64.iso) |
-| ubuntu-mate | 22.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.5-desktop-amd64.iso) |
-| ubuntu-mate | 24.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.3-desktop-amd64.iso) |
-| ubuntu-mate | 25.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso) |
-| ubuntu-mate | 25.10 |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/releases/25.10/release/ubuntu-mate-25.10-desktop-amd64.iso) |
 | ubuntu-mate | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/resolute-desktop-amd64.iso) |
 | ubuntu-server | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/resolute-live-server-amd64.iso) |
 | ubuntu-server | 25.10 |  | [url](https://releases.ubuntu.com/25.10/ubuntu-25.10-live-server-amd64.iso) |
@@ -599,26 +585,8 @@
 | ubuntu-server | 18.04 |  | [url](https://releases.ubuntu.com/18.04/ubuntu-18.04.6-live-server-amd64.iso) |
 | ubuntu-server | 16.04 |  | [url](https://releases.ubuntu.com/16.04/ubuntu-16.04.7-server-amd64.iso) |
 | ubuntu-server | 14.04 |  | [url](https://releases.ubuntu.com/14.04/ubuntu-14.04.6-server-amd64.iso) |
-| ubuntu-unity | 24.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-unity/releases/24.04/release/ubuntu-unity-24.04.3-desktop-amd64.iso) |
-| ubuntu-unity | 25.04 |  | [url](https://cdimage.ubuntu.com/ubuntu-unity/releases/25.04/release/ubuntu-unity-25.04-desktop-amd64.iso) |
-| Ubuntu | Unity | 25.10 | **ERROR** |
 | ubuntu-unity | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu-unity/daily-live/current/resolute-desktop-amd64.iso) |
-| ubuntu | 14.04 |  | [url](https://releases.ubuntu.com/14.04/ubuntu-14.04.6-desktop-amd64.iso) |
-| ubuntu | 16.04 |  | [url](https://releases.ubuntu.com/16.04/ubuntu-16.04.7-desktop-amd64.iso) |
-| ubuntu | 18.04 |  | [url](https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso) |
-| ubuntu | 20.04 |  | [url](https://releases.ubuntu.com/20.04/ubuntu-20.04.6-desktop-amd64.iso) |
-| ubuntu | 22.04 |  | [url](https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso) |
-| ubuntu | 24.04 |  | [url](https://releases.ubuntu.com/24.04/ubuntu-24.04.2-desktop-amd64.iso) |
-| ubuntu | 25.04 |  | [url](https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso) |
-| ubuntu | 25.10 |  | [url](https://releases.ubuntu.com/25.10/ubuntu-25.10-desktop-amd64.iso) |
 | ubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/ubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| ubuntustudio | 16.04 |  | [url](https://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/ubuntustudio-16.04.5-dvd-amd64.iso) |
-| ubuntustudio | 18.04 |  | [url](https://cdimage.ubuntu.com/ubuntustudio/releases/18.04/release/ubuntustudio-18.04-dvd-amd64.iso) |
-| ubuntustudio | 20.04 |  | [url](https://cdimage.ubuntu.com/ubuntustudio/releases/20.04/release/ubuntustudio-20.04.5-dvd-amd64.iso) |
-| ubuntustudio | 22.04 |  | [url](https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04.5-dvd-amd64.iso) |
-| ubuntustudio | 24.04 |  | [url](https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/release/ubuntustudio-24.04.3-dvd-amd64.iso) |
-| ubuntustudio | 25.04 |  | [url](https://cdimage.ubuntu.com/ubuntustudio/releases/25.04/release/ubuntustudio-25.04-desktop-amd64.iso) |
-| ubuntustudio | 25.10 |  | [url](https://cdimage.ubuntu.com/ubuntustudio/releases/25.10/release/ubuntustudio-25.10-desktop-amd64.iso) |
 | UbuntuStudio | dvd | is | **ERROR** |
 | vanillaos | 22.10-r8 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r8/VanillaOS-22.10-all.20230226.iso) |
 | vanillaos | 22.10-r7.5 |  | [url](https://github.com/Vanilla-OS/live-iso/releases/download/22.10-r7.5/VanillaOS-22.10-all.20230214.iso) |
@@ -657,12 +625,5 @@
 | vxlinux | 4.2 |  | [url](https://mega.nz/folder/SxwFTCTZ#s_qwDWrSWr7ZSTBVJC9Q_g/file/vx-4.2.iso) |
 |  |  |  | **ERROR** |
 |  |  |  | **ERROR** |
-| xubuntu | 16.04 |  | [url](https://cdimage.ubuntu.com/xubuntu/releases/16.04/release/xubuntu-16.04.6-desktop-amd64.iso) |
-| xubuntu | 18.04 |  | [url](https://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.5-desktop-amd64.iso) |
-| xubuntu | 20.04 |  | [url](https://cdimage.ubuntu.com/xubuntu/releases/20.04/release/xubuntu-20.04.6-desktop-amd64.iso) |
-| xubuntu | 22.04 |  | [url](https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.5-desktop-amd64.iso) |
-| xubuntu | 24.04 |  | [url](https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.3-desktop-amd64.iso) |
-| xubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso) |
-| xubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/xubuntu/releases/25.10/release/xubuntu-25.10-desktop-amd64.iso) |
 | xubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/xubuntu/daily-live/current/resolute-desktop-amd64.iso) |
 

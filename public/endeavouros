@@ -7,7 +7,7 @@ HOMEPAGE="https://endeavouros.com"
 CREDENTIALS="-"
 
 
-RELEASES="mercury-neo-2025.03.19 mercury-2025.02.08 gemini-2024.04.20 ganymede-2025.11.24 galileo-neo-2024.01.25"
+RELEASES="mercury-neo-2025.03.19 mercury-2025.02.08 gemini-2024.04.20 ganymede-neo-2026.01.12 ganymede-2025.11.24"
 
 
 function get_() {
