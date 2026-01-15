@@ -127,6 +127,7 @@ centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251215.0-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20251223.1-x86_64-dvd1.iso
 centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20260105.0-x86_64-dvd1.iso
+centos          https://linuxsoft.cern.ch/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-20260113.0-x86_64-dvd1.iso
 chimera         https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20250420-gnome.iso
 chimera         https://repo.chimera-linux.org/live/latest/chimera-linux-x86_64-LIVE-20251220-plasma.iso
 clear           https://cdn.download.clearlinux.org/releases/43300/clear/clear-43300-live-desktop.iso
@@ -361,6 +362,7 @@ lubuntu         https://cdimages.ubuntu.com/lubuntu/releases/25.04/release/lubun
 mabox           https://downloads.sourceforge.net/mabox-linux/mabox-linux-25.03-Istredd-250331-linux612.iso
 mabox           https://downloads.sourceforge.net/mabox-linux/mabox-linux-25.04-Istredd-250430-linux612.iso
 mabox           https://downloads.sourceforge.net/mabox-linux/mabox-linux-25.12-Istredd-251216-linux612.iso
+mabox           https://sourceforge.net/projects/mabox-linux/files/26.01/mabox-linux-26.01-Istredd-260114-linux618.iso
 macaroni        https://macaronios.mirror.garr.it/iso/iso-macaroni-funtoo-live-25.09/Macaroni-Phoenix-Gnome-Live-25.09.iso
 mageia          https://mirrors.kernel.org/mageia/iso/10/Mageia-10-alpha1-Live-Plasma-x86_64/Mageia-10-alpha1-Live-Plasma-x86_64.iso
 magos           http://ftp.magos-linux.ru/iso/MagOS_2021_20250926.iso
