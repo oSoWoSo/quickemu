@@ -185,6 +185,7 @@ elysiaos        https://downloads.sourceforge.net/elysiaos/elysiaos-release-2025
 emmabuntus      https://downloads.sourceforge.net/emmabuntus/emmabuntus-de5-amd64-12.10-1.04.iso
 emmabuntus      https://downloads.sourceforge.net/emmabuntus/emmabuntus-de6-amd64-13.2-1.00.iso
 endeavour       https://ftp.belnet.be/mirror/endeavouros/iso/EndeavourOS_Ganymede-2025.11.24.iso
+endeavour       https://ftp.belnet.be/mirror/endeavouros/iso/EndeavourOS_Ganymede-Neo-2026.01.12.iso
 endeavour       https://mirrors.gigenet.com/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso
 endless         https://images-dl.endlessm.com/release/6.0.8/eos-amd64-amd64/base/eos-eos6.0-amd64-amd64.251107-052648.base.iso
 enos            https://downloads.sourceforge.net/en-os/EN-OS-EN-OS%201.0%20Len_region2025.12.31-x86_64.iso
@@ -244,6 +245,7 @@ gabee           https://downloads.sourceforge.net/gabeeoslinux/gabeeOSLinux-Hypr
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-cinnamon-linux-zen-251002.iso
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-dr460nized-linux-zen-250308.iso
 garuda          https://downloads.sourceforge.net/garuda-linux/garuda-mokka-linux-zen-251102.iso
+garuda          https://sourceforge.net/projects/garuda-linux/files/garuda/xfce/260115/garuda-xfce-linux-lts-260115.iso
 gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251116T161545Z/livegui-amd64-20251116T161545Z.iso
 gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251207T170056Z/livegui-amd64-20251207T170056Z.iso
 gentoo          https://distfiles.gentoo.org/releases/amd64/autobuilds/20251221T154556Z/livegui-amd64-20251221T154556Z.iso
