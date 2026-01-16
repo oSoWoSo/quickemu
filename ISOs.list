@@ -55,6 +55,7 @@ artix           https://download.artixlinux.org/iso/artix-xfce-s6-20250310-x86_6
 asmi            https://github.com/teejee2008/asmi-linux/releases/download/v25.10/asmi-linux-25.10-amd64.iso
 athena          https://downloads.sourceforge.net/athena-iso/athenaos-rolling-x86_64.iso
 athena          https://github.com/Athena-OS/athena/releases/download/v25.11/athenaos-live-x86_64.iso
+atz             https://cna.server.tonyha7.com/atzlinux-cd/12.13.1/amd64/iso-dvd/atzlinux-12.13.1-amd64-DVD-1.iso
 aurora          https://dl.getaurora.dev/aurora-stable-x86_64.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.3.iso
 austrumi        https://ftp.linux.edu.lv/austrumi/austrumi64-5.0.4.iso
@@ -676,6 +677,7 @@ voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-25.10-beta
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-alpha-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-alpha2-amd64.iso
 voyager         https://downloads.sourceforge.net/voyagerlive/Voyager-26.04-LTS-alpha3-amd64.iso
+voyager         https://sourceforge.net/projects/voyagerlive/files/Voyager-26.04-LTS-alpha4-amd64.iso
 vyos            https://community-downloads.vyos.dev/stream/2025.11/vyos-2025.11-generic-amd64.iso
 wmlive          https://downloads.sourceforge.net/wmlive/wmlive-trixie_13.2-i386.iso
 wmlive          https://downloads.sourceforge.net/wmlive/wmlive-trixie_13.3-amd64.iso
