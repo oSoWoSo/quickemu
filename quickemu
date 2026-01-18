@@ -1830,7 +1830,7 @@ function fileshare_param_check() {
         fi
 
         if [ ! -d "${PUBLIC}" ]; then
-            echo " - WARNING! Public directory: '${PUBLIC}' doesn't exist!"
+            echo $" - WARNING! Public directory: '${PUBLIC}' doesn't exist!"
             PUBLIC=""
         else
             PUBLIC_TAG="Public-${USER,,}"
