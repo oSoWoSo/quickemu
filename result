@@ -223,7 +223,7 @@ function get_() {
 
 archcraft
 
-archcraft latest:                    https://netactuate.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
+archcraft latest:                    https://cytranet-dal.dl.sourceforge.net/project/archcraft/v25.10/archcraft-2025.10.16-x86_64.iso
 
 # Template file for 'archcraft'
 OSNAME="archcraft"
@@ -435,9 +435,9 @@ function specific_tweaks() {
 
 biglinux
 
-biglinux 2026-01-17 k618:            https://iso.biglinux.com.br/biglinux_2026-01-17_k618.iso
-biglinux 2026-01-17 k612:            https://iso.biglinux.com.br/biglinux_2026-01-17_k612.iso
-biglinux 2026-01-17 k66:             https://iso.biglinux.com.br/biglinux_2026-01-17_k66.iso
+biglinux 2026-01-18 k618:            https://iso.biglinux.com.br/biglinux_2026-01-18_k618.iso
+biglinux 2026-01-18 k612:            https://iso.biglinux.com.br/biglinux_2026-01-18_k612.iso
+biglinux 2026-01-18 k66:             https://iso.biglinux.com.br/biglinux_2026-01-18_k66.iso
 
 # Template file for 'biglinux'
 OSNAME="biglinux"
@@ -448,7 +448,7 @@ HOMEPAGE="https://www.biglinux.com.br"
 CREDENTIALS="-"
 
 
-RELEASES="2026-01-17"
+RELEASES="2026-01-18"
 EDITIONS="k66 k618 k612"
 
 function get_() {
@@ -1031,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2ODcwMzA4MQo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2ODcwMzA4MQo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2ODcwMzA4MQo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2ODcxODM3Mwo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2ODcxODM3Mwo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2ODcxODM3Mwo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1511,7 +1511,7 @@ function specific_tweaks() {
 kali
 
 kali current:                        https://cdimage.kali.org/current/kali-linux-2025.4-installer-amd64.iso
-kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2026-W02-installer-amd64.iso
+kali kali-weekly:                    https://cdimage.kali.org/kali-weekly/kali-linux-2026-W03-installer-amd64.iso
 
 # Template file for 'kali'
 OSNAME="kali"
@@ -1932,7 +1932,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://cytranet-dal.dl.sourceforge.net/project/mabox-linux/26.01/linux66/mabox-linux-26.01-Istredd-260114-linux66.iso
+maboxlinux latest:                   https://netactuate.dl.sourceforge.net/project/mabox-linux/26.01/linux66/mabox-linux-26.01-Istredd-260114-linux66.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2893,7 +2893,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://cfhcable.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"
