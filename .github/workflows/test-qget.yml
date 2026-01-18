@@ -30,7 +30,7 @@ jobs:
       - name: "Check OS downloads 💿️"
         run: |
           mkdir -p results
-          ./qget --test | tee results/check.txt
+          ./qget --check | tee results/check.txt
       - name: "Display results 📊"
         run: |
           WINDOWS=$(grep -c "windows-" results/check.txt || echo 0)
