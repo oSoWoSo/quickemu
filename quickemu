@@ -622,6 +622,12 @@ function configure_ram() {
     fi
 }
 
+function is_firmware_qcow2() {
+    # Check for the magic bytes that indicate the firmware is in qcow2 format,
+    # otherwise default to assuming firmware files are in raw format
+    [ "$(head -c 4 "$1")" = "QFI"$'\xfb' ] && echo "true" || echo "false"
+}
+
 function configure_bios() {
     # Always Boot macOS using EFI
     if [ "${guest_os}" == "macos" ]; then
@@ -688,7 +694,8 @@ function configure_bios() {
                         "${SHARE_PATH}/qemu/ovmf-x86_64-smm-ms-code.bin","${SHARE_PATH}/qemu/ovmf-x86_64-smm-ms-vars.bin" \
                         "${SHARE_PATH}/qemu/edk2-x86_64-secure-code.fd","${SHARE_PATH}/qemu/edk2-x86_64-code.fd" \
                         "${SHARE_PATH}/edk2-ovmf/x64/OVMF_CODE.secboot.fd","${SHARE_PATH}/edk2-ovmf/x64/OVMF_VARS.fd" \
-                        "${SHARE_PATH}/edk2/x64/OVMF_CODE.secboot.4m.fd","${SHARE_PATH}/edk2/x64/OVMF_VARS.4m.fd"
+                        "${SHARE_PATH}/edk2/x64/OVMF_CODE.secboot.4m.fd","${SHARE_PATH}/edk2/x64/OVMF_VARS.4m.fd" \
+                        "${SHARE_PATH}/edk2/ovmf/OVMF_CODE_4M.secboot.qcow2","${SHARE_PATH}/edk2/ovmf/OVMF_VARS_4M.secboot.qcow2"
                     );;
                 *)  # shellcheck disable=SC2054,SC2140
                     ovmfs=("${SHARE_PATH}/OVMF/OVMF_CODE_4M.fd","${SHARE_PATH}/OVMF/OVMF_VARS_4M.fd" \
@@ -699,7 +706,8 @@ function configure_bios() {
                         "${SHARE_PATH}/qemu/ovmf-x86_64-4m-code.bin","${SHARE_PATH}/qemu/ovmf-x86_64-4m-vars.bin" \
                         "${SHARE_PATH}/qemu/edk2-x86_64-code.fd","${SHARE_PATH}/qemu/edk2-x86_64-code.fd" \
                         "${SHARE_PATH}/edk2-ovmf/x64/OVMF_CODE.fd","${SHARE_PATH}/edk2-ovmf/x64/OVMF_VARS.fd" \
-                        "${SHARE_PATH}/edk2/x64/OVMF_CODE.4m.fd","${SHARE_PATH}/edk2/x64/OVMF_VARS.4m.fd"
+                        "${SHARE_PATH}/edk2/x64/OVMF_CODE.4m.fd","${SHARE_PATH}/edk2/x64/OVMF_VARS.4m.fd" \
+                        "${SHARE_PATH}/edk2/ovmf/OVMF_CODE_4M.qcow2","${SHARE_PATH}/edk2/ovmf/OVMF_VARS_4M.qcow2"
                     );;
             esac
             # Attempt each EFI_CODE file one by one, selecting the corresponding code and vars
@@ -730,6 +738,14 @@ function configure_bios() {
                 echo $" - EFI:      ERROR! EFI_EXTRA_VARS file ${EFI_EXTRA_VARS} does not exist."
                 exit 1
             fi
+            # Write destination vars file with correct extension
+            # based on source format of the EFI_EXTRA_VARS file
+            QCOW2VARS=$(is_firmware_qcow2 "${EFI_EXTRA_VARS}")
+            if [ "${QCOW2VARS}" = "true" ]; then
+                EFI_VARS="${VMDIR}/OVMF_VARS.qcow2"
+            else
+                EFI_VARS="${VMDIR}/OVMF_VARS.fd"
+            fi
             efi_vars "${EFI_EXTRA_VARS}" "${EFI_VARS}"
         fi
 
@@ -748,7 +764,7 @@ function configure_bios() {
             EFI_CODE=$(realpath "${EFI_CODE}")
             echo "${EFI_CODE}"
         fi
-        BOOT_STATUS="EFI (${guest_os^}), OVMF (${EFI_CODE}), SecureBoot (${secureboot})."
+        BOOT_STATUS="EFI (${guest_os^}), OVMF (${EFI_CODE}), EFI Vars (${EFI_VARS}), SecureBoot (${secureboot})."
     else
         BOOT_STATUS="Legacy BIOS (${guest_os^})"
         boot="legacy"
@@ -770,7 +786,7 @@ function configure_os_quirks() {
 
     case ${guest_os} in
         windows-server) NET_DEVICE="e1000";;
-        *bsd|linux*|windows) NET_DEVICE="virtio-net";;
+        *bsd|linux*|windows) NET_DEVICE="virtio-net-pci";;
         freedos) sound_card="sb16"
                  NET_DEVICE="pcnet";;
         *solaris) usb_controller="xhci"
@@ -788,7 +804,7 @@ function configure_os_quirks() {
                 big-sur|monterey|ventura|sonoma|sequoia)
                     BALLOON="-device virtio-balloon"
                     MAC_DISK_DEV="virtio-blk-pci"
-                    NET_DEVICE="virtio-net"
+                    NET_DEVICE="virtio-net-pci"
                     USB_HOST_PASSTHROUGH_CONTROLLER="nec-usb-xhci"
                     GUEST_TWEAKS+=" -global nec-usb-xhci.msi=off"
                     sound_card="${sound_card:-usb-audio}"
@@ -1174,7 +1190,7 @@ function vm_boot() {
     MAC_BOOTLOADER=""
     MAC_MISSING=""
     MAC_DISK_DEV="${MAC_DISK_DEV:-ide-hd,bus=ahci.2}"
-    NET_DEVICE="${NET_DEVICE:-virtio-net}"
+    NET_DEVICE="${NET_DEVICE:-virtio-net-pci}"
     SOUND=""
     SPICE=""
     SMM="${SMM:-off}"
@@ -1373,7 +1389,7 @@ function vm_boot() {
         fi
 
         # shellcheck disable=SC2054,SC2206
-        args+=(-nic bridge,br=${network},model=virtio-net-pci${MAC})
+        args+=(-nic bridge,br=${network},model=${NET_DEVICE}${MAC})
     else
         echo $" - Network:  User (${NET_DEVICE})"
         # shellcheck disable=SC2054,SC2206
@@ -1383,10 +1399,14 @@ function vm_boot() {
     # Add the disks
     # - https://turlucode.com/qemu-disk-io-performance-comparison-native-or-threads-windows-10-version/
     if [[ "${boot}" == *"efi"* ]]; then
+        QCOW2CODE=$(is_firmware_qcow2 "${EFI_CODE}")
+        QCOW2VARS=$(is_firmware_qcow2 "${EFI_VARS}")
+        if [ "${QCOW2CODE}" = "true" ]; then EFI_CODE_FORMAT="qcow2"; else EFI_CODE_FORMAT="raw"; fi
+        if [ "${QCOW2VARS}" = "true" ]; then EFI_VARS_FORMAT="qcow2"; else EFI_VARS_FORMAT="raw"; fi
         # shellcheck disable=SC2054
         args+=(-global driver=cfi.pflash01,property=secure,value=on
-            -drive if=pflash,format=raw,unit=0,file="${EFI_CODE}",readonly=on
-            -drive if=pflash,format=raw,unit=1,file="${EFI_VARS}")
+            -drive if=pflash,format="${EFI_CODE_FORMAT}",unit=0,file="${EFI_CODE}",readonly=on
+            -drive if=pflash,format="${EFI_VARS_FORMAT}",unit=1,file="${EFI_VARS}")
     fi
 
     if [ -n "${iso}" ] && [ "${guest_os}" == "freedos" ]; then
@@ -1811,6 +1831,7 @@ function fileshare_param_check() {
 
         if [ ! -d "${PUBLIC}" ]; then
             echo $" - WARNING! Public directory: '${PUBLIC}' doesn't exist!"
+            PUBLIC=""
         else
             PUBLIC_TAG="Public-${USER,,}"
             PUBLIC_PERMS=$(${STAT}  -c "%A" "${PUBLIC}")
