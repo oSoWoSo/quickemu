@@ -1,6 +1,6 @@
 agarimos
 
-agarimos latest plasma:              https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.64_1-20260110.iso
+agarimos latest plasma:              https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.65_1-20260118.iso
 agarimos latest xfce4:               https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.65_1-20260117.iso
 agarimos latest cinnamon:            https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.65_1-20260115.iso
 agarimos latest lxqt-kwin:           https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Catppuccin-Live-x86_64-6.12.65_1-20260117.iso
@@ -1031,9 +1031,9 @@ function get_() {
 
 elementary
 
-elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2ODcxODM3Mwo=/elementaryos-8.0-stable.20241122rc.iso
-elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2ODcxODM3Mwo=/elementaryos-7.1-stable.20230926rc.iso
-elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2ODcxODM3Mwo=/elementaryos-7.0-stable.20230129rc.iso
+elementary 8.0:                      https://ams3.dl.elementary.io/download/MTc2ODc0MDczOAo=/elementaryos-8.0-stable.20241122rc.iso
+elementary 7.1:                      https://ams3.dl.elementary.io/download/MTc2ODc0MDczOAo=/elementaryos-7.1-stable.20230926rc.iso
+elementary 7.0:                      https://ams3.dl.elementary.io/download/MTc2ODc0MDczOAo=/elementaryos-7.0-stable.20230129rc.iso
 
 # Template file for 'elementary'
 OSNAME="elementary"
@@ -1382,7 +1382,7 @@ function get_() {
 
 gnomeos
 
-gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/980216/gnome_os_980216-x86_64.iso
+gnomeos nightly:                     https://1270333429.rsc.cdn77.org/nightly/980336/gnome_os_980336-x86_64.iso
 gnomeos 50.alpha:                    https://download.gnome.org/gnomeos/50.alpha/gnome_os_installer_50.alpha.iso
 gnomeos 49.rc:                       https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso
 gnomeos 49.beta:                     https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso
@@ -1543,7 +1543,7 @@ kdeneon
 
 kdeneon user:                        https://files.kde.org/neon/images/user/current/neon-user-20260115-1320.iso
 kdeneon testing:                     https://files.kde.org/neon/images/testing/current/neon-testing-20260113-0432.iso
-kdeneon unstable:                    https://files.kde.org/neon/images/unstable/current/neon-unstable-20260111-1146.iso
+kdeneon unstable:                    https://files.kde.org/neon/images/unstable/current/neon-unstable-20260118-1146.iso
 kdeneon developer:                   https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250901-0038.iso
 
 # Template file for 'kdeneon'
@@ -1932,7 +1932,7 @@ function get_() {
 
 maboxlinux
 
-maboxlinux latest:                   https://netactuate.dl.sourceforge.net/project/mabox-linux/26.01/linux66/mabox-linux-26.01-Istredd-260114-linux66.iso
+maboxlinux latest:                   https://psychz.dl.sourceforge.net/project/mabox-linux/26.01/linux66/mabox-linux-26.01-Istredd-260114-linux66.iso
 
 # Template file for 'maboxlinux'
 OSNAME="maboxlinux"
@@ -2106,12 +2106,12 @@ function specific_tweaks() {
 
 manjaro
 
-manjaro xfce full:                   https://download.manjaro.org/xfce/26.0/manjaro-xfce-26.0-260104-linux618.iso
-manjaro xfce minimal:                https://download.manjaro.org/xfce/26.0/manjaro-xfce-26.0-minimal-260104-linux618.iso
-manjaro gnome full:                  https://download.manjaro.org/gnome/26.0/manjaro-gnome-26.0-260104-linux618.iso
-manjaro gnome minimal:               https://download.manjaro.org/gnome/26.0/manjaro-gnome-26.0-minimal-260104-linux618.iso
-manjaro plasma full:                 https://download.manjaro.org/kde/26.0/manjaro-kde-26.0-260104-linux618.iso
-manjaro plasma minimal:              https://download.manjaro.org/kde/26.0/manjaro-kde-26.0-minimal-260104-linux618.iso
+manjaro xfce full:                   https://download.manjaro.org/xfce/26.0.1/manjaro-xfce-26.0.1-260114-linux618.iso
+manjaro xfce minimal:                https://download.manjaro.org/xfce/26.0.1/manjaro-xfce-26.0.1-minimal-260114-linux618.iso
+manjaro gnome full:                  https://download.manjaro.org/gnome/26.0.1/manjaro-gnome-26.0.1-260114-linux618.iso
+manjaro gnome minimal:               https://download.manjaro.org/gnome/26.0.1/manjaro-gnome-26.0.1-minimal-260114-linux618.iso
+manjaro plasma full:                 https://download.manjaro.org/kde/26.0.1/manjaro-kde-26.0.1-260114-linux618.iso
+manjaro plasma minimal:              https://download.manjaro.org/kde/26.0.1/manjaro-kde-26.0.1-minimal-260114-linux618.iso
 manjaro cinnamon full:               https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-250609-linux612.iso
 manjaro cinnamon minimal:            https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-minimal-250609-linux612.iso
 manjaro i3 full:                     https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-250609-linux612.iso
@@ -2893,7 +2893,7 @@ function get_() {
 
 reactos
 
-reactos latest:                      https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
+reactos latest:                      https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1
 
 # Template file for 'reactos'
 OSNAME="reactos"

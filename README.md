@@ -2,7 +2,7 @@
 <!-- TABLE -->
 | OS|RELEASE|EDITION|ISO |
 |---|---|---|---|
-| agarimos | latest | plasma | https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.64_1-20260110.iso |
+| agarimos | latest | plasma | https://sourceforge.net/projects/agarimos/files/PLASMA/AgarimOS-Plasma-Catppuccin-Live-x86_64-6.12.65_1-20260118.iso |
 | agarimos | latest | xfce4 | https://sourceforge.net/projects/agarimos/files/XFCE4/AgarimOS-XFCE4-Catppuccin-Live-x86_64-6.12.65_1-20260117.iso |
 | agarimos | latest | cinnamon | https://sourceforge.net/projects/agarimos/files/CINNAMON/AgarimOS-Cinnamon-Catppuccin-Live-x86_64-6.12.65_1-20260115.iso |
 | agarimos | latest | lxqt-kwin | https://sourceforge.net/projects/agarimos/files/LXQT-KWIN/AgarimOS-LXQT-KWIN-Catppuccin-Live-x86_64-6.12.65_1-20260117.iso |
@@ -207,9 +207,9 @@
 | edubuntu | 25.04 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso |
 | edubuntu | 25.10 |  | https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso |
 | edubuntu | daily-live |  | https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso |
-| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2ODcxODM3Mwo=/elementaryos-8.0-stable.20241122rc.iso |
-| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2ODcxODM3Mwo=/elementaryos-7.1-stable.20230926rc.iso |
-| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2ODcxODM3Mwo=/elementaryos-7.0-stable.20230129rc.iso |
+| elementary | 8.0 |  | https://ams3.dl.elementary.io/download/MTc2ODc0MDczOAo=/elementaryos-8.0-stable.20241122rc.iso |
+| elementary | 7.1 |  | https://ams3.dl.elementary.io/download/MTc2ODc0MDczOAo=/elementaryos-7.1-stable.20230926rc.iso |
+| elementary | 7.0 |  | https://ams3.dl.elementary.io/download/MTc2ODc0MDczOAo=/elementaryos-7.0-stable.20230129rc.iso |
 | endeavouros | mercury-neo-2025.03.19 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso |
 | endeavouros | mercury-2025.02.08 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso |
 | endeavouros | gemini-2024.04.20 |  | https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso |
@@ -250,7 +250,7 @@
 | ghostbsd | 25.01-R14.2p1 | xfce | https://download.ghostbsd.org/releases/amd64/25.01-R14.2p1/GhostBSD-25.01-R14.2p1-XFCE.iso |
 | ghostbsd | 24.10.1 | mate | https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1.iso |
 | ghostbsd | 24.10.1 | xfce | https://download.ghostbsd.org/releases/amd64/24.10.1/GhostBSD-24.10.1-XFCE.iso |
-| gnomeos | nightly |  | https://1270333429.rsc.cdn77.org/nightly/980216/gnome_os_980216-x86_64.iso |
+| gnomeos | nightly |  | https://1270333429.rsc.cdn77.org/nightly/980336/gnome_os_980336-x86_64.iso |
 | gnomeos | 50.alpha |  | https://download.gnome.org/gnomeos/50.alpha/gnome_os_installer_50.alpha.iso |
 | gnomeos | 49.rc |  | https://download.gnome.org/gnomeos/49.rc/gnome_os_installer_49.rc.iso |
 | gnomeos | 49.beta |  | https://download.gnome.org/gnomeos/49.beta/gnome_os_installer_49.beta.iso |
@@ -299,7 +299,7 @@
 | kali | kali-weekly |  | https://cdimage.kali.org/kali-weekly/kali-linux-2026-W03-installer-amd64.iso |
 | kdeneon | user |  | https://files.kde.org/neon/images/user/current/neon-user-20260115-1320.iso |
 | kdeneon | testing |  | https://files.kde.org/neon/images/testing/current/neon-testing-20260113-0432.iso |
-| kdeneon | unstable |  | https://files.kde.org/neon/images/unstable/current/neon-unstable-20260111-1146.iso |
+| kdeneon | unstable |  | https://files.kde.org/neon/images/unstable/current/neon-unstable-20260118-1146.iso |
 | kdeneon | developer |  | https://files.kde.org/neon/images/developer/current/neon-unstable-developer-20250901-0038.iso |
 | kodachi | latest |  | https://sourceforge.net/projects/linuxkodachi/files/linux-kodachi-terminal-9.0.1-amd64.iso |
 | kolibrios | latest | en_US | http://builds.kolibrios.org/en_US/latest-iso.7z |
@@ -354,19 +354,19 @@
 | lubuntu | 25.04 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso |
 | lubuntu | 25.10 |  | https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso |
 | lubuntu | daily-live |  | https://cdimage.ubuntu.com/lubuntu/daily-live/current/resolute-desktop-amd64.iso |
-| maboxlinux | latest |  | https://netactuate.dl.sourceforge.net/project/mabox-linux/26.01/linux66/mabox-linux-26.01-Istredd-260114-linux66.iso |
+| maboxlinux | latest |  | https://psychz.dl.sourceforge.net/project/mabox-linux/26.01/linux66/mabox-linux-26.01-Istredd-260114-linux66.iso |
 | macos | mojave |  | http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg |
 | macos | catalina |  | http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg |
 | macos | big-sur |  | http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg |
 | macos | monterey |  | http://oscdn.apple.com/content/downloads/59/11/012-51692/z29q5x5plswit63bvyxmubthavua9gbxic/RecoveryImage/BaseSystem.dmg |
 | macos | ventura |  | http://oscdn.apple.com/content/downloads/60/43/042-01871/sbembiob0hs1o92jfofalts02ux0x8rsra/RecoveryImage/BaseSystem.dmg |
 | macos | sonoma |  | http://oscdn.apple.com/content/downloads/04/11/082-33203/orvwro1v8xhjrakr7tvl5hu1s1ew3epxne/RecoveryImage/BaseSystem.dmg |
-| manjaro | xfce | full | https://download.manjaro.org/xfce/26.0/manjaro-xfce-26.0-260104-linux618.iso |
-| manjaro | xfce | minimal | https://download.manjaro.org/xfce/26.0/manjaro-xfce-26.0-minimal-260104-linux618.iso |
-| manjaro | gnome | full | https://download.manjaro.org/gnome/26.0/manjaro-gnome-26.0-260104-linux618.iso |
-| manjaro | gnome | minimal | https://download.manjaro.org/gnome/26.0/manjaro-gnome-26.0-minimal-260104-linux618.iso |
-| manjaro | plasma | full | https://download.manjaro.org/kde/26.0/manjaro-kde-26.0-260104-linux618.iso |
-| manjaro | plasma | minimal | https://download.manjaro.org/kde/26.0/manjaro-kde-26.0-minimal-260104-linux618.iso |
+| manjaro | xfce | full | https://download.manjaro.org/xfce/26.0.1/manjaro-xfce-26.0.1-260114-linux618.iso |
+| manjaro | xfce | minimal | https://download.manjaro.org/xfce/26.0.1/manjaro-xfce-26.0.1-minimal-260114-linux618.iso |
+| manjaro | gnome | full | https://download.manjaro.org/gnome/26.0.1/manjaro-gnome-26.0.1-260114-linux618.iso |
+| manjaro | gnome | minimal | https://download.manjaro.org/gnome/26.0.1/manjaro-gnome-26.0.1-minimal-260114-linux618.iso |
+| manjaro | plasma | full | https://download.manjaro.org/kde/26.0.1/manjaro-kde-26.0.1-260114-linux618.iso |
+| manjaro | plasma | minimal | https://download.manjaro.org/kde/26.0.1/manjaro-kde-26.0.1-minimal-260114-linux618.iso |
 | manjaro | cinnamon | full | https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-250609-linux612.iso |
 | manjaro | cinnamon | minimal | https://download.manjaro.org/cinnamon/25.0.3/manjaro-cinnamon-25.0.3-minimal-250609-linux612.iso |
 | manjaro | i3 | full | https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-250609-linux612.iso |
@@ -496,7 +496,7 @@
 | proxmox-ve | 5.4-1 |  | https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso |
 | pureos | 10.3 | gnome | https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso |
 | pureos | 10.3 | plasma | https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso |
-| reactos | latest |  | https://netactuate.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
+| reactos | latest |  | https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1 |
 | redox-os | livedisk | demo | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | desktop | https://static.redox-os.org/img/x86_64/ |
 | redox-os | livedisk | server | https://static.redox-os.org/img/x86_64/ |
