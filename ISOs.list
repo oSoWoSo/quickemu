@@ -152,6 +152,7 @@ debian          https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debia
 debianedu       https://cdimage.debian.org/debian-cd/13.2.0/amd64/iso-bd/debian-edu-13.2.0-amd64-BD-1.iso
 debianedu       https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-13.3.0-amd64-BD-1.iso
 deepin          http://ftp.snt.utwente.nl/pub/os/linux/deepin-cd/25-alpha/amd64/deepin-desktop-community-25-alpha-amd64.iso
+deepin          https://cdimage.deepin.com/releases/25.0.10/amd64/deepin-desktop-community-25.0.10-amd64.iso
 deepin          https://ftp.gwdg.de/pub/linux/linuxdeepin/releases/23.1/amd64/deepin-desktop-community-23.1-amd64.iso
 desert          https://downloads.sourceforge.net/desert-os-linux/DESERT_4.5_RU_amd64.iso
 desert          https://downloads.sourceforge.net/desert-os-linux/DESERT_5.0_amd64.iso
@@ -414,6 +415,7 @@ mx              https://downloads.sourceforge.net/mx-linux/MX-23.6_x64.iso
 mx              https://downloads.sourceforge.net/mx-linux/MX-25_Xfce_RC1_x64.iso
 mx              https://downloads.sourceforge.net/mx-linux/MX-25_Xfce_beta1_x64.iso
 mx              https://downloads.sourceforge.net/mx-linux/MX-25_Xfce_x64.iso
+mx              https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-25.1_Xfce_x64.iso
 mx              https://sourceforge.net/projects/mx-linux/files/Testing/Xfce/MX-25.1_Xfce_beta1_x64.iso
 nakedeb         https://nakedeb.arpinux.org/download/nakedeb-1.6-202601-amd64.iso
 nebios          https://downloads.sourceforge.net/nebios-official-mirror/nebios-x-10.0-amd64.iso
