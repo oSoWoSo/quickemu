@@ -30,7 +30,7 @@ function cleanup() {
 
 # shellcheck disable=SC2154
 function show_os_info() {
-	# shellcheck source=public/alpine
+	# shellcheck disable=SC1091
 	. "${toPublic}/${1}"
 	echo
 	echo " ${prettyName}"
@@ -170,7 +170,6 @@ function list_csv() {
 }
 
 # OLD FUNCTIONS TO REMADE?
-
 list_supported() {
 	# output OS release edition (usefull for straight testing...)
 	local dl=""
@@ -640,7 +639,7 @@ EOF
 }
 
 function open_homepage() {
-	# shellcheck source=actions/alpine
+	# shellcheck disable=SC1091
 	. "actions/${1}"
 	local XDG_OPEN=""
 	if [ -z "${prettyName}" ]; then
@@ -754,7 +753,7 @@ run_itself() {
 	fi
 
 	os_supported
-	# shellcheck source=actions/alpine
+	# shellcheck disable=SC1091
 	. "$toActions/$os"
 
 	if [ -n "${2}" ]; then
@@ -825,7 +824,7 @@ function run_ui() {
 	fi
 	os=$(gum filter --height=17 --header="Select an os:" $(os_support))
 	#os_info "$os" > "$TMPFILE"
-	# shellcheck source=actions/alpine
+	# shellcheck disable=SC1091
 	. "$toPublic/$os"
 	release=$(gum filter --height=9 --header="Select $os release:" $releases)
 	if declare -F editions_ > /dev/null; then
