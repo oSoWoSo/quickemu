@@ -208,9 +208,9 @@
 | edubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.04/release/edubuntu-25.04-desktop-amd64.iso) |
 | edubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/edubuntu/releases/25.10/release/edubuntu-25.10-desktop-amd64.iso) |
 | edubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/edubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2ODc4OTMxNwo=/elementaryos-8.0-stable.20241122rc.iso) |
-| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2ODc4OTMxNwo=/elementaryos-7.1-stable.20230926rc.iso) |
-| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2ODc4OTMxNwo=/elementaryos-7.0-stable.20230129rc.iso) |
+| elementary | 8.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2ODgwNTM0Mwo=/elementaryos-8.0-stable.20241122rc.iso) |
+| elementary | 7.1 |  | [url](https://ams3.dl.elementary.io/download/MTc2ODgwNTM0Mwo=/elementaryos-7.1-stable.20230926rc.iso) |
+| elementary | 7.0 |  | [url](https://ams3.dl.elementary.io/download/MTc2ODgwNTM0Mwo=/elementaryos-7.0-stable.20230129rc.iso) |
 | endeavouros | mercury-neo-2025.03.19 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-Neo-2025.03.19.iso) |
 | endeavouros | mercury-2025.02.08 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Mercury-2025.02.08.iso) |
 | endeavouros | gemini-2024.04.20 |  | [url](https://mirror.alpix.eu/endeavouros/iso/EndeavourOS_Gemini-2024.04.20.iso) |
@@ -355,7 +355,7 @@
 | lubuntu | 25.04 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso) |
 | lubuntu | 25.10 |  | [url](https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso) |
 | lubuntu | daily-live |  | [url](https://cdimage.ubuntu.com/lubuntu/daily-live/current/resolute-desktop-amd64.iso) |
-| maboxlinux | latest |  | [url](https://netactuate.dl.sourceforge.net/project/mabox-linux/26.01/linux66/mabox-linux-26.01-Istredd-260114-linux66.iso) |
+| maboxlinux | latest |  | [url](https://psychz.dl.sourceforge.net/project/mabox-linux/26.01/linux66/mabox-linux-26.01-Istredd-260114-linux66.iso) |
 | macos | mojave |  | [url](http://oscdn.apple.com/content/downloads/04/36/041-94410/ge73si0bd3fdsdkfibykjgrlcfuzy1q9yx/RecoveryImage/BaseSystem.dmg) |
 | macos | catalina |  | [url](http://oscdn.apple.com/content/downloads/59/10/001-43312/oifium3yx72dhc4po3r65zfwblslmce191/RecoveryImage/BaseSystem.dmg) |
 | macos | big-sur |  | [url](http://oscdn.apple.com/content/downloads/41/28/071-71279/5djpevqmc2w0ti2c4n1m8mkz7fm791t1ic/RecoveryImage/BaseSystem.dmg) |
@@ -379,9 +379,9 @@
 | miyo | 2022 | JWM | [url](https://sourceforge.net/projects/miyolinux/files/2022-Release//) |
 | miyo | 2022 | Openbox | [url](https://sourceforge.net/projects/miyolinux/files/2022-Release//) |
 | miyo | 2022 | MATE | [url](https://sourceforge.net/projects/miyolinux/files/2022-Release//) |
-| mxlinux | 25 | Xfce | [url](https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-25_x64.iso) |
-| mxlinux | 25 | KDE | [url](https://sourceforge.net/projects/mx-linux/files/Final/KDE/MX-25_KDE_x64.iso) |
-| mxlinux | 25 | Fluxbox | [url](https://sourceforge.net/projects/mx-linux/files/Final/Fluxbox/MX-25_fluxbox_x64.iso) |
+| mxlinux | 25.1 | Xfce | [url](https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-25.1_x64.iso) |
+| mxlinux | 25.1 | KDE | [url](https://sourceforge.net/projects/mx-linux/files/Final/KDE/MX-25.1_KDE_x64.iso) |
+| mxlinux | 25.1 | Fluxbox | [url](https://sourceforge.net/projects/mx-linux/files/Final/Fluxbox/MX-25.1_fluxbox_x64.iso) |
 | netboot | latest |  | [url](https://boot.netboot.xyz/ipxe/netboot.xyz.iso) |
 | netbsd | 10.1 |  | [url](https://cdn.netbsd.org/pub/NetBSD/NetBSD-10.1/images/NetBSD-10.1-amd64.iso) |
 | netbsd | 10.0 |  | [url](https://cdn.netbsd.org/pub/NetBSD/NetBSD-10.0/images/NetBSD-10.0-amd64.iso) |
@@ -497,7 +497,7 @@
 | proxmox-ve | 5.4-1 |  | [url](https://enterprise.proxmox.com/iso/proxmox-ve_5.4-1.iso) |
 | pureos | 10.3 | gnome | [url](https://downloads.puri.sm/byzantium/gnome/2023-06-14/pureos-10.3-gnome-live-20230614_amd64.iso) |
 | pureos | 10.3 | plasma | [url](https://downloads.puri.sm/byzantium/plasma/2023-06-14/pureos-10.3-plasma-live-20230614_amd64.iso) |
-| reactos | latest |  | [url](https://cfhcable.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
+| reactos | latest |  | [url](https://psychz.dl.sourceforge.net/project/reactos/ReactOS/0.4.15/ReactOS-0.4.15-release-1-gdbb43bbaeb2-x86-iso.zip?viasf=1) |
 | rebornos | latest |  | **ERROR** |
 | redox-os | livedisk | demo | [url](https://static.redox-os.org/img/x86_64/) |
 | redox-os | livedisk | desktop | [url](https://static.redox-os.org/img/x86_64/) |

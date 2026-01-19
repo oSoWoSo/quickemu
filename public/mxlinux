@@ -7,7 +7,7 @@ HOMEPAGE="https://mxlinux.org"
 CREDENTIALS="-"
 
 
-RELEASES="25"
+RELEASES="25.1"
 EDITIONS="Xfce KDE Fluxbox"
 
 function get_() {
