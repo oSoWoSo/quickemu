@@ -219,10 +219,7 @@ list_isos() {
 			if [[ $(type -t editions_) == function ]]; then
 				for option in $(editions_); do
 					url=$(./qget -u "${os}" "${release}" "${option}")
-			for option in $(editions_); do
-				url=$(./qget -u "${os}" "${release}" "${option}")
-				echo "${os}|${release}|${option}|${url}"
-			done
+					echo "${os}|${release}|${option}|${url}"
 				done
 			elif [[ "${os}" == "windows"* ]]; then
 				languages_
