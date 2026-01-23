@@ -84,9 +84,9 @@ function test_all() {
     rm -f "public/tmp_${OS}"
     touch "public/tmp_${OS}"
     . "actions/${OS}"
-    if [[ "${OS}" == *ubuntu* && "${OS}" != "ubuntu-server" ]]; then
-        FUNC="ubuntu"
-    fi
+    #if [[ "${OS}" == *ubuntu* && "${OS}" != "ubuntu-server" ]]; then
+    #    FUNC="ubuntu"
+    #fi
     echo "${OS}
 "
     for RELEASE in $("releases_"); do
@@ -111,11 +111,7 @@ function test_all() {
                     test_result "${OS}" "${RELEASE}" "${I18N}" "${URL}" "SKIP" | tee -a "public/tmp_${OS}"
                 fi
             done
-        elif [[ "${OS}" == "macos" ]]; then
-            (get_)
-        elif [ "${OS}" == "ubuntu-server" ]; then
-            (get_)
-        elif [[ "${OS}" == *ubuntu* ]]; then
+        elif [ "${OS}" = macos ] || [ "${OS}" = "ubuntu-server" ] || [[ "${OS}" == *ubuntu* ]]; then
             (get_)
         else
             URL=$(get_ | cut -d' ' -f1 | head -n 1)
@@ -137,9 +133,9 @@ function get_releases() {
     rm -f "public/tmp_${OS}"
     #touch "public/tmp_${OS}"
     . "actions/${OS}"
-    if [[ "${OS}" == *ubuntu* && "${OS}" != "ubuntu-server" ]]; then
-        FUNC="ubuntu"
-    fi
+    #if [[ "${OS}" == *ubuntu* && "${OS}" != "ubuntu-server" ]]; then
+    #    FUNC="ubuntu"
+    #fi
     echo "${OS}
 "
     for RELEASE in $("releases_"); do
