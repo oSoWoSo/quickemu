@@ -1,0 +1,52 @@
+name: "Test qget 🧪"
+
+on:
+  workflow_dispatch:
+  push:
+    #branches:
+      #- master
+    paths:
+      - qget
+  pull_request:
+    branches:
+      - '**'
+    paths:
+      - qget
+
+jobs:
+  qget-tests:
+    name: "Run qget tests 👟"
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v5
+      - name: "Install dependencies 📦️"
+        run: |
+          sudo apt-get -y update
+          sudo apt-get -y install curl qemu-utils
+      - name: "List OS variants 📃"
+        run: |
+          mkdir -p results
+          ./qget --list | tail -n +2 | tee results/list.txt
+      - name: "Check OS downloads 💿️"
+        run: |
+          mkdir -p results
+          ./qget --check | tee results/check.txt
+      - name: "Display results 📊"
+        run: |
+          WINDOWS=$(grep -c "windows-" results/check.txt || echo 0)
+          FAILED=$(grep -c ^FAIL results/check.txt || echo 0)
+          SKIPPED=$(grep -c ^SKIP results/check.txt || echo 0)
+          PASSED=$(grep -c ^PASS results/check.txt || echo 0)
+          CHECKED=$((WINDOWS + FAILED + SKIPPED + PASSED))
+          echo -e "\nResults:"
+          echo -e "- CHECKED:\t${CHECKED}"
+          echo -e "- PASSED:\t${PASSED}"
+          echo -e "- SKIPPED:\t${SKIPPED}\t(of which ${WINDOWS} are Windows)"
+          echo -e "- FAILED:\t${FAILED}\n"
+          grep ^FAIL results/check.txt | tee results/failed.txt
+          VARIATIONS=$(wc -l results/list.txt | cut -d' ' -f1 || echo 0)
+          DOWNLOADS=$(wc -l results/check.txt | cut -d' ' -f1 || echo 0)
+          echo
+          echo "Compare OS variations with downloads:"
+          echo -e "- Variations:\t${VARIATIONS}"
+          echo -e "- Downloads:\t${DOWNLOADS}"

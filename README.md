@@ -38,7 +38,7 @@ required to run the virtual machines.
 # Features
 
 - Host support for **Linux and macOS**
-- **macOS** Sonoma, Ventura, Monterey, Big Sur, Catalina & Mojave
+- **macOS** Sequoia, Sonoma, Ventura, Monterey, Big Sur, Catalina & Mojave
 - **Windows** 10 and 11 including TPM 2.0
 - **Windows Server** 2022 2019 2016
 - [Ubuntu](https://ubuntu.com/desktop) and all the **[official Ubuntu
@@ -66,9 +66,11 @@ required to run the virtual machines.
 The presenters of Linux Matters 🐧🎙️ are the creators of each of the principal Quickemu projects. We discussed Quickemu's 2024 reboot in [Episode 30 - Quickemu Rising From the Bashes](https://linuxmatters.sh/30). <!-- and in [Episode 32 - Quick, quicker, quickest](https://linuxmatters.sh/32) [Martin](https://github.com/flexiondotorg) unveils macOS host support for [**Quickemu**](https://github.com/quickemu-project/quickemu), [Mark](https://github.com/marxjohnson) explains the origins of the [**Quickgui**](https://github.com/quickemu-project/quickgui) desktop app and upcoming improvements, and [Alan](https://github.com/popey) debuts [**Quicktest**](https://github.com/quickemu-project/quicktest); a framework for automatically testing operating systems via Quickemu -->
 
 <div align="center">
-  <a href="https://linuxmatters.sh" target="_blank"><img src="https://github.com/wimpysworld/nix-config/raw/main/.github/screenshots/linuxmatters.png" alt="Linux Matters Podcast"/></a>
-  <br />
-  <em>Linux Matters Podcast</em>
+
+<a href="https://linuxmatters.sh" target="_blank"><img src="https://github.com/wimpysworld/nix-config/raw/main/.github/screenshots/linuxmatters.png" alt="Linux Matters Podcast"/></a>
+<br />
+<em>Linux Matters Podcast</em>
+
 </div>
 
 # Quick start
@@ -109,3 +111,7 @@ The wiki describes how to get up and running with Quickemu and also covers more 
 - [**Advanced quickget features**](https://github.com/quickemu-project/quickemu/wiki/06-Advanced-quickget-features) 🤓
 - [**Alternative frontends**](https://github.com/quickemu-project/quickemu/wiki/07-Alternative-frontends) 🧑‍💻
 - [**References**](https://github.com/quickemu-project/quickemu/wiki/08-References) 📚️
+
+We got a :star: from [@matthifrak2023](https://github.com/matthifrak2023)
+
+We got a :star: from [@rchk](https://github.com/rchk)

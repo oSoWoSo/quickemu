@@ -26,7 +26,6 @@ function os_info() {
         antix)            INFO="Antix|-|https://antixlinux.com/|Fast, lightweight and easy to install systemd-free linux live CD distribution based on Debian Stable for Intel-AMD x86 compatible systems.";;
         archcraft)        INFO="Archcraft|-|https://archcraft.io/|Yet another minimal Linux distribution, based on Arch Linux.";;
         archlinux)        INFO="Arch Linux|-|https://archlinux.org/|Lightweight and flexible Linux® distribution that tries to Keep It Simple.";;
-        arcolinux)        INFO="Arco Linux|-|https://arcolinux.com/|Is all about becoming an expert in linux.";;
         artixlinux)       INFO="Artix Linux|-|https://artixlinux.org/|The Art of Linux. Simple. Fast. Systemd-free.";;
         athenaos)         INFO="Athena OS|-|https://athenaos.org/|Offer a different experience than the most used pentesting distributions by providing only tools that fit with the user needs and improving the access to hacking resources and learning materials.";;
         batocera)         INFO="Batocera|-|https://batocera.org/|Retro-gaming distribution with the aim of turning any computer/nano computer into a gaming console during a game or permanently.";;
@@ -44,7 +43,7 @@ function os_info() {
         devuan)           INFO="Devuan|-|https://www.devuan.org/|Fork of Debian without systemd that allows users to reclaim control over their system by avoiding unnecessary entanglements and ensuring Init Freedom.";;
         dragonflybsd)     INFO="DragonFlyBSD|-|https://www.dragonflybsd.org/|Provides an opportunity for the BSD base to grow in an entirely different direction from the one taken in the FreeBSD, NetBSD, and OpenBSD series.";;
         easyos)           INFO="EasyOS|-|https://easyos.org/|Experimental distribution designed from scratch to support containers.";;
-        edubuntu)         INFO="Edubuntu|-|https://www.edubuntu.org/|Stable, secure and privacy concious option for schools.";;
+        edubuntu)         INFO="Edubuntu|-|https://www.edubuntu.org/|Stable, secure and privacy conscious option for schools.";;
         elementary)       INFO="elementary OS|-|https://elementary.io/|Thoughtful, capable, and ethical replacement for Windows and macOS.";;
         endeavouros)      INFO="EndeavourOS|-|https://endeavouros.com/|Provides an Arch experience without the hassle of installing it manually for both x86_64 and ARM systems.";;
         endless)          INFO="Endless OS|-|https://www.endlessos.org/os|Completely Free, User-Friendly Operating System Packed with Educational Tools, Games, and More.";;
@@ -420,7 +419,6 @@ function os_support() {
     antix \
     archcraft \
     archlinux \
-    arcolinux \
     artixlinux \
     athenaos \
     batocera \
@@ -557,15 +555,6 @@ function releases_archcraft() {
 
 function releases_archlinux() {
     echo latest
-}
-
-function releases_arcolinux() {
-    #shellcheck disable=SC2046,SC2005
-    echo $(web_pipe "https://ant.seedhost.eu/arcolinux/iso/" | grep -o -E -e "v[[:digit:]]{2}.[[:digit:]]{2}.[[:digit:]]{2}" | sort -ru | head -n 5)
-}
-
-function editions_arcolinux() {
-    echo net plasma pro
 }
 
 function releases_artixlinux() {
@@ -705,7 +694,7 @@ function releases_easyos() {
 
 
 function releases_elementary() {
-    echo 8.0 7.1 7.0
+    echo 8.1 8.0 7.1 7.0
 }
 
 function releases_endeavouros() {
@@ -929,7 +918,7 @@ function editions_parrotsec() {
 
 function releases_pclinuxos() {
 # shellcheck disable=SC2046
-    echo $(web_pipe "https://ftp.fau.de/pclinuxos/pclinuxos/iso" | grep -oP 'pclinuxos64-\K[^\-]+-\K[0-9]+\.[0-9]+' | head -n 1)
+    echo $(web_pipe "https://ftp.fau.de/pclinuxos/pclinuxos/iso" | grep -o -E 'pclinuxos64-([a-z]+-)+[0-9]{4}\.[0-9]{2}\.iso'| grep -o -E '[0-9]{4}\.[0-9]{2}'| head -n 1)
 }
 
 function editions_pclinuxos() {
@@ -1521,6 +1510,13 @@ EOF
                     echo "cpu_cores=2" >> "${CONF_FILE}"
                 fi
                 ;;
+            elementary)
+                case "${RELEASE}" in
+                    8.1)
+                        echo "display=\"spice\"" >> "${CONF_FILE}"
+                        ;;
+                esac
+                ;;
             proxmox-ve)
                 echo "disk_size=\"20G\"" >> "${CONF_FILE}"
                 echo "ram=\"4G\"" >> "${CONF_FILE}"
@@ -1632,16 +1628,6 @@ function get_archlinux() {
     ISO=$(web_pipe "https://archlinux.org/releng/releases/json/" | jq -r '.releases[0].iso_url')
     HASH=$(web_pipe "https://archlinux.org/releng/releases/json/" | jq -r '.releases[0].sha256_sum')
     echo "${URL}${ISO} ${HASH}"
-}
-
-function get_arcolinux() {
-    local HASH=""
-    local ISO=""
-    local URL=""
-    URL="https://ant.seedhost.eu/arcolinux/iso/${RELEASE}"
-    ISO="arco${EDITION}-${RELEASE}-x86_64.iso"
-    HASH=$(web_pipe "${URL}/${ISO}.sha256" | cut -d' ' -f1)
-    echo "${URL}/${ISO} ${HASH}"
 }
 
 function get_artixlinux() {
@@ -1824,13 +1810,21 @@ function get_easyos() {
 }
 
 function get_elementary() {
+    # Hash and ISO filename can be obtained from the below URL
+    # https://elementary.io/docs/installation#verify-your-download
     local HASH=""
+    local STAMP
     case ${RELEASE} in
-        7.0) STAMP="20230129rc";;
-        7.1) STAMP="20230926rc";;
-        8.0) STAMP="20241122rc";;
+        7.0) STAMP=".20230129rc";;
+        7.1) STAMP=".20230926rc";;
+        8.0) STAMP=".20241122rc";;
+        8.1)
+            STAMP="-amd64.20251211"
+            HASH="eee6cad081664717681bec767fbfe1aa1fd920938fedad6c83b41fd341e8f306"
+            ;;
     esac
-    local ISO="elementaryos-${RELEASE}-stable.${STAMP}.iso"
+
+    local ISO="elementaryos-${RELEASE}-stable${STAMP}.iso"
     local URL="https://ams3.dl.elementary.io/download"
     echo "${URL}/$(date +%s | base64)/${ISO} ${HASH}"
 }
