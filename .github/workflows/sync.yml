@@ -1,0 +1,263 @@
+name: 'Sync branch'
+
+on:
+  #schedule:
+    #- cron:  '0 7 * * 1,4'
+    # scheduled at 07:00 every Monday and Thursday
+
+  workflow_dispatch:  # click the button on Github repo!
+    inputs:
+      branch:
+        description: 'Branch to sync'
+        type: choice
+        default: master
+        required: true
+        options:
+          - upstream
+
+      sync_test_mode: # Adds a boolean option that appears during manual workflow run for easy test mode config
+        description: 'Fork Sync Test Mode'
+        type: boolean
+        default: false
+
+env:
+  BRANCH: ${{ inputs.branch }}
+
+jobs:
+  sync_latest_from_upstream:
+    runs-on: ubuntu-latest
+    name: "Sync with upstream quickemu"
+    steps:
+    # REQUIRED step
+    # Step 1: run a standard checkout action, provided by github
+    - name: Checkout target
+      uses: actions/checkout@v4
+      with:
+        # optional: set the branch to checkout,
+        # sync action checks out your 'target_sync_branch' anyway
+        ref: ${{ env.BRANCH }}
+        # REQUIRED if your upstream repo is private (see wiki)
+        persist-credentials: false
+        fetch-depth: 0  # Required for proper commit comparison
+
+    # REQUIRED step
+    # Step 2: run the sync action
+    - name: Sync changes
+      id: sync
+      uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
+      with:
+        target_sync_branch: ${{ env.BRANCH }}
+        # REQUIRED 'target_repo_token' exactly like this!
+        target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+        upstream_sync_branch: master
+        upstream_sync_repo: quickemu-project/quickemu
+        #upstream_repo_access_token: ${{ secrets.UPSTREAM_REPO_SECRET }}
+        target_branch_push_args: '--force'
+        git_config_pull_rebase: true
+        # Set test_mode true during manual dispatch to run tests instead of the true action!!
+        test_mode: ${{ inputs.sync_test_mode }}
+      continue-on-error: true  # Continue even if conflict occurs
+
+    - name: Check for conflicts
+      id: check_conflict
+      if: always()
+      run: |
+        # Check if we're in a rebase state
+        if [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; then
+          echo "conflict_detected=true" >> $GITHUB_OUTPUT
+          echo "⚠️ Conflict detected, starting automatic resolution..."
+          
+          # Show rebase status
+          echo ""
+          echo "📊 Rebase status:"
+          if [ -f .git/rebase-merge/msgnum ]; then
+            CURRENT=$(cat .git/rebase-merge/msgnum)
+            TOTAL=$(cat .git/rebase-merge/end)
+            echo "  Progress: $CURRENT/$TOTAL commits"
+          fi
+          
+          # Show git status
+          echo ""
+          echo "📝 Git status:"
+          git status --short
+          
+        elif [ "${{ steps.sync.outcome }}" = "failure" ]; then
+          echo "conflict_detected=false" >> $GITHUB_OUTPUT
+          echo "❌ Sync failed but not due to conflict"
+          git status
+          exit 1
+        else
+          echo "conflict_detected=false" >> $GITHUB_OUTPUT
+          echo "✅ Sync completed without conflicts"
+        fi
+
+    - name: Resolve conflicts automatically
+      if: steps.check_conflict.outputs.conflict_detected == 'true'
+      shell: bash
+      run: |
+        set -eo pipefail
+        
+        echo "🔍 Analyzing conflicts..."
+        
+        # Get list of conflicted files
+        CONFLICT_FILES=$(git diff --name-only --diff-filter=U)
+        
+        echo "📝 Conflicted files:"
+        echo "$CONFLICT_FILES"
+        
+        # Function to compare versions
+        compare_versions() {
+          local v1=$1
+          local v2=$2
+          
+          if [ -z "$v1" ] || [ -z "$v2" ]; then
+            echo "2"
+            return 0
+          fi
+          
+          # Extract version number
+          v1_num=$(echo "$v1" | sed 's/version=//' | tr -d '"' | tr -d "'")
+          v2_num=$(echo "$v2" | sed 's/version=//' | tr -d '"' | tr -d "'")
+          
+          # Use sort -V for natural version sorting
+          if [ "$v1_num" = "$v2_num" ]; then
+            echo "0"
+          elif printf '%s\n%s' "$v1_num" "$v2_num" | sort -V -C 2>/dev/null; then
+            echo "1"
+          else
+            echo "3"
+          fi
+          return 0
+        }
+        
+        # For each conflicted file
+        for file in $CONFLICT_FILES; do
+          echo ""
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📦 Processing: $file"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          
+          # Try to get versions from both sides
+          OURS_VERSION=$(git show :2:"$file" 2>/dev/null | grep "^version=" | head -1 || echo "")
+          THEIRS_VERSION=$(git show :3:"$file" 2>/dev/null | grep "^version=" | head -1 || echo "")
+          
+          OURS_REVISION=$(git show :2:"$file" 2>/dev/null | grep "^revision=" | head -1 || echo "")
+          THEIRS_REVISION=$(git show :3:"$file" 2>/dev/null | grep "^revision=" | head -1 || echo "")
+          
+          echo "📊 Version comparison:"
+          echo "  Current (ours):  $OURS_VERSION $OURS_REVISION"
+          echo "  Incoming (theirs): $THEIRS_VERSION $THEIRS_REVISION"
+          
+          # Decide which version to use
+          CHOICE=""
+          
+          if [ -n "$OURS_VERSION" ] && [ -n "$THEIRS_VERSION" ]; then
+            result=$(compare_versions "$OURS_VERSION" "$THEIRS_VERSION")
+            
+            case $result in
+              0)  # Same version, compare revision
+                if [ -n "$OURS_REVISION" ] && [ -n "$THEIRS_REVISION" ]; then
+                  ours_rev=$(echo "$OURS_REVISION" | sed 's/revision=//')
+                  theirs_rev=$(echo "$THEIRS_REVISION" | sed 's/revision=//')
+                  
+                  if [ "$ours_rev" -gt "$theirs_rev" ] 2>/dev/null; then
+                    CHOICE="ours"
+                    echo "✅ Selecting OURS (higher revision: $ours_rev > $theirs_rev)"
+                  else
+                    CHOICE="theirs"
+                    echo "✅ Selecting THEIRS (higher revision: $theirs_rev >= $ours_rev)"
+                  fi
+                else
+                  CHOICE="theirs"
+                  echo "⚠️ Same version but missing revision info - selecting THEIRS"
+                fi
+                ;;
+              1)  # v1 < v2
+                CHOICE="theirs"
+                echo "✅ Selecting THEIRS (newer version)"
+                ;;
+              3)  # v1 > v2
+                CHOICE="ours"
+                echo "✅ Selecting OURS (newer version)"
+                ;;
+              2)  # Cannot compare
+                # Compare commit dates
+                OURS_DATE=$(git log -1 --format=%ct :2:"$file" 2>/dev/null || echo "0")
+                THEIRS_DATE=$(git log -1 --format=%ct :3:"$file" 2>/dev/null || echo "0")
+                
+                if [ "$OURS_DATE" -gt "$THEIRS_DATE" ]; then
+                  CHOICE="ours"
+                  echo "⚠️ Cannot compare versions, selecting by commit date: OURS (newer)"
+                else
+                  CHOICE="theirs"
+                  echo "⚠️ Cannot compare versions, selecting by commit date: THEIRS (newer)"
+                fi
+                ;;
+            esac
+          else
+            # If no version= in file, select by date
+            OURS_DATE=$(git log -1 --format=%ct :2:"$file" 2>/dev/null || echo "0")
+            THEIRS_DATE=$(git log -1 --format=%ct :3:"$file" 2>/dev/null || echo "0")
+            
+            if [ "$OURS_DATE" -gt "$THEIRS_DATE" ]; then
+              CHOICE="ours"
+              echo "⚠️ No version=, selecting by date: OURS"
+            else
+              CHOICE="theirs"
+              echo "⚠️ No version=, selecting by date: THEIRS"
+            fi
+          fi
+          
+          # Apply selected version
+          if [ "$CHOICE" = "ours" ]; then
+            git checkout --ours "$file"
+          else
+            git checkout --theirs "$file"
+          fi
+          
+          git add "$file"
+          echo "✓ Conflict resolved: $file (used version: $CHOICE)"
+        done
+        
+        echo ""
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        echo "✅ All conflicts resolved"
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+    - name: Continue rebase
+      if: steps.check_conflict.outputs.conflict_detected == 'true'
+      run: |
+        # Set git config for rebase continuation
+        git config user.name "GitHub Actions Bot"
+        git config user.email "actions@github.com"
+        
+        # Continue rebase
+        GIT_EDITOR=true git rebase --continue || {
+          echo "❌ Rebase failed even after resolving conflicts"
+          echo ""
+          echo "Current rebase state:"
+          git status
+          exit 1
+        }
+        echo "✅ Rebase completed successfully"
+
+    - name: Push changes
+      if: steps.check_conflict.outputs.conflict_detected == 'true'
+      run: |
+        echo "🚀 Pushing resolved changes..."
+        git push --force-with-lease origin ${{ env.BRANCH }} || {
+          echo "⚠️ Force-with-lease failed, trying regular force push..."
+          git push --force origin ${{ env.BRANCH }}
+        }
+        echo "✅ Changes pushed successfully"
+
+    - name: New commits found
+      if: steps.sync.outputs.has_new_commits == 'true' || steps.check_conflict.outputs.conflict_detected == 'true'
+      run: echo "✅ New commits were synchronized."
+    
+    - name: No new commits
+      if: steps.sync.outputs.has_new_commits == 'false'
+      run: echo "ℹ️ There were no new commits."
+      
+    - name: Show sync status
+      run: echo "has_new_commits=${{ steps.sync.outputs.has_new_commits }}"
