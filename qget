@@ -893,11 +893,14 @@ if [ ! -x "${CURL}" ]; then
 	echo $"ERROR! curl not found. Please install curl"
 	exit 1
 fi
-quickemuVersion=$(${QUICKEMU} --version) || true
-qemuVersion=$(qemu-x86_64 -version | head -1 | cut -d' ' -f3) || true
-yadVersion=$(yad --version | cut -d' ' -f1) || true
+quickemuVersion=$(${QUICKEMU} --version)
+if command -v qemu; then
+    qemuVersion=$(qemu-x86_64 -version | head -1 | cut -d' ' -f3)
+fi
+if command -v yad; then
+    yadVersion=$(yad --version | cut -d' ' -f1)
+fi
 curlVersion=$("${CURL}" --version | head -n 1 | cut -d' ' -f2)
-
 #TODO: Deprecate `list`, `list_csv`, and `list_json` in favor of `--list`, `--list-csv`, and `--list-json`
 case "${1}" in
 	--ui)
